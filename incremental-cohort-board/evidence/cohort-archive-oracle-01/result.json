@@ -1,0 +1,63 @@
+{
+    "id": "a5defcc9-303e-45f3-ad31-b676d28df094",
+    "started_at": "2026-10-23T22:46:11.158584",
+    "updated_at": "2026-10-23T22:46:47.182408",
+    "finished_at": "2026-10-23T22:46:47.182408",
+    "n_total_trials": 1,
+    "stats": {
+        "n_completed_trials": 1,
+        "n_errored_trials": 0,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "oracle__adhoc": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "artifact_quality": 1.0,
+                        "constraint_satisfaction": 1.0,
+                        "functional_correctness": 1.0,
+                        "overall": 1.0,
+                        "robustness": 1.0
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "overall": {
+                        "1.0": [
+                            "incremental-cohort-board__SUi4gqG"
+                        ]
+                    },
+                    "functional_correctness": {
+                        "1.0": [
+                            "incremental-cohort-board__SUi4gqG"
+                        ]
+                    },
+                    "constraint_satisfaction": {
+                        "1.0": [
+                            "incremental-cohort-board__SUi4gqG"
+                        ]
+                    },
+                    "robustness": {
+                        "1.0": [
+                            "incremental-cohort-board__SUi4gqG"
+                        ]
+                    },
+                    "artifact_quality": {
+                        "1.0": [
+                            "incremental-cohort-board__SUi4gqG"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        },
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null
+    }
+}

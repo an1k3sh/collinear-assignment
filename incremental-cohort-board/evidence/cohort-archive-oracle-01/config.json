@@ -1,0 +1,9 @@
+{
+    "job_name": "cohort-archive-oracle-01",
+    "jobs_dir": "/Users/anikeshparashar/Projects/difficult-bench/jobs",
+    "tasks": [
+        {
+            "path": "/Users/anikeshparashar/.copilot/session-state/67464e73-baea-49c0-8fea-31ab3a4c8678/files/cohort-extracted-87wj1lcv/collinear-candidate/incremental-cohort-board"
+        }
+    ]
+}

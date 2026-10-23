@@ -1,0 +1,14 @@
+{
+  "instruction.md": "0864e9edceb769e707a1b4a6c933714d9fe52d215258587a657e86d82c2653c1",
+  "task.toml": "9883b81eea21134a68014b4a0ab7fa96b8db8f42edd1471b5245ad7381abea3a",
+  "environment/Dockerfile": "0f06217f7d8661496296524cd3a6635820e5c38d9261783bf1ad73893d3dfde5",
+  "environment/app/seeds/Northstar_Forecast_Starter.xlsx": "8ea30089af820e35caaee0d891f2ddc8cbca0adc5f0085692bb46ebce520d132",
+  "environment/requirements.txt": "7e465dce18eabac3748eb3e6adbaf08619030a9a7248eecba4419e19c11e4aaf",
+  "tests/controls.py": "cfff7f565bd1811d44dbd6b2498f793b948e8d4968efca349df636e99bffd8a7",
+  "tests/fixtures/template.xlsx": "8ea30089af820e35caaee0d891f2ddc8cbca0adc5f0085692bb46ebce520d132",
+  "tests/reference.py": "469a60911e1827d9a73944668d4fe45453904252e0fbca23bf2b88990c4d240f",
+  "tests/test.sh": "b5a0d4335c43cad46c48425dc6df3cbc738eed7c6d689d5ac5d0bfc931d3e4b0",
+  "tests/test_forecast.py": "ad9ce4870065ac39fa451992767654628c7966d738b8bacff5e7641abe4505b9",
+  "solution/complete.py": "73423d2bef9b3dd8c81ca05017cf53711cd9382e475412edbd8206567b0d05cc",
+  "solution/solve.sh": "619f26853801cf9cecd088631a5017b0b485b5638ac84634df047267a0f7fca4"
+}

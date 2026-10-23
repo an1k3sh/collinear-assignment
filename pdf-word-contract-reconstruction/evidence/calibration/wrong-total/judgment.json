@@ -1,0 +1,119 @@
+{
+  "judge_model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "cli_version": "1.0.102",
+  "rubric_sha256": "0cbd26c7ec0967f600df302e87df35afd3be6b92b88a2a3d653798e7aaea4c4d",
+  "reference_sha256": "97201c6fb7c2321af57d2b3c04f44dfb3f5afa294f33eb8bf40d194ce982d34e",
+  "candidate_sha256": "4281741b6ddd41c6a3749440d30ad67c74269e96afa13ce97e59cf95d930bd67",
+  "disagreement": false,
+  "review_count": 2,
+  "scores": {
+    "content_fidelity": 2,
+    "editable_structure": 4,
+    "visual_organization": 4,
+    "navigation_furniture": 4
+  },
+  "weighted_score": 0.825,
+  "accepted": false,
+  "reviews": [
+    {
+      "scores": {
+        "content_fidelity": 2,
+        "editable_structure": 4,
+        "visual_organization": 4,
+        "navigation_furniture": 4
+      },
+      "evidence": {
+        "content_fidelity": [
+          "Schedule A, page 4, main charges table, 'Total including VAT' row, 'Line total' column: reference GBP 45,360.00; candidate GBP 45,960.00. The error appears in both the original and edited renders and is confirmed by the extracted native table.",
+          "The remaining financial entries match, including net contract value 37,800.00, VAT 7,560.00, transition credit (900.00), call-out charge 145.00, subsequent 15-minute blocks at 22.50, and example invoice payable 3,108.00.",
+          "Schedule B preserves all site/window/target associations and planned exceptions. Clauses 1\u20138, the complete-block billing footnote, evidence requirements, acceptance conditions and change-authorisation obligations are retained."
+        ],
+        "editable_structure": [
+          "The extraction confirms real Heading1/Heading2 paragraphs, automatic decimal numbering for clauses 1\u20138, and native tables with repeating header rows and the Recurring/Summary vertical merges.",
+          "The charge-rule paragraph retains a real footnote reference linked to word/footnotes.xml. Figure artwork is represented by drawings, while figure headings and captions remain editable paragraphs.",
+          "The edited page 2 probe expands the access-readiness clause and reflows subsequent content correctly. Edited page 4 expands the calibration-description cell and grows its row without lost text, clipping or overlap; edited page 5 remains intact."
+        ],
+        "visual_organization": [
+          "All eight original paired pages preserve the reference hierarchy, typography, blue table banding, column widths and readable layout. Page 3 retains the two-column responsibilities layout, and page 5 retains landscape orientation.",
+          "Page 6 preserves both figures' proportions, placement, labels and captions. The inspected edit-probe pages retain readable tables, body text and footnote placement, with only negligible spacing differences."
+        ],
+        "navigation_furniture": [
+          "The page 1 navigation references correctly locate sections on pages 2\u20138. Clause 8 and Appendix E references retain their correct delivered targets.",
+          "The procurement header, issue-date footer and PAGE field are preserved. Figure titles, editable captions and the page 4 billing footnote match the reference and remain correctly placed."
+        ]
+      },
+      "material_defects": [
+        {
+          "location": "Schedule A, page 4, main charges table, 'Total including VAT' row, 'Line total' column",
+          "reference": "GBP 45,360.00",
+          "candidate": "GBP 45,960.00",
+          "impact": "Overstates the tax-inclusive contract total by GBP 600.00 and contradicts the unchanged net value of GBP 37,800.00 plus VAT of GBP 7,560.00."
+        }
+      ],
+      "inspected_images": [
+        "original-01.png",
+        "original-02.png",
+        "original-03.png",
+        "original-04.png",
+        "original-05.png",
+        "original-06.png",
+        "original-07.png",
+        "original-08.png",
+        "edited-02.png",
+        "edited-04.png",
+        "edited-05.png"
+      ]
+    },
+    {
+      "scores": {
+        "content_fidelity": 2,
+        "editable_structure": 4,
+        "visual_organization": 4,
+        "navigation_furniture": 4
+      },
+      "evidence": {
+        "content_fidelity": [
+          "Schedule A, page 4, charges table, 'Total including VAT' row: reference 45,360.00; candidate 45,960.00. Both the native-table extraction and original/edited renders confirm this material discrepancy.",
+          "Other financial entries match: monitoring 12 \u00d7 2,400.00 = 28,800.00; calibration 6 \u00d7 750.00 = 4,500.00; mobilisation 3 \u00d7 1,800.00 = 5,400.00; transition credit (900.00); net value 37,800.00; VAT 7,560.00. The invoice example retains 2,400.00, 190.00, 2,590.00, 518.00 and payable 3,108.00.",
+          "Schedule B preserves each site's service window and separate targets: Northgate critical 15/90 minutes and routine 2 service hours/next service day; Canal House 15/120 minutes and 4 service hours/within 2 service days; Eastbank 10/60 minutes and 1 service hour/same service day. Site-specific holiday exceptions and uninterrupted critical cover match.",
+          "Clauses 1\u20138, acceptance and change-approval conditions are retained. Call-out pricing remains GBP 145.00 with 45 minutes included and GBP 22.50 per completed additional 15-minute block; the footnote correctly retains the 59-minute no-additional-block condition."
+        ],
+        "editable_structure": [
+          "The candidate contains real Title, Heading1 and Heading2 paragraphs, automatic decimal numbering for clauses 1\u20138, and native tables with repeating headers and the charges table's Recurring/Summary vertical merges.",
+          "The charge-rule paragraph has a real footnote reference, with its text preserved in word/footnotes.xml. Figure artwork uses drawings, while figure titles and Caption paragraphs remain editable.",
+          "Edited page 2 shows the access-readiness clause expanding with subsequent content reflowing correctly. Edited page 4 shows the calibration-description cell and merged category cell growing without clipping, overlap or lost rows; edited page 5 remains intact."
+        ],
+        "visual_organization": [
+          "All eight original paired pages preserve the reference's hierarchy, typography, blue table banding and readable alignment. Page 3 retains the two-column responsibilities layout, and Schedule B retains landscape orientation.",
+          "Page 6 preserves both figures' proportions, labels and placement. The edit-probe pages remain readable, including the expanded charges table, invoice example and bottom footnote; spacing differences are negligible."
+        ],
+        "navigation_furniture": [
+          "The page 1 navigation references correctly identify the delivered sections on pages 2\u20138. Clause 8, Schedule B and Appendix E references retain their intended targets.",
+          "The procurement header, issue-date footer and automatic PAGE field are preserved. Figure titles, editable captions and the billing footnote remain correctly positioned."
+        ]
+      },
+      "material_defects": [
+        {
+          "location": "Schedule A, page 4, charges table, 'Total including VAT' row, 'Line total' column",
+          "reference": "GBP 45,360.00",
+          "candidate": "GBP 45,960.00",
+          "impact": "Overstates the contract total by GBP 600.00 and contradicts the retained net value of GBP 37,800.00 plus VAT of GBP 7,560.00."
+        }
+      ],
+      "inspected_images": [
+        "original-01.png",
+        "original-02.png",
+        "original-03.png",
+        "original-04.png",
+        "original-05.png",
+        "original-06.png",
+        "original-07.png",
+        "original-08.png",
+        "edited-02.png",
+        "edited-04.png",
+        "edited-05.png"
+      ]
+    }
+  ]
+}

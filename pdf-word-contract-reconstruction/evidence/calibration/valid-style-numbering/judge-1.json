@@ -1,0 +1,46 @@
+{
+  "scores": {
+    "content_fidelity": 4,
+    "editable_structure": 4,
+    "visual_organization": 4,
+    "navigation_furniture": 4
+  },
+  "evidence": {
+    "content_fidelity": [
+      "Page 1 contract particulars match: service term 1 July 2026 to 30 June 2027, all three named sites, base fee GBP 37,800.00, and mobilisation deadline 29 June 2026 at 17:00.",
+      "Schedule A preserves every quantity, unit price and total: monitoring 12 x 2,400.00 = 28,800.00; calibration 6 x 750.00 = 4,500.00; onboarding 3 x 1,800.00 = 5,400.00; transition credit (900.00); net 37,800.00; VAT 7,560.00; total 45,360.00. The invoice example also matches: 2,400.00, 190.00, 2,590.00, 518.00 and 3,108.00.",
+      "Schedule A retains the GBP 145.00 call-out fee, included 45 minutes, GBP 22.50 per completed additional 15-minute block, 30-calendar-day payment term, and footnote specifying that 59 minutes incurs no additional block.",
+      "Schedule B preserves site associations and targets: Northgate Library Mon-Sat 08:00-20:00, critical 15/90 minutes, routine 2 service hours/next service day; Canal House Mon-Fri 07:00-19:00, critical 15/120 minutes, routine 4 service hours/within 2 service days; Eastbank Depot Mon-Sun 06:00-22:00, critical 10/60 minutes, routine 1 service hour/same service day. Access exceptions, continuous critical cover and all four dated holiday exceptions match.",
+      "Clauses 1-8 retain access-delay limits, escalation, completion evidence, staffing, closure notification, disputed-charge treatment and written change authority. Schedule C and Appendices D-E preserve evidence responsibilities, acceptance conditions and both-signatory approval requirements; figure outcomes remain 42 accepted, 6 returned and 3 open."
+    ],
+    "editable_structure": [
+      "The extraction contains native paragraphs, Heading1/Heading2 headings and editable table cells rather than body-text or table screenshots. Schedule A retains its recurring and summary vertical merges and repeating header row.",
+      "All eight candidate clauses use the Contractclause paragraph style, whose numbering property references numbering ID 60. The numbering XML defines a decimal sequence starting at 1 with format %1.; this is valid automatic style-based numbering despite empty paragraph-level numbering fields.",
+      "The charge-rule paragraph retains footnote reference 1 and corresponding text in word/footnotes.xml. Figure titles and captions remain editable paragraphs, separate from the two figure drawings.",
+      "The edited page 2 shows the appended access-readiness text reflowing normally. Edited page 4 shows the expanded calibration description growing its native table row while preserving adjacent amounts, subsequent rows, payment text and footnote; edited page 5 remains intact."
+    ],
+    "visual_organization": [
+      "All eight original pairs preserve the reference hierarchy, blue heading treatment, banded tables, alignment and pagination, with only negligible positioning differences.",
+      "Page 3 retains the two-column responsibilities layout; page 5 retains landscape orientation and readable seven-column targets; page 6 preserves both figures' proportions and captions. No material clipping, overlap or missing content is visible.",
+      "The inspected edit-probe pages match the reference reflow without clipped table rows, overlapping text or loss of following content."
+    ],
+    "navigation_furniture": [
+      "The page 1 navigation references correctly target scope on page 2, responsibilities on page 3, Schedules A-C on pages 4-6 and Appendices D-E on pages 7-8. Clause 8 and Appendix E references remain correct.",
+      "Both documents retain the procurement-services header, issue/reference footer and automatic PAGE field. Figure titles, explanatory captions and the page 4 footnote retain their reference placement."
+    ]
+  },
+  "material_defects": [],
+  "inspected_images": [
+    "original-01.png",
+    "original-02.png",
+    "original-03.png",
+    "original-04.png",
+    "original-05.png",
+    "original-06.png",
+    "original-07.png",
+    "original-08.png",
+    "edited-02.png",
+    "edited-04.png",
+    "edited-05.png"
+  ]
+}

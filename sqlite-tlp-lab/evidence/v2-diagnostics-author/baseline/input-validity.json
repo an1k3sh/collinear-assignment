@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "requested_cases": 448,
+  "emitted_cases": 0,
+  "schema_valid_cases": 0,
+  "executable_cases": 0,
+  "schema_validity_rate": 0.0,
+  "input_validity_rate": 0.0,
+  "exact_emission_count": false,
+  "error_count": 4,
+  "runs": [
+    {
+      "seed": 0,
+      "requested_cases": 112,
+      "emitted_cases": 0,
+      "schema_valid_cases": 0,
+      "executable_cases": 0,
+      "error_count": 1,
+      "errors": [
+        {
+          "stage": "generation",
+          "index": null,
+          "type": "NotImplementedError",
+          "message": "Generate reproducible, semantically diverse cases"
+        }
+      ]
+    },
+    {
+      "seed": 17,
+      "requested_cases": 112,
+      "emitted_cases": 0,
+      "schema_valid_cases": 0,
+      "executable_cases": 0,
+      "error_count": 1,
+      "errors": [
+        {
+          "stage": "generation",
+          "index": null,
+          "type": "NotImplementedError",
+          "message": "Generate reproducible, semantically diverse cases"
+        }
+      ]
+    },
+    {
+      "seed": -435,
+      "requested_cases": 112,
+      "emitted_cases": 0,
+      "schema_valid_cases": 0,
+      "executable_cases": 0,
+      "error_count": 1,
+      "errors": [
+        {
+          "stage": "generation",
+          "index": null,
+          "type": "NotImplementedError",
+          "message": "Generate reproducible, semantically diverse cases"
+        }
+      ]
+    },
+    {
+      "seed": 9823,
+      "requested_cases": 112,
+      "emitted_cases": 0,
+      "schema_valid_cases": 0,
+      "executable_cases": 0,
+      "error_count": 1,
+      "errors": [
+        {
+          "stage": "generation",
+          "index": null,
+          "type": "NotImplementedError",
+          "message": "Generate reproducible, semantically diverse cases"
+        }
+      ]
+    }
+  ],
+  "runtime": {
+    "python": "3.12.12",
+    "sqlite": "3.40.1"
+  },
+  "scope": "Schema-valid and executable inputs; no result-equivalence requirement."
+}

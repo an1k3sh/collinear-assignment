@@ -1,0 +1,52 @@
+{
+ "claims": [
+  {
+   "id": "R1",
+   "verdict": "incorrect",
+   "evidence": ["C2.r1", "C2.r2", "export-manifest.json", "corrections.md"],
+   "explanation": "export-manifest.json records C2.r2 superseding C2.r1 with scope 'whole page'; corrections.md says the r1 Birch error series double-counted retry attempts and that request counters are repeated for context. Both pages describe the same targets BS and BI over W1-W4 (identical request levels, e.g. BS B0..B4 = 640k..1480k on both). Adding them would double-count Birch traffic. Only terminal page C2.r2 is selected; C2.r1 is retained in the inventory as rejected. With C2.r2, BS usable errors are 20,000 (not 28,000 from r1) and BI 16,000."
+  },
+  {
+   "id": "R2",
+   "verdict": "incorrect",
+   "evidence": ["C1.r1", "operations.json", "policy.md"],
+   "explanation": "Alder Query API (AS) falls from 800k requests / 23k errors at B2 to 100k / 3k at B3 on C1.r1, but operations.json documents zero-baseline resets of both AS requests and errors at the start of W3. The B2 sample is the last old-epoch value, so W3 = end(B3) - baseline 0 = 100,000 requests and 3,000 errors. The drop is a counter restart, not negative demand; clamping to zero would erase 100k requests and 3k errors. Without the documented reset the negative delta would be an input error, never a clamp."
+  },
+  {
+   "id": "R3",
+   "verdict": "incorrect",
+   "evidence": ["C4.r1", "operations.json", "corrections.md"],
+   "explanation": "C4.r1 marks Delta Query API (DS) B2 requests and errors UNKNOWN. W2 (B1->B2) needs the B2 endpoint, so DS W2 is missing_traffic and excluded (not zero). W3 (B2->B3) has documented zero-baseline resets of both DS metrics in operations.json, so the missing old-epoch B2 sample is irrelevant: W3 = 220,000 requests and 4,000 errors from the B3 sample. Only W2 is invalidated; DS keeps usable windows W1, W3, W4 (11,000 errors)."
+  },
+  {
+   "id": "R4",
+   "verdict": "incorrect",
+   "evidence": ["H3.r1", "policy.md", "planning.json"],
+   "explanation": "On H3.r1 Cedar Query API (CS) W1-W3 each have 10% of 1,000 samples above 300 ms, but W4 has N=10,000 with roughly 0.1% slow. Policy requires pooling bin COUNTS across joined usable windows, not voting or averaging per-window percentages: pooled slow = (100+100+100+~10)/13,000 = about 0.024, below the 0.05 trigger (bound [0.019, 0.033], stably ineligible). CS is latency-ineligible; independently, Cedar is frozen in planning.json."
+  },
+  {
+   "id": "R5",
+   "verdict": "incorrect",
+   "evidence": ["C3.r1", "planning.json", "H3.r1", "policy.md"],
+   "explanation": "Cedar Write API (CI) does carry the largest weighted risk (24,000 usable errors from C3.r1 x weight 1.5 = 36,000) and is latency-eligible (pooled slow 0.268 on H3.r1), but planning.json marks region Cedar frozen. Policy forbids any positive tier in a frozen region, so CI is blocked with reason region_freeze and its risk is reported as unserved, not admitted to the rollout."
+  },
+  {
+   "id": "R6",
+   "verdict": "correct",
+   "evidence": ["C4.r1", "H4.r1", "operations.json", "policy.md"],
+   "explanation": "operations.json lists Delta Write API (DI) W2 as maintenance. Its counters are still reconstructed and persisted (480,000 requests, 9,000 errors from C4.r1), but the window reason is maintenance, so it contributes no demand/error totals, and its H4.r1 W2 histogram (80% slow) is not joined. DI's decision uses W1, W3, W4 only (5,500 errors; pooled slow 0.02, latency-ineligible)."
+  },
+  {
+   "id": "R7",
+   "verdict": "incorrect",
+   "evidence": ["planning.json", "policy.md"],
+   "explanation": "Policy section 4 lists five separate feasibility rules: credits including one activation cost per active region, power budget (11), at most 2 active regions, per-region block caps (Birch 3) and eligibility/freeze. Counterexample: AS tier 1 + BI tier 1 + DS tier 1 costs 3+4+3 plus activations 1+2+1 = 14 <= 16 credits and 6 <= 11 power, yet activates three regions (Alder, Birch, Delta) > max_active_regions 2, so it is infeasible. Likewise BS tier 2 + BI tier 2 would need 4 Birch blocks > max_blocks 3 regardless of credits. Fitting the credit budget is therefore not sufficient; every rule is checked separately."
+  },
+  {
+   "id": "R8",
+   "verdict": "unsupported",
+   "evidence": ["C1.r1", "C4.r1", "operations.json", "policy.md"],
+   "explanation": "operations.json only records that a collector rollout and selected counter restarts happened at B2. The C1.r1 and C4.r1 changes after B2 coincide with documented counter resets (AS, DS at W3) and missing telemetry (DS B2). These are observational dashboard levels with no control group or counterfactual. A deployment/reset event does not prove a causal performance effect, so the charts can neither confirm nor rule out the claimed causal effect."
+  }
+ ]
+}

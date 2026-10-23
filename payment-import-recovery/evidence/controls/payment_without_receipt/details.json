@@ -1,0 +1,21 @@
+{
+  "delivered": {
+    "passed": true
+  },
+  "identity_and_cents": {
+    "passed": true
+  },
+  "lost_response": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/grade.py\", line 20, in check\n    function()\n  File \"/tests/grade.py\", line 102, in lost_response\n    assert len(rows(path, \"payments\")) == len(rows(path, \"receipts\")) == 2\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+  },
+  "error_reporting": {
+    "passed": true
+  },
+  "concurrency": {
+    "passed": true
+  },
+  "artifacts": {
+    "passed": true
+  }
+}

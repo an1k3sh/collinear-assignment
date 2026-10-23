@@ -1,0 +1,21 @@
+{
+  "delivered": {
+    "passed": true
+  },
+  "identity_and_cents": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/grade.py\", line 20, in check\n    function()\n  File \"/tests/grade.py\", line 91, in semantics\n    expect_error(lambda: candidate.apply_payment(path, payment(\"a\", amount=\"0.30\")))\n  File \"/tests/grade.py\", line 45, in expect_error\n    raise AssertionError(\"Expected explicit error\")\nAssertionError: Expected explicit error\n"
+  },
+  "lost_response": {
+    "passed": true
+  },
+  "error_reporting": {
+    "passed": true
+  },
+  "concurrency": {
+    "passed": true
+  },
+  "artifacts": {
+    "passed": true
+  }
+}

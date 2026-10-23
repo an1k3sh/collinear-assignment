@@ -1,0 +1,158 @@
+[
+  {
+    "case": "oracle_roundtrip",
+    "expected_pass": true,
+    "actual_pass": true,
+    "control_passed": true,
+    "reward": {
+      "overall": 1.0,
+      "functional_correctness": 1.0,
+      "constraint_satisfaction": 1.0,
+      "robustness": 1.0,
+      "artifact_quality": 1.0
+    }
+  },
+  {
+    "case": "equivalent_formulas",
+    "expected_pass": true,
+    "actual_pass": true,
+    "control_passed": true,
+    "reward": {
+      "overall": 1.0,
+      "functional_correctness": 1.0,
+      "constraint_satisfaction": 1.0,
+      "robustness": 1.0,
+      "artifact_quality": 1.0
+    }
+  },
+  {
+    "case": "untouched_seed",
+    "expected_pass": false,
+    "actual_pass": false,
+    "control_passed": true,
+    "reward": {
+      "overall": 0.0,
+      "functional_correctness": 0.011363636363636364,
+      "constraint_satisfaction": 0.9358248395620989,
+      "robustness": 0.011361330898762427,
+      "artifact_quality": 0.9
+    }
+  },
+  {
+    "case": "abandoned_legacy_method",
+    "expected_pass": false,
+    "actual_pass": false,
+    "control_passed": true,
+    "reward": {
+      "overall": 0.0,
+      "functional_correctness": 0.7670454545454546,
+      "constraint_satisfaction": 1.0,
+      "robustness": 0.7480761441879303,
+      "artifact_quality": 0.9
+    }
+  },
+  {
+    "case": "missing_july_launch_uplift",
+    "expected_pass": false,
+    "actual_pass": false,
+    "control_passed": true,
+    "reward": {
+      "overall": 0.0,
+      "functional_correctness": 0.859577922077922,
+      "constraint_satisfaction": 1.0,
+      "robustness": 0.8580396921830701,
+      "artifact_quality": 1.0
+    }
+  },
+  {
+    "case": "later_launch_inherits_july",
+    "expected_pass": false,
+    "actual_pass": false,
+    "control_passed": true,
+    "reward": {
+      "overall": 0.0,
+      "functional_correctness": 0.8798701298701299,
+      "constraint_satisfaction": 1.0,
+      "robustness": 0.8788983394086675,
+      "artifact_quality": 1.0
+    }
+  },
+  {
+    "case": "constant_zero_controls",
+    "expected_pass": false,
+    "actual_pass": false,
+    "control_passed": true,
+    "reward": {
+      "overall": 0.0,
+      "functional_correctness": 1.0,
+      "constraint_satisfaction": 1.0,
+      "robustness": 0.9979748886188741,
+      "artifact_quality": 1.0
+    }
+  },
+  {
+    "case": "hardcoded_formula_results",
+    "expected_pass": false,
+    "actual_pass": false,
+    "control_passed": true,
+    "reward": {
+      "overall": 0.0,
+      "functional_correctness": 1.0,
+      "constraint_satisfaction": 1.0,
+      "robustness": 0.774807614418793,
+      "artifact_quality": 1.0
+    }
+  },
+  {
+    "case": "drivers_ignore_sources",
+    "expected_pass": false,
+    "actual_pass": false,
+    "control_passed": true,
+    "reward": {
+      "overall": 0.0,
+      "functional_correctness": 1.0,
+      "constraint_satisfaction": 1.0,
+      "robustness": 0.776832725799919,
+      "artifact_quality": 1.0
+    }
+  },
+  {
+    "case": "repayment_added_to_cash",
+    "expected_pass": false,
+    "actual_pass": false,
+    "control_passed": true,
+    "reward": {
+      "overall": 0.0,
+      "functional_correctness": 0.9553571428571429,
+      "constraint_satisfaction": 1.0,
+      "robustness": 0.9491697043337384,
+      "artifact_quality": 0.9
+    }
+  },
+  {
+    "case": "historical_format_drift",
+    "expected_pass": false,
+    "actual_pass": false,
+    "control_passed": true,
+    "reward": {
+      "overall": 0.0,
+      "functional_correctness": 1.0,
+      "constraint_satisfaction": 0.9999408773796855,
+      "robustness": 1.0,
+      "artifact_quality": 1.0
+    }
+  },
+  {
+    "case": "stale_handoff",
+    "expected_pass": false,
+    "actual_pass": false,
+    "control_passed": true,
+    "reward": {
+      "overall": 0.0,
+      "functional_correctness": 1.0,
+      "constraint_satisfaction": 1.0,
+      "robustness": 1.0,
+      "artifact_quality": 0.9
+    }
+  }
+]

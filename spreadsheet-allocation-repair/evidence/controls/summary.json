@@ -1,0 +1,27 @@
+{
+  "valid_sumif": {
+    "expected": 1,
+    "actual": 1.0,
+    "correct": true
+  },
+  "truncated_range": {
+    "expected": 0,
+    "actual": 0.0,
+    "correct": true
+  },
+  "pasted_constant": {
+    "expected": 0,
+    "actual": 0.0,
+    "correct": true
+  },
+  "legacy_chart": {
+    "expected": 0,
+    "actual": 0.0,
+    "correct": true
+  },
+  "approximate_lookup": {
+    "expected": 0,
+    "actual": 0.0,
+    "correct": true
+  }
+}

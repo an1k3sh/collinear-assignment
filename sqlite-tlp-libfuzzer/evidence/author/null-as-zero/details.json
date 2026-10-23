@@ -1,0 +1,270 @@
+{
+  "checks": {
+    "build": true,
+    "correctness.rows": true,
+    "correctness.distinct": true,
+    "correctness.count": true,
+    "correctness.sum": false,
+    "correctness.avg": false,
+    "correctness.min": false,
+    "correctness.max": false,
+    "correctness.group": true,
+    "correctness.having": true,
+    "correctness.extended": true,
+    "correctness.comparison": true,
+    "correctness.composition": false,
+    "correctness.injection": true,
+    "correctness.bindings": true,
+    "determinism_replay": true,
+    "diversity.coverage": true,
+    "diversity.data": true,
+    "diversity.structure": true,
+    "diversity.occupancy": true,
+    "diversity.grammar": true,
+    "diversity.measurement": true,
+    "diversity.sensitivity": true,
+    "libfuzzer": false
+  },
+  "metrics": {
+    "random": {
+      "attempted": 1024,
+      "emitted": 1024,
+      "schema_valid": 1024,
+      "executable": 1024,
+      "semantic": 798,
+      "errors": [
+        {
+          "input": 2,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 78, in verify_answer\n    assert result[\"equivalent\"] is True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+        },
+        {
+          "input": 5,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 78, in verify_answer\n    assert result[\"equivalent\"] is True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+        },
+        {
+          "input": 8,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 78, in verify_answer\n    assert result[\"equivalent\"] is True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+        },
+        {
+          "input": 12,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 78, in verify_answer\n    assert result[\"equivalent\"] is True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+        },
+        {
+          "input": 14,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 78, in verify_answer\n    assert result[\"equivalent\"] is True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+        },
+        {
+          "input": 18,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 78, in verify_answer\n    assert result[\"equivalent\"] is True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+        },
+        {
+          "input": 25,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 78, in verify_answer\n    assert result[\"equivalent\"] is True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+        },
+        {
+          "input": 28,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 78, in verify_answer\n    assert result[\"equivalent\"] is True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+        },
+        {
+          "input": 31,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 78, in verify_answer\n    assert result[\"equivalent\"] is True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+        },
+        {
+          "input": 49,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 78, in verify_answer\n    assert result[\"equivalent\"] is True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+        }
+      ]
+    },
+    "diversity": {
+      "modes": {
+        "distinct": 114,
+        "having": 124,
+        "sum": 126,
+        "avg": 103,
+        "min": 102,
+        "rows": 124,
+        "max": 105,
+        "count": 130,
+        "group": 96
+      },
+      "sources": {
+        "inner": 352,
+        "single": 337,
+        "left": 335
+      },
+      "structural": 1019,
+      "topologies": 1004,
+      "topologies_per_mode": {
+        "rows": 123,
+        "distinct": 112,
+        "count": 125,
+        "sum": 125,
+        "avg": 102,
+        "min": 100,
+        "max": 105,
+        "group": 90,
+        "having": 122
+      },
+      "unique_cases": 1024,
+      "unique_databases": 1020,
+      "where": 679,
+      "grouped_aggregates": 392,
+      "three_way": 148,
+      "nonempty": 759,
+      "group_overlap": 29,
+      "having_duplicates": 23,
+      "empty_row_stage": 305,
+      "all_null": 118,
+      "operators": [
+        "add",
+        "agg",
+        "and",
+        "col",
+        "eq",
+        "ge",
+        "gt",
+        "isnull",
+        "le",
+        "lit",
+        "lt",
+        "ne",
+        "not",
+        "or",
+        "sub"
+      ],
+      "columns": [
+        [
+          "t",
+          "id"
+        ],
+        [
+          "t",
+          "k"
+        ],
+        [
+          "t",
+          "tag"
+        ],
+        [
+          "t",
+          "v"
+        ],
+        [
+          "u",
+          "id"
+        ],
+        [
+          "u",
+          "k"
+        ],
+        [
+          "u",
+          "tag"
+        ],
+        [
+          "u",
+          "v"
+        ]
+      ],
+      "aggregates": [
+        "avg",
+        "count",
+        "max",
+        "min",
+        "sum"
+      ],
+      "nested": 620,
+      "count_star": 63,
+      "count_expression": 67
+    },
+    "mutations": {
+      "attempted": 320,
+      "emitted": 320,
+      "schema_valid": 320,
+      "executable": 320,
+      "semantic": 246,
+      "errors": [
+        {
+          "input": 3,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 78, in verify_answer\n    assert result[\"equivalent\"] is True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+        },
+        {
+          "input": 4,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 78, in verify_answer\n    assert result[\"equivalent\"] is True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+        },
+        {
+          "input": 8,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 78, in verify_answer\n    assert result[\"equivalent\"] is True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+        },
+        {
+          "input": 10,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 78, in verify_answer\n    assert result[\"equivalent\"] is True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+        },
+        {
+          "input": 11,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 78, in verify_answer\n    assert result[\"equivalent\"] is True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+        },
+        {
+          "input": 17,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 78, in verify_answer\n    assert result[\"equivalent\"] is True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+        },
+        {
+          "input": 20,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 78, in verify_answer\n    assert result[\"equivalent\"] is True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+        },
+        {
+          "input": 32,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 78, in verify_answer\n    assert result[\"equivalent\"] is True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+        },
+        {
+          "input": 35,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 78, in verify_answer\n    assert result[\"equivalent\"] is True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+        },
+        {
+          "input": 37,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 78, in verify_answer\n    assert result[\"equivalent\"] is True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+        }
+      ]
+    },
+    "sensitivity": {
+      "case_changes": [
+        64,
+        64,
+        64,
+        64
+      ],
+      "topology_changes": [
+        64,
+        64,
+        64,
+        64
+      ]
+    }
+  },
+  "failures": [
+    {
+      "test": "correctness.sum",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 370, in <lambda>\n    self.test(\"correctness.\"+mode, lambda mode=mode: self.fixtures(mode))\n                                                     ^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 146, in fixtures\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 78, in verify_answer\n    assert result[\"equivalent\"] is True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "test": "correctness.avg",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 370, in <lambda>\n    self.test(\"correctness.\"+mode, lambda mode=mode: self.fixtures(mode))\n                                                     ^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 146, in fixtures\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 78, in verify_answer\n    assert result[\"equivalent\"] is True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "test": "correctness.min",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 370, in <lambda>\n    self.test(\"correctness.\"+mode, lambda mode=mode: self.fixtures(mode))\n                                                     ^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 146, in fixtures\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 78, in verify_answer\n    assert result[\"equivalent\"] is True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "test": "correctness.max",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 370, in <lambda>\n    self.test(\"correctness.\"+mode, lambda mode=mode: self.fixtures(mode))\n                                                     ^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 146, in fixtures\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 78, in verify_answer\n    assert result[\"equivalent\"] is True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "test": "correctness.composition",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 188, in composition\n    assert ref.bag(answer[\"rows\"]) == ref.bag(expected)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "test": "libfuzzer",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 356, in live_fuzzer\n    assert result.returncode == 0, result.stderr[-6000:]\n           ^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: INFO: Running with entropic power schedule (0xFF, 100).\nINFO: Seed: 89171\nINFO: Loaded 1 modules   (6991 inline 8-bit counters): 6991 [0xaaaae69f4a20, 0xaaaae69f656f), \nINFO: Loaded 1 PC tables (6991 PCs): 6991 [0xaaaae69f6570,0xaaaae6a11a60), \nINFO:       12 files found in /work/audit/null-as-zero/corpus\nINFO: seed corpus: files: 12 min: 8b max: 184b total: 1152b rss: 44Mb\nTLP failure: TLP mismatch; replay this binary input\n==1170== ERROR: libFuzzer: deadly signal\n==1170==WARNING: invalid path to external symbolizer!\n==1170==WARNING: Failed to use and restart external symbolizer!\n    #0 0xaaaae68c50a0  (/work/audit/null-as-zero/build/tlp_fuzz+0x1450a0) (BuildId: 4ddb996ca5f3c477f80c54013c3e5c387b160f54)\n    #1 0xaaaae681b898  (/work/audit/null-as-zero/build/tlp_fuzz+0x9b898) (BuildId: 4ddb996ca5f3c477f80c54013c3e5c387b160f54)\n    #2 0xaaaae6802e60  (/work/audit/null-as-zero/build/tlp_fuzz+0x82e60) (BuildId: 4ddb996ca5f3c477f80c54013c3e5c387b160f54)\n    #3 0xffffb426b7e4  (linux-vdso.so.1+0x7e4) (BuildId: 4fece5beffd59f501a75460848dc024366956f30)\n    #4 0xffffb3c53c14  (/lib/aarch64-linux-gnu/libc.so.6+0x83c14) (BuildId: 3ff3f95a1642952473d0d5739aaf308b0e24f694)\n    #5 0xffffb3c0a8a8  (/lib/aarch64-linux-gnu/libc.so.6+0x3a8a8) (BuildId: 3ff3f95a1642952473d0d5739aaf308b0e24f694)\n    #6 0xffffb3bf747c  (/lib/aarch64-linux-gnu/libc.so.6+0x2747c) (BuildId: 3ff3f95a1642952473d0d5739aaf308b0e24f694)\n    #7 0xaaaae68f4b2c  (/work/audit/null-as-zero/build/tlp_fuzz+0x174b2c) (BuildId: 4ddb996ca5f3c477f80c54013c3e5c387b160f54)\n    #8 0xaaaae68041fc  (/work/audit/null-as-zero/build/tlp_fuzz+0x841fc) (BuildId: 4ddb996ca5f3c477f80c54013c3e5c387b160f54)\n    #9 0xaaaae68039bc  (/work/audit/null-as-zero/build/tlp_fuzz+0x839bc) (BuildId: 4ddb996ca5f3c477f80c54013c3e5c387b160f54)\n    #10 0xaaaae6805600  (/work/audit/null-as-zero/build/tlp_fuzz+0x85600) (BuildId: 4ddb996ca5f3c477f80c54013c3e5c387b160f54)\n    #11 0xaaaae6805b74  (/work/audit/null-as-zero/build/tlp_fuzz+0x85b74) (BuildId: 4ddb996ca5f3c477f80c54013c3e5c387b160f54)\n    #12 0xaaaae67f4bb4  (/work/audit/null-as-zero/build/tlp_fuzz+0x74bb4) (BuildId: 4ddb996ca5f3c477f80c54013c3e5c387b160f54)\n    #13 0xaaaae681bfa0  (/work/audit/null-as-zero/build/tlp_fuzz+0x9bfa0) (BuildId: 4ddb996ca5f3c477f80c54013c3e5c387b160f54)\n    #14 0xffffb3bf7740  (/lib/aarch64-linux-gnu/libc.so.6+0x27740) (BuildId: 3ff3f95a1642952473d0d5739aaf308b0e24f694)\n    #15 0xffffb3bf7814  (/lib/aarch64-linux-gnu/libc.so.6+0x27814) (BuildId: 3ff3f95a1642952473d0d5739aaf308b0e24f694)\n    #16 0xaaaae67eaf6c  (/work/audit/null-as-zero/build/tlp_fuzz+0x6af6c) (BuildId: 4ddb996ca5f3c477f80c54013c3e5c387b160f54)\n\nNOTE: libFuzzer has rudimentary signal handlers.\n      Combine libFuzzer with AddressSanitizer or similar for better crash reports.\nSUMMARY: libFuzzer: deadly signal\nMS: 0 ; base unit: 0000000000000000000000000000000000000000\n0xf4,0xd4,0x82,0x3f,0xe5,0xe8,0xcd,0xcf,0x85,0x57,0x5e,0xc3,0x4e,0xba,0xfa,0x67,0xc0,0xea,0xdf,0x13,0x5b,0x45,0xdd,0x68,0xc3,0x71,0xb7,0xec,0x27,0x26,0xde,0x21,0x87,0x7c,0x14,0x94,0x1c,0x50,0xb7,0xf0,0x2f,0xee,0xfc,0x1,0x85,0x74,0x7b,0x17,0x1b,0x6c,0xc7,0xd7,0x5e,0x7a,0xc4,0x35,0xcb,0x4d,0xa,0x87,0xff,0x44,0x39,0x70,0x7d,0x9b,0xf0,0x27,0x78,0x77,0xbc,0x27,0x4b,0xb5,0x55,0x9f,0xa7,0x6d,0xb3,0xbf,0x31,0xa1,0x50,0x21,0x5c,0x4e,0xae,0x29,\n\\364\\324\\202?\\345\\350\\315\\317\\205W^\\303N\\272\\372g\\300\\352\\337\\023[E\\335h\\303q\\267\\354'&\\336!\\207|\\024\\224\\034P\\267\\360/\\356\\374\\001\\205t{\\027\\033l\\307\\327^z\\3045\\313M\\012\\207\\377D9p}\\233\\360'xw\\274'K\\265U\\237\\247m\\263\\2771\\241P!\\\\N\\256)\nartifact_prefix='/work/audit/null-as-zero/'; Test unit written to /work/audit/null-as-zero/crash-1d1266fe26b5f13ea7598162b94200e40c02b3e5\nBase64: 9NSCP+Xozc+FV17DTrr6Z8Dq3xNbRd1ow3G37Ccm3iGHfBSUHFC38C/u/AGFdHsXG2zH1156xDXLTQqH/0Q5cH2b8Cd4d7wnS7VVn6dts78xoVAhXE6uKQ==\nstat::number_of_executed_units: 7\nstat::average_exec_per_sec:     0\nstat::new_units_added:          0\nstat::slowest_unit_time_sec:    0\nstat::peak_rss_mb:              53\n\n"
+    }
+  ]
+}

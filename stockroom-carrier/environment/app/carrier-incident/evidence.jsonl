@@ -1,0 +1,5 @@
+{"source":"dispatch-worker","order":"orphan","observation":"No published local completion record was recovered."}
+{"source":"connector","order":"orphan","observation":"The prior request used warehouse west and the stable order key orphan. The worker exited before recording a response."}
+{"source":"operator","observation":"Preferences were changed after the interruption. They are current routing preferences, not a receipt history."}
+{"source":"integration-test","order":"alpha","observation":"The connector was configured to exercise response loss."}
+{"source":"integration-test","order":"beta","observation":"The connector was configured to exercise a transport interruption."}

@@ -1,0 +1,27 @@
+schema_version = "1.3"
+artifacts = ["/app/import_payments.py", "/app/state", "/app/submission", "/app/tests"]
+
+[task]
+name = "collinear-candidate/payment-import-recovery"
+description = "Repair exact payment identity, commit/retry semantics and observable worker errors; recover the incident database."
+keywords = ["coding", "payments", "sqlite", "concurrency"]
+
+[metadata]
+category = "software-engineering"
+difficulty = "medium"
+provenance = "Original synthetic code, exports and incident history authored for this exercise."
+network_policy = "Network for image acquisition and agent setup/inference only; task/verifier are offline."
+prototype = true
+
+[agent]
+timeout_sec = 7200
+
+[verifier]
+timeout_sec = 300
+
+[environment]
+build_timeout_sec = 600
+cpus = 2
+memory_mb = 2048
+storage_mb = 4096
+network_mode = "public"

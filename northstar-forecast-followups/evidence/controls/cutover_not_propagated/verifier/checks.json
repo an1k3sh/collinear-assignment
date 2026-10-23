@@ -1,0 +1,4519 @@
+{
+  "counts": {
+    "artifact_quality": {
+      "passed": 250,
+      "failed": 0
+    },
+    "constraint_satisfaction": {
+      "passed": 31262,
+      "failed": 4
+    },
+    "functional_correctness": {
+      "passed": 2424,
+      "failed": 146
+    },
+    "robustness": {
+      "passed": 11592,
+      "failed": 748
+    }
+  },
+  "failures": [
+    {
+      "group": "constraint_satisfaction",
+      "check": "Historical!D22: immutable value",
+      "detail": ""
+    },
+    {
+      "group": "constraint_satisfaction",
+      "check": "Historical!D23: immutable value",
+      "detail": ""
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!E15",
+      "detail": "actual=250; expected=262.50"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!E16",
+      "detail": "actual=6240; expected=6236.875000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!E17",
+      "detail": "actual=18720; expected=18710.625000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!E6",
+      "detail": "actual=30000; expected=29670.0"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!E7",
+      "detail": "actual=18720; expected=18710.625000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!E10",
+      "detail": "actual=18316.7741935484; expected=18307.39919354835096774193548387096774198"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!E12",
+      "detail": "actual=43316.7741935484; expected=42977.39919354835096774193548387096774198"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!E13",
+      "detail": "actual=30000; expected=31500.0"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!E15",
+      "detail": "actual=23316.7741935484; expected=22977.39919354835096774193548387096774198"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!E16",
+      "detail": "actual=-23316.7741935484; expected=-22977.39919354835096774193548387096774198"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!E18",
+      "detail": "actual=6683.22580645164; expected=8522.60080645164903225806451612903225802"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!F15",
+      "detail": "actual=55.693548387097; expected=71.02167338709707526881720430107526881683"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!F16",
+      "detail": "actual=6754.30411290323; expected=6750.472081653225731182795698924731182795"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!F17",
+      "detail": "actual=20262.9123387097; expected=20251.41624495967719354838709677419354838"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!F7",
+      "detail": "actual=20262.9123387097; expected=20251.41624495967719354838709677419354838"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!F10",
+      "detail": "actual=6541.24183179726; expected=6529.74573804723479723502304147465437783"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!F12",
+      "detail": "actual=21541.2418317973; expected=21529.74573804723479723502304147465437783"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!F13",
+      "detail": "actual=6683.22580645164; expected=8522.60080645164903225806451612903225802"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!F15",
+      "detail": "actual=1541.24183179726; expected=1529.74573804723479723502304147465437783"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!F16",
+      "detail": "actual=-1541.24183179726; expected=-1529.74573804723479723502304147465437783"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!F18",
+      "detail": "actual=5141.98397465438; expected=6992.85506840441423502304147465437788019"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!G15",
+      "detail": "actual=42.8498664554532; expected=58.27379223670345195852534562211981566825"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!G16",
+      "detail": "actual=7260.85196588614; expected=7256.995984440824137010368663594470046082"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!G17",
+      "detail": "actual=21782.5558976584; expected=21770.98795332247241103110599078341013825"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!G7",
+      "detail": "actual=21782.5558976584; expected=21770.98795332247241103110599078341013825"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!G10",
+      "detail": "actual=34013.3828561838; expected=34001.81491184781803315092165898617511526"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!G12",
+      "detail": "actual=49013.3828561838; expected=49001.81491184781803315092165898617511526"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!G13",
+      "detail": "actual=5141.98397465438; expected=6992.85506840441423502304147465437788019"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!G15",
+      "detail": "actual=5141.98397465438; expected=6992.85506840441423502304147465437788019"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!G16",
+      "detail": "actual=-5141.98397465438; expected=-6992.85506840441423502304147465437788019"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!G17",
+      "detail": "actual=43871.3988815294; expected=42008.95984344340379812788018433179723507"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!H6",
+      "detail": "actual=43871.3988815294; expected=42008.95984344340379812788018433179723507"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!H12",
+      "detail": "actual=56923.3270300752; expected=55060.88799198912960457949308755760368663"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!H17",
+      "detail": "actual=56923.3270300752; expected=55060.88799198912960457949308755760368663"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!I6",
+      "detail": "actual=56923.3270300752; expected=55060.88799198912960457949308755760368663"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!I12",
+      "detail": "actual=80093.860033612; expected=78231.42099552601678199884792626728110601"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!I17",
+      "detail": "actual=80093.860033612; expected=78231.42099552601678199884792626728110601"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!J6",
+      "detail": "actual=80093.860033612; expected=78231.42099552601678199884792626728110601"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!J12",
+      "detail": "actual=96019.7233524848; expected=94157.28431439871038707949308755760368663"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!J17",
+      "detail": "actual=96019.7233524848; expected=94157.28431439871038707949308755760368663"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!K6",
+      "detail": "actual=96019.7233524848; expected=94157.28431439871038707949308755760368663"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!K12",
+      "detail": "actual=120595.213391243; expected=118732.7743531573641132475576036866359446"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!K17",
+      "detail": "actual=120595.213391243; expected=118732.7743531573641132475576036866359446"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!L6",
+      "detail": "actual=120595.213391243; expected=118732.7743531573641132475576036866359446"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!L12",
+      "detail": "actual=146723.952850929; expected=144861.5138128429823536217472811059907834"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!L17",
+      "detail": "actual=146723.952850929; expected=144861.5138128429823536217472811059907834"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!M6",
+      "detail": "actual=146723.952850929; expected=144861.5138128429823536217472811059907834"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!M12",
+      "detail": "actual=169788.583045425; expected=167926.1440073388569099034814025576036866"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!M17",
+      "detail": "actual=169788.583045425; expected=167926.1440073388569099034814025576036866"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!N6",
+      "detail": "actual=169788.583045425; expected=167926.1440073388569099034814025576036866"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!N12",
+      "detail": "actual=205548.283754406; expected=203685.8447163201391600583446099421198156"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!N17",
+      "detail": "actual=205548.283754406; expected=203685.8447163201391600583446099421198156"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!O6",
+      "detail": "actual=205548.283754406; expected=203685.8447163201391600583446099421198156"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!O12",
+      "detail": "actual=232980.256046314; expected=231117.8170082272363047872768733424386866"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!O17",
+      "detail": "actual=232980.256046314; expected=231117.8170082272363047872768733424386866"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!P6",
+      "detail": "actual=232980.256046314; expected=231117.8170082272363047872768733424386866"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!P12",
+      "detail": "actual=273635.060697811; expected=271772.6216597249481843350865952711767602"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!P17",
+      "detail": "actual=273635.060697811; expected=271772.6216597249481843350865952711767602"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!Q15",
+      "detail": "actual=348.54341484255; expected=391.7954656238005272273425499231950844850"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!Q16",
+      "detail": "actual=119324.277659635; expected=119313.4646469398388798235737282456341889"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!Q17",
+      "detail": "actual=357972.832978906; expected=357940.3939408195166394707211847369025666"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!Q6",
+      "detail": "actual=30000; expected=29670.0"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!Q7",
+      "detail": "actual=357972.832978906; expected=357940.3939408195166394707211847369025666"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!Q10",
+      "detail": "actual=333635.060697811; expected=333602.6216597249481843350865952711767602"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!Q12",
+      "detail": "actual=1496179.65908383; expected=1479055.268702968787597739208651620251391"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!Q13",
+      "detail": "actual=30000; expected=31500.0"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!Q15",
+      "detail": "actual=30000; expected=31500.00000000000000000000000000000000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!Q16",
+      "detail": "actual=-30000; expected=-31500.00000000000000000000000000000000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!Q17",
+      "detail": "actual=273635.060697811; expected=271772.6216597249481843350865952711767602"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/P&L!E15",
+      "detail": "actual=250; expected=262.50"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/P&L!E16",
+      "detail": "actual=6240; expected=6236.875000"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/P&L!E17",
+      "detail": "actual=18720; expected=18710.625000"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!E6",
+      "detail": "actual=30000; expected=29670.0"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!E7",
+      "detail": "actual=18720; expected=18710.625000"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!E10",
+      "detail": "actual=18316.7741935484; expected=18307.39919354835096774193548387096774198"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!E12",
+      "detail": "actual=43316.7741935484; expected=42977.39919354835096774193548387096774198"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!E13",
+      "detail": "actual=30000; expected=31500.0"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!E15",
+      "detail": "actual=23316.7741935484; expected=22977.39919354835096774193548387096774198"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!E16",
+      "detail": "actual=-23316.7741935484; expected=-22977.39919354835096774193548387096774198"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!E18",
+      "detail": "actual=6683.22580645164; expected=8522.60080645164903225806451612903225802"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/P&L!F15",
+      "detail": "actual=55.693548387097; expected=71.02167338709707526881720430107526881683"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/P&L!F16",
+      "detail": "actual=6754.30411290323; expected=6750.472081653225731182795698924731182795"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/P&L!F17",
+      "detail": "actual=20262.9123387097; expected=20251.41624495967719354838709677419354838"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!F7",
+      "detail": "actual=20262.9123387097; expected=20251.41624495967719354838709677419354838"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!F10",
+      "detail": "actual=6541.24183179726; expected=6529.74573804723479723502304147465437783"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!F12",
+      "detail": "actual=21541.2418317973; expected=21529.74573804723479723502304147465437783"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!F13",
+      "detail": "actual=6683.22580645164; expected=8522.60080645164903225806451612903225802"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!F15",
+      "detail": "actual=1541.24183179726; expected=1529.74573804723479723502304147465437783"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!F16",
+      "detail": "actual=-1541.24183179726; expected=-1529.74573804723479723502304147465437783"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!F18",
+      "detail": "actual=5141.98397465438; expected=6992.85506840441423502304147465437788019"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/P&L!G15",
+      "detail": "actual=42.8498664554532; expected=58.27379223670345195852534562211981566825"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/P&L!G16",
+      "detail": "actual=7260.85196588614; expected=7256.995984440824137010368663594470046082"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/P&L!G17",
+      "detail": "actual=21782.5558976584; expected=21770.98795332247241103110599078341013825"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!G7",
+      "detail": "actual=21782.5558976584; expected=21770.98795332247241103110599078341013825"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!G10",
+      "detail": "actual=34013.3828561838; expected=34001.81491184781803315092165898617511526"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!G12",
+      "detail": "actual=49013.3828561838; expected=49001.81491184781803315092165898617511526"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!G13",
+      "detail": "actual=5141.98397465438; expected=6992.85506840441423502304147465437788019"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!G15",
+      "detail": "actual=5141.98397465438; expected=6992.85506840441423502304147465437788019"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!G16",
+      "detail": "actual=-5141.98397465438; expected=-6992.85506840441423502304147465437788019"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!G17",
+      "detail": "actual=43871.3988815294; expected=42008.95984344340379812788018433179723507"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!H6",
+      "detail": "actual=43871.3988815294; expected=42008.95984344340379812788018433179723507"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!H12",
+      "detail": "actual=56923.3270300752; expected=55060.88799198912960457949308755760368663"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!H17",
+      "detail": "actual=56923.3270300752; expected=55060.88799198912960457949308755760368663"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!I6",
+      "detail": "actual=56923.3270300752; expected=55060.88799198912960457949308755760368663"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!I12",
+      "detail": "actual=80093.860033612; expected=78231.42099552601678199884792626728110601"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!I17",
+      "detail": "actual=80093.860033612; expected=78231.42099552601678199884792626728110601"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!J6",
+      "detail": "actual=80093.860033612; expected=78231.42099552601678199884792626728110601"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!J12",
+      "detail": "actual=96019.7233524848; expected=94157.28431439871038707949308755760368663"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!J17",
+      "detail": "actual=96019.7233524848; expected=94157.28431439871038707949308755760368663"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!K6",
+      "detail": "actual=96019.7233524848; expected=94157.28431439871038707949308755760368663"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!K12",
+      "detail": "actual=120595.213391243; expected=118732.7743531573641132475576036866359446"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!K17",
+      "detail": "actual=120595.213391243; expected=118732.7743531573641132475576036866359446"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!L6",
+      "detail": "actual=120595.213391243; expected=118732.7743531573641132475576036866359446"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!L12",
+      "detail": "actual=146723.952850929; expected=144861.5138128429823536217472811059907834"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!L17",
+      "detail": "actual=146723.952850929; expected=144861.5138128429823536217472811059907834"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!M6",
+      "detail": "actual=146723.952850929; expected=144861.5138128429823536217472811059907834"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!M12",
+      "detail": "actual=169788.583045425; expected=167926.1440073388569099034814025576036866"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!M17",
+      "detail": "actual=169788.583045425; expected=167926.1440073388569099034814025576036866"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!N6",
+      "detail": "actual=169788.583045425; expected=167926.1440073388569099034814025576036866"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!N12",
+      "detail": "actual=205548.283754406; expected=203685.8447163201391600583446099421198156"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!N17",
+      "detail": "actual=205548.283754406; expected=203685.8447163201391600583446099421198156"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!O6",
+      "detail": "actual=205548.283754406; expected=203685.8447163201391600583446099421198156"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!O12",
+      "detail": "actual=232980.256046314; expected=231117.8170082272363047872768733424386866"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!O17",
+      "detail": "actual=232980.256046314; expected=231117.8170082272363047872768733424386866"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!P6",
+      "detail": "actual=232980.256046314; expected=231117.8170082272363047872768733424386866"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!P12",
+      "detail": "actual=273635.060697811; expected=271772.6216597249481843350865952711767602"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!P17",
+      "detail": "actual=273635.060697811; expected=271772.6216597249481843350865952711767602"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/P&L!Q15",
+      "detail": "actual=348.54341484255; expected=391.7954656238005272273425499231950844850"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/P&L!Q16",
+      "detail": "actual=119324.277659635; expected=119313.4646469398388798235737282456341889"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/P&L!Q17",
+      "detail": "actual=357972.832978906; expected=357940.3939408195166394707211847369025666"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!Q6",
+      "detail": "actual=30000; expected=29670.0"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!Q7",
+      "detail": "actual=357972.832978906; expected=357940.3939408195166394707211847369025666"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!Q10",
+      "detail": "actual=333635.060697811; expected=333602.6216597249481843350865952711767602"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!Q12",
+      "detail": "actual=1496179.65908383; expected=1479055.268702968787597739208651620251391"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!Q13",
+      "detail": "actual=30000; expected=31500.0"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!Q15",
+      "detail": "actual=30000; expected=31500.00000000000000000000000000000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!Q16",
+      "detail": "actual=-30000; expected=-31500.00000000000000000000000000000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/legacy_growth/Cash Flow!Q17",
+      "detail": "actual=273635.060697811; expected=271772.6216597249481843350865952711767602"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/P&L!E15",
+      "detail": "actual=250; expected=262.50"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/P&L!E16",
+      "detail": "actual=6240; expected=6236.875000"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/P&L!E17",
+      "detail": "actual=18720; expected=18710.625000"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!E6",
+      "detail": "actual=30000; expected=29670.0"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!E7",
+      "detail": "actual=18720; expected=18710.625000"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!E10",
+      "detail": "actual=18316.7741935484; expected=18307.39919354835096774193548387096774198"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!E12",
+      "detail": "actual=43316.7741935484; expected=42977.39919354835096774193548387096774198"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!E13",
+      "detail": "actual=30000; expected=31500.0"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!E15",
+      "detail": "actual=23316.7741935484; expected=22977.39919354835096774193548387096774198"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!E16",
+      "detail": "actual=-23316.7741935484; expected=-22977.39919354835096774193548387096774198"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!E18",
+      "detail": "actual=6683.22580645164; expected=8522.60080645164903225806451612903225802"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/P&L!F15",
+      "detail": "actual=55.693548387097; expected=71.02167338709707526881720430107526881683"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/P&L!F16",
+      "detail": "actual=6754.30411290323; expected=6750.472081653225731182795698924731182795"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/P&L!F17",
+      "detail": "actual=20262.9123387097; expected=20251.41624495967719354838709677419354838"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!F7",
+      "detail": "actual=20262.9123387097; expected=20251.41624495967719354838709677419354838"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!F10",
+      "detail": "actual=-47560.3295967742; expected=-47571.82569052419377419354838709677419357"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!F12",
+      "detail": "actual=-32560.3295967742; expected=-32571.82569052419377419354838709677419357"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!F13",
+      "detail": "actual=6683.22580645164; expected=8522.60080645164903225806451612903225802"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!F14",
+      "detail": "actual=52560.3295967742; expected=52571.82569052419377419354838709677419357"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!F16",
+      "detail": "actual=52560.3295967742; expected=52571.82569052419377419354838709677419357"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!F18",
+      "detail": "actual=59243.5554032258; expected=61094.42649697584280645161290322580645159"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/P&L!G15",
+      "detail": "actual=493.696295026882; expected=509.1202208081320233870967741935483870966"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/P&L!G16",
+      "detail": "actual=7148.14035874328; expected=7144.284377297966994153225806451612903225"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/P&L!G17",
+      "detail": "actual=21444.4210762299; expected=21432.85313189390098245967741935483870968"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!G7",
+      "detail": "actual=21444.4210762299; expected=21432.85313189390098245967741935483870968"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!G10",
+      "detail": "actual=87776.8194633266; expected=87765.25151899067517600806451612903225809"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!G12",
+      "detail": "actual=102776.819463327; expected=102765.2515189906751760080645161290322581"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!G13",
+      "detail": "actual=59243.5554032258; expected=61094.42649697584280645161290322580645159"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!G15",
+      "detail": "actual=59243.5554032258; expected=61094.42649697584280645161290322580645159"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!G16",
+      "detail": "actual=-59243.5554032258; expected=-61094.42649697584280645161290322580645159"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!G17",
+      "detail": "actual=43533.2640601008; expected=41670.82502201483236955645161290322580651"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!H6",
+      "detail": "actual=43533.2640601008; expected=41670.82502201483236955645161290322580651"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!H12",
+      "detail": "actual=56585.1922086466; expected=54722.75317056055817600806451612903225807"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!H17",
+      "detail": "actual=56585.1922086466; expected=54722.75317056055817600806451612903225807"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!I6",
+      "detail": "actual=56585.1922086466; expected=54722.75317056055817600806451612903225807"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!I12",
+      "detail": "actual=76211.6643708125; expected=74349.22533272647761149193548387096774196"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!I17",
+      "detail": "actual=76211.6643708125; expected=74349.22533272647761149193548387096774196"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!J6",
+      "detail": "actual=76211.6643708125; expected=74349.22533272647761149193548387096774196"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!J12",
+      "detail": "actual=95681.5885310562; expected=93819.14949297013895850806451612903225807"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!J17",
+      "detail": "actual=95681.5885310562; expected=93819.14949297013895850806451612903225807"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!K6",
+      "detail": "actual=95681.5885310562; expected=93819.14949297013895850806451612903225807"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!K12",
+      "detail": "actual=120257.078569815; expected=118394.6395317287926846761290322580645161"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!K17",
+      "detail": "actual=120257.078569815; expected=118394.6395317287926846761290322580645161"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!L6",
+      "detail": "actual=120257.078569815; expected=118394.6395317287926846761290322580645161"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!L12",
+      "detail": "actual=146385.818029501; expected=144523.3789914144109250503187096774193549"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!L17",
+      "detail": "actual=146385.818029501; expected=144523.3789914144109250503187096774193549"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!M6",
+      "detail": "actual=146385.818029501; expected=144523.3789914144109250503187096774193549"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!M12",
+      "detail": "actual=163450.448223996; expected=161588.0091859102854813320528311290322581"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!M17",
+      "detail": "actual=163450.448223996; expected=161588.0091859102854813320528311290322581"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!N6",
+      "detail": "actual=163450.448223996; expected=161588.0091859102854813320528311290322581"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!N12",
+      "detail": "actual=199210.148932978; expected=197347.7098948915677314869160385135483872"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!N17",
+      "detail": "actual=199210.148932978; expected=197347.7098948915677314869160385135483872"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!O6",
+      "detail": "actual=199210.148932978; expected=197347.7098948915677314869160385135483872"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!O12",
+      "detail": "actual=226642.121224885; expected=224779.6821867986648762158483019138672582"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!O17",
+      "detail": "actual=226642.121224885; expected=224779.6821867986648762158483019138672582"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!P6",
+      "detail": "actual=226642.121224885; expected=224779.6821867986648762158483019138672582"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!P12",
+      "detail": "actual=267296.925876383; expected=265434.4868382963767557636580238426053318"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!P17",
+      "detail": "actual=267296.925876383; expected=265434.4868382963767557636580238426053318"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/P&L!Q15",
+      "detail": "actual=799.389843413979; expected=842.6418941952290986559139784946236559134"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/P&L!Q16",
+      "detail": "actual=119211.566052492; expected=119200.7530397969817369664308711027770460"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/P&L!Q17",
+      "detail": "actual=357634.698157477; expected=357602.2591193909452108992926133083311381"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!Q6",
+      "detail": "actual=30000; expected=29670.0"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!Q7",
+      "detail": "actual=357634.698157477; expected=357602.2591193909452108992926133083311381"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!Q10",
+      "detail": "actual=333296.925876383; expected=333264.4868382963767557636580238426053318"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!Q12",
+      "detail": "actual=1465254.25002817; expected=1448129.859647312105570089439066366795171"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!Q13",
+      "detail": "actual=30000; expected=31500.0"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!Q14",
+      "detail": "actual=52560.3295967742; expected=52571.82569052419377419354838709677419357"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!Q15",
+      "detail": "actual=82560.3295967742; expected=84071.82569052419377419354838709677419357"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!Q16",
+      "detail": "actual=-30000; expected=-31500.00000000000000000000000000000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/financial/Cash Flow!Q17",
+      "detail": "actual=267296.925876383; expected=265434.4868382963767557636580238426053318"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/P&L!E15",
+      "detail": "actual=350; expected=367.500"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/P&L!E16",
+      "detail": "actual=6215; expected=6210.625000"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/P&L!E17",
+      "detail": "actual=18645; expected=18631.875000"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!E6",
+      "detail": "actual=30000; expected=29670.0"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!E7",
+      "detail": "actual=18645; expected=18631.875000"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!E10",
+      "detail": "actual=18241.7741935484; expected=18228.64919354835096774193548387096774198"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!E12",
+      "detail": "actual=43241.7741935484; expected=42898.64919354835096774193548387096774198"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!E13",
+      "detail": "actual=30000; expected=31500.0"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!E14",
+      "detail": "actual=1758.22580645164; expected=2101.35080645164903225806451612903225802"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!E16",
+      "detail": "actual=1758.22580645164; expected=2101.35080645164903225806451612903225802"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!E18",
+      "detail": "actual=31758.2258064516; expected=33601.35080645164903225806451612903225802"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/P&L!F15",
+      "detail": "actual=370.512634408603; expected=392.0157594086025720430107526881720430102"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/P&L!F16",
+      "detail": "actual=6675.59934139785; expected=6670.223560147849356989247311827956989248"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/P&L!F17",
+      "detail": "actual=20026.7980241936; expected=20010.67068044354807096774193548387096774"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!F7",
+      "detail": "actual=20026.7980241936; expected=20010.67068044354807096774193548387096774"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!F10",
+      "detail": "actual=6305.12751728113; expected=6289.00017353110567465437788018433179719"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!F12",
+      "detail": "actual=46305.1275172811; expected=46289.00017353110567465437788018433179719"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!F13",
+      "detail": "actual=31758.2258064516; expected=33601.35080645164903225806451612903225802"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!F15",
+      "detail": "actual=1305.12751728113; expected=1289.00017353110567465437788018433179719"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!F16",
+      "detail": "actual=-1305.12751728113; expected=-1289.00017353110567465437788018433179719"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!F18",
+      "detail": "actual=30453.0982891705; expected=32312.35063292054335760368663594470046083"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/P&L!G15",
+      "detail": "actual=355.286146706989; expected=376.9774240507396725053763440860215053763"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/P&L!G16",
+      "detail": "actual=7182.74289582326; expected=7177.320076487315081873655913978494623655"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/P&L!G17",
+      "detail": "actual=21548.2286874698; expected=21531.96022946194524562096774193548387096"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!G7",
+      "detail": "actual=21548.2286874698; expected=21531.96022946194524562096774193548387096"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!G10",
+      "detail": "actual=33779.0556459951; expected=33762.78718798729086774078341013824884797"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!G12",
+      "detail": "actual=73779.0556459951; expected=73762.78718798729086774078341013824884797"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!G13",
+      "detail": "actual=30453.0982891705; expected=32312.35063292054335760368663594470046083"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!G15",
+      "detail": "actual=28779.0556459951; expected=28762.78718798729086774078341013824884797"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!G16",
+      "detail": "actual=-28779.0556459951; expected=-28762.78718798729086774078341013824884797"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!G18",
+      "detail": "actual=1674.04264317537; expected=3549.56344493325248986290322580645161286"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/P&L!H15",
+      "detail": "actual=19.5304975037127; expected=41.41157352422127904840053763440860215003"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/P&L!H16",
+      "detail": "actual=7807.02012917158; expected=7801.549860166444680237899865591397849462"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/P&L!H17",
+      "detail": "actual=23421.0603875147; expected=23404.64958049933404071369959677419354839"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!H7",
+      "detail": "actual=23421.0603875147; expected=23404.64958049933404071369959677419354839"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!H10",
+      "detail": "actual=18037.280275418; expected=18020.86946840255984716531249999999999995"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!H12",
+      "detail": "actual=58037.280275418; expected=58020.86946840255984716531249999999999995"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!H13",
+      "detail": "actual=1674.04264317537; expected=3549.56344493325248986290322580645161286"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!H15",
+      "detail": "actual=1674.04264317537; expected=3549.56344493325248986290322580645161286"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!H16",
+      "detail": "actual=-1674.04264317537; expected=-3549.56344493325248986290322580645161286"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!H17",
+      "detail": "actual=56363.2376322426; expected=54471.30602346930735730240927419354838709"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!I6",
+      "detail": "actual=56363.2376322426; expected=54471.30602346930735730240927419354838709"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!I12",
+      "detail": "actual=79533.7706357794; expected=77641.83902700619453472176411290322580647"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!I17",
+      "detail": "actual=79533.7706357794; expected=77641.83902700619453472176411290322580647"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!J6",
+      "detail": "actual=79533.7706357794; expected=77641.83902700619453472176411290322580647"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!J12",
+      "detail": "actual=95459.6339546522; expected=93567.70234587888813980240927419354838709"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!J17",
+      "detail": "actual=95459.6339546522; expected=93567.70234587888813980240927419354838709"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!K6",
+      "detail": "actual=95459.6339546522; expected=93567.70234587888813980240927419354838709"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!K12",
+      "detail": "actual=120035.123993411; expected=118143.1923846375418659704737903225806451"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!K17",
+      "detail": "actual=120035.123993411; expected=118143.1923846375418659704737903225806451"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!L6",
+      "detail": "actual=120035.123993411; expected=118143.1923846375418659704737903225806451"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!L12",
+      "detail": "actual=146163.863453097; expected=144271.9318443231601063446634677419354839"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!L17",
+      "detail": "actual=146163.863453097; expected=144271.9318443231601063446634677419354839"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!M6",
+      "detail": "actual=146163.863453097; expected=144271.9318443231601063446634677419354839"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!M12",
+      "detail": "actual=169228.493647592; expected=167336.5620388190346626263975891935483871"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!M17",
+      "detail": "actual=169228.493647592; expected=167336.5620388190346626263975891935483871"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!N6",
+      "detail": "actual=169228.493647592; expected=167336.5620388190346626263975891935483871"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!N12",
+      "detail": "actual=204988.194356574; expected=203096.2627478003169127812607965780645162"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!N17",
+      "detail": "actual=204988.194356574; expected=203096.2627478003169127812607965780645162"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!O6",
+      "detail": "actual=204988.194356574; expected=203096.2627478003169127812607965780645162"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!O12",
+      "detail": "actual=232420.166648481; expected=230528.2350397074140575101930599783833872"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!O17",
+      "detail": "actual=232420.166648481; expected=230528.2350397074140575101930599783833872"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!P6",
+      "detail": "actual=232420.166648481; expected=230528.2350397074140575101930599783833872"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!P12",
+      "detail": "actual=273074.971299979; expected=271183.0396912051259370580027819071214608"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!P17",
+      "detail": "actual=273074.971299979; expected=271183.0396912051259370580027819071214608"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/P&L!Q15",
+      "detail": "actual=1095.3292786193; expected=1177.904756983563523596787634408602150536"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/P&L!Q16",
+      "detail": "actual=119137.581193691; expected=119116.9373240998981307312124571242824224"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/P&L!Q17",
+      "detail": "actual=357412.743581073; expected=357350.8119722996943921936373713728472671"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!Q6",
+      "detail": "actual=30000; expected=29670.0"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!Q7",
+      "detail": "actual=357412.743581073; expected=357350.8119722996943921936373713728472671"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!Q10",
+      "detail": "actual=333074.971299979; expected=333013.0396912051259370580027819071214608"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!Q12",
+      "detail": "actual=1542267.45562181; expected=1526740.071142846983574117574147011956461"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!Q13",
+      "detail": "actual=30000; expected=31500.0"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!Q14",
+      "detail": "actual=1758.22580645164; expected=2101.35080645164903225806451612903225802"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!Q15",
+      "detail": "actual=31758.2258064516; expected=33601.35080645164903225806451612903225802"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!Q16",
+      "detail": "actual=-30000; expected=-31500.00000000000000000000000000000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/funding/Cash Flow!Q17",
+      "detail": "actual=273074.971299979; expected=271183.0396912051259370580027819071214608"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/P&L!E15",
+      "detail": "actual=250; expected=262.50"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/P&L!E16",
+      "detail": "actual=5841.875; expected=5838.750000"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/P&L!E17",
+      "detail": "actual=17525.625; expected=17516.250000"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!E6",
+      "detail": "actual=30000; expected=29670.0"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!E7",
+      "detail": "actual=17525.625; expected=17516.250000"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!E10",
+      "detail": "actual=19493.3669354839; expected=19483.99193548383483870967741935483870969"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!E12",
+      "detail": "actual=44493.3669354839; expected=44153.99193548383483870967741935483870969"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!E13",
+      "detail": "actual=30000; expected=31500.0"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!E15",
+      "detail": "actual=24493.3669354839; expected=24153.99193548383483870967741935483870969"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!E16",
+      "detail": "actual=-24493.3669354839; expected=-24153.99193548383483870967741935483870969"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!E18",
+      "detail": "actual=5506.63306451614; expected=7346.00806451616516129032258064516129031"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/P&L!F15",
+      "detail": "actual=45.8886088709678; expected=61.21673387096804301075268817204301075258"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/P&L!F16",
+      "detail": "actual=6366.59284778226; expected=6362.760816532257989247311827956989247312"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/P&L!F17",
+      "detail": "actual=19099.7785433468; expected=19088.28244959677396774193548387096774194"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!F7",
+      "detail": "actual=19099.7785433468; expected=19088.28244959677396774193548387096774194"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!F10",
+      "detail": "actual=5579.64029449884; expected=5568.14420074884770046082949308755760368"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!F12",
+      "detail": "actual=20579.6402944988; expected=20568.14420074884770046082949308755760368"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!F13",
+      "detail": "actual=5506.63306451614; expected=7346.00806451616516129032258064516129031"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!F15",
+      "detail": "actual=579.640294498844; expected=568.14420074884770046082949308755760368"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!F16",
+      "detail": "actual=-579.640294498844; expected=-568.14420074884770046082949308755760368"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!F18",
+      "detail": "actual=4926.99277001729; expected=6777.86386376731746082949308755760368663"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/P&L!G15",
+      "detail": "actual=41.0582730834774; expected=56.48219886472764550691244239631336405525"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/P&L!G16",
+      "detail": "actual=7383.50311422914; expected=7379.647132783818088623271889400921658985"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/P&L!G17",
+      "detail": "actual=22150.5093426874; expected=22138.94139835145426586981566820276497696"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!G7",
+      "detail": "actual=22150.5093426874; expected=22138.94139835145426586981566820276497696"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!G10",
+      "detail": "actual=31081.0750108902; expected=31069.50706655421924282834101382488479261"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!G12",
+      "detail": "actual=46081.0750108902; expected=46069.50706655421924282834101382488479261"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!G13",
+      "detail": "actual=4926.99277001729; expected=6777.86386376731746082949308755760368663"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!G15",
+      "detail": "actual=4926.99277001729; expected=6777.86386376731746082949308755760368663"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!G16",
+      "detail": "actual=-4926.99277001729; expected=-6777.86386376731746082949308755760368663"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!G17",
+      "detail": "actual=41154.0822408729; expected=39291.64320278690178199884792626728110598"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!H6",
+      "detail": "actual=41154.0822408729; expected=39291.64320278690178199884792626728110598"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!H12",
+      "detail": "actual=54548.1130722412; expected=52685.67403415520823361175115207373271893"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!H17",
+      "detail": "actual=54548.1130722412; expected=52685.67403415520823361175115207373271893"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!I6",
+      "detail": "actual=54548.1130722412; expected=52685.67403415520823361175115207373271893"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!I12",
+      "detail": "actual=78109.6501758172; expected=76247.21113773120831425691244239631336411"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!I17",
+      "detail": "actual=78109.6501758172; expected=76247.21113773120831425691244239631336411"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!J6",
+      "detail": "actual=78109.6501758172; expected=76247.21113773120831425691244239631336411"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!J12",
+      "detail": "actual=94541.5476803497; expected=92679.10864226361714111175115207373271893"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!J17",
+      "detail": "actual=94541.5476803497; expected=92679.10864226361714111175115207373271893"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!K6",
+      "detail": "actual=94541.5476803497; expected=92679.10864226361714111175115207373271893"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!K12",
+      "detail": "actual=118301.185700771; expected=116438.7466626846504494622753456221198157"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!K17",
+      "detail": "actual=118301.185700771; expected=116438.7466626846504494622753456221198157"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!L6",
+      "detail": "actual=118301.185700771; expected=116438.7466626846504494622753456221198157"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!L12",
+      "detail": "actual=145247.948836382; expected=143385.5097982954782628287785311059907834"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!L17",
+      "detail": "actual=145247.948836382; expected=143385.5097982954782628287785311059907834"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!M6",
+      "detail": "actual=145247.948836382; expected=143385.5097982954782628287785311059907834"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!M12",
+      "detail": "actual=169744.969214141; expected=167882.5301760543345201851339983237327189"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!M17",
+      "detail": "actual=169744.969214141; expected=167882.5301760543345201851339983237327189"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!N6",
+      "detail": "actual=169744.969214141; expected=167882.5301760543345201851339983237327189"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!N12",
+      "detail": "actual=206340.095716779; expected=204477.6566786924473254897511585182286866"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!N17",
+      "detail": "actual=206340.095716779; expected=204477.6566786924473254897511585182286866"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!O6",
+      "detail": "actual=206340.095716779; expected=204477.6566786924473254897511585182286866"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!O12",
+      "detail": "actual=236527.161919205; expected=234664.7228811187610746078004964425520939"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!O17",
+      "detail": "actual=236527.161919205; expected=234664.7228811187610746078004964425520939"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!P6",
+      "detail": "actual=236527.161919205; expected=234664.7228811187610746078004964425520939"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!P12",
+      "detail": "actual=280474.2305428; expected=278611.7915047135931089869164416745742527"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!P17",
+      "detail": "actual=280474.2305428; expected=278611.7915047135931089869164416745742527"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/P&L!Q15",
+      "detail": "actual=336.946881954445; expected=380.1989327356956885176651305683563748078"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/P&L!Q16",
+      "detail": "actual=123853.517381832; expected=123842.7043691362291710928980951679864444"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/P&L!Q17",
+      "detail": "actual=371560.552145495; expected=371528.1131074086875132786942855039593333"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!Q6",
+      "detail": "actual=30000; expected=29670.0"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!Q7",
+      "detail": "actual=371560.552145495; expected=371528.1131074086875132786942855039593333"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!Q10",
+      "detail": "actual=340474.2305428; expected=340441.7915047135931089869164416745742526"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!Q12",
+      "detail": "actual=1494988.98509936; expected=1477864.594718496200212539918644498258259"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!Q13",
+      "detail": "actual=30000; expected=31500.0"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!Q15",
+      "detail": "actual=30000; expected=31500.00000000000000000000000000000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!Q16",
+      "detail": "actual=-30000; expected=-31500.00000000000000000000000000000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/cohorts_and_events/Cash Flow!Q17",
+      "detail": "actual=280474.2305428; expected=278611.7915047135931089869164416745742527"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/P&L!E15",
+      "detail": "actual=250; expected=262.50"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/P&L!E16",
+      "detail": "actual=6240; expected=6236.875000"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/P&L!E17",
+      "detail": "actual=18720; expected=18710.625000"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!E6",
+      "detail": "actual=30000; expected=29670.0"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!E7",
+      "detail": "actual=18720; expected=18710.625000"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!E10",
+      "detail": "actual=18316.7741935484; expected=18307.39919354835096774193548387096774198"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!E12",
+      "detail": "actual=43316.7741935484; expected=42977.39919354835096774193548387096774198"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!E13",
+      "detail": "actual=30000; expected=31500.0"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!E15",
+      "detail": "actual=23316.7741935484; expected=22977.39919354835096774193548387096774198"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!E16",
+      "detail": "actual=-23316.7741935484; expected=-22977.39919354835096774193548387096774198"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!E18",
+      "detail": "actual=6683.22580645164; expected=8522.60080645164903225806451612903225802"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/P&L!F15",
+      "detail": "actual=55.693548387097; expected=71.02167338709707526881720430107526881683"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/P&L!F16",
+      "detail": "actual=6754.30411290323; expected=6750.472081653225731182795698924731182795"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/P&L!F17",
+      "detail": "actual=20262.9123387097; expected=20251.41624495967719354838709677419354838"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!F7",
+      "detail": "actual=20262.9123387097; expected=20251.41624495967719354838709677419354838"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!F10",
+      "detail": "actual=6541.24183179726; expected=6529.74573804723479723502304147465437783"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!F12",
+      "detail": "actual=21541.2418317973; expected=21529.74573804723479723502304147465437783"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!F13",
+      "detail": "actual=6683.22580645164; expected=8522.60080645164903225806451612903225802"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!F15",
+      "detail": "actual=1541.24183179726; expected=1529.74573804723479723502304147465437783"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!F16",
+      "detail": "actual=-1541.24183179726; expected=-1529.74573804723479723502304147465437783"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!F18",
+      "detail": "actual=5141.98397465438; expected=6992.85506840441423502304147465437788019"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/P&L!G15",
+      "detail": "actual=42.8498664554532; expected=58.27379223670345195852534562211981566825"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/P&L!G16",
+      "detail": "actual=7260.85196588614; expected=7256.995984440824137010368663594470046082"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/P&L!G17",
+      "detail": "actual=21782.5558976584; expected=21770.98795332247241103110599078341013825"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!G7",
+      "detail": "actual=21782.5558976584; expected=21770.98795332247241103110599078341013825"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!G10",
+      "detail": "actual=34013.3828561838; expected=34001.81491184781803315092165898617511526"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!G12",
+      "detail": "actual=49013.3828561838; expected=49001.81491184781803315092165898617511526"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!G13",
+      "detail": "actual=5141.98397465438; expected=6992.85506840441423502304147465437788019"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!G15",
+      "detail": "actual=5141.98397465438; expected=6992.85506840441423502304147465437788019"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!G16",
+      "detail": "actual=-5141.98397465438; expected=-6992.85506840441423502304147465437788019"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!G17",
+      "detail": "actual=43871.3988815294; expected=42008.95984344340379812788018433179723507"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!H6",
+      "detail": "actual=43871.3988815294; expected=42008.95984344340379812788018433179723507"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!H12",
+      "detail": "actual=53919.1815991284; expected=52056.74256104244210457949308755760368663"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!H17",
+      "detail": "actual=53919.1815991284; expected=52056.74256104244210457949308755760368663"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!I6",
+      "detail": "actual=53919.1815991284; expected=52056.74256104244210457949308755760368663"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!I12",
+      "detail": "actual=80060.4043835563; expected=78197.96534547022167111175115207373271892"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!I17",
+      "detail": "actual=80060.4043835563; expected=78197.96534547022167111175115207373271892"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!J6",
+      "detail": "actual=80060.4043835563; expected=78197.96534547022167111175115207373271892"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!J12",
+      "detail": "actual=98728.9823083818; expected=96866.5432702957311980169930875576036866"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!J17",
+      "detail": "actual=98728.9823083818; expected=96866.54327029573119801699308755760368660"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!K6",
+      "detail": "actual=98728.9823083818; expected=96866.54327029573119801699308755760368660"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!K12",
+      "detail": "actual=126381.427377386; expected=124518.9883392998805208625979262672811060"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!K17",
+      "detail": "actual=126381.427377386; expected=124518.9883392998805208625979262672811060"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!L6",
+      "detail": "actual=126381.427377386; expected=124518.9883392998805208625979262672811060"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!L12",
+      "detail": "actual=155545.632937448; expected=153683.1938993613663837308590754608294931"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!L17",
+      "detail": "actual=155545.632937448; expected=153683.1938993613663837308590754608294931"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!M6",
+      "detail": "actual=155545.632937448; expected=153683.1938993613663837308590754608294931"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!M12",
+      "detail": "actual=181404.369236078; expected=179541.9301979919275618475591369326036866"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!M17",
+      "detail": "actual=181404.369236078; expected=179541.9301979919275618475591369326036866"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!N6",
+      "detail": "actual=181404.369236078; expected=179541.9301979919275618475591369326036866"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!N12",
+      "detail": "actual=220284.779022318; expected=218422.3399842321308135100943991482690092"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!N17",
+      "detail": "actual=220284.779022318; expected=218422.3399842321308135100943991482690092"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!O6",
+      "detail": "actual=220284.779022318; expected=218422.3399842321308135100943991482690092"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!O12",
+      "detail": "actual=250407.229197178; expected=248544.7901590921339403020387284014230616"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!O17",
+      "detail": "actual=250407.229197178; expected=248544.7901590921339403020387284014230616"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!P6",
+      "detail": "actual=250407.229197178; expected=248544.7901590921339403020387284014230616"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!P12",
+      "detail": "actual=293602.942853152; expected=291740.5038150652142119761155033271060066"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!P17",
+      "detail": "actual=293602.942853152; expected=291740.5038150652142119761155033271060066"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/P&L!Q15",
+      "detail": "actual=348.54341484255; expected=391.7954656238005272273425499231950844850"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/P&L!Q16",
+      "detail": "actual=128082.562508394; expected=128071.7494956990499288767365799044486420"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/P&L!Q17",
+      "detail": "actual=384247.687525183; expected=384215.2484870971497866302097397133459260"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!Q6",
+      "detail": "actual=30000; expected=29670.0"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!Q7",
+      "detail": "actual=384247.687525183; expected=384215.2484870971497866302097397133459260"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!Q10",
+      "detail": "actual=353602.942853152; expected=353570.5038150652142119761155033271060066"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!Q12",
+      "detail": "actual=1574206.34779616; expected=1557081.957415294452204065382281058249691"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!Q13",
+      "detail": "actual=30000; expected=31500.0"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!Q15",
+      "detail": "actual=30000; expected=31500.00000000000000000000000000000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!Q16",
+      "detail": "actual=-30000; expected=-31500.00000000000000000000000000000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "baseline/renewal_boundaries/Cash Flow!Q17",
+      "detail": "actual=293602.942853152; expected=291740.5038150652142119761155033271060066"
+    },
+    {
+      "group": "constraint_satisfaction",
+      "check": "Historical!D22: immutable value",
+      "detail": ""
+    },
+    {
+      "group": "constraint_satisfaction",
+      "check": "Historical!D23: immutable value",
+      "detail": ""
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/P&L!E15",
+      "detail": "actual=350; expected=367.500"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/P&L!E16",
+      "detail": "actual=6215; expected=6210.625000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/P&L!E17",
+      "detail": "actual=18645; expected=18631.875000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!E6",
+      "detail": "actual=30000; expected=29670.0"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!E7",
+      "detail": "actual=18645; expected=18631.875000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!E10",
+      "detail": "actual=12686.9354838709; expected=12673.81048387093161290322580645161290327"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!E12",
+      "detail": "actual=37686.935483871; expected=37343.81048387093161290322580645161290327"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!E13",
+      "detail": "actual=30000; expected=31500.0"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!E14",
+      "detail": "actual=7313.06451612905; expected=7656.18951612906838709677419354838709673"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!E16",
+      "detail": "actual=7313.06451612905; expected=7656.18951612906838709677419354838709673"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!E18",
+      "detail": "actual=37313.0645161291; expected=39156.18951612906838709677419354838709673"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/P&L!F15",
+      "detail": "actual=435.319086021506; expected=456.8222110215057978494623655913978494618"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/P&L!F16",
+      "detail": "actual=6659.39772849463; expected=6654.021947244623550537634408602150537635"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/P&L!F17",
+      "detail": "actual=19978.1931854839; expected=19962.06584173387065161290322580645161290"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!F7",
+      "detail": "actual=19978.1931854839; expected=19962.06584173387065161290322580645161290"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!F10",
+      "detail": "actual=5499.51138824886; expected=5483.38404449884761013824884792626728106"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!F12",
+      "detail": "actual=45499.5113882489; expected=45483.38404449884761013824884792626728106"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!F13",
+      "detail": "actual=37313.0645161291; expected=39156.18951612906838709677419354838709673"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!F15",
+      "detail": "actual=499.511388248866; expected=483.38404449884761013824884792626728106"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!F16",
+      "detail": "actual=-499.511388248866; expected=-483.38404449884761013824884792626728106"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!F18",
+      "detail": "actual=36813.5531278802; expected=38672.80547163022077695852534562211981567"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/P&L!G15",
+      "detail": "actual=429.491453158602; expected=451.1827305023525757311827956989247311828"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/P&L!G16",
+      "detail": "actual=7164.19156921035; expected=7158.768749874411856067204301075268817205"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/P&L!G17",
+      "detail": "actual=21492.5747076311; expected=21476.30624962323556820161290322580645162"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!G7",
+      "detail": "actual=21492.5747076311; expected=21476.30624962323556820161290322580645162"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!G10",
+      "detail": "actual=34177.5069242209; expected=34161.23846621309731935368663594470046088"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!G12",
+      "detail": "actual=74177.5069242209; expected=74161.23846621309731935368663594470046088"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!G13",
+      "detail": "actual=36813.5531278802; expected=38672.80547163022077695852534562211981567"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!G15",
+      "detail": "actual=29177.5069242209; expected=29161.23846621309731935368663594470046088"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!G16",
+      "detail": "actual=-29177.5069242209; expected=-29161.23846621309731935368663594470046088"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!G18",
+      "detail": "actual=7636.04620365924; expected=9511.56700541712345760483870967741935479"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/P&L!H15",
+      "detail": "actual=89.0872057093579; expected=110.9682817298664403387231182795698924726"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/P&L!H16",
+      "detail": "actual=7789.63095212016; expected=7784.160683115033389915319220430107526882"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/P&L!H17",
+      "detail": "actual=23368.8928563605; expected=23352.48204934510016974595766129032258065"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!H7",
+      "detail": "actual=23368.8928563605; expected=23352.48204934510016974595766129032258065"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!H10",
+      "detail": "actual=17617.2030056992; expected=17600.79219868380984716531249999999999996"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!H12",
+      "detail": "actual=57617.2030056992; expected=57600.79219868380984716531249999999999996"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!H13",
+      "detail": "actual=7636.04620365924; expected=9511.56700541712345760483870967741935479"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!H15",
+      "detail": "actual=7636.04620365924; expected=9511.56700541712345760483870967741935479"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!H16",
+      "detail": "actual=-7636.04620365924; expected=-9511.56700541712345760483870967741935479"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!H17",
+      "detail": "actual=49981.15680204; expected=48089.22519326668638956047379032258064517"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!I6",
+      "detail": "actual=49981.15680204; expected=48089.22519326668638956047379032258064517"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!I12",
+      "detail": "actual=73175.2378136776; expected=71283.30620490438001859273185483870967745"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!I17",
+      "detail": "actual=73175.2378136776; expected=71283.30620490438001859273185483870967745"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!J6",
+      "detail": "actual=73175.2378136776; expected=71283.30620490438001859273185483870967745"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!J12",
+      "detail": "actual=88700.8066827697; expected=86808.87507399635467206047379032258064517"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!J17",
+      "detail": "actual=88700.8066827697; expected=86808.87507399635467206047379032258064517"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!K6",
+      "detail": "actual=88700.8066827697; expected=86808.87507399635467206047379032258064517"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!K12",
+      "detail": "actual=106084.272740015; expected=104192.3411312420419530672479838709677419"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!K17",
+      "detail": "actual=106084.272740015; expected=104192.3411312420419530672479838709677419"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!L6",
+      "detail": "actual=106084.272740015; expected=104192.3411312420419530672479838709677419"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!L12",
+      "detail": "actual=124989.625563885; expected=123097.6939551117846144172441129032258065"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!L17",
+      "detail": "actual=124989.625563885; expected=123097.6939551117846144172441129032258065"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!M6",
+      "detail": "actual=124989.625563885; expected=123097.6939551117846144172441129032258065"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!M12",
+      "detail": "actual=140578.91078074; expected=138686.9791719661113791063371053225806452"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!M17",
+      "detail": "actual=140578.91078074; expected=138686.9791719661113791063371053225806452"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!N6",
+      "detail": "actual=140578.91078074; expected=138686.9791719661113791063371053225806452"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!N12",
+      "detail": "actual=169346.861340226; expected=167454.9297314520658002300739014167741936"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!N17",
+      "detail": "actual=169346.861340226; expected=167454.9297314520658002300739014167741936"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!O6",
+      "detail": "actual=169346.861340226; expected=167454.9297314520658002300739014167741936"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!O12",
+      "detail": "actual=189291.145956714; expected=187399.2143479405479061536966479824156452"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!O17",
+      "detail": "actual=189291.145956714; expected=187399.2143479405479061536966479824156452"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!P6",
+      "detail": "actual=189291.145956714; expected=187399.2143479405479061536966479824156452"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!P12",
+      "detail": "actual=222963.427405115; expected=221071.4957963417493747430710171944198478"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!P17",
+      "detail": "actual=222963.427405115; expected=221071.4957963417493747430710171944198478"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/P&L!Q15",
+      "detail": "actual=1303.89774488947; expected=1386.473223253724813919368279569892473118"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/P&L!Q16",
+      "detail": "actual=119085.439077124; expected=119064.7952075323578081505672958339598417"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/P&L!Q17",
+      "detail": "actual=357256.317231371; expected=357194.3856225970734244517018875018795252"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!Q6",
+      "detail": "actual=30000; expected=29670.0"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!Q7",
+      "detail": "actual=357256.317231371; expected=357194.3856225970734244517018875018795252"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!Q10",
+      "detail": "actual=324963.427405115; expected=324901.4957963417493747430710171944198478"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!Q12",
+      "detail": "actual=1330111.44508518; expected=1314584.060606221722107931350204174254848"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!Q13",
+      "detail": "actual=30000; expected=31500.0"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!Q14",
+      "detail": "actual=7313.06451612905; expected=7656.18951612906838709677419354838709673"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!Q15",
+      "detail": "actual=37313.0645161291; expected=39156.18951612906838709677419354838709673"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!Q16",
+      "detail": "actual=-30000; expected=-31500.00000000000000000000000000000000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "stress/Cash Flow!Q17",
+      "detail": "actual=222963.427405115; expected=221071.4957963417493747430710171944198478"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/P&L!E15",
+      "detail": "actual=350; expected=367.500"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/P&L!E16",
+      "detail": "actual=6215; expected=6210.625000"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/P&L!E17",
+      "detail": "actual=18645; expected=18631.875000"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!E6",
+      "detail": "actual=30000; expected=29670.0"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!E7",
+      "detail": "actual=18645; expected=18631.875000"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!E10",
+      "detail": "actual=12686.9354838709; expected=12673.81048387093161290322580645161290327"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!E12",
+      "detail": "actual=37686.935483871; expected=37343.81048387093161290322580645161290327"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!E13",
+      "detail": "actual=30000; expected=31500.0"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!E14",
+      "detail": "actual=7313.06451612905; expected=7656.18951612906838709677419354838709673"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!E16",
+      "detail": "actual=7313.06451612905; expected=7656.18951612906838709677419354838709673"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!E18",
+      "detail": "actual=37313.0645161291; expected=39156.18951612906838709677419354838709673"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/P&L!F15",
+      "detail": "actual=435.319086021506; expected=456.8222110215057978494623655913978494618"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/P&L!F16",
+      "detail": "actual=6659.39772849463; expected=6654.021947244623550537634408602150537635"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/P&L!F17",
+      "detail": "actual=19978.1931854839; expected=19962.06584173387065161290322580645161290"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!F7",
+      "detail": "actual=19978.1931854839; expected=19962.06584173387065161290322580645161290"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!F10",
+      "detail": "actual=5499.51138824886; expected=5483.38404449884761013824884792626728106"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!F12",
+      "detail": "actual=45499.5113882489; expected=45483.38404449884761013824884792626728106"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!F13",
+      "detail": "actual=37313.0645161291; expected=39156.18951612906838709677419354838709673"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!F15",
+      "detail": "actual=499.511388248866; expected=483.38404449884761013824884792626728106"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!F16",
+      "detail": "actual=-499.511388248866; expected=-483.38404449884761013824884792626728106"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!F18",
+      "detail": "actual=36813.5531278802; expected=38672.80547163022077695852534562211981567"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/P&L!G15",
+      "detail": "actual=429.491453158602; expected=451.1827305023525757311827956989247311828"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/P&L!G16",
+      "detail": "actual=7164.19156921035; expected=7158.768749874411856067204301075268817205"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/P&L!G17",
+      "detail": "actual=21492.5747076311; expected=21476.30624962323556820161290322580645162"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!G7",
+      "detail": "actual=21492.5747076311; expected=21476.30624962323556820161290322580645162"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!G10",
+      "detail": "actual=34177.5069242209; expected=34161.23846621309731935368663594470046088"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!G12",
+      "detail": "actual=74177.5069242209; expected=74161.23846621309731935368663594470046088"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!G13",
+      "detail": "actual=36813.5531278802; expected=38672.80547163022077695852534562211981567"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!G15",
+      "detail": "actual=29177.5069242209; expected=29161.23846621309731935368663594470046088"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!G16",
+      "detail": "actual=-29177.5069242209; expected=-29161.23846621309731935368663594470046088"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!G18",
+      "detail": "actual=7636.04620365924; expected=9511.56700541712345760483870967741935479"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/P&L!H15",
+      "detail": "actual=89.0872057093579; expected=110.9682817298664403387231182795698924726"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/P&L!H16",
+      "detail": "actual=7789.63095212016; expected=7784.160683115033389915319220430107526882"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/P&L!H17",
+      "detail": "actual=23368.8928563605; expected=23352.48204934510016974595766129032258065"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!H7",
+      "detail": "actual=23368.8928563605; expected=23352.48204934510016974595766129032258065"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!H10",
+      "detail": "actual=17617.2030056992; expected=17600.79219868380984716531249999999999996"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!H12",
+      "detail": "actual=57617.2030056992; expected=57600.79219868380984716531249999999999996"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!H13",
+      "detail": "actual=7636.04620365924; expected=9511.56700541712345760483870967741935479"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!H15",
+      "detail": "actual=7636.04620365924; expected=9511.56700541712345760483870967741935479"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!H16",
+      "detail": "actual=-7636.04620365924; expected=-9511.56700541712345760483870967741935479"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!H17",
+      "detail": "actual=49981.15680204; expected=48089.22519326668638956047379032258064517"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!I6",
+      "detail": "actual=49981.15680204; expected=48089.22519326668638956047379032258064517"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!I12",
+      "detail": "actual=73175.2378136776; expected=71283.30620490438001859273185483870967745"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!I17",
+      "detail": "actual=73175.2378136776; expected=71283.30620490438001859273185483870967745"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!J6",
+      "detail": "actual=73175.2378136776; expected=71283.30620490438001859273185483870967745"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!J12",
+      "detail": "actual=88700.8066827697; expected=86808.87507399635467206047379032258064517"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!J17",
+      "detail": "actual=88700.8066827697; expected=86808.87507399635467206047379032258064517"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!K6",
+      "detail": "actual=88700.8066827697; expected=86808.87507399635467206047379032258064517"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!K12",
+      "detail": "actual=106084.272740015; expected=104192.3411312420419530672479838709677419"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!K17",
+      "detail": "actual=106084.272740015; expected=104192.3411312420419530672479838709677419"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!L6",
+      "detail": "actual=106084.272740015; expected=104192.3411312420419530672479838709677419"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!L12",
+      "detail": "actual=124989.625563885; expected=123097.6939551117846144172441129032258065"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!L17",
+      "detail": "actual=124989.625563885; expected=123097.6939551117846144172441129032258065"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!M6",
+      "detail": "actual=124989.625563885; expected=123097.6939551117846144172441129032258065"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!M12",
+      "detail": "actual=140578.91078074; expected=138686.9791719661113791063371053225806452"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!M17",
+      "detail": "actual=140578.91078074; expected=138686.9791719661113791063371053225806452"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!N6",
+      "detail": "actual=140578.91078074; expected=138686.9791719661113791063371053225806452"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!N12",
+      "detail": "actual=169346.861340226; expected=167454.9297314520658002300739014167741936"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!N17",
+      "detail": "actual=169346.861340226; expected=167454.9297314520658002300739014167741936"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!O6",
+      "detail": "actual=169346.861340226; expected=167454.9297314520658002300739014167741936"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!O12",
+      "detail": "actual=189291.145956714; expected=187399.2143479405479061536966479824156452"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!O17",
+      "detail": "actual=189291.145956714; expected=187399.2143479405479061536966479824156452"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!P6",
+      "detail": "actual=189291.145956714; expected=187399.2143479405479061536966479824156452"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!P12",
+      "detail": "actual=222963.427405115; expected=221071.4957963417493747430710171944198478"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!P17",
+      "detail": "actual=222963.427405115; expected=221071.4957963417493747430710171944198478"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/P&L!Q15",
+      "detail": "actual=1303.89774488947; expected=1386.473223253724813919368279569892473118"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/P&L!Q16",
+      "detail": "actual=119085.439077124; expected=119064.7952075323578081505672958339598417"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/P&L!Q17",
+      "detail": "actual=357256.317231371; expected=357194.3856225970734244517018875018795252"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!Q6",
+      "detail": "actual=30000; expected=29670.0"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!Q7",
+      "detail": "actual=357256.317231371; expected=357194.3856225970734244517018875018795252"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!Q10",
+      "detail": "actual=324963.427405115; expected=324901.4957963417493747430710171944198478"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!Q12",
+      "detail": "actual=1330111.44508518; expected=1314584.060606221722107931350204174254848"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!Q13",
+      "detail": "actual=30000; expected=31500.0"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!Q14",
+      "detail": "actual=7313.06451612905; expected=7656.18951612906838709677419354838709673"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!Q15",
+      "detail": "actual=37313.0645161291; expected=39156.18951612906838709677419354838709673"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!Q16",
+      "detail": "actual=-30000; expected=-31500.00000000000000000000000000000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/legacy_growth/Cash Flow!Q17",
+      "detail": "actual=222963.427405115; expected=221071.4957963417493747430710171944198478"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/P&L!E15",
+      "detail": "actual=350; expected=367.500"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/P&L!E16",
+      "detail": "actual=6215; expected=6210.625000"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/P&L!E17",
+      "detail": "actual=18645; expected=18631.875000"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!E6",
+      "detail": "actual=30000; expected=29670.0"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!E7",
+      "detail": "actual=18645; expected=18631.875000"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!E10",
+      "detail": "actual=12686.9354838709; expected=12673.81048387093161290322580645161290327"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!E12",
+      "detail": "actual=37686.935483871; expected=37343.81048387093161290322580645161290327"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!E13",
+      "detail": "actual=30000; expected=31500.0"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!E14",
+      "detail": "actual=7313.06451612905; expected=7656.18951612906838709677419354838709673"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!E16",
+      "detail": "actual=7313.06451612905; expected=7656.18951612906838709677419354838709673"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!E18",
+      "detail": "actual=37313.0645161291; expected=39156.18951612906838709677419354838709673"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/P&L!F15",
+      "detail": "actual=435.319086021506; expected=456.8222110215057978494623655913978494618"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/P&L!F16",
+      "detail": "actual=6659.39772849463; expected=6654.021947244623550537634408602150537635"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/P&L!F17",
+      "detail": "actual=19978.1931854839; expected=19962.06584173387065161290322580645161290"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!F7",
+      "detail": "actual=19978.1931854839; expected=19962.06584173387065161290322580645161290"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!F10",
+      "detail": "actual=-48602.0600403226; expected=-48618.18738407258096129032258064516129034"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!F12",
+      "detail": "actual=-8602.06004032256; expected=-8618.18738407258096129032258064516129034"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!F13",
+      "detail": "actual=37313.0645161291; expected=39156.18951612906838709677419354838709673"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!F14",
+      "detail": "actual=53602.0600403226; expected=53618.18738407258096129032258064516129034"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!F16",
+      "detail": "actual=53602.0600403226; expected=53618.18738407258096129032258064516129034"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!F18",
+      "detail": "actual=90915.1245564516; expected=92774.37690020164934838709677419354838707"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/P&L!G15",
+      "detail": "actual=1060.6764531586; expected=1082.367730502352575731182795698924731182"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/P&L!G16",
+      "detail": "actual=7006.39531921035; expected=7000.972499874411856067204301075268817205"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/P&L!G17",
+      "detail": "actual=21019.1859576311; expected=21002.91749962323556820161290322580645162"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!G7",
+      "detail": "actual=21019.1859576311; expected=21002.91749962323556820161290322580645162"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!G10",
+      "detail": "actual=87805.6896027924; expected=87789.42114478452589078225806451612903228"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!G12",
+      "detail": "actual=127805.689602792; expected=127789.4211447845258907822580645161290323"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!G13",
+      "detail": "actual=90915.1245564516; expected=92774.37690020164934838709677419354838707"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!G15",
+      "detail": "actual=82805.6896027924; expected=82789.4211447845258907822580645161290323"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!G16",
+      "detail": "actual=-82805.6896027924; expected=-82789.4211447845258907822580645161290323"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!G18",
+      "detail": "actual=8109.43495365923; expected=9984.95575541712345760483870967741935477"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/P&L!H15",
+      "detail": "actual=94.6100744593578; expected=116.4911504798664403387231182795698924723"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/P&L!H16",
+      "detail": "actual=7788.25023493266; expected=7782.779965927533389915319220430107526882"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/P&L!H17",
+      "detail": "actual=23364.750704798; expected=23348.33989778260016974595766129032258065"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!H7",
+      "detail": "actual=23364.750704798; expected=23348.33989778260016974595766129032258065"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!H10",
+      "detail": "actual=17613.0608541367; expected=17596.65004712130984716531249999999999996"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!H12",
+      "detail": "actual=57613.0608541367; expected=57596.65004712130984716531249999999999996"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!H13",
+      "detail": "actual=8109.43495365923; expected=9984.95575541712345760483870967741935477"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!H15",
+      "detail": "actual=8109.43495365923; expected=9984.95575541712345760483870967741935477"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!H16",
+      "detail": "actual=-8109.43495365923; expected=-9984.95575541712345760483870967741935477"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!H17",
+      "detail": "actual=49503.6259004775; expected=47611.69429170418638956047379032258064519"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!I6",
+      "detail": "actual=49503.6259004775; expected=47611.69429170418638956047379032258064519"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!I12",
+      "detail": "actual=72697.7069121151; expected=70805.77530334188001859273185483870967747"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!I17",
+      "detail": "actual=72697.7069121151; expected=70805.77530334188001859273185483870967747"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!J6",
+      "detail": "actual=72697.7069121151; expected=70805.77530334188001859273185483870967747"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!J12",
+      "detail": "actual=88223.2757812072; expected=86331.34417243385467206047379032258064519"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!J17",
+      "detail": "actual=88223.2757812072; expected=86331.34417243385467206047379032258064519"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!K6",
+      "detail": "actual=88223.2757812072; expected=86331.34417243385467206047379032258064519"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!K12",
+      "detail": "actual=105606.741838453; expected=103714.8102296795419530672479838709677419"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!K17",
+      "detail": "actual=105606.741838453; expected=103714.8102296795419530672479838709677419"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!L6",
+      "detail": "actual=105606.741838453; expected=103714.8102296795419530672479838709677419"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!L12",
+      "detail": "actual=124512.094662323; expected=122620.1630535492846144172441129032258065"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!L17",
+      "detail": "actual=124512.094662323; expected=122620.1630535492846144172441129032258065"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!M6",
+      "detail": "actual=124512.094662323; expected=122620.1630535492846144172441129032258065"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!M12",
+      "detail": "actual=140101.379879177; expected=138209.4482704036113791063371053225806452"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!M17",
+      "detail": "actual=140101.379879177; expected=138209.4482704036113791063371053225806452"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!N6",
+      "detail": "actual=140101.379879177; expected=138209.4482704036113791063371053225806452"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!N12",
+      "detail": "actual=168869.330438663; expected=166977.3988298895658002300739014167741936"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!N17",
+      "detail": "actual=168869.330438663; expected=166977.3988298895658002300739014167741936"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!O6",
+      "detail": "actual=168869.330438663; expected=166977.3988298895658002300739014167741936"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!O12",
+      "detail": "actual=188813.615055152; expected=186921.6834463780479061536966479824156452"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!O17",
+      "detail": "actual=188813.615055152; expected=186921.6834463780479061536966479824156452"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!P6",
+      "detail": "actual=188813.615055152; expected=186921.6834463780479061536966479824156452"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!P12",
+      "detail": "actual=222485.896503553; expected=220593.9648947792493747430710171944198478"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!P17",
+      "detail": "actual=222485.896503553; expected=220593.9648947792493747430710171944198478"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/P&L!Q15",
+      "detail": "actual=1940.60561363947; expected=2023.181092003724813919368279569892473116"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/P&L!Q16",
+      "detail": "actual=118926.262109936; expected=118905.6182403448578081505672958339598417"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/P&L!Q17",
+      "detail": "actual=356778.786329808; expected=356716.8547210345734244517018875018795252"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!Q6",
+      "detail": "actual=30000; expected=29670.0"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!Q7",
+      "detail": "actual=356778.786329808; expected=356716.8547210345734244517018875018795252"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!Q10",
+      "detail": "actual=324485.896503553; expected=324423.9648947792493747430710171944198478"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!Q12",
+      "detail": "actual=1325813.66697112; expected=1310286.282492159222107931350204174254848"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!Q13",
+      "detail": "actual=30000; expected=31500.0"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!Q14",
+      "detail": "actual=60915.1245564516; expected=61274.37690020164934838709677419354838707"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!Q15",
+      "detail": "actual=90915.1245564516; expected=92774.37690020164934838709677419354838707"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!Q16",
+      "detail": "actual=-30000; expected=-31500.00000000000000000000000000000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/financial/Cash Flow!Q17",
+      "detail": "actual=222485.896503553; expected=220593.9648947792493747430710171944198478"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/P&L!E15",
+      "detail": "actual=350; expected=367.500"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/P&L!E16",
+      "detail": "actual=6215; expected=6210.625000"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/P&L!E17",
+      "detail": "actual=18645; expected=18631.875000"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!E6",
+      "detail": "actual=30000; expected=29670.0"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!E7",
+      "detail": "actual=18645; expected=18631.875000"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!E10",
+      "detail": "actual=12686.9354838709; expected=12673.81048387093161290322580645161290327"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!E12",
+      "detail": "actual=37686.935483871; expected=37343.81048387093161290322580645161290327"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!E13",
+      "detail": "actual=30000; expected=31500.0"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!E14",
+      "detail": "actual=7313.06451612905; expected=7656.18951612906838709677419354838709673"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!E16",
+      "detail": "actual=7313.06451612905; expected=7656.18951612906838709677419354838709673"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!E18",
+      "detail": "actual=37313.0645161291; expected=39156.18951612906838709677419354838709673"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/P&L!F15",
+      "detail": "actual=435.319086021506; expected=456.8222110215057978494623655913978494618"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/P&L!F16",
+      "detail": "actual=6659.39772849463; expected=6654.021947244623550537634408602150537635"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/P&L!F17",
+      "detail": "actual=19978.1931854839; expected=19962.06584173387065161290322580645161290"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!F7",
+      "detail": "actual=19978.1931854839; expected=19962.06584173387065161290322580645161290"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!F10",
+      "detail": "actual=5499.51138824886; expected=5483.38404449884761013824884792626728106"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!F12",
+      "detail": "actual=45499.5113882489; expected=45483.38404449884761013824884792626728106"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!F13",
+      "detail": "actual=37313.0645161291; expected=39156.18951612906838709677419354838709673"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!F15",
+      "detail": "actual=499.511388248866; expected=483.38404449884761013824884792626728106"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!F16",
+      "detail": "actual=-499.511388248866; expected=-483.38404449884761013824884792626728106"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!F18",
+      "detail": "actual=36813.5531278802; expected=38672.80547163022077695852534562211981567"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/P&L!G15",
+      "detail": "actual=429.491453158602; expected=451.1827305023525757311827956989247311828"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/P&L!G16",
+      "detail": "actual=7164.19156921035; expected=7158.768749874411856067204301075268817205"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/P&L!G17",
+      "detail": "actual=21492.5747076311; expected=21476.30624962323556820161290322580645162"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!G7",
+      "detail": "actual=21492.5747076311; expected=21476.30624962323556820161290322580645162"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!G10",
+      "detail": "actual=34177.5069242209; expected=34161.23846621309731935368663594470046088"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!G12",
+      "detail": "actual=74177.5069242209; expected=74161.23846621309731935368663594470046088"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!G13",
+      "detail": "actual=36813.5531278802; expected=38672.80547163022077695852534562211981567"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!G15",
+      "detail": "actual=29177.5069242209; expected=29161.23846621309731935368663594470046088"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!G16",
+      "detail": "actual=-29177.5069242209; expected=-29161.23846621309731935368663594470046088"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!G18",
+      "detail": "actual=7636.04620365924; expected=9511.56700541712345760483870967741935479"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/P&L!H15",
+      "detail": "actual=89.0872057093579; expected=110.9682817298664403387231182795698924726"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/P&L!H16",
+      "detail": "actual=7789.63095212016; expected=7784.160683115033389915319220430107526882"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/P&L!H17",
+      "detail": "actual=23368.8928563605; expected=23352.48204934510016974595766129032258065"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!H7",
+      "detail": "actual=23368.8928563605; expected=23352.48204934510016974595766129032258065"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!H10",
+      "detail": "actual=17617.2030056992; expected=17600.79219868380984716531249999999999996"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!H12",
+      "detail": "actual=57617.2030056992; expected=57600.79219868380984716531249999999999996"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!H13",
+      "detail": "actual=7636.04620365924; expected=9511.56700541712345760483870967741935479"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!H15",
+      "detail": "actual=7636.04620365924; expected=9511.56700541712345760483870967741935479"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!H16",
+      "detail": "actual=-7636.04620365924; expected=-9511.56700541712345760483870967741935479"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!H17",
+      "detail": "actual=49981.15680204; expected=48089.22519326668638956047379032258064517"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!I6",
+      "detail": "actual=49981.15680204; expected=48089.22519326668638956047379032258064517"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!I12",
+      "detail": "actual=73175.2378136776; expected=71283.30620490438001859273185483870967745"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!I17",
+      "detail": "actual=73175.2378136776; expected=71283.30620490438001859273185483870967745"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!J6",
+      "detail": "actual=73175.2378136776; expected=71283.30620490438001859273185483870967745"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!J12",
+      "detail": "actual=88700.8066827697; expected=86808.87507399635467206047379032258064517"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!J17",
+      "detail": "actual=88700.8066827697; expected=86808.87507399635467206047379032258064517"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!K6",
+      "detail": "actual=88700.8066827697; expected=86808.87507399635467206047379032258064517"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!K12",
+      "detail": "actual=106084.272740015; expected=104192.3411312420419530672479838709677419"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!K17",
+      "detail": "actual=106084.272740015; expected=104192.3411312420419530672479838709677419"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!L6",
+      "detail": "actual=106084.272740015; expected=104192.3411312420419530672479838709677419"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!L12",
+      "detail": "actual=124989.625563885; expected=123097.6939551117846144172441129032258065"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!L17",
+      "detail": "actual=124989.625563885; expected=123097.6939551117846144172441129032258065"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!M6",
+      "detail": "actual=124989.625563885; expected=123097.6939551117846144172441129032258065"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!M12",
+      "detail": "actual=140578.91078074; expected=138686.9791719661113791063371053225806452"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!M17",
+      "detail": "actual=140578.91078074; expected=138686.9791719661113791063371053225806452"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!N6",
+      "detail": "actual=140578.91078074; expected=138686.9791719661113791063371053225806452"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!N12",
+      "detail": "actual=169346.861340226; expected=167454.9297314520658002300739014167741936"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!N17",
+      "detail": "actual=169346.861340226; expected=167454.9297314520658002300739014167741936"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!O6",
+      "detail": "actual=169346.861340226; expected=167454.9297314520658002300739014167741936"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!O12",
+      "detail": "actual=189291.145956714; expected=187399.2143479405479061536966479824156452"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!O17",
+      "detail": "actual=189291.145956714; expected=187399.2143479405479061536966479824156452"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!P6",
+      "detail": "actual=189291.145956714; expected=187399.2143479405479061536966479824156452"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!P12",
+      "detail": "actual=222963.427405115; expected=221071.4957963417493747430710171944198478"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!P17",
+      "detail": "actual=222963.427405115; expected=221071.4957963417493747430710171944198478"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/P&L!Q15",
+      "detail": "actual=1303.89774488947; expected=1386.473223253724813919368279569892473118"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/P&L!Q16",
+      "detail": "actual=119085.439077124; expected=119064.7952075323578081505672958339598417"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/P&L!Q17",
+      "detail": "actual=357256.317231371; expected=357194.3856225970734244517018875018795252"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!Q6",
+      "detail": "actual=30000; expected=29670.0"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!Q7",
+      "detail": "actual=357256.317231371; expected=357194.3856225970734244517018875018795252"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!Q10",
+      "detail": "actual=324963.427405115; expected=324901.4957963417493747430710171944198478"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!Q12",
+      "detail": "actual=1330111.44508518; expected=1314584.060606221722107931350204174254848"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!Q13",
+      "detail": "actual=30000; expected=31500.0"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!Q14",
+      "detail": "actual=7313.06451612905; expected=7656.18951612906838709677419354838709673"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!Q15",
+      "detail": "actual=37313.0645161291; expected=39156.18951612906838709677419354838709673"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!Q16",
+      "detail": "actual=-30000; expected=-31500.00000000000000000000000000000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/funding/Cash Flow!Q17",
+      "detail": "actual=222963.427405115; expected=221071.4957963417493747430710171944198478"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/P&L!E15",
+      "detail": "actual=350; expected=367.500"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/P&L!E16",
+      "detail": "actual=5816.875; expected=5812.500000"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/P&L!E17",
+      "detail": "actual=17450.625; expected=17437.500000"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!E6",
+      "detail": "actual=30000; expected=29670.0"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!E7",
+      "detail": "actual=17450.625; expected=17437.500000"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!E10",
+      "detail": "actual=13974.1733870968; expected=13961.04838709673806451612903225806451614"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!E12",
+      "detail": "actual=38974.1733870968; expected=38631.04838709673806451612903225806451614"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!E13",
+      "detail": "actual=30000; expected=31500.0"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!E14",
+      "detail": "actual=6025.82661290323; expected=6368.95161290326193548387096774193548386"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!E16",
+      "detail": "actual=6025.82661290323; expected=6368.95161290326193548387096774193548386"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!E18",
+      "detail": "actual=36025.8266129032; expected=37868.95161290326193548387096774193548386"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/P&L!F15",
+      "detail": "actual=420.301310483871; expected=441.8044354838713892473118279569892473117"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/P&L!F16",
+      "detail": "actual=6272.98967237904; expected=6267.613891129032152688172043010752688172"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/P&L!F17",
+      "detail": "actual=18818.9690171371; expected=18802.84167338709645806451612903225806452"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!F7",
+      "detail": "actual=18818.9690171371; expected=18802.84167338709645806451612903225806452"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!F10",
+      "detail": "actual=4551.22431667626; expected=4535.09697292626696497695852534562211981"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!F12",
+      "detail": "actual=44551.2243166763; expected=44535.09697292626696497695852534562211981"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!F13",
+      "detail": "actual=36025.8266129032; expected=37868.95161290326193548387096774193548386"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!F14",
+      "detail": "actual=448.775683323736; expected=464.90302707373303502304147465437788019"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!F16",
+      "detail": "actual=448.775683323736; expected=464.90302707373303502304147465437788019"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!F18",
+      "detail": "actual=36474.602296227; expected=38333.85463997699497050691244239631336405"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/P&L!G15",
+      "detail": "actual=425.537026789315; expected=447.2283041330649413225806451612903225806"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/P&L!G16",
+      "detail": "actual=7287.38342580268; expected=7281.960606466733764669354838709677419355"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/P&L!G17",
+      "detail": "actual=21862.150277408; expected=21845.88181940020129400806451612903225806"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!G7",
+      "detail": "actual=21862.150277408; expected=21845.88181940020129400806451612903225806"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!G10",
+      "detail": "actual=31092.8090101269; expected=31076.54055211909530322465437788018433178"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!G12",
+      "detail": "actual=71092.8090101269; expected=71076.54055211909530322465437788018433178"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!G13",
+      "detail": "actual=36474.602296227; expected=38333.85463997699497050691244239631336405"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!G15",
+      "detail": "actual=26092.8090101269; expected=26076.54055211909530322465437788018433178"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!G16",
+      "detail": "actual=-26092.8090101269; expected=-26076.54055211909530322465437788018433178"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!G18",
+      "detail": "actual=10381.7932861; expected=12257.31408785789966728225806451612903227"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/P&L!H15",
+      "detail": "actual=121.120921671167; expected=143.0019976916754961182930107526881720432"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/P&L!H16",
+      "detail": "actual=7903.90452062971; expected=7898.434251624581125970426747311827956990"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/P&L!H17",
+      "detail": "actual=23711.7135618891; expected=23695.30275487374337791128024193548387097"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!H7",
+      "detail": "actual=23711.7135618891; expected=23695.30275487374337791128024193548387097"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!H10",
+      "detail": "actual=17934.1257137655; expected=17917.71490675008746393278561827956989252"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!H12",
+      "detail": "actual=57934.1257137655; expected=57917.71490675008746393278561827956989252"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!H13",
+      "detail": "actual=10381.7932861; expected=12257.31408785789966728225806451612903227"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!H15",
+      "detail": "actual=10381.7932861; expected=12257.31408785789966728225806451612903227"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!H16",
+      "detail": "actual=-10381.7932861; expected=-12257.31408785789966728225806451612903227"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!H17",
+      "detail": "actual=47552.3324276654; expected=45660.40081889218779665052755376344086025"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!I6",
+      "detail": "actual=47552.3324276654; expected=45660.40081889218779665052755376344086025"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!I12",
+      "detail": "actual=71138.5394114433; expected=69246.60780267006959772579637096774193553"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!I17",
+      "detail": "actual=71138.5394114433; expected=69246.60780267006959772579637096774193553"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!J6",
+      "detail": "actual=71138.5394114433; expected=69246.60780267006959772579637096774193553"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!J12",
+      "detail": "actual=87183.8836596847; expected=85291.95205091130920415052755376344086025"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!J17",
+      "detail": "actual=87183.8836596847; expected=85291.95205091130920415052755376344086025"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!K6",
+      "detail": "actual=87183.8836596847; expected=85291.95205091130920415052755376344086025"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!K12",
+      "detail": "actual=103654.21617946; expected=101762.2845706869261413989012096774193548"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!K17",
+      "detail": "actual=103654.21617946; expected=101762.2845706869261413989012096774193548"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!L6",
+      "detail": "actual=103654.21617946; expected=101762.2845706869261413989012096774193548"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!L12",
+      "detail": "actual=123335.206811782; expected=121443.2752030087945274730656854838709677"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!L17",
+      "detail": "actual=123335.206811782; expected=121443.2752030087945274730656854838709677"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!M6",
+      "detail": "actual=123335.206811782; expected=121443.2752030087945274730656854838709677"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!M12",
+      "detail": "actual=140335.19106863; expected=138443.2594598561929807943583166801075269"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!M17",
+      "detail": "actual=140335.19106863; expected=138443.2594598561929807943583166801075269"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!N6",
+      "detail": "actual=140335.19106863; expected=138443.2594598561929807943583166801075269"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!N12",
+      "detail": "actual=169832.772596447; expected=167940.8409876733852695071413401138508064"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!N17",
+      "detail": "actual=169832.772596447; expected=167940.8409876733852695071413401138508064"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!O6",
+      "detail": "actual=169832.772596447; expected=167940.8409876733852695071413401138508064"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!O12",
+      "detail": "actual=192509.634154328; expected=190617.7025455542310000340139953874685685"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!O17",
+      "detail": "actual=192509.634154328; expected=190617.7025455542310000340139953874685685"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!P6",
+      "detail": "actual=192509.634154328; expected=190617.7025455542310000340139953874685685"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!P12",
+      "detail": "actual=229469.171413222; expected=227577.2398044484591998254098773189110902"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!P17",
+      "detail": "actual=229469.171413222; expected=227577.2398044484591998254098773189110902"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/P&L!Q15",
+      "detail": "actual=1316.95925894435; expected=1399.534737308611826688185483870967741935"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/P&L!Q16",
+      "detail": "actual=123608.514287584; expected=123587.8704179930001365502680068423336026"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/P&L!Q17",
+      "detail": "actual=370825.542862753; expected=370763.6112539790004096508040205270008080"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!Q6",
+      "detail": "actual=30000; expected=29670.0"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!Q7",
+      "detail": "actual=370825.542862753; expected=370763.6112539790004096508040205270008080"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!Q10",
+      "detail": "actual=331469.171413222; expected=331407.2398044484591998254098773189110902"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!Q12",
+      "detail": "actual=1330010.94772266; expected=1314483.563243701555717559741903156251970"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!Q13",
+      "detail": "actual=30000; expected=31500.0"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!Q14",
+      "detail": "actual=6474.60229622696; expected=6833.85463997699497050691244239631336405"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!Q15",
+      "detail": "actual=36474.602296227; expected=38333.85463997699497050691244239631336405"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!Q16",
+      "detail": "actual=-30000; expected=-31500.00000000000000000000000000000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/cohorts_and_events/Cash Flow!Q17",
+      "detail": "actual=229469.171413222; expected=227577.2398044484591998254098773189110902"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/P&L!E15",
+      "detail": "actual=350; expected=367.500"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/P&L!E16",
+      "detail": "actual=6215; expected=6210.625000"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/P&L!E17",
+      "detail": "actual=18645; expected=18631.875000"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!E6",
+      "detail": "actual=30000; expected=29670.0"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!E7",
+      "detail": "actual=18645; expected=18631.875000"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!E10",
+      "detail": "actual=12686.9354838709; expected=12673.81048387093161290322580645161290327"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!E12",
+      "detail": "actual=37686.935483871; expected=37343.81048387093161290322580645161290327"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!E13",
+      "detail": "actual=30000; expected=31500.0"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!E14",
+      "detail": "actual=7313.06451612905; expected=7656.18951612906838709677419354838709673"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!E16",
+      "detail": "actual=7313.06451612905; expected=7656.18951612906838709677419354838709673"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!E18",
+      "detail": "actual=37313.0645161291; expected=39156.18951612906838709677419354838709673"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/P&L!F15",
+      "detail": "actual=435.319086021506; expected=456.8222110215057978494623655913978494618"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/P&L!F16",
+      "detail": "actual=6659.39772849463; expected=6654.021947244623550537634408602150537635"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/P&L!F17",
+      "detail": "actual=19978.1931854839; expected=19962.06584173387065161290322580645161290"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!F7",
+      "detail": "actual=19978.1931854839; expected=19962.06584173387065161290322580645161290"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!F10",
+      "detail": "actual=5499.51138824886; expected=5483.38404449884761013824884792626728106"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!F12",
+      "detail": "actual=45499.5113882489; expected=45483.38404449884761013824884792626728106"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!F13",
+      "detail": "actual=37313.0645161291; expected=39156.18951612906838709677419354838709673"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!F15",
+      "detail": "actual=499.511388248866; expected=483.38404449884761013824884792626728106"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!F16",
+      "detail": "actual=-499.511388248866; expected=-483.38404449884761013824884792626728106"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!F18",
+      "detail": "actual=36813.5531278802; expected=38672.80547163022077695852534562211981567"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/P&L!G15",
+      "detail": "actual=429.491453158602; expected=451.1827305023525757311827956989247311828"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/P&L!G16",
+      "detail": "actual=7164.19156921035; expected=7158.768749874411856067204301075268817205"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/P&L!G17",
+      "detail": "actual=21492.5747076311; expected=21476.30624962323556820161290322580645162"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!G7",
+      "detail": "actual=21492.5747076311; expected=21476.30624962323556820161290322580645162"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!G10",
+      "detail": "actual=34177.5069242209; expected=34161.23846621309731935368663594470046088"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!G12",
+      "detail": "actual=74177.5069242209; expected=74161.23846621309731935368663594470046088"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!G13",
+      "detail": "actual=36813.5531278802; expected=38672.80547163022077695852534562211981567"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!G15",
+      "detail": "actual=29177.5069242209; expected=29161.23846621309731935368663594470046088"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!G16",
+      "detail": "actual=-29177.5069242209; expected=-29161.23846621309731935368663594470046088"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!G18",
+      "detail": "actual=7636.04620365924; expected=9511.56700541712345760483870967741935479"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/P&L!H15",
+      "detail": "actual=89.0872057093579; expected=110.9682817298664403387231182795698924726"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/P&L!H16",
+      "detail": "actual=8742.16486924961; expected=8736.694600244470889915319220430107526882"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/P&L!H17",
+      "detail": "actual=26226.4946077488; expected=26210.08380073341266974595766129032258065"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!H7",
+      "detail": "actual=26226.4946077488; expected=26210.08380073341266974595766129032258065"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!H10",
+      "detail": "actual=14339.5093729102; expected=14323.09856589482234716531249999999999996"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!H12",
+      "detail": "actual=54339.5093729102; expected=54323.09856589482234716531249999999999996"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!H13",
+      "detail": "actual=7636.04620365924; expected=9511.56700541712345760483870967741935479"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!H15",
+      "detail": "actual=7636.04620365924; expected=9323.09856589482234716531249999999999996"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!H16",
+      "detail": "actual=-7636.04620365924; expected=-9323.09856589482234716531249999999999996"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!H17",
+      "detail": "actual=46703.4631692509; expected=45000.00000000000000000000000000000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!H18",
+      "detail": "actual=0; expected=188.46843952230111043952620967741935483"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/P&L!I15",
+      "detail": "actual=0; expected=2.198798461093512955127805779569892473017"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/P&L!I16",
+      "detail": "actual=9366.89459804484; expected=9366.344898429564434261218048555107526882"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/P&L!I17",
+      "detail": "actual=28100.6837941345; expected=28099.03469528869330278365414566532258065"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!I6",
+      "detail": "actual=46703.4631692509; expected=45000.00000000000000000000000000000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!I7",
+      "detail": "actual=28100.6837941345; expected=28099.03469528869330278365414566532258065"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!I10",
+      "detail": "actual=31166.4479373082; expected=31164.79883846231185117075091985887096778"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!I12",
+      "detail": "actual=72869.9111065591; expected=71164.79883846231185117075091985887096778"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!I13",
+      "detail": "actual=0; expected=188.46843952230111043952620967741935483"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!I15",
+      "detail": "actual=0; expected=188.46843952230111043952620967741935483"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!I16",
+      "detail": "actual=0; expected=-188.46843952230111043952620967741935483"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!I17",
+      "detail": "actual=72869.9111065591; expected=70976.33039894001074073122471018145161295"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!J6",
+      "detail": "actual=72869.9111065591; expected=70976.33039894001074073122471018145161295"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!J12",
+      "detail": "actual=91129.3286459156; expected=89235.74793829642177578162793598790322582"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!J17",
+      "detail": "actual=91129.3286459156; expected=89235.74793829642177578162793598790322582"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!K6",
+      "detail": "actual=91129.3286459156; expected=89235.74793829642177578162793598790322582"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!K12",
+      "detail": "actual=111594.122478286; expected=109700.5417706670127287601360005040322581"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!K17",
+      "detail": "actual=111594.122478286; expected=109700.5417706670127287601360005040322581"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!L6",
+      "detail": "actual=111594.122478286; expected=109700.5417706670127287601360005040322581"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!L12",
+      "detail": "actual=133539.85141728; expected=131646.2707096608858569346116658266129032"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!L17",
+      "detail": "actual=133539.85141728; expected=131646.2707096608858569346116658266129032"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!M6",
+      "detail": "actual=133539.85141728; expected=131646.2707096608858569346116658266129032"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!M12",
+      "detail": "actual=151919.452844699; expected=150025.8721370796826562889958603629032258"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!M17",
+      "detail": "actual=151919.452844699; expected=150025.8721370796826562889958603629032258"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!N6",
+      "detail": "actual=151919.452844699; expected=150025.8721370796826562889958603629032258"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!N12",
+      "detail": "actual=183822.175678321; expected=181928.5949707014186590668076181027620968"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!N17",
+      "detail": "actual=183822.175678321; expected=181928.5949707014186590668076181027620968"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!O6",
+      "detail": "actual=183822.175678321; expected=181928.5949707014186590668076181027620968"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!O12",
+      "detail": "actual=206453.484385083; expected=204559.9036774639836884433718582435976008"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!O17",
+      "detail": "actual=206453.484385083; expected=204559.9036774639836884433718582435976008"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!P6",
+      "detail": "actual=206453.484385083; expected=204559.9036774639836884433718582435976008"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!P12",
+      "detail": "actual=242636.984182212; expected=240743.4034745924514687568926207260476829"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!P17",
+      "detail": "actual=242636.984182212; expected=240743.4034745924514687568926207260476829"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/P&L!Q15",
+      "detail": "actual=1303.89774488947; expected=1388.672021714818326874496085349462365591"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/P&L!Q16",
+      "detail": "actual=127843.723925883; expected=127822.5303566762954789649481960478818217"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/P&L!Q17",
+      "detail": "actual=383531.171777648; expected=383467.5910700288864368948445881436454652"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!Q6",
+      "detail": "actual=30000; expected=29670.0"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!Q7",
+      "detail": "actual=383531.171777648; expected=383467.5910700288864368948445881436454652"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!Q10",
+      "detail": "actual=344636.984182212; expected=344573.4034745924514687568926207260476829"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!Q12",
+      "detail": "actual=1405668.77390761; expected=1390316.665077401867574763668269935310607"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!Q13",
+      "detail": "actual=30000; expected=31500.0"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!Q14",
+      "detail": "actual=7313.06451612905; expected=7656.18951612906838709677419354838709673"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!Q15",
+      "detail": "actual=37313.0645161291; expected=39156.18951612906838709677419354838709673"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!Q16",
+      "detail": "actual=-30000; expected=-31500.00000000000000000000000000000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "stress/renewal_boundaries/Cash Flow!Q17",
+      "detail": "actual=242636.984182212; expected=240743.4034745924514687568926207260476829"
+    }
+  ],
+  "reward": {
+    "overall": 0.0,
+    "functional_correctness": 0.9431906614785992,
+    "constraint_satisfaction": 0.9998720655024628,
+    "robustness": 0.939384116693679,
+    "artifact_quality": 1.0
+  }
+}

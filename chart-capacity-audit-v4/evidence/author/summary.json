@@ -1,0 +1,296 @@
+{
+  "oracle": {
+    "reward": {
+      "overall": 1.0,
+      "extraction": 1.0,
+      "reconciliation": 1.0,
+      "calculations": 1.0,
+      "planning": 1.0,
+      "claims": 1.0,
+      "reproducibility": 1.0
+    },
+    "expected": 1,
+    "exit": 0,
+    "initial_exit": 0
+  },
+  "approximate-readings": {
+    "reward": {
+      "overall": 1.0,
+      "extraction": 1.0,
+      "reconciliation": 1.0,
+      "calculations": 1.0,
+      "planning": 1.0,
+      "claims": 1.0,
+      "reproducibility": 1.0
+    },
+    "expected": 1,
+    "exit": 0,
+    "initial_exit": 0
+  },
+  "reordered-readings": {
+    "reward": {
+      "overall": 1.0,
+      "extraction": 1.0,
+      "reconciliation": 1.0,
+      "calculations": 1.0,
+      "planning": 1.0,
+      "claims": 1.0,
+      "reproducibility": 1.0
+    },
+    "expected": 1,
+    "exit": 0,
+    "initial_exit": 0
+  },
+  "one-reading-error-within-allowance": {
+    "reward": {
+      "overall": 0.999123,
+      "extraction": 0.9956140350877193,
+      "reconciliation": 1.0,
+      "calculations": 1.0,
+      "planning": 1.0,
+      "claims": 1.0,
+      "reproducibility": 1.0
+    },
+    "expected": 0.999123,
+    "exit": 0,
+    "initial_exit": 0
+  },
+  "five-reading-errors": {
+    "reward": {
+      "overall": 0.0,
+      "extraction": 0.9780701754385965,
+      "reconciliation": 1.0,
+      "calculations": 1.0,
+      "planning": 1.0,
+      "claims": 1.0,
+      "reproducibility": 1.0
+    },
+    "expected": 0,
+    "exit": 1,
+    "initial_exit": 0
+  },
+  "obsolete-revision": {
+    "reward": {
+      "overall": 0.0,
+      "extraction": 1.0,
+      "reconciliation": 0.7272727272727273,
+      "calculations": 0.6666666666666666,
+      "planning": 0.0,
+      "claims": 1.0,
+      "reproducibility": 0.5
+    },
+    "expected": 0,
+    "exit": 1,
+    "initial_exit": 0
+  },
+  "clamp-reset-to-zero": {
+    "reward": {
+      "overall": 0.0,
+      "extraction": 1.0,
+      "reconciliation": 0.9090909090909091,
+      "calculations": 0.5555555555555556,
+      "planning": 0.0,
+      "claims": 1.0,
+      "reproducibility": 0.25
+    },
+    "expected": 0,
+    "exit": 1,
+    "initial_exit": 0
+  },
+  "reset-both-metrics": {
+    "reward": {
+      "overall": 0.0,
+      "extraction": 1.0,
+      "reconciliation": 0.9696969696969697,
+      "calculations": 0.7777777777777778,
+      "planning": 1.0,
+      "claims": 1.0,
+      "reproducibility": 0.25
+    },
+    "expected": 0,
+    "exit": 1,
+    "initial_exit": 0
+  },
+  "drop-recovered-window": {
+    "reward": {
+      "overall": 0.0,
+      "extraction": 1.0,
+      "reconciliation": 0.9696969696969697,
+      "calculations": 0.7777777777777778,
+      "planning": 0.25,
+      "claims": 1.0,
+      "reproducibility": 0.5
+    },
+    "expected": 0,
+    "exit": 1,
+    "initial_exit": 0
+  },
+  "multiply-count-by-duration": {
+    "reward": {
+      "overall": 0.0,
+      "extraction": 1.0,
+      "reconciliation": 0.06060606060606061,
+      "calculations": 0.0,
+      "planning": 0.0,
+      "claims": 1.0,
+      "reproducibility": 0.5
+    },
+    "expected": 0,
+    "exit": 1,
+    "initial_exit": 0
+  },
+  "maintenance-latency-included": {
+    "reward": {
+      "overall": 0.0,
+      "extraction": 1.0,
+      "reconciliation": 0.9393939393939394,
+      "calculations": 0.7777777777777778,
+      "planning": 0.75,
+      "claims": 1.0,
+      "reproducibility": 0.5
+    },
+    "expected": 0,
+    "exit": 1,
+    "initial_exit": 0
+  },
+  "average-window-fractions": {
+    "reward": {
+      "overall": 0.0,
+      "extraction": 1.0,
+      "reconciliation": 1.0,
+      "calculations": 0.5555555555555556,
+      "planning": 0.75,
+      "claims": 1.0,
+      "reproducibility": 0.5
+    },
+    "expected": 0,
+    "exit": 1,
+    "initial_exit": 0
+  },
+  "ignore-region-freeze": {
+    "reward": {
+      "overall": 0.0,
+      "extraction": 1.0,
+      "reconciliation": 1.0,
+      "calculations": 0.8888888888888888,
+      "planning": 0.25,
+      "claims": 1.0,
+      "reproducibility": 0.5
+    },
+    "expected": 0,
+    "exit": 1,
+    "initial_exit": 0
+  },
+  "omit-activation-charge": {
+    "reward": {
+      "overall": 0.0,
+      "extraction": 1.0,
+      "reconciliation": 1.0,
+      "calculations": 1.0,
+      "planning": 0.25,
+      "claims": 1.0,
+      "reproducibility": 0.5
+    },
+    "expected": 0,
+    "exit": 1,
+    "initial_exit": 0
+  },
+  "ignore-power": {
+    "reward": {
+      "overall": 0.0,
+      "extraction": 1.0,
+      "reconciliation": 1.0,
+      "calculations": 1.0,
+      "planning": 1.0,
+      "claims": 1.0,
+      "reproducibility": 0.75
+    },
+    "expected": 0,
+    "exit": 1,
+    "initial_exit": 0
+  },
+  "ignore-active-region-limit": {
+    "reward": {
+      "overall": 0.0,
+      "extraction": 1.0,
+      "reconciliation": 1.0,
+      "calculations": 1.0,
+      "planning": 1.0,
+      "claims": 1.0,
+      "reproducibility": 0.75
+    },
+    "expected": 0,
+    "exit": 1,
+    "initial_exit": 0
+  },
+  "ignore-regional-block-cap": {
+    "reward": {
+      "overall": 0.0,
+      "extraction": 1.0,
+      "reconciliation": 1.0,
+      "calculations": 1.0,
+      "planning": 1.0,
+      "claims": 1.0,
+      "reproducibility": 0.75
+    },
+    "expected": 0,
+    "exit": 1,
+    "initial_exit": 0
+  },
+  "force-robust-success": {
+    "reward": {
+      "overall": 0.0,
+      "extraction": 1.0,
+      "reconciliation": 1.0,
+      "calculations": 1.0,
+      "planning": 1.0,
+      "claims": 1.0,
+      "reproducibility": 0.75
+    },
+    "expected": 0,
+    "exit": 1,
+    "initial_exit": 0
+  },
+  "causal-overclaim": {
+    "reward": {
+      "overall": 0.0,
+      "extraction": 1.0,
+      "reconciliation": 1.0,
+      "calculations": 1.0,
+      "planning": 1.0,
+      "claims": 0.875,
+      "reproducibility": 1.0
+    },
+    "expected": 0,
+    "exit": 1,
+    "initial_exit": 0
+  },
+  "static-program": {
+    "reward": {
+      "overall": 0.0,
+      "extraction": 1.0,
+      "reconciliation": 1.0,
+      "calculations": 1.0,
+      "planning": 1.0,
+      "claims": 1.0,
+      "reproducibility": 0.5
+    },
+    "expected": 0,
+    "exit": 1,
+    "initial_exit": 0
+  },
+  "baseline": {
+    "reward": {
+      "overall": 0.0,
+      "extraction": 0.0,
+      "reconciliation": 0.0,
+      "calculations": 0.0,
+      "planning": 0.0,
+      "claims": 0.0,
+      "reproducibility": 0.0
+    },
+    "expected": 0,
+    "exit": 1,
+    "initial_exit": null
+  }
+}

@@ -1,0 +1,302 @@
+{
+  "source_job": "cohort-oracle-04",
+  "files": [
+    {
+      "path": "config.json",
+      "sha256": "72825d7cbe1b37d017e5b49f723536ee6acbc504bfeae9c065ea03f0d57f3ee0",
+      "bytes": 147
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/config.json",
+      "sha256": "05835bee5cc1209731da475819a72a54943f04507e89dfa9d66b7b08a0cbec5d",
+      "bytes": 238
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/result.json",
+      "sha256": "0e4c1193e7bbb77eb0f1c9bc4c6dd4f2bc4ca1398775602a40a7322a5acf66a1",
+      "bytes": 6730
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-1/agent/oracle.txt",
+      "sha256": "83c700c5c46998a4e9ff621a3cc267bb6806c136ebac8646d29fed0ff5e3fdd9",
+      "bytes": 902
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-1/artifacts/app/REPAIR_REPORT.md",
+      "sha256": "c5e521d8742e58db3a4621ea6e0005e0e5183260f11cba654343140bacf900f3",
+      "bytes": 936
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-1/artifacts/app/checks/test_smoke.py",
+      "sha256": "2bb75e6a25fd51b6691e5383bef44e4e4912e3e3bacaaad1373cee6cb031fd34",
+      "bytes": 1381
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-1/artifacts/app/demo.py",
+      "sha256": "812bd75f589077ddf34cc928dc4bd155ba2be4579b77b8889bd73fed55f11269",
+      "bytes": 1003
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-1/artifacts/app/docs/contract.md",
+      "sha256": "ac2c85413cfacd2268528c68991429b002b73bbfc1c6183439c8ce1b284672a5",
+      "bytes": 6973
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-1/artifacts/app/incidents/release-1.json",
+      "sha256": "cdbd3bbbd4a093cc846362402cc6434a14f8a6b99f755856452ae23fa2d04b7c",
+      "bytes": 993
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-1/artifacts/app/incidents/release-2.json",
+      "sha256": "8fa4b7ea48c317d4167afec1401b16a1dc87368a1d512931e3b8179d0fabf6a5",
+      "bytes": 772
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-1/artifacts/app/incidents/release-3.json",
+      "sha256": "b112237be715ac098a77bcd22173800a8427dff76807a5cb1cdce08543580961",
+      "bytes": 1007
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-1/artifacts/app/maintainer.py",
+      "sha256": "670d8ea1becb29535c683f88ea89dc1302b6f5067f2c4875e18c16fa065f392c",
+      "bytes": 5640
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-1/artifacts/app/release.txt",
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+      "bytes": 2
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-1/artifacts/app/runtime.py",
+      "sha256": "512e399c3feb0fb59fe0d98663274b771821aa6608570537312d0d0d296e415f",
+      "bytes": 4432
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-1/artifacts/app/schema.sql",
+      "sha256": "02ddc8de6336a48d7c6a1258315923ee16abb437f1e6f3deb67ff1825487a818",
+      "bytes": 1209
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-1/artifacts/app/state/demo.sqlite",
+      "sha256": "a8a0601dfd6373e58fbdf509c50b079099e960167dfe53202996dcdf48b19db9",
+      "bytes": 90112
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-1/artifacts/manifest.json",
+      "sha256": "4ad5f62334ec1b3d257150d6fbd9a47bb85f747f55f73a1241f9ead7c2e43ce8",
+      "bytes": 378
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-1/verifier/checks.json",
+      "sha256": "fe53e77d6b21cbb26acd57997599ed15a46d92a988530bdb47d2fd47f6f00c6f",
+      "bytes": 2669
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-1/verifier/reward.json",
+      "sha256": "7f1276dd23b2db992b1e8b20e694f10aa2cdaf2df30859a0699f4d204a786fe1",
+      "bytes": 136
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-1/verifier/test-stdout.txt",
+      "sha256": "c0089ecef0ded5f87a539e5a02ffa4c125433f712ee0e1fb3dbfff46d7aa3839",
+      "bytes": 1867
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-2/agent/oracle.txt",
+      "sha256": "c8b8cb2c636f3e336d265640c023ad59fa1d15df2d085d7fe942f24e939948e9",
+      "bytes": 1806
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-2/artifacts/app/REPAIR_REPORT.md",
+      "sha256": "c5e521d8742e58db3a4621ea6e0005e0e5183260f11cba654343140bacf900f3",
+      "bytes": 936
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-2/artifacts/app/checks/test_smoke.py",
+      "sha256": "2bb75e6a25fd51b6691e5383bef44e4e4912e3e3bacaaad1373cee6cb031fd34",
+      "bytes": 1381
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-2/artifacts/app/demo.py",
+      "sha256": "812bd75f589077ddf34cc928dc4bd155ba2be4579b77b8889bd73fed55f11269",
+      "bytes": 1003
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-2/artifacts/app/docs/contract.md",
+      "sha256": "ac2c85413cfacd2268528c68991429b002b73bbfc1c6183439c8ce1b284672a5",
+      "bytes": 6973
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-2/artifacts/app/incidents/release-1.json",
+      "sha256": "cdbd3bbbd4a093cc846362402cc6434a14f8a6b99f755856452ae23fa2d04b7c",
+      "bytes": 993
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-2/artifacts/app/incidents/release-2.json",
+      "sha256": "8fa4b7ea48c317d4167afec1401b16a1dc87368a1d512931e3b8179d0fabf6a5",
+      "bytes": 772
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-2/artifacts/app/incidents/release-3.json",
+      "sha256": "b112237be715ac098a77bcd22173800a8427dff76807a5cb1cdce08543580961",
+      "bytes": 1007
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-2/artifacts/app/maintainer.py",
+      "sha256": "670d8ea1becb29535c683f88ea89dc1302b6f5067f2c4875e18c16fa065f392c",
+      "bytes": 5640
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-2/artifacts/app/release.txt",
+      "sha256": "53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3",
+      "bytes": 2
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-2/artifacts/app/runtime.py",
+      "sha256": "512e399c3feb0fb59fe0d98663274b771821aa6608570537312d0d0d296e415f",
+      "bytes": 4432
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-2/artifacts/app/schema.sql",
+      "sha256": "02ddc8de6336a48d7c6a1258315923ee16abb437f1e6f3deb67ff1825487a818",
+      "bytes": 1209
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-2/artifacts/app/state/demo.sqlite",
+      "sha256": "1fe5cae70a8d4f79194ec951b14014a324a2a6d2c40033a283f2f28f0bef206a",
+      "bytes": 90112
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-2/artifacts/manifest.json",
+      "sha256": "4ad5f62334ec1b3d257150d6fbd9a47bb85f747f55f73a1241f9ead7c2e43ce8",
+      "bytes": 378
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-2/verifier/checks.json",
+      "sha256": "07cc706336977b35a37a406072a953ff861e9a7f88fa5ef0e00ea251a0ea9322",
+      "bytes": 2631
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-2/verifier/reward.json",
+      "sha256": "7f1276dd23b2db992b1e8b20e694f10aa2cdaf2df30859a0699f4d204a786fe1",
+      "bytes": 136
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-2/verifier/test-stdout.txt",
+      "sha256": "9967a0763c3e79e1e84f203d1775e137be7f82643eb34c3f798a056f91a67fc8",
+      "bytes": 1841
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-3/agent/oracle.txt",
+      "sha256": "d07c7be76dcd8a32113edf44a11d1dce90f3604ce2ba53b1f9c756a6f0e9e192",
+      "bytes": 2672
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-3/artifacts/app/REPAIR_REPORT.md",
+      "sha256": "c5e521d8742e58db3a4621ea6e0005e0e5183260f11cba654343140bacf900f3",
+      "bytes": 936
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-3/artifacts/app/checks/test_smoke.py",
+      "sha256": "2bb75e6a25fd51b6691e5383bef44e4e4912e3e3bacaaad1373cee6cb031fd34",
+      "bytes": 1381
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-3/artifacts/app/demo.py",
+      "sha256": "812bd75f589077ddf34cc928dc4bd155ba2be4579b77b8889bd73fed55f11269",
+      "bytes": 1003
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-3/artifacts/app/docs/contract.md",
+      "sha256": "ac2c85413cfacd2268528c68991429b002b73bbfc1c6183439c8ce1b284672a5",
+      "bytes": 6973
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-3/artifacts/app/incidents/release-1.json",
+      "sha256": "cdbd3bbbd4a093cc846362402cc6434a14f8a6b99f755856452ae23fa2d04b7c",
+      "bytes": 993
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-3/artifacts/app/incidents/release-2.json",
+      "sha256": "8fa4b7ea48c317d4167afec1401b16a1dc87368a1d512931e3b8179d0fabf6a5",
+      "bytes": 772
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-3/artifacts/app/incidents/release-3.json",
+      "sha256": "b112237be715ac098a77bcd22173800a8427dff76807a5cb1cdce08543580961",
+      "bytes": 1007
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-3/artifacts/app/maintainer.py",
+      "sha256": "670d8ea1becb29535c683f88ea89dc1302b6f5067f2c4875e18c16fa065f392c",
+      "bytes": 5640
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-3/artifacts/app/release.txt",
+      "sha256": "1121cfccd5913f0a63fec40a6ffd44ea64f9dc135c66634ba001d10bcf4302a2",
+      "bytes": 2
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-3/artifacts/app/runtime.py",
+      "sha256": "512e399c3feb0fb59fe0d98663274b771821aa6608570537312d0d0d296e415f",
+      "bytes": 4432
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-3/artifacts/app/schema.sql",
+      "sha256": "02ddc8de6336a48d7c6a1258315923ee16abb437f1e6f3deb67ff1825487a818",
+      "bytes": 1209
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-3/artifacts/app/state/demo.sqlite",
+      "sha256": "fc9ddf5bf57a2aca934bc54a6c20fd3a4df27f16ec236e905826510154b2c10f",
+      "bytes": 90112
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-3/artifacts/manifest.json",
+      "sha256": "4ad5f62334ec1b3d257150d6fbd9a47bb85f747f55f73a1241f9ead7c2e43ce8",
+      "bytes": 378
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-3/verifier/checks.json",
+      "sha256": "170b90df5bef6e349bcdbb5f48c8baf1f961cb5563d8fddf8b91b770bc04771b",
+      "bytes": 2597
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-3/verifier/reward.json",
+      "sha256": "7f1276dd23b2db992b1e8b20e694f10aa2cdaf2df30859a0699f4d204a786fe1",
+      "bytes": 136
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/steps/release-3/verifier/test-stdout.txt",
+      "sha256": "81c51f3199fd33adaabd2e664fb74322ca80a8dfff85fed5c8cf6047c6b03b5b",
+      "bytes": 1803
+    },
+    {
+      "path": "incremental-cohort-board__AZrMRmC/trial.log",
+      "sha256": "e6a27a09927045e7fe51b20b9a2831b237aa798eee8052e66227b0691a0018cf",
+      "bytes": 286
+    },
+    {
+      "path": "job.log",
+      "sha256": "834f38759b934621b91ff16532fb29fcecaa8fbfff7b6b1e13662bb55dda37e2",
+      "bytes": 364
+    },
+    {
+      "path": "lock.json",
+      "sha256": "831db49eb5b964b1a45507b7607c4189db7a870593041102960b19e61b096b86",
+      "bytes": 1927
+    },
+    {
+      "path": "result.json",
+      "sha256": "c307e0d4663c44edcf25aecf3f75561b7bb41294d6d51ab3e2f57c4a8958ccd5",
+      "bytes": 2081
+    }
+  ],
+  "credential_redactions": [],
+  "excluded": [
+    "authentication/session databases",
+    "CLI session-state",
+    "node_modules",
+    "Python bytecode"
+  ]
+}

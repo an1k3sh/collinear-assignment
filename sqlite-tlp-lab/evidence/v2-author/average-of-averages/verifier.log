@@ -1,0 +1,388 @@
+test_artifact_cli (test_tlp.TLPTests.test_artifact_cli) ... FAIL
+test_artifact_cli_mismatch_and_error (test_tlp.TLPTests.test_artifact_cli_mismatch_and_error) ... ok
+test_artifact_save_replay (test_tlp.TLPTests.test_artifact_save_replay) ... ok
+test_completeness_avg (test_tlp.TLPTests.test_completeness_avg) ... 
+  test_completeness_avg (test_tlp.TLPTests.test_completeness_avg) (case={'version': 1, 'source': 'inner', 'tables': {'t': [[1, 1, 8, "q'"], [2, 1, 8, "q'"], [3, 2, -3, 'z'], [4, None, None, None], [5, 2, None, 'z'], [6, 4, 0, 'nul\x00tag']], 'u': [[1, 1, 2, 'r'], [2, 1, None, 's'], [3, 2, -4, None]]}, 'predicate': ['and', ['not', ['eq', ['col', 't', 'v'], ['lit', 8]]], ['le', ['add', ['col', 't', 'id'], ['lit', 3]], ['lit', 8]]], 'where': None, 'mode': 'avg', 'select': [], 'value': ['col', 't', 'v'], 'group_by': []}) ... FAIL
+test_completeness_count (test_tlp.TLPTests.test_completeness_count) ... ok
+test_completeness_distinct (test_tlp.TLPTests.test_completeness_distinct) ... ok
+test_completeness_group (test_tlp.TLPTests.test_completeness_group) ... ok
+test_completeness_having (test_tlp.TLPTests.test_completeness_having) ... ok
+test_completeness_max (test_tlp.TLPTests.test_completeness_max) ... ok
+test_completeness_min (test_tlp.TLPTests.test_completeness_min) ... ok
+test_completeness_sum (test_tlp.TLPTests.test_completeness_sum) ... ok
+test_completeness_where (test_tlp.TLPTests.test_completeness_where) ... ok
+test_completeness_where_extended (test_tlp.TLPTests.test_completeness_where_extended) ... ok
+test_diversity_edge_data (test_tlp.TLPTests.test_diversity_edge_data) ... 
+  test_diversity_edge_data (test_tlp.TLPTests.test_diversity_edge_data) (seed=0) ... FAIL
+  test_diversity_edge_data (test_tlp.TLPTests.test_diversity_edge_data) (seed=17) ... FAIL
+  test_diversity_edge_data (test_tlp.TLPTests.test_diversity_edge_data) (seed=-435) ... FAIL
+  test_diversity_edge_data (test_tlp.TLPTests.test_diversity_edge_data) (seed=9823) ... FAIL
+test_diversity_generation (test_tlp.TLPTests.test_diversity_generation) ... ok
+test_diversity_group_oracle (test_tlp.TLPTests.test_diversity_group_oracle) ... 
+  test_diversity_group_oracle (test_tlp.TLPTests.test_diversity_group_oracle) (seed=0) ... FAIL
+  test_diversity_group_oracle (test_tlp.TLPTests.test_diversity_group_oracle) (seed=17) ... FAIL
+  test_diversity_group_oracle (test_tlp.TLPTests.test_diversity_group_oracle) (seed=-435) ... FAIL
+  test_diversity_group_oracle (test_tlp.TLPTests.test_diversity_group_oracle) (seed=9823) ... FAIL
+test_diversity_grouping (test_tlp.TLPTests.test_diversity_grouping) ... 
+  test_diversity_grouping (test_tlp.TLPTests.test_diversity_grouping) (seed=0) ... FAIL
+  test_diversity_grouping (test_tlp.TLPTests.test_diversity_grouping) (seed=17) ... FAIL
+  test_diversity_grouping (test_tlp.TLPTests.test_diversity_grouping) (seed=-435) ... FAIL
+  test_diversity_grouping (test_tlp.TLPTests.test_diversity_grouping) (seed=9823) ... FAIL
+test_diversity_having_oracle (test_tlp.TLPTests.test_diversity_having_oracle) ... 
+  test_diversity_having_oracle (test_tlp.TLPTests.test_diversity_having_oracle) (seed=0) ... FAIL
+  test_diversity_having_oracle (test_tlp.TLPTests.test_diversity_having_oracle) (seed=17) ... FAIL
+  test_diversity_having_oracle (test_tlp.TLPTests.test_diversity_having_oracle) (seed=-435) ... FAIL
+  test_diversity_having_oracle (test_tlp.TLPTests.test_diversity_having_oracle) (seed=9823) ... FAIL
+test_diversity_modes (test_tlp.TLPTests.test_diversity_modes) ... 
+  test_diversity_modes (test_tlp.TLPTests.test_diversity_modes) (seed=0) ... FAIL
+  test_diversity_modes (test_tlp.TLPTests.test_diversity_modes) (seed=17) ... FAIL
+  test_diversity_modes (test_tlp.TLPTests.test_diversity_modes) (seed=-435) ... FAIL
+  test_diversity_modes (test_tlp.TLPTests.test_diversity_modes) (seed=9823) ... FAIL
+test_diversity_operators (test_tlp.TLPTests.test_diversity_operators) ... 
+  test_diversity_operators (test_tlp.TLPTests.test_diversity_operators) (seed=0) ... FAIL
+  test_diversity_operators (test_tlp.TLPTests.test_diversity_operators) (seed=17) ... FAIL
+  test_diversity_operators (test_tlp.TLPTests.test_diversity_operators) (seed=-435) ... FAIL
+  test_diversity_operators (test_tlp.TLPTests.test_diversity_operators) (seed=9823) ... FAIL
+test_diversity_partition_occupancy (test_tlp.TLPTests.test_diversity_partition_occupancy) ... 
+  test_diversity_partition_occupancy (test_tlp.TLPTests.test_diversity_partition_occupancy) (seed=0) ... FAIL
+  test_diversity_partition_occupancy (test_tlp.TLPTests.test_diversity_partition_occupancy) (seed=17) ... FAIL
+  test_diversity_partition_occupancy (test_tlp.TLPTests.test_diversity_partition_occupancy) (seed=-435) ... FAIL
+  test_diversity_partition_occupancy (test_tlp.TLPTests.test_diversity_partition_occupancy) (seed=9823) ... FAIL
+test_diversity_shapes (test_tlp.TLPTests.test_diversity_shapes) ... 
+  test_diversity_shapes (test_tlp.TLPTests.test_diversity_shapes) (seed=0) ... FAIL
+  test_diversity_shapes (test_tlp.TLPTests.test_diversity_shapes) (seed=17) ... FAIL
+  test_diversity_shapes (test_tlp.TLPTests.test_diversity_shapes) (seed=-435) ... FAIL
+  test_diversity_shapes (test_tlp.TLPTests.test_diversity_shapes) (seed=9823) ... FAIL
+test_diversity_sources_filters (test_tlp.TLPTests.test_diversity_sources_filters) ... 
+  test_diversity_sources_filters (test_tlp.TLPTests.test_diversity_sources_filters) (seed=0) ... FAIL
+  test_diversity_sources_filters (test_tlp.TLPTests.test_diversity_sources_filters) (seed=17) ... FAIL
+  test_diversity_sources_filters (test_tlp.TLPTests.test_diversity_sources_filters) (seed=-435) ... FAIL
+  test_diversity_sources_filters (test_tlp.TLPTests.test_diversity_sources_filters) (seed=9823) ... FAIL
+test_validity_binding (test_tlp.TLPTests.test_validity_binding) ... ok
+test_validity_comparator (test_tlp.TLPTests.test_validity_comparator) ... ok
+test_validity_composition_without_database (test_tlp.TLPTests.test_validity_composition_without_database) ... FAIL
+test_validity_errors (test_tlp.TLPTests.test_validity_errors) ... ok
+test_validity_executor_and_detection (test_tlp.TLPTests.test_validity_executor_and_detection) ... ok
+test_validity_group_having_witnesses (test_tlp.TLPTests.test_validity_group_having_witnesses) ... ok
+test_validity_partition_plans (test_tlp.TLPTests.test_validity_partition_plans) ... ok
+test_validity_protected_files (test_tlp.TLPTests.test_validity_protected_files) ... ok
+test_validity_reference_selfcheck (test_tlp.TLPTests.test_validity_reference_selfcheck) ... ok
+
+======================================================================
+FAIL: test_artifact_cli (test_tlp.TLPTests.test_artifact_cli)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 325, in test_artifact_cli
+    self.assertEqual(run.returncode, 0, run.stderr)
+AssertionError: 1 != 0 : 
+
+======================================================================
+FAIL: test_completeness_avg (test_tlp.TLPTests.test_completeness_avg) (case={'version': 1, 'source': 'inner', 'tables': {'t': [[1, 1, 8, "q'"], [2, 1, 8, "q'"], [3, 2, -3, 'z'], [4, None, None, None], [5, 2, None, 'z'], [6, 4, 0, 'nul\x00tag']], 'u': [[1, 1, 2, 'r'], [2, 1, None, 's'], [3, 2, -4, None]]}, 'predicate': ['and', ['not', ['eq', ['col', 't', 'v'], ['lit', 8]]], ['le', ['add', ['col', 't', 'id'], ['lit', 3]], ['lit', 8]]], 'where': None, 'mode': 'avg', 'select': [], 'value': ['col', 't', 'v'], 'group_by': []})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 224, in check_modes
+    self.assertIs(result["ok"], True)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_diversity_edge_data (test_tlp.TLPTests.test_diversity_edge_data) (seed=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 393, in test
+    self.assertIs(run_case(case)["ok"], True)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_diversity_edge_data (test_tlp.TLPTests.test_diversity_edge_data) (seed=17)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 393, in test
+    self.assertIs(run_case(case)["ok"], True)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_diversity_edge_data (test_tlp.TLPTests.test_diversity_edge_data) (seed=-435)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 393, in test
+    self.assertIs(run_case(case)["ok"], True)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_diversity_edge_data (test_tlp.TLPTests.test_diversity_edge_data) (seed=9823)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 393, in test
+    self.assertIs(run_case(case)["ok"], True)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_diversity_group_oracle (test_tlp.TLPTests.test_diversity_group_oracle) (seed=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 393, in test
+    self.assertIs(run_case(case)["ok"], True)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_diversity_group_oracle (test_tlp.TLPTests.test_diversity_group_oracle) (seed=17)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 393, in test
+    self.assertIs(run_case(case)["ok"], True)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_diversity_group_oracle (test_tlp.TLPTests.test_diversity_group_oracle) (seed=-435)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 393, in test
+    self.assertIs(run_case(case)["ok"], True)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_diversity_group_oracle (test_tlp.TLPTests.test_diversity_group_oracle) (seed=9823)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 393, in test
+    self.assertIs(run_case(case)["ok"], True)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_diversity_grouping (test_tlp.TLPTests.test_diversity_grouping) (seed=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 393, in test
+    self.assertIs(run_case(case)["ok"], True)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_diversity_grouping (test_tlp.TLPTests.test_diversity_grouping) (seed=17)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 393, in test
+    self.assertIs(run_case(case)["ok"], True)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_diversity_grouping (test_tlp.TLPTests.test_diversity_grouping) (seed=-435)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 393, in test
+    self.assertIs(run_case(case)["ok"], True)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_diversity_grouping (test_tlp.TLPTests.test_diversity_grouping) (seed=9823)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 393, in test
+    self.assertIs(run_case(case)["ok"], True)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_diversity_having_oracle (test_tlp.TLPTests.test_diversity_having_oracle) (seed=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 393, in test
+    self.assertIs(run_case(case)["ok"], True)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_diversity_having_oracle (test_tlp.TLPTests.test_diversity_having_oracle) (seed=17)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 393, in test
+    self.assertIs(run_case(case)["ok"], True)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_diversity_having_oracle (test_tlp.TLPTests.test_diversity_having_oracle) (seed=-435)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 393, in test
+    self.assertIs(run_case(case)["ok"], True)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_diversity_having_oracle (test_tlp.TLPTests.test_diversity_having_oracle) (seed=9823)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 393, in test
+    self.assertIs(run_case(case)["ok"], True)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_diversity_modes (test_tlp.TLPTests.test_diversity_modes) (seed=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 393, in test
+    self.assertIs(run_case(case)["ok"], True)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_diversity_modes (test_tlp.TLPTests.test_diversity_modes) (seed=17)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 393, in test
+    self.assertIs(run_case(case)["ok"], True)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_diversity_modes (test_tlp.TLPTests.test_diversity_modes) (seed=-435)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 393, in test
+    self.assertIs(run_case(case)["ok"], True)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_diversity_modes (test_tlp.TLPTests.test_diversity_modes) (seed=9823)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 393, in test
+    self.assertIs(run_case(case)["ok"], True)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_diversity_operators (test_tlp.TLPTests.test_diversity_operators) (seed=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 393, in test
+    self.assertIs(run_case(case)["ok"], True)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_diversity_operators (test_tlp.TLPTests.test_diversity_operators) (seed=17)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 393, in test
+    self.assertIs(run_case(case)["ok"], True)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_diversity_operators (test_tlp.TLPTests.test_diversity_operators) (seed=-435)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 393, in test
+    self.assertIs(run_case(case)["ok"], True)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_diversity_operators (test_tlp.TLPTests.test_diversity_operators) (seed=9823)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 393, in test
+    self.assertIs(run_case(case)["ok"], True)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_diversity_partition_occupancy (test_tlp.TLPTests.test_diversity_partition_occupancy) (seed=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 393, in test
+    self.assertIs(run_case(case)["ok"], True)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_diversity_partition_occupancy (test_tlp.TLPTests.test_diversity_partition_occupancy) (seed=17)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 393, in test
+    self.assertIs(run_case(case)["ok"], True)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_diversity_partition_occupancy (test_tlp.TLPTests.test_diversity_partition_occupancy) (seed=-435)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 393, in test
+    self.assertIs(run_case(case)["ok"], True)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_diversity_partition_occupancy (test_tlp.TLPTests.test_diversity_partition_occupancy) (seed=9823)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 393, in test
+    self.assertIs(run_case(case)["ok"], True)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_diversity_shapes (test_tlp.TLPTests.test_diversity_shapes) (seed=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 393, in test
+    self.assertIs(run_case(case)["ok"], True)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_diversity_shapes (test_tlp.TLPTests.test_diversity_shapes) (seed=17)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 393, in test
+    self.assertIs(run_case(case)["ok"], True)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_diversity_shapes (test_tlp.TLPTests.test_diversity_shapes) (seed=-435)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 393, in test
+    self.assertIs(run_case(case)["ok"], True)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_diversity_shapes (test_tlp.TLPTests.test_diversity_shapes) (seed=9823)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 393, in test
+    self.assertIs(run_case(case)["ok"], True)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_diversity_sources_filters (test_tlp.TLPTests.test_diversity_sources_filters) (seed=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 393, in test
+    self.assertIs(run_case(case)["ok"], True)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_diversity_sources_filters (test_tlp.TLPTests.test_diversity_sources_filters) (seed=17)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 393, in test
+    self.assertIs(run_case(case)["ok"], True)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_diversity_sources_filters (test_tlp.TLPTests.test_diversity_sources_filters) (seed=-435)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 393, in test
+    self.assertIs(run_case(case)["ok"], True)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_diversity_sources_filters (test_tlp.TLPTests.test_diversity_sources_filters) (seed=9823)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 393, in test
+    self.assertIs(run_case(case)["ok"], True)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_validity_composition_without_database (test_tlp.TLPTests.test_validity_composition_without_database)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 104, in test_validity_composition_without_database
+    self.assertBag([[2.5]], merge("avg", 0, [[[2, 1]], [[8, 3]], [[None, 0]]]))
+  File "/submission/tests/test_tlp.py", line 34, in assertBag
+    self.assertEqual(bag(expected), bag(actual))
+AssertionError: Counter({(('float', 2.5),): 1}) != Counter({(('float', 2.333333333333333),): 1})
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.998s
+
+FAILED (failures=39)

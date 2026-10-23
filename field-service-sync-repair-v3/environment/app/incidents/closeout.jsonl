@@ -1,0 +1,4 @@
+{"step":1,"incident":"two-order closeout","operations":["visit pump at revision 7","mark pump done at revision 8","mark valve done at revision 3"],"observed":"valve conflicted; pump still changed"}
+{"step":2,"incident":"lost batch receipt","observed":"batch committed, tablet lost response; later pull page showed only its first operation","expected":"first intent retires once; full frozen batch remains retryable; later intents stay visible"}
+{"step":3,"incident":"rebootstrap after response loss","observed":"latest snapshot row superseded own visit; optimistic visit applied a second time","expected":"historical confirmation identifies the committed visit, despite snapshot row having a later revision"}
+{"step":4,"incident":"multi-order retry after restart","observed":"rebuilt batch omitted already-confirmed intents and failed idempotency","expected":"retry exactly the originally persisted batch envelope"}

@@ -1,0 +1,80 @@
+[
+  {
+    "probe": "exact-20000-step-success",
+    "passed": true
+  },
+  {
+    "probe": "unicode-label-and-data",
+    "passed": true
+  },
+  {
+    "probe": "sibling-scope-and-call-frame-reuse",
+    "passed": true
+  },
+  {
+    "probe": "pause-is-final-statement",
+    "passed": true
+  },
+  {
+    "probe": "valid-checkpoint-key-order-and-whitespace",
+    "passed": true
+  },
+  {
+    "probe": "user-sku-serialization-marker-collision",
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/audit.py\", line 243, in main\n    run()\n  File \"/audit.py\", line 82, in marker_keys\n    status(invoke(source, incoming, output, resume=saved), 0)\n  File \"/tests/durable_checks.py\", line 66, in status\n    equal(process.returncode, expected, f\"return code; stderr={process.stderr}\")\n  File \"/tests/test_semantics.py\", line 27, in equal\n    raise AssertionError(f\"{label}: expected {expected!r}, got {actual!r}\")\nAssertionError: return code; stderr={\"error\": \"CHECKPOINT\", \"message\": \"Incompatible execution state: stockroom.language.Token() argument after * must be an iterable, not int\"}\n: expected 0, got 8\n"
+  },
+  {
+    "probe": "5000-digit-integer-through-checkpoint",
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/audit.py\", line 243, in main\n    run()\n  File \"/audit.py\", line 95, in large_integer\n    status(invoke(source, incoming, output, save=saved), 10)\n  File \"/tests/durable_checks.py\", line 66, in status\n    equal(process.returncode, expected, f\"return code; stderr={process.stderr}\")\n  File \"/tests/test_semantics.py\", line 27, in equal\n    raise AssertionError(f\"{label}: expected {expected!r}, got {actual!r}\")\nAssertionError: return code; stderr=Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/app/stockroom/__main__.py\", line 108, in <module>\n    raise SystemExit(main())\n                     ^^^^^^\n  File \"/app/stockroom/__main__.py\", line 85, in main\n    procedures.extend(Parser(path.read_text(encoding=\"utf-8\"), str(path)).program())\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/stockroom/language.py\", line 272, in program\n    procedures.append(Node(\"proc\", token, [name, params, self.block()]))\n                                                         ^^^^^^^^^^^^\n  File \"/app/stockroom/language.py\", line 194, in block\n    result.append(self.statement())\n                  ^^^^^^^^^^^^^^^^\n  File \"/app/stockroom/language.py\", line 205, in statement\n    args = [name, typ, self.expression()]\n                       ^^^^^^^^^^^^^^^^^\n  File \"/app/stockroom/language.py\", line 177, in expression\n    left = self.literal()\n           ^^^^^^^^^^^^^^\n  File \"/app/stockroom/language.py\", line 140, in literal\n    return Node(\"literal\", token, [int(token.text)])\n                                   ^^^^^^^^^^^^^^^\nValueError: Exceeds the limit (4300 digits) for integer string conversion: value has 5000 digits; use sys.set_int_max_str_digits() to increase the limit\n: expected 10, got 1\n"
+  },
+  {
+    "probe": "missing-resume-file",
+    "passed": true
+  },
+  {
+    "probe": "float-checkpoint-version",
+    "passed": true
+  },
+  {
+    "probe": "break-keeps-enclosing-transaction-tentative",
+    "passed": true
+  },
+  {
+    "probe": "main-return-commits-all-exited-boundaries",
+    "passed": true
+  },
+  {
+    "probe": "closed-hold-tombstone-after-two-restarts",
+    "passed": true
+  },
+  {
+    "probe": "recovery-binding-can-shadow-builtin-name",
+    "passed": true
+  },
+  {
+    "probe": "new-zero-source-and-rollback-key-removal",
+    "passed": true
+  },
+  {
+    "probe": "three-calls-and-handler-retain-correct-locals",
+    "passed": true
+  },
+  {
+    "probe": "error-propagates-through-unhandled-transactions-after-pause",
+    "passed": true
+  },
+  {
+    "probe": "recovery-continue-commits-only-enclosing-exited-transaction",
+    "passed": true
+  },
+  {
+    "probe": "rollback-restores-string-and-bool-types",
+    "passed": true
+  },
+  {
+    "probe": "separate-sibling-recovery-scopes-reuse-error-name",
+    "passed": true
+  }
+]

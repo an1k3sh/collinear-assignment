@@ -1,0 +1,347 @@
+{
+  "source_job": "cohort-opus-01",
+  "files": [
+    {
+      "path": "config.json",
+      "sha256": "c0296f0817c65c90aba68f7bd429f1bb3ac17c46beecdaf30effb8014c4556e1",
+      "bytes": 480
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/config.json",
+      "sha256": "48b41c6ba0770419d26175eb519e0cfcbcb1cd4918b18de9b745512f6fc24a08",
+      "bytes": 522
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/result.json",
+      "sha256": "21f23566182aa8ba612a8cf45448ea9784a9f37eb0f4e3cde254179a3075eaf3",
+      "bytes": 6920
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-1/agent/copilot-cli.jsonl",
+      "sha256": "98c6f846017abc51e002170ed4221508cd54b4e8d9dc0d797c17e200669cf404",
+      "bytes": 2098019
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-1/agent/copilot-cli.txt",
+      "sha256": "98c6f846017abc51e002170ed4221508cd54b4e8d9dc0d797c17e200669cf404",
+      "bytes": 2098019
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-1/agent/trajectory.json",
+      "sha256": "f55dea97f851d59fb2465f9923ea63bf6b98e691ae471fd2a3e6e454441805f8",
+      "bytes": 248217
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-1/artifacts/app/REPAIR_REPORT.md",
+      "sha256": "7f168a1c6a18cd3655b4db5a10781effe2b46e73ec0b1053ec92c29f6867c33b",
+      "bytes": 5685
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-1/artifacts/app/checks/test_inner_projection.py",
+      "sha256": "b493bc02d19490f7feac040626d6d10c056bf394d66e0d6edbeee5f07f1beac7",
+      "bytes": 12753
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-1/artifacts/app/checks/test_smoke.py",
+      "sha256": "2bb75e6a25fd51b6691e5383bef44e4e4912e3e3bacaaad1373cee6cb031fd34",
+      "bytes": 1381
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-1/artifacts/app/demo.py",
+      "sha256": "812bd75f589077ddf34cc928dc4bd155ba2be4579b77b8889bd73fed55f11269",
+      "bytes": 1003
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-1/artifacts/app/docs/contract.md",
+      "sha256": "ac2c85413cfacd2268528c68991429b002b73bbfc1c6183439c8ce1b284672a5",
+      "bytes": 6973
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-1/artifacts/app/incidents/release-1.json",
+      "sha256": "cdbd3bbbd4a093cc846362402cc6434a14f8a6b99f755856452ae23fa2d04b7c",
+      "bytes": 993
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-1/artifacts/app/incidents/release-2.json",
+      "sha256": "8fa4b7ea48c317d4167afec1401b16a1dc87368a1d512931e3b8179d0fabf6a5",
+      "bytes": 772
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-1/artifacts/app/incidents/release-3.json",
+      "sha256": "b112237be715ac098a77bcd22173800a8427dff76807a5cb1cdce08543580961",
+      "bytes": 1007
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-1/artifacts/app/maintainer.py",
+      "sha256": "48fd26f596e7c648cb7d8446265ce75f7720f9a01209c0cdbe86736cf6fe0435",
+      "bytes": 9195
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-1/artifacts/app/release.txt",
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+      "bytes": 2
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-1/artifacts/app/runtime.py",
+      "sha256": "512e399c3feb0fb59fe0d98663274b771821aa6608570537312d0d0d296e415f",
+      "bytes": 4432
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-1/artifacts/app/schema.sql",
+      "sha256": "02ddc8de6336a48d7c6a1258315923ee16abb437f1e6f3deb67ff1825487a818",
+      "bytes": 1209
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-1/artifacts/app/state/demo.sqlite",
+      "sha256": "bc971f63e7bb29625911ea470ddab1d63cbefdbd0c77441a402164b9173ec971",
+      "bytes": 90112
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-1/artifacts/manifest.json",
+      "sha256": "4ad5f62334ec1b3d257150d6fbd9a47bb85f747f55f73a1241f9ead7c2e43ce8",
+      "bytes": 378
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-1/verifier/checks.json",
+      "sha256": "0b11082c16df26ffcced8f112cbb3db0666eeecfa44ef5af9717c4414286e6a2",
+      "bytes": 2669
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-1/verifier/reward.json",
+      "sha256": "7f1276dd23b2db992b1e8b20e694f10aa2cdaf2df30859a0699f4d204a786fe1",
+      "bytes": 136
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-1/verifier/test-stdout.txt",
+      "sha256": "22b092e56adc1198f2beaaa157ccde21378936826fd7ee7e1ff57a88bf84e27e",
+      "bytes": 1867
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-2/agent/copilot-cli.jsonl",
+      "sha256": "05a195b36df0c6c41d7eb818fc656399a0d564a7b0518043b6f627e36eeba9b1",
+      "bytes": 1408047
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-2/agent/copilot-cli.txt",
+      "sha256": "05a195b36df0c6c41d7eb818fc656399a0d564a7b0518043b6f627e36eeba9b1",
+      "bytes": 1408047
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-2/agent/trajectory.json",
+      "sha256": "02a2c5d29c78a0249afdd3aabc254c79d106f414fdb2256e69ceff3fcaadfccf",
+      "bytes": 118455
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-2/artifacts/app/REPAIR_REPORT.md",
+      "sha256": "7bc82b3361882e6f48fc10dc3f2917fa12397bb5bc4a8ac1404e94950ba827b4",
+      "bytes": 9685
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-2/artifacts/app/checks/test_projection.py",
+      "sha256": "46b7f5c82adb2da82792e08d6b40e578c9cffd95d291c31bf72ab9adbc0b77a5",
+      "bytes": 19646
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-2/artifacts/app/checks/test_smoke.py",
+      "sha256": "2bb75e6a25fd51b6691e5383bef44e4e4912e3e3bacaaad1373cee6cb031fd34",
+      "bytes": 1381
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-2/artifacts/app/demo.py",
+      "sha256": "812bd75f589077ddf34cc928dc4bd155ba2be4579b77b8889bd73fed55f11269",
+      "bytes": 1003
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-2/artifacts/app/docs/contract.md",
+      "sha256": "ac2c85413cfacd2268528c68991429b002b73bbfc1c6183439c8ce1b284672a5",
+      "bytes": 6973
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-2/artifacts/app/incidents/release-1.json",
+      "sha256": "cdbd3bbbd4a093cc846362402cc6434a14f8a6b99f755856452ae23fa2d04b7c",
+      "bytes": 993
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-2/artifacts/app/incidents/release-2.json",
+      "sha256": "8fa4b7ea48c317d4167afec1401b16a1dc87368a1d512931e3b8179d0fabf6a5",
+      "bytes": 772
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-2/artifacts/app/incidents/release-3.json",
+      "sha256": "b112237be715ac098a77bcd22173800a8427dff76807a5cb1cdce08543580961",
+      "bytes": 1007
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-2/artifacts/app/maintainer.py",
+      "sha256": "a41a094cfd1ecb9cd61640bf08226e9a8172a9817e36b22f753397338689b44d",
+      "bytes": 9950
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-2/artifacts/app/release.txt",
+      "sha256": "53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3",
+      "bytes": 2
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-2/artifacts/app/runtime.py",
+      "sha256": "512e399c3feb0fb59fe0d98663274b771821aa6608570537312d0d0d296e415f",
+      "bytes": 4432
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-2/artifacts/app/schema.sql",
+      "sha256": "02ddc8de6336a48d7c6a1258315923ee16abb437f1e6f3deb67ff1825487a818",
+      "bytes": 1209
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-2/artifacts/app/state/demo.sqlite",
+      "sha256": "f8b47b0fd3751d0ae1d434daf6fc35a78972af1a4021da5784696548ee61918e",
+      "bytes": 90112
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-2/artifacts/manifest.json",
+      "sha256": "4ad5f62334ec1b3d257150d6fbd9a47bb85f747f55f73a1241f9ead7c2e43ce8",
+      "bytes": 378
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-2/verifier/checks.json",
+      "sha256": "f7c4ae32d5e8fd8a98f9f3a6d31f5e2de2facd8f721929cd039336403d6e138d",
+      "bytes": 2631
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-2/verifier/reward.json",
+      "sha256": "7f1276dd23b2db992b1e8b20e694f10aa2cdaf2df30859a0699f4d204a786fe1",
+      "bytes": 136
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-2/verifier/test-stdout.txt",
+      "sha256": "2e91b2ca64650788c3a9511bdc41bf7e774e51f5300afaa0ea2afe3730c5685f",
+      "bytes": 1841
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-3/agent/copilot-cli.jsonl",
+      "sha256": "c661acfea585fb6a6b76973b4b3b2f73c6cdee959c2a43a581fb5192272ef114",
+      "bytes": 3204724
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-3/agent/copilot-cli.txt",
+      "sha256": "c661acfea585fb6a6b76973b4b3b2f73c6cdee959c2a43a581fb5192272ef114",
+      "bytes": 3204724
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-3/agent/trajectory.json",
+      "sha256": "77e23b2b623782d73fba4b092c995ddc2c8278b7efad177aead7ae437a67b72e",
+      "bytes": 300698
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-3/artifacts/app/REPAIR_REPORT.md",
+      "sha256": "9e08e4157856f7fe2025a3523eb742409be9a29753acdec70873b1e2e5a58928",
+      "bytes": 16020
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-3/artifacts/app/checks/test_projection.py",
+      "sha256": "b0ed5d27875af9d9c2fc21946a7017f027823131a18067d98245c494eac4aed9",
+      "bytes": 29460
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-3/artifacts/app/checks/test_smoke.py",
+      "sha256": "2bb75e6a25fd51b6691e5383bef44e4e4912e3e3bacaaad1373cee6cb031fd34",
+      "bytes": 1381
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-3/artifacts/app/demo.py",
+      "sha256": "812bd75f589077ddf34cc928dc4bd155ba2be4579b77b8889bd73fed55f11269",
+      "bytes": 1003
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-3/artifacts/app/docs/contract.md",
+      "sha256": "ac2c85413cfacd2268528c68991429b002b73bbfc1c6183439c8ce1b284672a5",
+      "bytes": 6973
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-3/artifacts/app/incidents/release-1.json",
+      "sha256": "cdbd3bbbd4a093cc846362402cc6434a14f8a6b99f755856452ae23fa2d04b7c",
+      "bytes": 993
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-3/artifacts/app/incidents/release-2.json",
+      "sha256": "8fa4b7ea48c317d4167afec1401b16a1dc87368a1d512931e3b8179d0fabf6a5",
+      "bytes": 772
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-3/artifacts/app/incidents/release-3.json",
+      "sha256": "b112237be715ac098a77bcd22173800a8427dff76807a5cb1cdce08543580961",
+      "bytes": 1007
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-3/artifacts/app/maintainer.py",
+      "sha256": "85b0a3ffe33eabf8b66820c020d42a60e67f8ec1b66546d9f9d35ff31a47a028",
+      "bytes": 16234
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-3/artifacts/app/release.txt",
+      "sha256": "1121cfccd5913f0a63fec40a6ffd44ea64f9dc135c66634ba001d10bcf4302a2",
+      "bytes": 2
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-3/artifacts/app/runtime.py",
+      "sha256": "512e399c3feb0fb59fe0d98663274b771821aa6608570537312d0d0d296e415f",
+      "bytes": 4432
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-3/artifacts/app/schema.sql",
+      "sha256": "02ddc8de6336a48d7c6a1258315923ee16abb437f1e6f3deb67ff1825487a818",
+      "bytes": 1209
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-3/artifacts/app/state/demo.sqlite",
+      "sha256": "bc94c5774b5344d00ea1c4134fd73001ea68ab8eb951c1e19b4dbb16f3fe2ee4",
+      "bytes": 106496
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-3/artifacts/manifest.json",
+      "sha256": "4ad5f62334ec1b3d257150d6fbd9a47bb85f747f55f73a1241f9ead7c2e43ce8",
+      "bytes": 378
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-3/verifier/checks.json",
+      "sha256": "3469196bdb93d0306b7b4665beca196a8a7bb6ce2b5918ae1d37123bdb9aa019",
+      "bytes": 2593
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-3/verifier/reward.json",
+      "sha256": "7f1276dd23b2db992b1e8b20e694f10aa2cdaf2df30859a0699f4d204a786fe1",
+      "bytes": 136
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/steps/release-3/verifier/test-stdout.txt",
+      "sha256": "1c7c9edf851d16d63aef79ec0f90e61dbedd1ef69db8c6359e025e63747468c3",
+      "bytes": 1803
+    },
+    {
+      "path": "incremental-cohort-board__GwPqcgb/trial.log",
+      "sha256": "fdfc7bd5b311b0295d5e5216f5dd9e88453188fdf6b813c97aa8ed6cb99bc8db",
+      "bytes": 7503
+    },
+    {
+      "path": "job.log",
+      "sha256": "fdfc7bd5b311b0295d5e5216f5dd9e88453188fdf6b813c97aa8ed6cb99bc8db",
+      "bytes": 7503
+    },
+    {
+      "path": "lock.json",
+      "sha256": "86db8bf8644dedc47fdc4f9f61dc91fb69c42dee409caeb50323afceb2e83752",
+      "bytes": 2148
+    },
+    {
+      "path": "result.json",
+      "sha256": "c3646598a2e3655bb779510422d3fdb217464773f677ce1824c9449c91204138",
+      "bytes": 2100
+    }
+  ],
+  "credential_redactions": [],
+  "excluded": [
+    "authentication/session databases",
+    "CLI session-state",
+    "node_modules",
+    "Python bytecode"
+  ]
+}

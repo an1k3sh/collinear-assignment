@@ -1,0 +1,9 @@
+merchant,allocation_id,version,invoice_id,kind,amount_cents,effective_at,recorded_at,status
+north,A1,1,00123,payment,2500,2026-04-30T09:00:00Z,2026-04-30T09:00:00Z,posted
+north,C1,1,00123,credit,2000,2026-04-30T10:00:00Z,2026-04-30T10:00:00Z,draft
+north,A2,1,123,payment,5000,2026-04-15T09:00:00Z,2026-04-15T09:00:00Z,posted
+north,C2,1,123,credit,2000,2026-04-20T10:00:00Z,2026-04-20T10:00:00Z,posted
+north,C2,2,123,credit,3000,2026-04-20T10:00:00Z,2026-04-21T10:00:00Z,posted
+north,LATE,1,123,payment,1000,2026-04-30T11:00:00Z,2026-05-01T10:00:00Z,posted
+south,A1,1,00123,payment,5000,2026-04-30T09:00:00Z,2026-04-30T09:00:00Z,posted
+north,A3,1,PAID-9,payment,5000,2026-02-15T09:00:00Z,2026-02-15T09:00:00Z,posted

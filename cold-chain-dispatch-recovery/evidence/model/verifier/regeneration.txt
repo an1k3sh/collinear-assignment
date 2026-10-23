@@ -1,0 +1,2 @@
+orders=18 trips=6 cost=66510 budget=79000 status=OPTIMAL
+

@@ -1,0 +1,48 @@
+{
+  "scores": {
+    "content_fidelity": 4,
+    "editable_structure": 4,
+    "visual_organization": 4,
+    "navigation_furniture": 4
+  },
+  "evidence": {
+    "content_fidelity": [
+      "Page 1 contract particulars match: service term 1 July 2026\u201330 June 2027, three named sites, GBP 37,800.00 base fee and mobilisation deadline 29 June 2026 at 17:00.",
+      "Schedule A preserves every financial association: monitoring 12 \u00d7 2,400.00 = 28,800.00; calibration 6 \u00d7 750.00 = 4,500.00; onboarding 3 \u00d7 1,800.00 = 5,400.00; transition credit (900.00); net 37,800.00; VAT 7,560.00; total 45,360.00. Invoice-example amounts also match: 2,400.00, 190.00, 2,590.00, 518.00 and 3,108.00.",
+      "Schedule A retains the GBP 145.00 call-out fee, included 45 minutes, GBP 22.50 per completed additional 15-minute block, 30-calendar-day payment obligation and footnote condition that 59 minutes incurs no additional block.",
+      "Schedule B preserves site-specific windows and targets: Northgate Mon-Sat 08:00-20:00, critical 15/90 minutes, routine 2 service hours/next service day; Canal House Mon-Fri 07:00-19:00, critical 15/120 minutes, routine 4 service hours/within 2 service days; Eastbank Mon-Sun 06:00-22:00, critical 10/60 minutes, routine 1 service hour/same service day. Access exceptions, uninterrupted critical cover and all four planned-exception date/site associations match.",
+      "Clauses 1\u20138 preserve access-delay limits, immediate escalation, completion evidence, replacement cover, closure notification, monthly reconciliation and written change authorisation. Schedule C and Appendices D\u2013E retain evidence responsibilities, acceptance conditions, approval requirements and execution text; Figure 2 retains 42 accepted, 6 returned and 3 open records."
+    ],
+    "editable_structure": [
+      "The extraction identifies real body paragraphs and Heading1/Heading2 styles with outline levels, rather than screenshots of text.",
+      "Candidate clauses use the Clause style linked to numbering ID 90; its numbering definition supplies automatic decimal numbering. Rendered clauses continue correctly from 1 through 8.",
+      "Native tables retain cell associations, repeating header rows and Schedule A's vertically merged Recurring and Summary categories. Acceptance, change and signature forms remain native tables with blank entry cells.",
+      "The charge-rule paragraph contains a real footnote reference to word/footnotes.xml. Figure artwork is confined to two drawings, with titles and captions preserved as editable paragraphs.",
+      "Both edit probes succeeded. edited-02.png shows the extended Access readiness clause reflowing without losing subsequent content; edited-04.png shows the expanded calibration description growing its table row while preserving quantities, prices, following rows and the footnote."
+    ],
+    "visual_organization": [
+      "All eight original paired pages closely match in hierarchy, blue heading treatment, table banding, spacing and content placement, with no material clipping or overlap.",
+      "Page 3 preserves the two-column operational-responsibilities layout; page 5 preserves landscape orientation and both wide service-window tables. Page 6 preserves the handover diagram and chart proportions.",
+      "The edited calibration row wraps somewhat more compactly in the candidate, but all inserted text remains readable and subsequent content reflows cleanly. edited-05.png confirms that the following landscape schedule remains intact."
+    ],
+    "navigation_furniture": [
+      "The procurement-services header, issue-reference footer and automatic PAGE field are present; rendered page numbering correctly runs from 1 to 8.",
+      "Page 1 navigation references still point to the delivered sections on pages 2\u20138. References to clause 8, Schedule B and Appendix E retain their correct targets.",
+      "Both figure titles and explanatory captions remain adjacent to their artwork. Footnote 1 remains on the charges page with its reference marker, separator and complete billing condition."
+    ]
+  },
+  "material_defects": [],
+  "inspected_images": [
+    "original-01.png",
+    "original-02.png",
+    "original-03.png",
+    "original-04.png",
+    "original-05.png",
+    "original-06.png",
+    "original-07.png",
+    "original-08.png",
+    "edited-02.png",
+    "edited-04.png",
+    "edited-05.png"
+  ]
+}

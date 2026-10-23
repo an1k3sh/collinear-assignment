@@ -1,0 +1,633 @@
+{
+  "roster": [
+    {
+      "account": "NORTH",
+      "order_id": "001",
+      "sku": "VAX-C",
+      "quantity": 2,
+      "node": "N01",
+      "open": 60,
+      "close": 135,
+      "service": 3
+    },
+    {
+      "account": "NORTH",
+      "order_id": "002",
+      "sku": "VAX-C",
+      "quantity": 3,
+      "node": "N02",
+      "open": 60,
+      "close": 135,
+      "service": 4
+    },
+    {
+      "account": "NORTH",
+      "order_id": "003",
+      "sku": "VAX-C",
+      "quantity": 2,
+      "node": "N03",
+      "open": 60,
+      "close": 135,
+      "service": 3
+    },
+    {
+      "account": "NORTH",
+      "order_id": "004",
+      "sku": "LAB-F",
+      "quantity": 2,
+      "node": "N04",
+      "open": 60,
+      "close": 135,
+      "service": 4
+    },
+    {
+      "account": "NORTH",
+      "order_id": "005",
+      "sku": "LAB-F",
+      "quantity": 2,
+      "node": "N05",
+      "open": 60,
+      "close": 135,
+      "service": 3
+    },
+    {
+      "account": "NORTH",
+      "order_id": "006",
+      "sku": "LAB-F",
+      "quantity": 3,
+      "node": "N06",
+      "open": 60,
+      "close": 135,
+      "service": 4
+    },
+    {
+      "account": "SOUTH",
+      "order_id": "001",
+      "sku": "VAX-C",
+      "quantity": 2,
+      "node": "N07",
+      "open": 105,
+      "close": 180,
+      "service": 3
+    },
+    {
+      "account": "SOUTH",
+      "order_id": "002",
+      "sku": "VAX-C",
+      "quantity": 2,
+      "node": "N08",
+      "open": 105,
+      "close": 170,
+      "service": 4
+    },
+    {
+      "account": "SOUTH",
+      "order_id": "003",
+      "sku": "VAX-C",
+      "quantity": 2,
+      "node": "N09",
+      "open": 105,
+      "close": 180,
+      "service": 3
+    },
+    {
+      "account": "SOUTH",
+      "order_id": "004",
+      "sku": "LAB-F",
+      "quantity": 2,
+      "node": "N10",
+      "open": 105,
+      "close": 180,
+      "service": 4
+    },
+    {
+      "account": "SOUTH",
+      "order_id": "005",
+      "sku": "LAB-F",
+      "quantity": 2,
+      "node": "N11",
+      "open": 105,
+      "close": 180,
+      "service": 3
+    },
+    {
+      "account": "SOUTH",
+      "order_id": "006",
+      "sku": "LAB-F",
+      "quantity": 3,
+      "node": "N12",
+      "open": 105,
+      "close": 180,
+      "service": 4
+    },
+    {
+      "account": "WEST",
+      "order_id": "001",
+      "sku": "VAX-C",
+      "quantity": 2,
+      "node": "N13",
+      "open": 150,
+      "close": 225,
+      "service": 3
+    },
+    {
+      "account": "WEST",
+      "order_id": "002",
+      "sku": "VAX-C",
+      "quantity": 3,
+      "node": "N14",
+      "open": 150,
+      "close": 225,
+      "service": 4
+    },
+    {
+      "account": "WEST",
+      "order_id": "003",
+      "sku": "VAX-C",
+      "quantity": 2,
+      "node": "N15",
+      "open": 150,
+      "close": 225,
+      "service": 3
+    },
+    {
+      "account": "WEST",
+      "order_id": "004",
+      "sku": "LAB-F",
+      "quantity": 2,
+      "node": "N16",
+      "open": 150,
+      "close": 225,
+      "service": 4
+    },
+    {
+      "account": "WEST",
+      "order_id": "005",
+      "sku": "LAB-F",
+      "quantity": 2,
+      "node": "N17",
+      "open": 150,
+      "close": 225,
+      "service": 3
+    },
+    {
+      "account": "WEST",
+      "order_id": "006",
+      "sku": "LAB-F",
+      "quantity": 3,
+      "node": "N18",
+      "open": 150,
+      "close": 225,
+      "service": 4
+    }
+  ],
+  "allocations": [
+    {
+      "account": "NORTH",
+      "order_id": "001",
+      "lot": "C1",
+      "quantity": 2
+    },
+    {
+      "account": "NORTH",
+      "order_id": "002",
+      "lot": "C1",
+      "quantity": 3
+    },
+    {
+      "account": "NORTH",
+      "order_id": "003",
+      "lot": "C1",
+      "quantity": 2
+    },
+    {
+      "account": "NORTH",
+      "order_id": "004",
+      "lot": "F1",
+      "quantity": 2
+    },
+    {
+      "account": "NORTH",
+      "order_id": "005",
+      "lot": "F1",
+      "quantity": 2
+    },
+    {
+      "account": "NORTH",
+      "order_id": "006",
+      "lot": "F1",
+      "quantity": 3
+    },
+    {
+      "account": "SOUTH",
+      "order_id": "001",
+      "lot": "C2",
+      "quantity": 2
+    },
+    {
+      "account": "SOUTH",
+      "order_id": "002",
+      "lot": "C1",
+      "quantity": 2
+    },
+    {
+      "account": "SOUTH",
+      "order_id": "003",
+      "lot": "C2",
+      "quantity": 2
+    },
+    {
+      "account": "SOUTH",
+      "order_id": "004",
+      "lot": "F2",
+      "quantity": 2
+    },
+    {
+      "account": "SOUTH",
+      "order_id": "005",
+      "lot": "F2",
+      "quantity": 2
+    },
+    {
+      "account": "SOUTH",
+      "order_id": "006",
+      "lot": "F2",
+      "quantity": 3
+    },
+    {
+      "account": "WEST",
+      "order_id": "001",
+      "lot": "C3",
+      "quantity": 2
+    },
+    {
+      "account": "WEST",
+      "order_id": "002",
+      "lot": "C3",
+      "quantity": 3
+    },
+    {
+      "account": "WEST",
+      "order_id": "003",
+      "lot": "C3",
+      "quantity": 2
+    },
+    {
+      "account": "WEST",
+      "order_id": "004",
+      "lot": "F3",
+      "quantity": 2
+    },
+    {
+      "account": "WEST",
+      "order_id": "005",
+      "lot": "F3",
+      "quantity": 2
+    },
+    {
+      "account": "WEST",
+      "order_id": "006",
+      "lot": "F3",
+      "quantity": 3
+    }
+  ],
+  "packing": [
+    {
+      "account": "NORTH",
+      "order_id": "001",
+      "bench": "P2",
+      "start": 13,
+      "end": 23
+    },
+    {
+      "account": "NORTH",
+      "order_id": "002",
+      "bench": "P2",
+      "start": 0,
+      "end": 13
+    },
+    {
+      "account": "NORTH",
+      "order_id": "003",
+      "bench": "P1",
+      "start": 0,
+      "end": 10
+    },
+    {
+      "account": "NORTH",
+      "order_id": "004",
+      "bench": "P3",
+      "start": 20,
+      "end": 31
+    },
+    {
+      "account": "NORTH",
+      "order_id": "005",
+      "bench": "P1",
+      "start": 24,
+      "end": 35
+    },
+    {
+      "account": "NORTH",
+      "order_id": "006",
+      "bench": "P1",
+      "start": 10,
+      "end": 24
+    },
+    {
+      "account": "SOUTH",
+      "order_id": "001",
+      "bench": "P2",
+      "start": 65,
+      "end": 75
+    },
+    {
+      "account": "SOUTH",
+      "order_id": "002",
+      "bench": "P2",
+      "start": 32,
+      "end": 42
+    },
+    {
+      "account": "SOUTH",
+      "order_id": "003",
+      "bench": "P1",
+      "start": 65,
+      "end": 75
+    },
+    {
+      "account": "SOUTH",
+      "order_id": "004",
+      "bench": "P3",
+      "start": 99,
+      "end": 110
+    },
+    {
+      "account": "SOUTH",
+      "order_id": "005",
+      "bench": "P3",
+      "start": 88,
+      "end": 99
+    },
+    {
+      "account": "SOUTH",
+      "order_id": "006",
+      "bench": "P3",
+      "start": 74,
+      "end": 88
+    },
+    {
+      "account": "WEST",
+      "order_id": "001",
+      "bench": "P1",
+      "start": 151,
+      "end": 161
+    },
+    {
+      "account": "WEST",
+      "order_id": "002",
+      "bench": "P2",
+      "start": 125,
+      "end": 138
+    },
+    {
+      "account": "WEST",
+      "order_id": "003",
+      "bench": "P2",
+      "start": 138,
+      "end": 148
+    },
+    {
+      "account": "WEST",
+      "order_id": "004",
+      "bench": "P1",
+      "start": 115,
+      "end": 126
+    },
+    {
+      "account": "WEST",
+      "order_id": "005",
+      "bench": "P1",
+      "start": 126,
+      "end": 137
+    },
+    {
+      "account": "WEST",
+      "order_id": "006",
+      "bench": "P1",
+      "start": 137,
+      "end": 151
+    }
+  ],
+  "trips": [
+    {
+      "trip_id": "V3-1",
+      "vehicle": "V3",
+      "load_start": 23,
+      "depart": 34,
+      "return": 96,
+      "stops": [
+        {
+          "account": "NORTH",
+          "order_id": "003",
+          "service_start": 60
+        },
+        {
+          "account": "NORTH",
+          "order_id": "002",
+          "service_start": 70
+        },
+        {
+          "account": "NORTH",
+          "order_id": "001",
+          "service_start": 80
+        }
+      ]
+    },
+    {
+      "trip_id": "V2-1",
+      "vehicle": "V2",
+      "load_start": 35,
+      "depart": 46,
+      "return": 100,
+      "stops": [
+        {
+          "account": "NORTH",
+          "order_id": "004",
+          "service_start": 60
+        },
+        {
+          "account": "NORTH",
+          "order_id": "006",
+          "service_start": 73
+        },
+        {
+          "account": "NORTH",
+          "order_id": "005",
+          "service_start": 84
+        }
+      ]
+    },
+    {
+      "trip_id": "V1-1",
+      "vehicle": "V1",
+      "load_start": 75,
+      "depart": 85,
+      "return": 147,
+      "stops": [
+        {
+          "account": "SOUTH",
+          "order_id": "001",
+          "service_start": 105
+        },
+        {
+          "account": "SOUTH",
+          "order_id": "002",
+          "service_start": 115
+        },
+        {
+          "account": "SOUTH",
+          "order_id": "003",
+          "service_start": 127
+        }
+      ]
+    },
+    {
+      "trip_id": "V3-2",
+      "vehicle": "V3",
+      "load_start": 111,
+      "depart": 122,
+      "return": 184,
+      "stops": [
+        {
+          "account": "SOUTH",
+          "order_id": "006",
+          "service_start": 142
+        },
+        {
+          "account": "SOUTH",
+          "order_id": "005",
+          "service_start": 153
+        },
+        {
+          "account": "SOUTH",
+          "order_id": "004",
+          "service_start": 162
+        }
+      ]
+    },
+    {
+      "trip_id": "V2-2",
+      "vehicle": "V2",
+      "load_start": 151,
+      "depart": 162,
+      "return": 232,
+      "stops": [
+        {
+          "account": "WEST",
+          "order_id": "004",
+          "service_start": 184
+        },
+        {
+          "account": "WEST",
+          "order_id": "005",
+          "service_start": 195
+        },
+        {
+          "account": "WEST",
+          "order_id": "006",
+          "service_start": 206
+        }
+      ]
+    },
+    {
+      "trip_id": "V1-2",
+      "vehicle": "V1",
+      "load_start": 162,
+      "depart": 173,
+      "return": 241,
+      "stops": [
+        {
+          "account": "WEST",
+          "order_id": "003",
+          "service_start": 197
+        },
+        {
+          "account": "WEST",
+          "order_id": "002",
+          "service_start": 207
+        },
+        {
+          "account": "WEST",
+          "order_id": "001",
+          "service_start": 217
+        }
+      ]
+    }
+  ],
+  "cost_cents": 66510,
+  "budget_cents": 79000,
+  "excluded_orders": [
+    {
+      "account": "NORTH",
+      "order_id": "900",
+      "reason": "cancelled"
+    },
+    {
+      "account": "SOUTH",
+      "order_id": "901",
+      "reason": "not effective at cutoff"
+    }
+  ],
+  "lot_balances": {
+    "C1": {
+      "balance": 9,
+      "status": "released",
+      "available": 0,
+      "expiry": 140
+    },
+    "C2": {
+      "balance": 8,
+      "status": "released",
+      "available": 65,
+      "expiry": 205
+    },
+    "C3": {
+      "balance": 10,
+      "status": "released",
+      "available": 115,
+      "expiry": 320
+    },
+    "C4": {
+      "balance": 30,
+      "status": "quarantined",
+      "available": 0,
+      "expiry": 320
+    },
+    "F1": {
+      "balance": 9,
+      "status": "released",
+      "available": 0,
+      "expiry": 140
+    },
+    "F2": {
+      "balance": 8,
+      "status": "released",
+      "available": 65,
+      "expiry": 205
+    },
+    "F3": {
+      "balance": 10,
+      "status": "released",
+      "available": 115,
+      "expiry": 320
+    },
+    "F4": {
+      "balance": 30,
+      "status": "quarantined",
+      "available": 0,
+      "expiry": 320
+    }
+  },
+  "solver_status": "OPTIMAL"
+}

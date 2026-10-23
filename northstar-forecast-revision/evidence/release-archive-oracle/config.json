@@ -1,0 +1,11 @@
+{
+    "task": {
+        "path": "evidence/northstar-zip-preflight/northstar-forecast-revision"
+    },
+    "trial_name": "northstar-forecast-revision__DJvHVgC",
+    "trials_dir": "jobs/northstar-zip-oracle-01",
+    "artifacts": [
+        "/app/output"
+    ],
+    "job_id": "33111087-59e8-4059-b882-ed94a72abb06"
+}

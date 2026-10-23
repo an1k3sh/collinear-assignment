@@ -1,0 +1,168 @@
+{
+  "task_name": "collinear-candidate/rebate-close-continuity",
+  "task_checksum": "0dd0ea05120f2c1247e97e6202cda08f9fc6c63b28aaa5f99d9e53e2914fc121",
+  "trial_name": "rebate-close-continuity__wRgrDXo",
+  "agent_info": {
+    "name": "nop",
+    "version": "1.0.0",
+    "model_info": null
+  },
+  "verifier_result": {
+    "rewards": {
+      "overall": 0
+    }
+  },
+  "exception_info": null,
+  "started_at": "2026-10-23T18:59:28.334627Z",
+  "finished_at": "2026-10-23T19:00:36.094737Z",
+  "step_results": [
+    {
+      "step_name": "01-provisional",
+      "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "model_usage": null,
+        "rollout_details": null,
+        "metadata": null
+      },
+      "verifier_result": {
+        "rewards": {
+          "functional_correctness": 0.0,
+          "constraint_satisfaction": 0.6666666666666666,
+          "robustness": 0.0,
+          "artifact_quality": 0.0,
+          "overall": 0.0
+        }
+      },
+      "exception_info": null,
+      "agent_execution": {
+        "started_at": "2026-10-23T18:59:33.478489Z",
+        "finished_at": "2026-10-23T18:59:33.483818Z"
+      },
+      "verifier": {
+        "started_at": "2026-10-23T18:59:36.292994Z",
+        "finished_at": "2026-10-23T18:59:46.068589Z"
+      }
+    },
+    {
+      "step_name": "02-restatement",
+      "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "model_usage": null,
+        "rollout_details": null,
+        "metadata": null
+      },
+      "verifier_result": {
+        "rewards": {
+          "functional_correctness": 0.0,
+          "constraint_satisfaction": 0.5,
+          "robustness": 0.0,
+          "artifact_quality": 0.0,
+          "overall": 0.0
+        }
+      },
+      "exception_info": null,
+      "agent_execution": {
+        "started_at": "2026-10-23T18:59:46.837532Z",
+        "finished_at": "2026-10-23T18:59:46.837959Z"
+      },
+      "verifier": {
+        "started_at": "2026-10-23T18:59:48.545053Z",
+        "finished_at": "2026-10-23T18:59:56.789312Z"
+      }
+    },
+    {
+      "step_name": "03-roll-forward",
+      "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "model_usage": null,
+        "rollout_details": null,
+        "metadata": null
+      },
+      "verifier_result": {
+        "rewards": {
+          "functional_correctness": 0.0,
+          "constraint_satisfaction": 0.4,
+          "robustness": 0.0,
+          "artifact_quality": 0.0,
+          "overall": 0.0
+        }
+      },
+      "exception_info": null,
+      "agent_execution": {
+        "started_at": "2026-10-23T18:59:57.412632Z",
+        "finished_at": "2026-10-23T18:59:57.413264Z"
+      },
+      "verifier": {
+        "started_at": "2026-10-23T18:59:59.196888Z",
+        "finished_at": "2026-10-23T19:00:08.720549Z"
+      }
+    },
+    {
+      "step_name": "04-claim-batch",
+      "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "model_usage": null,
+        "rollout_details": null,
+        "metadata": null
+      },
+      "verifier_result": {
+        "rewards": {
+          "overall": 0
+        }
+      },
+      "exception_info": null,
+      "agent_execution": {
+        "started_at": "2026-10-23T19:00:09.283549Z",
+        "finished_at": "2026-10-23T19:00:09.284089Z"
+      },
+      "verifier": {
+        "started_at": "2026-10-23T19:00:11.039868Z",
+        "finished_at": "2026-10-23T19:00:20.691358Z"
+      }
+    },
+    {
+      "step_name": "05-remittance-replan",
+      "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "model_usage": null,
+        "rollout_details": null,
+        "metadata": null
+      },
+      "verifier_result": {
+        "rewards": {
+          "overall": 0
+        }
+      },
+      "exception_info": null,
+      "agent_execution": {
+        "started_at": "2026-10-23T19:00:21.405135Z",
+        "finished_at": "2026-10-23T19:00:21.405602Z"
+      },
+      "verifier": {
+        "started_at": "2026-10-23T19:00:23.218740Z",
+        "finished_at": "2026-10-23T19:00:33.859678Z"
+      }
+    }
+  ],
+  "requested_agent": {
+    "name": "nop",
+    "model_name": null,
+    "kwargs": {},
+    "resume_trajectory": false
+  }
+}

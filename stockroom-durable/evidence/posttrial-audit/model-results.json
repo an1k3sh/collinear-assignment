@@ -1,0 +1,78 @@
+[
+  {
+    "probe": "exact-20000-step-success",
+    "passed": true
+  },
+  {
+    "probe": "unicode-label-and-data",
+    "passed": true
+  },
+  {
+    "probe": "sibling-scope-and-call-frame-reuse",
+    "passed": true
+  },
+  {
+    "probe": "pause-is-final-statement",
+    "passed": true
+  },
+  {
+    "probe": "valid-checkpoint-key-order-and-whitespace",
+    "passed": true
+  },
+  {
+    "probe": "user-sku-serialization-marker-collision",
+    "passed": true
+  },
+  {
+    "probe": "5000-digit-integer-through-checkpoint",
+    "passed": true
+  },
+  {
+    "probe": "missing-resume-file",
+    "passed": true
+  },
+  {
+    "probe": "float-checkpoint-version",
+    "passed": true
+  },
+  {
+    "probe": "break-keeps-enclosing-transaction-tentative",
+    "passed": true
+  },
+  {
+    "probe": "main-return-commits-all-exited-boundaries",
+    "passed": true
+  },
+  {
+    "probe": "closed-hold-tombstone-after-two-restarts",
+    "passed": true
+  },
+  {
+    "probe": "recovery-binding-can-shadow-builtin-name",
+    "passed": true
+  },
+  {
+    "probe": "new-zero-source-and-rollback-key-removal",
+    "passed": true
+  },
+  {
+    "probe": "three-calls-and-handler-retain-correct-locals",
+    "passed": true
+  },
+  {
+    "probe": "error-propagates-through-unhandled-transactions-after-pause",
+    "passed": true
+  },
+  {
+    "probe": "recovery-continue-commits-only-enclosing-exited-transaction",
+    "passed": true
+  },
+  {
+    "probe": "rollback-restores-string-and-bool-types",
+    "passed": true
+  },
+  {
+    "probe": "separate-sibling-recovery-scopes-reuse-error-name",
+    "passed": true
+  }
+]

@@ -1,0 +1,39 @@
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 89171
+INFO: Loaded 1 modules   (2694 inline 8-bit counters): 2694 [0xaaaab3957d30, 0xaaaab39587b6), 
+INFO: Loaded 1 PC tables (2694 PCs): 2694 [0xaaaab39587b8,0xaaaab3963018), 
+INFO:       12 files found in /work/audit/baseline/corpus
+TLP failure: implement input-driven case generation
+==1663== ERROR: libFuzzer: deadly signal
+==1663==WARNING: invalid path to external symbolizer!
+==1663==WARNING: Failed to use and restart external symbolizer!
+    #0 0xaaaab388a4e0  (/work/audit/baseline/build/tlp_fuzz+0x11a4e0) (BuildId: 2f0083eca0d65e05358d60ede86cba4573105d2f)
+    #1 0xaaaab37e0cd8  (/work/audit/baseline/build/tlp_fuzz+0x70cd8) (BuildId: 2f0083eca0d65e05358d60ede86cba4573105d2f)
+    #2 0xaaaab37c82a0  (/work/audit/baseline/build/tlp_fuzz+0x582a0) (BuildId: 2f0083eca0d65e05358d60ede86cba4573105d2f)
+    #3 0xffffa90ff7e4  (linux-vdso.so.1+0x7e4) (BuildId: 4fece5beffd59f501a75460848dc024366956f30)
+    #4 0xffffa8ae3c14  (/lib/aarch64-linux-gnu/libc.so.6+0x83c14) (BuildId: 3ff3f95a1642952473d0d5739aaf308b0e24f694)
+    #5 0xffffa8a9a8a8  (/lib/aarch64-linux-gnu/libc.so.6+0x3a8a8) (BuildId: 3ff3f95a1642952473d0d5739aaf308b0e24f694)
+    #6 0xffffa8a8747c  (/lib/aarch64-linux-gnu/libc.so.6+0x2747c) (BuildId: 3ff3f95a1642952473d0d5739aaf308b0e24f694)
+    #7 0xaaaab38b9f6c  (/work/audit/baseline/build/tlp_fuzz+0x149f6c) (BuildId: 2f0083eca0d65e05358d60ede86cba4573105d2f)
+    #8 0xaaaab37c963c  (/work/audit/baseline/build/tlp_fuzz+0x5963c) (BuildId: 2f0083eca0d65e05358d60ede86cba4573105d2f)
+    #9 0xaaaab37ca98c  (/work/audit/baseline/build/tlp_fuzz+0x5a98c) (BuildId: 2f0083eca0d65e05358d60ede86cba4573105d2f)
+    #10 0xaaaab37cafb4  (/work/audit/baseline/build/tlp_fuzz+0x5afb4) (BuildId: 2f0083eca0d65e05358d60ede86cba4573105d2f)
+    #11 0xaaaab37b9ff4  (/work/audit/baseline/build/tlp_fuzz+0x49ff4) (BuildId: 2f0083eca0d65e05358d60ede86cba4573105d2f)
+    #12 0xaaaab37e13e0  (/work/audit/baseline/build/tlp_fuzz+0x713e0) (BuildId: 2f0083eca0d65e05358d60ede86cba4573105d2f)
+    #13 0xffffa8a87740  (/lib/aarch64-linux-gnu/libc.so.6+0x27740) (BuildId: 3ff3f95a1642952473d0d5739aaf308b0e24f694)
+    #14 0xffffa8a87814  (/lib/aarch64-linux-gnu/libc.so.6+0x27814) (BuildId: 3ff3f95a1642952473d0d5739aaf308b0e24f694)
+    #15 0xaaaab37b03ac  (/work/audit/baseline/build/tlp_fuzz+0x403ac) (BuildId: 2f0083eca0d65e05358d60ede86cba4573105d2f)
+
+NOTE: libFuzzer has rudimentary signal handlers.
+      Combine libFuzzer with AddressSanitizer or similar for better crash reports.
+SUMMARY: libFuzzer: deadly signal
+MS: 0 ; base unit: 0000000000000000000000000000000000000000
+
+
+artifact_prefix='/work/audit/baseline/'; Test unit written to /work/audit/baseline/crash-da39a3ee5e6b4b0d3255bfef95601890afd80709
+Base64: 
+stat::number_of_executed_units: 1
+stat::average_exec_per_sec:     0
+stat::new_units_added:          0
+stat::slowest_unit_time_sec:    0
+stat::peak_rss_mb:              37

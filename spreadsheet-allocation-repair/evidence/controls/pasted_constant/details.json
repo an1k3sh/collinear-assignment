@@ -1,0 +1,30 @@
+{
+  "source_and_formulas": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/grade.py\", line 17, in check\n    function()\n  File \"/tests/grade.py\", line 63, in integrity\n    assert fixed[\"Summary\"][coordinate].data_type == \"f\", f\"Not a formula: {coordinate}\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Not a formula: D3\n"
+  },
+  "saved_results": {
+    "passed": true
+  },
+  "chart_binding": {
+    "passed": true
+  },
+  "recalculation_0": {
+    "passed": true
+  },
+  "recalculation_1": {
+    "passed": true
+  },
+  "recalculation_2": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/grade.py\", line 17, in check\n    function()\n  File \"/tests/grade.py\", line 122, in <lambda>\n    check(f\"recalculation_{variant}\", lambda variant=variant: recalculated(variant))\n                                                              ^^^^^^^^^^^^^^^^^^^^^\n  File \"/tests/grade.py\", line 114, in recalculated\n    values(load_workbook(out / \"allocation.xlsx\", data_only=True), wb)\n  File \"/tests/grade.py\", line 41, in values\n    assert abs(result - pool * weight / total_weight) < 0.00001, f\"Wrong allocation {key}: {result}\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Wrong allocation 02: 2200\n"
+  },
+  "recalculation_3": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/grade.py\", line 17, in check\n    function()\n  File \"/tests/grade.py\", line 122, in <lambda>\n    check(f\"recalculation_{variant}\", lambda variant=variant: recalculated(variant))\n                                                              ^^^^^^^^^^^^^^^^^^^^^\n  File \"/tests/grade.py\", line 114, in recalculated\n    values(load_workbook(out / \"allocation.xlsx\", data_only=True), wb)\n  File \"/tests/grade.py\", line 41, in values\n    assert abs(result - pool * weight / total_weight) < 0.00001, f\"Wrong allocation {key}: {result}\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Wrong allocation 02: 2200\n"
+  },
+  "recalculation_4": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/grade.py\", line 17, in check\n    function()\n  File \"/tests/grade.py\", line 122, in <lambda>\n    check(f\"recalculation_{variant}\", lambda variant=variant: recalculated(variant))\n                                                              ^^^^^^^^^^^^^^^^^^^^^\n  File \"/tests/grade.py\", line 114, in recalculated\n    values(load_workbook(out / \"allocation.xlsx\", data_only=True), wb)\n  File \"/tests/grade.py\", line 41, in values\n    assert abs(result - pool * weight / total_weight) < 0.00001, f\"Wrong allocation {key}: {result}\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Wrong allocation 02: 2200\n"
+  }
+}

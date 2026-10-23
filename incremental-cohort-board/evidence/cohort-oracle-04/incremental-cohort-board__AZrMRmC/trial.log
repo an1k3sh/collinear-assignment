@@ -1,0 +1,7 @@
+Skipping image OS validation for hb__e4604edd39481a2f13d4135f1d8648c9: docker inspect returned 1
+Starting step 1/3: release-1
+Collecting main service artifacts
+Starting step 2/3: release-2
+Collecting main service artifacts
+Starting step 3/3: release-3
+Collecting main service artifacts

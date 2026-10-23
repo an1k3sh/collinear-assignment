@@ -1,0 +1,56 @@
+[
+  {
+    "trial": "chart-capacity-audit-v6__gPFds3q",
+    "job": "chart-capacity-v6-copilot-opus-01",
+    "reward": {
+      "overall": 1.0,
+      "extraction": 1.0,
+      "reconciliation": 1.0,
+      "calculations": 1.0,
+      "planning": 1.0,
+      "claims": 1.0,
+      "reproducibility": 1.0
+    },
+    "image_payload_events": 9,
+    "valid_passed": 51,
+    "valid_total": 51,
+    "invalid_passed": 25,
+    "invalid_total": 25
+  },
+  {
+    "trial": "chart-capacity-audit-v6__8USTfVt",
+    "job": "chart-capacity-v6-copilot-opus-02",
+    "reward": {
+      "overall": 1.0,
+      "extraction": 1.0,
+      "reconciliation": 1.0,
+      "calculations": 1.0,
+      "planning": 1.0,
+      "claims": 1.0,
+      "reproducibility": 1.0
+    },
+    "image_payload_events": 9,
+    "valid_passed": 51,
+    "valid_total": 51,
+    "invalid_passed": 25,
+    "invalid_total": 25
+  },
+  {
+    "trial": "chart-capacity-audit-v6__8rffxD4",
+    "job": "chart-capacity-v6-copilot-opus-03",
+    "reward": {
+      "overall": 1.0,
+      "extraction": 1.0,
+      "reconciliation": 1.0,
+      "calculations": 1.0,
+      "planning": 1.0,
+      "claims": 1.0,
+      "reproducibility": 1.0
+    },
+    "image_payload_events": 9,
+    "valid_passed": 51,
+    "valid_total": 51,
+    "invalid_passed": 25,
+    "invalid_total": 25
+  }
+]

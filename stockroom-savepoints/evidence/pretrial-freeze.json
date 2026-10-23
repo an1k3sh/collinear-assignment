@@ -1,0 +1,22 @@
+{
+  "environment/Dockerfile": "8667185500b964c0401a8367898a6fd4e19c4a10fca76c0ecca96b5ccbed91a9",
+  "environment/app/docs/fulfillment.md": "de7f1ac84965c8400643f79451137f41886ae8ffc85225b3f663dd31c23453b9",
+  "environment/app/docs/language.md": "d5eb5c6bab08d5b367bb1ec09719035b4e0f4e221aa9d03f34cfb079850424ee",
+  "environment/app/incident/inventory.json": "17d246281ee4008ad7413b7137fadb2b88331ed022516686ad359b498dc4d994",
+  "environment/app/incident/run.stock": "9009ed58e78d4568a22aeee45fb6a24a54d75afd1e6554c9ae4c5cf4af1c52b7",
+  "environment/app/smoke/test_smoke.py": "23db6d6c8a1cf7d004408c7fccd2a22e9d47bd9c12600c028c4bdb3690a217d8",
+  "environment/app/stockroom/__init__.py": "e779d51e9f10c9ae7c13d68e5eb2e875b44f27540e7f09e587f0bd1fa1acc4de",
+  "environment/app/stockroom/__main__.py": "d2adcbeac3ad6788d6dcea68c2959f6128a4ccb1c1cdac4f04bb706f28aeb8a2",
+  "environment/app/workflows/fulfill.stock": "8e6e730cf8a9268cf4782c02b3f942c3c3cfb0f54558a7d858223f76da5c968d",
+  "instruction.md": "1a33a7fb4e5bb2c65f92f7138263fe267aed96504d16f49f213e42eb7a1d70b3",
+  "solution/fulfill.stock": "7cb85106c9b0f3e1e3deb31ee51fe8314fadec64a3e37bbf62a0db948b0637a9",
+  "solution/solve.sh": "b9257885a4594fa3622abec54d85e43f96bccb69e2da66561483c4a2e0aaff4f",
+  "solution/stockroom/__init__.py": "d63aed0aba873398100fe0b1f4966b0e170733ad88d054a7737f34421244cd17",
+  "solution/stockroom/__main__.py": "5805479affcac5408098ceb066de9394baffcc0a844fd2657f5dedeeadd9a83e",
+  "solution/stockroom/language.py": "73a31f1f54e497d557411369e3ebdc870c32f94c00d1e38ab213093045ddba49",
+  "solution/stockroom/runtime.py": "40e93c3d53aaabc01db7f647359bb0e4abc33ec7c4499652047e11c729290b91",
+  "task.toml": "f98c663223b260e74e8617cc82a78e76bb9e61a161b163bce7349d0e29d2d01f",
+  "tests/author_controls.py": "4ba57ba91895478eee5d84a38492b5da8839188169d3b98c5ec5a9bbb247f125",
+  "tests/test.sh": "0b585db8db297b03f2caebbd56a6849b8d7700ae79e3777663732681cb671ec7",
+  "tests/test_semantics.py": "11e810334793bb4007b4cad180d8c2fda461bbceba6a2455619af85beb467114"
+}

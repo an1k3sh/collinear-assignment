@@ -1,0 +1,107 @@
+{
+  "input_integrity": {
+    "passed": true
+  },
+  "delivered": {
+    "passed": true
+  },
+  "adjacent_and_clipped": {
+    "passed": true
+  },
+  "spring_gap_count": {
+    "passed": true
+  },
+  "autumn_first_fold": {
+    "passed": true
+  },
+  "half_hour_gap": {
+    "passed": true
+  },
+  "all_day_spring": {
+    "passed": true
+  },
+  "all_day_fall": {
+    "passed": true
+  },
+  "nominal_day": {
+    "passed": true
+  },
+  "elapsed_day": {
+    "passed": true
+  },
+  "mixed_duration": {
+    "passed": true
+  },
+  "dtend_elapsed_recurrence": {
+    "passed": true
+  },
+  "rdate_exdate_original_set": {
+    "passed": true
+  },
+  "sequence_precedes_timestamp": {
+    "passed": true
+  },
+  "same_sequence_timestamp": {
+    "passed": true
+  },
+  "cancelled_master_blocks_detached": {
+    "passed": true
+  },
+  "cancel_one_instance": {
+    "passed": true
+  },
+  "moved_into_window": {
+    "passed": true
+  },
+  "moved_out_of_window": {
+    "passed": true
+  },
+  "range_wall_shift_across_dst": {
+    "passed": true
+  },
+  "range_displacements_do_not_compound": {
+    "passed": true
+  },
+  "single_override_inherits_range_duration": {
+    "passed": true
+  },
+  "transparent_master_opaque_override": {
+    "passed": true
+  },
+  "range_transparency_inheritance": {
+    "passed": true
+  },
+  "default_all_day_duration": {
+    "passed": true
+  },
+  "floating_uses_calendar_zone": {
+    "passed": true
+  },
+  "weekly_count": {
+    "passed": true
+  },
+  "weekly_until": {
+    "passed": true
+  },
+  "all_day_until_inclusive": {
+    "passed": true
+  },
+  "rdate_in_utc": {
+    "passed": true
+  },
+  "unfold_and_quoted_tzid": {
+    "passed": true
+  },
+  "component_sequence_independent": {
+    "passed": true
+  },
+  "excluded_identity_not_revived": {
+    "passed": true
+  },
+  "orphan_detached": {
+    "passed": true
+  },
+  "calendar_namespaces": {
+    "passed": true
+  }
+}

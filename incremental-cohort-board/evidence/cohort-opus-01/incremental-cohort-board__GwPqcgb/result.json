@@ -1,0 +1,203 @@
+{
+    "id": "9b1ef592-a79f-4a79-b27e-1fc3f55ccb12",
+    "task_name": "collinear-candidate/incremental-cohort-board",
+    "trial_name": "incremental-cohort-board__GwPqcgb",
+    "trial_uri": "file:///Users/anikeshparashar/Projects/difficult-bench/jobs/cohort-opus-01/incremental-cohort-board__GwPqcgb",
+    "task_id": {
+        "path": "collinear-candidate/incremental-cohort-board"
+    },
+    "source": null,
+    "task_checksum": "e8766382b058bea4e7491e846600041c5d6951968e605441d2e6b95688872435",
+    "config": {
+        "task": {
+            "path": "collinear-candidate/incremental-cohort-board",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "incremental-cohort-board__GwPqcgb",
+        "trials_dir": "jobs/cohort-opus-01",
+        "install_only": false,
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": 5.0,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "copilot_npm:NpmCopilot",
+            "import_path": null,
+            "model_name": "claude-opus-5.5",
+            "n_concurrent": null,
+            "concurrency_group": null,
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "resume_trajectory": true,
+            "load_trajectory": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {
+                "reasoning_effort": "high",
+                "version": "1.0.102"
+            },
+            "mcp_servers": []
+        },
+        "user_agent": null,
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "stream": false,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "extra_instructions": [],
+        "job_id": "da5ff6c0-deda-416d-956b-80aed0d3de17",
+        "source_trial": null
+    },
+    "agent_info": {
+        "name": "copilot-cli",
+        "version": "1.0.102",
+        "model_info": {
+            "name": "claude-opus-5.5",
+            "provider": null
+        }
+    },
+    "agent_result": null,
+    "verifier_result": {
+        "rewards": {
+            "overall": 1.0,
+            "functional_correctness": 1.0,
+            "constraint_satisfaction": 1.0,
+            "robustness": 1.0,
+            "artifact_quality": 1.0
+        }
+    },
+    "verifier_environment_mode": null,
+    "exception_info": null,
+    "started_at": "2026-10-23T17:13:05.960462Z",
+    "finished_at": "2026-10-23T17:28:18.461815Z",
+    "environment_setup": {
+        "started_at": "2026-10-23T17:13:06.018210Z",
+        "finished_at": "2026-10-23T17:13:08.158790Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-10-23T17:13:08.159027Z",
+        "finished_at": "2026-10-23T17:13:21.860362Z"
+    },
+    "agent_execution": null,
+    "verifier": null,
+    "step_results": [
+        {
+            "step_name": "release-1",
+            "agent_result": {
+                "n_input_tokens": null,
+                "n_cache_tokens": null,
+                "n_output_tokens": 0,
+                "cost_usd": null,
+                "model_usage": null,
+                "rollout_details": null,
+                "metadata": null
+            },
+            "verifier_result": {
+                "rewards": {
+                    "overall": 1.0,
+                    "functional_correctness": 1.0,
+                    "constraint_satisfaction": 1.0,
+                    "robustness": 1.0,
+                    "artifact_quality": 1.0
+                }
+            },
+            "exception_info": null,
+            "agent_execution": {
+                "started_at": "2026-10-23T17:13:22.215600Z",
+                "finished_at": "2026-10-23T17:17:30.878487Z"
+            },
+            "verifier": {
+                "started_at": "2026-10-23T17:17:32.964050Z",
+                "finished_at": "2026-10-23T17:17:40.483020Z"
+            }
+        },
+        {
+            "step_name": "release-2",
+            "agent_result": {
+                "n_input_tokens": null,
+                "n_cache_tokens": null,
+                "n_output_tokens": 0,
+                "cost_usd": null,
+                "model_usage": null,
+                "rollout_details": null,
+                "metadata": null
+            },
+            "verifier_result": {
+                "rewards": {
+                    "overall": 1.0,
+                    "functional_correctness": 1.0,
+                    "constraint_satisfaction": 1.0,
+                    "robustness": 1.0,
+                    "artifact_quality": 1.0
+                }
+            },
+            "exception_info": null,
+            "agent_execution": {
+                "started_at": "2026-10-23T17:17:40.993050Z",
+                "finished_at": "2026-10-23T17:19:56.299218Z"
+            },
+            "verifier": {
+                "started_at": "2026-10-23T17:19:57.016596Z",
+                "finished_at": "2026-10-23T17:20:04.873173Z"
+            }
+        },
+        {
+            "step_name": "release-3",
+            "agent_result": {
+                "n_input_tokens": null,
+                "n_cache_tokens": null,
+                "n_output_tokens": 0,
+                "cost_usd": null,
+                "model_usage": null,
+                "rollout_details": null,
+                "metadata": null
+            },
+            "verifier_result": {
+                "rewards": {
+                    "overall": 1.0,
+                    "functional_correctness": 1.0,
+                    "constraint_satisfaction": 1.0,
+                    "robustness": 1.0,
+                    "artifact_quality": 1.0
+                }
+            },
+            "exception_info": null,
+            "agent_execution": {
+                "started_at": "2026-10-23T17:20:05.655212Z",
+                "finished_at": "2026-10-23T17:28:05.665398Z"
+            },
+            "verifier": {
+                "started_at": "2026-10-23T17:28:06.894921Z",
+                "finished_at": "2026-10-23T17:28:16.233850Z"
+            }
+        }
+    ]
+}

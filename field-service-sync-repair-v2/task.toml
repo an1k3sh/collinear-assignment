@@ -1,0 +1,26 @@
+schema_version = "1.3"
+artifacts = ["/app/server", "/app/client", "/app/tools", "/app/tests", "/app/state", "/app/REPAIR_REPORT.md"]
+
+[task]
+name = "collinear-candidate/field-service-sync-repair-v2"
+description = "Repair offline dispatch synchronization, atomic multi-order closeouts and receipt-aware recovery across frozen snapshots, uncertain delivery and durable restart."
+keywords = ["repair", "offline-sync", "sqlite", "javascript", "distributed-state"]
+
+[metadata]
+category = "software-engineering"
+difficulty = "hard"
+provenance = "Original seeded repository, protocol, incident traces and oracle created for this exercise; not ported from a public issue."
+network_policy = "Container acquisition and harness installation/inference require network. Task and verifier are offline; no external services or credentials are needed."
+
+[agent]
+timeout_sec = 10800
+
+[verifier]
+timeout_sec = 900
+
+[environment]
+build_timeout_sec = 900
+cpus = 2
+memory_mb = 2048
+storage_mb = 4096
+network_mode = "public"

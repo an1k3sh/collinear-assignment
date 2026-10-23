@@ -1,0 +1,5 @@
+bank_id,merchant,batch,currency,amount_cents,effective_at,recorded_at,status
+DEP-1,north,B-17,USD,14550,2026-04-30T16:00:00Z,2026-04-30T16:01:00Z,posted
+DEP-2,south,B-17,USD,9700,2026-04-30T16:00:00Z,2026-04-30T16:01:00Z,posted
+DEP-3,north,B-18,USD,5000,2026-04-30T17:00:00Z,2026-04-30T17:01:00Z,posted
+DEP-4,north,B-19,USD,6790,2026-05-02T16:00:00Z,2026-05-02T16:01:00Z,posted

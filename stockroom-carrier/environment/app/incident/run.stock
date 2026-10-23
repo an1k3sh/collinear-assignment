@@ -1,0 +1,28 @@
+// An overnight shortage and an operator rehearsal share the same runner.
+proc rehearsal() {
+    let attempts: int = 0;
+    transaction {
+        set attempts = attempts + 1;
+        fulfill("practice", "gear", 1, "seal", 1, "east", "west");
+        pause "rehearsal:before-abort";
+        assert false;
+    } recover (failure) {
+        emit "rehearsal_reverted" { attempts: attempts; reason: code(failure); };
+        pause code(failure);
+    }
+}
+
+proc main() {
+    reserve("safety", "east", "gear", 3);
+    rehearsal();
+    fulfill("alpha", "gear", 6, "seal", 6, "east", "west");
+    pause "dispatch:after-alpha";
+    fulfill("beta", "gear", 5, "seal", 3, "west", "east");
+    fulfill("gamma", "gear", 8, "seal", 8, "east", "west");
+    release("safety", 3);
+    fulfill("delta", "gear", 4, "seal", 2, "east", "west");
+    emit "closing" {
+        east_gear: available("east", "gear");
+        west_gear: available("west", "gear");
+    };
+}

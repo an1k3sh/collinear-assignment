@@ -1,0 +1,17 @@
+{
+    "task": {
+        "path": "collinear-candidate/northstar-forecast-followups"
+    },
+    "trial_name": "northstar-forecast-followups__EeQUw2d",
+    "trials_dir": "jobs/northstar-followups-copilot-opus-01",
+    "agent": {
+        "name": "copilot-cli",
+        "model_name": "claude-opus-5.5",
+        "resume_trajectory": true,
+        "kwargs": {
+            "version": "1.0.102",
+            "reasoning_effort": "high"
+        }
+    },
+    "job_id": "2c61bf76-1193-4033-8c87-cb7cad9ea0ff"
+}

@@ -1,0 +1,131 @@
+{
+  "cutoff": "2025-12-31",
+  "account": "MAIN",
+  "currency": "USD",
+  "items": [
+    {
+      "bank_id": "B001",
+      "classification": "matched",
+      "book_id": "CB101"
+    },
+    {
+      "bank_id": "B002",
+      "classification": "matched",
+      "book_id": "CB102"
+    },
+    {
+      "bank_id": "B003",
+      "classification": "adjustment",
+      "cash_adjustment": -250.0,
+      "debt_adjustment": 0
+    },
+    {
+      "bank_id": "B004",
+      "classification": "adjustment",
+      "cash_adjustment": 3000.0,
+      "debt_adjustment": 3000.0
+    },
+    {
+      "bank_id": "B005",
+      "classification": "adjustment",
+      "cash_adjustment": -1500.0,
+      "debt_adjustment": -1500.0
+    },
+    {
+      "bank_id": "B006",
+      "classification": "adjustment",
+      "cash_adjustment": -400.0,
+      "debt_adjustment": 0
+    },
+    {
+      "bank_id": "B007",
+      "classification": "adjustment",
+      "cash_adjustment": 400.0,
+      "debt_adjustment": 0
+    },
+    {
+      "bank_id": "B008",
+      "classification": "excluded",
+      "reason": "not_settled"
+    },
+    {
+      "bank_id": "B009",
+      "classification": "excluded",
+      "reason": "after_cutoff"
+    },
+    {
+      "bank_id": "B010",
+      "classification": "excluded",
+      "reason": "other_account"
+    },
+    {
+      "bank_id": "B011",
+      "classification": "excluded",
+      "reason": "other_currency"
+    },
+    {
+      "bank_id": "B012",
+      "classification": "adjustment",
+      "cash_adjustment": -600.0,
+      "debt_adjustment": 0
+    },
+    {
+      "bank_id": "B013",
+      "classification": "matched",
+      "book_id": "CB103"
+    },
+    {
+      "bank_id": "B014",
+      "classification": "adjustment",
+      "cash_adjustment": 200.0,
+      "debt_adjustment": 0
+    },
+    {
+      "bank_id": "B015",
+      "classification": "adjustment",
+      "cash_adjustment": -1100.0,
+      "debt_adjustment": 0
+    },
+    {
+      "bank_id": "B016",
+      "classification": "excluded",
+      "reason": "other_account"
+    },
+    {
+      "bank_id": "B017",
+      "classification": "adjustment",
+      "cash_adjustment": -80.0,
+      "debt_adjustment": 0
+    },
+    {
+      "bank_id": "B018",
+      "classification": "matched",
+      "book_id": "CB104"
+    },
+    {
+      "bank_id": "B019",
+      "classification": "excluded",
+      "reason": "not_settled"
+    },
+    {
+      "bank_id": "B020",
+      "classification": "adjustment",
+      "cash_adjustment": -520.0,
+      "debt_adjustment": 0
+    },
+    {
+      "bank_id": "B021",
+      "classification": "adjustment",
+      "cash_adjustment": 520.0,
+      "debt_adjustment": 0
+    }
+  ],
+  "duplicate_bank_ids": [
+    "B004",
+    "B012"
+  ],
+  "net_cash_adjustment": -330.0,
+  "net_debt_adjustment": 1500.0,
+  "corrected_opening_cash": 29670.0,
+  "corrected_opening_revolver": 31500.0
+}

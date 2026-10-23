@@ -1,0 +1,70 @@
+{
+  "oracle": {
+    "accepted": true
+  },
+  "valid_reordered_split_allocations": {
+    "accepted": true,
+    "expected": true,
+    "error": null
+  },
+  "valid_customer_waiting": {
+    "accepted": true,
+    "expected": true,
+    "error": null
+  },
+  "cancelled_order_in_roster": {
+    "accepted": false,
+    "expected": false,
+    "error": "Expected 18 dispatchable orders"
+  },
+  "leading_zero_identity_lost": {
+    "accepted": false,
+    "expected": false,
+    "error": ""
+  },
+  "quarantined_stock": {
+    "accepted": false,
+    "expected": false,
+    "error": "Quarantined lot C4"
+  },
+  "duplicate_feed_inflates_stock": {
+    "accepted": false,
+    "expected": false,
+    "error": "Stock exceeded: C1, allocated 20, available 9"
+  },
+  "packing_duration_shortened": {
+    "accepted": false,
+    "expected": false,
+    "error": "Packing duration"
+  },
+  "bench_break_ignored": {
+    "accepted": false,
+    "expected": false,
+    "error": "Bench P1: overlapping (90, 100) and (90, 110)"
+  },
+  "travel_undershot": {
+    "accepted": false,
+    "expected": false,
+    "error": "Impossible travel to ('SOUTH', '002'): earliest 105, reported 104"
+  },
+  "loading_time_shortened": {
+    "accepted": false,
+    "expected": false,
+    "error": "Loading duration"
+  },
+  "thermal_clock_at_departure": {
+    "accepted": false,
+    "expected": false,
+    "error": "Thermal exposure ('SOUTH', '002'): 109 > 77"
+  },
+  "expiry_checked_before_delivery": {
+    "accepted": false,
+    "expected": false,
+    "error": "Lot expired at customer handover: C1, order ('WEST', '001')"
+  },
+  "hire_cost_omitted": {
+    "accepted": false,
+    "expected": false,
+    "error": "Spend declared 55780, actual 67280"
+  }
+}

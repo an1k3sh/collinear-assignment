@@ -1,0 +1,13 @@
+{
+  "input_integrity": 1.0,
+  "transcription": 1.0,
+  "coverage": 1.0,
+  "connectivity": 1.0,
+  "availability": 1.0,
+  "protection": 1.0,
+  "capacity": 1.0,
+  "budget": 1.0,
+  "regeneration": 1.0,
+  "handover": 1.0,
+  "overall": 1.0
+}

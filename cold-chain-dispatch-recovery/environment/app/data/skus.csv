@@ -1,0 +1,3 @@
+sku,family,pack_base,pack_per_unit,max_unrefrigerated
+VAX-C,chilled,4,3,77
+LAB-F,frozen,5,3,62

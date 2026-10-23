@@ -1,0 +1,24 @@
+{
+  "delivered": {
+    "passed": true
+  },
+  "identity_and_cents": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/grade.py\", line 20, in check\n    function()\n  File \"/tests/grade.py\", line 89, in semantics\n    assert result == {k: row[k] for k in (\"tenant\", \"payment_id\", \"invoice_id\")} | {\"cents\": 29}\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+  },
+  "lost_response": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/grade.py\", line 20, in check\n    function()\n  File \"/tests/grade.py\", line 104, in lost_response\n    assert result[\"cents\"] == 29\n           ^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+  },
+  "error_reporting": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/grade.py\", line 20, in check\n    function()\n  File \"/tests/grade.py\", line 118, in invalid_rows\n    assert candidate.apply_payment(path, payment(\"bad\"))[\"cents\"] == 29\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+  },
+  "concurrency": {
+    "passed": true
+  },
+  "artifacts": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/grade.py\", line 20, in check\n    function()\n  File \"/tests/grade.py\", line 166, in artifacts\n    assert result.returncode == 0, result.stderr.decode()\n           ^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: F\n======================================================================\nFAIL: test_exact_cents_and_invoice_id (test_regression.Money.test_exact_cents_and_invoice_id)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/app/tests/test_regression.py\", line 9, in test_exact_cents_and_invoice_id\n    self.assertEqual(normalized(row)[\"cents\"], 29)\nAssertionError: 28 != 29\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nFAILED (failures=1)\n\n"
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "job_name": "cohort-final-oracle-01",
+    "tasks": [
+        {
+            "path": "collinear-candidate/incremental-cohort-board"
+        }
+    ]
+}

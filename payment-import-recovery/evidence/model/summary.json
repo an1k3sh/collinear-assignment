@@ -1,0 +1,34 @@
+{
+  "task": "payment-import-recovery",
+  "trial": "payment-import-recovery__CJhgYPc",
+  "agent_info": {
+    "name": "copilot-cli",
+    "version": "1.0.102",
+    "model_info": {
+      "name": "claude-opus-5.5",
+      "provider": null
+    }
+  },
+  "agent_config": {
+    "name": "prototype_harness:PrototypeCopilot",
+    "model_name": "claude-opus-5.5",
+    "kwargs": {
+      "reasoning_effort": "high",
+      "version": "1.0.102"
+    }
+  },
+  "started_at": "2026-10-23T16:05:38.107032Z",
+  "finished_at": "2026-10-23T16:12:35.459819Z",
+  "rewards": {
+    "delivered": 1.0,
+    "identity_and_cents": 1.0,
+    "lost_response": 1.0,
+    "error_reporting": 1.0,
+    "concurrency": 1.0,
+    "artifacts": 1.0,
+    "overall": 1.0
+  },
+  "passed_criteria": 6,
+  "total_criteria": 6,
+  "exception_info": null
+}

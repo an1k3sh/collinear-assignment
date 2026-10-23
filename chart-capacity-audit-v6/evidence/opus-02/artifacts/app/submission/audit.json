@@ -1,0 +1,81 @@
+{
+ "claims": [
+  {
+   "id": "R1",
+   "verdict": "incorrect",
+   "evidence": [
+    "C2.r1",
+    "C2.r2",
+    "export-manifest.json",
+    "corrections.md"
+   ],
+   "explanation": "export-manifest.json and corrections.md state that C2.r2 replaces the entire C2.r1 page. The old Birch error series included retry-attempt accounting, and the request counters are repeated only for context. These are two revisions of the same BS/BI series, not separate workloads, so adding them would double-count Birch traffic and inflate errors. Only C2.r2 is used: BS = 840,000 requests and 20,000 errors; BI = 960,000 requests and 16,000 errors (BI has a documented W2 error reset). C2.r1 is kept in the inventory only as rejected/superseded."
+  },
+  {
+   "id": "R2",
+   "verdict": "incorrect",
+   "evidence": [
+    "C1.r1",
+    "operations.json"
+   ],
+   "explanation": "operations.json documents zero-baseline resets of AS requests and errors at the start of W3, immediately after the B2 sample. The W3 interval is therefore the B3 reading minus baseline 0 (100,000 requests and 3,000 errors on C1.r1), not B3 minus B2. The negative raw difference is a counter restart, not negative demand. Clamping it to zero would discard real traffic. AS W3 stays usable."
+  },
+  {
+   "id": "R3",
+   "verdict": "incorrect",
+   "evidence": [
+    "C4.r1",
+    "operations.json",
+    "corrections.md"
+   ],
+   "explanation": "The DS B2 sample is UNKNOWN on C4.r1, which is not a measured zero. That makes only W2 (B1 to B2) non-reconstructable, so W2 is excluded as missing_traffic and its histogram is not pooled. W3 does not need B2: operations.json documents a zero-baseline DS reset for requests and errors at the start of W3, and corrections.md confirms that this permits reconstruction. W3 = B3 minus 0, giving 220,000 requests and 4,000 errors, so W3 stays usable."
+  },
+  {
+   "id": "R4",
+   "verdict": "incorrect",
+   "evidence": [
+    "H3.r1",
+    "policy.md"
+   ],
+   "explanation": "policy.md requires summing histogram counts across usable windows and computing slow_fraction = (last two bins) / samples on the pooled counts; voting across windows is not allowed. On H3.r1, CS W1-W3 each have 100 slow samples out of 1,000 (10%), but W4 has about 12 out of 10,000. Pooled, that is 312/13,000 = 2.4%, with reading bounds of about 1.8%-3.2%. This is not strictly above the 5% trigger, so CS is latency-ineligible (block_reason = latency) and receives tier 0."
+  },
+  {
+   "id": "R5",
+   "verdict": "incorrect",
+   "evidence": [
+    "C3.r1",
+    "planning.json"
+   ],
+   "explanation": "CI has 24,000 failed requests (C3.r1) and passes latency, with a pooled slow fraction of 26.8%. But planning.json marks Cedar as frozen, and the rules forbid any positive tier in a frozen region. CI is blocked by region_freeze. Its weighted risk of 36,000 remains unserved and is counted in residual risk."
+  },
+  {
+   "id": "R6",
+   "verdict": "correct",
+   "evidence": [
+    "C4.r1",
+    "H4.r1",
+    "operations.json"
+   ],
+   "explanation": "operations.json lists a maintenance exclusion for DI in W2. The W2 counters on C4.r1 are still reconstructed for transparency (480,000 requests, 9,000 errors), but the interval is excluded from demand and error totals. The H4.r1 W2 histogram is excluded from pooled latency. DI therefore pools only W1, W3 and W4: 60/6,000 = 1% slow, which is latency-ineligible."
+  },
+  {
+   "id": "R7",
+   "verdict": "incorrect",
+   "evidence": [
+    "planning.json",
+    "policy.md"
+   ],
+   "explanation": "policy.md lists five independent feasibility rules: credits including region activation, power, active-region count, per-region block caps, and eligibility/freeze. Example: AS1+BS1+DS1 costs 3+4+3 plus activations 1+2+1 = 14 credits, within 16, but it activates 3 regions when max_active_regions is 2. A CI tier fits the credit budget but Cedar is frozen. In the chosen plan, the Birch block cap (3) is the binding limit, not credits."
+  },
+  {
+   "id": "R8",
+   "verdict": "unsupported",
+   "evidence": [
+    "C1.r1",
+    "C4.r1",
+    "operations.json"
+   ],
+   "explanation": "operations.json records the collector deployment together with counter resets at B2. The charts (C1.r1, C4.r1) are observational aggregates with no control group or randomization, and some post-B2 windows are reset- or maintenance-affected. A before/after difference here cannot establish that the deployment caused any change in error fractions; the claim is not supported by this evidence."
+  }
+ ]
+}

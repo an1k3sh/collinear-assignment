@@ -1,0 +1,150 @@
+test_artifacts_protected_inputs (test_service.ServiceTests.test_artifacts_protected_inputs) ... ok
+test_artifacts_report_and_regressions (test_service.ServiceTests.test_artifacts_report_and_regressions) ... ok
+test_batches_client_base_prediction_and_ack (test_service.ServiceTests.test_batches_client_base_prediction_and_ack) ... FAIL
+test_batches_client_partial_confirmation_restart (test_service.ServiceTests.test_batches_client_partial_confirmation_restart) ... FAIL
+test_batches_concurrent_duplicate_and_namespace (test_service.ServiceTests.test_batches_concurrent_duplicate_and_namespace) ... ok
+test_batches_conflict_and_fault_rollback (test_service.ServiceTests.test_batches_conflict_and_fault_rollback) ... ok
+test_batches_invalid_and_preserved_by_repair (test_service.ServiceTests.test_batches_invalid_and_preserved_by_repair) ... ok
+test_batches_precommitted_member_not_atomic (test_service.ServiceTests.test_batches_precommitted_member_not_atomic) ... ok
+test_batches_sequential_same_entity_and_retry (test_service.ServiceTests.test_batches_sequential_same_entity_and_retry) ... ok
+test_client_ack_and_pending (test_service.ServiceTests.test_client_ack_and_pending) ... ok
+test_client_checkpoint_and_gap_handling (test_service.ServiceTests.test_client_checkpoint_and_gap_handling) ... ok
+test_client_conflict_resolution_and_frozen_request (test_service.ServiceTests.test_client_conflict_resolution_and_frozen_request) ... ok
+test_client_generated_delivery_permutations (test_service.ServiceTests.test_client_generated_delivery_permutations) ... ok
+test_client_integer_precision_and_immutability (test_service.ServiceTests.test_client_integer_precision_and_immutability) ... FAIL
+test_client_snapshot_staging_and_interleaving (test_service.ServiceTests.test_client_snapshot_staging_and_interleaving) ... ok
+test_client_tombstones_and_optimistic_replay (test_service.ServiceTests.test_client_tombstones_and_optimistic_replay) ... ok
+test_confirmations_client_pull_before_ack (test_service.ServiceTests.test_confirmations_client_pull_before_ack) ... ok
+test_confirmations_client_snapshot_staging (test_service.ServiceTests.test_confirmations_client_snapshot_staging) ... ok
+test_confirmations_snapshot_history_and_cut (test_service.ServiceTests.test_confirmations_snapshot_history_and_cut) ... ok
+test_durability_atomic_replace (test_service.ServiceTests.test_durability_atomic_replace) ... ok
+test_durability_persist_before_exchange (test_service.ServiceTests.test_durability_persist_before_exchange) ... ok
+test_integration_atomic_batch_http_confirmation (test_service.ServiceTests.test_integration_atomic_batch_http_confirmation) ... FAIL
+test_integration_http_restart_lost_response (test_service.ServiceTests.test_integration_http_restart_lost_response) ... ok
+test_recovery_alternate_database_and_idempotence (test_service.ServiceTests.test_recovery_alternate_database_and_idempotence) ... ok
+test_recovery_delivered_incident_state (test_service.ServiceTests.test_recovery_delivered_incident_state) ... ok
+test_sync_cursor_scope_and_invalid_values (test_service.ServiceTests.test_sync_cursor_scope_and_invalid_values) ... ok
+test_sync_large_wire_values (test_service.ServiceTests.test_sync_large_wire_values) ... ok
+test_sync_pull_exclusive_frozen_and_gaps (test_service.ServiceTests.test_sync_pull_exclusive_frozen_and_gaps) ... ok
+test_sync_snapshot_frozen_history (test_service.ServiceTests.test_sync_snapshot_frozen_history) ... ok
+test_transactions_conflicts_do_not_consume_keys (test_service.ServiceTests.test_transactions_conflicts_do_not_consume_keys) ... ok
+test_transactions_generated_reference_replay (test_service.ServiceTests.test_transactions_generated_reference_replay) ... ok
+test_transactions_process_race (test_service.ServiceTests.test_transactions_process_race) ... ok
+test_transactions_receipt_identity_and_digest (test_service.ServiceTests.test_transactions_receipt_identity_and_digest) ... ok
+test_transactions_rollback_both_fault_boundaries (test_service.ServiceTests.test_transactions_rollback_both_fault_boundaries) ... ok
+test_transactions_validation_and_lifecycle (test_service.ServiceTests.test_transactions_validation_and_lifecycle) ... ok
+
+======================================================================
+FAIL: test_batches_client_base_prediction_and_ack (test_service.ServiceTests.test_batches_client_base_prediction_and_ack)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tests/test_service.py", line 549, in test_batches_client_base_prediction_and_ack
+    self.js("batch")
+  File "/tests/test_service.py", line 90, in js
+    self.assertEqual(completed.returncode, 0, completed.stdout + completed.stderr)
+AssertionError: 1 != 0 : file:///tmp/tmplge0do7l/app/client/replica.mjs:112
+        put(revisions, intent.id, String(number(base) + 1n));
+                                                      ^
+
+TypeError: Cannot mix BigInt and other types, use explicit conversions
+    at reduce (file:///tmp/tmplge0do7l/app/client/replica.mjs:112:55)
+    at cases.batch (file:///tests/client_checks.mjs:342:15)
+    at file:///tests/client_checks.mjs:455:18
+
+Node.js v22.14.0
+
+
+======================================================================
+FAIL: test_batches_client_partial_confirmation_restart (test_service.ServiceTests.test_batches_client_partial_confirmation_restart)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tests/test_service.py", line 552, in test_batches_client_partial_confirmation_restart
+    self.js("batch-durable", self.temp.name)
+  File "/tests/test_service.py", line 90, in js
+    self.assertEqual(completed.returncode, 0, completed.stdout + completed.stderr)
+AssertionError: 1 != 0 : node:internal/modules/run_main:122
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: The input did not match the regular expression /lost committed response/. Input:
+
+'TypeError: Cannot mix BigInt and other types, use explicit conversions'
+
+    at async cases.batch-durable (file:///tests/client_checks.mjs:382:3)
+    at async file:///tests/client_checks.mjs:455:1 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: TypeError: Cannot mix BigInt and other types, use explicit conversions
+      at reduce (file:///tmp/tmplge0do7l/app/client/replica.mjs:112:55)
+      at sendBatchOnce (file:///tmp/tmplge0do7l/app/client/durable.mjs:36:19)
+      at async waitForActual (node:assert:875:5)
+      at async Function.rejects (node:assert:996:25)
+      at async cases.batch-durable (file:///tests/client_checks.mjs:382:3)
+      at async file:///tests/client_checks.mjs:455:1,
+  expected: /lost committed response/,
+  operator: 'rejects'
+}
+
+Node.js v22.14.0
+
+
+======================================================================
+FAIL: test_client_integer_precision_and_immutability (test_service.ServiceTests.test_client_integer_precision_and_immutability)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tests/test_service.py", line 381, in test_client_integer_precision_and_immutability
+    self.js("precision")
+  File "/tests/test_service.py", line 90, in js
+    self.assertEqual(completed.returncode, 0, completed.stdout + completed.stderr)
+AssertionError: 1 != 0 : file:///tmp/tmplge0do7l/app/client/replica.mjs:30
+    throw new Error('Conflicting records at equal revision');
+          ^
+
+Error: Conflicting records at equal revision
+    at merge (file:///tmp/tmplge0do7l/app/client/replica.mjs:30:11)
+    at receive (file:///tmp/tmplge0do7l/app/client/replica.mjs:41:5)
+    at reduce (file:///tmp/tmplge0do7l/app/client/replica.mjs:177:7)
+    at cases.precision (file:///tests/client_checks.mjs:51:19)
+    at file:///tests/client_checks.mjs:455:18
+
+Node.js v22.14.0
+
+
+======================================================================
+FAIL: test_integration_atomic_batch_http_confirmation (test_service.ServiceTests.test_integration_atomic_batch_http_confirmation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tests/test_service.py", line 556, in test_integration_atomic_batch_http_confirmation
+    self.js("batch-http", self.temp.name, url)
+  File "/tests/test_service.py", line 90, in js
+    self.assertEqual(completed.returncode, 0, completed.stdout + completed.stderr)
+AssertionError: 1 != 0 : node:internal/modules/run_main:122
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: The input did not match the regular expression /lost response/. Input:
+
+'TypeError: Cannot mix BigInt and other types, use explicit conversions'
+
+    at async cases.batch-http (file:///tests/client_checks.mjs:424:3)
+    at async file:///tests/client_checks.mjs:455:1 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: TypeError: Cannot mix BigInt and other types, use explicit conversions
+      at reduce (file:///tmp/tmplge0do7l/app/client/replica.mjs:112:55)
+      at sendBatchOnce (file:///tmp/tmplge0do7l/app/client/durable.mjs:36:19)
+      at async waitForActual (node:assert:875:5)
+      at async Function.rejects (node:assert:996:25)
+      at async cases.batch-http (file:///tests/client_checks.mjs:424:3)
+      at async file:///tests/client_checks.mjs:455:1,
+  expected: /lost response/,
+  operator: 'rejects'
+}
+
+Node.js v22.14.0
+
+
+----------------------------------------------------------------------
+Ran 35 tests in 2.202s
+
+FAILED (failures=4)

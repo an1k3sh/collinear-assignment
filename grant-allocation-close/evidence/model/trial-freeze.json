@@ -1,0 +1,19 @@
+{
+  "README.md": "e8f28ebc14a83489e6ba3a424848412540e8d05c4ba443c3c4aa0cc6e4ac6163",
+  "author/generate.py": "7efbd13006d2c645c68be483b74eff3b4be1d639e0ca40e62735c1994b1aed34",
+  "author/prototype_harness.py": "2100c39b5d54f1ebacf7bee1f2b5bf8c1ee7ca120939c425c18e81aea4f67611",
+  "author/validate_controls.py": "f56ce466461b834e8909e5265933ff3dc6fd54185cd450a64f53a8c5aeecc746",
+  "environment/Dockerfile": "2ab61de7a8915467f7ac4bfc2213c26032e4290e6fd6628083a929417a2ec53b",
+  "environment/app/POLICY.md": "af22e27e2e49600bc05964770c45da17b333d808172959f0919a3ff543f8c6d3",
+  "environment/app/grants.xlsx": "81f5df87a6018eb87e1212582f73452a6afb57cb5af3d3578c75d44eab123f2d",
+  "environment/requirements.txt": "5ab8a239c1418483ead11ccd73008173fdd3af6ae97f912357ede24da823b30a",
+  "instruction.md": "7d5e14e89ebac8e35051cb3f6c12ab6b3b22e3047287e7bd0f1e6ed7807c8d6f",
+  "solution/repair.py": "26927c81a71137555a1766a234e8262d2ffd054639f217cda7d2e3999d381251",
+  "solution/solve.sh": "38cde22940dab5ece7a8bf6fdc297b2274e7b35680d8dabbe21f8e85d3fea258",
+  "task.toml": "5deb47dfb833732fd515fd6fc50c3c3fbf85bed9e3af39d2440088edcc32146e",
+  "tests/grade.py": "2d60e249ec1be751f20335687bbdb1471ab1ed4f785584a870cd0be591852efd",
+  "tests/protected.json": "d9f9dfada98d02f8627536b46db182499a1da220b2af4e83b2b09cc11b44efbf",
+  "tests/reference.py": "0ac15f1805f78502eb051de99aa91ec5677cfaf34f90c42e4528429654d195d7",
+  "tests/test.sh": "a36e6ecb9973b21ba445adde811e84285d8aa2b0ed487cb235c4d41411f54164",
+  "environment/app/evidence/controller-note.txt": "3c1af9b1c31e0c141ea7b12f8fb4640be54345d9d67915d90dc61f57afb938f2"
+}

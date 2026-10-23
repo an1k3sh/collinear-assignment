@@ -1,0 +1,41 @@
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 89171
+INFO: Loaded 1 modules   (6991 inline 8-bit counters): 6991 [0xaaaae6324a60, 0xaaaae63265af), 
+INFO: Loaded 1 PC tables (6991 PCs): 6991 [0xaaaae63265b0,0xaaaae6341aa0), 
+INFO:       12 files found in /work/audit/omit-unknown/corpus
+INFO: seed corpus: files: 12 min: 8b max: 184b total: 1152b rss: 43Mb
+TLP failure: TLP mismatch; replay this binary input
+==1482== ERROR: libFuzzer: deadly signal
+==1482==WARNING: invalid path to external symbolizer!
+==1482==WARNING: Failed to use and restart external symbolizer!
+    #0 0xaaaae61f50e0  (/work/audit/omit-unknown/build/tlp_fuzz+0x1450e0) (BuildId: f354c8d35fed9a7d68a64881fbe6ec766b5ef095)
+    #1 0xaaaae614b8d8  (/work/audit/omit-unknown/build/tlp_fuzz+0x9b8d8) (BuildId: f354c8d35fed9a7d68a64881fbe6ec766b5ef095)
+    #2 0xaaaae6132ea0  (/work/audit/omit-unknown/build/tlp_fuzz+0x82ea0) (BuildId: f354c8d35fed9a7d68a64881fbe6ec766b5ef095)
+    #3 0xffff89cf47e4  (linux-vdso.so.1+0x7e4) (BuildId: 4fece5beffd59f501a75460848dc024366956f30)
+    #4 0xffff896e3c14  (/lib/aarch64-linux-gnu/libc.so.6+0x83c14) (BuildId: 3ff3f95a1642952473d0d5739aaf308b0e24f694)
+    #5 0xffff8969a8a8  (/lib/aarch64-linux-gnu/libc.so.6+0x3a8a8) (BuildId: 3ff3f95a1642952473d0d5739aaf308b0e24f694)
+    #6 0xffff8968747c  (/lib/aarch64-linux-gnu/libc.so.6+0x2747c) (BuildId: 3ff3f95a1642952473d0d5739aaf308b0e24f694)
+    #7 0xaaaae6224b6c  (/work/audit/omit-unknown/build/tlp_fuzz+0x174b6c) (BuildId: f354c8d35fed9a7d68a64881fbe6ec766b5ef095)
+    #8 0xaaaae613423c  (/work/audit/omit-unknown/build/tlp_fuzz+0x8423c) (BuildId: f354c8d35fed9a7d68a64881fbe6ec766b5ef095)
+    #9 0xaaaae61339fc  (/work/audit/omit-unknown/build/tlp_fuzz+0x839fc) (BuildId: f354c8d35fed9a7d68a64881fbe6ec766b5ef095)
+    #10 0xaaaae6135640  (/work/audit/omit-unknown/build/tlp_fuzz+0x85640) (BuildId: f354c8d35fed9a7d68a64881fbe6ec766b5ef095)
+    #11 0xaaaae6135bb4  (/work/audit/omit-unknown/build/tlp_fuzz+0x85bb4) (BuildId: f354c8d35fed9a7d68a64881fbe6ec766b5ef095)
+    #12 0xaaaae6124bf4  (/work/audit/omit-unknown/build/tlp_fuzz+0x74bf4) (BuildId: f354c8d35fed9a7d68a64881fbe6ec766b5ef095)
+    #13 0xaaaae614bfe0  (/work/audit/omit-unknown/build/tlp_fuzz+0x9bfe0) (BuildId: f354c8d35fed9a7d68a64881fbe6ec766b5ef095)
+    #14 0xffff89687740  (/lib/aarch64-linux-gnu/libc.so.6+0x27740) (BuildId: 3ff3f95a1642952473d0d5739aaf308b0e24f694)
+    #15 0xffff89687814  (/lib/aarch64-linux-gnu/libc.so.6+0x27814) (BuildId: 3ff3f95a1642952473d0d5739aaf308b0e24f694)
+    #16 0xaaaae611afac  (/work/audit/omit-unknown/build/tlp_fuzz+0x6afac) (BuildId: f354c8d35fed9a7d68a64881fbe6ec766b5ef095)
+
+NOTE: libFuzzer has rudimentary signal handlers.
+      Combine libFuzzer with AddressSanitizer or similar for better crash reports.
+SUMMARY: libFuzzer: deadly signal
+MS: 0 ; base unit: 0000000000000000000000000000000000000000
+0x8f,0x1a,0x1c,0x7c,0x4f,0xa7,0xce,0x2b,
+\217\032\034|O\247\316+
+artifact_prefix='/work/audit/omit-unknown/'; Test unit written to /work/audit/omit-unknown/crash-3038519b28ce8be44c011d113f9df118ff679d30
+Base64: jxocfE+nzis=
+stat::number_of_executed_units: 2
+stat::average_exec_per_sec:     0
+stat::new_units_added:          0
+stat::slowest_unit_time_sec:    0
+stat::peak_rss_mb:              46

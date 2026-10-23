@@ -1,0 +1,9 @@
+{
+  "overall": 0.0,
+  "validity": 1.0,
+  "oracle_correctness": 1.0,
+  "completeness": 1.0,
+  "diversity": 0.6,
+  "artifact_quality": 1.0,
+  "input_validity_rate": 1.0
+}

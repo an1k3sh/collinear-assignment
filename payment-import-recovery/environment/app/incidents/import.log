@@ -1,0 +1,5 @@
+2026-04-30T09:10:00Z payment=P-001 tenant=north stage=commit result=success
+2026-04-30T09:10:00Z payment=P-001 tenant=north stage=response result=connection_reset
+2026-04-30T09:12:00Z retry_input=data/payments.csv
+2026-04-30T09:12:01Z operator_note="Same time and amount does not imply duplicate: P-001 and P-002 pay different invoices."
+2026-04-30T09:12:02Z operator_note="Importer printed success, but an INV-9 allocation is missing. Worker traceback was never collected."

@@ -1,0 +1,12 @@
+Subject: April allocation workbook
+
+The saved total says 10,000. A 1,000-dollar shared-services bill was appended
+after the original report was built. Cost data is filtered to early postings,
+but the monthly allocation must include every April posting.
+
+"002" is Field Operations; "02" is Customer Support. These are different
+departments. Rates are often reordered by the controller.
+
+Someone pasted over one allocation formula during a review. The chart appears
+unchanged when the displayed allocations change. A hidden Legacy sheet is
+retained as last month's audit evidence, not as a source for April's chart.

@@ -1,0 +1,39 @@
+test_contingency_faults (test_execution.ExecutionTests.test_contingency_faults) ... policy control clairvoyant-early-actions rejected by [0]
+policy control commit-at-reveal rejected by [0]
+policy control forget-running-commitments rejected by [0]
+policy control sum-instead-of-guarantee rejected by [38]
+policy control reuse-fixed-prefix rejected by [0]
+ok
+test_empty_and_no_crews (test_execution.ExecutionTests.test_empty_and_no_crews) ... ok
+test_independent_solvers_all_valid_inputs (test_execution.ExecutionTests.test_independent_solvers_all_valid_inputs) ... ok
+test_information_value_and_nonanticipativity (test_execution.ExecutionTests.test_information_value_and_nonanticipativity) ... ok
+test_invalid_execution_inputs (test_execution.ExecutionTests.test_invalid_execution_inputs) ... ok
+test_original_hand_witness (test_execution.ExecutionTests.test_original_hand_witness) ... ok
+test_ready_boundary_and_upgrade (test_execution.ExecutionTests.test_ready_boundary_and_upgrade) ... ok
+test_scheduling_faults_are_rejected (test_execution.ExecutionTests.test_scheduling_faults_are_rejected) ... control ignore-warmup rejected by [0]
+control keep-benefit-during-upgrade rejected by [0]
+control ignore-region-gap rejected by [0]
+control ignore-prerequisite rejected by [31]
+control ignore-disruption rejected by [0]
+control optimize-case-sum rejected by [21]
+control add-endpoint-benefits rejected by [0]
+control double-charge-upgrade rejected by [0]
+control ignore-crew-limit rejected by [23]
+control ignore-blackouts rejected by [0]
+control incorrect-bound-sign rejected by [32]
+ok
+test_two_case_hand_witness (test_execution.ExecutionTests.test_two_case_hand_witness) ... ok
+test_counterfactual_authority_and_uncertainty (test_verifier.VerifierTests.test_counterfactual_authority_and_uncertainty) ... ok
+test_extraction_and_missing (test_verifier.VerifierTests.test_extraction_and_missing) ... ok
+test_hand_calculated_workload (test_verifier.VerifierTests.test_hand_calculated_workload) ... ok
+test_inventory_and_units (test_verifier.VerifierTests.test_inventory_and_units) ... ok
+test_pooling_not_voting (test_verifier.VerifierTests.test_pooling_not_voting) ... ok
+test_reset_and_missing_are_distinct (test_verifier.VerifierTests.test_reset_and_missing_are_distinct) ... ok
+test_resource_constraints_independently_bind (test_verifier.VerifierTests.test_resource_constraints_independently_bind) ... ok
+test_score_missing_gates (test_verifier.VerifierTests.test_score_missing_gates) ... ok
+test_widest_visual_envelope (test_verifier.VerifierTests.test_widest_visual_envelope) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 42.517s
+
+OK

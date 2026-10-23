@@ -1,0 +1,16 @@
+[
+  {"id":"r1/import","mutations":[
+    {"table":"orders","id":"o-100","row":{"id":"o-100","account":"001","day":"2026-10-01","cents":1200}},
+    {"table":"orders","id":"o-101","row":{"id":"o-101","account":"001","day":"2026-10-01","cents":null}},
+    {"table":"orders","id":"o-102","row":{"id":"o-102","account":"1","day":"2026-10-01","cents":-200}},
+    {"table":"orders","id":"o-103","row":{"id":"o-103","account":"unclassified","day":null,"cents":300}},
+    {"table":"tags","id":"t-a","row":{"id":"t-a","account":"001","segment":"retail"}},
+    {"table":"tags","id":"t-b","row":{"id":"t-b","account":"001","segment":"retail"}},
+    {"table":"tags","id":"t-c","row":{"id":"t-c","account":"1","segment":"retail"}}
+  ]},
+  {"id":"r1/correct","mutations":[
+    {"table":"tags","id":"t-a","row":{"id":"t-a","account":"001","segment":"trade"}},
+    {"table":"orders","id":"o-102","row":{"id":"o-102","account":"1","day":null,"cents":-200}},
+    {"table":"orders","id":"o-101","row":null}
+  ]}
+]

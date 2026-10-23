@@ -1,0 +1,9 @@
+test_example (test_smoke.SmokeTests.test_example) ... ok
+test_generation (test_smoke.SmokeTests.test_generation) ... ok
+test_multisets (test_smoke.SmokeTests.test_multisets) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.002s
+
+OK
+{"version": 1, "seed": 17, "requested": 112, "executed": 112, "passed": 112, "mismatches": 0}

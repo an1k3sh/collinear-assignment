@@ -1,0 +1,34 @@
+{
+  "task": "settlement-cutoff-reconciliation",
+  "trial": "settlement-cutoff-reconciliation__3v6fdqW",
+  "agent_info": {
+    "name": "copilot-cli",
+    "version": "1.0.102",
+    "model_info": {
+      "name": "claude-opus-5.5",
+      "provider": null
+    }
+  },
+  "agent_config": {
+    "name": "prototype_harness:PrototypeCopilot",
+    "model_name": "claude-opus-5.5",
+    "kwargs": {
+      "reasoning_effort": "high",
+      "version": "1.0.102"
+    }
+  },
+  "started_at": "2026-10-23T16:05:38.168504Z",
+  "finished_at": "2026-10-23T16:09:28.587100Z",
+  "rewards": {
+    "delivered": 1.0,
+    "variant_1": 1.0,
+    "variant_2": 1.0,
+    "variant_3": 1.0,
+    "variant_4": 1.0,
+    "variant_5": 1.0,
+    "overall": 1.0
+  },
+  "passed_criteria": 6,
+  "total_criteria": 6,
+  "exception_info": null
+}

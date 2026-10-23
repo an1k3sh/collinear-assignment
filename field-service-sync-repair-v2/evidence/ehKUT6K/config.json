@@ -1,0 +1,17 @@
+{
+    "task": {
+        "path": "collinear-candidate/field-service-sync-repair-v2"
+    },
+    "trial_name": "field-service-sync-repair-v2__ehKUT6K",
+    "trials_dir": "jobs/field-service-sync-v2-pair-01",
+    "agent_setup_timeout_multiplier": 5.0,
+    "agent": {
+        "name": "sync_harness_npm:NpmInstalledCopilot",
+        "model_name": "claude-opus-5.5",
+        "kwargs": {
+            "reasoning_effort": "high",
+            "version": "1.0.102"
+        }
+    },
+    "job_id": "481bba19-fee5-41e6-be3e-dc6184d383e9"
+}

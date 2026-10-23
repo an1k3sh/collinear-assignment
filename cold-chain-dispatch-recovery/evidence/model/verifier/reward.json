@@ -1,0 +1,12 @@
+{
+  "input_integrity": 1.0,
+  "roster": 1.0,
+  "allocations": 1.0,
+  "packing": 1.0,
+  "trips": 1.0,
+  "cold_chain": 1.0,
+  "cost": 1.0,
+  "regeneration": 1.0,
+  "handover": 1.0,
+  "overall": 1.0
+}

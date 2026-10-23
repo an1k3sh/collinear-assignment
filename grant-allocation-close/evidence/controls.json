@@ -1,0 +1,57 @@
+{
+  "oracle": {
+    "accepted": true,
+    "expected": true,
+    "error": null
+  },
+  "equivalent_award_formula": {
+    "accepted": true,
+    "expected": true,
+    "error": null
+  },
+  "valid_sumif_grouping_in_libreoffice": {
+    "accepted": true,
+    "expected": true,
+    "error": null
+  },
+  "numeric_identifier_normalization": {
+    "accepted": false,
+    "expected": false,
+    "error": "001, balance: got 483, expected 133.2"
+  },
+  "all_posted_versions_counted": {
+    "accepted": false,
+    "expected": false,
+    "error": "01, balance: got 333, expected 261.0"
+  },
+  "one_redistribution_round_only": {
+    "accepted": false,
+    "expected": false,
+    "error": "001, award: got 80.01, expected 80.0"
+  },
+  "independent_cent_rounding": {
+    "accepted": false,
+    "expected": false,
+    "error": "1, award: got 0.01, expected 0.0"
+  },
+  "wrong_remainder_tie_order": {
+    "accepted": false,
+    "expected": false,
+    "error": "01, award: got 0, expected 0.01"
+  },
+  "last_supported_row_ignored": {
+    "accepted": false,
+    "expected": false,
+    "error": "001, balance: got 133.2, expected 221.2"
+  },
+  "conversion_rounded_after_aggregation": {
+    "accepted": false,
+    "expected": false,
+    "error": "R&D, balance: got 223.095, expected 223.09"
+  },
+  "stale_chart_values": {
+    "accepted": false,
+    "expected": false,
+    "error": "Chart must use released awards"
+  }
+}

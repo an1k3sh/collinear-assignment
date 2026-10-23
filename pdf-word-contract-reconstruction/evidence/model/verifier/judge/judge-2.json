@@ -1,0 +1,48 @@
+{
+  "scores": {
+    "content_fidelity": 4,
+    "editable_structure": 4,
+    "visual_organization": 4,
+    "navigation_furniture": 4
+  },
+  "evidence": {
+    "content_fidelity": [
+      "Page 1 contract particulars match, including the 1 July 2026\u201330 June 2027 term, all three named sites, GBP 37,800.00 base fee and 29 June 2026, 17:00 mobilisation milestone.",
+      "Schedule A preserves every quantity and financial association: monitoring 12 \u00d7 2,400.00 = 28,800.00; calibration 6 \u00d7 750.00 = 4,500.00; onboarding 3 \u00d7 1,800.00 = 5,400.00; transition credit 1 \u00d7 (900.00) = (900.00); net 37,800.00, VAT at 20% 7,560.00 and gross 45,360.00. The invoice example retains 2,400.00, 190.00, 2,590.00, 518.00 and payable 3,108.00 in their correct rows.",
+      "Schedule A retains the GBP 145.00 call-out, included 45 minutes, GBP 22.50 per completed 15-minute block, 30-calendar-day payment obligation and footnote specifying that 59 minutes incurs no additional block. Travel inclusion and materials approval/cost conditions also match.",
+      "Schedule B preserves all site/target associations: Northgate Mon-Sat 08:00-20:00, critical 15/90 minutes, routine 2 service hours/next service day; Canal House Mon-Fri 07:00-19:00, critical 15/120 minutes, routine 4 service hours/within 2 service days; Eastbank Mon-Sun 06:00-22:00, critical 10/60 minutes, routine 1 service hour/same service day. Access exceptions, continuous critical cover and all four dated planned exceptions match.",
+      "Clauses 1\u20138 retain the monitoring, access, escalation, completion-evidence, staffing, closure-notification, monthly-review and change-authorisation obligations. Schedule C preserves evidence/accountability associations and the illustrated 42 accepted, 6 returned and 3 open records. Appendices D\u2013E preserve checklist conditions, acceptance limits, both-signatory approval and the prohibition on unsigned price changes."
+    ],
+    "editable_structure": [
+      "The extraction shows real body paragraphs, Heading1/Heading2 styles and native tables throughout, including editable acceptance, change and execution forms. Schedule A retains the vertically merged Recurring and Summary category cells and repeating table-header flags.",
+      "Candidate clauses use the Clause style with numbering ID 90; its numbering XML defines automatic decimal numbering. This is equivalent to the reference's paragraph-level numbering ID 60 and renders continuously as clauses 1\u20138.",
+      "The charge-rule paragraph contains a real footnote reference to footnote 1, with matching text in word/footnotes.xml. Figure artwork is represented by drawings, while figure headings and captions remain editable paragraphs.",
+      "Both edit probes succeeded. edited-02.png shows the extended Access readiness clause reflowing without loss or overlap. edited-04.png shows the extended calibration description expanding its native table row while preserving adjacent quantities, prices, subsequent rows and the footnote."
+    ],
+    "visual_organization": [
+      "All eight original image pairs preserve the reference's hierarchy, blue headings, banded tables, margins and readable layout, with only negligible typography and spacing differences.",
+      "Page 3 retains the two-column operational-responsibilities layout; page 5 retains the landscape seven-column service-target table and planned-exceptions table with correct alignment.",
+      "Page 6 preserves the handover diagram and outcome-chart proportions, labels and placement. Pages 7\u20138 preserve the blank form fields, checklist, signature table and document history without clipping.",
+      "The edited calibration description wraps into a somewhat shorter row than the reference, but all added text remains visible and subsequent content reflows cleanly. edited-05.png confirms that the following landscape schedule remains intact."
+    ],
+    "navigation_furniture": [
+      "The procurement header and issued-date footer are preserved throughout. The candidate footer contains a PAGE field and renders the correct page numbers 1\u20138.",
+      "Page 1's navigation references still point to the correct delivered pages for scope, operational responsibilities, Schedules A\u2013C and Appendices D\u2013E.",
+      "Clause references to clause 8, Schedule B and Appendix E remain correct. Both figure titles and explanatory captions are preserved, and footnote 1 remains beneath Schedule A on the same page as its callout."
+    ]
+  },
+  "material_defects": [],
+  "inspected_images": [
+    "original-01.png",
+    "original-02.png",
+    "original-03.png",
+    "original-04.png",
+    "original-05.png",
+    "original-06.png",
+    "original-07.png",
+    "original-08.png",
+    "edited-02.png",
+    "edited-04.png",
+    "edited-05.png"
+  ]
+}

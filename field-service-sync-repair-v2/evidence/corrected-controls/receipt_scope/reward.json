@@ -1,0 +1,12 @@
+{
+  "artifacts": 1.0,
+  "batches": 0.8571428571428571,
+  "client": 1.0,
+  "confirmations": 1.0,
+  "durability": 1.0,
+  "integration": 1.0,
+  "recovery": 1.0,
+  "sync": 1.0,
+  "transactions": 0.8333333333333334,
+  "overall": 0.0
+}

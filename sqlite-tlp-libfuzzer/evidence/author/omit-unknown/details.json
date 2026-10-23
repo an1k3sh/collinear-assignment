@@ -1,0 +1,298 @@
+{
+  "checks": {
+    "build": true,
+    "correctness.rows": false,
+    "correctness.distinct": false,
+    "correctness.count": false,
+    "correctness.sum": false,
+    "correctness.avg": false,
+    "correctness.min": false,
+    "correctness.max": false,
+    "correctness.group": false,
+    "correctness.having": false,
+    "correctness.extended": false,
+    "correctness.comparison": true,
+    "correctness.composition": true,
+    "correctness.injection": true,
+    "correctness.bindings": false,
+    "determinism_replay": false,
+    "diversity.coverage": true,
+    "diversity.data": true,
+    "diversity.structure": true,
+    "diversity.occupancy": true,
+    "diversity.grammar": true,
+    "diversity.measurement": true,
+    "diversity.sensitivity": true,
+    "libfuzzer": false
+  },
+  "metrics": {
+    "random": {
+      "attempted": 1024,
+      "emitted": 1024,
+      "schema_valid": 1024,
+      "executable": 1024,
+      "semantic": 552,
+      "errors": [
+        {
+          "input": 0,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 92, in verify_answer\n    assert all(ref.bag(a) == ref.bag(b) for a, b in zip(actual, expected)), \"changed data\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: changed data\n"
+        },
+        {
+          "input": 2,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 75, in verify_answer\n    assert all(ref.bag(a) == ref.bag(b) for a, b in zip(actual, expected)), \"query meaning\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: query meaning\n"
+        },
+        {
+          "input": 3,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 92, in verify_answer\n    assert all(ref.bag(a) == ref.bag(b) for a, b in zip(actual, expected)), \"changed data\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: changed data\n"
+        },
+        {
+          "input": 4,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 75, in verify_answer\n    assert all(ref.bag(a) == ref.bag(b) for a, b in zip(actual, expected)), \"query meaning\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: query meaning\n"
+        },
+        {
+          "input": 6,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 92, in verify_answer\n    assert all(ref.bag(a) == ref.bag(b) for a, b in zip(actual, expected)), \"changed data\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: changed data\n"
+        },
+        {
+          "input": 7,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 75, in verify_answer\n    assert all(ref.bag(a) == ref.bag(b) for a, b in zip(actual, expected)), \"query meaning\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: query meaning\n"
+        },
+        {
+          "input": 10,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 92, in verify_answer\n    assert all(ref.bag(a) == ref.bag(b) for a, b in zip(actual, expected)), \"changed data\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: changed data\n"
+        },
+        {
+          "input": 11,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 75, in verify_answer\n    assert all(ref.bag(a) == ref.bag(b) for a, b in zip(actual, expected)), \"query meaning\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: query meaning\n"
+        },
+        {
+          "input": 13,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 75, in verify_answer\n    assert all(ref.bag(a) == ref.bag(b) for a, b in zip(actual, expected)), \"query meaning\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: query meaning\n"
+        },
+        {
+          "input": 16,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 75, in verify_answer\n    assert all(ref.bag(a) == ref.bag(b) for a, b in zip(actual, expected)), \"query meaning\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: query meaning\n"
+        }
+      ]
+    },
+    "diversity": {
+      "modes": {
+        "distinct": 114,
+        "having": 124,
+        "sum": 126,
+        "avg": 103,
+        "min": 102,
+        "rows": 124,
+        "max": 105,
+        "count": 130,
+        "group": 96
+      },
+      "sources": {
+        "inner": 352,
+        "single": 337,
+        "left": 335
+      },
+      "structural": 1019,
+      "topologies": 1004,
+      "topologies_per_mode": {
+        "rows": 123,
+        "distinct": 112,
+        "count": 125,
+        "sum": 125,
+        "avg": 102,
+        "min": 100,
+        "max": 105,
+        "group": 90,
+        "having": 122
+      },
+      "unique_cases": 1024,
+      "unique_databases": 1020,
+      "where": 679,
+      "grouped_aggregates": 392,
+      "three_way": 148,
+      "nonempty": 759,
+      "group_overlap": 29,
+      "having_duplicates": 23,
+      "empty_row_stage": 305,
+      "all_null": 118,
+      "operators": [
+        "add",
+        "agg",
+        "and",
+        "col",
+        "eq",
+        "ge",
+        "gt",
+        "isnull",
+        "le",
+        "lit",
+        "lt",
+        "ne",
+        "not",
+        "or",
+        "sub"
+      ],
+      "columns": [
+        [
+          "t",
+          "id"
+        ],
+        [
+          "t",
+          "k"
+        ],
+        [
+          "t",
+          "tag"
+        ],
+        [
+          "t",
+          "v"
+        ],
+        [
+          "u",
+          "id"
+        ],
+        [
+          "u",
+          "k"
+        ],
+        [
+          "u",
+          "tag"
+        ],
+        [
+          "u",
+          "v"
+        ]
+      ],
+      "aggregates": [
+        "avg",
+        "count",
+        "max",
+        "min",
+        "sum"
+      ],
+      "nested": 620,
+      "count_star": 63,
+      "count_expression": 67
+    },
+    "mutations": {
+      "attempted": 320,
+      "emitted": 320,
+      "schema_valid": 320,
+      "executable": 320,
+      "semantic": 183,
+      "errors": [
+        {
+          "input": 0,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 75, in verify_answer\n    assert all(ref.bag(a) == ref.bag(b) for a, b in zip(actual, expected)), \"query meaning\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: query meaning\n"
+        },
+        {
+          "input": 1,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 75, in verify_answer\n    assert all(ref.bag(a) == ref.bag(b) for a, b in zip(actual, expected)), \"query meaning\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: query meaning\n"
+        },
+        {
+          "input": 3,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 75, in verify_answer\n    assert all(ref.bag(a) == ref.bag(b) for a, b in zip(actual, expected)), \"query meaning\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: query meaning\n"
+        },
+        {
+          "input": 4,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 75, in verify_answer\n    assert all(ref.bag(a) == ref.bag(b) for a, b in zip(actual, expected)), \"query meaning\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: query meaning\n"
+        },
+        {
+          "input": 8,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 75, in verify_answer\n    assert all(ref.bag(a) == ref.bag(b) for a, b in zip(actual, expected)), \"query meaning\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: query meaning\n"
+        },
+        {
+          "input": 9,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 75, in verify_answer\n    assert all(ref.bag(a) == ref.bag(b) for a, b in zip(actual, expected)), \"query meaning\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: query meaning\n"
+        },
+        {
+          "input": 10,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 92, in verify_answer\n    assert all(ref.bag(a) == ref.bag(b) for a, b in zip(actual, expected)), \"changed data\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: changed data\n"
+        },
+        {
+          "input": 13,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 75, in verify_answer\n    assert all(ref.bag(a) == ref.bag(b) for a, b in zip(actual, expected)), \"query meaning\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: query meaning\n"
+        },
+        {
+          "input": 15,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 75, in verify_answer\n    assert all(ref.bag(a) == ref.bag(b) for a, b in zip(actual, expected)), \"query meaning\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: query meaning\n"
+        },
+        {
+          "input": 18,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 92, in verify_answer\n    assert all(ref.bag(a) == ref.bag(b) for a, b in zip(actual, expected)), \"changed data\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: changed data\n"
+        }
+      ]
+    },
+    "sensitivity": {
+      "case_changes": [
+        64,
+        64,
+        64,
+        64
+      ],
+      "topology_changes": [
+        64,
+        64,
+        64,
+        64
+      ]
+    }
+  },
+  "failures": [
+    {
+      "test": "correctness.rows",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 370, in <lambda>\n    self.test(\"correctness.\"+mode, lambda mode=mode: self.fixtures(mode))\n                                                     ^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 146, in fixtures\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 75, in verify_answer\n    assert all(ref.bag(a) == ref.bag(b) for a, b in zip(actual, expected)), \"query meaning\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: query meaning\n"
+    },
+    {
+      "test": "correctness.distinct",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 370, in <lambda>\n    self.test(\"correctness.\"+mode, lambda mode=mode: self.fixtures(mode))\n                                                     ^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 146, in fixtures\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 75, in verify_answer\n    assert all(ref.bag(a) == ref.bag(b) for a, b in zip(actual, expected)), \"query meaning\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: query meaning\n"
+    },
+    {
+      "test": "correctness.count",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 370, in <lambda>\n    self.test(\"correctness.\"+mode, lambda mode=mode: self.fixtures(mode))\n                                                     ^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 146, in fixtures\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 75, in verify_answer\n    assert all(ref.bag(a) == ref.bag(b) for a, b in zip(actual, expected)), \"query meaning\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: query meaning\n"
+    },
+    {
+      "test": "correctness.sum",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 370, in <lambda>\n    self.test(\"correctness.\"+mode, lambda mode=mode: self.fixtures(mode))\n                                                     ^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 146, in fixtures\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 75, in verify_answer\n    assert all(ref.bag(a) == ref.bag(b) for a, b in zip(actual, expected)), \"query meaning\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: query meaning\n"
+    },
+    {
+      "test": "correctness.avg",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 370, in <lambda>\n    self.test(\"correctness.\"+mode, lambda mode=mode: self.fixtures(mode))\n                                                     ^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 146, in fixtures\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 75, in verify_answer\n    assert all(ref.bag(a) == ref.bag(b) for a, b in zip(actual, expected)), \"query meaning\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: query meaning\n"
+    },
+    {
+      "test": "correctness.min",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 370, in <lambda>\n    self.test(\"correctness.\"+mode, lambda mode=mode: self.fixtures(mode))\n                                                     ^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 146, in fixtures\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 75, in verify_answer\n    assert all(ref.bag(a) == ref.bag(b) for a, b in zip(actual, expected)), \"query meaning\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: query meaning\n"
+    },
+    {
+      "test": "correctness.max",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 370, in <lambda>\n    self.test(\"correctness.\"+mode, lambda mode=mode: self.fixtures(mode))\n                                                     ^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 146, in fixtures\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 75, in verify_answer\n    assert all(ref.bag(a) == ref.bag(b) for a, b in zip(actual, expected)), \"query meaning\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: query meaning\n"
+    },
+    {
+      "test": "correctness.group",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 370, in <lambda>\n    self.test(\"correctness.\"+mode, lambda mode=mode: self.fixtures(mode))\n                                                     ^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 146, in fixtures\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 75, in verify_answer\n    assert all(ref.bag(a) == ref.bag(b) for a, b in zip(actual, expected)), \"query meaning\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: query meaning\n"
+    },
+    {
+      "test": "correctness.having",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 370, in <lambda>\n    self.test(\"correctness.\"+mode, lambda mode=mode: self.fixtures(mode))\n                                                     ^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 146, in fixtures\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 75, in verify_answer\n    assert all(ref.bag(a) == ref.bag(b) for a, b in zip(actual, expected)), \"query meaning\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: query meaning\n"
+    },
+    {
+      "test": "correctness.extended",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 370, in <lambda>\n    self.test(\"correctness.\"+mode, lambda mode=mode: self.fixtures(mode))\n                                                     ^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 146, in fixtures\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 75, in verify_answer\n    assert all(ref.bag(a) == ref.bag(b) for a, b in zip(actual, expected)), \"query meaning\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: query meaning\n"
+    },
+    {
+      "test": "correctness.bindings",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 205, in binding\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 75, in verify_answer\n    assert all(ref.bag(a) == ref.bag(b) for a, b in zip(actual, expected)), \"query meaning\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: query meaning\n"
+    },
+    {
+      "test": "determinism_replay",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 340, in determinism\n    assert result.returncode == 0, result.stderr\n           ^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: TLP error: TLP mismatch; replay this binary input\n\n"
+    },
+    {
+      "test": "libfuzzer",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 356, in live_fuzzer\n    assert result.returncode == 0, result.stderr[-6000:]\n           ^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: INFO: Running with entropic power schedule (0xFF, 100).\nINFO: Seed: 89171\nINFO: Loaded 1 modules   (6991 inline 8-bit counters): 6991 [0xaaaae6324a60, 0xaaaae63265af), \nINFO: Loaded 1 PC tables (6991 PCs): 6991 [0xaaaae63265b0,0xaaaae6341aa0), \nINFO:       12 files found in /work/audit/omit-unknown/corpus\nINFO: seed corpus: files: 12 min: 8b max: 184b total: 1152b rss: 43Mb\nTLP failure: TLP mismatch; replay this binary input\n==1482== ERROR: libFuzzer: deadly signal\n==1482==WARNING: invalid path to external symbolizer!\n==1482==WARNING: Failed to use and restart external symbolizer!\n    #0 0xaaaae61f50e0  (/work/audit/omit-unknown/build/tlp_fuzz+0x1450e0) (BuildId: f354c8d35fed9a7d68a64881fbe6ec766b5ef095)\n    #1 0xaaaae614b8d8  (/work/audit/omit-unknown/build/tlp_fuzz+0x9b8d8) (BuildId: f354c8d35fed9a7d68a64881fbe6ec766b5ef095)\n    #2 0xaaaae6132ea0  (/work/audit/omit-unknown/build/tlp_fuzz+0x82ea0) (BuildId: f354c8d35fed9a7d68a64881fbe6ec766b5ef095)\n    #3 0xffff89cf47e4  (linux-vdso.so.1+0x7e4) (BuildId: 4fece5beffd59f501a75460848dc024366956f30)\n    #4 0xffff896e3c14  (/lib/aarch64-linux-gnu/libc.so.6+0x83c14) (BuildId: 3ff3f95a1642952473d0d5739aaf308b0e24f694)\n    #5 0xffff8969a8a8  (/lib/aarch64-linux-gnu/libc.so.6+0x3a8a8) (BuildId: 3ff3f95a1642952473d0d5739aaf308b0e24f694)\n    #6 0xffff8968747c  (/lib/aarch64-linux-gnu/libc.so.6+0x2747c) (BuildId: 3ff3f95a1642952473d0d5739aaf308b0e24f694)\n    #7 0xaaaae6224b6c  (/work/audit/omit-unknown/build/tlp_fuzz+0x174b6c) (BuildId: f354c8d35fed9a7d68a64881fbe6ec766b5ef095)\n    #8 0xaaaae613423c  (/work/audit/omit-unknown/build/tlp_fuzz+0x8423c) (BuildId: f354c8d35fed9a7d68a64881fbe6ec766b5ef095)\n    #9 0xaaaae61339fc  (/work/audit/omit-unknown/build/tlp_fuzz+0x839fc) (BuildId: f354c8d35fed9a7d68a64881fbe6ec766b5ef095)\n    #10 0xaaaae6135640  (/work/audit/omit-unknown/build/tlp_fuzz+0x85640) (BuildId: f354c8d35fed9a7d68a64881fbe6ec766b5ef095)\n    #11 0xaaaae6135bb4  (/work/audit/omit-unknown/build/tlp_fuzz+0x85bb4) (BuildId: f354c8d35fed9a7d68a64881fbe6ec766b5ef095)\n    #12 0xaaaae6124bf4  (/work/audit/omit-unknown/build/tlp_fuzz+0x74bf4) (BuildId: f354c8d35fed9a7d68a64881fbe6ec766b5ef095)\n    #13 0xaaaae614bfe0  (/work/audit/omit-unknown/build/tlp_fuzz+0x9bfe0) (BuildId: f354c8d35fed9a7d68a64881fbe6ec766b5ef095)\n    #14 0xffff89687740  (/lib/aarch64-linux-gnu/libc.so.6+0x27740) (BuildId: 3ff3f95a1642952473d0d5739aaf308b0e24f694)\n    #15 0xffff89687814  (/lib/aarch64-linux-gnu/libc.so.6+0x27814) (BuildId: 3ff3f95a1642952473d0d5739aaf308b0e24f694)\n    #16 0xaaaae611afac  (/work/audit/omit-unknown/build/tlp_fuzz+0x6afac) (BuildId: f354c8d35fed9a7d68a64881fbe6ec766b5ef095)\n\nNOTE: libFuzzer has rudimentary signal handlers.\n      Combine libFuzzer with AddressSanitizer or similar for better crash reports.\nSUMMARY: libFuzzer: deadly signal\nMS: 0 ; base unit: 0000000000000000000000000000000000000000\n0x8f,0x1a,0x1c,0x7c,0x4f,0xa7,0xce,0x2b,\n\\217\\032\\034|O\\247\\316+\nartifact_prefix='/work/audit/omit-unknown/'; Test unit written to /work/audit/omit-unknown/crash-3038519b28ce8be44c011d113f9df118ff679d30\nBase64: jxocfE+nzis=\nstat::number_of_executed_units: 2\nstat::average_exec_per_sec:     0\nstat::new_units_added:          0\nstat::slowest_unit_time_sec:    0\nstat::peak_rss_mb:              46\n\n"
+    }
+  ]
+}

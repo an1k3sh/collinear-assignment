@@ -1,0 +1,126 @@
+{
+  "task_name": "collinear-candidate/rebate-close-continuity",
+  "task_checksum": "70dedaf1b8f1e784464da549c8fb93477e8039efbcf03ac78c2f2ae2f0bb2e90",
+  "trial_name": "rebate-close-continuity__ugVUMkA",
+  "agent_info": {
+    "name": "copilot-cli",
+    "version": "1.0.103",
+    "model_info": {
+      "name": "claude-opus-5.5",
+      "provider": null
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "functional_correctness": 1.0,
+      "constraint_satisfaction": 1.0,
+      "robustness": 1.0,
+      "artifact_quality": 1.0,
+      "overall": 1.0
+    }
+  },
+  "exception_info": null,
+  "started_at": "2026-10-23T18:23:56.783602Z",
+  "finished_at": "2026-10-23T18:38:07.893166Z",
+  "step_results": [
+    {
+      "step_name": "01-provisional",
+      "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": 0,
+        "cost_usd": null,
+        "model_usage": null,
+        "rollout_details": null,
+        "metadata": null
+      },
+      "verifier_result": {
+        "rewards": {
+          "functional_correctness": 1.0,
+          "constraint_satisfaction": 1.0,
+          "robustness": 1.0,
+          "artifact_quality": 1.0,
+          "overall": 1.0
+        }
+      },
+      "exception_info": null,
+      "agent_execution": {
+        "started_at": "2026-10-23T18:24:36.532288Z",
+        "finished_at": "2026-10-23T18:30:52.913923Z"
+      },
+      "verifier": {
+        "started_at": "2026-10-23T18:30:55.127639Z",
+        "finished_at": "2026-10-23T18:31:10.208788Z"
+      }
+    },
+    {
+      "step_name": "02-restatement",
+      "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": 0,
+        "cost_usd": null,
+        "model_usage": null,
+        "rollout_details": null,
+        "metadata": null
+      },
+      "verifier_result": {
+        "rewards": {
+          "functional_correctness": 1.0,
+          "constraint_satisfaction": 1.0,
+          "robustness": 1.0,
+          "artifact_quality": 1.0,
+          "overall": 1.0
+        }
+      },
+      "exception_info": null,
+      "agent_execution": {
+        "started_at": "2026-10-23T18:31:11.061471Z",
+        "finished_at": "2026-10-23T18:32:12.326755Z"
+      },
+      "verifier": {
+        "started_at": "2026-10-23T18:32:12.825821Z",
+        "finished_at": "2026-10-23T18:32:32.470251Z"
+      }
+    },
+    {
+      "step_name": "03-roll-forward",
+      "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": 0,
+        "cost_usd": null,
+        "model_usage": null,
+        "rollout_details": null,
+        "metadata": null
+      },
+      "verifier_result": {
+        "rewards": {
+          "functional_correctness": 1.0,
+          "constraint_satisfaction": 1.0,
+          "robustness": 1.0,
+          "artifact_quality": 1.0,
+          "overall": 1.0
+        }
+      },
+      "exception_info": null,
+      "agent_execution": {
+        "started_at": "2026-10-23T18:32:34.076508Z",
+        "finished_at": "2026-10-23T18:37:51.690259Z"
+      },
+      "verifier": {
+        "started_at": "2026-10-23T18:37:52.480139Z",
+        "finished_at": "2026-10-23T18:38:05.548158Z"
+      }
+    }
+  ],
+  "requested_agent": {
+    "name": "copilot-cli",
+    "model_name": "claude-opus-5.5",
+    "kwargs": {
+      "reasoning_effort": "high",
+      "disable_web_search": true
+    },
+    "resume_trajectory": true
+  }
+}

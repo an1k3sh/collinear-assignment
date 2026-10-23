@@ -1,0 +1,6 @@
+oracle {"overall": 1.0, "extraction": 1.0, "reconciliation": 1.0, "calculations": 1.0, "planning": 1.0, "claims": 1.0, "reproducibility": 1.0}
+approximate-readings {"overall": 1.0, "extraction": 1.0, "reconciliation": 1.0, "calculations": 1.0, "planning": 1.0, "claims": 1.0, "reproducibility": 1.0}
+reordered-readings {"overall": 1.0, "extraction": 1.0, "reconciliation": 1.0, "calculations": 1.0, "planning": 1.0, "claims": 1.0, "reproducibility": 1.0}
+one-reading-error-within-allowance {"overall": 0.999123, "extraction": 0.9956140350877193, "reconciliation": 1.0, "calculations": 1.0, "planning": 1.0, "claims": 1.0, "reproducibility": 1.0}
+five-reading-errors {"overall": 0.0, "extraction": 0.9780701754385965, "reconciliation": 1.0, "calculations": 1.0, "planning": 1.0, "claims": 1.0, "reproducibility": 1.0}
+baseline {"overall": 0.0, "extraction": 0.0, "reconciliation": 0.0, "calculations": 0.0, "planning": 0.0, "claims": 0.0, "reproducibility": 0.0}

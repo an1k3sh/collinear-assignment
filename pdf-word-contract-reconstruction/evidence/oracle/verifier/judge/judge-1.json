@@ -1,0 +1,48 @@
+{
+  "scores": {
+    "content_fidelity": 4,
+    "editable_structure": 4,
+    "visual_organization": 4,
+    "navigation_furniture": 4
+  },
+  "evidence": {
+    "content_fidelity": [
+      "Contract particulars match: service term 1 July 2026\u201330 June 2027, all three named sites, GBP 37,800.00 base fee and mobilisation on 29 June 2026 at 17:00.",
+      "Schedule A preserves every financial row and association: 12 \u00d7 2,400.00 = 28,800.00 monitoring; 6 \u00d7 750.00 = 4,500.00 calibration; 3 \u00d7 1,800.00 = 5,400.00 mobilisation; transition credit (900.00); net 37,800.00, VAT 7,560.00 and total 45,360.00. Invoice values also match: 2,400.00, 190.00, 2,590.00, 518.00 and 3,108.00.",
+      "Charge rules match: GBP 145.00 per authorised attendance includes 45 minutes, followed by GBP 22.50 per completed 15-minute block. Both retain the footnote that 59 minutes incurs no additional block, included travel, materials at evidenced cost without uplift and payment within 30 calendar days.",
+      "Schedule B preserves all site/window/target associations. Northgate: Mon\u2013Sat 08:00\u201320:00, critical 15/90 minutes, routine acknowledgement 2 service hours and attendance next service day. Canal House: Mon\u2013Fri 07:00\u201319:00, critical 15/120 minutes, routine 4 service hours/within 2 service days. Eastbank: Mon\u2013Sun 06:00\u201322:00, critical 10/60 minutes, routine 1 service hour/same service day. Site-specific access exceptions and continuous critical cover match.",
+      "Planned exceptions match: Northgate and Canal House closed 31 August; Northgate closes at 14:00 on 24 December; all three sites closed 25 December; Eastbank operates 08:00\u201316:00 on 26 December. Critical service remains unchanged.",
+      "Clauses 1\u20138, Schedule C evidence/accountability rows and Appendices D\u2013E preserve the obligations, including documented access-delay limits, physical-inspection requirements, disputed-charge treatment, written change approval and conditional acceptance. Figure outcomes remain 42 accepted, 6 returned and 3 open out of 51."
+    ],
+    "editable_structure": [
+      "The extraction shows real body paragraphs, Heading1/Heading2 styles with outline levels, and automatic decimal numbering for clauses 1\u20138 through numbering definition 60.",
+      "Financial, response-target and form content is stored in native tables with matching row/cell associations and repeating header rows. Schedule A retains vertical merges for Recurring and Summary.",
+      "The charge-rule paragraph contains a real footnote reference linked to word/footnotes.xml. Figure artwork is separate from editable headings and Caption paragraphs.",
+      "The edit probes successfully extend clause 2 and the calibration-description cell. Both reflow like the reference: subsequent paragraphs and table rows move downward without lost content, overlap or clipping."
+    ],
+    "visual_organization": [
+      "All eight original paired pages visually match in heading hierarchy, typography, blue table banding, spacing, column widths and pagination. Page 3 retains the two-column responsibilities layout; Schedule B retains its landscape layout.",
+      "Page 6 preserves the handover diagram and outcome-chart proportions, labels and caption placement. Appendices D and E retain the aligned blank forms and execution fields.",
+      "Edited pages 2 and 4 match the reference expansion and remain readable; edited page 5 retains the complete service-window and exception tables."
+    ],
+    "navigation_furniture": [
+      "The page-1 navigation correctly points to scope on page 2, responsibilities on page 3, Schedules A\u2013C on pages 4\u20136 and Appendices D\u2013E on pages 7\u20138. Clause 8 and appendix references retain their correct targets.",
+      "Both documents retain the procurement header, issued-date footer and live PAGE field, rendering Agreement / 1 through Agreement / 8.",
+      "Figure headings and editable captions remain correctly associated with their artwork. The billing footnote stays at the bottom of Schedule A in both original and edited views."
+    ]
+  },
+  "material_defects": [],
+  "inspected_images": [
+    "original-01.png",
+    "original-02.png",
+    "original-03.png",
+    "original-04.png",
+    "original-05.png",
+    "original-06.png",
+    "original-07.png",
+    "original-08.png",
+    "edited-02.png",
+    "edited-04.png",
+    "edited-05.png"
+  ]
+}

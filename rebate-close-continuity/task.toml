@@ -1,0 +1,50 @@
+schema_version = "1.3"
+multi_step_reward_strategy = "final"
+artifacts = [
+  "/workspace/refresh.py",
+  "/workspace/plan.py",
+  "/workspace/output/settlement.xlsx",
+  "/workspace/output/claim-plan.xlsx",
+  "/workspace/output/reconciliation.json",
+  "/workspace/output/plan.json",
+]
+
+[task]
+name = "collinear-candidate/rebate-close-continuity"
+description = "Five-turn supplier-rebate close, constrained cash-claim optimization and replanning after actual remittances."
+keywords = ["spreadsheet", "multi-turn", "accounting", "state-continuity"]
+
+[metadata]
+category = "data-processing"
+difficulty = "hard"
+provenance = "Original scenario, synthetic records, code and tests; SheetCopilot workflow inspiration only."
+network_policy = "Task data and verification are offline. Public network is permitted solely for native harness installation/authentication/model requests."
+
+[agent]
+timeout_sec = 2400
+
+[verifier]
+timeout_sec = 420
+
+[environment]
+build_timeout_sec = 1200
+cpus = 2
+memory_mb = 4096
+storage_mb = 8192
+network_mode = "public"
+workdir = "/workspace"
+
+[[steps]]
+name = "01-provisional"
+
+[[steps]]
+name = "02-restatement"
+
+[[steps]]
+name = "03-roll-forward"
+
+[[steps]]
+name = "04-claim-batch"
+
+[[steps]]
+name = "05-remittance-replan"

@@ -1,0 +1,22 @@
+{
+  "valid_json_format": {
+    "expected": 1,
+    "actual": 1.0,
+    "correct": true
+  },
+  "draft_credit_applied": {
+    "expected": 0,
+    "actual": 0.0,
+    "correct": true
+  },
+  "cross_merchant_collision": {
+    "expected": 0,
+    "actual": 0.0,
+    "correct": true
+  },
+  "future_knowledge_leak": {
+    "expected": 0,
+    "actual": 0.0,
+    "correct": true
+  }
+}

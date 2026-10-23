@@ -1,0 +1,119 @@
+test_artifacts_protected_inputs (test_service.ServiceTests.test_artifacts_protected_inputs) ... ok
+test_artifacts_report_and_regressions (test_service.ServiceTests.test_artifacts_report_and_regressions) ... ok
+test_batches_client_base_prediction_and_ack (test_service.ServiceTests.test_batches_client_base_prediction_and_ack) ... ok
+test_batches_client_partial_confirmation_restart (test_service.ServiceTests.test_batches_client_partial_confirmation_restart) ... ok
+test_batches_concurrent_duplicate_and_namespace (test_service.ServiceTests.test_batches_concurrent_duplicate_and_namespace) ... ok
+test_batches_conflict_and_fault_rollback (test_service.ServiceTests.test_batches_conflict_and_fault_rollback) ... ok
+test_batches_invalid_and_preserved_by_repair (test_service.ServiceTests.test_batches_invalid_and_preserved_by_repair) ... ok
+test_batches_precommitted_member_not_atomic (test_service.ServiceTests.test_batches_precommitted_member_not_atomic) ... ok
+test_batches_sequential_same_entity_and_retry (test_service.ServiceTests.test_batches_sequential_same_entity_and_retry) ... ok
+test_client_ack_and_pending (test_service.ServiceTests.test_client_ack_and_pending) ... ok
+test_client_checkpoint_and_gap_handling (test_service.ServiceTests.test_client_checkpoint_and_gap_handling) ... ok
+test_client_conflict_resolution_and_frozen_request (test_service.ServiceTests.test_client_conflict_resolution_and_frozen_request) ... ok
+test_client_generated_delivery_permutations (test_service.ServiceTests.test_client_generated_delivery_permutations) ... ok
+test_client_integer_precision_and_immutability (test_service.ServiceTests.test_client_integer_precision_and_immutability) ... ok
+test_client_snapshot_staging_and_interleaving (test_service.ServiceTests.test_client_snapshot_staging_and_interleaving) ... ok
+test_client_tombstones_and_optimistic_replay (test_service.ServiceTests.test_client_tombstones_and_optimistic_replay) ... ok
+test_confirmations_client_pull_before_ack (test_service.ServiceTests.test_confirmations_client_pull_before_ack) ... ok
+test_confirmations_client_snapshot_staging (test_service.ServiceTests.test_confirmations_client_snapshot_staging) ... ok
+test_confirmations_snapshot_history_and_cut (test_service.ServiceTests.test_confirmations_snapshot_history_and_cut) ... ok
+test_durability_atomic_replace (test_service.ServiceTests.test_durability_atomic_replace) ... ok
+test_durability_persist_before_exchange (test_service.ServiceTests.test_durability_persist_before_exchange) ... FAIL
+test_integration_atomic_batch_http_confirmation (test_service.ServiceTests.test_integration_atomic_batch_http_confirmation) ... ok
+test_integration_http_restart_lost_response (test_service.ServiceTests.test_integration_http_restart_lost_response) ... ok
+test_recovery_alternate_database_and_idempotence (test_service.ServiceTests.test_recovery_alternate_database_and_idempotence) ... ok
+test_recovery_delivered_incident_state (test_service.ServiceTests.test_recovery_delivered_incident_state) ... ok
+test_sync_cursor_scope_and_invalid_values (test_service.ServiceTests.test_sync_cursor_scope_and_invalid_values) ... ok
+test_sync_large_wire_values (test_service.ServiceTests.test_sync_large_wire_values) ... ok
+test_sync_pull_exclusive_frozen_and_gaps (test_service.ServiceTests.test_sync_pull_exclusive_frozen_and_gaps) ... ok
+test_sync_snapshot_frozen_history (test_service.ServiceTests.test_sync_snapshot_frozen_history) ... ok
+test_transactions_conflicts_do_not_consume_keys (test_service.ServiceTests.test_transactions_conflicts_do_not_consume_keys) ... ok
+test_transactions_generated_reference_replay (test_service.ServiceTests.test_transactions_generated_reference_replay) ... ok
+test_transactions_process_race (test_service.ServiceTests.test_transactions_process_race) ... ok
+test_transactions_receipt_identity_and_digest (test_service.ServiceTests.test_transactions_receipt_identity_and_digest) ... ok
+test_transactions_rollback_both_fault_boundaries (test_service.ServiceTests.test_transactions_rollback_both_fault_boundaries) ... ok
+test_transactions_validation_and_lifecycle (test_service.ServiceTests.test_transactions_validation_and_lifecycle) ... ok
+
+======================================================================
+FAIL: test_durability_persist_before_exchange (test_service.ServiceTests.test_durability_persist_before_exchange)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tests/test_service.py", line 402, in test_durability_persist_before_exchange
+    self.js("durable", self.temp.name)
+  File "/tests/test_service.py", line 90, in js
+    self.assertEqual(completed.returncode, 0, completed.stdout + completed.stderr)
+AssertionError: 1 != 0 : node:internal/modules/run_main:122
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: The input did not match the regular expression /lost response/. Input:
+
+'AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n' +
+  '+ actual - expected\n' +
+  '\n' +
+  '+ undefined\n' +
+  '- {\n' +
+  "-   base: '1',\n" +
+  '-   data: {\n' +
+  '-     amount: 2\n' +
+  '-   },\n' +
+  "-   device: 'van-7',\n" +
+  "-   id: 'a',\n" +
+  "-   kind: 'visit',\n" +
+  "-   mutation: 'm1',\n" +
+  "-   tenant: 'north'\n" +
+  '- }\n'
+
+    at async cases.durable (file:///tests/client_checks.mjs:196:3)
+    at async file:///tests/client_checks.mjs:455:1 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+  + undefined
+  - {
+  -   base: '1',
+  -   data: {
+  -     amount: 2
+  -   },
+  -   device: 'van-7',
+  -   id: 'a',
+  -   kind: 'visit',
+  -   mutation: 'm1',
+  -   tenant: 'north'
+  - }
+  
+      at file:///tests/client_checks.mjs:198:12
+      at async sendOnce (file:///tmp/tmp42htyao1/app/client/durable.mjs:27:20)
+      at async waitForActual (node:assert:875:5)
+      at async Function.rejects (node:assert:996:25)
+      at async cases.durable (file:///tests/client_checks.mjs:196:3)
+      at async file:///tests/client_checks.mjs:455:1 {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: {
+      tenant: 'north',
+      device: 'van-7',
+      mutation: 'm1',
+      id: 'a',
+      kind: 'visit',
+      data: { amount: 2 },
+      base: '1'
+    },
+    operator: 'deepStrictEqual'
+  },
+  expected: /lost response/,
+  operator: 'rejects'
+}
+
+Node.js v22.14.0
+
+
+----------------------------------------------------------------------
+Ran 35 tests in 1.305s
+
+FAILED (failures=1)
+
+{"artifacts": 1.0, "batches": 1.0, "client": 1.0, "confirmations": 1.0, "durability": 0.5, "integration": 1.0, "overall": 0.0, "recovery": 1.0, "sync": 1.0, "transactions": 1.0}

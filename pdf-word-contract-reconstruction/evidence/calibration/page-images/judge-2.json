@@ -1,0 +1,62 @@
+{
+  "scores": {
+    "content_fidelity": 4,
+    "editable_structure": 0,
+    "visual_organization": 4,
+    "navigation_furniture": 2
+  },
+  "evidence": {
+    "content_fidelity": [
+      "Page 1 preserves the parties, service term of 1 July 2026\u201330 June 2027, three named sites, GBP 37,800.00 base fee, mobilisation deadline of 29 June 2026 at 17:00, and document precedence.",
+      "Schedule A preserves every quantity, price and total: monitoring 12 \u00d7 2,400.00 = 28,800.00; calibration 6 \u00d7 750.00 = 4,500.00; onboarding 3 \u00d7 1,800.00 = 5,400.00; transition credit 1 \u00d7 (900.00) = (900.00); net 37,800.00; VAT 7,560.00; gross 45,360.00. The invoice example retains 2,400.00, 190.00, 2,590.00, 518.00 and 3,108.00 in their corresponding rows.",
+      "Schedule A retains the GBP 145.00 call-out, included 45 minutes, GBP 22.50 per completed 15-minute block, 30-calendar-day payment term, included travel and approval requirement for materials. Its visible footnote preserves the condition that 59 minutes incurs no additional block.",
+      "Schedule B retains all site associations: Northgate Mon\u2013Sat 08:00\u201320:00 with targets 15 minutes/90 minutes/2 service hours/next service day; Canal House Mon\u2013Fri 07:00\u201319:00 with 15 minutes/120 minutes/4 service hours/within 2 service days; Eastbank Mon\u2013Sun 06:00\u201322:00 with 10 minutes/60 minutes/1 service hour/same service day. Access exceptions and uninterrupted daily critical cover match.",
+      "Schedule B preserves all planned exceptions: 31 August closure for Northgate and Canal House; Northgate's 14:00 finish on 24 December; all-site closure on 25 December; Eastbank's 08:00\u201316:00 window on 26 December. Critical service remains unchanged in each row.",
+      "Pages 2\u20133 preserve clauses 1\u20138, including documented access-delay limits, physical-inspection requirements, disputed-charge treatment and written approval for permanent replacement. Pages 6\u20138 retain evidence/accountability associations, the 42 accepted/6 returned/3 open illustration, acceptance conditions, both-signatory change approval and execution restrictions. No baseline material wording or numerical discrepancy is visible."
+    ],
+    "editable_structure": [
+      "The verifier extracts only 15 empty candidate paragraphs, eight containing drawings, with no body text or native tables. All eight candidate rendered pages have empty text extraction. This confirms full-page image reconstruction rather than editable body content.",
+      "The reference has numbered clause paragraphs, native tables with repeating headers and vertical merges, and a real footnote reference. The candidate has no corresponding content-bearing paragraphs, table structures, numbered clauses or footnotes.",
+      "In edited-02.png, the reference Access readiness paragraph accepts the additional entrance/obstruction/route requirements and reflows; the candidate remains unchanged. In edited-04.png, the reference calibration description expands its table row; the candidate remains unchanged. The probe records no candidate actions, consistent with the extracted image-only structure.",
+      "Appendix D's entry cells, Appendix E's change and signature fields, and both figure captions are embedded in page images rather than editable document elements."
+    ],
+    "visual_organization": [
+      "All eight original pairs preserve the visible hierarchy, blue headings, alternating table shading, row/column alignment and page sequence, with only negligible scaling and positioning differences.",
+      "Page 3 reproduces the two-column operational-responsibilities layout; page 5 remains visibly landscape with readable service-target and exception tables.",
+      "Page 6 preserves both figures' proportions, labels, counts and caption placement. Pages 7\u20138 preserve blank form areas and signature lines. No material clipping, overlap or lost baseline content is visible.",
+      "Edited-05.png retains the complete landscape Schedule B layout. The probe failures concern editability, not an observed clipping or overlap defect."
+    ],
+    "navigation_furniture": [
+      "Visible section headings, clauses 1\u20138, page references, repeated procurement header, issue footer, page numbers and figure captions match the reference and point to the correct delivered pages.",
+      "However, no candidate body paragraph uses a heading style; merely defining Heading1/Heading2 styles does not provide navigable headings. The candidate furniture extraction is empty, unlike the reference's actual header, footer with PAGE field and footnotes.",
+      "The Schedule A note and Schedule C captions remain correctly positioned visually but are image content, not linked footnote or editable caption elements."
+    ]
+  },
+  "material_defects": [
+    {
+      "location": "Entire document, pages 1\u20138",
+      "reference": "Editable paragraphs, automatically numbered clauses, native tables and forms, real footnote, and editable figure captions.",
+      "candidate": "Eight page drawings in otherwise empty paragraphs; no extracted body text or native tables. Neither clause nor table-description edit probe could be applied.",
+      "impact": "The document is a faithful visual facsimile but fundamentally fails the editable reconstruction requirement: users cannot revise clauses, populate native form cells, change table descriptions or obtain normal text reflow."
+    },
+    {
+      "location": "Headings and document furniture throughout; Schedule A footnote; Schedule C captions",
+      "reference": "Content-bearing heading paragraphs, real header/footer parts with automatic page numbering, linked footnote and editable captions.",
+      "candidate": "These elements appear only inside page images; actual furniture is absent and heading styles are unused.",
+      "impact": "Printed navigation remains readable, but heading-based navigation, automatic furniture updates, footnote linkage and caption editing require reconstruction."
+    }
+  ],
+  "inspected_images": [
+    "original-01.png",
+    "original-02.png",
+    "original-03.png",
+    "original-04.png",
+    "original-05.png",
+    "original-06.png",
+    "original-07.png",
+    "original-08.png",
+    "edited-02.png",
+    "edited-04.png",
+    "edited-05.png"
+  ]
+}

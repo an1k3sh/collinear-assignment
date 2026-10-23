@@ -1,0 +1,74 @@
+[
+  {
+    "name": "oracle",
+    "expected_valid": true,
+    "correctly_classified": true,
+    "error": null
+  },
+  {
+    "name": "valid-linearized-uncompressed",
+    "expected_valid": true,
+    "correctly_classified": true,
+    "error": null
+  },
+  {
+    "name": "original-private-packet",
+    "expected_valid": false,
+    "correctly_classified": true,
+    "error": "Private encoded value remains at PDF bytes/history: Arden Vale"
+  },
+  {
+    "name": "private-document-info",
+    "expected_valid": false,
+    "correctly_classified": true,
+    "error": "Private encoded value remains at PDF bytes/history: Arden Vale"
+  },
+  {
+    "name": "off-page-private-text",
+    "expected_valid": false,
+    "correctly_classified": true,
+    "error": "Private value remains at page 2 including hidden/outside text: Arden Vale"
+  },
+  {
+    "name": "private-page-associated-file",
+    "expected_valid": false,
+    "correctly_classified": true,
+    "error": "Private encoded value remains at object 1/Outlines/First/A/D/0/Annots/0/A/D/0/Annots/0/FS/EF/F/stream: Arden Vale"
+  },
+  {
+    "name": "private-workbook-properties",
+    "expected_valid": false,
+    "correctly_classified": true,
+    "error": "Private encoded value remains at statement.xlsx/docProps/core.xml: Arden Vale"
+  },
+  {
+    "name": "cached-but-nonrecalculating-total",
+    "expected_valid": false,
+    "correctly_classified": true,
+    "error": "Recalculated totals: C6"
+  },
+  {
+    "name": "lost-document-attachment",
+    "expected_valid": false,
+    "correctly_classified": true,
+    "error": "Attachment location/association changed"
+  },
+  {
+    "name": "lost-page-attachment",
+    "expected_valid": false,
+    "correctly_classified": true,
+    "error": "Attachment location/association changed"
+  },
+  {
+    "name": "removed-public-diagram",
+    "expected_valid": false,
+    "correctly_classified": true,
+    "error": "Material change to public financial content on page 2"
+  },
+  {
+    "name": "private-text-in-prior-revision",
+    "expected_valid": false,
+    "correctly_classified": true,
+    "error": "Private value remains at page 2 including hidden/outside text: Arden Vale"
+  }
+]

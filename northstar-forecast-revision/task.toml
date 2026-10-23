@@ -1,0 +1,26 @@
+schema_version = "1.3"
+
+[task]
+name = "collinear-candidate/northstar-forecast-revision"
+description = "Complete a formatted financial forecast while replacing a superseded revenue method and preserving downstream dependencies."
+keywords = ["finance", "spreadsheets", "forecasting", "requirement-revision", "dependency-tracking"]
+
+[metadata]
+category = "finance"
+difficulty = "hard"
+network_policy = "Build downloads pinned dependencies. Task and verifier need no network. Public runtime network permits harness setup/inference; Harbor 0.24 Docker cannot enforce a verifier-only no-network phase."
+provenance = "New synthetic business, workbook, requirements revision, oracle and verifier created for this exercise. No copied benchmark or external financial data."
+experiment = "Combined-prompt revision tracking, not a genuine mid-run instruction injection. No target-model failure claimed without a native trial."
+
+[agent]
+timeout_sec = 7200
+
+[verifier]
+timeout_sec = 900
+
+[environment]
+build_timeout_sec = 1800
+cpus = 2
+memory_mb = 4096
+storage_mb = 8192
+network_mode = "public"

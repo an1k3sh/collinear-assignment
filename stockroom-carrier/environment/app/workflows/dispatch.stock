@@ -1,0 +1,5 @@
+// Implement the reusable carrier reconciliation workflow.
+proc dispatch_order(order:string, sku_a:string, qty_a:int,
+                    sku_b:string, qty_b:int, preferred:string, fallback:string) {
+    emit "deferred" {order:order; reason:"NOT_IMPLEMENTED";};
+}

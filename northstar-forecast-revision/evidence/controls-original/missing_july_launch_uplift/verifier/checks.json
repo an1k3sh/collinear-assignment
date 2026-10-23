@@ -1,0 +1,4399 @@
+{
+  "counts": {
+    "artifact_quality": {
+      "passed": 10,
+      "failed": 0
+    },
+    "constraint_satisfaction": {
+      "passed": 16914,
+      "failed": 0
+    },
+    "functional_correctness": {
+      "passed": 1059,
+      "failed": 173
+    },
+    "robustness": {
+      "passed": 4237,
+      "failed": 701
+    }
+  },
+  "failures": [
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cohorts!K32",
+      "detail": "actual=7020; expected=7300.80"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cohorts!K38",
+      "detail": "actual=151399.366597507; expected=151680.16659750734325000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Revenue!K6",
+      "detail": "actual=151399.366597507; expected=151680.16659750734325000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Revenue!K8",
+      "detail": "actual=151399.366597507; expected=151680.16659750734325000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Revenue!K10",
+      "detail": "actual=128.653279083861; expected=128.8918919762304183565990879432129466024"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!K6",
+      "detail": "actual=151399.366597507; expected=151680.16659750734325000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!K7",
+      "detail": "actual=30279.8733195015; expected=30336.033319501468650000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!K8",
+      "detail": "actual=121119.493278006; expected=121344.133278005874600000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!K10",
+      "detail": "actual=22709.9049896261; expected=22752.0249896261014875000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!K12",
+      "detail": "actual=44705.4541384679; expected=44887.9741384678450293800000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!K14",
+      "detail": "actual=42205.4541384679; expected=42387.9741384678450293800000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!K16",
+      "detail": "actual=10551.363534617; expected=10596.99353461696125734500000000000000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!K17",
+      "detail": "actual=31654.0906038509; expected=31790.98060385088377203500000000000000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!K6",
+      "detail": "actual=170934.768739121; expected=171251.8009971857101209677419354838709677"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!K7",
+      "detail": "actual=24419.2526770173; expected=24464.54299959795858870967741935483870968"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!K8",
+      "detail": "actual=146515.516062104; expected=146787.2579975877515322580645161290322580"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!K10",
+      "detail": "actual=5874.74568462337; expected=6191.7779426878976209677419354838709677"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!K11",
+      "detail": "actual=839.249383517625; expected=884.53970609827108870967741935483870968"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!K12",
+      "detail": "actual=-5035.49630110574; expected=-5307.23823658962653225806451612903225802"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!K7",
+      "detail": "actual=31654.0906038509; expected=31790.98060385088377203500000000000000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!K9",
+      "detail": "actual=-5035.49630110574; expected=-5307.23823658962653225806451612903225802"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!K10",
+      "detail": "actual=29118.5943027452; expected=28983.74236726125723977693548387096774198"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!K12",
+      "detail": "actual=120138.31765523; expected=120003.4657197459051268564285714285714286"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!K17",
+      "detail": "actual=120138.31765523; expected=120003.4657197459051268564285714285714286"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cohorts!L32",
+      "detail": "actual=6914.7; expected=7191.28800"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cohorts!L38",
+      "detail": "actual=155876.665765799; expected=156153.25376579877982125000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Revenue!L6",
+      "detail": "actual=155876.665765799; expected=156153.25376579877982125000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Revenue!L8",
+      "detail": "actual=155876.665765799; expected=156153.25376579877982125000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Revenue!L10",
+      "detail": "actual=128.950636760532; expected=129.1794471379229926056286340503188173060"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!L6",
+      "detail": "actual=155876.665765799; expected=156153.25376579877982125000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!L7",
+      "detail": "actual=31175.3331531598; expected=31230.650753159755964250000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!L8",
+      "detail": "actual=124701.332612639; expected=124922.603012639023857000000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!L10",
+      "detail": "actual=23381.4998648698; expected=23422.9880648698169731875000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!L12",
+      "detail": "actual=47367.6017260646; expected=47547.3839260645213223806400000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!L14",
+      "detail": "actual=44867.6017260646; expected=45047.3839260645213223806400000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!L16",
+      "detail": "actual=11216.9004315161; expected=11261.84598151613033059516000000000000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!L17",
+      "detail": "actual=33650.7012945484; expected=33785.53794454839099178548000000000000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!L6",
+      "detail": "actual=175989.783929128; expected=176302.0607033212030239919354838709677419"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!L7",
+      "detail": "actual=25141.3977041611; expected=25186.00867190302900342741935483870967742"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!L8",
+      "detail": "actual=150848.386224967; expected=151116.0520314181740205645161290322580645"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!L10",
+      "detail": "actual=5055.01519000644; expected=5050.2597061354929030241935483870967742"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!L11",
+      "detail": "actual=722.145027143775; expected=721.46567230507041471774193548387096774"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!L12",
+      "detail": "actual=-4332.87016286266; expected=-4328.79403383042248830645161290322580646"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!L6",
+      "detail": "actual=120138.31765523; expected=120003.4657197459051268564285714285714286"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!L7",
+      "detail": "actual=33650.7012945484; expected=33785.53794454839099178548000000000000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!L9",
+      "detail": "actual=-4332.87016286266; expected=-4328.79403383042248830645161290322580646"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!L10",
+      "detail": "actual=31817.8311316858; expected=31956.74391071796850347902838709677419354"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!L12",
+      "detail": "actual=146956.148786916; expected=146960.2096304638736303354569585253456221"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!L17",
+      "detail": "actual=146956.148786916; expected=146960.2096304638736303354569585253456221"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cohorts!M32",
+      "detail": "actual=6810.9795; expected=7083.41868000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cohorts!M38",
+      "detail": "actual=160567.639653221; expected=160840.07883322076390953125000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Revenue!M6",
+      "detail": "actual=160567.639653221; expected=160840.07883322076390953125000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Revenue!M8",
+      "detail": "actual=160567.639653221; expected=160840.07883322076390953125000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Revenue!M10",
+      "detail": "actual=129.237512021357; expected=129.4567925804804521626113432504973542543"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!M6",
+      "detail": "actual=160567.639653221; expected=160840.07883322076390953125000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!M7",
+      "detail": "actual=32113.5279306442; expected=32168.015766644152781906250000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!M8",
+      "detail": "actual=128454.111722577; expected=128672.063066576611127625000000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!M10",
+      "detail": "actual=24085.1459479831; expected=24126.0118249831145864296875000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!M12",
+      "detail": "actual=50167.458668134; expected=50344.5441351339601205463444200000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!M14",
+      "detail": "actual=47667.458668134; expected=47844.5441351339601205463444200000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!M16",
+      "detail": "actual=11916.8646670335; expected=11961.13603378349003013658610500000000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!M17",
+      "detail": "actual=35750.5940011005; expected=35883.40810135047009040975831500000000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!M6",
+      "detail": "actual=187328.912928758; expected=187646.75863875755789445312500000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!M7",
+      "detail": "actual=26761.2732755368; expected=26806.679805536793984921875000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!M8",
+      "detail": "actual=160567.639653221; expected=160840.078833220763909531250000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!M10",
+      "detail": "actual=11339.1289996299; expected=11344.6979354363548704611895161290322581"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!M11",
+      "detail": "actual=1619.8755713757; expected=1620.67113363376498149445564516129032258"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!M12",
+      "detail": "actual=-9719.2534282542; expected=-9724.02680180258988896673387096774193552"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!M6",
+      "detail": "actual=146956.148786916; expected=146960.2096304638736303354569585253456221"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!M7",
+      "detail": "actual=35750.5940011005; expected=35883.40810135047009040975831500000000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!M9",
+      "detail": "actual=-9719.2534282542; expected=-9724.02680180258988896673387096774193552"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!M10",
+      "detail": "actual=28531.3405728463; expected=28659.38129954788020144302444403225806448"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!M12",
+      "detail": "actual=170487.489359762; expected=170619.5909300117538317784814025576036866"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!M17",
+      "detail": "actual=170487.489359762; expected=170619.5909300117538317784814025576036866"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cohorts!N32",
+      "detail": "actual=6708.8148075; expected=6977.16739980000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cohorts!N38",
+      "detail": "actual=165468.866454853; expected=165737.21904715323892077628125000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Revenue!N6",
+      "detail": "actual=165468.866454853; expected=165737.21904715323892077628125000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Revenue!N8",
+      "detail": "actual=165468.866454853; expected=165737.21904715323892077628125000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Revenue!N10",
+      "detail": "actual=129.513590780285; expected=129.7236321528316759333476935055763480849"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!N6",
+      "detail": "actual=165468.866454853; expected=165737.21904715323892077628125000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!N7",
+      "detail": "actual=33093.7732909707; expected=33147.443809430647784155256250000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!N8",
+      "detail": "actual=132375.093163883; expected=132589.775237722591136621025000000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!N10",
+      "detail": "actual=24820.329968228; expected=24860.5828570729858381164421875000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!N12",
+      "detail": "actual=53102.7950792275; expected=53277.2242642225047820481912657600000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!N14",
+      "detail": "actual=50602.7950792275; expected=50777.2242642225047820481912657600000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!N16",
+      "detail": "actual=12650.6987698069; expected=12694.30606605562619551204781644000000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!N17",
+      "detail": "actual=37952.0963094207; expected=38082.91819816687858653614344932000000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!N6",
+      "detail": "actual=186819.687932899; expected=187122.6666661407536202312852822580645161"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!N7",
+      "detail": "actual=26688.526847557; expected=26731.80952373439337431875504032258064515"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!N8",
+      "detail": "actual=160131.161085342; expected=160390.8571424063602459125302419354838710"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!N10",
+      "detail": "actual=-509.224995858764; expected=-524.0919726168042742218397177419354839"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!N11",
+      "detail": "actual=-72.7464279798187; expected=-74.87028180240061060311995967741935485"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!N12",
+      "detail": "actual=436.478567878945; expected=449.22169081440366361871975806451612905"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!N6",
+      "detail": "actual=170487.489359762; expected=170619.5909300117538317784814025576036866"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!N7",
+      "detail": "actual=37952.0963094207; expected=38082.91819816687858653614344932000000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!N9",
+      "detail": "actual=436.478567878945; expected=449.22169081440366361871975806451612905"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!N10",
+      "detail": "actual=40888.5748772996; expected=41032.13988898128225015486320738451612905"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!N12",
+      "detail": "actual=206376.064237062; expected=206651.7308189930360819333446099421198156"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!N17",
+      "detail": "actual=206376.064237062; expected=206651.7308189930360819333446099421198156"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cohorts!O32",
+      "detail": "actual=6608.1825853875; expected=6872.50988880300000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cohorts!O38",
+      "detail": "actual=170576.980026533; expected=170841.30732994811107745487703125000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Revenue!O6",
+      "detail": "actual=170576.980026533; expected=170841.30732994811107745487703125000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Revenue!O8",
+      "detail": "actual=170576.980026533; expected=170841.30732994811107745487703125000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Revenue!O10",
+      "detail": "actual=129.778692523185; expected=129.9797985096441971645371488510073143343"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!O6",
+      "detail": "actual=170576.980026533; expected=170841.30732994811107745487703125000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!O7",
+      "detail": "actual=34115.3960053065; expected=34168.261465989622215490975406250000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!O8",
+      "detail": "actual=136461.584021226; expected=136673.045863958488861963901625000000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!O10",
+      "detail": "actual=25586.5470039799; expected=25626.1960994922166616182315546875000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!O12",
+      "detail": "actual=56171.4172253785; expected=56343.2299725984639683617054036197800000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!O14",
+      "detail": "actual=53671.4172253785; expected=53843.2299725984639683617054036197800000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!O16",
+      "detail": "actual=13417.8543063446; expected=13460.80749314961599209042635090494500000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!O17",
+      "detail": "actual=40253.5629190339; expected=40382.42247944884797627127905271483500000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!O6",
+      "detail": "actual=199006.476697621; expected=199314.85855160612959036402320312500000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!O7",
+      "detail": "actual=28429.4966710888; expected=28473.551221658018512909146171875000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!O8",
+      "detail": "actual=170576.980026533; expected=170841.307329948111077454877031250000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!O10",
+      "detail": "actual=12186.7887647226; expected=12192.1918854653759701327379208669354839"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!O11",
+      "detail": "actual=1740.9698235318; expected=1741.74169792362513859039113155241935485"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!O12",
+      "detail": "actual=-10445.8189411908; expected=-10450.45018754175083154234678931451612905"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!O6",
+      "detail": "actual=206376.064237062; expected=206651.7308189930360819333446099421198156"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!O7",
+      "detail": "actual=40253.5629190339; expected=40382.42247944884797627127905271483500000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!O9",
+      "detail": "actual=-10445.8189411908; expected=-10450.45018754175083154234678931451612905"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!O10",
+      "detail": "actual=32307.7439778431; expected=32431.97229190709714472893226340031887095"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!O12",
+      "detail": "actual=233683.808214905; expected=234083.7031109001332266622768733424386866"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!O17",
+      "detail": "actual=233683.808214905; expected=234083.7031109001332266622768733424386866"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cohorts!P32",
+      "detail": "actual=6509.05984660669; expected=6769.42224047095500000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cohorts!P38",
+      "detail": "actual=175888.668963267; expected=176149.0313571310167369734890757812500000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Revenue!P6",
+      "detail": "actual=175888.668963267; expected=176149.0313571310167369734890757812500000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Revenue!P8",
+      "detail": "actual=175888.668963267; expected=176149.0313571310167369734890757812500000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Revenue!P10",
+      "detail": "actual=130.032752554152; expected=130.2252358956619418085273833778099528018"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!P6",
+      "detail": "actual=175888.668963267; expected=176149.0313571310167369734890757812500000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!P7",
+      "detail": "actual=35177.7337926533; expected=35229.80627142620334739469781515625000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!P8",
+      "detail": "actual=140710.935170613; expected=140919.2250857048133895787912606250000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!P10",
+      "detail": "actual=26383.30034449; expected=26422.35470356965251054602336136718750000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!P12",
+      "detail": "actual=59371.1669249331; expected=59540.40248094486567630475637352595184000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!P14",
+      "detail": "actual=56871.1669249331; expected=57040.40248094486567630475637352595184000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!P16",
+      "detail": "actual=14217.7917312333; expected=14260.10062023621641907618909338148796000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!P17",
+      "detail": "actual=42653.3751936999; expected=42780.30186070864925722856728014446388000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!P6",
+      "detail": "actual=198583.981087559; expected=198877.9386290188898643249070210433467742"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!P7",
+      "detail": "actual=28369.1401553656; expected=28411.13408985984140918927243157762096775"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!P8",
+      "detail": "actual=170214.840932194; expected=170466.8045391590484551356345894657258064"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!P10",
+      "detail": "actual=-422.495610062178; expected=-436.9199225872397260391161820816532258"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!P11",
+      "detail": "actual=-60.3565157231678; expected=-62.41713179817710371987374029737903225"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!P12",
+      "detail": "actual=362.139094339011; expected=374.50279078906262231924244178427419355"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!P6",
+      "detail": "actual=233683.808214905; expected=234083.7031109001332266622768733424386866"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!P7",
+      "detail": "actual=42653.3751936999; expected=42780.30186070864925722856728014446388000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!P9",
+      "detail": "actual=362.139094339011; expected=374.50279078906262231924244178427419355"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!P10",
+      "detail": "actual=45515.5142880389; expected=45654.80465149771187954780972192873807355"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!P12",
+      "detail": "actual=274199.322502944; expected=274738.5077623978451062100865952711767602"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!P17",
+      "detail": "actual=274199.322502944; expected=274738.5077623978451062100865952711767602"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cohorts!Q32",
+      "detail": "actual=40571.7367394942; expected=42194.60620907395500000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cohorts!Q38",
+      "detail": "actual=1770941.6515503; expected=1772564.521019882378715985897357031250000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Revenue!Q6",
+      "detail": "actual=1770941.6515503; expected=1772564.521019882378715985897357031250000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Revenue!Q8",
+      "detail": "actual=175888.668963267; expected=176149.0313571310167369734890757812500000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Revenue!Q10",
+      "detail": "actual=130.032752554152; expected=130.2252358956619418085273833778099528018"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!Q6",
+      "detail": "actual=1770941.6515503; expected=1772564.521019882378715985897357031250000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!Q7",
+      "detail": "actual=354188.330310061; expected=354512.9042039764757431971794714062500000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!Q8",
+      "detail": "actual=1416753.32124024; expected=1418051.616815905902972788717885625000000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!Q10",
+      "detail": "actual=265641.247732545; expected=265884.6781529823568073978846035546875000"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!Q12",
+      "detail": "actual=508062.051650939; expected=509116.9168061657686090216374629057318400"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!Q14",
+      "detail": "actual=478062.051650939; expected=479116.9168061657686090216374629057318400"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!Q16",
+      "detail": "actual=119428.377059024; expected=119692.0933478308045204485737282456341889"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/P&L!Q17",
+      "detail": "actual=358285.131177073; expected=359076.2800434924135613457211847369025666"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!Q6",
+      "detail": "actual=198583.981087559; expected=198877.9386290188898643249070210433467742"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!Q7",
+      "detail": "actual=28369.1401553656; expected=28411.13408985984140918927243157762096775"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!Q8",
+      "detail": "actual=170214.840932194; expected=170466.8045391590484551356345894657258064"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!Q10",
+      "detail": "actual=63100.1101198173; expected=63394.0676612769898643249070210433467742"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!Q11",
+      "detail": "actual=9014.30144568818; expected=9056.29538018242140918927243157762096775"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Working Capital!Q12",
+      "detail": "actual=-54085.8086741291; expected=-54337.77228109456845513563458946572580645"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!Q7",
+      "detail": "actual=358285.131177073; expected=359076.2800434924135613457211847369025666"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!Q9",
+      "detail": "actual=-54085.8086741291; expected=-54337.77228109456845513563458946572580645"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!Q10",
+      "detail": "actual=334199.322502944; expected=334738.5077623978451062100865952711767602"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!Q12",
+      "detail": "actual=1498749.46005452; expected=1499965.517270213557575561789296781541714"
+    },
+    {
+      "group": "functional_correctness",
+      "check": "baseline/Cash Flow!Q17",
+      "detail": "actual=274199.322502944; expected=274738.5077623978451062100865952711767602"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cohorts!K32",
+      "detail": "actual=7020; expected=7300.80"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cohorts!K38",
+      "detail": "actual=151399.366597507; expected=151680.16659750734325000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Revenue!K6",
+      "detail": "actual=151399.366597507; expected=151680.16659750734325000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Revenue!K8",
+      "detail": "actual=151399.366597507; expected=151680.16659750734325000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Revenue!K10",
+      "detail": "actual=128.653279083861; expected=128.8918919762304183565990879432129466024"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!K6",
+      "detail": "actual=151399.366597507; expected=151680.16659750734325000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!K7",
+      "detail": "actual=30279.8733195015; expected=30336.033319501468650000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!K8",
+      "detail": "actual=121119.493278006; expected=121344.133278005874600000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!K10",
+      "detail": "actual=22709.9049896261; expected=22752.0249896261014875000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!K12",
+      "detail": "actual=44705.4541384679; expected=44887.9741384678450293800000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!K14",
+      "detail": "actual=42205.4541384679; expected=42387.9741384678450293800000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!K16",
+      "detail": "actual=10551.363534617; expected=10596.99353461696125734500000000000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!K17",
+      "detail": "actual=31654.0906038509; expected=31790.98060385088377203500000000000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!K6",
+      "detail": "actual=170934.768739121; expected=171251.8009971857101209677419354838709677"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!K7",
+      "detail": "actual=24419.2526770173; expected=24464.54299959795858870967741935483870968"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!K8",
+      "detail": "actual=146515.516062104; expected=146787.2579975877515322580645161290322580"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!K10",
+      "detail": "actual=5874.74568462337; expected=6191.7779426878976209677419354838709677"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!K11",
+      "detail": "actual=839.249383517625; expected=884.53970609827108870967741935483870968"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!K12",
+      "detail": "actual=-5035.49630110574; expected=-5307.23823658962653225806451612903225802"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!K7",
+      "detail": "actual=31654.0906038509; expected=31790.98060385088377203500000000000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!K9",
+      "detail": "actual=-5035.49630110574; expected=-5307.23823658962653225806451612903225802"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!K10",
+      "detail": "actual=29118.5943027452; expected=28983.74236726125723977693548387096774198"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!K12",
+      "detail": "actual=120138.31765523; expected=120003.4657197459051268564285714285714286"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!K17",
+      "detail": "actual=120138.31765523; expected=120003.4657197459051268564285714285714286"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cohorts!L32",
+      "detail": "actual=6914.7; expected=7191.28800"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cohorts!L38",
+      "detail": "actual=155876.665765799; expected=156153.25376579877982125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Revenue!L6",
+      "detail": "actual=155876.665765799; expected=156153.25376579877982125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Revenue!L8",
+      "detail": "actual=155876.665765799; expected=156153.25376579877982125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Revenue!L10",
+      "detail": "actual=128.950636760532; expected=129.1794471379229926056286340503188173060"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!L6",
+      "detail": "actual=155876.665765799; expected=156153.25376579877982125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!L7",
+      "detail": "actual=31175.3331531598; expected=31230.650753159755964250000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!L8",
+      "detail": "actual=124701.332612639; expected=124922.603012639023857000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!L10",
+      "detail": "actual=23381.4998648698; expected=23422.9880648698169731875000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!L12",
+      "detail": "actual=47367.6017260646; expected=47547.3839260645213223806400000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!L14",
+      "detail": "actual=44867.6017260646; expected=45047.3839260645213223806400000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!L16",
+      "detail": "actual=11216.9004315161; expected=11261.84598151613033059516000000000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!L17",
+      "detail": "actual=33650.7012945484; expected=33785.53794454839099178548000000000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!L6",
+      "detail": "actual=175989.783929128; expected=176302.0607033212030239919354838709677419"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!L7",
+      "detail": "actual=25141.3977041611; expected=25186.00867190302900342741935483870967742"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!L8",
+      "detail": "actual=150848.386224967; expected=151116.0520314181740205645161290322580645"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!L10",
+      "detail": "actual=5055.01519000644; expected=5050.2597061354929030241935483870967742"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!L11",
+      "detail": "actual=722.145027143775; expected=721.46567230507041471774193548387096774"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!L12",
+      "detail": "actual=-4332.87016286266; expected=-4328.79403383042248830645161290322580646"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!L6",
+      "detail": "actual=120138.31765523; expected=120003.4657197459051268564285714285714286"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!L7",
+      "detail": "actual=33650.7012945484; expected=33785.53794454839099178548000000000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!L9",
+      "detail": "actual=-4332.87016286266; expected=-4328.79403383042248830645161290322580646"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!L10",
+      "detail": "actual=31817.8311316858; expected=31956.74391071796850347902838709677419354"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!L12",
+      "detail": "actual=146956.148786916; expected=146960.2096304638736303354569585253456221"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!L17",
+      "detail": "actual=146956.148786916; expected=146960.2096304638736303354569585253456221"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cohorts!M32",
+      "detail": "actual=6810.9795; expected=7083.41868000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cohorts!M38",
+      "detail": "actual=160567.639653221; expected=160840.07883322076390953125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Revenue!M6",
+      "detail": "actual=160567.639653221; expected=160840.07883322076390953125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Revenue!M8",
+      "detail": "actual=160567.639653221; expected=160840.07883322076390953125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Revenue!M10",
+      "detail": "actual=129.237512021357; expected=129.4567925804804521626113432504973542543"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!M6",
+      "detail": "actual=160567.639653221; expected=160840.07883322076390953125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!M7",
+      "detail": "actual=32113.5279306442; expected=32168.015766644152781906250000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!M8",
+      "detail": "actual=128454.111722577; expected=128672.063066576611127625000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!M10",
+      "detail": "actual=24085.1459479831; expected=24126.0118249831145864296875000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!M12",
+      "detail": "actual=50167.458668134; expected=50344.5441351339601205463444200000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!M14",
+      "detail": "actual=47667.458668134; expected=47844.5441351339601205463444200000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!M16",
+      "detail": "actual=11916.8646670335; expected=11961.13603378349003013658610500000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!M17",
+      "detail": "actual=35750.5940011005; expected=35883.40810135047009040975831500000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!M6",
+      "detail": "actual=187328.912928758; expected=187646.75863875755789445312500000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!M7",
+      "detail": "actual=26761.2732755368; expected=26806.679805536793984921875000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!M8",
+      "detail": "actual=160567.639653221; expected=160840.078833220763909531250000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!M10",
+      "detail": "actual=11339.1289996299; expected=11344.6979354363548704611895161290322581"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!M11",
+      "detail": "actual=1619.8755713757; expected=1620.67113363376498149445564516129032258"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!M12",
+      "detail": "actual=-9719.2534282542; expected=-9724.02680180258988896673387096774193552"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!M6",
+      "detail": "actual=146956.148786916; expected=146960.2096304638736303354569585253456221"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!M7",
+      "detail": "actual=35750.5940011005; expected=35883.40810135047009040975831500000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!M9",
+      "detail": "actual=-9719.2534282542; expected=-9724.02680180258988896673387096774193552"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!M10",
+      "detail": "actual=28531.3405728463; expected=28659.38129954788020144302444403225806448"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!M12",
+      "detail": "actual=170487.489359762; expected=170619.5909300117538317784814025576036866"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!M17",
+      "detail": "actual=170487.489359762; expected=170619.5909300117538317784814025576036866"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cohorts!N32",
+      "detail": "actual=6708.8148075; expected=6977.16739980000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cohorts!N38",
+      "detail": "actual=165468.866454853; expected=165737.21904715323892077628125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Revenue!N6",
+      "detail": "actual=165468.866454853; expected=165737.21904715323892077628125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Revenue!N8",
+      "detail": "actual=165468.866454853; expected=165737.21904715323892077628125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Revenue!N10",
+      "detail": "actual=129.513590780285; expected=129.7236321528316759333476935055763480849"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!N6",
+      "detail": "actual=165468.866454853; expected=165737.21904715323892077628125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!N7",
+      "detail": "actual=33093.7732909707; expected=33147.443809430647784155256250000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!N8",
+      "detail": "actual=132375.093163883; expected=132589.775237722591136621025000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!N10",
+      "detail": "actual=24820.329968228; expected=24860.5828570729858381164421875000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!N12",
+      "detail": "actual=53102.7950792275; expected=53277.2242642225047820481912657600000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!N14",
+      "detail": "actual=50602.7950792275; expected=50777.2242642225047820481912657600000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!N16",
+      "detail": "actual=12650.6987698069; expected=12694.30606605562619551204781644000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!N17",
+      "detail": "actual=37952.0963094207; expected=38082.91819816687858653614344932000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!N6",
+      "detail": "actual=186819.687932899; expected=187122.6666661407536202312852822580645161"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!N7",
+      "detail": "actual=26688.526847557; expected=26731.80952373439337431875504032258064515"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!N8",
+      "detail": "actual=160131.161085342; expected=160390.8571424063602459125302419354838710"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!N10",
+      "detail": "actual=-509.224995858764; expected=-524.0919726168042742218397177419354839"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!N11",
+      "detail": "actual=-72.7464279798187; expected=-74.87028180240061060311995967741935485"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!N12",
+      "detail": "actual=436.478567878945; expected=449.22169081440366361871975806451612905"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!N6",
+      "detail": "actual=170487.489359762; expected=170619.5909300117538317784814025576036866"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!N7",
+      "detail": "actual=37952.0963094207; expected=38082.91819816687858653614344932000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!N9",
+      "detail": "actual=436.478567878945; expected=449.22169081440366361871975806451612905"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!N10",
+      "detail": "actual=40888.5748772996; expected=41032.13988898128225015486320738451612905"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!N12",
+      "detail": "actual=206376.064237062; expected=206651.7308189930360819333446099421198156"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!N17",
+      "detail": "actual=206376.064237062; expected=206651.7308189930360819333446099421198156"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cohorts!O32",
+      "detail": "actual=6608.1825853875; expected=6872.50988880300000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cohorts!O38",
+      "detail": "actual=170576.980026533; expected=170841.30732994811107745487703125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Revenue!O6",
+      "detail": "actual=170576.980026533; expected=170841.30732994811107745487703125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Revenue!O8",
+      "detail": "actual=170576.980026533; expected=170841.30732994811107745487703125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Revenue!O10",
+      "detail": "actual=129.778692523185; expected=129.9797985096441971645371488510073143343"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!O6",
+      "detail": "actual=170576.980026533; expected=170841.30732994811107745487703125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!O7",
+      "detail": "actual=34115.3960053065; expected=34168.261465989622215490975406250000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!O8",
+      "detail": "actual=136461.584021226; expected=136673.045863958488861963901625000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!O10",
+      "detail": "actual=25586.5470039799; expected=25626.1960994922166616182315546875000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!O12",
+      "detail": "actual=56171.4172253785; expected=56343.2299725984639683617054036197800000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!O14",
+      "detail": "actual=53671.4172253785; expected=53843.2299725984639683617054036197800000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!O16",
+      "detail": "actual=13417.8543063446; expected=13460.80749314961599209042635090494500000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!O17",
+      "detail": "actual=40253.5629190339; expected=40382.42247944884797627127905271483500000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!O6",
+      "detail": "actual=199006.476697621; expected=199314.85855160612959036402320312500000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!O7",
+      "detail": "actual=28429.4966710888; expected=28473.551221658018512909146171875000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!O8",
+      "detail": "actual=170576.980026533; expected=170841.307329948111077454877031250000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!O10",
+      "detail": "actual=12186.7887647226; expected=12192.1918854653759701327379208669354839"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!O11",
+      "detail": "actual=1740.9698235318; expected=1741.74169792362513859039113155241935485"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!O12",
+      "detail": "actual=-10445.8189411908; expected=-10450.45018754175083154234678931451612905"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!O6",
+      "detail": "actual=206376.064237062; expected=206651.7308189930360819333446099421198156"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!O7",
+      "detail": "actual=40253.5629190339; expected=40382.42247944884797627127905271483500000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!O9",
+      "detail": "actual=-10445.8189411908; expected=-10450.45018754175083154234678931451612905"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!O10",
+      "detail": "actual=32307.7439778431; expected=32431.97229190709714472893226340031887095"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!O12",
+      "detail": "actual=233683.808214905; expected=234083.7031109001332266622768733424386866"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!O17",
+      "detail": "actual=233683.808214905; expected=234083.7031109001332266622768733424386866"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cohorts!P32",
+      "detail": "actual=6509.05984660669; expected=6769.42224047095500000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cohorts!P38",
+      "detail": "actual=175888.668963267; expected=176149.0313571310167369734890757812500000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Revenue!P6",
+      "detail": "actual=175888.668963267; expected=176149.0313571310167369734890757812500000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Revenue!P8",
+      "detail": "actual=175888.668963267; expected=176149.0313571310167369734890757812500000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Revenue!P10",
+      "detail": "actual=130.032752554152; expected=130.2252358956619418085273833778099528018"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!P6",
+      "detail": "actual=175888.668963267; expected=176149.0313571310167369734890757812500000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!P7",
+      "detail": "actual=35177.7337926533; expected=35229.80627142620334739469781515625000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!P8",
+      "detail": "actual=140710.935170613; expected=140919.2250857048133895787912606250000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!P10",
+      "detail": "actual=26383.30034449; expected=26422.35470356965251054602336136718750000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!P12",
+      "detail": "actual=59371.1669249331; expected=59540.40248094486567630475637352595184000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!P14",
+      "detail": "actual=56871.1669249331; expected=57040.40248094486567630475637352595184000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!P16",
+      "detail": "actual=14217.7917312333; expected=14260.10062023621641907618909338148796000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!P17",
+      "detail": "actual=42653.3751936999; expected=42780.30186070864925722856728014446388000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!P6",
+      "detail": "actual=198583.981087559; expected=198877.9386290188898643249070210433467742"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!P7",
+      "detail": "actual=28369.1401553656; expected=28411.13408985984140918927243157762096775"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!P8",
+      "detail": "actual=170214.840932194; expected=170466.8045391590484551356345894657258064"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!P10",
+      "detail": "actual=-422.495610062178; expected=-436.9199225872397260391161820816532258"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!P11",
+      "detail": "actual=-60.3565157231678; expected=-62.41713179817710371987374029737903225"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!P12",
+      "detail": "actual=362.139094339011; expected=374.50279078906262231924244178427419355"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!P6",
+      "detail": "actual=233683.808214905; expected=234083.7031109001332266622768733424386866"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!P7",
+      "detail": "actual=42653.3751936999; expected=42780.30186070864925722856728014446388000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!P9",
+      "detail": "actual=362.139094339011; expected=374.50279078906262231924244178427419355"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!P10",
+      "detail": "actual=45515.5142880389; expected=45654.80465149771187954780972192873807355"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!P12",
+      "detail": "actual=274199.322502944; expected=274738.5077623978451062100865952711767602"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!P17",
+      "detail": "actual=274199.322502944; expected=274738.5077623978451062100865952711767602"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cohorts!Q32",
+      "detail": "actual=40571.7367394942; expected=42194.60620907395500000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cohorts!Q38",
+      "detail": "actual=1770941.6515503; expected=1772564.521019882378715985897357031250000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Revenue!Q6",
+      "detail": "actual=1770941.6515503; expected=1772564.521019882378715985897357031250000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Revenue!Q8",
+      "detail": "actual=175888.668963267; expected=176149.0313571310167369734890757812500000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Revenue!Q10",
+      "detail": "actual=130.032752554152; expected=130.2252358956619418085273833778099528018"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!Q6",
+      "detail": "actual=1770941.6515503; expected=1772564.521019882378715985897357031250000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!Q7",
+      "detail": "actual=354188.330310061; expected=354512.9042039764757431971794714062500000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!Q8",
+      "detail": "actual=1416753.32124024; expected=1418051.616815905902972788717885625000000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!Q10",
+      "detail": "actual=265641.247732545; expected=265884.6781529823568073978846035546875000"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!Q12",
+      "detail": "actual=508062.051650939; expected=509116.9168061657686090216374629057318400"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!Q14",
+      "detail": "actual=478062.051650939; expected=479116.9168061657686090216374629057318400"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!Q16",
+      "detail": "actual=119428.377059024; expected=119692.0933478308045204485737282456341889"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/P&L!Q17",
+      "detail": "actual=358285.131177073; expected=359076.2800434924135613457211847369025666"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!Q6",
+      "detail": "actual=198583.981087559; expected=198877.9386290188898643249070210433467742"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!Q7",
+      "detail": "actual=28369.1401553656; expected=28411.13408985984140918927243157762096775"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!Q8",
+      "detail": "actual=170214.840932194; expected=170466.8045391590484551356345894657258064"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!Q10",
+      "detail": "actual=63100.1101198173; expected=63394.0676612769898643249070210433467742"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!Q11",
+      "detail": "actual=9014.30144568818; expected=9056.29538018242140918927243157762096775"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Working Capital!Q12",
+      "detail": "actual=-54085.8086741291; expected=-54337.77228109456845513563458946572580645"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!Q7",
+      "detail": "actual=358285.131177073; expected=359076.2800434924135613457211847369025666"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!Q9",
+      "detail": "actual=-54085.8086741291; expected=-54337.77228109456845513563458946572580645"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!Q10",
+      "detail": "actual=334199.322502944; expected=334738.5077623978451062100865952711767602"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!Q12",
+      "detail": "actual=1498749.46005452; expected=1499965.517270213557575561789296781541714"
+    },
+    {
+      "group": "robustness",
+      "check": "legacy_growth_independence/Cash Flow!Q17",
+      "detail": "actual=274199.322502944; expected=274738.5077623978451062100865952711767602"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cohorts!K32",
+      "detail": "actual=7020; expected=7441.20"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cohorts!K38",
+      "detail": "actual=156941.3131461; expected=157362.51314609950368750000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Revenue!K6",
+      "detail": "actual=156941.3131461; expected=157362.51314609950368750000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Revenue!K8",
+      "detail": "actual=156941.3131461; expected=157362.51314609950368750000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Revenue!K10",
+      "detail": "actual=131.207950623114; expected=131.5600872765838600553628631456125932463"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!K6",
+      "detail": "actual=156941.3131461; expected=157362.51314609950368750000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!K7",
+      "detail": "actual=31388.2626292199; expected=31472.502629219900737500000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!K8",
+      "detail": "actual=125553.05051688; expected=125890.010516879602950000000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!K10",
+      "detail": "actual=23541.1969719149; expected=23604.3769719149255531250000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!K12",
+      "detail": "actual=48307.7193950528; expected=48581.4993950527493137550000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!K14",
+      "detail": "actual=45807.7193950528; expected=46081.4993950527493137550000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!K16",
+      "detail": "actual=11451.9298487632; expected=11520.37484876318732843875000000000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!K17",
+      "detail": "actual=34355.7895462896; expected=34561.12454628956198531625000000000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!K6",
+      "detail": "actual=177191.805164951; expected=177667.3535520478267439516129032258064516"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!K7",
+      "detail": "actual=25313.1150235644; expected=25381.05050743540382056451612903225806452"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!K8",
+      "detail": "actual=151878.690141387; expected=152286.3030446124229233870967741935483871"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!K10",
+      "detail": "actual=9041.72977269889; expected=9517.2781597956392439516129032258064516"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!K11",
+      "detail": "actual=1291.67568181412; expected=1359.61116568509132056451612903225806452"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!K12",
+      "detail": "actual=-7750.05409088477; expected=-8157.66699411054792338709677419354838708"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!K7",
+      "detail": "actual=34355.7895462896; expected=34561.12454628956198531625000000000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!K9",
+      "detail": "actual=-7750.05409088477; expected=-8157.66699411054792338709677419354838708"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!K10",
+      "detail": "actual=29105.7354554048; expected=28903.45755217901406192915322580645161292"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!K12",
+      "detail": "actual=123241.330101706; expected=123039.0521984804900740086463133640552995"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!K17",
+      "detail": "actual=123241.330101706; expected=123039.0521984804900740086463133640552995"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cohorts!L32",
+      "detail": "actual=6914.7; expected=7329.58200"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cohorts!L38",
+      "detail": "actual=161325.065609763; expected=161739.94760976309721218750000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Revenue!L6",
+      "detail": "actual=161325.065609763; expected=161739.94760976309721218750000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Revenue!L8",
+      "detail": "actual=161325.065609763; expected=161739.94760976309721218750000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Revenue!L10",
+      "detail": "actual=131.388891918244; expected=131.7267866282250411498572738536444674629"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!L6",
+      "detail": "actual=161325.065609763; expected=161739.94760976309721218750000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!L7",
+      "detail": "actual=32265.0131219526; expected=32347.989521952619442437500000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!L8",
+      "detail": "actual=129060.05248781; expected=129391.958087810477769750000000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!L10",
+      "detail": "actual=24198.7598414645; expected=24260.9921414644645818281250000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!L12",
+      "detail": "actual=50909.0616246414; expected=51178.7349246413276264900150000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!L14",
+      "detail": "actual=48409.0616246414; expected=48678.7349246413276264900150000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!L16",
+      "detail": "actual=12102.2654061603; expected=12169.68373116033190662250375000000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!L17",
+      "detail": "actual=36306.796218481; expected=36509.05119348099571986751125000000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!L6",
+      "detail": "actual=182141.203107797; expected=182609.6182690873678202116935483870967742"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!L7",
+      "detail": "actual=26020.1718725424; expected=26087.08832415533826003024193548387096775"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!L8",
+      "detail": "actual=156121.031235255; expected=156522.5299449320295601814516129032258064"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!L10",
+      "detail": "actual=4949.39794284594; expected=4942.2647170395410762600806451612903226"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!L11",
+      "detail": "actual=707.056848977998; expected=706.03781671993443946572580645161290323"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!L12",
+      "detail": "actual=-4242.34109386794; expected=-4236.22690031960663679435483870967741937"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!L6",
+      "detail": "actual=123241.330101706; expected=123039.0521984804900740086463133640552995"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!L7",
+      "detail": "actual=36306.796218481; expected=36509.05119348099571986751125000000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!L9",
+      "detail": "actual=-4242.34109386794; expected=-4236.22690031960663679435483870967741937"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!L10",
+      "detail": "actual=34564.4551246131; expected=34772.82429316138908307315641129032258063"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!L12",
+      "detail": "actual=152805.78522632; expected=152811.8764916418791570818027246543778801"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!L17",
+      "detail": "actual=152805.78522632; expected=152811.8764916418791570818027246543778801"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cohorts!M32",
+      "detail": "actual=6810.9795; expected=7219.63827000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cohorts!M38",
+      "detail": "actual=165924.104343255; expected=166332.76311325463511240468750000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Revenue!M6",
+      "detail": "actual=165924.104343255; expected=166332.76311325463511240468750000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Revenue!M8",
+      "detail": "actual=165924.104343255; expected=166332.76311325463511240468750000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Revenue!M10",
+      "detail": "actual=131.563365129529; expected=131.8873959458089655940992783638566400700"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!M6",
+      "detail": "actual=165924.104343255; expected=166332.76311325463511240468750000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!M7",
+      "detail": "actual=33184.8208686509; expected=33266.552622650927022480937500000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!M8",
+      "detail": "actual=132739.283474604; expected=133066.210490603708089923750000000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!M10",
+      "detail": "actual=24888.6156514882; expected=24949.9144669881952668607031250000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!M12",
+      "detail": "actual=53649.160716656; expected=53914.7889171559764024140787950000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!M14",
+      "detail": "actual=51149.160716656; expected=51414.7889171559764024140787950000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!M16",
+      "detail": "actual=12787.290179164; expected=12853.69722928899410060351969875000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!M17",
+      "detail": "actual=38361.870537492; expected=38561.09168786698230181055909625000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!M6",
+      "detail": "actual=193578.121733797; expected=194054.89029879707429780546875000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!M7",
+      "detail": "actual=27654.0173905424; expected=27722.127185542439185400781250000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!M8",
+      "detail": "actual=165924.104343255; expected=166332.763113254635112404687500000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!M10",
+      "detail": "actual=11436.918626; expected=11445.2720297097064775937752016129032258"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!M11",
+      "detail": "actual=1633.845518; expected=1635.03886138710092537053931451612903225"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!M12",
+      "detail": "actual=-9803.07310800003; expected=-9810.23316832260555222323588709677419355"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!M6",
+      "detail": "actual=152805.78522632; expected=152811.8764916418791570818027246543778801"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!M7",
+      "detail": "actual=38361.870537492; expected=38561.09168786698230181055909625000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!M9",
+      "detail": "actual=-9803.07310800003; expected=-9810.23316832260555222323588709677419355"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!M10",
+      "detail": "actual=31058.797429492; expected=31250.85851954437674958732320915322580645"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!M12",
+      "detail": "actual=178864.582655812; expected=179062.7350111862559066691259338076036866"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!M17",
+      "detail": "actual=178864.582655812; expected=179062.7350111862559066691259338076036866"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cohorts!N32",
+      "detail": "actual=6842.99110365; expected=7253.5705698690000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cohorts!N38",
+      "detail": "actual=174149.678785419; expected=174560.2582516378610620896295312500000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Revenue!N6",
+      "detail": "actual=174149.678785419; expected=174560.2582516378610620896295312500000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Revenue!N8",
+      "detail": "actual=174149.678785419; expected=174560.2582516378610620896295312500000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Revenue!N10",
+      "detail": "actual=134.365813052361; expected=134.6825971210189444489005665584425136394"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!N6",
+      "detail": "actual=174149.678785419; expected=174560.2582516378610620896295312500000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!N7",
+      "detail": "actual=34829.9357570838; expected=34912.05165032757221241792590625000000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!N8",
+      "detail": "actual=139319.743028335; expected=139648.20660131028884967170362500000000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!N10",
+      "detail": "actual=26122.4518178128; expected=26184.038737745679159313444429687500000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!N12",
+      "detail": "actual=58745.3230940952; expected=59012.199747137509173901867648572500000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!N14",
+      "detail": "actual=56245.3230940952; expected=56512.199747137509173901867648572500000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!N16",
+      "detail": "actual=14061.3307735238; expected=14128.04993678437729347546691214312500000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!N17",
+      "detail": "actual=42183.9923205714; expected=42384.14981035313188042640073642937500000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!N6",
+      "detail": "actual=196620.605080312; expected=197084.1625421717786184882914062500000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!N7",
+      "detail": "actual=28088.6578686159; expected=28154.88036316739694549832734375000000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!N8",
+      "detail": "actual=168531.947211696; expected=168929.28217900438167298996406250000000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!N10",
+      "detail": "actual=3042.48334651458; expected=3029.2722433747043206828226562500000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!N11",
+      "detail": "actual=434.64047807351; expected=432.75317762495776009754609375000000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!N12",
+      "detail": "actual=-2607.84286844107; expected=-2596.51906574974656058527656250000000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!N6",
+      "detail": "actual=178864.582655812; expected=179062.7350111862559066691259338076036866"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!N7",
+      "detail": "actual=42183.9923205714; expected=42384.14981035313188042640073642937500000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!N9",
+      "detail": "actual=-2607.84286844107; expected=-2596.51906574974656058527656250000000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!N10",
+      "detail": "actual=42076.1494521304; expected=42287.63074460338531984112417392937500000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!N12",
+      "detail": "actual=215940.732107942; expected=216350.3657557896412265102501077369786866"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!N17",
+      "detail": "actual=215940.732107942; expected=216350.3657557896412265102501077369786866"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cohorts!O32",
+      "detail": "actual=6740.34623709525; expected=7144.7670113209650000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cohorts!O38",
+      "detail": "actual=179107.382132353; expected=179511.8029065792037275217922882812500000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Revenue!O6",
+      "detail": "actual=179107.382132353; expected=179511.8029065792037275217922882812500000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Revenue!O8",
+      "detail": "actual=179107.382132353; expected=179511.8029065792037275217922882812500000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Revenue!O10",
+      "detail": "actual=134.408537600859; expected=134.7120293061804034366841821429139524480"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!O6",
+      "detail": "actual=179107.382132353; expected=179511.8029065792037275217922882812500000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!O7",
+      "detail": "actual=35821.4764264707; expected=35902.36058131584074550435845765625000000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!O8",
+      "detail": "actual=143285.905705883; expected=143609.4423252633629820174338306250000000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!O10",
+      "detail": "actual=26866.107319853; expected=26926.77043598688055912826884324218750000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!O12",
+      "detail": "actual=61716.178594162; expected=61979.05209740867419090520032069009250000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!O14",
+      "detail": "actual=59216.178594162; expected=59479.05209740867419090520032069009250000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!O16",
+      "detail": "actual=14804.0446485405; expected=14869.76302435216854772630008017252312500"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!O17",
+      "detail": "actual=44412.1339456215; expected=44609.28907305650564317890024051756937500"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!O6",
+      "detail": "actual=208958.612487746; expected=209430.4367243424043487754243363281250000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!O7",
+      "detail": "actual=29851.2303553923; expected=29918.63381776320062125363204804687500000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!O8",
+      "detail": "actual=179107.382132353; expected=179511.8029065792037275217922882812500000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!O10",
+      "detail": "actual=12338.0074074341; expected=12346.2741821706257302871329300781250000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!O11",
+      "detail": "actual=1762.57248677631; expected=1763.75345459580367575530470429687500000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!O12",
+      "detail": "actual=-10575.4349206578; expected=-10582.52072757482205453182822578125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!O6",
+      "detail": "actual=215940.732107942; expected=216350.3657557896412265102501077369786866"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!O7",
+      "detail": "actual=44412.1339456215; expected=44609.28907305650564317890024051756937500"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!O9",
+      "detail": "actual=-10575.4349206578; expected=-10582.52072757482205453182822578125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!O10",
+      "detail": "actual=36336.6990249637; expected=36526.76834548168358864707201473631937500"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!O12",
+      "detail": "actual=247277.431132906; expected=247877.1341012713248151573221224732980616"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!O17",
+      "detail": "actual=247277.431132906; expected=247877.1341012713248151573221224732980616"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cohorts!P32",
+      "detail": "actual=6639.24104353882; expected=7037.5955061511505250000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cohorts!P38",
+      "detail": "actual=184271.32095851; expected=184669.6754211221080413452024599570312500"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Revenue!P6",
+      "detail": "actual=184271.32095851; expected=184669.6754211221080413452024599570312500"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Revenue!P8",
+      "detail": "actual=184271.32095851; expected=184669.6754211221080413452024599570312500"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Revenue!P10",
+      "detail": "actual=134.448919322808; expected=134.7395686041340513495889887197033342922"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!P6",
+      "detail": "actual=184271.32095851; expected=184669.6754211221080413452024599570312500"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!P7",
+      "detail": "actual=36854.264191702; expected=36933.93508422442160826904049199140625000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!P8",
+      "detail": "actual=147417.056766808; expected=147735.7403368976864330761619679656250000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!P10",
+      "detail": "actual=27640.6981437765; expected=27700.45131316831620620178036899355468750"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!P12",
+      "detail": "actual=64819.8907218411; expected=65078.82112253907502414637007324020965250"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!P14",
+      "detail": "actual=62319.8907218411; expected=62578.82112253907502414637007324020965250"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!P16",
+      "detail": "actual=15579.9726804603; expected=15644.70528063476875603659251831005241312"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!P17",
+      "detail": "actual=46739.9180413808; expected=46934.11584190430626810977755493015723938"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!P6",
+      "detail": "actual=208048.265598317; expected=208498.0206367507671434542608418869707661"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!P7",
+      "detail": "actual=29721.1807997596; expected=29785.43151953582387763632297741242439515"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!P8",
+      "detail": "actual=178327.084798558; expected=178712.5891172149432658179378644745463710"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!P10",
+      "detail": "actual=-910.346889428241; expected=-932.4160875916372053211634944411542339"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!P11",
+      "detail": "actual=-130.04955563261; expected=-133.20229822737674361730907063445060485"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!P12",
+      "detail": "actual=780.297333795632; expected=799.21378936426046170385442380670362905"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!P6",
+      "detail": "actual=247277.431132906; expected=247877.1341012713248151573221224732980616"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!P7",
+      "detail": "actual=46739.9180413808; expected=46934.11584190430626810977755493015723938"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!P9",
+      "detail": "actual=780.297333795632; expected=799.21378936426046170385442380670362905"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!P10",
+      "detail": "actual=50020.2153751765; expected=50233.32963126856672981363197873686086843"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!P12",
+      "detail": "actual=292297.646508082; expected=293110.4637325398915449709541012101589300"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!P17",
+      "detail": "actual=292297.646508082; expected=293110.4637325398915449709541012101589300"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cohorts!Q32",
+      "detail": "actual=40968.2578842841; expected=43426.3533573411155250000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cohorts!Q38",
+      "detail": "actual=1824706.91897903; expected=1827165.014452083283843048811779488281250"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Revenue!Q6",
+      "detail": "actual=1824706.91897903; expected=1827165.014452083283843048811779488281250"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Revenue!Q8",
+      "detail": "actual=184271.32095851; expected=184669.6754211221080413452024599570312500"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Revenue!Q10",
+      "detail": "actual=134.448919322808; expected=134.7395686041340513495889887197033342922"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!Q6",
+      "detail": "actual=1824706.91897903; expected=1827165.014452083283843048811779488281250"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!Q7",
+      "detail": "actual=364941.383795805; expected=365433.0028904166567686097623558976562500"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!Q8",
+      "detail": "actual=1459765.53518322; expected=1461732.011561666627074439049423590625000"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!Q10",
+      "detail": "actual=273706.037846854; expected=274074.7521678124925764573217669232421875"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!Q12",
+      "detail": "actual=543009.47547961; expected=544607.2375370963569416125318375028021525"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!Q14",
+      "detail": "actual=513009.47547961; expected=514607.2375370963569416125318375028021525"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!Q16",
+      "detail": "actual=128165.233016192; expected=128564.6735305634516035962973218949017670"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/P&L!Q17",
+      "detail": "actual=384495.699048575; expected=385694.0205916903548107888919656847053010"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!Q6",
+      "detail": "actual=208048.265598317; expected=208498.0206367507671434542608418869707661"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!Q7",
+      "detail": "actual=29721.1807997596; expected=29785.43151953582387763632297741242439515"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!Q8",
+      "detail": "actual=178327.084798558; expected=178712.5891172149432658179378644745463710"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!Q10",
+      "detail": "actual=72564.3946305756; expected=73014.1496690088671434542608418869707661"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!Q11",
+      "detail": "actual=10366.3420900822; expected=10430.59280985840387763632297741242439515"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Working Capital!Q12",
+      "detail": "actual=-62198.0525404933; expected=-62583.55685915046326581793786447454637095"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!Q7",
+      "detail": "actual=384495.699048575; expected=385694.0205916903548107888919656847053010"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!Q9",
+      "detail": "actual=-62198.0525404933; expected=-62583.55685915046326581793786447454637095"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!Q10",
+      "detail": "actual=352297.646508082; expected=353110.4637325398915449709541012101589300"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!Q12",
+      "detail": "actual=1560464.6993072; expected=1562288.818865340627872796718814767209872"
+    },
+    {
+      "group": "robustness",
+      "check": "cohort_and_calendar_uplifts/Cash Flow!Q17",
+      "detail": "actual=292297.646508082; expected=293110.4637325398915449709541012101589300"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cohorts!K32",
+      "detail": "actual=7020; expected=7300.80"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cohorts!K38",
+      "detail": "actual=149142.240211066; expected=149423.04021106587125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Revenue!K6",
+      "detail": "actual=149142.240211066; expected=149423.04021106587125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Revenue!K8",
+      "detail": "actual=149142.240211066; expected=149423.04021106587125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Revenue!K10",
+      "detail": "actual=132.604599766683; expected=132.8542632527735907988059002668036710428"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!K6",
+      "detail": "actual=149142.240211066; expected=149423.04021106587125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!K7",
+      "detail": "actual=29828.4480422132; expected=29884.608042213174250000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!K8",
+      "detail": "actual=119313.792168853; expected=119538.432168852697000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!K10",
+      "detail": "actual=22371.3360316599; expected=22413.4560316598806875000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!K12",
+      "detail": "actual=43238.3219872809; expected=43420.8419872808882293800000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!K14",
+      "detail": "actual=40738.3219872809; expected=40920.8419872808882293800000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!K16",
+      "detail": "actual=10184.5804968202; expected=10230.21049682022205734500000000000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!K17",
+      "detail": "actual=30553.7414904607; expected=30690.63149046066617203500000000000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!K6",
+      "detail": "actual=168386.4002383; expected=168703.4324963646933467741935483870967742"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!K7",
+      "detail": "actual=24055.2000340429; expected=24100.49035662352762096774193548387096774"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!K8",
+      "detail": "actual=144331.200204257; expected=144602.9421397411657258064516129032258065"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!K10",
+      "detail": "actual=5910.08412798905; expected=6227.1163860535475134408602150537634409"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!K11",
+      "detail": "actual=844.297732569859; expected=889.58805515050678763440860215053763441"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!K12",
+      "detail": "actual=-5065.78639541919; expected=-5337.52833090304072580645161290322580649"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!K7",
+      "detail": "actual=30553.7414904607; expected=30690.63149046066617203500000000000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!K9",
+      "detail": "actual=-5065.78639541919; expected=-5337.52833090304072580645161290322580649"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!K10",
+      "detail": "actual=27987.9550950415; expected=27853.10315955762544622854838709677419351"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!K12",
+      "detail": "actual=114413.631481574; expected=114278.7795460903519623402995391705069124"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!K17",
+      "detail": "actual=114413.631481574; expected=114278.7795460903519623402995391705069124"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cohorts!L32",
+      "detail": "actual=6914.7; expected=7191.28800"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cohorts!L38",
+      "detail": "actual=154420.681907086; expected=154697.26990708613726125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Revenue!L6",
+      "detail": "actual=154420.681907086; expected=154697.26990708613726125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Revenue!L8",
+      "detail": "actual=154420.681907086; expected=154697.26990708613726125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Revenue!L10",
+      "detail": "actual=133.378487732011; expected=133.6173863608033870602473460428578130519"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!L6",
+      "detail": "actual=154420.681907086; expected=154697.26990708613726125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!L7",
+      "detail": "actual=30884.1363814172; expected=30939.453981417227452250000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!L8",
+      "detail": "actual=123536.545525669; expected=123757.815925668909809000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!L10",
+      "detail": "actual=23163.1022860629; expected=23204.5904860629205891875000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!L12",
+      "detail": "actual=46421.2122179013; expected=46600.9944179013036583806400000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!L14",
+      "detail": "actual=43921.2122179013; expected=44100.9944179013036583806400000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!L16",
+      "detail": "actual=10980.3030544753; expected=11025.24860447532591459516000000000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!L17",
+      "detail": "actual=32940.909163426; expected=33075.74581342597774378548000000000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!L6",
+      "detail": "actual=174345.93118542; expected=174658.2079596133807788306451612903225806"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!L7",
+      "detail": "actual=24906.5615979171; expected=24951.17256565905439697580645161290322581"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!L8",
+      "detail": "actual=149439.369587503; expected=149707.0353939543263818548387096774193548"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!L10",
+      "detail": "actual=5959.53094711964; expected=5954.7754632486874320564516129032258064"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!L11",
+      "detail": "actual=851.361563874234; expected=850.68220903552677600806451612903225807"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!L12",
+      "detail": "actual=-5108.1693832454; expected=-5104.09325421316065604838709677419354833"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!L6",
+      "detail": "actual=114413.631481574; expected=114278.7795460903519623402995391705069124"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!L7",
+      "detail": "actual=32940.909163426; expected=33075.74581342597774378548000000000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!L9",
+      "detail": "actual=-5108.1693832454; expected=-5104.09325421316065604838709677419354833"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!L10",
+      "detail": "actual=30332.7397801806; expected=30471.65255921281708773709290322580645167"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!L12",
+      "detail": "actual=139746.371261755; expected=139750.4321053031690500773924423963133641"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!L17",
+      "detail": "actual=139746.371261755; expected=139750.4321053031690500773924423963133641"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cohorts!M32",
+      "detail": "actual=6810.9795; expected=7083.41868000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cohorts!M38",
+      "detail": "actual=159144.555471682; expected=159416.99465168237420073125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Revenue!M6",
+      "detail": "actual=159144.555471682; expected=159416.99465168237420073125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Revenue!M8",
+      "detail": "actual=159144.555471682; expected=159416.99465168237420073125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Revenue!M10",
+      "detail": "actual=133.465970151233; expected=133.6944502230651966957719473926690464045"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!M6",
+      "detail": "actual=159144.555471682; expected=159416.99465168237420073125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!M7",
+      "detail": "actual=31828.9110943365; expected=31883.398930336474840146250000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!M8",
+      "detail": "actual=127315.644377346; expected=127533.595721345899360585000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!M10",
+      "detail": "actual=23871.6833207524; expected=23912.5491977523561301096875000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!M12",
+      "detail": "actual=49242.4539501341; expected=49419.5394171340068098263444200000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!M14",
+      "detail": "actual=46742.4539501341; expected=46919.5394171340068098263444200000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!M16",
+      "detail": "actual=11685.6134875335; expected=11729.88485428350170245658610500000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!M17",
+      "detail": "actual=35056.8404626005; expected=35189.65456285050510736975831500000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!M6",
+      "detail": "actual=185668.648050296; expected=185986.4937602961032341864583333333333333"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!M7",
+      "detail": "actual=26524.0925786137; expected=26569.49910861372903345520833333333333332"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!M8",
+      "detail": "actual=159144.555471682; expected=159416.9946516823742007312500000000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!M10",
+      "detail": "actual=11322.7168648762; expected=11328.2858006827224553558131720430107527"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!M11",
+      "detail": "actual=1617.5309806966; expected=1618.32654295467463647940188172043010751"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!M12",
+      "detail": "actual=-9705.18588417964; expected=-9709.95925772804781887641129032258064519"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!M6",
+      "detail": "actual=139746.371261755; expected=139750.4321053031690500773924423963133641"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!M7",
+      "detail": "actual=35056.8404626005; expected=35189.65456285050510736975831500000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!M9",
+      "detail": "actual=-9705.18588417964; expected=-9709.95925772804781887641129032258064519"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!M10",
+      "detail": "actual=27851.6545784209; expected=27979.69530512245728849334702467741935481"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!M12",
+      "detail": "actual=162598.025840176; expected=162730.1274104256263385707394670737327189"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!M17",
+      "detail": "actual=162598.025840176; expected=162730.1274104256263385707394670737327189"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cohorts!N32",
+      "detail": "actual=6708.8148075; expected=6977.16739980000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cohorts!N38",
+      "detail": "actual=164077.967256946; expected=164346.31984924561700615228125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Revenue!N6",
+      "detail": "actual=164077.967256946; expected=164346.31984924561700615228125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Revenue!N8",
+      "detail": "actual=164077.967256946; expected=164346.31984924561700615228125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Revenue!N10",
+      "detail": "actual=133.549444090627; expected=133.7678667108058908139968014188956442524"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!N6",
+      "detail": "actual=164077.967256946; expected=164346.31984924561700615228125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!N7",
+      "detail": "actual=32815.5934513891; expected=32869.263969849123401230456250000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!N8",
+      "detail": "actual=131262.373805556; expected=131477.055879396493604921825000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!N10",
+      "detail": "actual=24611.6950885418; expected=24651.9479773868425509228421875000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!N12",
+      "detail": "actual=52198.7106005876; expected=52373.1397855825505375425912657600000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!N14",
+      "detail": "actual=49698.7106005876; expected=49873.1397855825505375425912657600000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!N16",
+      "detail": "actual=12424.6776501469; expected=12468.28494639563763438564781644000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!N17",
+      "detail": "actual=37274.0329504407; expected=37404.85483918691290315694344932000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!N6",
+      "detail": "actual=185249.317870745; expected=185552.2966039869869424299949596774193548"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!N7",
+      "detail": "actual=26464.1882672493; expected=26507.47094342671242034714213709677419355"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!N8",
+      "detail": "actual=158785.129603496; expected=159044.8256605602745220828528225806451612"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!N10",
+      "detail": "actual=-419.330179551063; expected=-434.1971563091162917564633736559139785"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!N11",
+      "detail": "actual=-59.9043113644293; expected=-62.02816518701661310806619623655913977"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!N12",
+      "detail": "actual=359.425868186634; expected=372.16899112209967864839717741935483873"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!N6",
+      "detail": "actual=162598.025840176; expected=162730.1274104256263385707394670737327189"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!N7",
+      "detail": "actual=37274.0329504407; expected=37404.85483918691290315694344932000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!N9",
+      "detail": "actual=359.425868186634; expected=372.16899112209967864839717741935483873"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!N10",
+      "detail": "actual=40133.4588186273; expected=40277.02383030901258180534062673935483873"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!N12",
+      "detail": "actual=197731.484658803; expected=198007.1512407346389203760800938130875576"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!N17",
+      "detail": "actual=197731.484658803; expected=198007.1512407346389203760800938130875576"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cohorts!O32",
+      "detail": "actual=6608.1825853875; expected=6872.50988880300000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cohorts!O38",
+      "detail": "actual=169217.566263083; expected=169481.89356649864160112335703125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Revenue!O6",
+      "detail": "actual=169217.566263083; expected=169481.89356649864160112335703125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Revenue!O8",
+      "detail": "actual=169217.566263083; expected=169481.89356649864160112335703125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Revenue!O10",
+      "detail": "actual=133.628937220444; expected=133.8376730947023249254641008395789789291"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!O6",
+      "detail": "actual=169217.566263083; expected=169481.89356649864160112335703125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!O7",
+      "detail": "actual=33843.5132526166; expected=33896.378713299728320224671406250000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!O8",
+      "detail": "actual=135374.053010466; expected=135585.514853198913280898685625000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!O10",
+      "detail": "actual=25382.6349394625; expected=25422.2840349747962401685035546875000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!O12",
+      "detail": "actual=55287.7982791363; expected=55459.6110263563088087462174036197800000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!O14",
+      "detail": "actual=52787.7982791363; expected=52959.6110263563088087462174036197800000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!O16",
+      "detail": "actual=13196.9495697841; expected=13239.90275658907720218655435090494500000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!O17",
+      "detail": "actual=39590.8487093522; expected=39719.70826976723160655966305271483500000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!O6",
+      "detail": "actual=197420.493973597; expected=197728.8758275817485346439165364583333333"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!O7",
+      "detail": "actual=28202.9277105138; expected=28246.98226108310693352055950520833333332"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!O8",
+      "detail": "actual=169217.566263083; expected=169481.8935664986416011233570312500000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!O10",
+      "detail": "actual=12171.176102852; expected=12176.5792235947615922139215767809139785"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!O11",
+      "detail": "actual=1738.73944326456; expected=1739.51131765639451317341736811155913977"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!O12",
+      "detail": "actual=-10432.4366595874; expected=-10437.06790593836707904050420866935483873"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!O6",
+      "detail": "actual=197731.484658803; expected=198007.1512407346389203760800938130875576"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!O7",
+      "detail": "actual=39590.8487093522; expected=39719.70826976723160655966305271483500000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!O9",
+      "detail": "actual=-10432.4366595874; expected=-10437.06790593836707904050420866935483873"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!O10",
+      "detail": "actual=31658.4120497648; expected=31782.64036382886452751915884404548016127"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!O12",
+      "detail": "actual=224389.896708568; expected=224789.7916045635034478952389378585677189"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!O17",
+      "detail": "actual=224389.896708568; expected=224789.7916045635034478952389378585677189"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cohorts!P32",
+      "detail": "actual=6509.05984660669; expected=6769.42224047095500000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cohorts!P38",
+      "detail": "actual=174560.055913829; expected=174820.4183076930366501685994757812500000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Revenue!P6",
+      "detail": "actual=174560.055913829; expected=174820.4183076930366501685994757812500000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Revenue!P8",
+      "detail": "actual=174560.055913829; expected=174820.4183076930366501685994757812500000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Revenue!P10",
+      "detail": "actual=133.704508407684; expected=133.9039333316573155543324867669876943765"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!P6",
+      "detail": "actual=174560.055913829; expected=174820.4183076930366501685994757812500000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!P7",
+      "detail": "actual=34912.0111827658; expected=34964.08366153860733003371989515625000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!P8",
+      "detail": "actual=139648.044731063; expected=139856.3346461544293201348795806250000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!P10",
+      "detail": "actual=26184.0083870743; expected=26223.06274615395549752528992136718750000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!P12",
+      "detail": "actual=58507.5684427985; expected=58676.80399881017861988157813352595184000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!P14",
+      "detail": "actual=56007.5684427985; expected=56176.80399881017861988157813352595184000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!P16",
+      "detail": "actual=14001.8921106996; expected=14044.20099970254465497039453338148796000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!P17",
+      "detail": "actual=42005.6763320989; expected=42132.60299910763396491118360014446388000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!P6",
+      "detail": "actual=197083.934096258; expected=197377.8916377179446050290639242691532258"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!P7",
+      "detail": "actual=28154.8477280369; expected=28196.84166253113494357558056060987903225"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!P8",
+      "detail": "actual=168929.086368221; expected=169181.0499751868096614534833636592741936"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!P10",
+      "detail": "actual=-336.559877338703; expected=-350.9841898638039296148526121891801075"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!P11",
+      "detail": "actual=-48.0799824769492; expected=-50.14059855197198994497894459845430107"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!P12",
+      "detail": "actual=288.479894861754; expected=300.84359131183193966987366759072580643"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!P6",
+      "detail": "actual=224389.896708568; expected=224789.7916045635034478952389378585677189"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!P7",
+      "detail": "actual=42005.6763320989; expected=42132.60299910763396491118360014446388000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!P9",
+      "detail": "actual=288.479894861754; expected=300.84359131183193966987366759072580643"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!P10",
+      "detail": "actual=44794.1562269606; expected=44933.44659041946590458105726773518968643"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!P12",
+      "detail": "actual=264184.052935529; expected=264723.2381949829693524762962055937574053"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!P17",
+      "detail": "actual=264184.052935529; expected=264723.2381949829693524762962055937574053"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cohorts!Q32",
+      "detail": "actual=40571.7367394942; expected=42194.60620907395500000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cohorts!Q38",
+      "detail": "actual=1747742.22276865; expected=1749365.092238234802969425487757031250000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Revenue!Q6",
+      "detail": "actual=1747742.22276865; expected=1749365.092238234802969425487757031250000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Revenue!Q8",
+      "detail": "actual=174560.055913829; expected=174820.4183076930366501685994757812500000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Revenue!Q10",
+      "detail": "actual=133.704508407684; expected=133.9039333316573155543324867669876943765"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!Q6",
+      "detail": "actual=1747742.22276865; expected=1749365.092238234802969425487757031250000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!Q7",
+      "detail": "actual=349548.444553731; expected=349873.0184476469605938850975514062500000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!Q8",
+      "detail": "actual=1398193.77821492; expected=1399492.073790587842375540390205625000000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!Q10",
+      "detail": "actual=262161.333415298; expected=262404.7638357352204454138231635546875000"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!Q12",
+      "detail": "actual=492982.422942868; expected=494037.2880980948443737573712229057318400"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!Q14",
+      "detail": "actual=462982.422942868; expected=464037.2880980948443737573712229057318400"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!Q16",
+      "detail": "actual=115661.369015228; expected=115925.0853040350996713099265230843438663"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/P&L!Q17",
+      "detail": "actual=346984.107045685; expected=347775.2559121052990139297795692530315989"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!Q6",
+      "detail": "actual=197083.934096258; expected=197377.8916377179446050290639242691532258"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!Q7",
+      "detail": "actual=28154.8477280369; expected=28196.84166253113494357558056060987903225"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!Q8",
+      "detail": "actual=168929.086368221; expected=169181.0499751868096614534833636592741936"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!Q10",
+      "detail": "actual=61600.0631285163; expected=61894.0206699760446050290639242691532258"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!Q11",
+      "detail": "actual=8800.00901835948; expected=8842.00295285371494357558056060987903225"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Working Capital!Q12",
+      "detail": "actual=-52800.0541101569; expected=-53052.01771712232966145348336365927419355"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!Q7",
+      "detail": "actual=346984.107045685; expected=347775.2559121052990139297795692530315989"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!Q9",
+      "detail": "actual=-52800.0541101569; expected=-53052.01771712232966145348336365927419355"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!Q10",
+      "detail": "actual=324184.052935529; expected=324723.2381949829693524762962055937574053"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!Q12",
+      "detail": "actual=1438287.97377896; expected=1439504.030994650809966102406132910573972"
+    },
+    {
+      "group": "robustness",
+      "check": "starting_base_and_launch_pricing/Cash Flow!Q17",
+      "detail": "actual=264184.052935529; expected=264723.2381949829693524762962055937574053"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cohorts!K32",
+      "detail": "actual=7020; expected=7300.80"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cohorts!K38",
+      "detail": "actual=151399.366597507; expected=151680.16659750734325000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Revenue!K6",
+      "detail": "actual=151399.366597507; expected=151680.16659750734325000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Revenue!K8",
+      "detail": "actual=151399.366597507; expected=151680.16659750734325000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Revenue!K10",
+      "detail": "actual=128.653279083861; expected=128.8918919762304183565990879432129466024"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!K6",
+      "detail": "actual=151399.366597507; expected=151680.16659750734325000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!K7",
+      "detail": "actual=30279.8733195015; expected=30336.033319501468650000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!K8",
+      "detail": "actual=121119.493278006; expected=121344.133278005874600000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!K10",
+      "detail": "actual=22709.9049896261; expected=22752.0249896261014875000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!K12",
+      "detail": "actual=44705.4541384679; expected=44887.9741384678450293800000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!K14",
+      "detail": "actual=42205.4541384679; expected=42387.9741384678450293800000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!K16",
+      "detail": "actual=10425.6070507789; expected=10471.23705077890555225931591915307485929"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!K17",
+      "detail": "actual=31276.8211523368; expected=31413.71115233671665677794775745922457787"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!K6",
+      "detail": "actual=244192.526770173; expected=244645.4299959795858870967741935483870968"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!K7",
+      "detail": "actual=17581.8619274525; expected=17614.47095971053018387096774193548387097"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!K8",
+      "detail": "actual=226610.664842721; expected=227030.9590362690557032258064516129032258"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!K10",
+      "detail": "actual=8392.49383517625; expected=8845.3970609827108870967741935483870968"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!K11",
+      "detail": "actual=604.259556132689; expected=636.86858839075518387096774193548387097"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!K12",
+      "detail": "actual=-7788.23427904357; expected=-8208.52847259195570322580645161290322583"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!K7",
+      "detail": "actual=31276.8211523368; expected=31413.71115233671665677794775745922457787"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!K9",
+      "detail": "actual=-7788.23427904357; expected=-8208.52847259195570322580645161290322583"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!K10",
+      "detail": "actual=25988.5868732932; expected=25705.18267974476095355214130584632135204"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!K12",
+      "detail": "actual=63788.5868732932; expected=63505.18267974476095355214130584632135204"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!K15",
+      "detail": "actual=18788.5868732932; expected=18505.18267974476095355214130584632135204"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!K16",
+      "detail": "actual=-18788.5868732932; expected=-18505.18267974476095355214130584632135204"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!K18",
+      "detail": "actual=24327.9218711829; expected=24611.32606473148079011097212738515546247"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cohorts!L32",
+      "detail": "actual=6914.7; expected=7191.28800"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cohorts!L38",
+      "detail": "actual=155876.665765799; expected=156153.25376579877982125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Revenue!L6",
+      "detail": "actual=155876.665765799; expected=156153.25376579877982125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Revenue!L8",
+      "detail": "actual=155876.665765799; expected=156153.25376579877982125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Revenue!L10",
+      "detail": "actual=128.950636760532; expected=129.1794471379229926056286340503188173060"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!L6",
+      "detail": "actual=155876.665765799; expected=156153.25376579877982125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!L7",
+      "detail": "actual=31175.3331531598; expected=31230.650753159755964250000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!L8",
+      "detail": "actual=124701.332612639; expected=124922.603012639023857000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!L10",
+      "detail": "actual=23381.4998648698; expected=23422.9880648698169731875000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!L12",
+      "detail": "actual=47367.6017260646; expected=47547.3839260645213223806400000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!L14",
+      "detail": "actual=44867.6017260646; expected=45047.3839260645213223806400000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!L15",
+      "detail": "actual=283.825755163801; expected=287.1321374218672758846280081528268137288"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!L16",
+      "detail": "actual=11145.9439927252; expected=11190.06294716066351162400299796179329657"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!L17",
+      "detail": "actual=33437.8319781756; expected=33570.18884148199053487200899388537988970"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!L6",
+      "detail": "actual=251413.977041611; expected=251860.0867190302900342741935483870967742"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!L7",
+      "detail": "actual=18101.806346996; expected=18133.92624377018088246774193548387096775"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!L8",
+      "detail": "actual=233312.170694615; expected=233726.1604752601091518064516129032258064"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!L10",
+      "detail": "actual=7221.45027143773; expected=7214.6567230507041471774193548387096774"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!L11",
+      "detail": "actual=519.944419543521; expected=519.45528405965069859677419354838709678"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!L12",
+      "detail": "actual=-6701.50585189421; expected=-6695.20143899105344858064516129032258062"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!L7",
+      "detail": "actual=33437.8319781756; expected=33570.18884148199053487200899388537988970"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!L9",
+      "detail": "actual=-6701.50585189421; expected=-6695.20143899105344858064516129032258062"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!L10",
+      "detail": "actual=29236.3261262814; expected=29374.98740249093708629136383259505730908"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!L12",
+      "detail": "actual=67036.3261262814; expected=67174.98740249093708629136383259505730908"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!L13",
+      "detail": "actual=24327.9218711829; expected=24611.32606473148079011097212738515546247"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!L15",
+      "detail": "actual=22036.3261262814; expected=22174.98740249093708629136383259505730908"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!L16",
+      "detail": "actual=-22036.3261262814; expected=-22174.98740249093708629136383259505730908"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!L18",
+      "detail": "actual=2291.59574490156; expected=2436.33866224054370381960829479009815339"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cohorts!M32",
+      "detail": "actual=6810.9795; expected=7083.41868000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cohorts!M38",
+      "detail": "actual=160567.639653221; expected=160840.07883322076390953125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Revenue!M6",
+      "detail": "actual=160567.639653221; expected=160840.07883322076390953125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Revenue!M8",
+      "detail": "actual=160567.639653221; expected=160840.07883322076390953125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Revenue!M10",
+      "detail": "actual=129.237512021357; expected=129.4567925804804521626113432504973542543"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!M6",
+      "detail": "actual=160567.639653221; expected=160840.07883322076390953125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!M7",
+      "detail": "actual=32113.5279306442; expected=32168.015766644152781906250000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!M8",
+      "detail": "actual=128454.111722577; expected=128672.063066576611127625000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!M10",
+      "detail": "actual=24085.1459479831; expected=24126.0118249831145864296875000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!M12",
+      "detail": "actual=50167.458668134; expected=50344.5441351339601205463444200000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!M14",
+      "detail": "actual=47667.458668134; expected=47844.5441351339601205463444200000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!M15",
+      "detail": "actual=26.7352836905181; expected=28.42395105947300987789543010588447845622"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!M16",
+      "detail": "actual=11910.1808461109; expected=11954.03004601862177766711224747352888038"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!M17",
+      "detail": "actual=35730.5425383326; expected=35862.09013805586533300133674242058664116"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!M6",
+      "detail": "actual=267612.732755368; expected=268066.79805536793984921875000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!M7",
+      "detail": "actual=19268.1167583865; expected=19300.809459986491669143750000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!M8",
+      "detail": "actual=248344.615996981; expected=248765.988595381448180075000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!M10",
+      "detail": "actual=16198.755713757; expected=16206.7113363376498149445564516129032258"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!M11",
+      "detail": "actual=1166.3104113905; expected=1166.88321621631078667600806451612903225"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!M12",
+      "detail": "actual=-15032.4453023665; expected=-15039.82812012133902826854838709677419355"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!M7",
+      "detail": "actual=35730.5425383326; expected=35862.09013805586533300133674242058664116"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!M9",
+      "detail": "actual=-15032.4453023665; expected=-15039.82812012133902826854838709677419355"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!M10",
+      "detail": "actual=23198.0972359661; expected=23322.26201793452630473278835532381244761"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!M12",
+      "detail": "actual=60998.0972359661; expected=61122.26201793452630473278835532381244761"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!M13",
+      "detail": "actual=2291.59574490156; expected=2436.33866224054370381960829479009815339"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!M15",
+      "detail": "actual=2291.59574490156; expected=2436.33866224054370381960829479009815339"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!M16",
+      "detail": "actual=-2291.59574490156; expected=-2436.33866224054370381960829479009815339"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!M17",
+      "detail": "actual=58706.5014910645; expected=58685.92335569398260091318006053371429422"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cohorts!N32",
+      "detail": "actual=6708.8148075; expected=6977.16739980000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cohorts!N38",
+      "detail": "actual=165468.866454853; expected=165737.21904715323892077628125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Revenue!N6",
+      "detail": "actual=165468.866454853; expected=165737.21904715323892077628125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Revenue!N8",
+      "detail": "actual=165468.866454853; expected=165737.21904715323892077628125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Revenue!N10",
+      "detail": "actual=129.513590780285; expected=129.7236321528316759333476935055763480849"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!N6",
+      "detail": "actual=165468.866454853; expected=165737.21904715323892077628125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!N7",
+      "detail": "actual=33093.7732909707; expected=33147.443809430647784155256250000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!N8",
+      "detail": "actual=132375.093163883; expected=132589.775237722591136621025000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!N10",
+      "detail": "actual=24820.329968228; expected=24860.5828570729858381164421875000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!N12",
+      "detail": "actual=53102.7950792275; expected=53277.2242642225047820481912657600000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!N14",
+      "detail": "actual=50602.7950792275; expected=50777.2242642225047820481912657600000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!N16",
+      "detail": "actual=12650.6987698069; expected=12694.30606605562619551204781644000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!N17",
+      "detail": "actual=37952.0963094207; expected=38082.91819816687858653614344932000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!N6",
+      "detail": "actual=266885.26847557; expected=267318.0952373439337431875504032258064516"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!N7",
+      "detail": "actual=19215.739330241; expected=19246.90285708876322950950362903225806451"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!N8",
+      "detail": "actual=247669.529145329; expected=248071.1923802551705136780467741935483871"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!N10",
+      "detail": "actual=-727.464279798267; expected=-748.7028180240061060311995967741935484"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!N11",
+      "detail": "actual=-52.377428145468; expected=-53.90660289772843963424637096774193549"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!N12",
+      "detail": "actual=675.086851652799; expected=694.79621512627766639695322580645161291"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!N6",
+      "detail": "actual=58706.5014910645; expected=58685.92335569398260091318006053371429422"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!N7",
+      "detail": "actual=37952.0963094207; expected=38082.91819816687858653614344932000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!N9",
+      "detail": "actual=675.086851652799; expected=694.79621512627766639695322580645161291"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!N10",
+      "detail": "actual=41127.1831610735; expected=41277.71441329315625293309667512645161291"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!N12",
+      "detail": "actual=92633.684652138; expected=92763.63776898713885384627673566016590713"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!N17",
+      "detail": "actual=92633.684652138; expected=92763.63776898713885384627673566016590713"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cohorts!O32",
+      "detail": "actual=6608.1825853875; expected=6872.50988880300000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cohorts!O38",
+      "detail": "actual=170576.980026533; expected=170841.30732994811107745487703125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Revenue!O6",
+      "detail": "actual=170576.980026533; expected=170841.30732994811107745487703125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Revenue!O8",
+      "detail": "actual=170576.980026533; expected=170841.30732994811107745487703125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Revenue!O10",
+      "detail": "actual=129.778692523185; expected=129.9797985096441971645371488510073143343"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!O6",
+      "detail": "actual=170576.980026533; expected=170841.30732994811107745487703125000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!O7",
+      "detail": "actual=34115.3960053065; expected=34168.261465989622215490975406250000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!O8",
+      "detail": "actual=136461.584021226; expected=136673.045863958488861963901625000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!O10",
+      "detail": "actual=25586.5470039799; expected=25626.1960994922166616182315546875000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!O12",
+      "detail": "actual=56171.4172253785; expected=56343.2299725984639683617054036197800000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!O14",
+      "detail": "actual=53671.4172253785; expected=53843.2299725984639683617054036197800000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!O16",
+      "detail": "actual=13417.8543063446; expected=13460.80749314961599209042635090494500000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!O17",
+      "detail": "actual=40253.5629190339; expected=40382.42247944884797627127905271483500000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!O6",
+      "detail": "actual=284294.966710888; expected=284735.51221658018512909146171875000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!O7",
+      "detail": "actual=20469.2376031839; expected=20500.956879593773329294585243750000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!O8",
+      "detail": "actual=263825.729107704; expected=264234.555336986411799796876475000000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!O10",
+      "detail": "actual=17409.698235318; expected=17417.4169792362513859039113155241935484"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!O11",
+      "detail": "actual=1253.4982729429; expected=1254.05402250501009978508161471774193549"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!O12",
+      "detail": "actual=-16156.1999623751; expected=-16163.36295673124128611882970080645161291"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!O6",
+      "detail": "actual=92633.684652138; expected=92763.63776898713885384627673566016590713"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!O7",
+      "detail": "actual=40253.5629190339; expected=40382.42247944884797627127905271483500000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!O9",
+      "detail": "actual=-16156.1999623751; expected=-16163.36295673124128611882970080645161291"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!O10",
+      "detail": "actual=26597.3629566588; expected=26719.05952271760669015244935190838338709"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!O12",
+      "detail": "actual=112031.047608797; expected=112282.6972917047455439987260875685492942"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!O17",
+      "detail": "actual=112031.047608797; expected=112282.6972917047455439987260875685492942"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cohorts!P32",
+      "detail": "actual=6509.05984660669; expected=6769.42224047095500000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cohorts!P38",
+      "detail": "actual=175888.668963267; expected=176149.0313571310167369734890757812500000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Revenue!P6",
+      "detail": "actual=175888.668963267; expected=176149.0313571310167369734890757812500000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Revenue!P8",
+      "detail": "actual=175888.668963267; expected=176149.0313571310167369734890757812500000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Revenue!P10",
+      "detail": "actual=130.032752554152; expected=130.2252358956619418085273833778099528018"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!P6",
+      "detail": "actual=175888.668963267; expected=176149.0313571310167369734890757812500000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!P7",
+      "detail": "actual=35177.7337926533; expected=35229.80627142620334739469781515625000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!P8",
+      "detail": "actual=140710.935170613; expected=140919.2250857048133895787912606250000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!P10",
+      "detail": "actual=26383.30034449; expected=26422.35470356965251054602336136718750000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!P12",
+      "detail": "actual=59371.1669249331; expected=59540.40248094486567630475637352595184000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!P14",
+      "detail": "actual=56871.1669249331; expected=57040.40248094486567630475637352595184000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!P16",
+      "detail": "actual=14217.7917312333; expected=14260.10062023621641907618909338148796000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!P17",
+      "detail": "actual=42653.3751936999; expected=42780.30186070864925722856728014446388000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!P6",
+      "detail": "actual=283691.401553656; expected=284111.3408985984140918927243157762096774"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!P7",
+      "detail": "actual=20425.7809118632; expected=20456.01654469908581461627615073588709678"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!P8",
+      "detail": "actual=263265.620641793; expected=263655.3243538993282772764481650403225806"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!P10",
+      "detail": "actual=-603.5651572317; expected=-624.1713179817710371987374029737903226"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!P11",
+      "detail": "actual=-43.4566913206836; expected=-44.94033489468751467830909301411290322"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!P12",
+      "detail": "actual=560.108465911017; expected=579.23098308708352252042830995967741938"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!P6",
+      "detail": "actual=112031.047608797; expected=112282.6972917047455439987260875685492942"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!P7",
+      "detail": "actual=42653.3751936999; expected=42780.30186070864925722856728014446388000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!P9",
+      "detail": "actual=560.108465911017; expected=579.23098308708352252042830995967741938"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!P10",
+      "detail": "actual=45713.4836596109; expected=45859.53284379573277974899559010414129938"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!P12",
+      "detail": "actual=150544.531268408; expected=150942.2301355004783237477216776726905936"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!P17",
+      "detail": "actual=150544.531268408; expected=150942.2301355004783237477216776726905936"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cohorts!Q32",
+      "detail": "actual=40571.7367394942; expected=42194.60620907395500000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cohorts!Q38",
+      "detail": "actual=1770941.6515503; expected=1772564.521019882378715985897357031250000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Revenue!Q6",
+      "detail": "actual=1770941.6515503; expected=1772564.521019882378715985897357031250000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Revenue!Q8",
+      "detail": "actual=175888.668963267; expected=176149.0313571310167369734890757812500000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Revenue!Q10",
+      "detail": "actual=130.032752554152; expected=130.2252358956619418085273833778099528018"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!Q6",
+      "detail": "actual=1770941.6515503; expected=1772564.521019882378715985897357031250000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!Q7",
+      "detail": "actual=354188.330310061; expected=354512.9042039764757431971794714062500000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!Q8",
+      "detail": "actual=1416753.32124024; expected=1418051.616815905902972788717885625000000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!Q10",
+      "detail": "actual=265641.247732545; expected=265884.6781529823568073978846035546875000"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!Q12",
+      "detail": "actual=508062.051650939; expected=509116.9168061657686090216374629057318400"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!Q14",
+      "detail": "actual=478062.051650939; expected=479116.9168061657686090216374629057318400"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!Q15",
+      "detail": "actual=5953.89211475831; expected=5958.887164385333140989411005955047607710"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!Q16",
+      "detail": "actual=118027.039884045; expected=118289.5074104451088670080566142376710581"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/P&L!Q17",
+      "detail": "actual=354081.119652136; expected=354868.5222313353266010241698427130131743"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!Q6",
+      "detail": "actual=283691.401553656; expected=284111.3408985984140918927243157762096774"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!Q7",
+      "detail": "actual=20425.7809118632; expected=20456.01654469908581461627615073588709678"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!Q8",
+      "detail": "actual=263265.620641793; expected=263655.3243538993282772764481650403225806"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!Q10",
+      "detail": "actual=148207.530585914; expected=148627.4699308565140918927243157762096774"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!Q11",
+      "detail": "actual=1070.94220218581; expected=1101.17783502166581461627615073588709678"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Working Capital!Q12",
+      "detail": "actual=-147136.588383728; expected=-147526.2920958348482772764481650403225806"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!Q7",
+      "detail": "actual=354081.119652136; expected=354868.5222313353266010241698427130131743"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!Q9",
+      "detail": "actual=-147136.588383728; expected=-147526.2920958348482772764481650403225806"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!Q10",
+      "detail": "actual=236944.531268408; expected=237342.2301355004783237477216776726905936"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!Q12",
+      "detail": "actual=803915.765020407; expected=804674.4885518863453225059045614351200891"
+    },
+    {
+      "group": "robustness",
+      "check": "liquidity_and_working_capital/Cash Flow!Q17",
+      "detail": "actual=150544.531268408; expected=150942.2301355004783237477216776726905936"
+    }
+  ],
+  "reward": {
+    "overall": 0.0,
+    "functional_correctness": 0.859577922077922,
+    "constraint_satisfaction": 1.0,
+    "robustness": 0.8580396921830701,
+    "artifact_quality": 1.0
+  }
+}

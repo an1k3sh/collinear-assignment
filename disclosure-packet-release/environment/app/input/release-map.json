@@ -1,0 +1,18 @@
+[
+  {
+    "private": "Arden Vale",
+    "public": "CLIENT-07"
+  },
+  {
+    "private": "arden.vale@example.invalid",
+    "public": "EMAIL-REMOVED"
+  },
+  {
+    "private": "TEST-ACCT-8471-9920",
+    "public": "ACCOUNT-REMOVED"
+  },
+  {
+    "private": "PRIVATE-CASE-004271",
+    "public": "PUBLIC-CASE-071"
+  }
+]

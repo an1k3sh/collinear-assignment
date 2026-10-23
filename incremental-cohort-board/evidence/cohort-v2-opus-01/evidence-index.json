@@ -1,0 +1,472 @@
+{
+  "source_job": "cohort-v2-opus-01",
+  "files": [
+    {
+      "path": ".DS_Store",
+      "sha256": "f545e8fd0a181acf824666c9bc427bce14e4bcd2c8aa162c25121767b07bc57c",
+      "bytes": 6148
+    },
+    {
+      "path": "config.json",
+      "sha256": "288e37eb7d3e3777751d96e78541fa2299c0b608f7611eb572dae57fb97a1552",
+      "bytes": 483
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/config.json",
+      "sha256": "00fc6aca7fe23773826f0370dc172b61c829a6e3bd2f4067609526361bcbe0f2",
+      "bytes": 525
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/result.json",
+      "sha256": "0aa7e185620c103dd67b924d30570af28eb83bbef93a68246e15e24630648080",
+      "bytes": 7978
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-1/agent/copilot-cli.jsonl",
+      "sha256": "a8129dcff1bbbf680b338b22da490b72a3aa6f90b3b45e908434cdd84e4eefd9",
+      "bytes": 2020069
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-1/agent/copilot-cli.txt",
+      "sha256": "a8129dcff1bbbf680b338b22da490b72a3aa6f90b3b45e908434cdd84e4eefd9",
+      "bytes": 2020069
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-1/agent/trajectory.json",
+      "sha256": "cb65ccc91aa79dde8ae5e34fc3684863e540371a7a1526d874a718bbe2804231",
+      "bytes": 243792
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-1/artifacts/app/REPAIR_REPORT.md",
+      "sha256": "dfdf170d06d15067379d3309902943e2f5586d2a68e356ad03a22f1cce591e0d",
+      "bytes": 4451
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-1/artifacts/app/checks/test_inner_projection.py",
+      "sha256": "71a7824895eb8beea749f3588518dd94f994af62c9f19ccaad85a8b6deab832f",
+      "bytes": 10400
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-1/artifacts/app/checks/test_smoke.py",
+      "sha256": "2bb75e6a25fd51b6691e5383bef44e4e4912e3e3bacaaad1373cee6cb031fd34",
+      "bytes": 1381
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-1/artifacts/app/demo.py",
+      "sha256": "22994cc600b022d2bf256b62cb891259e10fd397a7737b7489499b6b5f21040d",
+      "bytes": 1005
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-1/artifacts/app/docs/contract.md",
+      "sha256": "035a4b0b489658ddc95f104c006e6d8c53e4267f74e69bbb366dd3e78786329d",
+      "bytes": 9236
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-1/artifacts/app/incidents/release-1.json",
+      "sha256": "cdbd3bbbd4a093cc846362402cc6434a14f8a6b99f755856452ae23fa2d04b7c",
+      "bytes": 993
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-1/artifacts/app/incidents/release-2.json",
+      "sha256": "8fa4b7ea48c317d4167afec1401b16a1dc87368a1d512931e3b8179d0fabf6a5",
+      "bytes": 772
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-1/artifacts/app/incidents/release-3.json",
+      "sha256": "b112237be715ac098a77bcd22173800a8427dff76807a5cb1cdce08543580961",
+      "bytes": 1007
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-1/artifacts/app/incidents/release-4.json",
+      "sha256": "0c029329877d5aa35e9e86bc32199551c5825d58f4d0a89dd178e13bac501c81",
+      "bytes": 1366
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-1/artifacts/app/maintainer.py",
+      "sha256": "9bd3ef9809329f4ebf417993524df40e38f542b361a99f5a1b7f1cf81eb5e436",
+      "bytes": 10331
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-1/artifacts/app/release.txt",
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+      "bytes": 2
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-1/artifacts/app/runtime.py",
+      "sha256": "8eb19ea6b9326e47f736ecb9501ffd71cb747aa0c37da896f33329afc87426c9",
+      "bytes": 4498
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-1/artifacts/app/schema.sql",
+      "sha256": "4ef97bd99655fe381e04a4c24d948624b357977c44444726a83434d27fce8a8d",
+      "bytes": 1461
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-1/artifacts/app/state/demo.sqlite",
+      "sha256": "5289863ebde5730832968beb04e111d0b3025938f11654cc541ae6ba5ddcf514",
+      "bytes": 114688
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-1/artifacts/manifest.json",
+      "sha256": "4ad5f62334ec1b3d257150d6fbd9a47bb85f747f55f73a1241f9ead7c2e43ce8",
+      "bytes": 378
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-1/verifier/checks.json",
+      "sha256": "35e6fb803e5e3f1b93898c0d157debc9f3a306186ec1dcb0ae974cdc91070729",
+      "bytes": 3325
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-1/verifier/reward.json",
+      "sha256": "7f1276dd23b2db992b1e8b20e694f10aa2cdaf2df30859a0699f4d204a786fe1",
+      "bytes": 136
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-1/verifier/test-stdout.txt",
+      "sha256": "602e913d1d24999885379b185b6239377dd0bc6c89fdc5041beb23460ca1f5fb",
+      "bytes": 2561
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-2/agent/copilot-cli.jsonl",
+      "sha256": "a379ba5fa37cc56edd51323b2fac0630d8acffaefff413eddb5dd8c74eae4e5c",
+      "bytes": 860461
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-2/agent/copilot-cli.txt",
+      "sha256": "a379ba5fa37cc56edd51323b2fac0630d8acffaefff413eddb5dd8c74eae4e5c",
+      "bytes": 860461
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-2/agent/trajectory.json",
+      "sha256": "ce58c81ad18fa4b8d9c5606cba91fc02af7d2ea76c7216a28276e669a6d6b420",
+      "bytes": 55301
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-2/artifacts/app/REPAIR_REPORT.md",
+      "sha256": "6b05d411532a722375d93fa766a1466a3a277843df4df737115bf3a74e8c7b4a",
+      "bytes": 6764
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-2/artifacts/app/checks/test_projection.py",
+      "sha256": "906de11c2a53ee2b5d5e962a867d07e91bb888505d2a2944125cd30c02804134",
+      "bytes": 14377
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-2/artifacts/app/checks/test_smoke.py",
+      "sha256": "2bb75e6a25fd51b6691e5383bef44e4e4912e3e3bacaaad1373cee6cb031fd34",
+      "bytes": 1381
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-2/artifacts/app/demo.py",
+      "sha256": "22994cc600b022d2bf256b62cb891259e10fd397a7737b7489499b6b5f21040d",
+      "bytes": 1005
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-2/artifacts/app/docs/contract.md",
+      "sha256": "035a4b0b489658ddc95f104c006e6d8c53e4267f74e69bbb366dd3e78786329d",
+      "bytes": 9236
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-2/artifacts/app/incidents/release-1.json",
+      "sha256": "cdbd3bbbd4a093cc846362402cc6434a14f8a6b99f755856452ae23fa2d04b7c",
+      "bytes": 993
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-2/artifacts/app/incidents/release-2.json",
+      "sha256": "8fa4b7ea48c317d4167afec1401b16a1dc87368a1d512931e3b8179d0fabf6a5",
+      "bytes": 772
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-2/artifacts/app/incidents/release-3.json",
+      "sha256": "b112237be715ac098a77bcd22173800a8427dff76807a5cb1cdce08543580961",
+      "bytes": 1007
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-2/artifacts/app/incidents/release-4.json",
+      "sha256": "0c029329877d5aa35e9e86bc32199551c5825d58f4d0a89dd178e13bac501c81",
+      "bytes": 1366
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-2/artifacts/app/maintainer.py",
+      "sha256": "763098769ab8dbcda64a896a6f2e6ac707716962953c9dd67b94dc62d8630bb4",
+      "bytes": 10669
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-2/artifacts/app/release.txt",
+      "sha256": "53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3",
+      "bytes": 2
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-2/artifacts/app/runtime.py",
+      "sha256": "8eb19ea6b9326e47f736ecb9501ffd71cb747aa0c37da896f33329afc87426c9",
+      "bytes": 4498
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-2/artifacts/app/schema.sql",
+      "sha256": "4ef97bd99655fe381e04a4c24d948624b357977c44444726a83434d27fce8a8d",
+      "bytes": 1461
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-2/artifacts/app/state/demo.sqlite",
+      "sha256": "b8151fae3931e80752927c582194937514c24dfc83ca84de295df931482344e2",
+      "bytes": 114688
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-2/artifacts/manifest.json",
+      "sha256": "4ad5f62334ec1b3d257150d6fbd9a47bb85f747f55f73a1241f9ead7c2e43ce8",
+      "bytes": 378
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-2/verifier/checks.json",
+      "sha256": "782136287bc680c84b276e008cfe9256dd4d165f41c03c67b88aa9997d8ec524",
+      "bytes": 3287
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-2/verifier/reward.json",
+      "sha256": "7f1276dd23b2db992b1e8b20e694f10aa2cdaf2df30859a0699f4d204a786fe1",
+      "bytes": 136
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-2/verifier/test-stdout.txt",
+      "sha256": "3ac0f2d287814ec2e9c2901d5d518c2732e4a2ff0e4f59073e3acc0c7f357b07",
+      "bytes": 2535
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-3/agent/copilot-cli.jsonl",
+      "sha256": "b83be2b741ed3d50a207bd45d3d6158d1ca1cf96da0c9159933aba90536351a4",
+      "bytes": 2064367
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-3/agent/copilot-cli.txt",
+      "sha256": "b83be2b741ed3d50a207bd45d3d6158d1ca1cf96da0c9159933aba90536351a4",
+      "bytes": 2064367
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-3/agent/trajectory.json",
+      "sha256": "5a77f98fb9b21b0500d9fcce924daf55a53423c78ab46c49b39e8660817421fe",
+      "bytes": 205410
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-3/artifacts/app/REPAIR_REPORT.md",
+      "sha256": "d5490cc4e55f4279dd7891f2f2fa0b4d4a5f46d28f1e40176363b5c28eeff24c",
+      "bytes": 10762
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-3/artifacts/app/checks/test_projection.py",
+      "sha256": "9370d4ac8ed37e5321953c5631cf0891f83261d0aa1efc1b2606320a717b0259",
+      "bytes": 20797
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-3/artifacts/app/checks/test_smoke.py",
+      "sha256": "2bb75e6a25fd51b6691e5383bef44e4e4912e3e3bacaaad1373cee6cb031fd34",
+      "bytes": 1381
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-3/artifacts/app/demo.py",
+      "sha256": "22994cc600b022d2bf256b62cb891259e10fd397a7737b7489499b6b5f21040d",
+      "bytes": 1005
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-3/artifacts/app/docs/contract.md",
+      "sha256": "035a4b0b489658ddc95f104c006e6d8c53e4267f74e69bbb366dd3e78786329d",
+      "bytes": 9236
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-3/artifacts/app/incidents/release-1.json",
+      "sha256": "cdbd3bbbd4a093cc846362402cc6434a14f8a6b99f755856452ae23fa2d04b7c",
+      "bytes": 993
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-3/artifacts/app/incidents/release-2.json",
+      "sha256": "8fa4b7ea48c317d4167afec1401b16a1dc87368a1d512931e3b8179d0fabf6a5",
+      "bytes": 772
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-3/artifacts/app/incidents/release-3.json",
+      "sha256": "b112237be715ac098a77bcd22173800a8427dff76807a5cb1cdce08543580961",
+      "bytes": 1007
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-3/artifacts/app/incidents/release-4.json",
+      "sha256": "0c029329877d5aa35e9e86bc32199551c5825d58f4d0a89dd178e13bac501c81",
+      "bytes": 1366
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-3/artifacts/app/maintainer.py",
+      "sha256": "6c0397d6219dd92f94d73955c4adf5cfbc18bbb3422ab053551aa9bb8987fd34",
+      "bytes": 13563
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-3/artifacts/app/release.txt",
+      "sha256": "1121cfccd5913f0a63fec40a6ffd44ea64f9dc135c66634ba001d10bcf4302a2",
+      "bytes": 2
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-3/artifacts/app/runtime.py",
+      "sha256": "8eb19ea6b9326e47f736ecb9501ffd71cb747aa0c37da896f33329afc87426c9",
+      "bytes": 4498
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-3/artifacts/app/schema.sql",
+      "sha256": "4ef97bd99655fe381e04a4c24d948624b357977c44444726a83434d27fce8a8d",
+      "bytes": 1461
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-3/artifacts/app/state/demo.sqlite",
+      "sha256": "475c92612aa94f36bc6cd42188177a43796e8ce46801421d6e134ca1f3ad6951",
+      "bytes": 118784
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-3/artifacts/manifest.json",
+      "sha256": "4ad5f62334ec1b3d257150d6fbd9a47bb85f747f55f73a1241f9ead7c2e43ce8",
+      "bytes": 378
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-3/verifier/checks.json",
+      "sha256": "495502859d1518bfab1e3a9cf77c03a162f28c48038054c9a1afc5a5c846e5a1",
+      "bytes": 3248
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-3/verifier/reward.json",
+      "sha256": "7f1276dd23b2db992b1e8b20e694f10aa2cdaf2df30859a0699f4d204a786fe1",
+      "bytes": 136
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-3/verifier/test-stdout.txt",
+      "sha256": "d5dd47b4d276651d4c4d8d216cb587f76bf224fae85bddc21ff62c470f9cef18",
+      "bytes": 2510
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-4/agent/copilot-cli.jsonl",
+      "sha256": "91c65f9b6bd3a1893d0d53f3e817a6f1f4369636de6f493fe215ac9786251d6a",
+      "bytes": 3053830
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-4/agent/copilot-cli.txt",
+      "sha256": "91c65f9b6bd3a1893d0d53f3e817a6f1f4369636de6f493fe215ac9786251d6a",
+      "bytes": 3053830
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-4/agent/trajectory.json",
+      "sha256": "5026a9337130c2e88cedcfb953d22f4d54cb81cbefb548d7aa91d6c80e997bd7",
+      "bytes": 315189
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-4/artifacts/app/REPAIR_REPORT.md",
+      "sha256": "983744f6d97d978862dd1eb08d2a31391a59fd4f52c10c6426e6a90c8de23c5b",
+      "bytes": 17291
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-4/artifacts/app/checks/test_projection.py",
+      "sha256": "37fbcb50830f38eba3c85c30a8a7a7675f0e3006345a64bc7b6e3fc46135077f",
+      "bytes": 31171
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-4/artifacts/app/checks/test_smoke.py",
+      "sha256": "2bb75e6a25fd51b6691e5383bef44e4e4912e3e3bacaaad1373cee6cb031fd34",
+      "bytes": 1381
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-4/artifacts/app/demo.py",
+      "sha256": "22994cc600b022d2bf256b62cb891259e10fd397a7737b7489499b6b5f21040d",
+      "bytes": 1005
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-4/artifacts/app/docs/contract.md",
+      "sha256": "035a4b0b489658ddc95f104c006e6d8c53e4267f74e69bbb366dd3e78786329d",
+      "bytes": 9236
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-4/artifacts/app/incidents/release-1.json",
+      "sha256": "cdbd3bbbd4a093cc846362402cc6434a14f8a6b99f755856452ae23fa2d04b7c",
+      "bytes": 993
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-4/artifacts/app/incidents/release-2.json",
+      "sha256": "8fa4b7ea48c317d4167afec1401b16a1dc87368a1d512931e3b8179d0fabf6a5",
+      "bytes": 772
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-4/artifacts/app/incidents/release-3.json",
+      "sha256": "b112237be715ac098a77bcd22173800a8427dff76807a5cb1cdce08543580961",
+      "bytes": 1007
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-4/artifacts/app/incidents/release-4.json",
+      "sha256": "0c029329877d5aa35e9e86bc32199551c5825d58f4d0a89dd178e13bac501c81",
+      "bytes": 1366
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-4/artifacts/app/maintainer.py",
+      "sha256": "3be4411f4f33eca72da1ddc10b48a47b58e7bf99bc9880672dace697b8520780",
+      "bytes": 22984
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-4/artifacts/app/release.txt",
+      "sha256": "7de1555df0c2700329e815b93b32c571c3ea54dc967b89e81ab73b9972b72d1d",
+      "bytes": 2
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-4/artifacts/app/runtime.py",
+      "sha256": "8eb19ea6b9326e47f736ecb9501ffd71cb747aa0c37da896f33329afc87426c9",
+      "bytes": 4498
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-4/artifacts/app/schema.sql",
+      "sha256": "4ef97bd99655fe381e04a4c24d948624b357977c44444726a83434d27fce8a8d",
+      "bytes": 1461
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-4/artifacts/app/state/demo.sqlite",
+      "sha256": "fc572b560333d94cd05a97839f4938447119b82eabf5e60c76af25b12a03c4d1",
+      "bytes": 139264
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-4/artifacts/manifest.json",
+      "sha256": "4ad5f62334ec1b3d257150d6fbd9a47bb85f747f55f73a1241f9ead7c2e43ce8",
+      "bytes": 378
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-4/verifier/checks.json",
+      "sha256": "ac69efddb971729b3f4c584174720a29a35ca94fee0eafb245a07732ef02a95d",
+      "bytes": 3482
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-4/verifier/reward.json",
+      "sha256": "7f1276dd23b2db992b1e8b20e694f10aa2cdaf2df30859a0699f4d204a786fe1",
+      "bytes": 136
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/steps/release-4/verifier/test-stdout.txt",
+      "sha256": "e8da7d82ee188bec9034e84757044f1d5507a1a0a77ddca6774414e0f793afba",
+      "bytes": 2378
+    },
+    {
+      "path": "incremental-cohort-board__BYUAdtT/trial.log",
+      "sha256": "2453aff16bd18a228a2f347d96c1b697d647b4a7098e910ebd4c6de1b014de26",
+      "bytes": 10050
+    },
+    {
+      "path": "job.log",
+      "sha256": "2453aff16bd18a228a2f347d96c1b697d647b4a7098e910ebd4c6de1b014de26",
+      "bytes": 10050
+    },
+    {
+      "path": "lock.json",
+      "sha256": "a9666da9d4eb5ad1c6483c7671347c8658c2f8dd32bacef2c42c75cafaffbdfd",
+      "bytes": 2148
+    },
+    {
+      "path": "result.json",
+      "sha256": "25e66107a8cf4cf9bf69013b9e59b8141bf8ce6167922723be49151ce7e0cabf",
+      "bytes": 2100
+    }
+  ],
+  "credential_redactions": [],
+  "excluded": [
+    "authentication/session databases",
+    "CLI session-state",
+    "node_modules",
+    "Python bytecode"
+  ]
+}

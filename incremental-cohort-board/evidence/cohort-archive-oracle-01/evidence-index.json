@@ -1,0 +1,302 @@
+{
+  "source_job": "cohort-archive-oracle-01",
+  "files": [
+    {
+      "path": "config.json",
+      "sha256": "ebb81fe6b869739c8198207e14580cfed12711698eb69ba6728a88fc91dbb4c8",
+      "bytes": 342
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/config.json",
+      "sha256": "1a8ee71b02eebd80144cbbe54edb2002caacd6993977726e3462bb0f26612080",
+      "bytes": 409
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/result.json",
+      "sha256": "178f0b36a0fff7013de081fdaa59c60e143e107777ea254451a28d9510456ff0",
+      "bytes": 7024
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-1/agent/oracle.txt",
+      "sha256": "fab395aba38ac1101a60e24d4e6a74ddb174f219b1642764a88572ee521c9b9e",
+      "bytes": 902
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-1/artifacts/app/REPAIR_REPORT.md",
+      "sha256": "c5e521d8742e58db3a4621ea6e0005e0e5183260f11cba654343140bacf900f3",
+      "bytes": 936
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-1/artifacts/app/checks/test_smoke.py",
+      "sha256": "2bb75e6a25fd51b6691e5383bef44e4e4912e3e3bacaaad1373cee6cb031fd34",
+      "bytes": 1381
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-1/artifacts/app/demo.py",
+      "sha256": "812bd75f589077ddf34cc928dc4bd155ba2be4579b77b8889bd73fed55f11269",
+      "bytes": 1003
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-1/artifacts/app/docs/contract.md",
+      "sha256": "ac2c85413cfacd2268528c68991429b002b73bbfc1c6183439c8ce1b284672a5",
+      "bytes": 6973
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-1/artifacts/app/incidents/release-1.json",
+      "sha256": "cdbd3bbbd4a093cc846362402cc6434a14f8a6b99f755856452ae23fa2d04b7c",
+      "bytes": 993
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-1/artifacts/app/incidents/release-2.json",
+      "sha256": "8fa4b7ea48c317d4167afec1401b16a1dc87368a1d512931e3b8179d0fabf6a5",
+      "bytes": 772
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-1/artifacts/app/incidents/release-3.json",
+      "sha256": "b112237be715ac098a77bcd22173800a8427dff76807a5cb1cdce08543580961",
+      "bytes": 1007
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-1/artifacts/app/maintainer.py",
+      "sha256": "670d8ea1becb29535c683f88ea89dc1302b6f5067f2c4875e18c16fa065f392c",
+      "bytes": 5640
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-1/artifacts/app/release.txt",
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+      "bytes": 2
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-1/artifacts/app/runtime.py",
+      "sha256": "512e399c3feb0fb59fe0d98663274b771821aa6608570537312d0d0d296e415f",
+      "bytes": 4432
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-1/artifacts/app/schema.sql",
+      "sha256": "02ddc8de6336a48d7c6a1258315923ee16abb437f1e6f3deb67ff1825487a818",
+      "bytes": 1209
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-1/artifacts/app/state/demo.sqlite",
+      "sha256": "04255992be5ed0a1059a8b6bf324899da0cc7d2d3149b01108fac196e892d7bb",
+      "bytes": 90112
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-1/artifacts/manifest.json",
+      "sha256": "4ad5f62334ec1b3d257150d6fbd9a47bb85f747f55f73a1241f9ead7c2e43ce8",
+      "bytes": 378
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-1/verifier/checks.json",
+      "sha256": "fe53e77d6b21cbb26acd57997599ed15a46d92a988530bdb47d2fd47f6f00c6f",
+      "bytes": 2669
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-1/verifier/reward.json",
+      "sha256": "7f1276dd23b2db992b1e8b20e694f10aa2cdaf2df30859a0699f4d204a786fe1",
+      "bytes": 136
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-1/verifier/test-stdout.txt",
+      "sha256": "006a1e95cfa2e76df52cbdd6314f1b0e0d673f7cfcf5bebe7aad0f76616aa187",
+      "bytes": 1867
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-2/agent/oracle.txt",
+      "sha256": "08188294b6f0f5a4c22c0e1a4f128e3002f7ec3d3f837ac543cc7004466db43d",
+      "bytes": 1806
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-2/artifacts/app/REPAIR_REPORT.md",
+      "sha256": "c5e521d8742e58db3a4621ea6e0005e0e5183260f11cba654343140bacf900f3",
+      "bytes": 936
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-2/artifacts/app/checks/test_smoke.py",
+      "sha256": "2bb75e6a25fd51b6691e5383bef44e4e4912e3e3bacaaad1373cee6cb031fd34",
+      "bytes": 1381
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-2/artifacts/app/demo.py",
+      "sha256": "812bd75f589077ddf34cc928dc4bd155ba2be4579b77b8889bd73fed55f11269",
+      "bytes": 1003
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-2/artifacts/app/docs/contract.md",
+      "sha256": "ac2c85413cfacd2268528c68991429b002b73bbfc1c6183439c8ce1b284672a5",
+      "bytes": 6973
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-2/artifacts/app/incidents/release-1.json",
+      "sha256": "cdbd3bbbd4a093cc846362402cc6434a14f8a6b99f755856452ae23fa2d04b7c",
+      "bytes": 993
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-2/artifacts/app/incidents/release-2.json",
+      "sha256": "8fa4b7ea48c317d4167afec1401b16a1dc87368a1d512931e3b8179d0fabf6a5",
+      "bytes": 772
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-2/artifacts/app/incidents/release-3.json",
+      "sha256": "b112237be715ac098a77bcd22173800a8427dff76807a5cb1cdce08543580961",
+      "bytes": 1007
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-2/artifacts/app/maintainer.py",
+      "sha256": "670d8ea1becb29535c683f88ea89dc1302b6f5067f2c4875e18c16fa065f392c",
+      "bytes": 5640
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-2/artifacts/app/release.txt",
+      "sha256": "53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3",
+      "bytes": 2
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-2/artifacts/app/runtime.py",
+      "sha256": "512e399c3feb0fb59fe0d98663274b771821aa6608570537312d0d0d296e415f",
+      "bytes": 4432
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-2/artifacts/app/schema.sql",
+      "sha256": "02ddc8de6336a48d7c6a1258315923ee16abb437f1e6f3deb67ff1825487a818",
+      "bytes": 1209
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-2/artifacts/app/state/demo.sqlite",
+      "sha256": "1fe5cae70a8d4f79194ec951b14014a324a2a6d2c40033a283f2f28f0bef206a",
+      "bytes": 90112
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-2/artifacts/manifest.json",
+      "sha256": "4ad5f62334ec1b3d257150d6fbd9a47bb85f747f55f73a1241f9ead7c2e43ce8",
+      "bytes": 378
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-2/verifier/checks.json",
+      "sha256": "07cc706336977b35a37a406072a953ff861e9a7f88fa5ef0e00ea251a0ea9322",
+      "bytes": 2631
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-2/verifier/reward.json",
+      "sha256": "7f1276dd23b2db992b1e8b20e694f10aa2cdaf2df30859a0699f4d204a786fe1",
+      "bytes": 136
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-2/verifier/test-stdout.txt",
+      "sha256": "b325707aec631b4a163c8e150919a519299046c0cb1e6d0aae3e04a44e1cb3c9",
+      "bytes": 1841
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-3/agent/oracle.txt",
+      "sha256": "ffca5a9b0d9c816f9462e683ab73e8c5106541989bfc25d502908868efd9755d",
+      "bytes": 2672
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-3/artifacts/app/REPAIR_REPORT.md",
+      "sha256": "c5e521d8742e58db3a4621ea6e0005e0e5183260f11cba654343140bacf900f3",
+      "bytes": 936
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-3/artifacts/app/checks/test_smoke.py",
+      "sha256": "2bb75e6a25fd51b6691e5383bef44e4e4912e3e3bacaaad1373cee6cb031fd34",
+      "bytes": 1381
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-3/artifacts/app/demo.py",
+      "sha256": "812bd75f589077ddf34cc928dc4bd155ba2be4579b77b8889bd73fed55f11269",
+      "bytes": 1003
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-3/artifacts/app/docs/contract.md",
+      "sha256": "ac2c85413cfacd2268528c68991429b002b73bbfc1c6183439c8ce1b284672a5",
+      "bytes": 6973
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-3/artifacts/app/incidents/release-1.json",
+      "sha256": "cdbd3bbbd4a093cc846362402cc6434a14f8a6b99f755856452ae23fa2d04b7c",
+      "bytes": 993
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-3/artifacts/app/incidents/release-2.json",
+      "sha256": "8fa4b7ea48c317d4167afec1401b16a1dc87368a1d512931e3b8179d0fabf6a5",
+      "bytes": 772
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-3/artifacts/app/incidents/release-3.json",
+      "sha256": "b112237be715ac098a77bcd22173800a8427dff76807a5cb1cdce08543580961",
+      "bytes": 1007
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-3/artifacts/app/maintainer.py",
+      "sha256": "670d8ea1becb29535c683f88ea89dc1302b6f5067f2c4875e18c16fa065f392c",
+      "bytes": 5640
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-3/artifacts/app/release.txt",
+      "sha256": "1121cfccd5913f0a63fec40a6ffd44ea64f9dc135c66634ba001d10bcf4302a2",
+      "bytes": 2
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-3/artifacts/app/runtime.py",
+      "sha256": "512e399c3feb0fb59fe0d98663274b771821aa6608570537312d0d0d296e415f",
+      "bytes": 4432
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-3/artifacts/app/schema.sql",
+      "sha256": "02ddc8de6336a48d7c6a1258315923ee16abb437f1e6f3deb67ff1825487a818",
+      "bytes": 1209
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-3/artifacts/app/state/demo.sqlite",
+      "sha256": "56287cca0673c5ce0c5ef51a87b5c93b4fc4d1162d9dba21f5d397b5d196ebd1",
+      "bytes": 90112
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-3/artifacts/manifest.json",
+      "sha256": "4ad5f62334ec1b3d257150d6fbd9a47bb85f747f55f73a1241f9ead7c2e43ce8",
+      "bytes": 378
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-3/verifier/checks.json",
+      "sha256": "170b90df5bef6e349bcdbb5f48c8baf1f961cb5563d8fddf8b91b770bc04771b",
+      "bytes": 2597
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-3/verifier/reward.json",
+      "sha256": "7f1276dd23b2db992b1e8b20e694f10aa2cdaf2df30859a0699f4d204a786fe1",
+      "bytes": 136
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/steps/release-3/verifier/test-stdout.txt",
+      "sha256": "e4d377a45dd29b304767e7a1a479ac17196b58330c3c38c477027544ad59cecf",
+      "bytes": 1803
+    },
+    {
+      "path": "incremental-cohort-board__SUi4gqG/trial.log",
+      "sha256": "e6a27a09927045e7fe51b20b9a2831b237aa798eee8052e66227b0691a0018cf",
+      "bytes": 286
+    },
+    {
+      "path": "job.log",
+      "sha256": "834f38759b934621b91ff16532fb29fcecaa8fbfff7b6b1e13662bb55dda37e2",
+      "bytes": 364
+    },
+    {
+      "path": "lock.json",
+      "sha256": "0788175cb246a1bed30aa3d7d73841b8dae829e0ff338ade880f5c2c725f5e5b",
+      "bytes": 2042
+    },
+    {
+      "path": "result.json",
+      "sha256": "2df920a4183cfe7d74df7c3d6ca6c8b7a26b7b048182bf00aafca4e8210d443b",
+      "bytes": 2081
+    }
+  ],
+  "credential_redactions": [],
+  "excluded": [
+    "authentication/session databases",
+    "CLI session-state",
+    "node_modules",
+    "Python bytecode"
+  ]
+}

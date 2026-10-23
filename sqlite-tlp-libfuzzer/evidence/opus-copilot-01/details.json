@@ -1,0 +1,177 @@
+{
+  "checks": {
+    "build": true,
+    "correctness.rows": true,
+    "correctness.distinct": true,
+    "correctness.count": true,
+    "correctness.sum": true,
+    "correctness.avg": true,
+    "correctness.min": true,
+    "correctness.max": true,
+    "correctness.group": true,
+    "correctness.having": true,
+    "correctness.extended": true,
+    "correctness.comparison": true,
+    "correctness.composition": true,
+    "correctness.injection": true,
+    "correctness.bindings": true,
+    "determinism_replay": true,
+    "diversity.coverage": true,
+    "diversity.data": true,
+    "diversity.structure": true,
+    "diversity.occupancy": true,
+    "diversity.grammar": true,
+    "diversity.measurement": true,
+    "diversity.sensitivity": true,
+    "diversity.live": true,
+    "libfuzzer": true
+  },
+  "metrics": {
+    "random": {
+      "attempted": 1024,
+      "emitted": 1024,
+      "schema_valid": 1024,
+      "executable": 1024,
+      "semantic": 1024,
+      "errors": []
+    },
+    "diversity": {
+      "modes": {
+        "count": 120,
+        "min": 129,
+        "having": 108,
+        "rows": 123,
+        "max": 92,
+        "avg": 111,
+        "distinct": 126,
+        "group": 119,
+        "sum": 96
+      },
+      "sources": {
+        "left": 345,
+        "single": 319,
+        "inner": 360
+      },
+      "structural": 1024,
+      "topologies": 1020,
+      "topologies_per_mode": {
+        "rows": 123,
+        "distinct": 126,
+        "count": 119,
+        "sum": 95,
+        "avg": 111,
+        "min": 128,
+        "max": 92,
+        "group": 118,
+        "having": 108
+      },
+      "unique_cases": 1024,
+      "unique_databases": 1024,
+      "where": 377,
+      "grouped_aggregates": 259,
+      "three_way": 90,
+      "nonempty": 788,
+      "group_overlap": 20,
+      "having_duplicates": 10,
+      "empty_row_stage": 304,
+      "all_null": 40,
+      "operators": [
+        "add",
+        "agg",
+        "and",
+        "col",
+        "eq",
+        "ge",
+        "gt",
+        "isnull",
+        "le",
+        "lit",
+        "lt",
+        "ne",
+        "not",
+        "or",
+        "sub"
+      ],
+      "columns": [
+        [
+          "t",
+          "id"
+        ],
+        [
+          "t",
+          "k"
+        ],
+        [
+          "t",
+          "tag"
+        ],
+        [
+          "t",
+          "v"
+        ],
+        [
+          "u",
+          "id"
+        ],
+        [
+          "u",
+          "k"
+        ],
+        [
+          "u",
+          "tag"
+        ],
+        [
+          "u",
+          "v"
+        ]
+      ],
+      "aggregates": [
+        "avg",
+        "count",
+        "max",
+        "min",
+        "sum"
+      ],
+      "nested": 559,
+      "count_star": 39,
+      "count_expression": 81
+    },
+    "mutations": {
+      "attempted": 320,
+      "emitted": 320,
+      "schema_valid": 320,
+      "executable": 320,
+      "semantic": 320,
+      "errors": []
+    },
+    "sensitivity": {
+      "case_changes": [
+        64,
+        64,
+        64,
+        64
+      ],
+      "topology_changes": [
+        64,
+        61,
+        61,
+        60
+      ]
+    },
+    "live": {
+      "attempted": 256,
+      "emitted": 256,
+      "schema_valid": 256,
+      "executable": 256,
+      "semantic": 256,
+      "errors": []
+    },
+    "live_diversity": {
+      "entries": 256,
+      "modes": 9,
+      "topologies": 242
+    }
+  },
+  "failures": []
+}

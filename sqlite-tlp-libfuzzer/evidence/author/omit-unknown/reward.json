@@ -1,0 +1,7 @@
+{
+  "overall": 0.0,
+  "input_validity_rate": 1.0,
+  "semantic_validity_rate": 0.546875,
+  "oracle_correctness": 0.21428571428571427,
+  "diversity": 0.8571428571428571
+}

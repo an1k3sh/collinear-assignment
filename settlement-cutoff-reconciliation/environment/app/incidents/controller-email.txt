@@ -1,0 +1,10 @@
+Subject: April close sign-off withheld
+
+The draft combines B-17 across merchants. North's B-18 deposit is short, but
+matching on amount made it look like gross sales rather than a net settlement.
+Reserve withholding is not an operating expense. Please explain the difference,
+not plug it into fees.
+
+Invoice 00123 is not invoice 123. Acceptance occurred much later than issue for
+one job. Draft credits are not posted credits. Use what was known at cutoff:
+the May 1 export contains late-recorded April activity and fee revisions.

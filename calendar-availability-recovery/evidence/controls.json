@@ -1,0 +1,62 @@
+{
+  "valid_offset_timestamps_and_reordering": {
+    "accepted": true,
+    "expected": true,
+    "error": null
+  },
+  "valid_empty_calendar": {
+    "accepted": true,
+    "expected": true,
+    "error": null
+  },
+  "count_consumed_by_nonexistent_local_time": {
+    "accepted": false,
+    "expected": false,
+    "error": "W/occurrences: missing [(('room', 'event', 1773124200.0, 1773124200.0, 1773126000.0), 1)], extra []"
+  },
+  "half_hour_transition_mishandled": {
+    "accepted": false,
+    "expected": false,
+    "error": "W/occurrences: missing [(('room', 'event', 1791213300.0, 1791213300.0, 1791215100.0), 1)], extra [(('room', 'event', 1791213300.0, 1791216900.0, 1791218700.0), 1)]"
+  },
+  "moved_instance_identity_replaced": {
+    "accepted": false,
+    "expected": false,
+    "error": "W/occurrences: missing [(('room', 'event', 1782896400.0, 1783069200.0, 1783072800.0), 1)], extra [(('room', 'event', 1783069200.0, 1783069200.0, 1783072800.0), 1)]"
+  },
+  "range_shift_as_elapsed_day": {
+    "accepted": false,
+    "expected": false,
+    "error": "W/occurrences: missing [(('room', 'event', 1773147600.0, 1773234000.0, 1773237600.0), 1)], extra [(('room', 'event', 1773147600.0, 1773237600.0, 1773241200.0), 1)]"
+  },
+  "range_shifts_compounded": {
+    "accepted": false,
+    "expected": false,
+    "error": "W/occurrences: missing [(('room', 'event', 1783242000.0, 1783238400.0, 1783242000.0), 1)], extra [(('room', 'event', 1783242000.0, 1783242000.0, 1783245600.0), 1)]"
+  },
+  "nominal_day_as_24_hours": {
+    "accepted": false,
+    "expected": false,
+    "error": "W/occurrences: missing [(('room', 'event', 1772902800.0, 1772902800.0, 1772985600.0), 1)], extra [(('room', 'event', 1772902800.0, 1772902800.0, 1772989200.0), 1)]"
+  },
+  "all_day_dst_duration_wrong": {
+    "accepted": false,
+    "expected": false,
+    "error": "W/occurrences: missing [(('room', 'event', 1772946000.0, 1772946000.0, 1773028800.0), 1)], extra [(('room', 'event', 1772946000.0, 1772946000.0, 1773032400.0), 1)]"
+  },
+  "transparent_master_override_lost": {
+    "accepted": false,
+    "expected": false,
+    "error": "W/occurrences: missing [(('room', 'event', 1782982800.0, 1782990000.0, 1782993600.0), 1)], extra []"
+  },
+  "busy_union_not_clipped": {
+    "accepted": false,
+    "expected": false,
+    "error": "W/busy: missing [((1782898200.0, 1782903600.0), 1)], extra [((1782896400.0, 1782903600.0), 1)]"
+  },
+  "valid_slot_missing": {
+    "accepted": false,
+    "expected": false,
+    "error": "W/slots: missing [((1782864000.0, 1782866700.0), 1), ((1782865800.0, 1782868500.0), 1), ((1782867600.0, 1782870300.0), 1), ((1782869400.0, 1782872100.0), 1), ((1782871200.0, 1782873900.0), 1), ((1782873000.0, 1782875700.0), 1), ((1782874800.0, 1782877500.0), 1), ((1782876600.0, 1782879300.0), 1)], extra []"
+  }
+}

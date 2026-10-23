@@ -1,0 +1,115 @@
+test_artifacts_protected_inputs (test_service.ServiceTests.test_artifacts_protected_inputs) ... ok
+test_artifacts_report_and_regressions (test_service.ServiceTests.test_artifacts_report_and_regressions) ... ok
+test_batches_client_base_prediction_and_ack (test_service.ServiceTests.test_batches_client_base_prediction_and_ack) ... ok
+test_batches_client_partial_confirmation_restart (test_service.ServiceTests.test_batches_client_partial_confirmation_restart) ... ok
+test_batches_concurrent_duplicate_and_namespace (test_service.ServiceTests.test_batches_concurrent_duplicate_and_namespace) ... ok
+test_batches_conflict_and_fault_rollback (test_service.ServiceTests.test_batches_conflict_and_fault_rollback) ... FAIL
+test_batches_invalid_and_preserved_by_repair (test_service.ServiceTests.test_batches_invalid_and_preserved_by_repair) ... ok
+test_batches_precommitted_member_not_atomic (test_service.ServiceTests.test_batches_precommitted_member_not_atomic) ... FAIL
+test_batches_sequential_same_entity_and_retry (test_service.ServiceTests.test_batches_sequential_same_entity_and_retry) ... ok
+test_client_ack_and_pending (test_service.ServiceTests.test_client_ack_and_pending) ... ok
+test_client_checkpoint_and_gap_handling (test_service.ServiceTests.test_client_checkpoint_and_gap_handling) ... ok
+test_client_conflict_resolution_and_frozen_request (test_service.ServiceTests.test_client_conflict_resolution_and_frozen_request) ... ok
+test_client_generated_delivery_permutations (test_service.ServiceTests.test_client_generated_delivery_permutations) ... ok
+test_client_integer_precision_and_immutability (test_service.ServiceTests.test_client_integer_precision_and_immutability) ... ok
+test_client_snapshot_staging_and_interleaving (test_service.ServiceTests.test_client_snapshot_staging_and_interleaving) ... ok
+test_client_tombstones_and_optimistic_replay (test_service.ServiceTests.test_client_tombstones_and_optimistic_replay) ... ok
+test_confirmations_client_pull_before_ack (test_service.ServiceTests.test_confirmations_client_pull_before_ack) ... ok
+test_confirmations_client_snapshot_staging (test_service.ServiceTests.test_confirmations_client_snapshot_staging) ... ok
+test_confirmations_snapshot_history_and_cut (test_service.ServiceTests.test_confirmations_snapshot_history_and_cut) ... ok
+test_durability_atomic_replace (test_service.ServiceTests.test_durability_atomic_replace) ... ok
+test_durability_persist_before_exchange (test_service.ServiceTests.test_durability_persist_before_exchange) ... ok
+test_integration_atomic_batch_http_confirmation (test_service.ServiceTests.test_integration_atomic_batch_http_confirmation) ... ok
+test_integration_http_restart_lost_response (test_service.ServiceTests.test_integration_http_restart_lost_response) ... ok
+test_recovery_alternate_database_and_idempotence (test_service.ServiceTests.test_recovery_alternate_database_and_idempotence) ... ok
+test_recovery_delivered_incident_state (test_service.ServiceTests.test_recovery_delivered_incident_state) ... ok
+test_sync_cursor_scope_and_invalid_values (test_service.ServiceTests.test_sync_cursor_scope_and_invalid_values) ... ok
+test_sync_large_wire_values (test_service.ServiceTests.test_sync_large_wire_values) ... ok
+test_sync_pull_exclusive_frozen_and_gaps (test_service.ServiceTests.test_sync_pull_exclusive_frozen_and_gaps) ... ok
+test_sync_snapshot_frozen_history (test_service.ServiceTests.test_sync_snapshot_frozen_history) ... ok
+test_transactions_conflicts_do_not_consume_keys (test_service.ServiceTests.test_transactions_conflicts_do_not_consume_keys) ... ok
+test_transactions_generated_reference_replay (test_service.ServiceTests.test_transactions_generated_reference_replay) ... ok
+test_transactions_process_race (test_service.ServiceTests.test_transactions_process_race) ... ok
+test_transactions_receipt_identity_and_digest (test_service.ServiceTests.test_transactions_receipt_identity_and_digest) ... ok
+test_transactions_rollback_both_fault_boundaries (test_service.ServiceTests.test_transactions_rollback_both_fault_boundaries) ... FAIL
+test_transactions_validation_and_lifecycle (test_service.ServiceTests.test_transactions_validation_and_lifecycle) ... ok
+
+======================================================================
+FAIL: test_batches_conflict_and_fault_rollback (test_service.ServiceTests.test_batches_conflict_and_fault_rollback)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tests/test_service.py", line 454, in test_batches_conflict_and_fault_rollback
+    self.assertEqual(documents, self.sql("SELECT * FROM documents"))
+AssertionError: Lists differ: [('north', 'work', 1, '{"assignee":null,"done":false,"title"[26 chars], 0)] != [('north', 'work', 2, '{"assignee":null,"done":false,"title"[26 chars], 0)]
+
+First differing element 0:
+('north', 'work', 1, '{"assignee":null,"done":false,"title"[25 chars]', 0)
+('north', 'work', 2, '{"assignee":null,"done":false,"title"[25 chars]', 0)
+
+  [('north',
+    'work',
+-   1,
+?   ^
+
++   2,
+?   ^
+
+-   '{"assignee":null,"done":false,"title":"Check pump","visits":0}',
+?                                                                ^
+
++   '{"assignee":null,"done":false,"title":"Check pump","visits":2}',
+?                                                                ^
+
+    0)]
+
+======================================================================
+FAIL: test_batches_precommitted_member_not_atomic (test_service.ServiceTests.test_batches_precommitted_member_not_atomic)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tests/test_service.py", line 478, in test_batches_precommitted_member_not_atomic
+    self.assertEqual(self.sql("SELECT * FROM documents WHERE id='new'"), [])
+AssertionError: Lists differ: [('north', 'new', 1, '{"assignee":null,"do[43 chars], 0)] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+('north', 'new', 1, '{"assignee":null,"done":false,"title":"Check pump","visits":0}', 0)
+
++ []
+- [('north',
+-   'new',
+-   1,
+-   '{"assignee":null,"done":false,"title":"Check pump","visits":0}',
+-   0)]
+
+======================================================================
+FAIL: test_transactions_rollback_both_fault_boundaries (test_service.ServiceTests.test_transactions_rollback_both_fault_boundaries)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tests/test_service.py", line 153, in test_transactions_rollback_both_fault_boundaries
+    self.assertEqual(self.sql("SELECT * FROM documents"), documents)
+AssertionError: Lists differ: [('north', 'work', 2, '{"assignee":null,"done":false,"title"[26 chars], 0)] != [('north', 'work', 1, '{"assignee":null,"done":false,"title"[26 chars], 0)]
+
+First differing element 0:
+('north', 'work', 2, '{"assignee":null,"done":false,"title"[25 chars]', 0)
+('north', 'work', 1, '{"assignee":null,"done":false,"title"[25 chars]', 0)
+
+  [('north',
+    'work',
+-   2,
+?   ^
+
++   1,
+?   ^
+
+-   '{"assignee":null,"done":false,"title":"Check pump","visits":1}',
+?                                                                ^
+
++   '{"assignee":null,"done":false,"title":"Check pump","visits":0}',
+?                                                                ^
+
+    0)]
+
+----------------------------------------------------------------------
+Ran 35 tests in 1.453s
+
+FAILED (failures=3)

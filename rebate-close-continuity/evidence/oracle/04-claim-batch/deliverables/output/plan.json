@@ -1,0 +1,32 @@
+{
+  "as_of": "2026-06-30",
+  "claims_sha256": "33b5f003e21983207d4ceda058654d344189a2710603f98973441e2d7865d2ff",
+  "settlement_sha256": "078d221bb6473ea36e504a60a2f19f4893a01cedd16f7888ea479b108e4b9566",
+  "prior_plan_sha256": null,
+  "selected_ids": [
+    "Aster-02",
+    "Aster-03",
+    "Birch-02",
+    "Birch-03",
+    "Birch-05",
+    "Cedar-02",
+    "Cedar-03",
+    "Cedar-05",
+    "Delta-02",
+    "Delta-03",
+    "Delta-06",
+    "Exact-03"
+  ],
+  "objective": [
+    338459,
+    52128,
+    0,
+    -187,
+    -12
+  ],
+  "review_minutes": 187,
+  "used_by_rail": {
+    "PORTAL": 5,
+    "WIRE": 7
+  }
+}

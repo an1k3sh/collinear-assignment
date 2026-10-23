@@ -1,0 +1,115 @@
+{
+  "judge_model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "cli_version": "1.0.102",
+  "rubric_sha256": "0cbd26c7ec0967f600df302e87df35afd3be6b92b88a2a3d653798e7aaea4c4d",
+  "reference_sha256": "97201c6fb7c2321af57d2b3c04f44dfb3f5afa294f33eb8bf40d194ce982d34e",
+  "candidate_sha256": "97201c6fb7c2321af57d2b3c04f44dfb3f5afa294f33eb8bf40d194ce982d34e",
+  "disagreement": false,
+  "review_count": 2,
+  "scores": {
+    "content_fidelity": 4,
+    "editable_structure": 4,
+    "visual_organization": 4,
+    "navigation_furniture": 4
+  },
+  "weighted_score": 1.0,
+  "accepted": true,
+  "reviews": [
+    {
+      "scores": {
+        "content_fidelity": 4,
+        "editable_structure": 4,
+        "visual_organization": 4,
+        "navigation_furniture": 4
+      },
+      "evidence": {
+        "content_fidelity": [
+          "Page 1 contract particulars match, including the 1 July 2026\u201330 June 2027 service term, three named sites, GBP 37,800.00 base fee and 29 June 2026, 17:00 mobilisation milestone.",
+          "Schedule A preserves every quantity, unit price and line total: monitoring 12 \u00d7 2,400.00 = 28,800.00; calibration 6 \u00d7 750.00 = 4,500.00; mobilisation 3 \u00d7 1,800.00 = 5,400.00; transition credit 1 \u00d7 (900.00) = (900.00). Net 37,800.00, VAT 7,560.00 and total 45,360.00 match.",
+          "Schedule A charge conditions and invoice example match: GBP 145.00 includes 45 minutes, followed by GBP 22.50 per completed 15-minute block; the footnote retains the condition that 59 minutes incurs no additional block. Invoice amounts remain 2,400.00, 190.00, 2,590.00, 518.00 and 3,108.00, with payment due after 30 calendar days.",
+          "Schedule B retains all site/target associations: Northgate Mon\u2013Sat 08:00\u201320:00, critical 15/90 minutes, routine acknowledgement 2 service hours and attendance next service day; Canal House Mon\u2013Fri 07:00\u201319:00, critical 15/120 minutes, routine 4 service hours/within 2 service days; Eastbank Mon\u2013Sun 06:00\u201322:00, critical 10/60 minutes, routine 1 service hour/same service day. Access exceptions and uninterrupted 24-hour critical cover match.",
+          "All four planned-exception rows match their dates, sites and routine-service effects: 31 August closure for Northgate and Canal House; 24 December Northgate closing at 14:00; 25 December closure for all sites; 26 December Eastbank window 08:00\u201316:00. Critical service remains unchanged.",
+          "Clauses 1\u20138 preserve the access-delay, completion-evidence, staffing, closure-notification, disputed-charge and written-authorisation obligations. Schedule C evidence/accountability rows and figure values of 42 accepted, 6 returned and 3 open match. Appendices D\u2013E preserve acceptance conditions, approval requirements, execution wording and revision history."
+        ],
+        "editable_structure": [
+          "The verifier extraction shows real body paragraphs and Heading1/Heading2 styles with outline levels, plus automatic decimal numbering for clauses 1\u20138 in both documents.",
+          "Schedules and forms are native tables with matching row/cell associations and repeating header flags. Schedule A retains the vertical merges for Recurring and Summary.",
+          "The charge-rule paragraph contains a real footnote reference linked to matching footnotes.xml text. Figure artwork is represented by drawings, while figure titles and captions remain editable paragraphs.",
+          "The edit probe successfully extends the Access readiness paragraph and Remote sensor calibration table cell. edited-02.png and edited-04.png show matching paragraph reflow and table-row expansion without lost text, overlap or clipping."
+        ],
+        "visual_organization": [
+          "All eight original paired images show matching hierarchy, typography, table shading, spacing and pagination, with no observable candidate-specific layout defect.",
+          "Page 3 preserves the two-column operational-responsibilities layout; page 5 preserves the landscape service-target and planned-exception tables with readable column associations.",
+          "Page 6 preserves both figures' proportions, labels, colours and caption placement. Pages 7\u20138 preserve the editable forms, blank entry areas and execution tables.",
+          "The edited paragraph and expanded calibration row render like the reference; edited-05.png confirms Schedule B remains intact on landscape page 5."
+        ],
+        "navigation_furniture": [
+          "The procurement header and issued-document footer match throughout, including the automatic PAGE field and displayed page numbers 1\u20138.",
+          "Page 1 navigation references correctly identify the delivered sections on pages 2\u20138. Clause 8, Schedule B and Appendix E references retain their correct targets.",
+          "Section headings, figure titles, editable captions, the page 4 footnote placement and the END OF AGREEMENT marker match the reference."
+        ]
+      },
+      "material_defects": [],
+      "inspected_images": [
+        "original-01.png",
+        "original-02.png",
+        "original-03.png",
+        "original-04.png",
+        "original-05.png",
+        "original-06.png",
+        "original-07.png",
+        "original-08.png",
+        "edited-02.png",
+        "edited-04.png",
+        "edited-05.png"
+      ]
+    },
+    {
+      "scores": {
+        "content_fidelity": 4,
+        "editable_structure": 4,
+        "visual_organization": 4,
+        "navigation_furniture": 4
+      },
+      "evidence": {
+        "content_fidelity": [
+          "Page 1 contract particulars match: service term 1 July 2026 to 30 June 2027, all three named sites, GBP 37,800.00 excluding tax, mobilisation on 29 June 2026 at 17:00, and document precedence.",
+          "Schedule A preserves every price association: monitoring 12 \u00d7 2,400.00 = 28,800.00; calibration 6 \u00d7 750.00 = 4,500.00; onboarding 3 \u00d7 1,800.00 = 5,400.00; transition credit (900.00); net 37,800.00; VAT 7,560.00; total 45,360.00. The GBP 145.00 call-out, included 45 minutes, GBP 22.50 completed-block rate, and invoice amounts 2,400.00, 190.00, 2,590.00, 518.00 and 3,108.00 all match. The footnote retains the complete-block condition and the example that 59 minutes incurs no additional block.",
+          "Schedule B preserves each site's window and critical acknowledgement/attendance and routine acknowledgement/attendance targets: Northgate Mon-Sat 08:00-20:00, 15/90 minutes, 2 service hours/next service day; Canal House Mon-Fri 07:00-19:00, 15/120 minutes, 4 service hours/within 2 service days; Eastbank Mon-Sun 06:00-22:00, 10/60 minutes, 1 service hour/same service day. Escort, loading-bay and gate-code conditions match, as do 24-hour critical cover and all four dated exceptions with unchanged critical service.",
+          "Clauses 1-8 retain the monitoring, access-delay, escalation, completion-evidence, staffing, closure-notification, monthly-review and written-change obligations. Schedule C preserves evidence-to-accountable-party associations and figure values 42 accepted, 6 returned and 3 open. Appendices D and E preserve the checklist, conditional-acceptance boundary, approval procedure, execution wording and intentionally blank fields."
+        ],
+        "editable_structure": [
+          "Both extractions contain real paragraphs with Title, Subtitle, Heading1 and Heading2 styles; Heading1 and Heading2 have outline levels 0 and 1. Clauses 1-8 use numbering_id 60, level 0, backed by a decimal automatic-numbering definition.",
+          "The candidate retains native tables with separate rows and cells, repeating header rows, and the Schedule A vertical merges for Recurring and Summary. The acceptance, change and signature forms also remain native tables.",
+          "The charge-rule paragraph contains a real footnote reference to note 1, whose text is present in word/footnotes.xml. Figure artwork is confined to drawing paragraphs, while figure titles and Caption paragraphs remain editable text.",
+          "Both edit probes located and extended the intended content. edited-02.png shows the expanded Access readiness clause reflowing without losing subsequent content; edited-04.png shows the calibration description expanding its table row while retaining prices, following rows, invoice and footnote. edited-05.png retains the following landscape schedule."
+        ],
+        "visual_organization": [
+          "All eight original paired images match in hierarchy, typography, table banding, spacing and pagination. Page 3 preserves the two-column responsibilities layout, and page 5 preserves the landscape service-window and exception tables.",
+          "Page 6 preserves both figures' proportions, labels, colours and caption placement; pages 7-8 preserve the form, signature and document-history layouts.",
+          "The inspected edit-probe pairs show matching paragraph and table expansion, with readable content and no observable clipping, overlap or lost rows."
+        ],
+        "navigation_furniture": [
+          "The page 1 navigation references correctly lead to scope on page 2, responsibilities on page 3, Schedules A-C on pages 4-6 and Appendices D-E on pages 7-8. Clause 8, Schedule B and Appendix E references retain their correct targets.",
+          "The candidate preserves the procurement header, issued-date footer and live PAGE field. Rendered page numbers 1-8 match the reference.",
+          "Figure titles and explanatory captions remain in their corresponding positions. Footnote 1 remains linked to the charge rule and placed at the bottom of page 4, including after the edit probe."
+        ]
+      },
+      "material_defects": [],
+      "inspected_images": [
+        "original-01.png",
+        "original-02.png",
+        "original-03.png",
+        "original-04.png",
+        "original-05.png",
+        "original-06.png",
+        "original-07.png",
+        "original-08.png",
+        "edited-02.png",
+        "edited-04.png",
+        "edited-05.png"
+      ]
+    }
+  ]
+}

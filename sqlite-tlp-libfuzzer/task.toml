@@ -1,0 +1,27 @@
+schema_version = "1.3"
+artifacts = ["/app/src", "/app/reports", "/app/corpus"]
+
+[task]
+name = "collinear-candidate/sqlite-tlp-libfuzzer"
+description = "Build a C++ libFuzzer-driven SQLite TLP generator with input-sensitive structural diversity, correct SQL transformations, and replay."
+keywords = ["cpp", "libfuzzer", "sqlite", "tlp", "metamorphic-testing"]
+
+[metadata]
+category = "software-engineering"
+difficulty = "hard"
+revision = 1
+provenance = "New C++ task; adapts this exercise's earlier SQLite TLP schema and reference fixtures. TLP is published prior art."
+network_policy = "Harness installation/inference may use public egress. Build dependencies come from a dated Debian snapshot. Candidate and verifier require no network."
+
+[agent]
+timeout_sec = 7200
+
+[verifier]
+timeout_sec = 600
+
+[environment]
+build_timeout_sec = 1200
+cpus = 2
+memory_mb = 2048
+storage_mb = 6144
+network_mode = "public"

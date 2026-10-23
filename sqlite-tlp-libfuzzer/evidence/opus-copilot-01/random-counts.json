@@ -1,0 +1,8 @@
+{
+  "attempted": 1024,
+  "emitted": 1024,
+  "schema_valid": 1024,
+  "executable": 1024,
+  "semantic": 1024,
+  "errors": []
+}

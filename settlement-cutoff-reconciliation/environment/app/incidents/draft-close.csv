@@ -1,0 +1,6 @@
+scope,reported_cents,conclusion
+all_deposits,29250,bank agrees
+north_B18,5000,gross sale matched deposit
+north_invoice_00123,5500,2000 credit applied
+north_invoice_00123_days_overdue,30,aged from issue
+all_batches,29250,balanced by taking deposited amount as expected

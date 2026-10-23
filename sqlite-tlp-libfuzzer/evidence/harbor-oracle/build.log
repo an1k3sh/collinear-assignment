@@ -1,0 +1,20 @@
+-- The CXX compiler identification is Clang 16.0.6
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/clang++-16 - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found SQLite3: /usr/include (found version "3.40.1") 
+-- Found nlohmann_json: /usr/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found suitable version "3.11.2", minimum required is "3.11") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /logs/verifier/build
+[0/2] Re-checking globbed directories...
+[1/8] Building CXX object CMakeFiles/tlp.dir/src/generator.cpp.o
+[2/8] Building CXX object CMakeFiles/tlp.dir/src/engine.cpp.o
+[3/8] Building CXX object CMakeFiles/tlp.dir/harness/runtime.cpp.o
+[4/8] Linking CXX static library libtlp.a
+[5/8] Building CXX object CMakeFiles/tlp_fuzz.dir/harness/fuzz.cpp.o
+[6/8] Linking CXX executable tlp_fuzz
+[7/8] Building CXX object CMakeFiles/tlp_cli.dir/harness/cli.cpp.o
+[8/8] Linking CXX executable tlp_cli

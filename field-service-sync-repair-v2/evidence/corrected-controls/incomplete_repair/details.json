@@ -1,0 +1,108 @@
+{
+  "test_artifacts_protected_inputs": {
+    "passed": true
+  },
+  "test_artifacts_report_and_regressions": {
+    "passed": true
+  },
+  "test_batches_client_base_prediction_and_ack": {
+    "passed": true
+  },
+  "test_batches_client_partial_confirmation_restart": {
+    "passed": true
+  },
+  "test_batches_concurrent_duplicate_and_namespace": {
+    "passed": true
+  },
+  "test_batches_conflict_and_fault_rollback": {
+    "passed": true
+  },
+  "test_batches_invalid_and_preserved_by_repair": {
+    "passed": true
+  },
+  "test_batches_precommitted_member_not_atomic": {
+    "passed": true
+  },
+  "test_batches_sequential_same_entity_and_retry": {
+    "passed": true
+  },
+  "test_client_ack_and_pending": {
+    "passed": true
+  },
+  "test_client_checkpoint_and_gap_handling": {
+    "passed": true
+  },
+  "test_client_conflict_resolution_and_frozen_request": {
+    "passed": true
+  },
+  "test_client_generated_delivery_permutations": {
+    "passed": true
+  },
+  "test_client_integer_precision_and_immutability": {
+    "passed": true
+  },
+  "test_client_snapshot_staging_and_interleaving": {
+    "passed": true
+  },
+  "test_client_tombstones_and_optimistic_replay": {
+    "passed": true
+  },
+  "test_confirmations_client_pull_before_ack": {
+    "passed": true
+  },
+  "test_confirmations_client_snapshot_staging": {
+    "passed": true
+  },
+  "test_confirmations_snapshot_history_and_cut": {
+    "passed": true
+  },
+  "test_durability_atomic_replace": {
+    "passed": true
+  },
+  "test_durability_persist_before_exchange": {
+    "passed": true
+  },
+  "test_integration_atomic_batch_http_confirmation": {
+    "passed": true
+  },
+  "test_integration_http_restart_lost_response": {
+    "passed": true
+  },
+  "test_recovery_alternate_database_and_idempotence": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/test_service.py\", line 349, in test_recovery_alternate_database_and_idempotence\n    self.assertEqual(result.returncode, 0, result.stderr)\nAssertionError: 1 != 0 : Traceback (most recent call last):\n  File \"/tmp/tmpn_r30ybf/app/tools/repair.py\", line 14, in <module>\n    print(json.dumps(Store(args.db).repair_projection()))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpn_r30ybf/app/server/store.py\", line 278, in repair_projection\n    db.executemany(\"INSERT INTO documents VALUES (?,?,?,?,?)\",\nsqlite3.IntegrityError: UNIQUE constraint failed: documents.tenant, documents.id\n\n"
+  },
+  "test_recovery_delivered_incident_state": {
+    "passed": true
+  },
+  "test_sync_cursor_scope_and_invalid_values": {
+    "passed": true
+  },
+  "test_sync_large_wire_values": {
+    "passed": true
+  },
+  "test_sync_pull_exclusive_frozen_and_gaps": {
+    "passed": true
+  },
+  "test_sync_snapshot_frozen_history": {
+    "passed": true
+  },
+  "test_transactions_conflicts_do_not_consume_keys": {
+    "passed": true
+  },
+  "test_transactions_generated_reference_replay": {
+    "passed": true
+  },
+  "test_transactions_process_race": {
+    "passed": true
+  },
+  "test_transactions_receipt_identity_and_digest": {
+    "passed": true
+  },
+  "test_transactions_rollback_both_fault_boundaries": {
+    "passed": true
+  },
+  "test_transactions_validation_and_lifecycle": {
+    "passed": true
+  }
+}

@@ -1,0 +1,23 @@
+test_artifact_durable_incident_state (__main__.ProjectionTests.test_artifact_durable_incident_state) ... ok
+test_constraint_immutable_host_and_inputs (__main__.ProjectionTests.test_constraint_immutable_host_and_inputs) ... ok
+test_constraint_incremental_locality (__main__.ProjectionTests.test_constraint_incremental_locality) ... ok
+test_constraint_other_group_cardinality (__main__.ProjectionTests.test_constraint_other_group_cardinality) ... ok
+test_functional_bags_distinct_and_retractable_extrema (__main__.ProjectionTests.test_functional_bags_distinct_and_retractable_extrema) ... ok
+test_functional_collision_free_group_keys (__main__.ProjectionTests.test_functional_collision_free_group_keys) ... ok
+test_functional_day_account_rekeys_and_deletes (__main__.ProjectionTests.test_functional_day_account_rekeys_and_deletes) ... ok
+test_functional_household_membership_is_per_group (__main__.ProjectionTests.test_functional_household_membership_is_per_group) ... skipped 'household not released'
+test_functional_household_parallel_cycle_and_dormant_bridge (__main__.ProjectionTests.test_functional_household_parallel_cycle_and_dormant_bridge) ... skipped 'household not released'
+test_functional_household_simultaneous_repartition_and_sources (__main__.ProjectionTests.test_functional_household_simultaneous_repartition_and_sources) ... skipped 'household not released'
+test_functional_left_join_support_transitions (__main__.ProjectionTests.test_functional_left_join_support_transitions) ... ok
+test_functional_rate_fanout_and_null_nonmatches (__main__.ProjectionTests.test_functional_rate_fanout_and_null_nonmatches) ... ok
+test_functional_transaction_cross_terms (__main__.ProjectionTests.test_functional_transaction_cross_terms) ... ok
+test_robustness_coalesced_writes_and_change_order (__main__.ProjectionTests.test_robustness_coalesced_writes_and_change_order) ... ok
+test_robustness_generated_state_machine (__main__.ProjectionTests.test_robustness_generated_state_machine) ... ok
+test_robustness_household_rollback_then_split (__main__.ProjectionTests.test_robustness_household_rollback_then_split) ... skipped 'household not released'
+test_robustness_rollback_retry_reopen (__main__.ProjectionTests.test_robustness_rollback_retry_reopen) ... ok
+test_robustness_upgrade_from_populated_prior_release (__main__.ProjectionTests.test_robustness_upgrade_from_populated_prior_release) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 11.808s
+
+OK (skipped=4)

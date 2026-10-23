@@ -1,0 +1,128 @@
+{
+  "release": 4,
+  "tests": {
+    "__main__.ProjectionTests.test_artifact_durable_incident_state": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_constraint_immutable_host_and_inputs": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_constraint_incremental_locality": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_constraint_other_group_cardinality": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_functional_bags_distinct_and_retractable_extrema": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_functional_collision_free_group_keys": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_functional_day_account_rekeys_and_deletes": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_functional_household_membership_is_per_group": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_functional_household_parallel_cycle_and_dormant_bridge": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_functional_household_simultaneous_repartition_and_sources": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_functional_left_join_support_transitions": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_functional_rate_fanout_and_null_nonmatches": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_functional_transaction_cross_terms": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_robustness_coalesced_writes_and_change_order": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_robustness_generated_state_machine": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_robustness_household_rollback_then_split": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_robustness_rollback_retry_reopen": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_robustness_upgrade_from_populated_prior_release": {
+      "status": "passed"
+    }
+  },
+  "work": [
+    {
+      "batch": "local/order-extrema",
+      "vm_instructions": 1681,
+      "limit": 300000,
+      "release": 4
+    },
+    {
+      "batch": "local/delete-last-tag",
+      "vm_instructions": 1795,
+      "limit": 300000,
+      "release": 4
+    },
+    {
+      "batch": "local/insert-first-tag",
+      "vm_instructions": 1656,
+      "limit": 300000,
+      "release": 4
+    },
+    {
+      "batch": "local/sparse-rate",
+      "vm_instructions": 1721,
+      "limit": 300000,
+      "release": 4
+    },
+    {
+      "batch": "local/three-table-rekey",
+      "vm_instructions": 2637,
+      "limit": 300000,
+      "release": 4
+    },
+    {
+      "batch": "local/noop",
+      "vm_instructions": 36,
+      "limit": 300000,
+      "release": 4
+    },
+    {
+      "batch": "local/household-split",
+      "vm_instructions": 4410,
+      "limit": 300000,
+      "release": 4
+    },
+    {
+      "batch": "local/household-merge-and-reclassify",
+      "vm_instructions": 3734,
+      "limit": 300000,
+      "release": 4
+    },
+    {
+      "batch": "local/household-split-rekey-merge",
+      "vm_instructions": 3352,
+      "limit": 300000,
+      "release": 4
+    },
+    {
+      "batch": "local/many-groups",
+      "vm_instructions": 1606,
+      "limit": 300000,
+      "release": 4
+    },
+    {
+      "batch": "local/many-groups-reopen",
+      "vm_instructions": 1361,
+      "limit": 300000,
+      "release": 4
+    }
+  ],
+  "tests_run": 18
+}

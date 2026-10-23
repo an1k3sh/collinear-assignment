@@ -1,0 +1,4679 @@
+{
+ "inventory": {
+  "selected": [
+   "C1.r1",
+   "C2.r2",
+   "C3.r1",
+   "C4.r1",
+   "H1.r1",
+   "H2.r1",
+   "H3.r1",
+   "H4.r1"
+  ],
+  "rejected": [
+   "C2.r1"
+  ],
+  "by_target": {
+   "AS": {
+    "counters": "C1.r1",
+    "histograms": "H1.r1"
+   },
+   "AI": {
+    "counters": "C1.r1",
+    "histograms": "H1.r1"
+   },
+   "BS": {
+    "counters": "C2.r2",
+    "histograms": "H2.r1"
+   },
+   "BI": {
+    "counters": "C2.r2",
+    "histograms": "H2.r1"
+   },
+   "CS": {
+    "counters": "C3.r1",
+    "histograms": "H3.r1"
+   },
+   "CI": {
+    "counters": "C3.r1",
+    "histograms": "H3.r1"
+   },
+   "DS": {
+    "counters": "C4.r1",
+    "histograms": "H4.r1"
+   },
+   "DI": {
+    "counters": "C4.r1",
+    "histograms": "H4.r1"
+   }
+  },
+  "supersedes": [
+   {
+    "new": "C2.r2",
+    "old": "C2.r1",
+    "scope": "whole page"
+   }
+  ],
+  "rejection_reasons": {
+   "C2.r1": "superseded (whole page) by C2.r2; revisions are replacements, not additive"
+  }
+ },
+ "intervals": [
+  {
+   "target": "AS",
+   "window": "W1",
+   "reason": "usable",
+   "requests": [
+    98400,
+    100000,
+    101600
+   ],
+   "errors": [
+    970,
+    1000,
+    1030
+   ],
+   "mean_requests_per_minute": 3333.3333333333335,
+   "counter_page": "C1.r1",
+   "histogram_page": "H1.r1",
+   "latency_included": true,
+   "start_boundary": "B0",
+   "end_boundary": "B1",
+   "minutes": 30,
+   "resets": {
+    "requests": null,
+    "errors": null
+   },
+   "method": {
+    "requests": "end minus start",
+    "errors": "end minus start"
+   },
+   "histogram_available": true,
+   "histogram_bins": [
+    [
+     591.0,
+     600.0,
+     609.0
+    ],
+    [
+     241.0,
+     250.0,
+     259.0
+    ],
+    [
+     91.0,
+     100.0,
+     109.0
+    ],
+    [
+     41.0,
+     50.0,
+     59.0
+    ]
+   ],
+   "citations": [
+    "C1.r1",
+    "H1.r1",
+    "AS",
+    "B0",
+    "B1",
+    "W1"
+   ]
+  },
+  {
+   "target": "AS",
+   "window": "W2",
+   "reason": "usable",
+   "requests": [
+    198400,
+    200000,
+    201600
+   ],
+   "errors": [
+    1970,
+    2000,
+    2030
+   ],
+   "mean_requests_per_minute": 3333.3333333333335,
+   "counter_page": "C1.r1",
+   "histogram_page": "H1.r1",
+   "latency_included": true,
+   "start_boundary": "B1",
+   "end_boundary": "B2",
+   "minutes": 60,
+   "resets": {
+    "requests": null,
+    "errors": null
+   },
+   "method": {
+    "requests": "end minus start",
+    "errors": "end minus start"
+   },
+   "histogram_available": true,
+   "histogram_bins": [
+    [
+     491.0,
+     500.0,
+     509.0
+    ],
+    [
+     291.0,
+     300.0,
+     309.0
+    ],
+    [
+     141.0,
+     150.0,
+     159.0
+    ],
+    [
+     41.0,
+     50.0,
+     59.0
+    ]
+   ],
+   "citations": [
+    "C1.r1",
+    "H1.r1",
+    "AS",
+    "B1",
+    "B2",
+    "W2"
+   ]
+  },
+  {
+   "target": "AS",
+   "window": "W3",
+   "reason": "usable",
+   "requests": [
+    99200,
+    100000,
+    100800
+   ],
+   "errors": [
+    2985,
+    3000,
+    3015
+   ],
+   "mean_requests_per_minute": 3333.3333333333335,
+   "counter_page": "C1.r1",
+   "histogram_page": "H1.r1",
+   "latency_included": true,
+   "start_boundary": "B2",
+   "end_boundary": "B3",
+   "minutes": 30,
+   "resets": {
+    "requests": 0,
+    "errors": 0
+   },
+   "method": {
+    "requests": "reset baseline 0 replaces start sample",
+    "errors": "reset baseline 0 replaces start sample"
+   },
+   "histogram_available": true,
+   "histogram_bins": [
+    [
+     491.0,
+     500.0,
+     509.0
+    ],
+    [
+     341.0,
+     350.0,
+     359.0
+    ],
+    [
+     91.0,
+     100.0,
+     109.0
+    ],
+    [
+     41.0,
+     50.0,
+     59.0
+    ]
+   ],
+   "citations": [
+    "C1.r1",
+    "H1.r1",
+    "AS",
+    "B2",
+    "B3",
+    "W3"
+   ]
+  },
+  {
+   "target": "AS",
+   "window": "W4",
+   "reason": "usable",
+   "requests": [
+    198400,
+    200000,
+    201600
+   ],
+   "errors": [
+    3970,
+    4000,
+    4030
+   ],
+   "mean_requests_per_minute": 3333.3333333333335,
+   "counter_page": "C1.r1",
+   "histogram_page": "H1.r1",
+   "latency_included": true,
+   "start_boundary": "B3",
+   "end_boundary": "B4",
+   "minutes": 60,
+   "resets": {
+    "requests": null,
+    "errors": null
+   },
+   "method": {
+    "requests": "end minus start",
+    "errors": "end minus start"
+   },
+   "histogram_available": true,
+   "histogram_bins": [
+    [
+     541.0,
+     550.0,
+     559.0
+    ],
+    [
+     241.0,
+     250.0,
+     259.0
+    ],
+    [
+     141.0,
+     150.0,
+     159.0
+    ],
+    [
+     41.0,
+     50.0,
+     59.0
+    ]
+   ],
+   "citations": [
+    "C1.r1",
+    "H1.r1",
+    "AS",
+    "B3",
+    "B4",
+    "W4"
+   ]
+  },
+  {
+   "target": "AI",
+   "window": "W1",
+   "reason": "usable",
+   "requests": [
+    118400,
+    120000,
+    121600
+   ],
+   "errors": [
+    370.0,
+    400.0,
+    430.0
+   ],
+   "mean_requests_per_minute": 4000.0,
+   "counter_page": "C1.r1",
+   "histogram_page": "H1.r1",
+   "latency_included": true,
+   "start_boundary": "B0",
+   "end_boundary": "B1",
+   "minutes": 30,
+   "resets": {
+    "requests": null,
+    "errors": null
+   },
+   "method": {
+    "requests": "end minus start",
+    "errors": "end minus start"
+   },
+   "histogram_available": true,
+   "histogram_bins": [
+    [
+     1391.0,
+     1400.0,
+     1409.0
+    ],
+    [
+     551.0,
+     560.0,
+     569.0
+    ],
+    [
+     21.0,
+     30.0,
+     39.0
+    ],
+    [
+     1.0,
+     10.0,
+     19.0
+    ]
+   ],
+   "citations": [
+    "C1.r1",
+    "H1.r1",
+    "AI",
+    "B0",
+    "B1",
+    "W1"
+   ]
+  },
+  {
+   "target": "AI",
+   "window": "W2",
+   "reason": "usable",
+   "requests": [
+    238400,
+    240000,
+    241600
+   ],
+   "errors": [
+    570.0,
+    600.0,
+    630.0
+   ],
+   "mean_requests_per_minute": 4000.0,
+   "counter_page": "C1.r1",
+   "histogram_page": "H1.r1",
+   "latency_included": true,
+   "start_boundary": "B1",
+   "end_boundary": "B2",
+   "minutes": 60,
+   "resets": {
+    "requests": null,
+    "errors": null
+   },
+   "method": {
+    "requests": "end minus start",
+    "errors": "end minus start"
+   },
+   "histogram_available": true,
+   "histogram_bins": [
+    [
+     1391.0,
+     1400.0,
+     1409.0
+    ],
+    [
+     551.0,
+     560.0,
+     569.0
+    ],
+    [
+     21.0,
+     30.0,
+     39.0
+    ],
+    [
+     1.0,
+     10.0,
+     19.0
+    ]
+   ],
+   "citations": [
+    "C1.r1",
+    "H1.r1",
+    "AI",
+    "B1",
+    "B2",
+    "W2"
+   ]
+  },
+  {
+   "target": "AI",
+   "window": "W3",
+   "reason": "usable",
+   "requests": [
+    118400,
+    120000,
+    121600
+   ],
+   "errors": [
+    770.0,
+    800.0,
+    830.0
+   ],
+   "mean_requests_per_minute": 4000.0,
+   "counter_page": "C1.r1",
+   "histogram_page": "H1.r1",
+   "latency_included": true,
+   "start_boundary": "B2",
+   "end_boundary": "B3",
+   "minutes": 30,
+   "resets": {
+    "requests": null,
+    "errors": null
+   },
+   "method": {
+    "requests": "end minus start",
+    "errors": "end minus start"
+   },
+   "histogram_available": true,
+   "histogram_bins": [
+    [
+     1391.0,
+     1400.0,
+     1409.0
+    ],
+    [
+     551.0,
+     560.0,
+     569.0
+    ],
+    [
+     21.0,
+     30.0,
+     39.0
+    ],
+    [
+     1.0,
+     10.0,
+     19.0
+    ]
+   ],
+   "citations": [
+    "C1.r1",
+    "H1.r1",
+    "AI",
+    "B2",
+    "B3",
+    "W3"
+   ]
+  },
+  {
+   "target": "AI",
+   "window": "W4",
+   "reason": "usable",
+   "requests": [
+    238400,
+    240000,
+    241600
+   ],
+   "errors": [
+    970.0,
+    1000.0,
+    1030.0
+   ],
+   "mean_requests_per_minute": 4000.0,
+   "counter_page": "C1.r1",
+   "histogram_page": "H1.r1",
+   "latency_included": true,
+   "start_boundary": "B3",
+   "end_boundary": "B4",
+   "minutes": 60,
+   "resets": {
+    "requests": null,
+    "errors": null
+   },
+   "method": {
+    "requests": "end minus start",
+    "errors": "end minus start"
+   },
+   "histogram_available": true,
+   "histogram_bins": [
+    [
+     1391.0,
+     1400.0,
+     1409.0
+    ],
+    [
+     551.0,
+     560.0,
+     569.0
+    ],
+    [
+     21.0,
+     30.0,
+     39.0
+    ],
+    [
+     1.0,
+     10.0,
+     19.0
+    ]
+   ],
+   "citations": [
+    "C1.r1",
+    "H1.r1",
+    "AI",
+    "B3",
+    "B4",
+    "W4"
+   ]
+  },
+  {
+   "target": "BS",
+   "window": "W1",
+   "reason": "usable",
+   "requests": [
+    138400,
+    140000,
+    141600
+   ],
+   "errors": [
+    2970,
+    3000,
+    3030
+   ],
+   "mean_requests_per_minute": 4666.666666666667,
+   "counter_page": "C2.r2",
+   "histogram_page": "H2.r1",
+   "latency_included": true,
+   "start_boundary": "B0",
+   "end_boundary": "B1",
+   "minutes": 30,
+   "resets": {
+    "requests": null,
+    "errors": null
+   },
+   "method": {
+    "requests": "end minus start",
+    "errors": "end minus start"
+   },
+   "histogram_available": true,
+   "histogram_bins": [
+    [
+     491.0,
+     500.0,
+     509.0
+    ],
+    [
+     291.0,
+     300.0,
+     309.0
+    ],
+    [
+     141.0,
+     150.0,
+     159.0
+    ],
+    [
+     41.0,
+     50.0,
+     59.0
+    ]
+   ],
+   "citations": [
+    "C2.r2",
+    "H2.r1",
+    "BS",
+    "B0",
+    "B1",
+    "W1"
+   ]
+  },
+  {
+   "target": "BS",
+   "window": "W2",
+   "reason": "usable",
+   "requests": [
+    278400,
+    280000,
+    281600
+   ],
+   "errors": [
+    5970,
+    6000,
+    6030
+   ],
+   "mean_requests_per_minute": 4666.666666666667,
+   "counter_page": "C2.r2",
+   "histogram_page": "H2.r1",
+   "latency_included": true,
+   "start_boundary": "B1",
+   "end_boundary": "B2",
+   "minutes": 60,
+   "resets": {
+    "requests": null,
+    "errors": null
+   },
+   "method": {
+    "requests": "end minus start",
+    "errors": "end minus start"
+   },
+   "histogram_available": true,
+   "histogram_bins": [
+    [
+     991.0,
+     1000.0,
+     1009.0
+    ],
+    [
+     491.0,
+     500.0,
+     509.0
+    ],
+    [
+     341.0,
+     350.0,
+     359.0
+    ],
+    [
+     141.0,
+     150.0,
+     159.0
+    ]
+   ],
+   "citations": [
+    "C2.r2",
+    "H2.r1",
+    "BS",
+    "B1",
+    "B2",
+    "W2"
+   ]
+  },
+  {
+   "target": "BS",
+   "window": "W3",
+   "reason": "usable",
+   "requests": [
+    138400,
+    140000,
+    141600
+   ],
+   "errors": [
+    3970,
+    4000,
+    4030
+   ],
+   "mean_requests_per_minute": 4666.666666666667,
+   "counter_page": "C2.r2",
+   "histogram_page": "H2.r1",
+   "latency_included": true,
+   "start_boundary": "B2",
+   "end_boundary": "B3",
+   "minutes": 30,
+   "resets": {
+    "requests": null,
+    "errors": null
+   },
+   "method": {
+    "requests": "end minus start",
+    "errors": "end minus start"
+   },
+   "histogram_available": true,
+   "histogram_bins": [
+    [
+     691.0,
+     700.0,
+     709.0
+    ],
+    [
+     391.0,
+     400.0,
+     409.0
+    ],
+    [
+     291.0,
+     300.0,
+     309.0
+    ],
+    [
+     91.0,
+     100.0,
+     109.0
+    ]
+   ],
+   "citations": [
+    "C2.r2",
+    "H2.r1",
+    "BS",
+    "B2",
+    "B3",
+    "W3"
+   ]
+  },
+  {
+   "target": "BS",
+   "window": "W4",
+   "reason": "usable",
+   "requests": [
+    278400,
+    280000,
+    281600
+   ],
+   "errors": [
+    6970,
+    7000,
+    7030
+   ],
+   "mean_requests_per_minute": 4666.666666666667,
+   "counter_page": "C2.r2",
+   "histogram_page": "H2.r1",
+   "latency_included": true,
+   "start_boundary": "B3",
+   "end_boundary": "B4",
+   "minutes": 60,
+   "resets": {
+    "requests": null,
+    "errors": null
+   },
+   "method": {
+    "requests": "end minus start",
+    "errors": "end minus start"
+   },
+   "histogram_available": true,
+   "histogram_bins": [
+    [
+     1391.0,
+     1400.0,
+     1409.0
+    ],
+    [
+     791.0,
+     800.0,
+     809.0
+    ],
+    [
+     591.0,
+     600.0,
+     609.0
+    ],
+    [
+     191.0,
+     200.0,
+     209.0
+    ]
+   ],
+   "citations": [
+    "C2.r2",
+    "H2.r1",
+    "BS",
+    "B3",
+    "B4",
+    "W4"
+   ]
+  },
+  {
+   "target": "BI",
+   "window": "W1",
+   "reason": "usable",
+   "requests": [
+    158400,
+    160000,
+    161600
+   ],
+   "errors": [
+    2470.0,
+    2500.0,
+    2530.0
+   ],
+   "mean_requests_per_minute": 5333.333333333333,
+   "counter_page": "C2.r2",
+   "histogram_page": "H2.r1",
+   "latency_included": true,
+   "start_boundary": "B0",
+   "end_boundary": "B1",
+   "minutes": 30,
+   "resets": {
+    "requests": null,
+    "errors": null
+   },
+   "method": {
+    "requests": "end minus start",
+    "errors": "end minus start"
+   },
+   "histogram_available": true,
+   "histogram_bins": [
+    [
+     591.0,
+     600.0,
+     609.0
+    ],
+    [
+     191.0,
+     200.0,
+     209.0
+    ],
+    [
+     141.0,
+     150.0,
+     159.0
+    ],
+    [
+     41.0,
+     50.0,
+     59.0
+    ]
+   ],
+   "citations": [
+    "C2.r2",
+    "H2.r1",
+    "BI",
+    "B0",
+    "B1",
+    "W1"
+   ]
+  },
+  {
+   "target": "BI",
+   "window": "W2",
+   "reason": "usable",
+   "requests": [
+    318400,
+    320000,
+    321600
+   ],
+   "errors": [
+    4485.0,
+    4500.0,
+    4515.0
+   ],
+   "mean_requests_per_minute": 5333.333333333333,
+   "counter_page": "C2.r2",
+   "histogram_page": "H2.r1",
+   "latency_included": true,
+   "start_boundary": "B1",
+   "end_boundary": "B2",
+   "minutes": 60,
+   "resets": {
+    "requests": null,
+    "errors": 0
+   },
+   "method": {
+    "requests": "end minus start",
+    "errors": "reset baseline 0 replaces start sample"
+   },
+   "histogram_available": true,
+   "histogram_bins": [
+    [
+     891.0,
+     900.0,
+     909.0
+    ],
+    [
+     591.0,
+     600.0,
+     609.0
+    ],
+    [
+     291.0,
+     300.0,
+     309.0
+    ],
+    [
+     191.0,
+     200.0,
+     209.0
+    ]
+   ],
+   "citations": [
+    "C2.r2",
+    "H2.r1",
+    "BI",
+    "B1",
+    "B2",
+    "W2"
+   ]
+  },
+  {
+   "target": "BI",
+   "window": "W3",
+   "reason": "usable",
+   "requests": [
+    158400,
+    160000,
+    161600
+   ],
+   "errors": [
+    3470.0,
+    3500.0,
+    3530.0
+   ],
+   "mean_requests_per_minute": 5333.333333333333,
+   "counter_page": "C2.r2",
+   "histogram_page": "H2.r1",
+   "latency_included": true,
+   "start_boundary": "B2",
+   "end_boundary": "B3",
+   "minutes": 30,
+   "resets": {
+    "requests": null,
+    "errors": null
+   },
+   "method": {
+    "requests": "end minus start",
+    "errors": "end minus start"
+   },
+   "histogram_available": true,
+   "histogram_bins": [
+    [
+     791.0,
+     800.0,
+     809.0
+    ],
+    [
+     391.0,
+     400.0,
+     409.0
+    ],
+    [
+     241.0,
+     250.0,
+     259.0
+    ],
+    [
+     41.0,
+     50.0,
+     59.0
+    ]
+   ],
+   "citations": [
+    "C2.r2",
+    "H2.r1",
+    "BI",
+    "B2",
+    "B3",
+    "W3"
+   ]
+  },
+  {
+   "target": "BI",
+   "window": "W4",
+   "reason": "usable",
+   "requests": [
+    318400,
+    320000,
+    321600
+   ],
+   "errors": [
+    5470.0,
+    5500.0,
+    5530.0
+   ],
+   "mean_requests_per_minute": 5333.333333333333,
+   "counter_page": "C2.r2",
+   "histogram_page": "H2.r1",
+   "latency_included": true,
+   "start_boundary": "B3",
+   "end_boundary": "B4",
+   "minutes": 60,
+   "resets": {
+    "requests": null,
+    "errors": null
+   },
+   "method": {
+    "requests": "end minus start",
+    "errors": "end minus start"
+   },
+   "histogram_available": true,
+   "histogram_bins": [
+    [
+     1791.0,
+     1800.0,
+     1809.0
+    ],
+    [
+     991.0,
+     1000.0,
+     1009.0
+    ],
+    [
+     891.0,
+     900.0,
+     909.0
+    ],
+    [
+     291.0,
+     300.0,
+     309.0
+    ]
+   ],
+   "citations": [
+    "C2.r2",
+    "H2.r1",
+    "BI",
+    "B3",
+    "B4",
+    "W4"
+   ]
+  },
+  {
+   "target": "CS",
+   "window": "W1",
+   "reason": "usable",
+   "requests": [
+    178400,
+    180000,
+    181600
+   ],
+   "errors": [
+    670.0,
+    700.0,
+    730.0
+   ],
+   "mean_requests_per_minute": 6000.0,
+   "counter_page": "C3.r1",
+   "histogram_page": "H3.r1",
+   "latency_included": true,
+   "start_boundary": "B0",
+   "end_boundary": "B1",
+   "minutes": 30,
+   "resets": {
+    "requests": null,
+    "errors": null
+   },
+   "method": {
+    "requests": "end minus start",
+    "errors": "end minus start"
+   },
+   "histogram_available": true,
+   "histogram_bins": [
+    [
+     591.0,
+     600.0,
+     609.0
+    ],
+    [
+     291.0,
+     300.0,
+     309.0
+    ],
+    [
+     71.0,
+     80.0,
+     89.0
+    ],
+    [
+     11.0,
+     20.0,
+     29.0
+    ]
+   ],
+   "citations": [
+    "C3.r1",
+    "H3.r1",
+    "CS",
+    "B0",
+    "B1",
+    "W1"
+   ]
+  },
+  {
+   "target": "CS",
+   "window": "W2",
+   "reason": "usable",
+   "requests": [
+    358400,
+    360000,
+    361600
+   ],
+   "errors": [
+    870.0,
+    900.0,
+    930.0
+   ],
+   "mean_requests_per_minute": 6000.0,
+   "counter_page": "C3.r1",
+   "histogram_page": "H3.r1",
+   "latency_included": true,
+   "start_boundary": "B1",
+   "end_boundary": "B2",
+   "minutes": 60,
+   "resets": {
+    "requests": null,
+    "errors": null
+   },
+   "method": {
+    "requests": "end minus start",
+    "errors": "end minus start"
+   },
+   "histogram_available": true,
+   "histogram_bins": [
+    [
+     591.0,
+     600.0,
+     609.0
+    ],
+    [
+     291.0,
+     300.0,
+     309.0
+    ],
+    [
+     71.0,
+     80.0,
+     89.0
+    ],
+    [
+     11.0,
+     20.0,
+     29.0
+    ]
+   ],
+   "citations": [
+    "C3.r1",
+    "H3.r1",
+    "CS",
+    "B1",
+    "B2",
+    "W2"
+   ]
+  },
+  {
+   "target": "CS",
+   "window": "W3",
+   "reason": "usable",
+   "requests": [
+    178400,
+    180000,
+    181600
+   ],
+   "errors": [
+    770.0,
+    800.0,
+    830.0
+   ],
+   "mean_requests_per_minute": 6000.0,
+   "counter_page": "C3.r1",
+   "histogram_page": "H3.r1",
+   "latency_included": true,
+   "start_boundary": "B2",
+   "end_boundary": "B3",
+   "minutes": 30,
+   "resets": {
+    "requests": null,
+    "errors": null
+   },
+   "method": {
+    "requests": "end minus start",
+    "errors": "end minus start"
+   },
+   "histogram_available": true,
+   "histogram_bins": [
+    [
+     591.0,
+     600.0,
+     609.0
+    ],
+    [
+     291.0,
+     300.0,
+     309.0
+    ],
+    [
+     71.0,
+     80.0,
+     89.0
+    ],
+    [
+     11.0,
+     20.0,
+     29.0
+    ]
+   ],
+   "citations": [
+    "C3.r1",
+    "H3.r1",
+    "CS",
+    "B2",
+    "B3",
+    "W3"
+   ]
+  },
+  {
+   "target": "CS",
+   "window": "W4",
+   "reason": "usable",
+   "requests": [
+    358400,
+    360000,
+    361600
+   ],
+   "errors": [
+    970.0,
+    1000.0,
+    1030.0
+   ],
+   "mean_requests_per_minute": 6000.0,
+   "counter_page": "C3.r1",
+   "histogram_page": "H3.r1",
+   "latency_included": true,
+   "start_boundary": "B3",
+   "end_boundary": "B4",
+   "minutes": 60,
+   "resets": {
+    "requests": null,
+    "errors": null
+   },
+   "method": {
+    "requests": "end minus start",
+    "errors": "end minus start"
+   },
+   "histogram_available": true,
+   "histogram_bins": [
+    [
+     6976.0,
+     7000.0,
+     7024.0
+    ],
+    [
+     2966.0,
+     2990.0,
+     3014.0
+    ],
+    [
+     0,
+     8.0,
+     32.0
+    ],
+    [
+     0,
+     2.0,
+     24
+    ]
+   ],
+   "citations": [
+    "C3.r1",
+    "H3.r1",
+    "CS",
+    "B3",
+    "B4",
+    "W4"
+   ]
+  },
+  {
+   "target": "CI",
+   "window": "W1",
+   "reason": "usable",
+   "requests": [
+    198400,
+    200000,
+    201600
+   ],
+   "errors": [
+    4470.0,
+    4500.0,
+    4530.0
+   ],
+   "mean_requests_per_minute": 6666.666666666667,
+   "counter_page": "C3.r1",
+   "histogram_page": "H3.r1",
+   "latency_included": true,
+   "start_boundary": "B0",
+   "end_boundary": "B1",
+   "minutes": 30,
+   "resets": {
+    "requests": null,
+    "errors": null
+   },
+   "method": {
+    "requests": "end minus start",
+    "errors": "end minus start"
+   },
+   "histogram_available": true,
+   "histogram_bins": [
+    [
+     491.0,
+     500.0,
+     509.0
+    ],
+    [
+     291.0,
+     300.0,
+     309.0
+    ],
+    [
+     141.0,
+     150.0,
+     159.0
+    ],
+    [
+     41.0,
+     50.0,
+     59.0
+    ]
+   ],
+   "citations": [
+    "C3.r1",
+    "H3.r1",
+    "CI",
+    "B0",
+    "B1",
+    "W1"
+   ]
+  },
+  {
+   "target": "CI",
+   "window": "W2",
+   "reason": "usable",
+   "requests": [
+    398400,
+    400000,
+    401600
+   ],
+   "errors": [
+    5470.0,
+    5500.0,
+    5530.0
+   ],
+   "mean_requests_per_minute": 6666.666666666667,
+   "counter_page": "C3.r1",
+   "histogram_page": "H3.r1",
+   "latency_included": true,
+   "start_boundary": "B1",
+   "end_boundary": "B2",
+   "minutes": 60,
+   "resets": {
+    "requests": null,
+    "errors": null
+   },
+   "method": {
+    "requests": "end minus start",
+    "errors": "end minus start"
+   },
+   "histogram_available": true,
+   "histogram_bins": [
+    [
+     591.0,
+     600.0,
+     609.0
+    ],
+    [
+     291.0,
+     300.0,
+     309.0
+    ],
+    [
+     191.0,
+     200.0,
+     209.0
+    ],
+    [
+     91.0,
+     100.0,
+     109.0
+    ]
+   ],
+   "citations": [
+    "C3.r1",
+    "H3.r1",
+    "CI",
+    "B1",
+    "B2",
+    "W2"
+   ]
+  },
+  {
+   "target": "CI",
+   "window": "W3",
+   "reason": "usable",
+   "requests": [
+    198400,
+    200000,
+    201600
+   ],
+   "errors": [
+    6470.0,
+    6500.0,
+    6530.0
+   ],
+   "mean_requests_per_minute": 6666.666666666667,
+   "counter_page": "C3.r1",
+   "histogram_page": "H3.r1",
+   "latency_included": true,
+   "start_boundary": "B2",
+   "end_boundary": "B3",
+   "minutes": 30,
+   "resets": {
+    "requests": null,
+    "errors": null
+   },
+   "method": {
+    "requests": "end minus start",
+    "errors": "end minus start"
+   },
+   "histogram_available": true,
+   "histogram_bins": [
+    [
+     691.0,
+     700.0,
+     709.0
+    ],
+    [
+     291.0,
+     300.0,
+     309.0
+    ],
+    [
+     241.0,
+     250.0,
+     259.0
+    ],
+    [
+     141.0,
+     150.0,
+     159.0
+    ]
+   ],
+   "citations": [
+    "C3.r1",
+    "H3.r1",
+    "CI",
+    "B2",
+    "B3",
+    "W3"
+   ]
+  },
+  {
+   "target": "CI",
+   "window": "W4",
+   "reason": "usable",
+   "requests": [
+    398400,
+    400000,
+    401600
+   ],
+   "errors": [
+    7470.0,
+    7500.0,
+    7530.0
+   ],
+   "mean_requests_per_minute": 6666.666666666667,
+   "counter_page": "C3.r1",
+   "histogram_page": "H3.r1",
+   "latency_included": true,
+   "start_boundary": "B3",
+   "end_boundary": "B4",
+   "minutes": 60,
+   "resets": {
+    "requests": null,
+    "errors": null
+   },
+   "method": {
+    "requests": "end minus start",
+    "errors": "end minus start"
+   },
+   "histogram_available": true,
+   "histogram_bins": [
+    [
+     891.0,
+     900.0,
+     909.0
+    ],
+    [
+     491.0,
+     500.0,
+     509.0
+    ],
+    [
+     391.0,
+     400.0,
+     409.0
+    ],
+    [
+     191.0,
+     200.0,
+     209.0
+    ]
+   ],
+   "citations": [
+    "C3.r1",
+    "H3.r1",
+    "CI",
+    "B3",
+    "B4",
+    "W4"
+   ]
+  },
+  {
+   "target": "DS",
+   "window": "W1",
+   "reason": "usable",
+   "requests": [
+    218400,
+    220000,
+    221600
+   ],
+   "errors": [
+    1970,
+    2000,
+    2030
+   ],
+   "mean_requests_per_minute": 7333.333333333333,
+   "counter_page": "C4.r1",
+   "histogram_page": "H4.r1",
+   "latency_included": true,
+   "start_boundary": "B0",
+   "end_boundary": "B1",
+   "minutes": 30,
+   "resets": {
+    "requests": null,
+    "errors": null
+   },
+   "method": {
+    "requests": "end minus start",
+    "errors": "end minus start"
+   },
+   "histogram_available": true,
+   "histogram_bins": [
+    [
+     591.0,
+     600.0,
+     609.0
+    ],
+    [
+     241.0,
+     250.0,
+     259.0
+    ],
+    [
+     91.0,
+     100.0,
+     109.0
+    ],
+    [
+     41.0,
+     50.0,
+     59.0
+    ]
+   ],
+   "citations": [
+    "C4.r1",
+    "H4.r1",
+    "DS",
+    "B0",
+    "B1",
+    "W1"
+   ]
+  },
+  {
+   "target": "DS",
+   "window": "W2",
+   "reason": "missing_traffic",
+   "requests": null,
+   "errors": null,
+   "mean_requests_per_minute": null,
+   "counter_page": "C4.r1",
+   "histogram_page": "H4.r1",
+   "latency_included": false,
+   "start_boundary": "B1",
+   "end_boundary": "B2",
+   "minutes": 60,
+   "resets": {
+    "requests": null,
+    "errors": null
+   },
+   "method": {
+    "requests": "end boundary B2 unknown",
+    "errors": "end boundary B2 unknown"
+   },
+   "histogram_available": true,
+   "histogram_bins": [
+    [
+     591.0,
+     600.0,
+     609.0
+    ],
+    [
+     191.0,
+     200.0,
+     209.0
+    ],
+    [
+     991.0,
+     1000.0,
+     1009.0
+    ],
+    [
+     191.0,
+     200.0,
+     209.0
+    ]
+   ],
+   "citations": [
+    "C4.r1",
+    "H4.r1",
+    "DS",
+    "B1",
+    "B2",
+    "W2"
+   ]
+  },
+  {
+   "target": "DS",
+   "window": "W3",
+   "reason": "usable",
+   "requests": [
+    219200,
+    220000,
+    220800
+   ],
+   "errors": [
+    3985,
+    4000,
+    4015
+   ],
+   "mean_requests_per_minute": 7333.333333333333,
+   "counter_page": "C4.r1",
+   "histogram_page": "H4.r1",
+   "latency_included": true,
+   "start_boundary": "B2",
+   "end_boundary": "B3",
+   "minutes": 30,
+   "resets": {
+    "requests": 0,
+    "errors": 0
+   },
+   "method": {
+    "requests": "reset baseline 0 replaces start sample",
+    "errors": "reset baseline 0 replaces start sample"
+   },
+   "histogram_available": true,
+   "histogram_bins": [
+    [
+     791.0,
+     800.0,
+     809.0
+    ],
+    [
+     291.0,
+     300.0,
+     309.0
+    ],
+    [
+     291.0,
+     300.0,
+     309.0
+    ],
+    [
+     91.0,
+     100.0,
+     109.0
+    ]
+   ],
+   "citations": [
+    "C4.r1",
+    "H4.r1",
+    "DS",
+    "B2",
+    "B3",
+    "W3"
+   ]
+  },
+  {
+   "target": "DS",
+   "window": "W4",
+   "reason": "usable",
+   "requests": [
+    438400,
+    440000,
+    441600
+   ],
+   "errors": [
+    4970,
+    5000,
+    5030
+   ],
+   "mean_requests_per_minute": 7333.333333333333,
+   "counter_page": "C4.r1",
+   "histogram_page": "H4.r1",
+   "latency_included": true,
+   "start_boundary": "B3",
+   "end_boundary": "B4",
+   "minutes": 60,
+   "resets": {
+    "requests": null,
+    "errors": null
+   },
+   "method": {
+    "requests": "end minus start",
+    "errors": "end minus start"
+   },
+   "histogram_available": true,
+   "histogram_bins": [
+    [
+     1191.0,
+     1200.0,
+     1209.0
+    ],
+    [
+     491.0,
+     500.0,
+     509.0
+    ],
+    [
+     191.0,
+     200.0,
+     209.0
+    ],
+    [
+     91.0,
+     100.0,
+     109.0
+    ]
+   ],
+   "citations": [
+    "C4.r1",
+    "H4.r1",
+    "DS",
+    "B3",
+    "B4",
+    "W4"
+   ]
+  },
+  {
+   "target": "DI",
+   "window": "W1",
+   "reason": "usable",
+   "requests": [
+    238400,
+    240000,
+    241600
+   ],
+   "errors": [
+    1470.0,
+    1500.0,
+    1530.0
+   ],
+   "mean_requests_per_minute": 8000.0,
+   "counter_page": "C4.r1",
+   "histogram_page": "H4.r1",
+   "latency_included": true,
+   "start_boundary": "B0",
+   "end_boundary": "B1",
+   "minutes": 30,
+   "resets": {
+    "requests": null,
+    "errors": null
+   },
+   "method": {
+    "requests": "end minus start",
+    "errors": "end minus start"
+   },
+   "histogram_available": true,
+   "histogram_bins": [
+    [
+     1391.0,
+     1400.0,
+     1409.0
+    ],
+    [
+     551.0,
+     560.0,
+     569.0
+    ],
+    [
+     21.0,
+     30.0,
+     39.0
+    ],
+    [
+     1.0,
+     10.0,
+     19.0
+    ]
+   ],
+   "citations": [
+    "C4.r1",
+    "H4.r1",
+    "DI",
+    "B0",
+    "B1",
+    "W1"
+   ]
+  },
+  {
+   "target": "DI",
+   "window": "W2",
+   "reason": "maintenance",
+   "requests": [
+    478400,
+    480000,
+    481600
+   ],
+   "errors": [
+    8970.0,
+    9000.0,
+    9030.0
+   ],
+   "mean_requests_per_minute": 8000.0,
+   "counter_page": "C4.r1",
+   "histogram_page": "H4.r1",
+   "latency_included": false,
+   "start_boundary": "B1",
+   "end_boundary": "B2",
+   "minutes": 60,
+   "resets": {
+    "requests": null,
+    "errors": null
+   },
+   "method": {
+    "requests": "end minus start",
+    "errors": "end minus start"
+   },
+   "histogram_available": true,
+   "histogram_bins": [
+    [
+     91.0,
+     100.0,
+     109.0
+    ],
+    [
+     91.0,
+     100.0,
+     109.0
+    ],
+    [
+     591.0,
+     600.0,
+     609.0
+    ],
+    [
+     191.0,
+     200.0,
+     209.0
+    ]
+   ],
+   "citations": [
+    "C4.r1",
+    "H4.r1",
+    "DI",
+    "B1",
+    "B2",
+    "W2"
+   ]
+  },
+  {
+   "target": "DI",
+   "window": "W3",
+   "reason": "usable",
+   "requests": [
+    238400,
+    240000,
+    241600
+   ],
+   "errors": [
+    1770.0,
+    1800.0,
+    1830.0
+   ],
+   "mean_requests_per_minute": 8000.0,
+   "counter_page": "C4.r1",
+   "histogram_page": "H4.r1",
+   "latency_included": true,
+   "start_boundary": "B2",
+   "end_boundary": "B3",
+   "minutes": 30,
+   "resets": {
+    "requests": null,
+    "errors": null
+   },
+   "method": {
+    "requests": "end minus start",
+    "errors": "end minus start"
+   },
+   "histogram_available": true,
+   "histogram_bins": [
+    [
+     1391.0,
+     1400.0,
+     1409.0
+    ],
+    [
+     551.0,
+     560.0,
+     569.0
+    ],
+    [
+     21.0,
+     30.0,
+     39.0
+    ],
+    [
+     1.0,
+     10.0,
+     19.0
+    ]
+   ],
+   "citations": [
+    "C4.r1",
+    "H4.r1",
+    "DI",
+    "B2",
+    "B3",
+    "W3"
+   ]
+  },
+  {
+   "target": "DI",
+   "window": "W4",
+   "reason": "usable",
+   "requests": [
+    478400,
+    480000,
+    481600
+   ],
+   "errors": [
+    2170.0,
+    2200.0,
+    2230.0
+   ],
+   "mean_requests_per_minute": 8000.0,
+   "counter_page": "C4.r1",
+   "histogram_page": "H4.r1",
+   "latency_included": true,
+   "start_boundary": "B3",
+   "end_boundary": "B4",
+   "minutes": 60,
+   "resets": {
+    "requests": null,
+    "errors": null
+   },
+   "method": {
+    "requests": "end minus start",
+    "errors": "end minus start"
+   },
+   "histogram_available": true,
+   "histogram_bins": [
+    [
+     1391.0,
+     1400.0,
+     1409.0
+    ],
+    [
+     551.0,
+     560.0,
+     569.0
+    ],
+    [
+     21.0,
+     30.0,
+     39.0
+    ],
+    [
+     1.0,
+     10.0,
+     19.0
+    ]
+   ],
+   "citations": [
+    "C4.r1",
+    "H4.r1",
+    "DI",
+    "B3",
+    "B4",
+    "W4"
+   ]
+  }
+ ],
+ "targets": {
+  "AS": {
+   "usable_windows": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ],
+   "histogram_windows": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ],
+   "requests": 600000,
+   "errors": 10000,
+   "failure_fraction": 0.016666666666666666,
+   "error_bounds": [
+    9895,
+    10105
+   ],
+   "pooled_bins": [
+    2150.0,
+    1150.0,
+    500.0,
+    200.0
+   ],
+   "pooled_bin_bounds": [
+    [
+     2114.0,
+     2186.0
+    ],
+    [
+     1114.0,
+     1186.0
+    ],
+    [
+     464.0,
+     536.0
+    ],
+    [
+     164.0,
+     236.0
+    ]
+   ],
+   "sample_bounds": [
+    3856.0,
+    4144.0
+   ],
+   "samples": 4000.0,
+   "slow_fraction": 0.175,
+   "slow_bounds": [
+    0.157,
+    0.193
+   ],
+   "p95_bin": "(300,1000]",
+   "latency_eligible": true,
+   "eligibility_stable": true,
+   "counter_page": "C1.r1",
+   "histogram_page": "H1.r1",
+   "region": "Alder",
+   "display_name": "Alder / Query API",
+   "region_frozen": false,
+   "block_reason": null,
+   "rollout_eligible": true
+  },
+  "AI": {
+   "usable_windows": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ],
+   "histogram_windows": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ],
+   "requests": 720000,
+   "errors": 2800.0,
+   "failure_fraction": 0.0038888888888888888,
+   "error_bounds": [
+    2680.0,
+    2920.0
+   ],
+   "pooled_bins": [
+    5600.0,
+    2240.0,
+    120.0,
+    40.0
+   ],
+   "pooled_bin_bounds": [
+    [
+     5564.0,
+     5636.0
+    ],
+    [
+     2204.0,
+     2276.0
+    ],
+    [
+     84.0,
+     156.0
+    ],
+    [
+     4.0,
+     76.0
+    ]
+   ],
+   "sample_bounds": [
+    7856.0,
+    8144.0
+   ],
+   "samples": 8000.0,
+   "slow_fraction": 0.02,
+   "slow_bounds": [
+    0.011,
+    0.029
+   ],
+   "p95_bin": "(100,300]",
+   "latency_eligible": false,
+   "eligibility_stable": true,
+   "counter_page": "C1.r1",
+   "histogram_page": "H1.r1",
+   "region": "Alder",
+   "display_name": "Alder / Write API",
+   "region_frozen": false,
+   "block_reason": "latency",
+   "rollout_eligible": false
+  },
+  "BS": {
+   "usable_windows": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ],
+   "histogram_windows": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ],
+   "requests": 840000,
+   "errors": 20000,
+   "failure_fraction": 0.023809523809523808,
+   "error_bounds": [
+    19880,
+    20120
+   ],
+   "pooled_bins": [
+    3600.0,
+    2000.0,
+    1400.0,
+    500.0
+   ],
+   "pooled_bin_bounds": [
+    [
+     3564.0,
+     3636.0
+    ],
+    [
+     1964.0,
+     2036.0
+    ],
+    [
+     1364.0,
+     1436.0
+    ],
+    [
+     464.0,
+     536.0
+    ]
+   ],
+   "sample_bounds": [
+    7356.0,
+    7644.0
+   ],
+   "samples": 7500.0,
+   "slow_fraction": 0.25333333333333335,
+   "slow_bounds": [
+    0.24373333333333333,
+    0.26293333333333335
+   ],
+   "p95_bin": ">1000",
+   "latency_eligible": true,
+   "eligibility_stable": true,
+   "counter_page": "C2.r2",
+   "histogram_page": "H2.r1",
+   "region": "Birch",
+   "display_name": "Birch / Query API",
+   "region_frozen": false,
+   "block_reason": null,
+   "rollout_eligible": true
+  },
+  "BI": {
+   "usable_windows": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ],
+   "histogram_windows": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ],
+   "requests": 960000,
+   "errors": 16000.0,
+   "failure_fraction": 0.016666666666666666,
+   "error_bounds": [
+    15895.0,
+    16105.0
+   ],
+   "pooled_bins": [
+    4100.0,
+    2200.0,
+    1600.0,
+    600.0
+   ],
+   "pooled_bin_bounds": [
+    [
+     4064.0,
+     4136.0
+    ],
+    [
+     2164.0,
+     2236.0
+    ],
+    [
+     1564.0,
+     1636.0
+    ],
+    [
+     564.0,
+     636.0
+    ]
+   ],
+   "sample_bounds": [
+    8356.0,
+    8644.0
+   ],
+   "samples": 8500.0,
+   "slow_fraction": 0.25882352941176473,
+   "slow_bounds": [
+    0.2503529411764706,
+    0.26729411764705885
+   ],
+   "p95_bin": ">1000",
+   "latency_eligible": true,
+   "eligibility_stable": true,
+   "counter_page": "C2.r2",
+   "histogram_page": "H2.r1",
+   "region": "Birch",
+   "display_name": "Birch / Write API",
+   "region_frozen": false,
+   "block_reason": null,
+   "rollout_eligible": true
+  },
+  "CS": {
+   "usable_windows": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ],
+   "histogram_windows": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ],
+   "requests": 1080000,
+   "errors": 3400.0,
+   "failure_fraction": 0.003148148148148148,
+   "error_bounds": [
+    3280.0,
+    3520.0
+   ],
+   "pooled_bins": [
+    8800.0,
+    3890.0,
+    248.0,
+    62.0
+   ],
+   "pooled_bin_bounds": [
+    [
+     8749.0,
+     8851.0
+    ],
+    [
+     3839.0,
+     3941.0
+    ],
+    [
+     213.0,
+     299.0
+    ],
+    [
+     33.0,
+     111.0
+    ]
+   ],
+   "sample_bounds": [
+    12834.0,
+    13202.0
+   ],
+   "samples": 13000.0,
+   "slow_fraction": 0.023846153846153847,
+   "slow_bounds": [
+    0.018867924528301886,
+    0.03154331435605478
+   ],
+   "p95_bin": "(100,300]",
+   "latency_eligible": false,
+   "eligibility_stable": true,
+   "counter_page": "C3.r1",
+   "histogram_page": "H3.r1",
+   "region": "Cedar",
+   "display_name": "Cedar / Query API",
+   "region_frozen": true,
+   "block_reason": "latency",
+   "rollout_eligible": false
+  },
+  "CI": {
+   "usable_windows": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ],
+   "histogram_windows": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ],
+   "requests": 1200000,
+   "errors": 24000.0,
+   "failure_fraction": 0.02,
+   "error_bounds": [
+    23880.0,
+    24120.0
+   ],
+   "pooled_bins": [
+    2700.0,
+    1400.0,
+    1000.0,
+    500.0
+   ],
+   "pooled_bin_bounds": [
+    [
+     2664.0,
+     2736.0
+    ],
+    [
+     1364.0,
+     1436.0
+    ],
+    [
+     964.0,
+     1036.0
+    ],
+    [
+     464.0,
+     536.0
+    ]
+   ],
+   "sample_bounds": [
+    5456.0,
+    5744.0
+   ],
+   "samples": 5600.0,
+   "slow_fraction": 0.26785714285714285,
+   "slow_bounds": [
+    0.255,
+    0.2807142857142857
+   ],
+   "p95_bin": ">1000",
+   "latency_eligible": true,
+   "eligibility_stable": true,
+   "counter_page": "C3.r1",
+   "histogram_page": "H3.r1",
+   "region": "Cedar",
+   "display_name": "Cedar / Write API",
+   "region_frozen": true,
+   "block_reason": "region_freeze",
+   "rollout_eligible": false
+  },
+  "DS": {
+   "usable_windows": [
+    "W1",
+    "W3",
+    "W4"
+   ],
+   "histogram_windows": [
+    "W1",
+    "W3",
+    "W4"
+   ],
+   "requests": 880000,
+   "errors": 11000,
+   "failure_fraction": 0.0125,
+   "error_bounds": [
+    10925,
+    11075
+   ],
+   "pooled_bins": [
+    2600.0,
+    1050.0,
+    600.0,
+    250.0
+   ],
+   "pooled_bin_bounds": [
+    [
+     2573.0,
+     2627.0
+    ],
+    [
+     1023.0,
+     1077.0
+    ],
+    [
+     573.0,
+     627.0
+    ],
+    [
+     223.0,
+     277.0
+    ]
+   ],
+   "sample_bounds": [
+    4392.0,
+    4608.0
+   ],
+   "samples": 4500.0,
+   "slow_fraction": 0.18888888888888888,
+   "slow_bounds": [
+    0.1768888888888889,
+    0.2008888888888889
+   ],
+   "p95_bin": ">1000",
+   "latency_eligible": true,
+   "eligibility_stable": true,
+   "counter_page": "C4.r1",
+   "histogram_page": "H4.r1",
+   "region": "Delta",
+   "display_name": "Delta / Query API",
+   "region_frozen": false,
+   "block_reason": null,
+   "rollout_eligible": true
+  },
+  "DI": {
+   "usable_windows": [
+    "W1",
+    "W3",
+    "W4"
+   ],
+   "histogram_windows": [
+    "W1",
+    "W3",
+    "W4"
+   ],
+   "requests": 960000,
+   "errors": 5500.0,
+   "failure_fraction": 0.005729166666666666,
+   "error_bounds": [
+    5410.0,
+    5590.0
+   ],
+   "pooled_bins": [
+    4200.0,
+    1680.0,
+    90.0,
+    30.0
+   ],
+   "pooled_bin_bounds": [
+    [
+     4173.0,
+     4227.0
+    ],
+    [
+     1653.0,
+     1707.0
+    ],
+    [
+     63.0,
+     117.0
+    ],
+    [
+     3.0,
+     57.0
+    ]
+   ],
+   "sample_bounds": [
+    5892.0,
+    6108.0
+   ],
+   "samples": 6000.0,
+   "slow_fraction": 0.02,
+   "slow_bounds": [
+    0.011,
+    0.029
+   ],
+   "p95_bin": "(100,300]",
+   "latency_eligible": false,
+   "eligibility_stable": true,
+   "counter_page": "C4.r1",
+   "histogram_page": "H4.r1",
+   "region": "Delta",
+   "display_name": "Delta / Write API",
+   "region_frozen": false,
+   "block_reason": "latency",
+   "rollout_eligible": false
+  }
+ },
+ "fleet": {
+  "requests": 7240000,
+  "errors": 92700.0,
+  "failure_fraction": 0.012803867403314918
+ },
+ "plan": {
+  "tiers": {
+   "AS": 0,
+   "AI": 0,
+   "BS": 1,
+   "BI": 2,
+   "CS": 0,
+   "CI": 0,
+   "DS": 0,
+   "DI": 0
+  },
+  "credits": 14,
+  "power": 8,
+  "active_regions": [
+   "Birch"
+  ],
+  "objective": 26320,
+  "objective_bounds": [
+   26152.9,
+   26487.1
+  ],
+  "residual_risk": 90530,
+  "total_weighted_risk": 116850,
+  "robust_margin": 1138.4,
+  "robust": true,
+  "closest_rival": {
+   "AS": 0,
+   "AI": 0,
+   "BS": 1,
+   "BI": 1,
+   "CS": 0,
+   "CI": 0,
+   "DS": 1,
+   "DI": 0
+  },
+  "feasible_vectors": 30,
+  "blocked": {
+   "AI": "latency",
+   "CS": "latency",
+   "CI": "region_freeze",
+   "DI": "latency"
+  },
+  "unserved_risk_by_target": {
+   "AS": 10000,
+   "AI": 4200,
+   "BS": 10000,
+   "BI": 7680,
+   "CS": 3400,
+   "CI": 36000,
+   "DS": 11000,
+   "DI": 8250
+  },
+  "region_blocks": {
+   "Alder": 0,
+   "Birch": 3,
+   "Cedar": 0,
+   "Delta": 0
+  },
+  "binding": {
+   "credits": [
+    14,
+    16
+   ],
+   "power": [
+    8,
+    11
+   ],
+   "active_regions": [
+    1,
+    2
+   ]
+  }
+ },
+ "scenarios": [
+  {
+   "credit_budget": 14,
+   "tiers": {
+    "AS": 0,
+    "AI": 0,
+    "BS": 1,
+    "BI": 2,
+    "CS": 0,
+    "CI": 0,
+    "DS": 0,
+    "DI": 0
+   },
+   "credits": 14,
+   "power": 8,
+   "active_regions": [
+    "Birch"
+   ],
+   "objective": 26320
+  },
+  {
+   "credit_budget": 18,
+   "tiers": {
+    "AS": 0,
+    "AI": 0,
+    "BS": 1,
+    "BI": 2,
+    "CS": 0,
+    "CI": 0,
+    "DS": 1,
+    "DI": 0
+   },
+   "credits": 18,
+   "power": 10,
+   "active_regions": [
+    "Birch",
+    "Delta"
+   ],
+   "objective": 31820
+  }
+ ],
+ "r7_counterexamples": [
+  {
+   "tiers": {
+    "AS": 1,
+    "AI": 0,
+    "BS": 0,
+    "BI": 1,
+    "CS": 0,
+    "CI": 0,
+    "DS": 1,
+    "DI": 0
+   },
+   "credits": 14,
+   "violations": [
+    "3 active regions > 2"
+   ]
+  },
+  {
+   "tiers": {
+    "AS": 1,
+    "AI": 0,
+    "BS": 1,
+    "BI": 0,
+    "CS": 0,
+    "CI": 0,
+    "DS": 1,
+    "DI": 0
+   },
+   "credits": 14,
+   "violations": [
+    "3 active regions > 2"
+   ]
+  }
+ ],
+ "warnings": [],
+ "execution": {
+  "actions": [
+   {
+    "target": "BS",
+    "tier": 1,
+    "start": 0,
+    "finish": 2,
+    "ready": 2
+   },
+   {
+    "target": "DS",
+    "tier": 1,
+    "start": 0,
+    "finish": 1,
+    "ready": 1
+   },
+   {
+    "target": "BI",
+    "tier": 1,
+    "start": 3,
+    "finish": 4,
+    "ready": 5
+   }
+  ],
+  "slots": [
+   {
+    "slot": 0,
+    "occupied": [
+     "BS",
+     "DS"
+    ],
+    "effective_tiers": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 0,
+     "BI": 0,
+     "CS": 0,
+     "CI": 0,
+     "DS": 0,
+     "DI": 0
+    },
+    "installed_tiers": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 0,
+     "BI": 0,
+     "CS": 0,
+     "CI": 0,
+     "DS": 0,
+     "DI": 0
+    },
+    "crews_used": 2,
+    "crews_available": 2,
+    "case_net": {
+     "weekday": -4650,
+     "write-burst": -4650,
+     "regional-shift": -4650
+    }
+   },
+   {
+    "slot": 1,
+    "occupied": [
+     "BS"
+    ],
+    "effective_tiers": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 0,
+     "BI": 0,
+     "CS": 0,
+     "CI": 0,
+     "DS": 1,
+     "DI": 0
+    },
+    "installed_tiers": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 0,
+     "BI": 0,
+     "CS": 0,
+     "CI": 0,
+     "DS": 1,
+     "DI": 0
+    },
+    "crews_used": 1,
+    "crews_available": 1,
+    "case_net": {
+     "weekday": 2500,
+     "write-burst": -500,
+     "regional-shift": 8000
+    }
+   },
+   {
+    "slot": 2,
+    "occupied": [],
+    "effective_tiers": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 1,
+     "BI": 0,
+     "CS": 0,
+     "CI": 0,
+     "DS": 1,
+     "DI": 0
+    },
+    "installed_tiers": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 1,
+     "BI": 0,
+     "CS": 0,
+     "CI": 0,
+     "DS": 1,
+     "DI": 0
+    },
+    "crews_used": 0,
+    "crews_available": 2,
+    "case_net": {
+     "weekday": 25500,
+     "write-burst": 31000,
+     "regional-shift": 21000
+    }
+   },
+   {
+    "slot": 3,
+    "occupied": [
+     "BI"
+    ],
+    "effective_tiers": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 1,
+     "BI": 0,
+     "CS": 0,
+     "CI": 0,
+     "DS": 1,
+     "DI": 0
+    },
+    "installed_tiers": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 1,
+     "BI": 0,
+     "CS": 0,
+     "CI": 0,
+     "DS": 1,
+     "DI": 0
+    },
+    "crews_used": 1,
+    "crews_available": 2,
+    "case_net": {
+     "weekday": 23800,
+     "write-burst": 6600,
+     "regional-shift": 34800
+    }
+   },
+   {
+    "slot": 4,
+    "occupied": [],
+    "effective_tiers": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 1,
+     "BI": 0,
+     "CS": 0,
+     "CI": 0,
+     "DS": 1,
+     "DI": 0
+    },
+    "installed_tiers": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 1,
+     "BI": 0,
+     "CS": 0,
+     "CI": 0,
+     "DS": 1,
+     "DI": 0
+    },
+    "crews_used": 0,
+    "crews_available": 1,
+    "case_net": {
+     "weekday": 46500,
+     "write-burst": 15500,
+     "regional-shift": 42000
+    }
+   },
+   {
+    "slot": 5,
+    "occupied": [],
+    "effective_tiers": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 1,
+     "BI": 1,
+     "CS": 0,
+     "CI": 0,
+     "DS": 1,
+     "DI": 0
+    },
+    "installed_tiers": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 1,
+     "BI": 1,
+     "CS": 0,
+     "CI": 0,
+     "DS": 1,
+     "DI": 0
+    },
+    "crews_used": 0,
+    "crews_available": 2,
+    "case_net": {
+     "weekday": 63520,
+     "write-burst": 73100,
+     "regional-shift": 70540
+    }
+   }
+  ],
+  "final_tiers": {
+   "AS": 0,
+   "AI": 0,
+   "BS": 1,
+   "BI": 1,
+   "CS": 0,
+   "CI": 0,
+   "DS": 1,
+   "DI": 0
+  },
+  "credits": 14,
+  "power": 8,
+  "active_regions": [
+   "Birch",
+   "Delta"
+  ],
+  "peak_crews": 2,
+  "start_vector": [
+   7,
+   7,
+   7,
+   7,
+   0,
+   7,
+   3,
+   7,
+   7,
+   7,
+   7,
+   7,
+   0,
+   7,
+   7,
+   7
+  ],
+  "cases": [
+   {
+    "id": "weekday",
+    "baseline": 1307100,
+    "net": 157170,
+    "net_bounds": [
+     156176.4,
+     158163.6
+    ],
+    "residual": 1149930,
+    "error_coefficients": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 4.7,
+     "BI": 0.27,
+     "CS": 0,
+     "CI": 0,
+     "DS": 5.35,
+     "DI": 0
+    }
+   },
+   {
+    "id": "write-burst",
+    "baseline": 1520800,
+    "net": 121050,
+    "net_bounds": [
+     120269.25,
+     121830.75
+    ],
+    "residual": 1399750,
+    "error_coefficients": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 2.05,
+     "BI": 2.7,
+     "CS": 0,
+     "CI": 0,
+     "DS": 3.35,
+     "DI": 0
+    }
+   },
+   {
+    "id": "regional-shift",
+    "baseline": 1333850,
+    "net": 171690,
+    "net_bounds": [
+     170575.8,
+     172804.2
+    ],
+    "residual": 1162160,
+    "error_coefficients": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 3.2,
+     "BI": 0.99,
+     "CS": 0,
+     "CI": 0,
+     "DS": 8.35,
+     "DI": 0
+    }
+   }
+  ],
+  "worst_case_net": 121050,
+  "total_case_net": 449910,
+  "feasible_schedules": 309,
+  "eligible_candidates": [
+   "AS",
+   "BS",
+   "BI",
+   "DS"
+  ],
+  "excluded_candidates": {},
+  "contingency": {
+   "reveal": 1,
+   "prefix": [
+    {
+     "target": "DS",
+     "tier": 1,
+     "start": 0,
+     "finish": 1,
+     "ready": 1
+    }
+   ],
+   "branches": [
+    {
+     "actions": [
+      {
+       "target": "DS",
+       "tier": 1,
+       "start": 0,
+       "finish": 1,
+       "ready": 1
+      },
+      {
+       "target": "BS",
+       "tier": 1,
+       "start": 1,
+       "finish": 3,
+       "ready": 3
+      },
+      {
+       "target": "DS",
+       "tier": 2,
+       "start": 2,
+       "finish": 3,
+       "ready": 4
+      }
+     ],
+     "slots": [
+      {
+       "slot": 0,
+       "occupied": [
+        "DS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       },
+       "installed_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       },
+       "crews_used": 1,
+       "crews_available": 2,
+       "case_net": {
+        "weekday": -1650
+       }
+      },
+      {
+       "slot": 1,
+       "occupied": [
+        "BS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "crews_used": 1,
+       "crews_available": 1,
+       "case_net": {
+        "weekday": 2500
+       }
+      },
+      {
+       "slot": 2,
+       "occupied": [
+        "BS",
+        "DS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       },
+       "installed_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "crews_used": 2,
+       "crews_available": 2,
+       "case_net": {
+        "weekday": -7650
+       }
+      },
+      {
+       "slot": 3,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "crews_used": 0,
+       "crews_available": 2,
+       "case_net": {
+        "weekday": 31000
+       }
+      },
+      {
+       "slot": 4,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 2,
+        "DI": 0
+       },
+       "installed_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 2,
+        "DI": 0
+       },
+       "crews_used": 0,
+       "crews_available": 1,
+       "case_net": {
+        "weekday": 55740
+       }
+      },
+      {
+       "slot": 5,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 2,
+        "DI": 0
+       },
+       "installed_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 2,
+        "DI": 0
+       },
+       "crews_used": 0,
+       "crews_available": 2,
+       "case_net": {
+        "weekday": 64320
+       }
+      }
+     ],
+     "final_tiers": {
+      "AS": 0,
+      "AI": 0,
+      "BS": 1,
+      "BI": 0,
+      "CS": 0,
+      "CI": 0,
+      "DS": 2,
+      "DI": 0
+     },
+     "credits": 13,
+     "power": 7,
+     "active_regions": [
+      "Birch",
+      "Delta"
+     ],
+     "peak_crews": 2,
+     "start_vector": [
+      7,
+      7,
+      7,
+      7,
+      1,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      0,
+      2,
+      7,
+      7
+     ],
+     "case": {
+      "id": "weekday",
+      "baseline": 1307100,
+      "net": 144260,
+      "net_bounds": [
+       143334.5,
+       145185.5
+      ],
+      "residual": 1162840,
+      "error_coefficients": {
+       "AS": 0,
+       "AI": 0,
+       "BS": 3.55,
+       "BI": 0,
+       "CS": 0,
+       "CI": 0,
+       "DS": 6.66,
+       "DI": 0
+      }
+     }
+    },
+    {
+     "actions": [
+      {
+       "target": "DS",
+       "tier": 1,
+       "start": 0,
+       "finish": 1,
+       "ready": 1
+      },
+      {
+       "target": "BI",
+       "tier": 1,
+       "start": 1,
+       "finish": 2,
+       "ready": 3
+      },
+      {
+       "target": "BS",
+       "tier": 1,
+       "start": 3,
+       "finish": 5,
+       "ready": 5
+      }
+     ],
+     "slots": [
+      {
+       "slot": 0,
+       "occupied": [
+        "DS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       },
+       "installed_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       },
+       "crews_used": 1,
+       "crews_available": 2,
+       "case_net": {
+        "write-burst": -1650
+       }
+      },
+      {
+       "slot": 1,
+       "occupied": [
+        "BI"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "crews_used": 1,
+       "crews_available": 1,
+       "case_net": {
+        "write-burst": 1900
+       }
+      },
+      {
+       "slot": 2,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "crews_used": 0,
+       "crews_available": 2,
+       "case_net": {
+        "write-burst": 11000
+       }
+      },
+      {
+       "slot": 3,
+       "occupied": [
+        "BS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 1,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 1,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "crews_used": 1,
+       "crews_available": 2,
+       "case_net": {
+        "write-burst": 46400
+       }
+      },
+      {
+       "slot": 4,
+       "occupied": [
+        "BS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 1,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 1,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "crews_used": 1,
+       "crews_available": 1,
+       "case_net": {
+        "write-burst": 40900
+       }
+      },
+      {
+       "slot": 5,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 1,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 1,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "crews_used": 0,
+       "crews_available": 2,
+       "case_net": {
+        "write-burst": 73100
+       }
+      }
+     ],
+     "final_tiers": {
+      "AS": 0,
+      "AI": 0,
+      "BS": 1,
+      "BI": 1,
+      "CS": 0,
+      "CI": 0,
+      "DS": 1,
+      "DI": 0
+     },
+     "credits": 14,
+     "power": 8,
+     "active_regions": [
+      "Birch",
+      "Delta"
+     ],
+     "peak_crews": 1,
+     "start_vector": [
+      7,
+      7,
+      7,
+      7,
+      3,
+      7,
+      1,
+      7,
+      7,
+      7,
+      7,
+      7,
+      0,
+      7,
+      7,
+      7
+     ],
+     "case": {
+      "id": "write-burst",
+      "baseline": 1520800,
+      "net": 171650,
+      "net_bounds": [
+       170516.375,
+       172783.625
+      ],
+      "residual": 1349150,
+      "error_coefficients": {
+       "AS": 0,
+       "AI": 0,
+       "BS": 0.2,
+       "BI": 8.175,
+       "CS": 0,
+       "CI": 0,
+       "DS": 3.35,
+       "DI": 0
+      }
+     }
+    },
+    {
+     "actions": [
+      {
+       "target": "DS",
+       "tier": 1,
+       "start": 0,
+       "finish": 1,
+       "ready": 1
+      },
+      {
+       "target": "AS",
+       "tier": 1,
+       "start": 1,
+       "finish": 2,
+       "ready": 3
+      },
+      {
+       "target": "DS",
+       "tier": 2,
+       "start": 2,
+       "finish": 3,
+       "ready": 4
+      }
+     ],
+     "slots": [
+      {
+       "slot": 0,
+       "occupied": [
+        "DS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       },
+       "installed_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       },
+       "crews_used": 1,
+       "crews_available": 2,
+       "case_net": {
+        "regional-shift": -1650
+       }
+      },
+      {
+       "slot": 1,
+       "occupied": [
+        "AS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "crews_used": 1,
+       "crews_available": 1,
+       "case_net": {
+        "regional-shift": 9500
+       }
+      },
+      {
+       "slot": 2,
+       "occupied": [
+        "DS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       },
+       "installed_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "crews_used": 1,
+       "crews_available": 2,
+       "case_net": {
+        "regional-shift": -3300
+       }
+      },
+      {
+       "slot": 3,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 1,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_tiers": {
+        "AS": 1,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "crews_used": 0,
+       "crews_available": 2,
+       "case_net": {
+        "regional-shift": 32350
+       }
+      },
+      {
+       "slot": 4,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 1,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 2,
+        "DI": 0
+       },
+       "installed_tiers": {
+        "AS": 1,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 2,
+        "DI": 0
+       },
+       "crews_used": 0,
+       "crews_available": 1,
+       "case_net": {
+        "regional-shift": 55020
+       }
+      },
+      {
+       "slot": 5,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 1,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 2,
+        "DI": 0
+       },
+       "installed_tiers": {
+        "AS": 1,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 2,
+        "DI": 0
+       },
+       "crews_used": 0,
+       "crews_available": 2,
+       "case_net": {
+        "regional-shift": 68775
+       }
+      }
+     ],
+     "final_tiers": {
+      "AS": 1,
+      "AI": 0,
+      "BS": 0,
+      "BI": 0,
+      "CS": 0,
+      "CI": 0,
+      "DS": 2,
+      "DI": 0
+     },
+     "credits": 11,
+     "power": 6,
+     "active_regions": [
+      "Alder",
+      "Delta"
+     ],
+     "peak_crews": 1,
+     "start_vector": [
+      1,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      0,
+      2,
+      7,
+      7
+     ],
+     "case": {
+      "id": "regional-shift",
+      "baseline": 1333850,
+      "net": 160695,
+      "net_bounds": [
+       159395.2875,
+       161994.7125
+      ],
+      "residual": 1173155,
+      "error_coefficients": {
+       "AS": 5.5425,
+       "AI": 0,
+       "BS": 0,
+       "BI": 0,
+       "CS": 0,
+       "CI": 0,
+       "DS": 9.57,
+       "DI": 0
+      }
+     }
+    }
+   ],
+   "worst_case_net": 144260,
+   "total_case_net": 476605,
+   "total_credits": 38,
+   "total_power": 21,
+   "information_value": 23210
+  },
+  "staged": {
+   "coarse_at": 1,
+   "exact_at": 3,
+   "sum_weight": 0.1,
+   "prefix": [
+    {
+     "target": "BS",
+     "tier": 1,
+     "start": 0,
+     "finish": 2,
+     "ready": 2
+    },
+    {
+     "target": "DS",
+     "tier": 1,
+     "start": 0,
+     "finish": 1,
+     "ready": 1
+    }
+   ],
+   "group_prefixes": [
+    {
+     "signal": "shared",
+     "case_ids": [
+      "weekday",
+      "write-burst"
+     ],
+     "actions": [
+      {
+       "target": "BS",
+       "tier": 1,
+       "start": 0,
+       "finish": 2,
+       "ready": 2
+      },
+      {
+       "target": "DS",
+       "tier": 1,
+       "start": 0,
+       "finish": 1,
+       "ready": 1
+      }
+     ]
+    },
+    {
+     "signal": "shift",
+     "case_ids": [
+      "regional-shift"
+     ],
+     "actions": [
+      {
+       "target": "BS",
+       "tier": 1,
+       "start": 0,
+       "finish": 2,
+       "ready": 2
+      },
+      {
+       "target": "DS",
+       "tier": 1,
+       "start": 0,
+       "finish": 1,
+       "ready": 1
+      }
+     ]
+    }
+   ],
+   "branches": [
+    {
+     "actions": [
+      {
+       "target": "BS",
+       "tier": 1,
+       "start": 0,
+       "finish": 2,
+       "ready": 2
+      },
+      {
+       "target": "DS",
+       "tier": 1,
+       "start": 0,
+       "finish": 1,
+       "ready": 1
+      },
+      {
+       "target": "BI",
+       "tier": 1,
+       "start": 3,
+       "finish": 4,
+       "ready": 5
+      }
+     ],
+     "slots": [
+      {
+       "slot": 0,
+       "occupied": [
+        "BS",
+        "DS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       },
+       "installed_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       },
+       "crews_used": 2,
+       "crews_available": 2,
+       "case_net": {
+        "weekday": -4650
+       }
+      },
+      {
+       "slot": 1,
+       "occupied": [
+        "BS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "crews_used": 1,
+       "crews_available": 1,
+       "case_net": {
+        "weekday": 2500
+       }
+      },
+      {
+       "slot": 2,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "crews_used": 0,
+       "crews_available": 2,
+       "case_net": {
+        "weekday": 25500
+       }
+      },
+      {
+       "slot": 3,
+       "occupied": [
+        "BI"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "crews_used": 1,
+       "crews_available": 2,
+       "case_net": {
+        "weekday": 23800
+       }
+      },
+      {
+       "slot": 4,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "crews_used": 0,
+       "crews_available": 1,
+       "case_net": {
+        "weekday": 46500
+       }
+      },
+      {
+       "slot": 5,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 1,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 1,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "crews_used": 0,
+       "crews_available": 2,
+       "case_net": {
+        "weekday": 63520
+       }
+      }
+     ],
+     "final_tiers": {
+      "AS": 0,
+      "AI": 0,
+      "BS": 1,
+      "BI": 1,
+      "CS": 0,
+      "CI": 0,
+      "DS": 1,
+      "DI": 0
+     },
+     "credits": 14,
+     "power": 8,
+     "active_regions": [
+      "Birch",
+      "Delta"
+     ],
+     "peak_crews": 2,
+     "start_vector": [
+      7,
+      7,
+      7,
+      7,
+      0,
+      7,
+      3,
+      7,
+      7,
+      7,
+      7,
+      7,
+      0,
+      7,
+      7,
+      7
+     ],
+     "case": {
+      "id": "weekday",
+      "baseline": 1307100,
+      "net": 157170,
+      "net_bounds": [
+       156176.4,
+       158163.6
+      ],
+      "residual": 1149930,
+      "error_coefficients": {
+       "AS": 0,
+       "AI": 0,
+       "BS": 4.7,
+       "BI": 0.27,
+       "CS": 0,
+       "CI": 0,
+       "DS": 5.35,
+       "DI": 0
+      }
+     }
+    },
+    {
+     "actions": [
+      {
+       "target": "BS",
+       "tier": 1,
+       "start": 0,
+       "finish": 2,
+       "ready": 2
+      },
+      {
+       "target": "DS",
+       "tier": 1,
+       "start": 0,
+       "finish": 1,
+       "ready": 1
+      },
+      {
+       "target": "BI",
+       "tier": 1,
+       "start": 3,
+       "finish": 4,
+       "ready": 5
+      }
+     ],
+     "slots": [
+      {
+       "slot": 0,
+       "occupied": [
+        "BS",
+        "DS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       },
+       "installed_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       },
+       "crews_used": 2,
+       "crews_available": 2,
+       "case_net": {
+        "write-burst": -4650
+       }
+      },
+      {
+       "slot": 1,
+       "occupied": [
+        "BS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "crews_used": 1,
+       "crews_available": 1,
+       "case_net": {
+        "write-burst": -500
+       }
+      },
+      {
+       "slot": 2,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "crews_used": 0,
+       "crews_available": 2,
+       "case_net": {
+        "write-burst": 31000
+       }
+      },
+      {
+       "slot": 3,
+       "occupied": [
+        "BI"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "crews_used": 1,
+       "crews_available": 2,
+       "case_net": {
+        "write-burst": 6600
+       }
+      },
+      {
+       "slot": 4,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "crews_used": 0,
+       "crews_available": 1,
+       "case_net": {
+        "write-burst": 15500
+       }
+      },
+      {
+       "slot": 5,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 1,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 1,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "crews_used": 0,
+       "crews_available": 2,
+       "case_net": {
+        "write-burst": 73100
+       }
+      }
+     ],
+     "final_tiers": {
+      "AS": 0,
+      "AI": 0,
+      "BS": 1,
+      "BI": 1,
+      "CS": 0,
+      "CI": 0,
+      "DS": 1,
+      "DI": 0
+     },
+     "credits": 14,
+     "power": 8,
+     "active_regions": [
+      "Birch",
+      "Delta"
+     ],
+     "peak_crews": 2,
+     "start_vector": [
+      7,
+      7,
+      7,
+      7,
+      0,
+      7,
+      3,
+      7,
+      7,
+      7,
+      7,
+      7,
+      0,
+      7,
+      7,
+      7
+     ],
+     "case": {
+      "id": "write-burst",
+      "baseline": 1520800,
+      "net": 121050,
+      "net_bounds": [
+       120269.25,
+       121830.75
+      ],
+      "residual": 1399750,
+      "error_coefficients": {
+       "AS": 0,
+       "AI": 0,
+       "BS": 2.05,
+       "BI": 2.7,
+       "CS": 0,
+       "CI": 0,
+       "DS": 3.35,
+       "DI": 0
+      }
+     }
+    },
+    {
+     "actions": [
+      {
+       "target": "BS",
+       "tier": 1,
+       "start": 0,
+       "finish": 2,
+       "ready": 2
+      },
+      {
+       "target": "DS",
+       "tier": 1,
+       "start": 0,
+       "finish": 1,
+       "ready": 1
+      },
+      {
+       "target": "BI",
+       "tier": 1,
+       "start": 3,
+       "finish": 4,
+       "ready": 5
+      }
+     ],
+     "slots": [
+      {
+       "slot": 0,
+       "occupied": [
+        "BS",
+        "DS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       },
+       "installed_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       },
+       "crews_used": 2,
+       "crews_available": 2,
+       "case_net": {
+        "regional-shift": -4650
+       }
+      },
+      {
+       "slot": 1,
+       "occupied": [
+        "BS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "crews_used": 1,
+       "crews_available": 1,
+       "case_net": {
+        "regional-shift": 8000
+       }
+      },
+      {
+       "slot": 2,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "crews_used": 0,
+       "crews_available": 2,
+       "case_net": {
+        "regional-shift": 21000
+       }
+      },
+      {
+       "slot": 3,
+       "occupied": [
+        "BI"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "crews_used": 1,
+       "crews_available": 2,
+       "case_net": {
+        "regional-shift": 34800
+       }
+      },
+      {
+       "slot": 4,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "crews_used": 0,
+       "crews_available": 1,
+       "case_net": {
+        "regional-shift": 42000
+       }
+      },
+      {
+       "slot": 5,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 1,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 1,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "crews_used": 0,
+       "crews_available": 2,
+       "case_net": {
+        "regional-shift": 70540
+       }
+      }
+     ],
+     "final_tiers": {
+      "AS": 0,
+      "AI": 0,
+      "BS": 1,
+      "BI": 1,
+      "CS": 0,
+      "CI": 0,
+      "DS": 1,
+      "DI": 0
+     },
+     "credits": 14,
+     "power": 8,
+     "active_regions": [
+      "Birch",
+      "Delta"
+     ],
+     "peak_crews": 2,
+     "start_vector": [
+      7,
+      7,
+      7,
+      7,
+      0,
+      7,
+      3,
+      7,
+      7,
+      7,
+      7,
+      7,
+      0,
+      7,
+      7,
+      7
+     ],
+     "case": {
+      "id": "regional-shift",
+      "baseline": 1333850,
+      "net": 171690,
+      "net_bounds": [
+       170575.8,
+       172804.2
+      ],
+      "residual": 1162160,
+      "error_coefficients": {
+       "AS": 0,
+       "AI": 0,
+       "BS": 3.2,
+       "BI": 0.99,
+       "CS": 0,
+       "CI": 0,
+       "DS": 8.35,
+       "DI": 0
+      }
+     }
+    }
+   ],
+   "policy_value": 166041,
+   "worst_case_net": 121050,
+   "total_case_net": 449910,
+   "total_credits": 42,
+   "total_power": 24,
+   "fixed_schedule_policy_value": 166041
+  }
+ }
+}

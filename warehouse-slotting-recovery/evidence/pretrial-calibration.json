@@ -1,0 +1,15 @@
+{
+  "original_settings": {
+    "baseline_travel_ticks": 2430286,
+    "max_travel_ticks": 2357377,
+    "relocation_budget_minutes": 200
+  },
+  "author_search_jobs": [
+    "slotting-oracle-01",
+    "slotting-oracle-02",
+    "slotting-oracle-03"
+  ],
+  "best_observed_travel": 2369356,
+  "best_observed_labor": 196,
+  "decision": "3% target lacked a passing witness; before any model trial set target to a 2% reduction. No author-search failure is model evidence."
+}

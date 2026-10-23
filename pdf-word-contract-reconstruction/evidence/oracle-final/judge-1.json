@@ -1,0 +1,50 @@
+{
+  "scores": {
+    "content_fidelity": 4,
+    "editable_structure": 4,
+    "visual_organization": 4,
+    "navigation_furniture": 4
+  },
+  "evidence": {
+    "content_fidelity": [
+      "Page 1 contract particulars match: service term 1 July 2026\u201330 June 2027, all three named sites, base fee GBP 37,800.00, mobilisation deadline 29 June 2026 at 17:00, and document precedence.",
+      "Clauses 1\u20138 preserve the reference obligations, including one no-second-charge rescheduling for denied access, pausing the response clock only for documented access delay, immediate fire-interface escalation, completion evidence, replacement staffing, closure confirmation, fifth-business-day reconciliation, and written authorisation for additional work.",
+      "Schedule A preserves every quantity, unit price and line association: monitoring 12 \u00d7 2,400.00 = 28,800.00; calibration 6 \u00d7 750.00 = 4,500.00; onboarding 3 \u00d7 1,800.00 = 5,400.00; transition credit 1 \u00d7 (900.00) = (900.00). Both documents show net 37,800.00, VAT 7,560.00 and total 45,360.00.",
+      "Schedule A charge rules and invoice example match: GBP 145.00 includes 45 minutes, then GBP 22.50 per completed 15-minute block; the footnote excludes an additional block at 59 minutes. Invoice entries remain 2,400.00, 190.00, net 2,590.00, VAT 518.00 and payable 3,108.00. The 30-calendar-day payment term, included travel and materials-at-evidenced-cost condition are unchanged.",
+      "Schedule B preserves all site/target associations: Northgate Mon\u2013Sat 08:00\u201320:00, critical 15/90 minutes and routine 2 service hours/next service day; Canal House Mon\u2013Fri 07:00\u201319:00, critical 15/120 minutes and routine 4 service hours/within 2 service days; Eastbank Mon\u2013Sun 06:00\u201322:00, critical 10/60 minutes and routine 1 service hour/same service day. Escort, loading-bay and gate-code exceptions match.",
+      "Schedule B preserves uninterrupted 24-hour critical cover and all planned exceptions: 31 August closures at Northgate and Canal House; Northgate closing at 14:00 on 24 December; all-site routine closure on 25 December; Eastbank 08:00\u201316:00 on 26 December. Critical service remains unchanged throughout.",
+      "Schedule C retains each evidence/accountability row and the figure values of 42 accepted, 6 returned and 3 open out of 51 records. Appendices D\u2013E preserve all form fields, checklist conditions, acceptance boundaries, both-signatory approval requirements, execution wording and revision history."
+    ],
+    "editable_structure": [
+      "The extracted candidate contains real body paragraphs, Heading1/Heading2 styles with outline levels, and all 12 native tables, matching the reference rather than substituting page screenshots.",
+      "All eight clauses use automatic decimal numbering through numbering_id 60, level 0. Schedule A retains the vertical merges for Recurring and Summary, and table header rows retain repeat-header settings.",
+      "The charge-rule marker is a real footnote reference linked to word/footnotes.xml. Figure artwork is confined to two drawings, with titles and explanatory captions retained as editable paragraphs.",
+      "edited-02.png shows the appended Access readiness text wrapping normally and moving subsequent content down without loss or overlap. edited-04.png shows the extended calibration description expanding its native table row while preserving quantity, price, total, following rows and footnote. Both behave identically to the reference; edited-05.png retains the intact following schedule."
+    ],
+    "visual_organization": [
+      "All eight original paired images show matching hierarchy, typography, blue table banding, column widths, spacing and pagination, with no observable candidate-specific clipping or overlap.",
+      "Page 3 preserves the two-column operational-responsibilities layout and clause sequence. Page 5 preserves the landscape seven-column service-target table and planned-exceptions table.",
+      "Page 6 preserves both figures' proportions, labels, arrows, bar lengths and caption placement. Pages 7\u20138 preserve the blank acceptance, change and signature fields.",
+      "The inspected edited pages match the reference reflow, including the taller calibration row and the readable payment paragraph and footnote beneath it."
+    ],
+    "navigation_furniture": [
+      "The candidate retains the reference heading hierarchy and page-1 navigation destinations for pages 2\u20138; those destinations agree with the delivered pagination.",
+      "The procurement-services header, MCE-26-041 issue-date footer and automatic PAGE field are present in both extracted structures and match across the rendered pages.",
+      "Clause 8, Schedule B and Appendix E references retain their correct targets. Figure 1 and Figure 2 titles and editable captions match, and footnote 1 remains beneath Schedule A on page 4 in both original and edited renders."
+    ]
+  },
+  "material_defects": [],
+  "inspected_images": [
+    "original-01.png",
+    "original-02.png",
+    "original-03.png",
+    "original-04.png",
+    "original-05.png",
+    "original-06.png",
+    "original-07.png",
+    "original-08.png",
+    "edited-02.png",
+    "edited-04.png",
+    "edited-05.png"
+  ]
+}

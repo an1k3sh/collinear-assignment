@@ -1,0 +1,170 @@
+[
+  {
+    "case": "valid_final",
+    "phase": 6,
+    "expected_pass": true,
+    "actual_pass": true,
+    "control_passed": true,
+    "reward": {
+      "overall": 1.0,
+      "functional_correctness": 1.0,
+      "constraint_satisfaction": 1.0,
+      "robustness": 1.0,
+      "artifact_quality": 1.0
+    }
+  },
+  {
+    "case": "valid_equivalent_revenue_alias",
+    "phase": 6,
+    "expected_pass": true,
+    "actual_pass": true,
+    "control_passed": true,
+    "reward": {
+      "overall": 1.0,
+      "functional_correctness": 1.0,
+      "constraint_satisfaction": 1.0,
+      "robustness": 1.0,
+      "artifact_quality": 1.0
+    }
+  },
+  {
+    "case": "legacy_not_replaced",
+    "phase": 2,
+    "expected_pass": false,
+    "actual_pass": false,
+    "control_passed": true,
+    "reward": {
+      "overall": 0.0,
+      "functional_correctness": 0.4602272727272727,
+      "constraint_satisfaction": 0.9785070044137402,
+      "robustness": 0.44700535627333227,
+      "artifact_quality": 0.6
+    }
+  },
+  {
+    "case": "calendar_not_replaced",
+    "phase": 5,
+    "expected_pass": false,
+    "actual_pass": false,
+    "control_passed": true,
+    "reward": {
+      "overall": 0.0,
+      "functional_correctness": 0.9077821011673152,
+      "constraint_satisfaction": 1.0,
+      "robustness": 0.8612641815235008,
+      "artifact_quality": 0.852
+    }
+  },
+  {
+    "case": "stale_board_after_cutover",
+    "phase": 6,
+    "expected_pass": false,
+    "actual_pass": false,
+    "control_passed": true,
+    "reward": {
+      "overall": 0.0,
+      "functional_correctness": 1.0,
+      "constraint_satisfaction": 1.0,
+      "robustness": 1.0,
+      "artifact_quality": 0.704
+    }
+  },
+  {
+    "case": "zero_plug_checks",
+    "phase": 6,
+    "expected_pass": false,
+    "actual_pass": false,
+    "control_passed": true,
+    "reward": {
+      "overall": 0.0,
+      "functional_correctness": 1.0,
+      "constraint_satisfaction": 1.0,
+      "robustness": 0.9991896272285251,
+      "artifact_quality": 1.0
+    }
+  },
+  {
+    "case": "obsolete_stress_layered",
+    "phase": 6,
+    "expected_pass": false,
+    "actual_pass": false,
+    "control_passed": true,
+    "reward": {
+      "overall": 0.0,
+      "functional_correctness": 0.9140077821011673,
+      "constraint_satisfaction": 0.9992323930147764,
+      "robustness": 0.9115072933549433,
+      "artifact_quality": 1.0
+    }
+  },
+  {
+    "case": "retained_stress_withdrawn",
+    "phase": 6,
+    "expected_pass": false,
+    "actual_pass": false,
+    "control_passed": true,
+    "reward": {
+      "overall": 0.0,
+      "functional_correctness": 0.9256809338521401,
+      "constraint_satisfaction": 0.9988485895221646,
+      "robustness": 0.9218800648298218,
+      "artifact_quality": 1.0
+    }
+  },
+  {
+    "case": "cutover_not_propagated",
+    "phase": 6,
+    "expected_pass": false,
+    "actual_pass": false,
+    "control_passed": true,
+    "reward": {
+      "overall": 0.0,
+      "functional_correctness": 0.9431906614785992,
+      "constraint_satisfaction": 0.9998720655024628,
+      "robustness": 0.939384116693679,
+      "artifact_quality": 1.0
+    }
+  },
+  {
+    "case": "cutover_before_authorization",
+    "phase": 4,
+    "expected_pass": false,
+    "actual_pass": false,
+    "control_passed": true,
+    "reward": {
+      "overall": 0.0,
+      "functional_correctness": 0.9295719844357977,
+      "constraint_satisfaction": 0.9998720655024628,
+      "robustness": 0.9264181523500811,
+      "artifact_quality": 1.0
+    }
+  },
+  {
+    "case": "duplicate_export_counted_twice",
+    "phase": 6,
+    "expected_pass": false,
+    "actual_pass": false,
+    "control_passed": true,
+    "reward": {
+      "overall": 0.0,
+      "functional_correctness": 0.998443579766537,
+      "constraint_satisfaction": 1.0,
+      "robustness": 1.0,
+      "artifact_quality": 1.0
+    }
+  },
+  {
+    "case": "lost_detour_deliverable",
+    "phase": 6,
+    "expected_pass": false,
+    "actual_pass": false,
+    "control_passed": true,
+    "reward": {
+      "overall": 0.0,
+      "functional_correctness": 1.0,
+      "constraint_satisfaction": 1.0,
+      "robustness": 1.0,
+      "artifact_quality": 0.9920318725099602
+    }
+  }
+]

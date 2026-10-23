@@ -1,0 +1,602 @@
+{
+  "harbor_version": "0.24.0",
+  "runs": [
+    {
+      "job": "northstar-followups-oracle-01",
+      "trial": "northstar-forecast-followups__9uxHy7p",
+      "agent": {
+        "name": "oracle",
+        "version": "1.0.0",
+        "model_info": null
+      },
+      "requested_agent": {
+        "name": "oracle",
+        "import_path": null,
+        "model_name": null,
+        "n_concurrent": null,
+        "concurrency_group": null,
+        "skills": [],
+        "override_timeout_sec": null,
+        "override_setup_timeout_sec": null,
+        "max_timeout_sec": null,
+        "resume_trajectory": false,
+        "load_trajectory": null,
+        "extra_allowed_hosts": [],
+        "kwargs": {},
+        "mcp_servers": []
+      },
+      "started_at": "2026-10-23T16:32:12.923344Z",
+      "finished_at": "2026-10-23T16:34:39.719730Z",
+      "aggregate_rewards": {
+        "rewards": {
+          "constraint_satisfaction": 0.9993603275123139,
+          "artifact_quality": 1.0,
+          "robustness": 1.0,
+          "functional_correctness": 1.0,
+          "overall": 0.0
+        }
+      },
+      "exception": null,
+      "stages": [
+        {
+          "step": "01-growth",
+          "rewards": {
+            "overall": 0.0,
+            "functional_correctness": 1.0,
+            "constraint_satisfaction": 0.9993603275123137,
+            "robustness": 1.0,
+            "artifact_quality": 1.0
+          },
+          "exception": null,
+          "agent_execution": {
+            "started_at": "2026-10-23T16:32:30.396152Z",
+            "finished_at": "2026-10-23T16:32:38.507659Z"
+          },
+          "native_session_directories": []
+        },
+        {
+          "step": "02-cohort-revision",
+          "rewards": {
+            "overall": 0.0,
+            "functional_correctness": 1.0,
+            "constraint_satisfaction": 0.9993603275123137,
+            "robustness": 1.0,
+            "artifact_quality": 1.0
+          },
+          "exception": null,
+          "agent_execution": {
+            "started_at": "2026-10-23T16:32:48.197132Z",
+            "finished_at": "2026-10-23T16:32:50.175868Z"
+          },
+          "native_session_directories": []
+        },
+        {
+          "step": "03-liquidity-continuation",
+          "rewards": {
+            "overall": 0.0,
+            "functional_correctness": 1.0,
+            "constraint_satisfaction": 0.9993603275123137,
+            "robustness": 1.0,
+            "artifact_quality": 1.0
+          },
+          "exception": null,
+          "agent_execution": {
+            "started_at": "2026-10-23T16:33:01.410280Z",
+            "finished_at": "2026-10-23T16:33:04.390531Z"
+          },
+          "native_session_directories": []
+        },
+        {
+          "step": "04-treasury-detour",
+          "rewards": {
+            "overall": 0.0,
+            "functional_correctness": 1.0,
+            "constraint_satisfaction": 0.9993603275123137,
+            "robustness": 1.0,
+            "artifact_quality": 1.0
+          },
+          "exception": null,
+          "agent_execution": {
+            "started_at": "2026-10-23T16:33:24.342791Z",
+            "finished_at": "2026-10-23T16:33:24.790962Z"
+          },
+          "native_session_directories": []
+        },
+        {
+          "step": "05-renewal-pricing",
+          "rewards": {
+            "overall": 0.0,
+            "functional_correctness": 1.0,
+            "constraint_satisfaction": 0.9993603275123137,
+            "robustness": 1.0,
+            "artifact_quality": 1.0
+          },
+          "exception": null,
+          "agent_execution": {
+            "started_at": "2026-10-23T16:33:44.191424Z",
+            "finished_at": "2026-10-23T16:33:47.001471Z"
+          },
+          "native_session_directories": []
+        },
+        {
+          "step": "06-reconciled-cutover",
+          "rewards": {
+            "overall": 0.0,
+            "functional_correctness": 1.0,
+            "constraint_satisfaction": 0.9993603275123137,
+            "robustness": 1.0,
+            "artifact_quality": 1.0
+          },
+          "exception": null,
+          "agent_execution": {
+            "started_at": "2026-10-23T16:34:12.802341Z",
+            "finished_at": "2026-10-23T16:34:16.228748Z"
+          },
+          "native_session_directories": []
+        }
+      ],
+      "continue_flag_occurrences": 0,
+      "persistent_session_ids": [],
+      "task_checksum": "45d2871330575a83bab88cca2847d69b82a4341a375f8da85503bf767bd85690",
+      "treasury_detour_retention": {}
+    },
+    {
+      "job": "northstar-followups-oracle-02",
+      "trial": "northstar-forecast-followups__bkMefDJ",
+      "agent": {
+        "name": "oracle",
+        "version": "1.0.0",
+        "model_info": null
+      },
+      "requested_agent": {
+        "name": "oracle",
+        "import_path": null,
+        "model_name": null,
+        "n_concurrent": null,
+        "concurrency_group": null,
+        "skills": [],
+        "override_timeout_sec": null,
+        "override_setup_timeout_sec": null,
+        "max_timeout_sec": null,
+        "resume_trajectory": false,
+        "load_trajectory": null,
+        "extra_allowed_hosts": [],
+        "kwargs": {},
+        "mcp_servers": []
+      },
+      "started_at": "2026-10-23T16:36:38.802689Z",
+      "finished_at": "2026-10-23T16:39:29.417062Z",
+      "aggregate_rewards": {
+        "rewards": {
+          "artifact_quality": 1.0,
+          "functional_correctness": 1.0,
+          "robustness": 1.0,
+          "overall": 1.0,
+          "constraint_satisfaction": 1.0
+        }
+      },
+      "exception": null,
+      "stages": [
+        {
+          "step": "01-growth",
+          "rewards": {
+            "overall": 1.0,
+            "functional_correctness": 1.0,
+            "constraint_satisfaction": 1.0,
+            "robustness": 1.0,
+            "artifact_quality": 1.0
+          },
+          "exception": null,
+          "agent_execution": {
+            "started_at": "2026-10-23T16:36:47.843918Z",
+            "finished_at": "2026-10-23T16:36:53.634619Z"
+          },
+          "native_session_directories": []
+        },
+        {
+          "step": "02-cohort-revision",
+          "rewards": {
+            "overall": 1.0,
+            "functional_correctness": 1.0,
+            "constraint_satisfaction": 1.0,
+            "robustness": 1.0,
+            "artifact_quality": 1.0
+          },
+          "exception": null,
+          "agent_execution": {
+            "started_at": "2026-10-23T16:37:11.140655Z",
+            "finished_at": "2026-10-23T16:37:13.242922Z"
+          },
+          "native_session_directories": []
+        },
+        {
+          "step": "03-liquidity-continuation",
+          "rewards": {
+            "overall": 1.0,
+            "functional_correctness": 1.0,
+            "constraint_satisfaction": 1.0,
+            "robustness": 1.0,
+            "artifact_quality": 1.0
+          },
+          "exception": null,
+          "agent_execution": {
+            "started_at": "2026-10-23T16:37:25.123303Z",
+            "finished_at": "2026-10-23T16:37:28.563164Z"
+          },
+          "native_session_directories": []
+        },
+        {
+          "step": "04-treasury-detour",
+          "rewards": {
+            "overall": 1.0,
+            "functional_correctness": 1.0,
+            "constraint_satisfaction": 1.0,
+            "robustness": 1.0,
+            "artifact_quality": 1.0
+          },
+          "exception": null,
+          "agent_execution": {
+            "started_at": "2026-10-23T16:37:50.683866Z",
+            "finished_at": "2026-10-23T16:37:51.191393Z"
+          },
+          "native_session_directories": []
+        },
+        {
+          "step": "05-renewal-pricing",
+          "rewards": {
+            "overall": 1.0,
+            "functional_correctness": 1.0,
+            "constraint_satisfaction": 1.0,
+            "robustness": 1.0,
+            "artifact_quality": 1.0
+          },
+          "exception": null,
+          "agent_execution": {
+            "started_at": "2026-10-23T16:38:15.430089Z",
+            "finished_at": "2026-10-23T16:38:19.413843Z"
+          },
+          "native_session_directories": []
+        },
+        {
+          "step": "06-reconciled-cutover",
+          "rewards": {
+            "overall": 1.0,
+            "functional_correctness": 1.0,
+            "constraint_satisfaction": 1.0,
+            "robustness": 1.0,
+            "artifact_quality": 1.0
+          },
+          "exception": null,
+          "agent_execution": {
+            "started_at": "2026-10-23T16:38:46.182811Z",
+            "finished_at": "2026-10-23T16:38:50.817907Z"
+          },
+          "native_session_directories": []
+        }
+      ],
+      "continue_flag_occurrences": 0,
+      "persistent_session_ids": [],
+      "task_checksum": "9f4002aab4aab1329718a0d81d47539ed97cddcd1163e6562075cc1a101e0991",
+      "treasury_detour_retention": {}
+    },
+    {
+      "job": "northstar-followups-copilot-opus-01",
+      "trial": "northstar-forecast-followups__EeQUw2d",
+      "agent": {
+        "name": "copilot-cli",
+        "version": "1.0.102",
+        "model_info": {
+          "name": "claude-opus-5.5",
+          "provider": null
+        }
+      },
+      "requested_agent": {
+        "name": "copilot-cli",
+        "import_path": null,
+        "model_name": "claude-opus-5.5",
+        "n_concurrent": null,
+        "concurrency_group": null,
+        "skills": [],
+        "override_timeout_sec": null,
+        "override_setup_timeout_sec": null,
+        "max_timeout_sec": null,
+        "resume_trajectory": true,
+        "load_trajectory": null,
+        "extra_allowed_hosts": [],
+        "kwargs": {
+          "version": "1.0.102",
+          "reasoning_effort": "high"
+        },
+        "mcp_servers": []
+      },
+      "started_at": "2026-10-23T16:41:15.533330Z",
+      "finished_at": "2026-10-23T16:51:50.269326Z",
+      "aggregate_rewards": {
+        "rewards": {
+          "artifact_quality": 1.0,
+          "overall": 1.0,
+          "functional_correctness": 1.0,
+          "robustness": 1.0,
+          "constraint_satisfaction": 1.0
+        }
+      },
+      "exception": null,
+      "stages": [
+        {
+          "step": "01-growth",
+          "rewards": {
+            "overall": 1.0,
+            "functional_correctness": 1.0,
+            "constraint_satisfaction": 1.0,
+            "robustness": 1.0,
+            "artifact_quality": 1.0
+          },
+          "exception": null,
+          "agent_execution": {
+            "started_at": "2026-10-23T16:41:43.573610Z",
+            "finished_at": "2026-10-23T16:44:07.136189Z"
+          },
+          "native_session_directories": [
+            "e27c118d-ba7a-4711-ab7e-8ccd13a3082b"
+          ]
+        },
+        {
+          "step": "02-cohort-revision",
+          "rewards": {
+            "overall": 1.0,
+            "functional_correctness": 1.0,
+            "constraint_satisfaction": 1.0,
+            "robustness": 1.0,
+            "artifact_quality": 1.0
+          },
+          "exception": null,
+          "agent_execution": {
+            "started_at": "2026-10-23T16:44:18.974590Z",
+            "finished_at": "2026-10-23T16:45:24.511456Z"
+          },
+          "native_session_directories": [
+            "e27c118d-ba7a-4711-ab7e-8ccd13a3082b"
+          ]
+        },
+        {
+          "step": "03-liquidity-continuation",
+          "rewards": {
+            "overall": 1.0,
+            "functional_correctness": 1.0,
+            "constraint_satisfaction": 1.0,
+            "robustness": 1.0,
+            "artifact_quality": 1.0
+          },
+          "exception": null,
+          "agent_execution": {
+            "started_at": "2026-10-23T16:45:38.159975Z",
+            "finished_at": "2026-10-23T16:46:21.392834Z"
+          },
+          "native_session_directories": [
+            "e27c118d-ba7a-4711-ab7e-8ccd13a3082b"
+          ]
+        },
+        {
+          "step": "04-treasury-detour",
+          "rewards": {
+            "overall": 1.0,
+            "functional_correctness": 1.0,
+            "constraint_satisfaction": 1.0,
+            "robustness": 1.0,
+            "artifact_quality": 1.0
+          },
+          "exception": null,
+          "agent_execution": {
+            "started_at": "2026-10-23T16:46:51.239534Z",
+            "finished_at": "2026-10-23T16:47:17.150161Z"
+          },
+          "native_session_directories": [
+            "e27c118d-ba7a-4711-ab7e-8ccd13a3082b"
+          ]
+        },
+        {
+          "step": "05-renewal-pricing",
+          "rewards": {
+            "overall": 1.0,
+            "functional_correctness": 1.0,
+            "constraint_satisfaction": 1.0,
+            "robustness": 1.0,
+            "artifact_quality": 1.0
+          },
+          "exception": null,
+          "agent_execution": {
+            "started_at": "2026-10-23T16:47:46.849147Z",
+            "finished_at": "2026-10-23T16:49:41.479214Z"
+          },
+          "native_session_directories": [
+            "e27c118d-ba7a-4711-ab7e-8ccd13a3082b"
+          ]
+        },
+        {
+          "step": "06-reconciled-cutover",
+          "rewards": {
+            "overall": 1.0,
+            "functional_correctness": 1.0,
+            "constraint_satisfaction": 1.0,
+            "robustness": 1.0,
+            "artifact_quality": 1.0
+          },
+          "exception": null,
+          "agent_execution": {
+            "started_at": "2026-10-23T16:50:06.278152Z",
+            "finished_at": "2026-10-23T16:51:27.241644Z"
+          },
+          "native_session_directories": [
+            "e27c118d-ba7a-4711-ab7e-8ccd13a3082b"
+          ]
+        }
+      ],
+      "continue_flag_occurrences": 5,
+      "persistent_session_ids": [
+        "e27c118d-ba7a-4711-ab7e-8ccd13a3082b"
+      ],
+      "task_checksum": "3034f1202fb2e33ac5e0e6c050759d405899cd55c9198fd26d84e39e98acfd18",
+      "treasury_detour_retention": {
+        "Northstar_Forecast_Completed.xlsx": {
+          "before_sha256": "642f0e5beb658ccdf00bde4f103f28061a807644c660bb5e3b18467e9a270692",
+          "after_sha256": "642f0e5beb658ccdf00bde4f103f28061a807644c660bb5e3b18467e9a270692",
+          "byte_identical": true
+        },
+        "Northstar_Liquidity_Stress.xlsx": {
+          "before_sha256": "30c6f1884da9e58707566f4450f8d3cf71df0a21a2cfbdd68c5979f10a0591ee",
+          "after_sha256": "30c6f1884da9e58707566f4450f8d3cf71df0a21a2cfbdd68c5979f10a0591ee",
+          "byte_identical": true
+        },
+        "handoff.json": {
+          "before_sha256": "dce09f3d116a3ba547f2e3fd718045671005f7d3ad1fee48d33e024e4c2887ab",
+          "after_sha256": "dce09f3d116a3ba547f2e3fd718045671005f7d3ad1fee48d33e024e4c2887ab",
+          "byte_identical": true
+        },
+        "board-pack.json": {
+          "before_sha256": "2a02c4d7c8dae1a8b08d4999a2cf9b393256293a2d98a97053d190dcf6880294",
+          "after_sha256": "2a02c4d7c8dae1a8b08d4999a2cf9b393256293a2d98a97053d190dcf6880294",
+          "byte_identical": true
+        }
+      }
+    },
+    {
+      "job": "northstar-followups-zip-oracle-01",
+      "trial": "northstar-forecast-followups__mA8cBXF",
+      "agent": {
+        "name": "oracle",
+        "version": "1.0.0",
+        "model_info": null
+      },
+      "requested_agent": {
+        "name": "oracle",
+        "import_path": null,
+        "model_name": null,
+        "n_concurrent": null,
+        "concurrency_group": null,
+        "skills": [],
+        "override_timeout_sec": null,
+        "override_setup_timeout_sec": null,
+        "max_timeout_sec": null,
+        "resume_trajectory": false,
+        "load_trajectory": null,
+        "extra_allowed_hosts": [],
+        "kwargs": {},
+        "mcp_servers": []
+      },
+      "started_at": "2026-10-23T16:43:36.455240Z",
+      "finished_at": "2026-10-23T16:45:55.545166Z",
+      "aggregate_rewards": {
+        "rewards": {
+          "overall": 1.0,
+          "robustness": 1.0,
+          "constraint_satisfaction": 1.0,
+          "artifact_quality": 1.0,
+          "functional_correctness": 1.0
+        }
+      },
+      "exception": null,
+      "stages": [
+        {
+          "step": "01-growth",
+          "rewards": {
+            "overall": 1.0,
+            "functional_correctness": 1.0,
+            "constraint_satisfaction": 1.0,
+            "robustness": 1.0,
+            "artifact_quality": 1.0
+          },
+          "exception": null,
+          "agent_execution": {
+            "started_at": "2026-10-23T16:43:39.387256Z",
+            "finished_at": "2026-10-23T16:43:42.148865Z"
+          },
+          "native_session_directories": []
+        },
+        {
+          "step": "02-cohort-revision",
+          "rewards": {
+            "overall": 1.0,
+            "functional_correctness": 1.0,
+            "constraint_satisfaction": 1.0,
+            "robustness": 1.0,
+            "artifact_quality": 1.0
+          },
+          "exception": null,
+          "agent_execution": {
+            "started_at": "2026-10-23T16:43:53.120798Z",
+            "finished_at": "2026-10-23T16:43:55.288294Z"
+          },
+          "native_session_directories": []
+        },
+        {
+          "step": "03-liquidity-continuation",
+          "rewards": {
+            "overall": 1.0,
+            "functional_correctness": 1.0,
+            "constraint_satisfaction": 1.0,
+            "robustness": 1.0,
+            "artifact_quality": 1.0
+          },
+          "exception": null,
+          "agent_execution": {
+            "started_at": "2026-10-23T16:44:08.576296Z",
+            "finished_at": "2026-10-23T16:44:13.244878Z"
+          },
+          "native_session_directories": []
+        },
+        {
+          "step": "04-treasury-detour",
+          "rewards": {
+            "overall": 1.0,
+            "functional_correctness": 1.0,
+            "constraint_satisfaction": 1.0,
+            "robustness": 1.0,
+            "artifact_quality": 1.0
+          },
+          "exception": null,
+          "agent_execution": {
+            "started_at": "2026-10-23T16:44:36.510774Z",
+            "finished_at": "2026-10-23T16:44:37.007409Z"
+          },
+          "native_session_directories": []
+        },
+        {
+          "step": "05-renewal-pricing",
+          "rewards": {
+            "overall": 1.0,
+            "functional_correctness": 1.0,
+            "constraint_satisfaction": 1.0,
+            "robustness": 1.0,
+            "artifact_quality": 1.0
+          },
+          "exception": null,
+          "agent_execution": {
+            "started_at": "2026-10-23T16:44:59.908778Z",
+            "finished_at": "2026-10-23T16:45:03.388752Z"
+          },
+          "native_session_directories": []
+        },
+        {
+          "step": "06-reconciled-cutover",
+          "rewards": {
+            "overall": 1.0,
+            "functional_correctness": 1.0,
+            "constraint_satisfaction": 1.0,
+            "robustness": 1.0,
+            "artifact_quality": 1.0
+          },
+          "exception": null,
+          "agent_execution": {
+            "started_at": "2026-10-23T16:45:27.946936Z",
+            "finished_at": "2026-10-23T16:45:31.378376Z"
+          },
+          "native_session_directories": []
+        }
+      ],
+      "continue_flag_occurrences": 0,
+      "persistent_session_ids": [],
+      "task_checksum": "4f844e3b3ddf0d6e3e721a457169cb4ab94ca2206d894a0c3ab5a4ae0d1f7869",
+      "treasury_detour_retention": {}
+    }
+  ]
+}

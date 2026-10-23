@@ -1,0 +1,122 @@
+{
+    "id": "cc4df359-c56c-4e48-a574-996818414f62",
+    "task_name": "collinear-candidate/northstar-forecast-revision",
+    "trial_name": "northstar-forecast-revision__DJvHVgC",
+    "trial_uri": "file:///Users/anikeshparashar/Projects/difficult-bench/jobs/northstar-zip-oracle-01/northstar-forecast-revision__DJvHVgC",
+    "task_id": {
+        "path": "evidence/northstar-zip-preflight/northstar-forecast-revision"
+    },
+    "source": null,
+    "task_checksum": "7894f6dad5cc821277838ed3f183a7d07547baa1e20d1133e9e0dd2216a2f6c2",
+    "config": {
+        "task": {
+            "path": "evidence/northstar-zip-preflight/northstar-forecast-revision",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "northstar-forecast-revision__DJvHVgC",
+        "trials_dir": "jobs/northstar-zip-oracle-01",
+        "install_only": false,
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "oracle",
+            "import_path": null,
+            "model_name": null,
+            "n_concurrent": null,
+            "concurrency_group": null,
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "resume_trajectory": false,
+            "load_trajectory": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {},
+            "mcp_servers": []
+        },
+        "user_agent": null,
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "stream": false,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [
+            "/app/output"
+        ],
+        "extra_instruction_paths": [],
+        "extra_instructions": [],
+        "job_id": "33111087-59e8-4059-b882-ed94a72abb06",
+        "source_trial": null
+    },
+    "agent_info": {
+        "name": "oracle",
+        "version": "1.0.0",
+        "model_info": null
+    },
+    "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "model_usage": null,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "overall": 1.0,
+            "functional_correctness": 1.0,
+            "constraint_satisfaction": 1.0,
+            "robustness": 1.0,
+            "artifact_quality": 1.0
+        }
+    },
+    "verifier_environment_mode": "shared",
+    "exception_info": null,
+    "started_at": "2026-10-23T14:39:45.004400Z",
+    "finished_at": "2026-10-23T14:41:30.394465Z",
+    "environment_setup": {
+        "started_at": "2026-10-23T14:39:45.104114Z",
+        "finished_at": "2026-10-23T14:41:11.866534Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-10-23T14:41:11.870637Z",
+        "finished_at": "2026-10-23T14:41:11.871786Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-10-23T14:41:11.890029Z",
+        "finished_at": "2026-10-23T14:41:16.429420Z"
+    },
+    "verifier": {
+        "started_at": "2026-10-23T14:41:17.885498Z",
+        "finished_at": "2026-10-23T14:41:28.019338Z"
+    },
+    "step_results": null
+}

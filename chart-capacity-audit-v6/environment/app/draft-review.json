@@ -1,0 +1,12 @@
+{
+ "claims":[
+  {"id":"R1","text":"C2.r1 and C2.r2 describe separate Birch workloads, so add them to avoid undercounting.","required_evidence":["C2.r1","C2.r2","export-manifest.json"]},
+  {"id":"R2","text":"Alder Query API's negative W3 counter difference means demand fell below zero; clamp it to zero.","required_evidence":["C1.r1","operations.json"]},
+  {"id":"R3","text":"Delta Query API's missing B2 sample invalidates both W2 and W3, despite the documented reset.","required_evidence":["C4.r1","operations.json"]},
+  {"id":"R4","text":"Cedar Query API is latency-eligible because three of its four individual histograms have more than 5% slow samples.","required_evidence":["H3.r1","policy.md"]},
+  {"id":"R5","text":"Cedar Write API's large failed-request count makes it an admissible positive-tier rollout target in this change window.","required_evidence":["C3.r1","planning.json"]},
+  {"id":"R6","text":"Delta Write API's maintenance interval should contribute neither traffic demand nor latency samples to this decision.","required_evidence":["C4.r1","H4.r1","operations.json"]},
+  {"id":"R7","text":"A plan that fits the credit budget is necessarily feasible; power, active-region and regional-block constraints do not need separate checks.","required_evidence":["planning.json","policy.md"]},
+  {"id":"R8","text":"The collector deployment caused any post-B2 change in observed error fractions; these charts establish the causal effect.","required_evidence":["C1.r1","C4.r1","operations.json"]}
+ ]
+}

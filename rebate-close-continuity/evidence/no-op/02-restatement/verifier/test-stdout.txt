@@ -1,0 +1,175 @@
+FAIL delivered-financial-outcome: Independent recalculation failed: 
+Warning: failed to launch javaldx - java may not function correctly
+Error: source file could not be loaded
+
+Traceback (most recent call last):
+  File "/tests/test_settlement.py", line 305, in run
+    fn()
+  File "/tests/test_settlement.py", line 329, in financial
+    check_values(recalc(output, temp / "delivered"), expected)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tests/test_settlement.py", line 108, in recalc
+    require(process.returncode == 0 and result.is_file(),
+  File "/tests/test_settlement.py", line 26, in require
+    raise AssertionError(message)
+AssertionError: Independent recalculation failed: 
+Warning: failed to launch javaldx - java may not function correctly
+Error: source file could not be loaded
+
+PASS source-is-unmodified
+FAIL source-sheets-notebook-and-formulas: [Errno 2] No such file or directory: '/workspace/output/settlement.xlsx'
+Traceback (most recent call last):
+  File "/tests/test_settlement.py", line 305, in run
+    fn()
+  File "/tests/test_settlement.py", line 336, in <lambda>
+    lambda: check_preserved(output, source))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tests/test_settlement.py", line 150, in check_preserved
+    wb, src = load_workbook(path, data_only=True), load_workbook(source, data_only=True)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openpyxl/reader/excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openpyxl/reader/excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openpyxl/reader/excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/zipfile/__init__.py", line 1352, in __init__
+    self.fp = io.open(file, filemode)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/workspace/output/settlement.xlsx'
+FAIL approved-close-1: Independent recalculation failed: 
+Warning: failed to launch javaldx - java may not function correctly
+Error: source file could not be loaded
+
+Traceback (most recent call last):
+  File "/tests/test_settlement.py", line 305, in run
+    fn()
+  File "/tests/test_settlement.py", line 340, in archive
+    check_values(recalc(path, temp / f"archive-{index}"), expected_closes[index - 1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tests/test_settlement.py", line 108, in recalc
+    require(process.returncode == 0 and result.is_file(),
+  File "/tests/test_settlement.py", line 26, in require
+    raise AssertionError(message)
+AssertionError: Independent recalculation failed: 
+Warning: failed to launch javaldx - java may not function correctly
+Error: source file could not be loaded
+
+FAIL linked-adjustment-chart: Independent recalculation failed: 
+Warning: failed to launch javaldx - java may not function correctly
+Error: source file could not be loaded
+
+Traceback (most recent call last):
+  File "/tests/test_settlement.py", line 305, in run
+    fn()
+  File "/tests/test_settlement.py", line 344, in <lambda>
+    lambda: check_chart(recalc(output, temp / "chart")))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tests/test_settlement.py", line 108, in recalc
+    require(process.returncode == 0 and result.is_file(),
+  File "/tests/test_settlement.py", line 26, in require
+    raise AssertionError(message)
+AssertionError: Independent recalculation failed: 
+Warning: failed to launch javaldx - java may not function correctly
+Error: source file could not be loaded
+
+FAIL reconciled-report: [Errno 2] No such file or directory: '/workspace/output/reconciliation.json'
+Traceback (most recent call last):
+  File "/tests/test_settlement.py", line 305, in run
+    fn()
+  File "/tests/test_settlement.py", line 346, in <lambda>
+    lambda: check_report(output, source, DATES[phase - 1], expected))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tests/test_settlement.py", line 203, in check_report
+    report = json.loads(output.with_name("reconciliation.json").read_text())
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/workspace/output/reconciliation.json'
+FAIL live-formula-dependency: [Errno 2] No such file or directory: '/workspace/output/settlement.xlsx'
+Traceback (most recent call last):
+  File "/tests/test_settlement.py", line 305, in run
+    fn()
+  File "/tests/test_settlement.py", line 348, in <lambda>
+    lambda: formula_probe(output, expected, source, temp))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tests/test_settlement.py", line 275, in formula_probe
+    wb = load_workbook(output)
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openpyxl/reader/excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openpyxl/reader/excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openpyxl/reader/excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/zipfile/__init__.py", line 1352, in __init__
+    self.fp = io.open(file, filemode)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/workspace/output/settlement.xlsx'
+FAIL repeatable-refresh: Wrong active Detail event count
+Traceback (most recent call last):
+  File "/tests/test_settlement.py", line 305, in run
+    fn()
+  File "/tests/test_settlement.py", line 355, in replay
+    check_values(recalc(replay_output, temp / "replay-values"), expected)
+  File "/tests/test_settlement.py", line 124, in check_values
+    require(len(detail) == len(expected["detail"]), "Wrong active Detail event count")
+  File "/tests/test_settlement.py", line 26, in require
+    raise AssertionError(message)
+AssertionError: Wrong active Detail event count
+FAIL refresh-price-and-quantity: Wrong active Detail event count
+Traceback (most recent call last):
+  File "/tests/test_settlement.py", line 305, in run
+    fn()
+  File "/tests/test_settlement.py", line 371, in variation
+    check_values(recalc(target, folder / "recalc"), want)
+  File "/tests/test_settlement.py", line 124, in check_values
+    require(len(detail) == len(expected["detail"]), "Wrong active Detail event count")
+  File "/tests/test_settlement.py", line 26, in require
+    raise AssertionError(message)
+AssertionError: Wrong active Detail event count
+FAIL refresh-catalog-and-identity: Wrong active Detail event count
+Traceback (most recent call last):
+  File "/tests/test_settlement.py", line 305, in run
+    fn()
+  File "/tests/test_settlement.py", line 371, in variation
+    check_values(recalc(target, folder / "recalc"), want)
+  File "/tests/test_settlement.py", line 124, in check_values
+    require(len(detail) == len(expected["detail"]), "Wrong active Detail event count")
+  File "/tests/test_settlement.py", line 26, in require
+    raise AssertionError(message)
+AssertionError: Wrong active Detail event count
+FAIL refresh-new-events-and-revision: Wrong active Detail event count
+Traceback (most recent call last):
+  File "/tests/test_settlement.py", line 305, in run
+    fn()
+  File "/tests/test_settlement.py", line 371, in variation
+    check_values(recalc(target, folder / "recalc"), want)
+  File "/tests/test_settlement.py", line 124, in check_values
+    require(len(detail) == len(expected["detail"]), "Wrong active Detail event count")
+  File "/tests/test_settlement.py", line 26, in require
+    raise AssertionError(message)
+AssertionError: Wrong active Detail event count
+FAIL refresh-tier-equality: Wrong active Detail event count
+Traceback (most recent call last):
+  File "/tests/test_settlement.py", line 305, in run
+    fn()
+  File "/tests/test_settlement.py", line 371, in variation
+    check_values(recalc(target, folder / "recalc"), want)
+  File "/tests/test_settlement.py", line 124, in check_values
+    require(len(detail) == len(expected["detail"]), "Wrong active Detail event count")
+  File "/tests/test_settlement.py", line 26, in require
+    raise AssertionError(message)
+AssertionError: Wrong active Detail event count
+PASS refresh-left-inputs-and-archives-intact
+{"functional_correctness": 0.0, "constraint_satisfaction": 0.5, "robustness": 0.0, "artifact_quality": 0.0, "overall": 0.0}

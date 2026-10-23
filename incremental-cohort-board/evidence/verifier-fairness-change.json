@@ -1,0 +1,8 @@
+{
+  "changed_files": [
+    "tests/test_projection.py"
+  ],
+  "only_verifier_changed": true,
+  "criterion_changes": false,
+  "target_submissions_modified": false
+}

@@ -1,0 +1,79 @@
+{
+  "counts": {
+    "artifact_quality": {
+      "passed": 10,
+      "failed": 0
+    },
+    "constraint_satisfaction": {
+      "passed": 16914,
+      "failed": 0
+    },
+    "functional_correctness": {
+      "passed": 1232,
+      "failed": 0
+    },
+    "robustness": {
+      "passed": 4928,
+      "failed": 10
+    }
+  },
+  "failures": [
+    {
+      "group": "robustness",
+      "check": "live residual Checks!E6",
+      "detail": "actual=0; expected=71"
+    },
+    {
+      "group": "robustness",
+      "check": "live residual Checks!E7",
+      "detail": "actual=0; expected=0.0716253891360239"
+    },
+    {
+      "group": "robustness",
+      "check": "live residual Checks!E8",
+      "detail": "actual=0; expected=0.25796100731118443"
+    },
+    {
+      "group": "robustness",
+      "check": "live residual Checks!E9",
+      "detail": "actual=0; expected=-29.75"
+    },
+    {
+      "group": "robustness",
+      "check": "live residual Checks!E10",
+      "detail": "actual=0; expected=-53539.7741935483"
+    },
+    {
+      "group": "robustness",
+      "check": "live residual Checks!E11",
+      "detail": "actual=0; expected=-23493.77419354835"
+    },
+    {
+      "group": "robustness",
+      "check": "live residual Checks!E12",
+      "detail": "actual=0; expected=30000"
+    },
+    {
+      "group": "robustness",
+      "check": "live residual Checks!E13",
+      "detail": "actual=0; expected=200"
+    },
+    {
+      "group": "robustness",
+      "check": "live residual Checks!E14",
+      "detail": "actual=0; expected=29"
+    },
+    {
+      "group": "robustness",
+      "check": "live residual Checks!E15",
+      "detail": "actual=0; expected=7"
+    }
+  ],
+  "reward": {
+    "overall": 0.0,
+    "functional_correctness": 1.0,
+    "constraint_satisfaction": 1.0,
+    "robustness": 0.9979748886188741,
+    "artifact_quality": 1.0
+  }
+}

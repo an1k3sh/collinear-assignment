@@ -1,0 +1,180 @@
+{
+  "task_name": "collinear-candidate/rebate-close-continuity",
+  "task_checksum": "2e4d9ed34f16900bd94ea055e018344f5bfc5d1b3fe4792e6acc0712c19115b5",
+  "trial_name": "rebate-close-continuity__fjo2zSe",
+  "agent_info": {
+    "name": "oracle",
+    "version": "1.0.0",
+    "model_info": null
+  },
+  "verifier_result": {
+    "rewards": {
+      "functional_correctness": 1.0,
+      "constraint_satisfaction": 1.0,
+      "robustness": 1.0,
+      "artifact_quality": 1.0,
+      "overall": 1.0
+    }
+  },
+  "exception_info": null,
+  "started_at": "2026-10-23T19:15:22.503017Z",
+  "finished_at": "2026-10-23T19:17:22.524010Z",
+  "step_results": [
+    {
+      "step_name": "01-provisional",
+      "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "model_usage": null,
+        "rollout_details": null,
+        "metadata": null
+      },
+      "verifier_result": {
+        "rewards": {
+          "functional_correctness": 1.0,
+          "constraint_satisfaction": 1.0,
+          "robustness": 1.0,
+          "artifact_quality": 1.0,
+          "overall": 1.0
+        }
+      },
+      "exception_info": null,
+      "agent_execution": {
+        "started_at": "2026-10-23T19:15:27.279493Z",
+        "finished_at": "2026-10-23T19:15:28.218356Z"
+      },
+      "verifier": {
+        "started_at": "2026-10-23T19:15:30.537700Z",
+        "finished_at": "2026-10-23T19:15:39.524631Z"
+      }
+    },
+    {
+      "step_name": "02-restatement",
+      "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "model_usage": null,
+        "rollout_details": null,
+        "metadata": null
+      },
+      "verifier_result": {
+        "rewards": {
+          "functional_correctness": 1.0,
+          "constraint_satisfaction": 1.0,
+          "robustness": 1.0,
+          "artifact_quality": 1.0,
+          "overall": 1.0
+        }
+      },
+      "exception_info": null,
+      "agent_execution": {
+        "started_at": "2026-10-23T19:15:40.043834Z",
+        "finished_at": "2026-10-23T19:15:41.600602Z"
+      },
+      "verifier": {
+        "started_at": "2026-10-23T19:15:43.327843Z",
+        "finished_at": "2026-10-23T19:15:57.690758Z"
+      }
+    },
+    {
+      "step_name": "03-roll-forward",
+      "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "model_usage": null,
+        "rollout_details": null,
+        "metadata": null
+      },
+      "verifier_result": {
+        "rewards": {
+          "functional_correctness": 1.0,
+          "constraint_satisfaction": 1.0,
+          "robustness": 1.0,
+          "artifact_quality": 1.0,
+          "overall": 1.0
+        }
+      },
+      "exception_info": null,
+      "agent_execution": {
+        "started_at": "2026-10-23T19:15:58.218263Z",
+        "finished_at": "2026-10-23T19:15:59.849833Z"
+      },
+      "verifier": {
+        "started_at": "2026-10-23T19:16:01.682098Z",
+        "finished_at": "2026-10-23T19:16:16.079015Z"
+      }
+    },
+    {
+      "step_name": "04-claim-batch",
+      "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "model_usage": null,
+        "rollout_details": null,
+        "metadata": null
+      },
+      "verifier_result": {
+        "rewards": {
+          "functional_correctness": 1.0,
+          "constraint_satisfaction": 1.0,
+          "robustness": 1.0,
+          "artifact_quality": 1.0,
+          "overall": 1.0
+        }
+      },
+      "exception_info": null,
+      "agent_execution": {
+        "started_at": "2026-10-23T19:16:16.694105Z",
+        "finished_at": "2026-10-23T19:16:19.817245Z"
+      },
+      "verifier": {
+        "started_at": "2026-10-23T19:16:21.508567Z",
+        "finished_at": "2026-10-23T19:16:46.520995Z"
+      }
+    },
+    {
+      "step_name": "05-remittance-replan",
+      "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "model_usage": null,
+        "rollout_details": null,
+        "metadata": null
+      },
+      "verifier_result": {
+        "rewards": {
+          "functional_correctness": 1.0,
+          "constraint_satisfaction": 1.0,
+          "robustness": 1.0,
+          "artifact_quality": 1.0,
+          "overall": 1.0
+        }
+      },
+      "exception_info": null,
+      "agent_execution": {
+        "started_at": "2026-10-23T19:16:47.111423Z",
+        "finished_at": "2026-10-23T19:16:49.804118Z"
+      },
+      "verifier": {
+        "started_at": "2026-10-23T19:16:51.377928Z",
+        "finished_at": "2026-10-23T19:17:20.357656Z"
+      }
+    }
+  ],
+  "requested_agent": {
+    "name": "oracle",
+    "model_name": null,
+    "kwargs": {},
+    "resume_trajectory": false
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "valid_serial_workers": {
+    "expected": 1,
+    "actual": 1.0,
+    "correct": true
+  },
+  "float_truncation": {
+    "expected": 0,
+    "actual": 0.0,
+    "correct": true
+  },
+  "key_reuse_accepted": {
+    "expected": 0,
+    "actual": 0.0,
+    "correct": true
+  },
+  "payment_without_receipt": {
+    "expected": 0,
+    "actual": 0.0,
+    "correct": true
+  }
+}

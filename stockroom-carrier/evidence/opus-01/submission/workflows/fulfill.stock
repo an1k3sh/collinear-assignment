@@ -1,0 +1,29 @@
+// Legacy bundle fulfillment library (docs/fulfillment.md). No main procedure.
+
+// One fully atomic attempt from a single warehouse. The caller wraps it in a
+// transaction so that a SHORTAGE rolls back both holds.
+proc fulfill_attempt(order: string, sku_a: string, qty_a: int,
+                     sku_b: string, qty_b: int, warehouse: string) {
+    reserve(order + ".a", warehouse, sku_a, qty_a);
+    reserve(order + ".b", warehouse, sku_b, qty_b);
+    pause order + ":reserved";
+    ship(order + ".a", qty_a);
+    ship(order + ".b", qty_b);
+    emit "fulfilled" { order: order; warehouse: warehouse; units: qty_a + qty_b; };
+}
+
+proc fulfill(order: string, sku_a: string, qty_a: int,
+             sku_b: string, qty_b: int, preferred: string, fallback: string) {
+    transaction {
+        fulfill_attempt(order, sku_a, qty_a, sku_b, qty_b, preferred);
+    } recover (first) {
+        // There is no rethrow: any non-shortage failure fails explicitly.
+        assert code(first) == "SHORTAGE";
+        transaction {
+            fulfill_attempt(order, sku_a, qty_a, sku_b, qty_b, fallback);
+        } recover (second) {
+            assert code(second) == "SHORTAGE";
+            emit "deferred" { order: order; reason: "SHORTAGE"; };
+        }
+    }
+}

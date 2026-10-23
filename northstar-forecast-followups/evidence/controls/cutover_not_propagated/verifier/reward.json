@@ -1,0 +1,7 @@
+{
+  "overall": 0.0,
+  "functional_correctness": 0.9431906614785992,
+  "constraint_satisfaction": 0.9998720655024628,
+  "robustness": 0.939384116693679,
+  "artifact_quality": 1.0
+}

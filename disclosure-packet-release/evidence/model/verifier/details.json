@@ -1,0 +1,23 @@
+{
+  "input_integrity": {
+    "passed": true
+  },
+  "release_contents": {
+    "passed": true
+  },
+  "privacy": {
+    "passed": true
+  },
+  "document": {
+    "passed": true
+  },
+  "navigation": {
+    "passed": true
+  },
+  "supporting": {
+    "passed": true
+  },
+  "recalculation": {
+    "passed": true
+  }
+}

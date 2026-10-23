@@ -1,0 +1,11 @@
+lot,recorded_at,status,available
+F3,2026-06-15T06:45:00Z,released,115
+C1,2026-06-15T06:45:00Z,released,0
+F4,2026-06-15T06:45:00Z,released,0
+C3,2026-06-15T06:45:00Z,released,115
+F4,2026-06-15T07:49:00Z,quarantined,0
+C4,2026-06-15T07:49:00Z,quarantined,0
+F1,2026-06-15T06:45:00Z,released,0
+C4,2026-06-15T06:45:00Z,released,0
+C2,2026-06-15T06:45:00Z,released,65
+F2,2026-06-15T06:45:00Z,released,65

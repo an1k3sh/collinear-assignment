@@ -1,0 +1,12 @@
+{
+ "claims":[
+  {"id":"R1","verdict":"incorrect","evidence":["C2.r1","C2.r2","export-manifest.json"],"explanation":"C2.r2 replaces the entire old page. Both describe the same targets and boundaries; summing them double-counts requests and retains obsolete retry accounting."},
+  {"id":"R2","verdict":"incorrect","evidence":["C1.r1","operations.json"],"explanation":"AS request and error counters reset after B2. W3 subtracts exact zero baselines from B3, giving 100000 requests and 3000 errors, not a negative or zero workload."},
+  {"id":"R3","verdict":"incorrect","evidence":["C4.r1","operations.json"],"explanation":"DS W2 cannot be reconstructed because its end sample is missing. DS W3 can: both metrics have a documented zero baseline, so the missing pre-reset B2 sample is not needed."},
+  {"id":"R4","verdict":"incorrect","evidence":["H3.r1","policy.md"],"explanation":"Pooling counts yields 310 slow samples among 13000 for CS, below 5%. The high-volume fast W4 dominates the population. Voting across windows or averaging their p95 bins is wrong."},
+  {"id":"R5","verdict":"incorrect","evidence":["C3.r1","planning.json"],"explanation":"CI has substantial weighted risk and meets the latency condition, but Cedar is frozen for this rollout. It must receive tier zero; its risk remains in the residual."},
+  {"id":"R6","verdict":"correct","evidence":["C4.r1","H4.r1","operations.json"],"explanation":"DI W2 is maintenance. Preserve reconstructed values for traceability but exclude them from both workload totals and the joined latency histogram."},
+  {"id":"R7","verdict":"incorrect","evidence":["planning.json","policy.md"],"explanation":"Credits include per-region activation once, and power, active-region count, regional block caps, latency eligibility and freezes are independent feasibility requirements."},
+  {"id":"R8","verdict":"unsupported","evidence":["C1.r1","C4.r1","operations.json"],"explanation":"A time marker and observed changes do not identify a treatment effect. Counter resets and missing telemetry are documented instrument events, not evidence that capacity or the deployment caused service changes."}
+ ]
+}

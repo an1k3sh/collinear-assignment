@@ -1,0 +1,84 @@
+{
+  "controls": [
+    {
+      "name": "oracle-values",
+      "expected": "accept",
+      "observed": "accept"
+    },
+    {
+      "name": "oracle-preservation",
+      "expected": "accept",
+      "observed": "accept"
+    },
+    {
+      "name": "oracle-chart",
+      "expected": "accept",
+      "observed": "accept"
+    },
+    {
+      "name": "different-row-order-and-equivalent-formula",
+      "expected": "accept",
+      "observed": "accept"
+    },
+    {
+      "name": "correct-but-hardcoded-summary",
+      "expected": "reject",
+      "observed": "reject",
+      "reason": "Summary C2 is not a live formula"
+    },
+    {
+      "name": "omit-ineligible-event",
+      "expected": "reject",
+      "observed": "reject",
+      "reason": "Wrong active Detail event count"
+    },
+    {
+      "name": "credit-in-arrival-quarter",
+      "expected": "reject",
+      "observed": "reject",
+      "reason": "Incorrect event valuation/attribution EARLY-CREDIT: {'event_id': 'EARLY-CREDIT', 'purchase_line': 'INV-0012', 'group': 'Aster', 'quarter': '2026-Q2', 'kind': 'RETURN', 'eligible_cents': -701}, expected ('INV-0012', 'Aster', '2026-Q1', 'RETURN', -701)"
+    },
+    {
+      "name": "subtract-prior-adjustment-not-entitlement",
+      "expected": "reject",
+      "observed": "reject",
+      "reason": "('Aster', '2026-Q1')/previous_entitlement: expected 884.81, got -26.9400000000001"
+    },
+    {
+      "name": "drop-vanished-prior-key",
+      "expected": "reject",
+      "observed": "reject",
+      "reason": "Wrong Summary key count (including prior-only keys)"
+    },
+    {
+      "name": "stale-all-volume-rate",
+      "expected": "reject",
+      "observed": "reject",
+      "reason": "('Exact', '2026-Q1')/rate_bps: expected 125, got 250"
+    },
+    {
+      "name": "chart-shows-entitlement-not-adjustment",
+      "expected": "reject",
+      "observed": "reject",
+      "reason": "No linked bar/column chart covers every Summary adjustment and group label"
+    },
+    {
+      "name": "static-lookalike-chart",
+      "expected": "reject",
+      "observed": "reject",
+      "reason": "No linked bar/column chart covers every Summary adjustment and group label"
+    },
+    {
+      "name": "overwrite-human-notebook",
+      "expected": "reject",
+      "observed": "reject",
+      "reason": "Changed source cells in OperatorNotes"
+    },
+    {
+      "name": "fabricated-report-total",
+      "expected": "reject",
+      "observed": "reject",
+      "reason": "Report has wrong as_of"
+    }
+  ]
+}

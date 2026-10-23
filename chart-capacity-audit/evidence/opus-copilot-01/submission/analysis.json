@@ -1,0 +1,131 @@
+{
+  "regions": {
+    "Alder": {
+      "included_windows": [
+        "W1",
+        "W2",
+        "W3",
+        "W4",
+        "W5",
+        "W6",
+        "W7",
+        "W8"
+      ],
+      "latency_windows": [
+        "W7",
+        "W8"
+      ],
+      "latency_p95_estimates": [
+        330.0,
+        350.0
+      ],
+      "requests": 60000.0,
+      "failed_requests": 3840.0,
+      "failure_pct": 6.4,
+      "failed_bounds": [
+        3115.2,
+        4603.2
+      ],
+      "eligible": true
+    },
+    "Birch": {
+      "included_windows": [
+        "W1",
+        "W2",
+        "W3",
+        "W4",
+        "W5",
+        "W6",
+        "W7",
+        "W8"
+      ],
+      "latency_windows": [
+        "W7",
+        "W8"
+      ],
+      "latency_p95_estimates": [
+        420.0,
+        440.0
+      ],
+      "requests": 504000.0,
+      "failed_requests": 16170.0,
+      "failure_pct": 3.2083333333333335,
+      "failed_bounds": [
+        14869.199999999999,
+        17509.2
+      ],
+      "eligible": true
+    },
+    "Cedar": {
+      "included_windows": [
+        "W1",
+        "W2",
+        "W3",
+        "W4",
+        "W5",
+        "W6"
+      ],
+      "latency_windows": [
+        "W5",
+        "W6"
+      ],
+      "latency_p95_estimates": [
+        260.0,
+        270.0
+      ],
+      "requests": 162000.0,
+      "failed_requests": 2070.0,
+      "failure_pct": 1.2777777777777777,
+      "failed_bounds": [
+        1670.4,
+        2498.4
+      ],
+      "eligible": false
+    },
+    "Delta": {
+      "included_windows": [
+        "W3",
+        "W4",
+        "W5",
+        "W6",
+        "W7",
+        "W8"
+      ],
+      "latency_windows": [
+        "W7",
+        "W8"
+      ],
+      "latency_p95_estimates": [
+        370.0,
+        390.0
+      ],
+      "requests": 198000.0,
+      "failed_requests": 8580.0,
+      "failure_pct": 4.333333333333333,
+      "failed_bounds": [
+        7886.4,
+        9302.4
+      ],
+      "eligible": true
+    }
+  },
+  "fleet": {
+    "requests": 924000.0,
+    "failed_requests": 30660.0,
+    "failure_pct": 3.3181818181818183
+  },
+  "allocation": {
+    "Alder": 0,
+    "Birch": 2,
+    "Cedar": 0,
+    "Delta": 1
+  },
+  "expected_benefit": 13134.0,
+  "benefit_bounds": [
+    12076.08,
+    14226.480000000001
+  ],
+  "robust_margin": 1113.3599999999994,
+  "robust": true,
+  "feasible_allocations": 17
+}

@@ -1,0 +1,24 @@
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 89171
+INFO: Loaded 1 modules   (7005 inline 8-bit counters): 7005 [0xaaaaaf3a4a50, 0xaaaaaf3a65ad), 
+INFO: Loaded 1 PC tables (7005 PCs): 7005 [0xaaaaaf3a65b0,0xaaaaaf3c1b80), 
+INFO:       12 files found in /work/audit/ignored-input/corpus
+INFO: seed corpus: files: 12 min: 8b max: 184b total: 1152b rss: 45Mb
+#13	INITED cov: 1017 ft: 1018 corp: 1/8b exec/s: 0 rss: 60Mb
+#14	REDUCE cov: 1017 ft: 1018 corp: 1/5b lim: 8 exec/s: 0 rss: 62Mb L: 5/5 MS: 1 CrossOver-
+#19	REDUCE cov: 1017 ft: 1018 corp: 1/4b lim: 8 exec/s: 0 rss: 68Mb L: 4/4 MS: 5 ChangeBinInt-ShuffleBytes-ShuffleBytes-CopyPart-EraseBytes-
+#87	REDUCE cov: 1017 ft: 1018 corp: 1/3b lim: 8 exec/s: 0 rss: 90Mb L: 3/3 MS: 3 InsertRepeatedBytes-InsertByte-CrossOver-
+#104	REDUCE cov: 1017 ft: 1018 corp: 1/1b lim: 8 exec/s: 0 rss: 90Mb L: 1/1 MS: 2 CMP-CrossOver- DE: "disti"-
+#2048	pulse  cov: 1017 ft: 1018 corp: 1/1b lim: 25 exec/s: 1024 rss: 90Mb
+#4096	pulse  cov: 1017 ft: 1018 corp: 1/1b lim: 43 exec/s: 1024 rss: 90Mb
+#8192	pulse  cov: 1017 ft: 1018 corp: 1/1b lim: 86 exec/s: 1024 rss: 90Mb
+#10000	DONE   cov: 1017 ft: 1018 corp: 1/1b lim: 104 exec/s: 1111 rss: 90Mb
+###### Recommended dictionary. ######
+"disti" # Uses: 671
+###### End of recommended dictionary. ######
+Done 10000 runs in 9 second(s)
+stat::number_of_executed_units: 10000
+stat::average_exec_per_sec:     1111
+stat::new_units_added:          4
+stat::slowest_unit_time_sec:    0
+stat::peak_rss_mb:              90

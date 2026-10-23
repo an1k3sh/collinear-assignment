@@ -1,0 +1,21 @@
+[
+  {"id":"r4/confirmed-household","mutations":[
+    {"table":"links","id":"a-001","row":{"id":"a-001","left_account":"001","right_account":"dormant"}},
+    {"table":"links","id":"a-1","row":{"id":"a-1","left_account":"dormant","right_account":"1"}},
+    {"table":"links","id":"a-1-parallel","row":{"id":"a-1-parallel","left_account":"1","right_account":"dormant"}},
+    {"table":"links","id":"self","row":{"id":"self","left_account":"null","right_account":"null"}}
+  ]},
+  {"id":"r4/identity-correction","mutations":[
+    {"table":"links","id":"a-1","row":null},
+    {"table":"links","id":"a-1-parallel","row":null},
+    {"table":"links","id":"a-001","row":{"id":"a-001","left_account":"001","right_account":""}},
+    {"table":"tags","id":"r4/tag","row":{"id":"r4/tag","account":"1","segment":"trade"}},
+    {"table":"orders","id":"o-104","row":{"id":"o-104","account":"","day":null,"cents":-50}},
+    {"table":"rates","id":"r4/rate","row":{"id":"r4/rate","segment":"trade","band":null}}
+  ]},
+  {"id":"r4/dormant-bridge","mutations":[
+    {"table":"links","id":"a-1","row":{"id":"a-1","left_account":"","right_account":"unused-bridge"}},
+    {"table":"links","id":"a-1-parallel","row":{"id":"a-1-parallel","left_account":"unused-bridge","right_account":"1"}},
+    {"table":"links","id":"cycle","row":{"id":"cycle","left_account":"001","right_account":"1"}}
+  ]}
+]

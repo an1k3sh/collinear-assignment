@@ -1,0 +1,24 @@
+{
+  "boundaries": [
+    {"id":"B0","utc":"2026-09-21T08:00:00Z"},
+    {"id":"B1","utc":"2026-09-21T08:30:00Z"},
+    {"id":"B2","utc":"2026-09-21T09:30:00Z"},
+    {"id":"B3","utc":"2026-09-21T10:00:00Z"},
+    {"id":"B4","utc":"2026-09-21T11:00:00Z"}
+  ],
+  "windows": [
+    {"id":"W1","start":"B0","end":"B1","minutes":30},
+    {"id":"W2","start":"B1","end":"B2","minutes":60},
+    {"id":"W3","start":"B2","end":"B3","minutes":30},
+    {"id":"W4","start":"B3","end":"B4","minutes":60}
+  ],
+  "resets": [
+    {"target":"AS","window":"W3","metric":"requests","baseline":0},
+    {"target":"AS","window":"W3","metric":"errors","baseline":0},
+    {"target":"BI","window":"W2","metric":"errors","baseline":0},
+    {"target":"DS","window":"W3","metric":"requests","baseline":0},
+    {"target":"DS","window":"W3","metric":"errors","baseline":0}
+  ],
+  "maintenance": [{"target":"DI","window":"W2"}],
+  "deployment": {"boundary":"B2","description":"Collector rollout and selected counter restarts"}
+}

@@ -1,0 +1,86 @@
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 89171
+INFO: Loaded 1 modules   (7025 inline 8-bit counters): 7025 [0xaaaac6b54a20, 0xaaaac6b56591), 
+INFO: Loaded 1 PC tables (7025 PCs): 7025 [0xaaaac6b56598,0xaaaac6b71ca8), 
+INFO:       12 files found in /work/audit/having-set-union/corpus
+INFO: seed corpus: files: 12 min: 8b max: 184b total: 1152b rss: 43Mb
+#13	INITED cov: 1436 ft: 2660 corp: 12/1152b exec/s: 0 rss: 57Mb
+#14	NEW    cov: 1449 ft: 2689 corp: 13/1285b lim: 184 exec/s: 0 rss: 58Mb L: 133/184 MS: 1 CrossOver-
+#17	NEW    cov: 1454 ft: 2756 corp: 14/1373b lim: 184 exec/s: 0 rss: 62Mb L: 88/184 MS: 3 ShuffleBytes-ShuffleBytes-CopyPart-
+#18	NEW    cov: 1457 ft: 2843 corp: 15/1381b lim: 184 exec/s: 0 rss: 62Mb L: 8/184 MS: 1 ChangeByte-
+#19	NEW    cov: 1470 ft: 2859 corp: 16/1469b lim: 184 exec/s: 0 rss: 63Mb L: 88/184 MS: 1 CMP- DE: "\000\000`\200\000\012ah"-
+	NEW_FUNC[1/1]: ==962==WARNING: invalid path to external symbolizer!
+==962==WARNING: Failed to use and restart external symbolizer!
+0xaaaac6ac8e84  (/work/audit/having-set-union/build/tlp_fuzz+0x1e8e84) (BuildId: df1a76c561fa7b546e155a525f20f484b577bc1e)
+#20	NEW    cov: 1479 ft: 2928 corp: 17/1573b lim: 184 exec/s: 0 rss: 64Mb L: 104/184 MS: 1 ChangeBinInt-
+#21	NEW    cov: 1479 ft: 2939 corp: 18/1645b lim: 184 exec/s: 0 rss: 65Mb L: 72/184 MS: 1 ChangeASCIIInt-
+#22	NEW    cov: 1479 ft: 2975 corp: 19/1669b lim: 184 exec/s: 0 rss: 66Mb L: 24/184 MS: 1 ChangeBit-
+#23	NEW    cov: 1529 ft: 3102 corp: 20/1821b lim: 184 exec/s: 0 rss: 66Mb L: 152/184 MS: 1 CMP- DE: "cou"-
+#24	NEW    cov: 1534 ft: 3250 corp: 21/1848b lim: 184 exec/s: 0 rss: 68Mb L: 27/184 MS: 1 PersAutoDict- DE: "cou"-
+#25	NEW    cov: 1538 ft: 3497 corp: 22/1952b lim: 184 exec/s: 0 rss: 69Mb L: 104/184 MS: 1 CMP- DE: "\001\000\000\000\000\000\000\000"-
+#26	NEW    cov: 1538 ft: 3503 corp: 23/2126b lim: 184 exec/s: 0 rss: 70Mb L: 174/184 MS: 1 InsertRepeatedBytes-
+#27	NEW    cov: 1538 ft: 3516 corp: 24/2262b lim: 184 exec/s: 0 rss: 71Mb L: 136/184 MS: 1 ChangeBinInt-
+#28	NEW    cov: 1538 ft: 3530 corp: 25/2293b lim: 184 exec/s: 0 rss: 72Mb L: 31/184 MS: 1 CMP- DE: "pred"-
+#29	NEW    cov: 1540 ft: 3578 corp: 26/2381b lim: 184 exec/s: 0 rss: 73Mb L: 88/184 MS: 1 ChangeByte-
+#30	NEW    cov: 1541 ft: 3612 corp: 27/2470b lim: 184 exec/s: 0 rss: 73Mb L: 89/184 MS: 1 InsertByte-
+#31	NEW    cov: 1541 ft: 3619 corp: 28/2562b lim: 184 exec/s: 0 rss: 74Mb L: 92/184 MS: 1 CMP- DE: "\377\377\377\305"-
+#32	NEW    cov: 1541 ft: 3623 corp: 29/2589b lim: 184 exec/s: 0 rss: 75Mb L: 27/184 MS: 1 ChangeByte-
+#33	NEW    cov: 1541 ft: 3627 corp: 30/2645b lim: 184 exec/s: 0 rss: 76Mb L: 56/184 MS: 1 CopyPart-
+#34	NEW    cov: 1541 ft: 3645 corp: 31/2694b lim: 184 exec/s: 0 rss: 77Mb L: 49/184 MS: 1 CopyPart-
+#35	NEW    cov: 1541 ft: 3646 corp: 32/2721b lim: 184 exec/s: 0 rss: 78Mb L: 27/184 MS: 1 ChangeBinInt-
+#37	NEW    cov: 1541 ft: 3655 corp: 33/2825b lim: 184 exec/s: 0 rss: 80Mb L: 104/184 MS: 2 InsertByte-InsertRepeatedBytes-
+	NEW_FUNC[1/1]: 0xaaaac6a90ec4  (/work/audit/having-set-union/build/tlp_fuzz+0x1b0ec4) (BuildId: df1a76c561fa7b546e155a525f20f484b577bc1e)
+#38	NEW    cov: 1550 ft: 3667 corp: 34/2913b lim: 184 exec/s: 0 rss: 81Mb L: 88/184 MS: 1 ChangeBinInt-
+#39	NEW    cov: 1550 ft: 3709 corp: 35/3027b lim: 184 exec/s: 0 rss: 83Mb L: 114/184 MS: 1 CrossOver-
+	NEW_FUNC[1/1]: 0xaaaac6ac3ddc  (/work/audit/having-set-union/build/tlp_fuzz+0x1e3ddc) (BuildId: df1a76c561fa7b546e155a525f20f484b577bc1e)
+#40	NEW    cov: 1558 ft: 3719 corp: 36/3113b lim: 184 exec/s: 0 rss: 83Mb L: 86/184 MS: 1 CrossOver-
+#41	NEW    cov: 1558 ft: 3774 corp: 37/3288b lim: 184 exec/s: 0 rss: 84Mb L: 175/184 MS: 1 InsertByte-
+#42	NEW    cov: 1558 ft: 3787 corp: 38/3328b lim: 184 exec/s: 0 rss: 85Mb L: 40/184 MS: 1 ShuffleBytes-
+#43	NEW    cov: 1558 ft: 3793 corp: 39/3420b lim: 184 exec/s: 0 rss: 86Mb L: 92/184 MS: 1 CrossOver-
+#44	NEW    cov: 1558 ft: 3810 corp: 40/3528b lim: 184 exec/s: 0 rss: 86Mb L: 108/184 MS: 1 PersAutoDict- DE: "\377\377\377\305"-
+#45	NEW    cov: 1558 ft: 3814 corp: 41/3636b lim: 184 exec/s: 0 rss: 88Mb L: 108/184 MS: 1 ShuffleBytes-
+#46	NEW    cov: 1558 ft: 3821 corp: 42/3809b lim: 184 exec/s: 0 rss: 89Mb L: 173/184 MS: 1 CrossOver-
+#47	NEW    cov: 1558 ft: 3833 corp: 43/3945b lim: 184 exec/s: 0 rss: 90Mb L: 136/184 MS: 1 ChangeBinInt-
+#48	NEW    cov: 1558 ft: 3842 corp: 44/3994b lim: 184 exec/s: 0 rss: 90Mb L: 49/184 MS: 1 ShuffleBytes-
+#49	NEW    cov: 1558 ft: 3847 corp: 45/4012b lim: 184 exec/s: 0 rss: 91Mb L: 18/184 MS: 1 CMP- DE: "[\"x\\u0000y"-
+#50	NEW    cov: 1558 ft: 3848 corp: 46/4185b lim: 184 exec/s: 0 rss: 91Mb L: 173/184 MS: 1 ChangeByte-
+#51	NEW    cov: 1558 ft: 3876 corp: 47/4338b lim: 184 exec/s: 0 rss: 91Mb L: 153/184 MS: 1 InsertByte-
+#52	NEW    cov: 1558 ft: 3877 corp: 48/4433b lim: 184 exec/s: 0 rss: 91Mb L: 95/184 MS: 1 PersAutoDict- DE: "cou"-
+#53	NEW    cov: 1558 ft: 3882 corp: 49/4579b lim: 184 exec/s: 0 rss: 91Mb L: 146/184 MS: 1 CrossOver-
+#54	NEW    cov: 1558 ft: 3892 corp: 50/4606b lim: 184 exec/s: 0 rss: 91Mb L: 27/184 MS: 1 CopyPart-
+#55	NEW    cov: 1558 ft: 3893 corp: 51/4646b lim: 184 exec/s: 0 rss: 91Mb L: 40/184 MS: 1 ChangeBinInt-
+#57	NEW    cov: 1558 ft: 3904 corp: 52/4766b lim: 184 exec/s: 0 rss: 92Mb L: 120/184 MS: 2 ShuffleBytes-ChangeBit-
+#58	NEW    cov: 1558 ft: 3905 corp: 53/4943b lim: 184 exec/s: 0 rss: 92Mb L: 177/184 MS: 1 CrossOver-
+TLP failure: TLP mismatch; replay this binary input
+==962== ERROR: libFuzzer: deadly signal
+    #0 0xaaaac6a253e0  (/work/audit/having-set-union/build/tlp_fuzz+0x1453e0) (BuildId: df1a76c561fa7b546e155a525f20f484b577bc1e)
+    #1 0xaaaac697bbd8  (/work/audit/having-set-union/build/tlp_fuzz+0x9bbd8) (BuildId: df1a76c561fa7b546e155a525f20f484b577bc1e)
+    #2 0xaaaac69631a0  (/work/audit/having-set-union/build/tlp_fuzz+0x831a0) (BuildId: df1a76c561fa7b546e155a525f20f484b577bc1e)
+    #3 0xffff93a487e4  (linux-vdso.so.1+0x7e4) (BuildId: 4fece5beffd59f501a75460848dc024366956f30)
+    #4 0xffff93433c14  (/lib/aarch64-linux-gnu/libc.so.6+0x83c14) (BuildId: 3ff3f95a1642952473d0d5739aaf308b0e24f694)
+    #5 0xffff933ea8a8  (/lib/aarch64-linux-gnu/libc.so.6+0x3a8a8) (BuildId: 3ff3f95a1642952473d0d5739aaf308b0e24f694)
+    #6 0xffff933d747c  (/lib/aarch64-linux-gnu/libc.so.6+0x2747c) (BuildId: 3ff3f95a1642952473d0d5739aaf308b0e24f694)
+    #7 0xaaaac6a54e6c  (/work/audit/having-set-union/build/tlp_fuzz+0x174e6c) (BuildId: df1a76c561fa7b546e155a525f20f484b577bc1e)
+    #8 0xaaaac696453c  (/work/audit/having-set-union/build/tlp_fuzz+0x8453c) (BuildId: df1a76c561fa7b546e155a525f20f484b577bc1e)
+    #9 0xaaaac6963cfc  (/work/audit/having-set-union/build/tlp_fuzz+0x83cfc) (BuildId: df1a76c561fa7b546e155a525f20f484b577bc1e)
+    #10 0xaaaac6965408  (/work/audit/having-set-union/build/tlp_fuzz+0x85408) (BuildId: df1a76c561fa7b546e155a525f20f484b577bc1e)
+    #11 0xaaaac6966114  (/work/audit/having-set-union/build/tlp_fuzz+0x86114) (BuildId: df1a76c561fa7b546e155a525f20f484b577bc1e)
+    #12 0xaaaac6954ef4  (/work/audit/having-set-union/build/tlp_fuzz+0x74ef4) (BuildId: df1a76c561fa7b546e155a525f20f484b577bc1e)
+    #13 0xaaaac697c2e0  (/work/audit/having-set-union/build/tlp_fuzz+0x9c2e0) (BuildId: df1a76c561fa7b546e155a525f20f484b577bc1e)
+    #14 0xffff933d7740  (/lib/aarch64-linux-gnu/libc.so.6+0x27740) (BuildId: 3ff3f95a1642952473d0d5739aaf308b0e24f694)
+    #15 0xffff933d7814  (/lib/aarch64-linux-gnu/libc.so.6+0x27814) (BuildId: 3ff3f95a1642952473d0d5739aaf308b0e24f694)
+    #16 0xaaaac694b2ac  (/work/audit/having-set-union/build/tlp_fuzz+0x6b2ac) (BuildId: df1a76c561fa7b546e155a525f20f484b577bc1e)
+
+NOTE: libFuzzer has rudimentary signal handlers.
+      Combine libFuzzer with AddressSanitizer or similar for better crash reports.
+SUMMARY: libFuzzer: deadly signal
+MS: 1 CopyPart-; base unit: 5fd8689ae560683658416cc1396a78b354f8215b
+0x56,0xc8,0x54,0x5b,0x54,0x5b,0xe9,0x8,0xe1,0x41,0xf9,0x12,0xee,0xfd,0x2d,0xe0,0x3a,0x60,0xec,0x2b,0xfc,0xf1,0xe6,0x5f,0xd1,0xe0,0x63,0x57,0x59,0x9b,0xed,0xe7,0xde,0x1a,0xb5,0x9e,0x7e,0x84,0x90,0xfa,
+V\310T[T[\351\010\341A\371\022\356\375-\340:`\354+\374\361\346_\321\340cWY\233\355\347\336\032\265\236~\204\220\372
+artifact_prefix='/work/audit/having-set-union/'; Test unit written to /work/audit/having-set-union/crash-0549f817345ab40655d8e0c74d1facbcf763460b
+Base64: VshUW1Rb6QjhQfkS7v0t4Dpg7Cv88eZf0eBjV1mb7efeGrWefoSQ+g==
+stat::number_of_executed_units: 59
+stat::average_exec_per_sec:     0
+stat::new_units_added:          41
+stat::slowest_unit_time_sec:    0
+stat::peak_rss_mb:              92

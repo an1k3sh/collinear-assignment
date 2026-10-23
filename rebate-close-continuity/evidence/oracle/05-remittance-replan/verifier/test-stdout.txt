@@ -1,0 +1,25 @@
+PASS delivered-financial-outcome
+PASS source-is-unmodified
+PASS source-sheets-notebook-and-formulas
+PASS approved-close-1
+PASS approved-close-2
+PASS approved-close-3
+PASS linked-adjustment-chart
+PASS reconciled-report
+PASS live-formula-dependency
+PASS repeatable-refresh
+PASS refresh-price-and-quantity
+PASS refresh-catalog-and-identity
+PASS refresh-new-events-and-revision
+PASS refresh-tier-equality
+PASS refresh-left-inputs-and-archives-intact
+PASS claim-source-is-unmodified
+PASS optimal-current-claim-plan
+PASS approved-claim-plan-1
+PASS repeatable-optimal-plan
+PASS live-plan-capacity-formulas
+PASS optimal-plan-receipts-and-resource-limits
+PASS optimal-plan-new-packets-and-revisions
+PASS optimal-plan-priorities-and-minimums
+PASS planner-left-inputs-and-archives-intact
+{"functional_correctness": 1.0, "constraint_satisfaction": 1.0, "robustness": 1.0, "artifact_quality": 1.0, "overall": 1.0}

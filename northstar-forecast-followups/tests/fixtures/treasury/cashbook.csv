@@ -1,0 +1,5 @@
+book_id,bank_id,cash_amount
+CB101,B001,1800
+CB102,B002,-1200
+CB103,B013,-600
+CB104,B018,-420

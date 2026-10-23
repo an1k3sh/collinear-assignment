@@ -1,0 +1,709 @@
+{
+  "units": "base-counts",
+  "counters": [
+    {
+      "page": "C1.r1",
+      "target": "AS",
+      "boundary": "B0",
+      "requests": 500000,
+      "errors": 20000
+    },
+    {
+      "page": "C1.r1",
+      "target": "AS",
+      "boundary": "B1",
+      "requests": 600000,
+      "errors": 21000
+    },
+    {
+      "page": "C1.r1",
+      "target": "AS",
+      "boundary": "B2",
+      "requests": 800000,
+      "errors": 23000
+    },
+    {
+      "page": "C1.r1",
+      "target": "AS",
+      "boundary": "B3",
+      "requests": 100000,
+      "errors": 3000
+    },
+    {
+      "page": "C1.r1",
+      "target": "AS",
+      "boundary": "B4",
+      "requests": 300000,
+      "errors": 7000
+    },
+    {
+      "page": "C1.r1",
+      "target": "AI",
+      "boundary": "B0",
+      "requests": 570000,
+      "errors": 23000
+    },
+    {
+      "page": "C1.r1",
+      "target": "AI",
+      "boundary": "B1",
+      "requests": 690000,
+      "errors": 23400
+    },
+    {
+      "page": "C1.r1",
+      "target": "AI",
+      "boundary": "B2",
+      "requests": 930000,
+      "errors": 24000
+    },
+    {
+      "page": "C1.r1",
+      "target": "AI",
+      "boundary": "B3",
+      "requests": 1050000,
+      "errors": 24800
+    },
+    {
+      "page": "C1.r1",
+      "target": "AI",
+      "boundary": "B4",
+      "requests": 1290000,
+      "errors": 25800
+    },
+    {
+      "page": "C2.r1",
+      "target": "BS",
+      "boundary": "B0",
+      "requests": 640000,
+      "errors": 26000
+    },
+    {
+      "page": "C2.r1",
+      "target": "BS",
+      "boundary": "B1",
+      "requests": 780000,
+      "errors": 31000
+    },
+    {
+      "page": "C2.r1",
+      "target": "BS",
+      "boundary": "B2",
+      "requests": 1060000,
+      "errors": 39000
+    },
+    {
+      "page": "C2.r1",
+      "target": "BS",
+      "boundary": "B3",
+      "requests": 1200000,
+      "errors": 45000
+    },
+    {
+      "page": "C2.r1",
+      "target": "BS",
+      "boundary": "B4",
+      "requests": 1480000,
+      "errors": 54000
+    },
+    {
+      "page": "C2.r1",
+      "target": "BI",
+      "boundary": "B0",
+      "requests": 710000,
+      "errors": 29000
+    },
+    {
+      "page": "C2.r1",
+      "target": "BI",
+      "boundary": "B1",
+      "requests": 870000,
+      "errors": 33500
+    },
+    {
+      "page": "C2.r1",
+      "target": "BI",
+      "boundary": "B2",
+      "requests": 1190000,
+      "errors": 8500
+    },
+    {
+      "page": "C2.r1",
+      "target": "BI",
+      "boundary": "B3",
+      "requests": 1350000,
+      "errors": 14000
+    },
+    {
+      "page": "C2.r1",
+      "target": "BI",
+      "boundary": "B4",
+      "requests": 1670000,
+      "errors": 21500
+    },
+    {
+      "page": "C2.r2",
+      "target": "BS",
+      "boundary": "B0",
+      "requests": 640000,
+      "errors": 26000
+    },
+    {
+      "page": "C2.r2",
+      "target": "BS",
+      "boundary": "B1",
+      "requests": 780000,
+      "errors": 29000
+    },
+    {
+      "page": "C2.r2",
+      "target": "BS",
+      "boundary": "B2",
+      "requests": 1060000,
+      "errors": 35000
+    },
+    {
+      "page": "C2.r2",
+      "target": "BS",
+      "boundary": "B3",
+      "requests": 1200000,
+      "errors": 39000
+    },
+    {
+      "page": "C2.r2",
+      "target": "BS",
+      "boundary": "B4",
+      "requests": 1480000,
+      "errors": 46000
+    },
+    {
+      "page": "C2.r2",
+      "target": "BI",
+      "boundary": "B0",
+      "requests": 710000,
+      "errors": 29000
+    },
+    {
+      "page": "C2.r2",
+      "target": "BI",
+      "boundary": "B1",
+      "requests": 870000,
+      "errors": 31500
+    },
+    {
+      "page": "C2.r2",
+      "target": "BI",
+      "boundary": "B2",
+      "requests": 1190000,
+      "errors": 4500
+    },
+    {
+      "page": "C2.r2",
+      "target": "BI",
+      "boundary": "B3",
+      "requests": 1350000,
+      "errors": 8000
+    },
+    {
+      "page": "C2.r2",
+      "target": "BI",
+      "boundary": "B4",
+      "requests": 1670000,
+      "errors": 13500
+    },
+    {
+      "page": "C3.r1",
+      "target": "CS",
+      "boundary": "B0",
+      "requests": 780000,
+      "errors": 32000
+    },
+    {
+      "page": "C3.r1",
+      "target": "CS",
+      "boundary": "B1",
+      "requests": 960000,
+      "errors": 32700
+    },
+    {
+      "page": "C3.r1",
+      "target": "CS",
+      "boundary": "B2",
+      "requests": 1320000,
+      "errors": 33600
+    },
+    {
+      "page": "C3.r1",
+      "target": "CS",
+      "boundary": "B3",
+      "requests": 1500000,
+      "errors": 34400
+    },
+    {
+      "page": "C3.r1",
+      "target": "CS",
+      "boundary": "B4",
+      "requests": 1860000,
+      "errors": 35400
+    },
+    {
+      "page": "C3.r1",
+      "target": "CI",
+      "boundary": "B0",
+      "requests": 850000,
+      "errors": 35000
+    },
+    {
+      "page": "C3.r1",
+      "target": "CI",
+      "boundary": "B1",
+      "requests": 1050000,
+      "errors": 39500
+    },
+    {
+      "page": "C3.r1",
+      "target": "CI",
+      "boundary": "B2",
+      "requests": 1450000,
+      "errors": 45000
+    },
+    {
+      "page": "C3.r1",
+      "target": "CI",
+      "boundary": "B3",
+      "requests": 1650000,
+      "errors": 51500
+    },
+    {
+      "page": "C3.r1",
+      "target": "CI",
+      "boundary": "B4",
+      "requests": 2050000,
+      "errors": 59000
+    },
+    {
+      "page": "C4.r1",
+      "target": "DS",
+      "boundary": "B0",
+      "requests": 920000,
+      "errors": 38000
+    },
+    {
+      "page": "C4.r1",
+      "target": "DS",
+      "boundary": "B1",
+      "requests": 1140000,
+      "errors": 40000
+    },
+    {
+      "page": "C4.r1",
+      "target": "DS",
+      "boundary": "B2",
+      "requests": null,
+      "errors": null
+    },
+    {
+      "page": "C4.r1",
+      "target": "DS",
+      "boundary": "B3",
+      "requests": 220000,
+      "errors": 4000
+    },
+    {
+      "page": "C4.r1",
+      "target": "DS",
+      "boundary": "B4",
+      "requests": 660000,
+      "errors": 9000
+    },
+    {
+      "page": "C4.r1",
+      "target": "DI",
+      "boundary": "B0",
+      "requests": 990000,
+      "errors": 41000
+    },
+    {
+      "page": "C4.r1",
+      "target": "DI",
+      "boundary": "B1",
+      "requests": 1230000,
+      "errors": 42500
+    },
+    {
+      "page": "C4.r1",
+      "target": "DI",
+      "boundary": "B2",
+      "requests": 1710000,
+      "errors": 51500
+    },
+    {
+      "page": "C4.r1",
+      "target": "DI",
+      "boundary": "B3",
+      "requests": 1950000,
+      "errors": 53300
+    },
+    {
+      "page": "C4.r1",
+      "target": "DI",
+      "boundary": "B4",
+      "requests": 2430000,
+      "errors": 55500
+    }
+  ],
+  "histograms": [
+    {
+      "page": "H1.r1",
+      "target": "AS",
+      "window": "W1",
+      "bins": [
+        600,
+        250,
+        100,
+        50
+      ]
+    },
+    {
+      "page": "H1.r1",
+      "target": "AS",
+      "window": "W2",
+      "bins": [
+        500,
+        300,
+        150,
+        50
+      ]
+    },
+    {
+      "page": "H1.r1",
+      "target": "AS",
+      "window": "W3",
+      "bins": [
+        500,
+        350,
+        100,
+        50
+      ]
+    },
+    {
+      "page": "H1.r1",
+      "target": "AS",
+      "window": "W4",
+      "bins": [
+        550,
+        250,
+        150,
+        50
+      ]
+    },
+    {
+      "page": "H1.r1",
+      "target": "AI",
+      "window": "W1",
+      "bins": [
+        1400,
+        560,
+        30,
+        10
+      ]
+    },
+    {
+      "page": "H1.r1",
+      "target": "AI",
+      "window": "W2",
+      "bins": [
+        1400,
+        560,
+        30,
+        10
+      ]
+    },
+    {
+      "page": "H1.r1",
+      "target": "AI",
+      "window": "W3",
+      "bins": [
+        1400,
+        560,
+        30,
+        10
+      ]
+    },
+    {
+      "page": "H1.r1",
+      "target": "AI",
+      "window": "W4",
+      "bins": [
+        1400,
+        560,
+        30,
+        10
+      ]
+    },
+    {
+      "page": "H2.r1",
+      "target": "BS",
+      "window": "W1",
+      "bins": [
+        500,
+        300,
+        150,
+        50
+      ]
+    },
+    {
+      "page": "H2.r1",
+      "target": "BS",
+      "window": "W2",
+      "bins": [
+        1000,
+        500,
+        350,
+        150
+      ]
+    },
+    {
+      "page": "H2.r1",
+      "target": "BS",
+      "window": "W3",
+      "bins": [
+        700,
+        400,
+        300,
+        100
+      ]
+    },
+    {
+      "page": "H2.r1",
+      "target": "BS",
+      "window": "W4",
+      "bins": [
+        1400,
+        800,
+        600,
+        200
+      ]
+    },
+    {
+      "page": "H2.r1",
+      "target": "BI",
+      "window": "W1",
+      "bins": [
+        600,
+        200,
+        150,
+        50
+      ]
+    },
+    {
+      "page": "H2.r1",
+      "target": "BI",
+      "window": "W2",
+      "bins": [
+        900,
+        600,
+        300,
+        200
+      ]
+    },
+    {
+      "page": "H2.r1",
+      "target": "BI",
+      "window": "W3",
+      "bins": [
+        800,
+        400,
+        250,
+        50
+      ]
+    },
+    {
+      "page": "H2.r1",
+      "target": "BI",
+      "window": "W4",
+      "bins": [
+        1800,
+        1000,
+        900,
+        300
+      ]
+    },
+    {
+      "page": "H3.r1",
+      "target": "CS",
+      "window": "W1",
+      "bins": [
+        600,
+        300,
+        80,
+        20
+      ]
+    },
+    {
+      "page": "H3.r1",
+      "target": "CS",
+      "window": "W2",
+      "bins": [
+        600,
+        300,
+        80,
+        20
+      ]
+    },
+    {
+      "page": "H3.r1",
+      "target": "CS",
+      "window": "W3",
+      "bins": [
+        600,
+        300,
+        80,
+        20
+      ]
+    },
+    {
+      "page": "H3.r1",
+      "target": "CS",
+      "window": "W4",
+      "bins": [
+        7000,
+        2990,
+        10,
+        0
+      ]
+    },
+    {
+      "page": "H3.r1",
+      "target": "CI",
+      "window": "W1",
+      "bins": [
+        500,
+        300,
+        150,
+        50
+      ]
+    },
+    {
+      "page": "H3.r1",
+      "target": "CI",
+      "window": "W2",
+      "bins": [
+        600,
+        300,
+        200,
+        100
+      ]
+    },
+    {
+      "page": "H3.r1",
+      "target": "CI",
+      "window": "W3",
+      "bins": [
+        700,
+        300,
+        250,
+        150
+      ]
+    },
+    {
+      "page": "H3.r1",
+      "target": "CI",
+      "window": "W4",
+      "bins": [
+        900,
+        500,
+        400,
+        200
+      ]
+    },
+    {
+      "page": "H4.r1",
+      "target": "DS",
+      "window": "W1",
+      "bins": [
+        600,
+        250,
+        100,
+        50
+      ]
+    },
+    {
+      "page": "H4.r1",
+      "target": "DS",
+      "window": "W2",
+      "bins": [
+        600,
+        200,
+        1000,
+        200
+      ]
+    },
+    {
+      "page": "H4.r1",
+      "target": "DS",
+      "window": "W3",
+      "bins": [
+        800,
+        300,
+        300,
+        100
+      ]
+    },
+    {
+      "page": "H4.r1",
+      "target": "DS",
+      "window": "W4",
+      "bins": [
+        1200,
+        500,
+        200,
+        100
+      ]
+    },
+    {
+      "page": "H4.r1",
+      "target": "DI",
+      "window": "W1",
+      "bins": [
+        1400,
+        560,
+        30,
+        10
+      ]
+    },
+    {
+      "page": "H4.r1",
+      "target": "DI",
+      "window": "W2",
+      "bins": [
+        100,
+        100,
+        600,
+        200
+      ]
+    },
+    {
+      "page": "H4.r1",
+      "target": "DI",
+      "window": "W3",
+      "bins": [
+        1400,
+        560,
+        30,
+        10
+      ]
+    },
+    {
+      "page": "H4.r1",
+      "target": "DI",
+      "window": "W4",
+      "bins": [
+        1400,
+        560,
+        30,
+        10
+      ]
+    }
+  ]
+}

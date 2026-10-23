@@ -1,0 +1,131 @@
+{
+    "id": "e935e55f-8595-43e4-95f0-541c37aff939",
+    "task_name": "collinear-candidate/field-service-sync-repair-v2",
+    "trial_name": "field-service-sync-repair-v2__ehKUT6K",
+    "trial_uri": "file:///Users/anikeshparashar/Projects/difficult-bench/jobs/field-service-sync-v2-pair-01/field-service-sync-repair-v2__ehKUT6K",
+    "task_id": {
+        "path": "collinear-candidate/field-service-sync-repair-v2"
+    },
+    "source": null,
+    "task_checksum": "c6b6ec968f60a51189d93546069b40fd10c4a2e3b83b7edc09a5445647b8bede",
+    "config": {
+        "task": {
+            "path": "collinear-candidate/field-service-sync-repair-v2",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "field-service-sync-repair-v2__ehKUT6K",
+        "trials_dir": "jobs/field-service-sync-v2-pair-01",
+        "install_only": false,
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": 5.0,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "sync_harness_npm:NpmInstalledCopilot",
+            "import_path": null,
+            "model_name": "claude-opus-5.5",
+            "n_concurrent": null,
+            "concurrency_group": null,
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "resume_trajectory": false,
+            "load_trajectory": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {
+                "reasoning_effort": "high",
+                "version": "1.0.102"
+            },
+            "mcp_servers": []
+        },
+        "user_agent": null,
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "stream": false,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "extra_instructions": [],
+        "job_id": "481bba19-fee5-41e6-be3e-dc6184d383e9",
+        "source_trial": null
+    },
+    "agent_info": {
+        "name": "copilot-cli",
+        "version": "1.0.102",
+        "model_info": {
+            "name": "claude-opus-5.5",
+            "provider": null
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": 0,
+        "cost_usd": null,
+        "model_usage": null,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "artifacts": 1.0,
+            "batches": 1.0,
+            "client": 0.8571428571428571,
+            "confirmations": 1.0,
+            "durability": 1.0,
+            "integration": 0.0,
+            "recovery": 1.0,
+            "sync": 1.0,
+            "transactions": 1.0,
+            "overall": 0.0
+        }
+    },
+    "verifier_environment_mode": "shared",
+    "exception_info": null,
+    "started_at": "2026-10-23T12:17:27.411689Z",
+    "finished_at": "2026-10-23T12:42:28.959231Z",
+    "environment_setup": {
+        "started_at": "2026-10-23T12:17:27.463531Z",
+        "finished_at": "2026-10-23T12:17:29.831624Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-10-23T12:17:29.831929Z",
+        "finished_at": "2026-10-23T12:23:12.626959Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-10-23T12:23:12.653122Z",
+        "finished_at": "2026-10-23T12:42:17.955695Z"
+    },
+    "verifier": {
+        "started_at": "2026-10-23T12:42:21.554491Z",
+        "finished_at": "2026-10-23T12:42:26.204612Z"
+    },
+    "step_results": null
+}

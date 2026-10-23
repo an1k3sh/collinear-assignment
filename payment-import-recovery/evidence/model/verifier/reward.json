@@ -1,0 +1,9 @@
+{
+  "delivered": 1.0,
+  "identity_and_cents": 1.0,
+  "lost_response": 1.0,
+  "error_reporting": 1.0,
+  "concurrency": 1.0,
+  "artifacts": 1.0,
+  "overall": 1.0
+}

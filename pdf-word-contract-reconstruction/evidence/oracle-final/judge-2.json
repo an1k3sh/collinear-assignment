@@ -1,0 +1,48 @@
+{
+  "scores": {
+    "content_fidelity": 4,
+    "editable_structure": 4,
+    "visual_organization": 4,
+    "navigation_furniture": 4
+  },
+  "evidence": {
+    "content_fidelity": [
+      "Contract particulars match: service term 1 July 2026\u201330 June 2027, all three named sites, GBP 37,800.00 base fee, mobilisation on 29 June 2026 at 17:00, and document precedence.",
+      "Schedule A preserves every quantity and amount: 12 \u00d7 2,400.00 = 28,800.00; 6 \u00d7 750.00 = 4,500.00; 3 \u00d7 1,800.00 = 5,400.00; transition credit (900.00); net 37,800.00; VAT 7,560.00; total 45,360.00. The invoice example retains 2,400.00, 190.00, 2,590.00, 518.00 and 3,108.00.",
+      "Charge conditions match: GBP 145.00 per authorised attendance, 45 included minutes, GBP 22.50 per completed additional 15-minute block, the footnote excluding an additional block at 59 minutes, included travel, materials at evidenced cost without uplift, and payment within 30 calendar days.",
+      "Schedule B preserves all site associations: Northgate Mon-Sat 08:00\u201320:00 with critical targets 15/90 minutes and routine targets 2 service hours/next service day; Canal House Mon-Fri 07:00\u201319:00 with 15/120 minutes and 4 service hours/within 2 service days; Eastbank Mon-Sun 06:00\u201322:00 with 10/60 minutes and 1 service hour/same service day. Access exceptions, continuous critical cover and all four dated routine-service exceptions match.",
+      "Clauses 1\u20138, Schedule C evidence/accountability requirements, Appendix D acceptance conditions and Appendix E approval/execution obligations match the reference. Figure 2 retains 51 records: 42 accepted, 6 returned and 3 open."
+    ],
+    "editable_structure": [
+      "The extraction shows native body paragraphs, Heading1/Heading2 styles with outline levels, and automatic decimal numbering applied to clauses 1\u20138.",
+      "All reference tables remain native tables with matching row/cell associations and repeating header flags; Schedule A retains the vertical merges for Recurring and Summary.",
+      "The charge-rule paragraph retains a real footnote reference and matching footnotes.xml content. Figure artwork is confined to two drawings, with editable headings and Caption paragraphs.",
+      "The edit probes successfully extend Access readiness and the Remote sensor calibration description. Edited pages 2 and 4 show matching paragraph reflow and table-row expansion without clipping, overlap or content loss; edited page 5 remains intact."
+    ],
+    "visual_organization": [
+      "All eight original paired pages visually match in typography, hierarchy, margins, table shading, line wrapping and placement.",
+      "Page 3 preserves the two-column operational-responsibilities layout, while page 5 preserves the landscape service-window tables and readable column associations.",
+      "Page 6 preserves both figures, their proportions, labels and captions. Pages 7\u20138 preserve the acceptance, change and execution forms with intentional blank fields.",
+      "The inspected edit-probe layouts match the reference, including the expanded calibration row and the footnote remaining clear of the payment text."
+    ],
+    "navigation_furniture": [
+      "The procurement header, agreement identifier, issue date and PAGE footer fields match throughout all eight pages.",
+      "The opening navigation references correctly identify sections on pages 2\u20138; delivered clause 8 and Appendix E references retain their intended targets.",
+      "Heading hierarchy, figure numbering, editable captions, Schedule A footnote placement, document history and END OF AGREEMENT marker match the reference."
+    ]
+  },
+  "material_defects": [],
+  "inspected_images": [
+    "original-01.png",
+    "original-02.png",
+    "original-03.png",
+    "original-04.png",
+    "original-05.png",
+    "original-06.png",
+    "original-07.png",
+    "original-08.png",
+    "edited-02.png",
+    "edited-04.png",
+    "edited-05.png"
+  ]
+}

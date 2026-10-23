@@ -1,0 +1,17 @@
+{
+  "regions": ["Alder", "Birch", "Cedar", "Delta"],
+  "windows": [
+    {"id": "W1", "start": "2026-09-14T08:00:00Z", "minutes": 30},
+    {"id": "W2", "start": "2026-09-14T08:30:00Z", "minutes": 30},
+    {"id": "W3", "start": "2026-09-14T09:00:00Z", "minutes": 30},
+    {"id": "W4", "start": "2026-09-14T09:30:00Z", "minutes": 30},
+    {"id": "W5", "start": "2026-09-14T10:00:00Z", "minutes": 30},
+    {"id": "W6", "start": "2026-09-14T10:30:00Z", "minutes": 30},
+    {"id": "W7", "start": "2026-09-14T11:00:00Z", "minutes": 30},
+    {"id": "W8", "start": "2026-09-14T11:30:00Z", "minutes": 30}
+  ],
+  "latency_trigger_ms": 300,
+  "budget_blocks": 3,
+  "max_blocks_per_region": 2,
+  "benefit_fraction": [0.0, 0.4, 0.6]
+}

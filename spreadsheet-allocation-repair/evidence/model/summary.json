@@ -1,0 +1,36 @@
+{
+  "task": "spreadsheet-allocation-repair",
+  "trial": "spreadsheet-allocation-repair__E6ndXQV",
+  "agent_info": {
+    "name": "copilot-cli",
+    "version": "1.0.102",
+    "model_info": {
+      "name": "claude-opus-5.5",
+      "provider": null
+    }
+  },
+  "agent_config": {
+    "name": "prototype_harness:PrototypeCopilot",
+    "model_name": "claude-opus-5.5",
+    "kwargs": {
+      "reasoning_effort": "high",
+      "version": "1.0.102"
+    }
+  },
+  "started_at": "2026-10-23T16:05:38.179265Z",
+  "finished_at": "2026-10-23T16:08:46.324001Z",
+  "rewards": {
+    "source_and_formulas": 1.0,
+    "saved_results": 1.0,
+    "chart_binding": 1.0,
+    "recalculation_0": 1.0,
+    "recalculation_1": 1.0,
+    "recalculation_2": 1.0,
+    "recalculation_3": 1.0,
+    "recalculation_4": 1.0,
+    "overall": 1.0
+  },
+  "passed_criteria": 8,
+  "total_criteria": 8,
+  "exception_info": null
+}

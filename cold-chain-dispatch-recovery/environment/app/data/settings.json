@@ -1,0 +1,7 @@
+{
+  "planning_cutoff": "2026-06-15T07:50:00Z",
+  "horizon": 320,
+  "load_base": 4,
+  "load_per_unit": 1,
+  "budget_cents": 79000
+}

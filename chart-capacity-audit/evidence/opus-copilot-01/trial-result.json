@@ -1,0 +1,127 @@
+{
+    "id": "48b804f8-5ca1-4c16-b53a-0521e16ac0e0",
+    "task_name": "collinear-candidate/chart-capacity-audit",
+    "trial_name": "chart-capacity-audit__9GkfHdD",
+    "trial_uri": "file:///Users/anikeshparashar/Projects/difficult-bench/jobs/chart-capacity-copilot-opus-01/chart-capacity-audit__9GkfHdD",
+    "task_id": {
+        "path": "collinear-candidate/chart-capacity-audit"
+    },
+    "source": null,
+    "task_checksum": "83fe4cebb04db4c0f80b7726894e03a027f4019209b11d72b44152fdabbbac8b",
+    "config": {
+        "task": {
+            "path": "collinear-candidate/chart-capacity-audit",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "chart-capacity-audit__9GkfHdD",
+        "trials_dir": "jobs/chart-capacity-copilot-opus-01",
+        "install_only": false,
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "copilot-cli",
+            "import_path": null,
+            "model_name": "claude-opus-5.5",
+            "n_concurrent": null,
+            "concurrency_group": null,
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "resume_trajectory": false,
+            "load_trajectory": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {
+                "reasoning_effort": "high",
+                "version": "1.0.102"
+            },
+            "mcp_servers": []
+        },
+        "user_agent": null,
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "stream": false,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "extra_instructions": [],
+        "job_id": "f3606680-6592-46bd-a043-f870d71c6d65",
+        "source_trial": null
+    },
+    "agent_info": {
+        "name": "copilot-cli",
+        "version": "1.0.102",
+        "model_info": {
+            "name": "claude-opus-5.5",
+            "provider": null
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": 0,
+        "cost_usd": null,
+        "model_usage": null,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "overall": 1.0,
+            "extraction": 1.0,
+            "calculations": 1.0,
+            "allocation": 1.0,
+            "claim_audit": 1.0,
+            "reproducibility": 1.0
+        }
+    },
+    "verifier_environment_mode": "shared",
+    "exception_info": null,
+    "started_at": "2026-10-22T08:24:06.291423Z",
+    "finished_at": "2026-10-22T08:28:32.748870Z",
+    "environment_setup": {
+        "started_at": "2026-10-22T08:24:06.341624Z",
+        "finished_at": "2026-10-22T08:24:08.533609Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-10-22T08:24:08.533821Z",
+        "finished_at": "2026-10-22T08:26:03.446733Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-10-22T08:26:03.460599Z",
+        "finished_at": "2026-10-22T08:28:26.819153Z"
+    },
+    "verifier": {
+        "started_at": "2026-10-22T08:28:28.716947Z",
+        "finished_at": "2026-10-22T08:28:30.791067Z"
+    },
+    "step_results": null
+}

@@ -1,0 +1,28 @@
+{
+  "counts": {
+    "artifact_quality": {
+      "passed": 10,
+      "failed": 0
+    },
+    "constraint_satisfaction": {
+      "passed": 16914,
+      "failed": 0
+    },
+    "functional_correctness": {
+      "passed": 1232,
+      "failed": 0
+    },
+    "robustness": {
+      "passed": 4937,
+      "failed": 1
+    }
+  },
+  "reward": {
+    "overall": 0.0,
+    "functional_correctness": 1.0,
+    "constraint_satisfaction": 1.0,
+    "robustness": 0.9997974888618874,
+    "artifact_quality": 1.0
+  }
+}
+{"group": "robustness", "check": "live residual Checks!E7", "detail": "actual=0.0513972380178771; expected=0.0716253891360239"}

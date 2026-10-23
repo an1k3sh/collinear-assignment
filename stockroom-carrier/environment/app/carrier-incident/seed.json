@@ -1,0 +1,18 @@
+{
+  "service_id": "carrier-incident-c3",
+  "policies": {
+    "alpha": "accept_then_timeout_once",
+    "beta": "timeout_before_once",
+    "blocked": "reject"
+  },
+  "accepted": {
+    "orphan": {
+      "receipt": "receipt-imported-z9",
+      "warehouse": "west",
+      "sku_a": "gear",
+      "qty_a": 3,
+      "sku_b": "seal",
+      "qty_b": 2
+    }
+  }
+}

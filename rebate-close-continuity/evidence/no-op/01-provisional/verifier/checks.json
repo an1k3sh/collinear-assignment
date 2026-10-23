@@ -1,0 +1,75 @@
+{
+  "phase": 1,
+  "checks": [
+    {
+      "name": "delivered-financial-outcome",
+      "category": "functional_correctness",
+      "passed": false,
+      "error": "Independent recalculation failed: \nWarning: failed to launch javaldx - java may not function correctly\nError: source file could not be loaded\n"
+    },
+    {
+      "name": "source-is-unmodified",
+      "category": "constraint_satisfaction",
+      "passed": true
+    },
+    {
+      "name": "source-sheets-notebook-and-formulas",
+      "category": "constraint_satisfaction",
+      "passed": false,
+      "error": "[Errno 2] No such file or directory: '/workspace/output/settlement.xlsx'"
+    },
+    {
+      "name": "linked-adjustment-chart",
+      "category": "artifact_quality",
+      "passed": false,
+      "error": "Independent recalculation failed: \nWarning: failed to launch javaldx - java may not function correctly\nError: source file could not be loaded\n"
+    },
+    {
+      "name": "reconciled-report",
+      "category": "artifact_quality",
+      "passed": false,
+      "error": "[Errno 2] No such file or directory: '/workspace/output/reconciliation.json'"
+    },
+    {
+      "name": "live-formula-dependency",
+      "category": "robustness",
+      "passed": false,
+      "error": "[Errno 2] No such file or directory: '/workspace/output/settlement.xlsx'"
+    },
+    {
+      "name": "repeatable-refresh",
+      "category": "robustness",
+      "passed": false,
+      "error": "Wrong active Detail event count"
+    },
+    {
+      "name": "refresh-price-and-quantity",
+      "category": "robustness",
+      "passed": false,
+      "error": "Wrong active Detail event count"
+    },
+    {
+      "name": "refresh-catalog-and-identity",
+      "category": "robustness",
+      "passed": false,
+      "error": "Wrong active Detail event count"
+    },
+    {
+      "name": "refresh-new-events-and-revision",
+      "category": "robustness",
+      "passed": false,
+      "error": "Wrong active Detail event count"
+    },
+    {
+      "name": "refresh-tier-equality",
+      "category": "robustness",
+      "passed": false,
+      "error": "Wrong active Detail event count"
+    },
+    {
+      "name": "refresh-left-inputs-and-archives-intact",
+      "category": "constraint_satisfaction",
+      "passed": true
+    }
+  ]
+}

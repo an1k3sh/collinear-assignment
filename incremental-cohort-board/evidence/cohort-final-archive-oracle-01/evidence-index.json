@@ -1,0 +1,412 @@
+{
+  "source_job": "cohort-final-archive-oracle-01",
+  "files": [
+    {
+      "path": ".DS_Store",
+      "sha256": "bc8de1954ea29ddf815d9865597fec1abc723d353ea6cab525b4cc9fb2e2a690",
+      "bytes": 6148
+    },
+    {
+      "path": "config.json",
+      "sha256": "b785bfefd1b069a05f0dca4232dc91ea5a7ce0fbfa6125540df143b530c8abeb",
+      "bytes": 354
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/config.json",
+      "sha256": "13214dd6bff499808432732f1ef334df99ba16b404178a519cedf56299d91318",
+      "bytes": 421
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/result.json",
+      "sha256": "29c47bf5b44f2d541a018b81d9fac54ba58f514db3891c825c6057617234b3c0",
+      "bytes": 8103
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-1/agent/oracle.txt",
+      "sha256": "8acdb23f17cb5c19ffc00c4f8727e589b2ebe9445f6c6fa334ac14e570f88611",
+      "bytes": 902
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-1/artifacts/app/REPAIR_REPORT.md",
+      "sha256": "98e72da30b44a3a942f884c21d7dfdcc517cc3a64630deb3b4a694bc5733742a",
+      "bytes": 1308
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-1/artifacts/app/checks/test_smoke.py",
+      "sha256": "2bb75e6a25fd51b6691e5383bef44e4e4912e3e3bacaaad1373cee6cb031fd34",
+      "bytes": 1381
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-1/artifacts/app/demo.py",
+      "sha256": "22994cc600b022d2bf256b62cb891259e10fd397a7737b7489499b6b5f21040d",
+      "bytes": 1005
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-1/artifacts/app/docs/contract.md",
+      "sha256": "035a4b0b489658ddc95f104c006e6d8c53e4267f74e69bbb366dd3e78786329d",
+      "bytes": 9236
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-1/artifacts/app/incidents/release-1.json",
+      "sha256": "cdbd3bbbd4a093cc846362402cc6434a14f8a6b99f755856452ae23fa2d04b7c",
+      "bytes": 993
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-1/artifacts/app/incidents/release-2.json",
+      "sha256": "8fa4b7ea48c317d4167afec1401b16a1dc87368a1d512931e3b8179d0fabf6a5",
+      "bytes": 772
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-1/artifacts/app/incidents/release-3.json",
+      "sha256": "b112237be715ac098a77bcd22173800a8427dff76807a5cb1cdce08543580961",
+      "bytes": 1007
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-1/artifacts/app/incidents/release-4.json",
+      "sha256": "0c029329877d5aa35e9e86bc32199551c5825d58f4d0a89dd178e13bac501c81",
+      "bytes": 1366
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-1/artifacts/app/maintainer.py",
+      "sha256": "9ae65682b8e64a0c54ab0028909e6dd8c9773f48e37879f93887ac32f547f2ab",
+      "bytes": 10621
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-1/artifacts/app/release.txt",
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+      "bytes": 2
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-1/artifacts/app/runtime.py",
+      "sha256": "8eb19ea6b9326e47f736ecb9501ffd71cb747aa0c37da896f33329afc87426c9",
+      "bytes": 4498
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-1/artifacts/app/schema.sql",
+      "sha256": "4ef97bd99655fe381e04a4c24d948624b357977c44444726a83434d27fce8a8d",
+      "bytes": 1461
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-1/artifacts/app/state/demo.sqlite",
+      "sha256": "46a747a065b75e1e7017e126113c466ea136c5a8c46e86e4f8487e3c11fc1db7",
+      "bytes": 126976
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-1/artifacts/manifest.json",
+      "sha256": "4ad5f62334ec1b3d257150d6fbd9a47bb85f747f55f73a1241f9ead7c2e43ce8",
+      "bytes": 378
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-1/verifier/checks.json",
+      "sha256": "70c20d1bf79056b3831c2aced1819d02e217ebc6ed1dbc5c2ece77325cdc0de6",
+      "bytes": 3324
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-1/verifier/reward.json",
+      "sha256": "7f1276dd23b2db992b1e8b20e694f10aa2cdaf2df30859a0699f4d204a786fe1",
+      "bytes": 136
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-1/verifier/test-stdout.txt",
+      "sha256": "7c25843b44353b377529f10763251b1aa116ec2ff3a546e0de6c7e692aafe1cd",
+      "bytes": 2561
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-2/agent/oracle.txt",
+      "sha256": "2aefb38a7bb05763a60f8c2c9f4679d6085cc36a5570ee7a568b676ddd033fc3",
+      "bytes": 1806
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-2/artifacts/app/REPAIR_REPORT.md",
+      "sha256": "98e72da30b44a3a942f884c21d7dfdcc517cc3a64630deb3b4a694bc5733742a",
+      "bytes": 1308
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-2/artifacts/app/checks/test_smoke.py",
+      "sha256": "2bb75e6a25fd51b6691e5383bef44e4e4912e3e3bacaaad1373cee6cb031fd34",
+      "bytes": 1381
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-2/artifacts/app/demo.py",
+      "sha256": "22994cc600b022d2bf256b62cb891259e10fd397a7737b7489499b6b5f21040d",
+      "bytes": 1005
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-2/artifacts/app/docs/contract.md",
+      "sha256": "035a4b0b489658ddc95f104c006e6d8c53e4267f74e69bbb366dd3e78786329d",
+      "bytes": 9236
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-2/artifacts/app/incidents/release-1.json",
+      "sha256": "cdbd3bbbd4a093cc846362402cc6434a14f8a6b99f755856452ae23fa2d04b7c",
+      "bytes": 993
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-2/artifacts/app/incidents/release-2.json",
+      "sha256": "8fa4b7ea48c317d4167afec1401b16a1dc87368a1d512931e3b8179d0fabf6a5",
+      "bytes": 772
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-2/artifacts/app/incidents/release-3.json",
+      "sha256": "b112237be715ac098a77bcd22173800a8427dff76807a5cb1cdce08543580961",
+      "bytes": 1007
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-2/artifacts/app/incidents/release-4.json",
+      "sha256": "0c029329877d5aa35e9e86bc32199551c5825d58f4d0a89dd178e13bac501c81",
+      "bytes": 1366
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-2/artifacts/app/maintainer.py",
+      "sha256": "9ae65682b8e64a0c54ab0028909e6dd8c9773f48e37879f93887ac32f547f2ab",
+      "bytes": 10621
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-2/artifacts/app/release.txt",
+      "sha256": "53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3",
+      "bytes": 2
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-2/artifacts/app/runtime.py",
+      "sha256": "8eb19ea6b9326e47f736ecb9501ffd71cb747aa0c37da896f33329afc87426c9",
+      "bytes": 4498
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-2/artifacts/app/schema.sql",
+      "sha256": "4ef97bd99655fe381e04a4c24d948624b357977c44444726a83434d27fce8a8d",
+      "bytes": 1461
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-2/artifacts/app/state/demo.sqlite",
+      "sha256": "05d852829039fcdac96d3ee46aca7238ea21f66a12bcf728976894c5bdeb8288",
+      "bytes": 126976
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-2/artifacts/manifest.json",
+      "sha256": "4ad5f62334ec1b3d257150d6fbd9a47bb85f747f55f73a1241f9ead7c2e43ce8",
+      "bytes": 378
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-2/verifier/checks.json",
+      "sha256": "7f3bfde5d968fc7a18454c52fb4d89d26c45aa807550e34f8bf050b9f4fea4cf",
+      "bytes": 3286
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-2/verifier/reward.json",
+      "sha256": "7f1276dd23b2db992b1e8b20e694f10aa2cdaf2df30859a0699f4d204a786fe1",
+      "bytes": 136
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-2/verifier/test-stdout.txt",
+      "sha256": "179adff13bcccabb52fa1d0c43eff103e05d48749a2cb37a6a935a51cc199dc4",
+      "bytes": 2535
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-3/agent/oracle.txt",
+      "sha256": "3a8eafc8e8e9f5b3288ec933a6d64a18d3bfaf4b6d1bf1c458d6236d07ea0c9d",
+      "bytes": 2672
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-3/artifacts/app/REPAIR_REPORT.md",
+      "sha256": "98e72da30b44a3a942f884c21d7dfdcc517cc3a64630deb3b4a694bc5733742a",
+      "bytes": 1308
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-3/artifacts/app/checks/test_smoke.py",
+      "sha256": "2bb75e6a25fd51b6691e5383bef44e4e4912e3e3bacaaad1373cee6cb031fd34",
+      "bytes": 1381
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-3/artifacts/app/demo.py",
+      "sha256": "22994cc600b022d2bf256b62cb891259e10fd397a7737b7489499b6b5f21040d",
+      "bytes": 1005
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-3/artifacts/app/docs/contract.md",
+      "sha256": "035a4b0b489658ddc95f104c006e6d8c53e4267f74e69bbb366dd3e78786329d",
+      "bytes": 9236
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-3/artifacts/app/incidents/release-1.json",
+      "sha256": "cdbd3bbbd4a093cc846362402cc6434a14f8a6b99f755856452ae23fa2d04b7c",
+      "bytes": 993
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-3/artifacts/app/incidents/release-2.json",
+      "sha256": "8fa4b7ea48c317d4167afec1401b16a1dc87368a1d512931e3b8179d0fabf6a5",
+      "bytes": 772
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-3/artifacts/app/incidents/release-3.json",
+      "sha256": "b112237be715ac098a77bcd22173800a8427dff76807a5cb1cdce08543580961",
+      "bytes": 1007
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-3/artifacts/app/incidents/release-4.json",
+      "sha256": "0c029329877d5aa35e9e86bc32199551c5825d58f4d0a89dd178e13bac501c81",
+      "bytes": 1366
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-3/artifacts/app/maintainer.py",
+      "sha256": "9ae65682b8e64a0c54ab0028909e6dd8c9773f48e37879f93887ac32f547f2ab",
+      "bytes": 10621
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-3/artifacts/app/release.txt",
+      "sha256": "1121cfccd5913f0a63fec40a6ffd44ea64f9dc135c66634ba001d10bcf4302a2",
+      "bytes": 2
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-3/artifacts/app/runtime.py",
+      "sha256": "8eb19ea6b9326e47f736ecb9501ffd71cb747aa0c37da896f33329afc87426c9",
+      "bytes": 4498
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-3/artifacts/app/schema.sql",
+      "sha256": "4ef97bd99655fe381e04a4c24d948624b357977c44444726a83434d27fce8a8d",
+      "bytes": 1461
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-3/artifacts/app/state/demo.sqlite",
+      "sha256": "3cae9245ab598e56087a1ccb45cbfcf1498a9cb811db0109b81a3a0e4675d133",
+      "bytes": 126976
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-3/artifacts/manifest.json",
+      "sha256": "4ad5f62334ec1b3d257150d6fbd9a47bb85f747f55f73a1241f9ead7c2e43ce8",
+      "bytes": 378
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-3/verifier/checks.json",
+      "sha256": "571d0b099eb27ae60ca3f7d10293154379c45a4236ee036d7d778ffe517a7c9e",
+      "bytes": 3253
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-3/verifier/reward.json",
+      "sha256": "7f1276dd23b2db992b1e8b20e694f10aa2cdaf2df30859a0699f4d204a786fe1",
+      "bytes": 136
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-3/verifier/test-stdout.txt",
+      "sha256": "f04895acc5eb7fa12ec66cd363d8ad5e2a6161431a9ffd693c7ac3e4e53f3d19",
+      "bytes": 2510
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-4/agent/oracle.txt",
+      "sha256": "ae416cae8b3e7df97a7dcfe24cf186b968843cf4b0ce9cebb19695e51fd3c6af",
+      "bytes": 3594
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-4/artifacts/app/REPAIR_REPORT.md",
+      "sha256": "98e72da30b44a3a942f884c21d7dfdcc517cc3a64630deb3b4a694bc5733742a",
+      "bytes": 1308
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-4/artifacts/app/checks/test_smoke.py",
+      "sha256": "2bb75e6a25fd51b6691e5383bef44e4e4912e3e3bacaaad1373cee6cb031fd34",
+      "bytes": 1381
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-4/artifacts/app/demo.py",
+      "sha256": "22994cc600b022d2bf256b62cb891259e10fd397a7737b7489499b6b5f21040d",
+      "bytes": 1005
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-4/artifacts/app/docs/contract.md",
+      "sha256": "035a4b0b489658ddc95f104c006e6d8c53e4267f74e69bbb366dd3e78786329d",
+      "bytes": 9236
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-4/artifacts/app/incidents/release-1.json",
+      "sha256": "cdbd3bbbd4a093cc846362402cc6434a14f8a6b99f755856452ae23fa2d04b7c",
+      "bytes": 993
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-4/artifacts/app/incidents/release-2.json",
+      "sha256": "8fa4b7ea48c317d4167afec1401b16a1dc87368a1d512931e3b8179d0fabf6a5",
+      "bytes": 772
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-4/artifacts/app/incidents/release-3.json",
+      "sha256": "b112237be715ac098a77bcd22173800a8427dff76807a5cb1cdce08543580961",
+      "bytes": 1007
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-4/artifacts/app/incidents/release-4.json",
+      "sha256": "0c029329877d5aa35e9e86bc32199551c5825d58f4d0a89dd178e13bac501c81",
+      "bytes": 1366
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-4/artifacts/app/maintainer.py",
+      "sha256": "9ae65682b8e64a0c54ab0028909e6dd8c9773f48e37879f93887ac32f547f2ab",
+      "bytes": 10621
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-4/artifacts/app/release.txt",
+      "sha256": "7de1555df0c2700329e815b93b32c571c3ea54dc967b89e81ab73b9972b72d1d",
+      "bytes": 2
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-4/artifacts/app/runtime.py",
+      "sha256": "8eb19ea6b9326e47f736ecb9501ffd71cb747aa0c37da896f33329afc87426c9",
+      "bytes": 4498
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-4/artifacts/app/schema.sql",
+      "sha256": "4ef97bd99655fe381e04a4c24d948624b357977c44444726a83434d27fce8a8d",
+      "bytes": 1461
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-4/artifacts/app/state/demo.sqlite",
+      "sha256": "e17e16c470e759621352226d0c98977e1f6159c9054e2fc412496e8c879c3593",
+      "bytes": 126976
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-4/artifacts/manifest.json",
+      "sha256": "4ad5f62334ec1b3d257150d6fbd9a47bb85f747f55f73a1241f9ead7c2e43ce8",
+      "bytes": 378
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-4/verifier/checks.json",
+      "sha256": "689838a913c83aadf86e580bdff1929c5f30d9bc3f6cb5a0ff61f8b47b86d89d",
+      "bytes": 3487
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-4/verifier/reward.json",
+      "sha256": "7f1276dd23b2db992b1e8b20e694f10aa2cdaf2df30859a0699f4d204a786fe1",
+      "bytes": 136
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/steps/release-4/verifier/test-stdout.txt",
+      "sha256": "d5749033fa39001b54e7f04d833d2896b8394c93df37216bacc1e5fe60033fbf",
+      "bytes": 2378
+    },
+    {
+      "path": "incremental-cohort-board__gNfYBLU/trial.log",
+      "sha256": "88621da1ee8b6e795838e33670bb5256de4487747a3a476a45013c96f6ad17a0",
+      "bytes": 349
+    },
+    {
+      "path": "job.log",
+      "sha256": "d680901f7092edb9dc28e7efd48fe4d8521e558a2c036d4427cb158c4d3280d8",
+      "bytes": 427
+    },
+    {
+      "path": "lock.json",
+      "sha256": "0503e38bde87cf78fd40fcfdcaaa662dcf3a67aa57acf42ed060b3fd17f13ae5",
+      "bytes": 2048
+    },
+    {
+      "path": "result.json",
+      "sha256": "1285605732172c0d9f0dba780ad22add6c302109939ef2ddba6754f3b470e56e",
+      "bytes": 2081
+    }
+  ],
+  "credential_redactions": [],
+  "excluded": [
+    "authentication/session databases",
+    "CLI session-state",
+    "node_modules",
+    "Python bytecode"
+  ]
+}

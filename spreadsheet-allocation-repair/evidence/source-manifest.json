@@ -1,0 +1,21 @@
+{
+  "README.md": "9c58c627ac3207d1eeab0da4bdf3b3dcb5941c7a640d8a47718b128b3670ecb1",
+  "author/generate_workbook.py": "cf99859ba1ca9334e83f3540c31038bbc5f769ae0c7be41dc83a3c67459f120b",
+  "author/prototype_harness.py": "2100c39b5d54f1ebacf7bee1f2b5bf8c1ee7ca120939c425c18e81aea4f67611",
+  "author/validate_controls.py": "1b2bbbb4f76cf2a22cff1cbce6c4fa930691966e97810733939200944afbc73d",
+  "environment/.dockerignore": "cf9143fdfce145f9234e589317912e7c9fad341276064294f22da3946d23758e",
+  "environment/Dockerfile": "2ab61de7a8915467f7ac4bfc2213c26032e4290e6fd6628083a929417a2ec53b",
+  "environment/app/POLICY.md": "5308a9873cff5d01a11f8aab3ea487795cf775e866d71d2a71a4c883b7cbf015",
+  "environment/app/allocation.xlsx": "98d7a69ec721e779b6bb3380a0c3e16635b650a2fb41c2929a89bd102beb2bf9",
+  "environment/app/incidents/controller-note.txt": "5a3c7dbfa14f12ae733a0321f8665877ba05169bee43b6d5b83f4fa233eb9d93",
+  "environment/requirements.txt": "5ab8a239c1418483ead11ccd73008173fdd3af6ae97f912357ede24da823b30a",
+  "instruction.md": "e1a210ad6e0bb23a98a8d1200bb30841480a7da2cbda67b02a0ca88ee02b05b3",
+  "solution/REPAIR_REPORT.md": "924087d1f22d9c4c555593ca8df0348b9d10ee8c8726fa6fb4fb75b404208a37",
+  "solution/repair.py": "de1785146b4779d868a976e716fedd5e24ae4c8f7a86f831afff1f315b2febab",
+  "solution/solve.sh": "80eafdbe4e644da104c19ca13166554cfb56a977d49502e5144c950430d1a87e",
+  "task.toml": "a42846510cf40c9a19ced0170e88a19c536bdec4ccea0c4b31096dc3346e464b",
+  "tests/grade.py": "f1d0d0ee13190ffdeeb75856963ce759616174e0ec249ab55ac343bfd204e588",
+  "tests/protect.py": "3202f4a97c0719aec3fbaca9f18add30f48dc3414eb116f6a5bac2aa3f5ed67b",
+  "tests/protected.json": "332212a55063d794d0d58c9d459ef148320e905892dc63861114765e2076245a",
+  "tests/test.sh": "bff7baa80cb097c2009765594dc965a786488eb4d60d2942953a4b96991f302c"
+}

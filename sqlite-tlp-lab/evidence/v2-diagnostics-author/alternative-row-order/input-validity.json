@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "requested_cases": 448,
+  "emitted_cases": 448,
+  "schema_valid_cases": 448,
+  "executable_cases": 448,
+  "schema_validity_rate": 1.0,
+  "input_validity_rate": 1.0,
+  "exact_emission_count": true,
+  "error_count": 0,
+  "runs": [
+    {
+      "seed": 0,
+      "requested_cases": 112,
+      "emitted_cases": 112,
+      "schema_valid_cases": 112,
+      "executable_cases": 112,
+      "error_count": 0,
+      "errors": []
+    },
+    {
+      "seed": 17,
+      "requested_cases": 112,
+      "emitted_cases": 112,
+      "schema_valid_cases": 112,
+      "executable_cases": 112,
+      "error_count": 0,
+      "errors": []
+    },
+    {
+      "seed": -435,
+      "requested_cases": 112,
+      "emitted_cases": 112,
+      "schema_valid_cases": 112,
+      "executable_cases": 112,
+      "error_count": 0,
+      "errors": []
+    },
+    {
+      "seed": 9823,
+      "requested_cases": 112,
+      "emitted_cases": 112,
+      "schema_valid_cases": 112,
+      "executable_cases": 112,
+      "error_count": 0,
+      "errors": []
+    }
+  ],
+  "runtime": {
+    "python": "3.12.12",
+    "sqlite": "3.40.1"
+  },
+  "scope": "Schema-valid and executable inputs; no result-equivalence requirement."
+}

@@ -1,0 +1,94 @@
+[
+  {
+    "mutant": "omit-binding-rollback",
+    "rejected_by": [
+      {
+        "case": "nested-commit-outer-abort",
+        "reason": "committed events: expected [{'name': 'restored', 'data': {'v': 1, 'why': 'ASSERT'}, 'id': 1}, {'name': 'last', 'data': {}, 'id': 2}], got [{'data': {'v': 3, 'why': 'ASSERT'}, 'id': 1, 'name': 'restored'}, {'data': {}, 'id': 2, 'name': 'last'}]"
+      },
+      {
+        "case": "rollback-with-shadowed-binding",
+        "reason": "committed events: expected [{'name': 'after', 'data': {'x': 1}, 'id': 1}], got [{'data': {'x': 2}, 'id': 1, 'name': 'after'}]"
+      }
+    ]
+  },
+  {
+    "mutant": "shallow-hold-snapshot",
+    "rejected_by": [
+      {
+        "case": "rollback-hold-records-not-just-map",
+        "reason": "hold state: expected {'h': {'warehouse': 'east', 'sku': 'gear', 'remaining': 6}}, got {'h': {'remaining': 1, 'sku': 'gear', 'warehouse': 'east'}}"
+      }
+    ]
+  },
+  {
+    "mutant": "leak-aborted-events",
+    "rejected_by": [
+      {
+        "case": "nested-commit-outer-abort",
+        "reason": "committed events: expected [{'name': 'restored', 'data': {'v': 1, 'why': 'ASSERT'}, 'id': 1}, {'name': 'last', 'data': {}, 'id': 2}], got [{'data': {}, 'id': 1, 'name': 'gone'}, {'data': {'v': 1, 'why': 'ASSERT'}, 'id': 2, 'name': 'restored'}, {'data': {}, 'id': 3, 'name': 'last'}]"
+      },
+      {
+        "case": "recover-inside-outer-remains-tentative",
+        "reason": "committed events: expected [{'name': 'outer', 'data': {'v': 0, 'c': 'ASSERT'}, 'id': 1}], got [{'data': {}, 'id': 1, 'name': 'lost-recovery'}, {'data': {'c': 'ASSERT', 'v': 0}, 'id': 2, 'name': 'outer'}]"
+      }
+    ]
+  },
+  {
+    "mutant": "ignore-existing-reservations",
+    "rejected_by": [
+      {
+        "case": "hold-conservation-and-tombstones",
+        "reason": "committed events: expected [{'name': 'levels', 'data': {'free': 5, 'hand': 8, 'held': 3}, 'id': 1}, {'name': 'DUPLICATE_HOLD', 'data': {}, 'id': 2}], got [{'data': {'free': 8, 'hand': 8, 'held': 3}, 'id': 1, 'name': 'levels'}, {'data': {}, 'id': 2, 'name': 'DUPLICATE_HOLD'}]"
+      },
+      {
+        "case": "workflow-must-respect-existing-holds",
+        "reason": "Reservation conservation violated"
+      }
+    ]
+  },
+  {
+    "mutant": "catch-fatal-as-domain",
+    "rejected_by": [
+      {
+        "case": "fatal-not-caught-by-domain-handler",
+        "reason": "exit status; stderr=: expected 5, got 0"
+      }
+    ]
+  },
+  {
+    "mutant": "rollback-successful-return",
+    "rejected_by": [
+      {
+        "case": "return-commits-exited-transactions",
+        "reason": "warehouse state: expected {'east': {'gear': 20, 'seal': 10}, 'west': {'gear': 4}}, got {'east': {'gear': 20, 'seal': 10}, 'west': {}}"
+      },
+      {
+        "case": "loop-control-commits-and-stats",
+        "reason": "warehouse state: expected {'east': {'gear': 20, 'seal': 10}, 'west': {'gear': 3}}, got {'east': {'gear': 20, 'seal': 10}, 'west': {'gear': 1}}"
+      }
+    ]
+  },
+  {
+    "mutant": "floor-negative-division",
+    "rejected_by": [
+      {
+        "case": "precedence-and-scalar-types",
+        "reason": "committed events: expected [{'name': 'math', 'data': {'n': 14, 'neg': -2, 'rem': -1, 'rem2': 1, 'nested': 20, 'ok': True, 'text': 'ab', 'length': 10, 'distinct': True}, 'id': 1}], got [{'data': {'distinct': True, 'length': 10, 'n': 14, 'neg': -3, 'nested': 20, 'ok': True, 'rem': 2, 'rem2': -2, 'text': 'ab'}, 'id': 1, 'name': 'math'}]"
+      }
+    ]
+  },
+  {
+    "mutant": "erase-inner-commit-counter",
+    "rejected_by": [
+      {
+        "case": "nested-commit-outer-abort",
+        "reason": "execution counters: expected {'steps': 11, 'committed': 1, 'rolled_back': 1}, got {'committed': 0, 'rolled_back': 1, 'steps': 11}"
+      },
+      {
+        "case": "callee-return-does-not-commit-caller",
+        "reason": "execution counters: expected {'steps': 7, 'committed': 1, 'rolled_back': 1}, got {'committed': 0, 'rolled_back': 1, 'steps': 7}"
+      }
+    ]
+  }
+]

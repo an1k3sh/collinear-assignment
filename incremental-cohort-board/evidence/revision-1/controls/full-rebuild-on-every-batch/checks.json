@@ -1,0 +1,64 @@
+{
+  "release": 3,
+  "tests": {
+    "__main__.ProjectionTests.test_artifact_durable_incident_state": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_constraint_immutable_host_and_inputs": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_constraint_incremental_locality": {
+      "status": "error",
+      "detail": "Traceback (most recent call last):\n  File \"/app/runtime.py\", line 101, in apply\n    maintainer.maintain(self.db, self.modes, changes)\n  File \"/tests/test_projection.py\", line 66, in call\n    return function(db, *args)\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/app/maintainer.py\", line 75, in maintain\n    bootstrap(db, modes)\n  File \"/tests/test_projection.py\", line 66, in call\n    return function(db, *args)\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/app/maintainer.py\", line 58, in bootstrap\n    for row in db.execute(_sql(mode, False)).fetchall():\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nsqlite3.OperationalError: interrupted\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/tests/test_projection.py\", line 420, in test_constraint_incremental_locality\n    f.apply([put(\"orders\", \"target/o\", account=\"target\", day=\"busy\", cents=-501)],\n  File \"/tests/test_projection.py\", line 190, in apply\n    self.store.apply(batch_id or f\"batch-{self.counter}\", mutations)\n  File \"/app/runtime.py\", line 110, in apply\n    self.db.execute(\"ROLLBACK\")\nsqlite3.OperationalError: interrupted\n"
+    },
+    "__main__.ProjectionTests.test_constraint_other_group_cardinality": {
+      "status": "error",
+      "detail": "Traceback (most recent call last):\n  File \"/app/runtime.py\", line 101, in apply\n    maintainer.maintain(self.db, self.modes, changes)\n  File \"/tests/test_projection.py\", line 66, in call\n    return function(db, *args)\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/app/maintainer.py\", line 75, in maintain\n    bootstrap(db, modes)\n  File \"/tests/test_projection.py\", line 66, in call\n    return function(db, *args)\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/app/maintainer.py\", line 58, in bootstrap\n    for row in db.execute(_sql(mode, False)).fetchall():\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nsqlite3.OperationalError: interrupted\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/tests/test_projection.py\", line 447, in test_constraint_other_group_cardinality\n    f.apply([put(\"orders\", \"o1\", account=\"separate/1\", day=None, cents=-1)],\n  File \"/tests/test_projection.py\", line 190, in apply\n    self.store.apply(batch_id or f\"batch-{self.counter}\", mutations)\n  File \"/app/runtime.py\", line 110, in apply\n    self.db.execute(\"ROLLBACK\")\nsqlite3.OperationalError: interrupted\n"
+    },
+    "__main__.ProjectionTests.test_functional_bags_distinct_and_retractable_extrema": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_functional_collision_free_group_keys": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_functional_day_account_rekeys_and_deletes": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_functional_left_join_support_transitions": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_functional_rate_fanout_and_null_nonmatches": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_functional_transaction_cross_terms": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_robustness_coalesced_writes_and_change_order": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_robustness_generated_state_machine": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_robustness_rollback_retry_reopen": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_robustness_upgrade_from_populated_prior_release": {
+      "status": "passed"
+    }
+  },
+  "work": [
+    {
+      "batch": "local/order-extrema",
+      "vm_instructions": 300002,
+      "limit": 300000,
+      "release": 3
+    },
+    {
+      "batch": "local/many-groups",
+      "vm_instructions": 300002,
+      "limit": 300000,
+      "release": 3
+    }
+  ],
+  "tests_run": 14
+}

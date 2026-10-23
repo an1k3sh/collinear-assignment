@@ -1,0 +1,32 @@
+{
+  "input_integrity": {
+    "passed": true
+  },
+  "transcription": {
+    "passed": true
+  },
+  "coverage": {
+    "passed": true
+  },
+  "connectivity": {
+    "passed": true
+  },
+  "availability": {
+    "passed": true
+  },
+  "protection": {
+    "passed": true
+  },
+  "capacity": {
+    "passed": true
+  },
+  "budget": {
+    "passed": true
+  },
+  "regeneration": {
+    "passed": true
+  },
+  "handover": {
+    "passed": true
+  }
+}

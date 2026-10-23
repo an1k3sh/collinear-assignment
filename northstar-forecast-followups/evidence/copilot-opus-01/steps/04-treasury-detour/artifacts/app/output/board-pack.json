@@ -1,0 +1,265 @@
+{
+  "method": "customer_cohort_calendar",
+  "baseline": {
+    "annual_revenue": 1772564.52101988,
+    "december_active_customers": 1352.64897118915,
+    "december_cash": 274738.507762398,
+    "december_revolver": 0,
+    "peak_revolver": 30000,
+    "first_debt_free_month": "2026-03",
+    "max_abs_check": 0,
+    "months": [
+      {
+        "month": "2026-01",
+        "revenue": 123000,
+        "cfo": 18316.7741935484,
+        "capex": 5000,
+        "draw": 0,
+        "repay": 23316.7741935484,
+        "closing_cash": 20000,
+        "closing_debt": 6683.22580645164
+      },
+      {
+        "month": "2026-02",
+        "revenue": 126237,
+        "cfo": 6541.24183179726,
+        "capex": 5000,
+        "draw": 0,
+        "repay": 1541.24183179726,
+        "closing_cash": 20000,
+        "closing_debt": 5141.98397465438
+      },
+      {
+        "month": "2026-03",
+        "revenue": 129707.205,
+        "cfo": 34013.3828561838,
+        "capex": 5000,
+        "draw": 0,
+        "repay": 5141.98397465438,
+        "closing_cash": 43871.3988815294,
+        "closing_debt": 0
+      },
+      {
+        "month": "2026-04",
+        "revenue": 133406.881725,
+        "cfo": 18051.9281485457,
+        "capex": 5000,
+        "draw": 0,
+        "repay": 0,
+        "closing_cash": 56923.3270300752,
+        "closing_debt": 0
+      },
+      {
+        "month": "2026-05",
+        "revenue": 137332.357603125,
+        "cfo": 28170.5330035369,
+        "capex": 5000,
+        "draw": 0,
+        "repay": 0,
+        "closing_cash": 80093.860033612,
+        "closing_debt": 0
+      },
+      {
+        "month": "2026-06",
+        "revenue": 141480.019760998,
+        "cfo": 20925.8633188728,
+        "capex": 5000,
+        "draw": 0,
+        "repay": 0,
+        "closing_cash": 96019.7233524848,
+        "closing_debt": 0
+      },
+      {
+        "month": "2026-07",
+        "revenue": 151680.166597507,
+        "cfo": 28983.7423672613,
+        "capex": 5000,
+        "draw": 0,
+        "repay": 0,
+        "closing_cash": 120003.465719746,
+        "closing_debt": 0
+      },
+      {
+        "month": "2026-08",
+        "revenue": 156153.253765799,
+        "cfo": 31956.743910718,
+        "capex": 5000,
+        "draw": 0,
+        "repay": 0,
+        "closing_cash": 146960.209630464,
+        "closing_debt": 0
+      },
+      {
+        "month": "2026-09",
+        "revenue": 160840.078833221,
+        "cfo": 28659.3812995479,
+        "capex": 5000,
+        "draw": 0,
+        "repay": 0,
+        "closing_cash": 170619.590930012,
+        "closing_debt": 0
+      },
+      {
+        "month": "2026-10",
+        "revenue": 165737.219047153,
+        "cfo": 41032.1398889813,
+        "capex": 5000,
+        "draw": 0,
+        "repay": 0,
+        "closing_cash": 206651.730818993,
+        "closing_debt": 0
+      },
+      {
+        "month": "2026-11",
+        "revenue": 170841.307329948,
+        "cfo": 32431.9722919072,
+        "capex": 5000,
+        "draw": 0,
+        "repay": 0,
+        "closing_cash": 234083.7031109,
+        "closing_debt": 0
+      },
+      {
+        "month": "2026-12",
+        "revenue": 176149.031357131,
+        "cfo": 45654.8046514977,
+        "capex": 5000,
+        "draw": 0,
+        "repay": 0,
+        "closing_cash": 274738.507762398,
+        "closing_debt": 0
+      }
+    ]
+  },
+  "stress": {
+    "annual_revenue": 1772564.52101988,
+    "december_active_customers": 1352.64897118915,
+    "december_cash": 150942.230135501,
+    "december_revolver": 0,
+    "peak_revolver": 109380.533542627,
+    "first_debt_free_month": "2026-09",
+    "max_abs_check": 0,
+    "months": [
+      {
+        "month": "2026-01",
+        "revenue": 123000,
+        "cfo": -46829.1935483871,
+        "capex": 7200,
+        "draw": 69029.1935483871,
+        "repay": 0,
+        "closing_cash": 45000,
+        "closing_debt": 99029.1935483871
+      },
+      {
+        "month": "2026-02",
+        "revenue": 126237,
+        "cfo": -3151.3399942396,
+        "capex": 7200,
+        "draw": 10351.3399942396,
+        "repay": 0,
+        "closing_cash": 45000,
+        "closing_debt": 109380.533542627
+      },
+      {
+        "month": "2026-03",
+        "revenue": 129707.205,
+        "cfo": 38407.9593248546,
+        "capex": 7200,
+        "draw": 0,
+        "repay": 31207.9593248546,
+        "closing_cash": 45000,
+        "closing_debt": 78172.5742177722
+      },
+      {
+        "month": "2026-04",
+        "revenue": 133406.881725,
+        "cfo": 13058.1183295273,
+        "capex": 7200,
+        "draw": 0,
+        "repay": 5858.11832952735,
+        "closing_cash": 45000,
+        "closing_debt": 72314.4558882448
+      },
+      {
+        "month": "2026-05",
+        "revenue": 137332.357603125,
+        "cfo": 27813.6296094099,
+        "capex": 7200,
+        "draw": 0,
+        "repay": 20613.6296094099,
+        "closing_cash": 45000,
+        "closing_debt": 51700.826278835
+      },
+      {
+        "month": "2026-06",
+        "revenue": 141480.019760998,
+        "cfo": 15784.3175343588,
+        "capex": 7200,
+        "draw": 0,
+        "repay": 8584.31753435882,
+        "closing_cash": 45000,
+        "closing_debt": 43116.5087444761
+      },
+      {
+        "month": "2026-07",
+        "revenue": 151680.166597507,
+        "cfo": 25705.1826797449,
+        "capex": 7200,
+        "draw": 0,
+        "repay": 18505.1826797448,
+        "closing_cash": 45000,
+        "closing_debt": 24611.3260647313
+      },
+      {
+        "month": "2026-08",
+        "revenue": 156153.253765799,
+        "cfo": 29374.987402491,
+        "capex": 7200,
+        "draw": 0,
+        "repay": 22174.987402491,
+        "closing_cash": 45000,
+        "closing_debt": 2436.33866224028
+      },
+      {
+        "month": "2026-09",
+        "revenue": 160840.078833221,
+        "cfo": 23322.2620179346,
+        "capex": 7200,
+        "draw": 0,
+        "repay": 2436.33866224028,
+        "closing_cash": 58685.9233556943,
+        "closing_debt": 0
+      },
+      {
+        "month": "2026-10",
+        "revenue": 165737.219047153,
+        "cfo": 41277.7144132932,
+        "capex": 7200,
+        "draw": 0,
+        "repay": 0,
+        "closing_cash": 92763.6377689875,
+        "closing_debt": 0
+      },
+      {
+        "month": "2026-11",
+        "revenue": 170841.307329948,
+        "cfo": 26719.0595227177,
+        "capex": 7200,
+        "draw": 0,
+        "repay": 0,
+        "closing_cash": 112282.697291705,
+        "closing_debt": 0
+      },
+      {
+        "month": "2026-12",
+        "revenue": 176149.031357131,
+        "cfo": 45859.5328437957,
+        "capex": 7200,
+        "draw": 0,
+        "repay": 0,
+        "closing_cash": 150942.230135501,
+        "closing_debt": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,235 @@
+test_artifact_durable_incident_state (__main__.ProjectionTests.test_artifact_durable_incident_state) ... ok
+test_constraint_immutable_host_and_inputs (__main__.ProjectionTests.test_constraint_immutable_host_and_inputs) ... ok
+test_constraint_incremental_locality (__main__.ProjectionTests.test_constraint_incremental_locality) ... ERROR
+test_constraint_other_group_cardinality (__main__.ProjectionTests.test_constraint_other_group_cardinality) ... ERROR
+test_functional_bags_distinct_and_retractable_extrema (__main__.ProjectionTests.test_functional_bags_distinct_and_retractable_extrema) ... FAIL
+test_functional_collision_free_group_keys (__main__.ProjectionTests.test_functional_collision_free_group_keys) ... ok
+test_functional_day_account_rekeys_and_deletes (__main__.ProjectionTests.test_functional_day_account_rekeys_and_deletes) ... FAIL
+test_functional_household_membership_is_per_group (__main__.ProjectionTests.test_functional_household_membership_is_per_group) ... FAIL
+test_functional_household_parallel_cycle_and_dormant_bridge (__main__.ProjectionTests.test_functional_household_parallel_cycle_and_dormant_bridge) ... FAIL
+test_functional_household_simultaneous_repartition_and_sources (__main__.ProjectionTests.test_functional_household_simultaneous_repartition_and_sources) ... FAIL
+test_functional_left_join_support_transitions (__main__.ProjectionTests.test_functional_left_join_support_transitions) ... FAIL
+test_functional_rate_fanout_and_null_nonmatches (__main__.ProjectionTests.test_functional_rate_fanout_and_null_nonmatches) ... FAIL
+test_functional_transaction_cross_terms (__main__.ProjectionTests.test_functional_transaction_cross_terms) ... FAIL
+test_robustness_coalesced_writes_and_change_order (__main__.ProjectionTests.test_robustness_coalesced_writes_and_change_order) ... FAIL
+test_robustness_generated_state_machine (__main__.ProjectionTests.test_robustness_generated_state_machine) ... 
+  test_robustness_generated_state_machine (__main__.ProjectionTests.test_robustness_generated_state_machine) (seed=171) ... FAIL
+  test_robustness_generated_state_machine (__main__.ProjectionTests.test_robustness_generated_state_machine) (seed=908) ... FAIL
+test_robustness_household_rollback_then_split (__main__.ProjectionTests.test_robustness_household_rollback_then_split) ... FAIL
+test_robustness_rollback_retry_reopen (__main__.ProjectionTests.test_robustness_rollback_retry_reopen) ... FAIL
+test_robustness_upgrade_from_populated_prior_release (__main__.ProjectionTests.test_robustness_upgrade_from_populated_prior_release) ... FAIL
+
+======================================================================
+ERROR: test_constraint_incremental_locality (__main__.ProjectionTests.test_constraint_incremental_locality)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/app/runtime.py", line 102, in apply
+    maintainer.maintain(self.db, self.modes, changes)
+  File "/tests/test_projection.py", line 86, in call
+    return function(db, *args)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/app/maintainer.py", line 242, in maintain
+    for row in db.execute(_sql(mode, True), (account,)).fetchall():
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: interrupted
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/tests/test_projection.py", line 499, in test_constraint_incremental_locality
+    f.apply([put("orders", "target/o", account="target", day="busy", cents=-501)],
+  File "/tests/test_projection.py", line 247, in apply
+    self.store.apply(batch_id or f"batch-{self.counter}", mutations)
+  File "/app/runtime.py", line 111, in apply
+    self.db.execute("ROLLBACK")
+sqlite3.OperationalError: interrupted
+
+======================================================================
+ERROR: test_constraint_other_group_cardinality (__main__.ProjectionTests.test_constraint_other_group_cardinality)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/app/runtime.py", line 102, in apply
+    maintainer.maintain(self.db, self.modes, changes)
+  File "/tests/test_projection.py", line 86, in call
+    return function(db, *args)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/app/maintainer.py", line 242, in maintain
+    for row in db.execute(_sql(mode, True), (account,)).fetchall():
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: interrupted
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/tests/test_projection.py", line 629, in test_constraint_other_group_cardinality
+    f.apply([put("orders", "o1", account="separate/1", day=None, cents=-1)],
+  File "/tests/test_projection.py", line 247, in apply
+    self.store.apply(batch_id or f"batch-{self.counter}", mutations)
+  File "/app/runtime.py", line 111, in apply
+    self.db.execute("ROLLBACK")
+sqlite3.OperationalError: interrupted
+
+======================================================================
+FAIL: test_functional_bags_distinct_and_retractable_extrema (__main__.ProjectionTests.test_functional_bags_distinct_and_retractable_extrema)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tests/test_projection.py", line 295, in test_functional_bags_distinct_and_retractable_extrema
+    f.check()
+  File "/tests/test_projection.py", line 216, in check
+    raise AssertionError(
+AssertionError: Projection mismatch after batch 0; missing/wrong=[('household', 'day', 'x', 'band', 10, 6, 20, 2, -10, 10), ('household', None, None, None, 3, 2, 0, 2, 0, 0), ('inner', 'day', 'x', None, 5, 3, 10, 2, -10, 10), ('inner', None, None, None, 2, 2, 0, 1, 0, 0), ('outer', 'day', 'x', None, 5, 3, 10, 2, -10, 10)]; extra/wrong=[('household', 'day', 'x', 'band', 6, 4, 0, 2, -10, 10), ('household', None, None, None, 2, 1, 0, 2, 0, 0), ('inner', 'day', 'x', None, 3, 2, 0, 2, -10, 10), ('inner', None, None, None, 1, 1, 0, 1, 0, 0), ('outer', 'day', 'x', None, 3, 2, 0, 2, -10, 10)]; row counts actual=8 expected=8
+
+======================================================================
+FAIL: test_functional_day_account_rekeys_and_deletes (__main__.ProjectionTests.test_functional_day_account_rekeys_and_deletes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tests/test_projection.py", line 282, in test_functional_day_account_rekeys_and_deletes
+    f.apply(self.seed())
+  File "/tests/test_projection.py", line 254, in apply
+    self.check()
+  File "/tests/test_projection.py", line 216, in check
+    raise AssertionError(
+AssertionError: Projection mismatch after batch 1; missing/wrong=[('household', 'day', 'x', 'band', 10, 6, 20, 2, -10, 10), ('household', None, None, None, 3, 2, 0, 2, 0, 0), ('inner', 'day', 'x', None, 5, 3, 10, 2, -10, 10), ('inner', None, None, None, 2, 2, 0, 1, 0, 0), ('outer', 'day', 'x', None, 5, 3, 10, 2, -10, 10)]; extra/wrong=[('household', 'day', 'x', 'band', 6, 4, 0, 2, -10, 10), ('household', None, None, None, 2, 1, 0, 2, 0, 0), ('inner', 'day', 'x', None, 3, 2, 0, 2, -10, 10), ('inner', None, None, None, 1, 1, 0, 1, 0, 0), ('outer', 'day', 'x', None, 3, 2, 0, 2, -10, 10)]; row counts actual=8 expected=8
+
+======================================================================
+FAIL: test_functional_household_membership_is_per_group (__main__.ProjectionTests.test_functional_household_membership_is_per_group)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tests/test_projection.py", line 556, in test_functional_household_membership_is_per_group
+    f.apply([
+  File "/tests/test_projection.py", line 254, in apply
+    self.check()
+  File "/tests/test_projection.py", line 216, in check
+    raise AssertionError(
+AssertionError: Projection mismatch after batch 1; missing/wrong=[('household', 'day', 'x', 'band', 10, 6, 20, 1, -10, 10), ('household', None, None, None, 3, 2, 0, 2, 0, 0), ('inner', 'day', 'x', None, 5, 3, 10, 2, -10, 10), ('inner', None, None, None, 2, 2, 0, 1, 0, 0), ('outer', 'day', 'x', None, 5, 3, 10, 2, -10, 10)]; extra/wrong=[('household', 'day', 'x', 'band', 6, 4, 0, 1, -10, 10), ('household', None, None, None, 2, 1, 0, 2, 0, 0), ('inner', 'day', 'x', None, 3, 2, 0, 2, -10, 10), ('inner', None, None, None, 1, 1, 0, 1, 0, 0), ('outer', 'day', 'x', None, 3, 2, 0, 2, -10, 10)]; row counts actual=8 expected=8
+
+======================================================================
+FAIL: test_functional_household_parallel_cycle_and_dormant_bridge (__main__.ProjectionTests.test_functional_household_parallel_cycle_and_dormant_bridge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tests/test_projection.py", line 535, in test_functional_household_parallel_cycle_and_dormant_bridge
+    f.apply([
+  File "/tests/test_projection.py", line 254, in apply
+    self.check()
+  File "/tests/test_projection.py", line 216, in check
+    raise AssertionError(
+AssertionError: Projection mismatch after batch 1; missing/wrong=[('household', 'day', 'x', 'band', 10, 6, 20, 1, -10, 10), ('household', None, None, None, 3, 2, 0, 2, 0, 0), ('inner', 'day', 'x', None, 5, 3, 10, 2, -10, 10), ('inner', None, None, None, 2, 2, 0, 1, 0, 0), ('outer', 'day', 'x', None, 5, 3, 10, 2, -10, 10)]; extra/wrong=[('household', 'day', 'x', 'band', 6, 4, 0, 1, -10, 10), ('household', None, None, None, 2, 1, 0, 2, 0, 0), ('inner', 'day', 'x', None, 3, 2, 0, 2, -10, 10), ('inner', None, None, None, 1, 1, 0, 1, 0, 0), ('outer', 'day', 'x', None, 3, 2, 0, 2, -10, 10)]; row counts actual=8 expected=8
+
+======================================================================
+FAIL: test_functional_household_simultaneous_repartition_and_sources (__main__.ProjectionTests.test_functional_household_simultaneous_repartition_and_sources)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tests/test_projection.py", line 576, in test_functional_household_simultaneous_repartition_and_sources
+    f.apply([
+  File "/tests/test_projection.py", line 254, in apply
+    self.check()
+  File "/tests/test_projection.py", line 216, in check
+    raise AssertionError(
+AssertionError: Projection mismatch after batch 1; missing/wrong=[('household', 'day', 'x', 'band', 10, 6, 20, 1, -10, 10), ('household', None, None, None, 3, 2, 0, 1, 0, 0), ('inner', 'day', 'x', None, 5, 3, 10, 2, -10, 10), ('inner', None, None, None, 2, 2, 0, 1, 0, 0), ('outer', 'day', 'x', None, 5, 3, 10, 2, -10, 10)]; extra/wrong=[('household', 'day', 'x', 'band', 6, 4, 0, 1, -10, 10), ('household', None, None, None, 2, 1, 0, 1, 0, 0), ('inner', 'day', 'x', None, 3, 2, 0, 2, -10, 10), ('inner', None, None, None, 1, 1, 0, 1, 0, 0), ('outer', 'day', 'x', None, 3, 2, 0, 2, -10, 10)]; row counts actual=8 expected=8
+
+======================================================================
+FAIL: test_functional_left_join_support_transitions (__main__.ProjectionTests.test_functional_left_join_support_transitions)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tests/test_projection.py", line 330, in test_functional_left_join_support_transitions
+    f.apply([put("tags", "u", account="a", segment=None)])
+  File "/tests/test_projection.py", line 254, in apply
+    self.check()
+  File "/tests/test_projection.py", line 216, in check
+    raise AssertionError(
+AssertionError: Projection mismatch after batch 2; missing/wrong=[('household', None, None, None, 3, 2, 14, 2, 7, 7), ('inner', None, None, None, 2, 2, 14, 1, 7, 7), ('outer', None, None, None, 3, 2, 14, 2, 7, 7), ('rated', None, None, None, 3, 2, 14, 2, 7, 7)]; extra/wrong=[('household', None, None, None, 2, 1, 7, 2, 7, 7), ('inner', None, None, None, 1, 1, 7, 1, 7, 7), ('outer', None, None, None, 2, 1, 7, 2, 7, 7), ('rated', None, None, None, 2, 1, 7, 2, 7, 7)]; row counts actual=4 expected=4
+
+======================================================================
+FAIL: test_functional_rate_fanout_and_null_nonmatches (__main__.ProjectionTests.test_functional_rate_fanout_and_null_nonmatches)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tests/test_projection.py", line 339, in test_functional_rate_fanout_and_null_nonmatches
+    f.check()
+  File "/tests/test_projection.py", line 216, in check
+    raise AssertionError(
+AssertionError: Projection mismatch after batch 0; missing/wrong=[('household', 'day', 'x', 'band', 10, 6, 20, 2, -10, 10), ('household', None, None, None, 3, 2, 0, 2, 0, 0), ('inner', 'day', 'x', None, 5, 3, 10, 2, -10, 10), ('inner', None, None, None, 2, 2, 0, 1, 0, 0), ('outer', 'day', 'x', None, 5, 3, 10, 2, -10, 10)]; extra/wrong=[('household', 'day', 'x', 'band', 6, 4, 0, 2, -10, 10), ('household', None, None, None, 2, 1, 0, 2, 0, 0), ('inner', 'day', 'x', None, 3, 2, 0, 2, -10, 10), ('inner', None, None, None, 1, 1, 0, 1, 0, 0), ('outer', 'day', 'x', None, 3, 2, 0, 2, -10, 10)]; row counts actual=8 expected=8
+
+======================================================================
+FAIL: test_functional_transaction_cross_terms (__main__.ProjectionTests.test_functional_transaction_cross_terms)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tests/test_projection.py", line 349, in test_functional_transaction_cross_terms
+    f.apply([
+  File "/tests/test_projection.py", line 254, in apply
+    self.check()
+  File "/tests/test_projection.py", line 216, in check
+    raise AssertionError(
+AssertionError: Projection mismatch after batch 1; missing/wrong=[('household', None, None, None, 3, 2, 0, 2, 0, 0), ('inner', None, None, None, 2, 2, 0, 1, 0, 0), ('outer', None, None, None, 3, 2, 0, 2, 0, 0), ('rated', None, None, None, 3, 2, 0, 2, 0, 0)]; extra/wrong=[('household', None, None, None, 2, 1, 0, 2, 0, 0), ('inner', None, None, None, 1, 1, 0, 1, 0, 0), ('outer', None, None, None, 2, 1, 0, 2, 0, 0), ('rated', None, None, None, 2, 1, 0, 2, 0, 0)]; row counts actual=16 expected=16
+
+======================================================================
+FAIL: test_robustness_coalesced_writes_and_change_order (__main__.ProjectionTests.test_robustness_coalesced_writes_and_change_order)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tests/test_projection.py", line 368, in test_robustness_coalesced_writes_and_change_order
+    f.apply([
+  File "/tests/test_projection.py", line 254, in apply
+    self.check()
+  File "/tests/test_projection.py", line 216, in check
+    raise AssertionError(
+AssertionError: Projection mismatch after batch 1; missing/wrong=[('household', None, None, None, 3, 2, 0, 2, 0, 0), ('inner', None, None, None, 2, 2, 0, 1, 0, 0), ('outer', None, None, None, 3, 2, 0, 2, 0, 0), ('rated', None, None, None, 3, 2, 0, 2, 0, 0)]; extra/wrong=[('household', None, None, None, 2, 1, 0, 2, 0, 0), ('inner', None, None, None, 1, 1, 0, 1, 0, 0), ('outer', None, None, None, 2, 1, 0, 2, 0, 0), ('rated', None, None, None, 2, 1, 0, 2, 0, 0)]; row counts actual=20 expected=20
+
+======================================================================
+FAIL: test_robustness_generated_state_machine (__main__.ProjectionTests.test_robustness_generated_state_machine) (seed=171)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tests/test_projection.py", line 467, in test_robustness_generated_state_machine
+    f.apply(changes)
+  File "/tests/test_projection.py", line 254, in apply
+    self.check()
+  File "/tests/test_projection.py", line 216, in check
+    raise AssertionError(
+AssertionError: Projection mismatch after batch 17; missing/wrong=[('household', 'y', 'null', 'x|y', 2, 0, None, 1, None, None), ('inner', 'y', 'null', None, 2, 0, None, 1, None, None), ('outer', 'y', 'null', None, 2, 0, None, 1, None, None), ('rated', 'y', 'null', 'x|y', 2, 0, None, 1, None, None)]; extra/wrong=[('household', 'y', 'null', 'x|y', 1, 0, None, 1, None, None), ('inner', 'y', 'null', None, 1, 0, None, 1, None, None), ('outer', 'y', 'null', None, 1, 0, None, 1, None, None), ('rated', 'y', 'null', 'x|y', 1, 0, None, 1, None, None)]; row counts actual=28 expected=28
+
+======================================================================
+FAIL: test_robustness_generated_state_machine (__main__.ProjectionTests.test_robustness_generated_state_machine) (seed=908)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tests/test_projection.py", line 467, in test_robustness_generated_state_machine
+    f.apply(changes)
+  File "/tests/test_projection.py", line 254, in apply
+    self.check()
+  File "/tests/test_projection.py", line 216, in check
+    raise AssertionError(
+AssertionError: Projection mismatch after batch 18; missing/wrong=[('household', None, '', 'x', 2, 0, None, 1, None, None), ('inner', None, '', None, 2, 0, None, 1, None, None), ('outer', None, '', None, 2, 0, None, 1, None, None), ('rated', None, '', 'x', 2, 0, None, 1, None, None)]; extra/wrong=[('household', None, '', 'x', 1, 0, None, 1, None, None), ('inner', None, '', None, 1, 0, None, 1, None, None), ('outer', None, '', None, 1, 0, None, 1, None, None), ('rated', None, '', 'x', 1, 0, None, 1, None, None)]; row counts actual=58 expected=58
+
+======================================================================
+FAIL: test_robustness_household_rollback_then_split (__main__.ProjectionTests.test_robustness_household_rollback_then_split)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tests/test_projection.py", line 603, in test_robustness_household_rollback_then_split
+    f.apply([
+  File "/tests/test_projection.py", line 254, in apply
+    self.check()
+  File "/tests/test_projection.py", line 216, in check
+    raise AssertionError(
+AssertionError: Projection mismatch after batch 1; missing/wrong=[('household', 'day', 'x', 'band', 10, 6, 20, 1, -10, 10), ('household', None, None, None, 3, 2, 0, 2, 0, 0), ('inner', 'day', 'x', None, 5, 3, 10, 2, -10, 10), ('inner', None, None, None, 2, 2, 0, 1, 0, 0), ('outer', 'day', 'x', None, 5, 3, 10, 2, -10, 10)]; extra/wrong=[('household', 'day', 'x', 'band', 6, 4, 0, 1, -10, 10), ('household', None, None, None, 2, 1, 0, 2, 0, 0), ('inner', 'day', 'x', None, 3, 2, 0, 2, -10, 10), ('inner', None, None, None, 1, 1, 0, 1, 0, 0), ('outer', 'day', 'x', None, 3, 2, 0, 2, -10, 10)]; row counts actual=8 expected=8
+
+======================================================================
+FAIL: test_robustness_rollback_retry_reopen (__main__.ProjectionTests.test_robustness_rollback_retry_reopen)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tests/test_projection.py", line 401, in test_robustness_rollback_retry_reopen
+    f.check()
+  File "/tests/test_projection.py", line 216, in check
+    raise AssertionError(
+AssertionError: Projection mismatch after batch 0; missing/wrong=[('household', 'day', 'x', 'band', 10, 6, 20, 2, -10, 10), ('household', None, None, None, 3, 2, 0, 2, 0, 0), ('inner', 'day', 'x', None, 5, 3, 10, 2, -10, 10), ('inner', None, None, None, 2, 2, 0, 1, 0, 0), ('outer', 'day', 'x', None, 5, 3, 10, 2, -10, 10)]; extra/wrong=[('household', 'day', 'x', 'band', 6, 4, 0, 2, -10, 10), ('household', None, None, None, 2, 1, 0, 2, 0, 0), ('inner', 'day', 'x', None, 3, 2, 0, 2, -10, 10), ('inner', None, None, None, 1, 1, 0, 1, 0, 0), ('outer', 'day', 'x', None, 3, 2, 0, 2, -10, 10)]; row counts actual=8 expected=8
+
+======================================================================
+FAIL: test_robustness_upgrade_from_populated_prior_release (__main__.ProjectionTests.test_robustness_upgrade_from_populated_prior_release)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tests/test_projection.py", line 415, in test_robustness_upgrade_from_populated_prior_release
+    f.check()
+  File "/tests/test_projection.py", line 216, in check
+    raise AssertionError(
+AssertionError: Projection mismatch after batch 0; missing/wrong=[('inner', 'day', 'x', None, 5, 3, 10, 2, -10, 10), ('inner', None, None, None, 2, 2, 0, 1, 0, 0)]; extra/wrong=[('inner', 'day', 'x', None, 3, 2, 0, 2, -10, 10), ('inner', None, None, None, 1, 1, 0, 1, 0, 0)]; row counts actual=2 expected=2
+
+----------------------------------------------------------------------
+Ran 18 tests in 15.981s
+
+FAILED (failures=14, errors=2)

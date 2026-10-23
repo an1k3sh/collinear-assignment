@@ -1,0 +1,103 @@
+{
+  "checks": {
+    "gates": {
+      "protected_inputs": true,
+      "statuses": true,
+      "citations": true,
+      "supported_allocation": true,
+      "reading_envelope": true,
+      "critical_claims": true,
+      "calculations": false,
+      "allocation": true,
+      "reproducibility": true
+    },
+    "extraction": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "calculations": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "allocation": [
+      true
+    ],
+    "claim_audit": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "reproducibility": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "errors": [],
+  "claim_results": {
+    "D1": true,
+    "D2": true,
+    "D3": true,
+    "D4": true,
+    "D5": true,
+    "D6": true
+  },
+  "counterfactuals": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "invalid_inputs": [
+    true,
+    true,
+    true,
+    true,
+    true
+  ]
+}

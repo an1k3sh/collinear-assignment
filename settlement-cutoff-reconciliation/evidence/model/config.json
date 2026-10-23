@@ -1,0 +1,18 @@
+{
+    "task": {
+        "path": "harbor-prototypes/settlement-cutoff-reconciliation",
+        "source": "harbor-prototypes"
+    },
+    "trial_name": "settlement-cutoff-reconciliation__3v6fdqW",
+    "trials_dir": "jobs/harbor-prototypes-opus-02",
+    "agent_setup_timeout_multiplier": 5.0,
+    "agent": {
+        "name": "prototype_harness:PrototypeCopilot",
+        "model_name": "claude-opus-5.5",
+        "kwargs": {
+            "reasoning_effort": "high",
+            "version": "1.0.102"
+        }
+    },
+    "job_id": "6a7a7cc7-d906-4d0e-b89b-cfef01b02489"
+}

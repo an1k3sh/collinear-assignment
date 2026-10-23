@@ -1,0 +1,25 @@
+{
+  "delivered": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/grade.py\", line 20, in check\n    function()\n  File \"/tests/grade.py\", line 65, in delivered\n    assert set(rows(ROOT / \"state/payments.sqlite\", \"payments\")) == expected\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+  },
+  "identity_and_cents": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/grade.py\", line 20, in check\n    function()\n  File \"/tests/grade.py\", line 89, in semantics\n    assert result == {k: row[k] for k in (\"tenant\", \"payment_id\", \"invoice_id\")} | {\"cents\": 29}\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+  },
+  "lost_response": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/grade.py\", line 20, in check\n    function()\n  File \"/tests/grade.py\", line 102, in lost_response\n    assert len(rows(path, \"payments\")) == len(rows(path, \"receipts\")) == 2\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+  },
+  "error_reporting": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/grade.py\", line 20, in check\n    function()\n  File \"/tests/grade.py\", line 114, in invalid_rows\n    assert code == 1 and report[\"ok\"] == 2 and report[\"errors\"] == 1\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+  },
+  "concurrency": {
+    "passed": true
+  },
+  "artifacts": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/grade.py\", line 20, in check\n    function()\n  File \"/tests/grade.py\", line 161, in artifacts\n    assert (ROOT / \"submission/REPAIR_REPORT.md\").read_text().strip()\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/pathlib.py\", line 1027, in read_text\n    with self.open(mode='r', encoding=encoding, errors=errors) as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/pathlib.py\", line 1013, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/app/submission/REPAIR_REPORT.md'\n"
+  }
+}

@@ -1,0 +1,287 @@
+{
+    "id": "67715749-6838-4c02-82ca-e3eaab9eb5f8",
+    "task_name": "collinear-candidate/northstar-forecast-followups",
+    "trial_name": "northstar-forecast-followups__9uxHy7p",
+    "trial_uri": "file:///Users/anikeshparashar/Projects/difficult-bench/jobs/northstar-followups-oracle-01/northstar-forecast-followups__9uxHy7p",
+    "task_id": {
+        "path": "collinear-candidate/northstar-forecast-followups"
+    },
+    "source": null,
+    "task_checksum": "45d2871330575a83bab88cca2847d69b82a4341a375f8da85503bf767bd85690",
+    "config": {
+        "task": {
+            "path": "collinear-candidate/northstar-forecast-followups",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "northstar-forecast-followups__9uxHy7p",
+        "trials_dir": "jobs/northstar-followups-oracle-01",
+        "install_only": false,
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "oracle",
+            "import_path": null,
+            "model_name": null,
+            "n_concurrent": null,
+            "concurrency_group": null,
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "resume_trajectory": false,
+            "load_trajectory": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {},
+            "mcp_servers": []
+        },
+        "user_agent": null,
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "stream": false,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "extra_instructions": [],
+        "job_id": "ee368c57-c819-44cd-a6d2-8f5124d9cb41",
+        "source_trial": null
+    },
+    "agent_info": {
+        "name": "oracle",
+        "version": "1.0.0",
+        "model_info": null
+    },
+    "agent_result": null,
+    "verifier_result": {
+        "rewards": {
+            "constraint_satisfaction": 0.9993603275123139,
+            "artifact_quality": 1.0,
+            "robustness": 1.0,
+            "functional_correctness": 1.0,
+            "overall": 0.0
+        }
+    },
+    "verifier_environment_mode": null,
+    "exception_info": null,
+    "started_at": "2026-10-23T16:32:12.923344Z",
+    "finished_at": "2026-10-23T16:34:39.719730Z",
+    "environment_setup": {
+        "started_at": "2026-10-23T16:32:12.958563Z",
+        "finished_at": "2026-10-23T16:32:30.069186Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-10-23T16:32:30.077451Z",
+        "finished_at": "2026-10-23T16:32:30.078573Z"
+    },
+    "agent_execution": null,
+    "verifier": null,
+    "step_results": [
+        {
+            "step_name": "01-growth",
+            "agent_result": {
+                "n_input_tokens": null,
+                "n_cache_tokens": null,
+                "n_output_tokens": null,
+                "cost_usd": null,
+                "model_usage": null,
+                "rollout_details": null,
+                "metadata": null
+            },
+            "verifier_result": {
+                "rewards": {
+                    "overall": 0.0,
+                    "functional_correctness": 1.0,
+                    "constraint_satisfaction": 0.9993603275123137,
+                    "robustness": 1.0,
+                    "artifact_quality": 1.0
+                }
+            },
+            "exception_info": null,
+            "agent_execution": {
+                "started_at": "2026-10-23T16:32:30.396152Z",
+                "finished_at": "2026-10-23T16:32:38.507659Z"
+            },
+            "verifier": {
+                "started_at": "2026-10-23T16:32:40.046311Z",
+                "finished_at": "2026-10-23T16:32:47.858200Z"
+            }
+        },
+        {
+            "step_name": "02-cohort-revision",
+            "agent_result": {
+                "n_input_tokens": null,
+                "n_cache_tokens": null,
+                "n_output_tokens": null,
+                "cost_usd": null,
+                "model_usage": null,
+                "rollout_details": null,
+                "metadata": null
+            },
+            "verifier_result": {
+                "rewards": {
+                    "overall": 0.0,
+                    "functional_correctness": 1.0,
+                    "constraint_satisfaction": 0.9993603275123137,
+                    "robustness": 1.0,
+                    "artifact_quality": 1.0
+                }
+            },
+            "exception_info": null,
+            "agent_execution": {
+                "started_at": "2026-10-23T16:32:48.197132Z",
+                "finished_at": "2026-10-23T16:32:50.175868Z"
+            },
+            "verifier": {
+                "started_at": "2026-10-23T16:32:50.692095Z",
+                "finished_at": "2026-10-23T16:33:01.048942Z"
+            }
+        },
+        {
+            "step_name": "03-liquidity-continuation",
+            "agent_result": {
+                "n_input_tokens": null,
+                "n_cache_tokens": null,
+                "n_output_tokens": null,
+                "cost_usd": null,
+                "model_usage": null,
+                "rollout_details": null,
+                "metadata": null
+            },
+            "verifier_result": {
+                "rewards": {
+                    "overall": 0.0,
+                    "functional_correctness": 1.0,
+                    "constraint_satisfaction": 0.9993603275123137,
+                    "robustness": 1.0,
+                    "artifact_quality": 1.0
+                }
+            },
+            "exception_info": null,
+            "agent_execution": {
+                "started_at": "2026-10-23T16:33:01.410280Z",
+                "finished_at": "2026-10-23T16:33:04.390531Z"
+            },
+            "verifier": {
+                "started_at": "2026-10-23T16:33:04.922628Z",
+                "finished_at": "2026-10-23T16:33:23.940752Z"
+            }
+        },
+        {
+            "step_name": "04-treasury-detour",
+            "agent_result": {
+                "n_input_tokens": null,
+                "n_cache_tokens": null,
+                "n_output_tokens": null,
+                "cost_usd": null,
+                "model_usage": null,
+                "rollout_details": null,
+                "metadata": null
+            },
+            "verifier_result": {
+                "rewards": {
+                    "overall": 0.0,
+                    "functional_correctness": 1.0,
+                    "constraint_satisfaction": 0.9993603275123137,
+                    "robustness": 1.0,
+                    "artifact_quality": 1.0
+                }
+            },
+            "exception_info": null,
+            "agent_execution": {
+                "started_at": "2026-10-23T16:33:24.342791Z",
+                "finished_at": "2026-10-23T16:33:24.790962Z"
+            },
+            "verifier": {
+                "started_at": "2026-10-23T16:33:25.309202Z",
+                "finished_at": "2026-10-23T16:33:43.821255Z"
+            }
+        },
+        {
+            "step_name": "05-renewal-pricing",
+            "agent_result": {
+                "n_input_tokens": null,
+                "n_cache_tokens": null,
+                "n_output_tokens": null,
+                "cost_usd": null,
+                "model_usage": null,
+                "rollout_details": null,
+                "metadata": null
+            },
+            "verifier_result": {
+                "rewards": {
+                    "overall": 0.0,
+                    "functional_correctness": 1.0,
+                    "constraint_satisfaction": 0.9993603275123137,
+                    "robustness": 1.0,
+                    "artifact_quality": 1.0
+                }
+            },
+            "exception_info": null,
+            "agent_execution": {
+                "started_at": "2026-10-23T16:33:44.191424Z",
+                "finished_at": "2026-10-23T16:33:47.001471Z"
+            },
+            "verifier": {
+                "started_at": "2026-10-23T16:33:47.503225Z",
+                "finished_at": "2026-10-23T16:34:12.308281Z"
+            }
+        },
+        {
+            "step_name": "06-reconciled-cutover",
+            "agent_result": {
+                "n_input_tokens": null,
+                "n_cache_tokens": null,
+                "n_output_tokens": null,
+                "cost_usd": null,
+                "model_usage": null,
+                "rollout_details": null,
+                "metadata": null
+            },
+            "verifier_result": {
+                "rewards": {
+                    "overall": 0.0,
+                    "functional_correctness": 1.0,
+                    "constraint_satisfaction": 0.9993603275123137,
+                    "robustness": 1.0,
+                    "artifact_quality": 1.0
+                }
+            },
+            "exception_info": null,
+            "agent_execution": {
+                "started_at": "2026-10-23T16:34:12.802341Z",
+                "finished_at": "2026-10-23T16:34:16.228748Z"
+            },
+            "verifier": {
+                "started_at": "2026-10-23T16:34:16.790215Z",
+                "finished_at": "2026-10-23T16:34:37.502477Z"
+            }
+        }
+    ]
+}

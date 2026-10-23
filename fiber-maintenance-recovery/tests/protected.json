@@ -1,0 +1,21 @@
+{
+  "data/cable_versions.csv": "a96b87b2ee9aa68b421f528006ca8717393cdd62dfcab964580a4e27095804d6",
+  "data/drawing_register.csv": "4cf45ab150d1d0c0b4dba7075f7dae5167fa2a82ba243524ee8dcd0f27bca33c",
+  "data/nodes.csv": "d0372398a415c7b6f9f6932f8761770c9e15c50bffd763fa48de99e3479b4467",
+  "data/outages.csv": "dabc86faa0c31791b2802cc85428c2150b28faffbeae9ae9bf8b02d065f8ebf3",
+  "data/phases.csv": "0da0eed87fc573ec3a6f2ea97e65a60b49278cebbabc2c514d2395ee60c1d73f",
+  "data/services.csv": "5129ef315b8855234e742af7b5e81a76d421e3416e23c3e37aeb72c8bc837aba",
+  "data/settings.json": "06933498ac2abe4aeb97e78cfa50084c6631c86ed34067f19353c9ae3d6a48d4",
+  "docs/brief.md": "cbb4561a885e4fc58e65d7b3bc9341eaba263f4896e81c2611f75de1e04fa5bf",
+  "docs/output.md": "938f52183d8a641e8bc9d84e0c2245b23c65c38b419c4ba46d225bf1ccd287d1",
+  "docs/service-policy.md": "cc43e663b9b485d003121f52b87f0a672f646ee1a8eb6d128afc525d30497c28",
+  "drawings/room-A.png": "bf429e43966f321f673596cd2ec87d8b62360034627c5254446089311c508a96",
+  "drawings/room-B.png": "e9aecb27820417e1202201bcd999f48d6a281fe27fdd03ecad1737f7ba0af869",
+  "drawings/room-C.png": "e4e1c36582bec546024a96e8cc0100be9efe24039799ae4f6607893f05a84c3c",
+  "drawings/room-D.png": "06abdb349f222eccfd992a73961c2dc2f667118e9525625325656bb69b7f7b2c",
+  "drawings/room-E.png": "21beed03ba30be0c52fcbd55e62f24df4caa2d9985f4a83bc353d6b12d0af896",
+  "drawings/room-F.png": "c6c249e3852a62e52ee5fbeee4c078666f9eb0dcc59ce2f73bfdab95e203c028",
+  "drawings/spine-1.png": "2b30c3e7f973221baaddca9ee8f29f763a9dfcdd515a46592c790c50a0909a7c",
+  "drawings/spine-2.png": "2f28b72bcdea59c13d1f1b442f9d8d8e466f5a4a5a1955bba938169691ad0203",
+  "drawings/spine-3.png": "090024bc41c1a2269c5be63359bae5ffde03718f810dc90ea6769dc0470b7976"
+}

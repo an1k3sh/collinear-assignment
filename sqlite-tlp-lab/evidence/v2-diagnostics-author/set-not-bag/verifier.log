@@ -1,0 +1,62 @@
+test_artifact_cli (test_tlp.TLPTests.test_artifact_cli) ... ok
+test_artifact_cli_mismatch_and_error (test_tlp.TLPTests.test_artifact_cli_mismatch_and_error) ... ok
+test_artifact_save_replay (test_tlp.TLPTests.test_artifact_save_replay) ... ok
+test_completeness_avg (test_tlp.TLPTests.test_completeness_avg) ... ok
+test_completeness_count (test_tlp.TLPTests.test_completeness_count) ... ok
+test_completeness_distinct (test_tlp.TLPTests.test_completeness_distinct) ... ok
+test_completeness_group (test_tlp.TLPTests.test_completeness_group) ... ok
+test_completeness_having (test_tlp.TLPTests.test_completeness_having) ... ok
+test_completeness_max (test_tlp.TLPTests.test_completeness_max) ... ok
+test_completeness_min (test_tlp.TLPTests.test_completeness_min) ... ok
+test_completeness_sum (test_tlp.TLPTests.test_completeness_sum) ... ok
+test_completeness_where (test_tlp.TLPTests.test_completeness_where) ... ok
+test_completeness_where_extended (test_tlp.TLPTests.test_completeness_where_extended) ... ok
+test_diversity_edge_data (test_tlp.TLPTests.test_diversity_edge_data) ... ok
+test_diversity_generation (test_tlp.TLPTests.test_diversity_generation) ... ok
+test_diversity_group_oracle (test_tlp.TLPTests.test_diversity_group_oracle) ... ok
+test_diversity_grouping (test_tlp.TLPTests.test_diversity_grouping) ... ok
+test_diversity_having_oracle (test_tlp.TLPTests.test_diversity_having_oracle) ... ok
+test_diversity_modes (test_tlp.TLPTests.test_diversity_modes) ... ok
+test_diversity_operators (test_tlp.TLPTests.test_diversity_operators) ... ok
+test_diversity_partition_occupancy (test_tlp.TLPTests.test_diversity_partition_occupancy) ... ok
+test_diversity_shapes (test_tlp.TLPTests.test_diversity_shapes) ... ok
+test_diversity_sources_filters (test_tlp.TLPTests.test_diversity_sources_filters) ... ok
+test_validity_binding (test_tlp.TLPTests.test_validity_binding) ... ok
+test_validity_comparator (test_tlp.TLPTests.test_validity_comparator) ... 
+  test_validity_comparator (test_tlp.TLPTests.test_validity_comparator) (left=[[1], [1]], right=[[1]]) ... FAIL
+test_validity_composition_without_database (test_tlp.TLPTests.test_validity_composition_without_database) ... ok
+test_validity_errors (test_tlp.TLPTests.test_validity_errors) ... ok
+test_validity_executor_and_detection (test_tlp.TLPTests.test_validity_executor_and_detection) ... FAIL
+test_validity_group_having_witnesses (test_tlp.TLPTests.test_validity_group_having_witnesses) ... FAIL
+test_validity_partition_plans (test_tlp.TLPTests.test_validity_partition_plans) ... ok
+test_validity_protected_files (test_tlp.TLPTests.test_validity_protected_files) ... ok
+test_validity_reference_selfcheck (test_tlp.TLPTests.test_validity_reference_selfcheck) ... ok
+
+======================================================================
+FAIL: test_validity_comparator (test_tlp.TLPTests.test_validity_comparator) (left=[[1], [1]], right=[[1]])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 94, in test_validity_comparator
+    self.assertIs(equivalent(left, right), expected)
+AssertionError: True is not False
+
+======================================================================
+FAIL: test_validity_executor_and_detection (test_tlp.TLPTests.test_validity_executor_and_detection)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 130, in test_validity_executor_and_detection
+    self.assertIs(result["ok"], False)
+AssertionError: True is not False
+
+======================================================================
+FAIL: test_validity_group_having_witnesses (test_tlp.TLPTests.test_validity_group_having_witnesses)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 254, in test_validity_group_having_witnesses
+    self.assertIs(run_case(case, lose_group)["ok"], False)
+AssertionError: True is not False
+
+----------------------------------------------------------------------
+Ran 32 tests in 2.705s
+
+FAILED (failures=3)

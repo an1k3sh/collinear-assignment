@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "gates": {
+      "protected": true,
+      "evaluation_complete": false
+    }
+  },
+  "errors": [
+    "Traceback (most recent call last):\n  File \"/submission/tests/grade.py\", line 172, in grade\n    readings, output = load(submission/\"readings.json\"), load(submission/\"analysis.json\")\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/grade.py\", line 24, in load\n    return json.loads(Path(path).read_text(), parse_constant=reject)\n                      ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/pathlib.py\", line 1027, in read_text\n    with self.open(mode='r', encoding=encoding, errors=errors) as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/pathlib.py\", line 1013, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/tmp/chart-v2-author-uy0o8p5x/app/submission/readings.json'\n"
+  ]
+}

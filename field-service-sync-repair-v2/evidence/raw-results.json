@@ -1,0 +1,38 @@
+[
+  {
+    "trial": "field-service-sync-repair-v2__ehKUT6K",
+    "verifier_result": {
+      "rewards": {
+        "artifacts": 1.0,
+        "batches": 1.0,
+        "client": 0.8571428571428571,
+        "confirmations": 1.0,
+        "durability": 1.0,
+        "integration": 0.0,
+        "recovery": 1.0,
+        "sync": 1.0,
+        "transactions": 1.0,
+        "overall": 0.0
+      }
+    },
+    "exception_info": null
+  },
+  {
+    "trial": "field-service-sync-repair-v2__tX5R9v2",
+    "verifier_result": {
+      "rewards": {
+        "artifacts": 1.0,
+        "batches": 1.0,
+        "client": 0.8571428571428571,
+        "confirmations": 1.0,
+        "durability": 1.0,
+        "integration": 0.0,
+        "recovery": 1.0,
+        "sync": 1.0,
+        "transactions": 1.0,
+        "overall": 0.0
+      }
+    },
+    "exception_info": null
+  }
+]

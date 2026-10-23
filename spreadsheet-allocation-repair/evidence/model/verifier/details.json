@@ -1,0 +1,26 @@
+{
+  "source_and_formulas": {
+    "passed": true
+  },
+  "saved_results": {
+    "passed": true
+  },
+  "chart_binding": {
+    "passed": true
+  },
+  "recalculation_0": {
+    "passed": true
+  },
+  "recalculation_1": {
+    "passed": true
+  },
+  "recalculation_2": {
+    "passed": true
+  },
+  "recalculation_3": {
+    "passed": true
+  },
+  "recalculation_4": {
+    "passed": true
+  }
+}

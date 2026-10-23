@@ -1,0 +1,14 @@
+To: Grants analyst
+Subject: Close release
+
+Please replace the draft with a reconciled, reusable allocation workbook.
+The program team needs to adjust this month's funding authorization and
+update source records in the same workbook after we hand it back.
+
+Keep the original records and the previous close for audit. A plausible grand
+total alone is not sign-off: program-level expenses, caps and award amounts
+must follow the attached policy. Use the tie ranks that the committee approved,
+and keep the chart linked to the actual released awards.
+
+The Policy document is authoritative; the existing formulas and prior close
+are not a specification.

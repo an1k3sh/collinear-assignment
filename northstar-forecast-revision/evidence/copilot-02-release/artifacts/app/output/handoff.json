@@ -1,0 +1,10 @@
+{
+  "method": "customer_cohort",
+  "superseded_method": "legacy_monthly_growth",
+  "annual_revenue": 1772564.52102,
+  "december_active_customers": 1352.648971,
+  "december_cash": 274738.507762,
+  "december_revolver": 0.0,
+  "max_abs_check": 0,
+  "notes": "Baseline FY2026 forecast; revenue from Cohorts row 38. Legacy growth (Drivers row 6) is populated but unused."
+}

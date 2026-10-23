@@ -1,0 +1,23 @@
+{
+  "README.md": "c8d08bb8a42884997c3824ae979910cc94c0f189494973269ce2fb1a7b9ffc7f",
+  "author/generate.py": "de55b9bd9d7e43ab4264147f8060a388b1336e73d4207fa3bdbff0eb12979846",
+  "author/make_controls.py": "c497da53e6275bfda9762ea1041564b5287b772ec31a724675e866d401312454",
+  "author/prototype_harness.py": "2100c39b5d54f1ebacf7bee1f2b5bf8c1ee7ca120939c425c18e81aea4f67611",
+  "environment/Dockerfile": "059c934bf42c8e8da863cf04391fed5ded3fb96d7983817cc4a9b992fdd55723",
+  "environment/app/BRIEF.md": "32ea82a0901f3aba477ed5a3439b5fd436ea83d2cbac8ffe776d9e63e5418a81",
+  "environment/app/input/agreement.pdf": "98a83cbe05d56f5b78f4eff37f7fc2286b02900e211b4370c53e4c6e08d16ec4",
+  "environment/requirements.txt": "e52061a9817894d0d4ec9359ccfaa40c210b70843ded5358faee32fe53416a40",
+  "instruction.md": "dabd43281acc8bdf1b500d9b646c99d390c04e721c8cd3330ab805c09e6fea7f",
+  "solution/rebuild.py": "de55b9bd9d7e43ab4264147f8060a388b1336e73d4207fa3bdbff0eb12979846",
+  "solution/solve.sh": "1d193301248a58bc38f727305994ac489cea435343e0a15eb7cdb9478b786a38",
+  "task.toml": "64f7998e4cad80f87e9412cbd979496cd3343f58c7e3fa1dbca1b7bee893b5d5",
+  "tests/evidence.py": "4db75569d75fba1f937449c8456e567bdcc2427bc079a3c74a9aafa368251db7",
+  "tests/grade.py": "a13ec851e7627742737335dcd13983e4c803803f7cfb0866fa44d74f02d7b385",
+  "tests/judge.py": "092431af4421141d4896654b928372d9456ef24b669f74c394ccab6f9ca55d7c",
+  "tests/judge_prompt.txt": "0cbd26c7ec0967f600df302e87df35afd3be6b92b88a2a3d653798e7aaea4c4d",
+  "tests/protected.json": "e5ee27c2518f5eba348ce4f0697d781591a1f4934daeda0312ea600b72f67ca4",
+  "tests/reference/original.docx": "97201c6fb7c2321af57d2b3c04f44dfb3f5afa294f33eb8bf40d194ce982d34e",
+  "tests/reference/original.pdf": "98a83cbe05d56f5b78f4eff37f7fc2286b02900e211b4370c53e4c6e08d16ec4",
+  "tests/test.sh": "02d0feedc126525322106419c24d1441fa39a4fd88936f763fd9820cda4923fa",
+  "tests/test_judge_contract.py": "04cd4e9865fd5cf64a4c41759846b8c37f5f1fd94b94711c7b9d9fb3bb3ed50a"
+}

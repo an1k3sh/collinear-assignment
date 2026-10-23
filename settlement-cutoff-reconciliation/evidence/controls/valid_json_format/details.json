@@ -1,0 +1,20 @@
+{
+  "delivered": {
+    "passed": true
+  },
+  "variant_1": {
+    "passed": true
+  },
+  "variant_2": {
+    "passed": true
+  },
+  "variant_3": {
+    "passed": true
+  },
+  "variant_4": {
+    "passed": true
+  },
+  "variant_5": {
+    "passed": true
+  }
+}

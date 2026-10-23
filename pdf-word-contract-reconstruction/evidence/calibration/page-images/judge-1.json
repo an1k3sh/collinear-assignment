@@ -1,0 +1,62 @@
+{
+  "scores": {
+    "content_fidelity": 4,
+    "editable_structure": 0,
+    "visual_organization": 4,
+    "navigation_furniture": 2
+  },
+  "evidence": {
+    "content_fidelity": [
+      "Original pages 1\u20133 preserve the parties, service term, mobilisation deadline and clauses 1\u20138, including denied-access rescheduling, separate acknowledgement/attendance clocks, replacement cover, disputed-charge treatment and written approval for additional work.",
+      "Schedule A matches every financial row: monitoring 12 \u00d7 2,400.00 = 28,800.00; calibration 6 \u00d7 750.00 = 4,500.00; onboarding 3 \u00d7 1,800.00 = 5,400.00; transition credit (900.00); net 37,800.00; VAT 7,560.00; total 45,360.00. Invoice amounts also match: 2,400.00, 190.00, 2,590.00, 518.00 and 3,108.00.",
+      "Schedule A retains GBP 145.00 per authorised call-out, 45 included minutes, GBP 22.50 per completed additional 15-minute block, the footnote excluding an additional block at 59 minutes, included travel, materials at approved evidenced cost without uplift, and payment within 30 calendar days.",
+      "Schedule B preserves all site associations: Northgate Mon-Sat 08:00\u201320:00, critical 15/90 minutes, routine acknowledgement 2 service hours and attendance next service day; Canal House Mon-Fri 07:00\u201319:00, critical 15/120 minutes, routine 4 service hours/within 2 service days; Eastbank Mon-Sun 06:00\u201322:00, critical 10/60 minutes, routine 1 service hour/same service day. Escort, loading-bay and gate-code exceptions match.",
+      "Schedule B preserves continuous critical cover without holiday suspension and all planned exceptions: 31 August closure for Northgate/Canal House, Northgate closing at 14:00 on 24 December, all-site closure on 25 December, and Eastbank's 08:00\u201316:00 window on 26 December; critical service remains unchanged.",
+      "Pages 6\u20138 preserve evidence/accountable-party associations, figure outcomes 42 accepted/6 returned/3 open, acceptance conditions, change-authorisation steps, execution wording, blank form fields and revision history."
+    ],
+    "editable_structure": [
+      "The reference contains native body paragraphs, Heading1/Heading2 paragraphs, automatically numbered clauses using numbering_id 60, and native tables with repeated headers and vertical merges. The candidate body instead contains 15 empty-text paragraphs: eight with one drawing each, separated by seven empty paragraphs; there are no native body tables or textual clauses.",
+      "All eight candidate rendered-page text extractions are empty, corroborating the image-only body structure rather than merely a different paragraph/run arrangement.",
+      "The reference has a real footnote reference and footnotes.xml entry; every candidate paragraph has an empty footnote_refs array and candidate furniture is empty.",
+      "The verifier recorded both reference edit actions but no candidate actions. In edited-02.png, the reference Access readiness clause expands while the candidate remains unchanged. In edited-04.png, the reference calibration description expands its table row while the candidate remains unchanged. Edited-05.png confirms Schedule B remains aligned; this is inability to edit, not a pagination-related omission.",
+      "Figure captions and the acceptance/change/signature forms are also embedded in page images, not editable captions or native cells."
+    ],
+    "visual_organization": [
+      "All eight original pairs preserve the visible heading hierarchy, blue table rules and banding, page sequence and readable text without material clipping or overlap.",
+      "Original page 3 retains the two-column operational-responsibilities layout; original page 5 retains the landscape service-window layout with correct column associations.",
+      "Original page 6 preserves the handover diagram and outcome-chart proportions. Differences in overall scale, margins and vertical spacing are negligible."
+    ],
+    "navigation_furniture": [
+      "The visible page-1 navigation references still correctly target pages 2\u20138; clause 8, Schedule B and Appendix E references retain their delivered targets.",
+      "Headers, issue information, page numbers, figure captions and the Schedule A note remain visibly positioned, but only within page images. The candidate has no applied body headings and an empty furniture object, unlike the reference's actual header, footer PAGE field and footnote.",
+      "Consequently, visual navigation survives, but Word heading navigation and native caption/note/header/footer functionality require reconstruction."
+    ]
+  },
+  "material_defects": [
+    {
+      "location": "Entire document, pages 1\u20138",
+      "reference": "Editable paragraphs, applied headings, automatic clauses and native tables, including fillable-by-editing acceptance and execution cells.",
+      "candidate": "Eight page drawings in empty-text paragraphs; no native body text or tables.",
+      "impact": "The central editable reconstruction is absent: clauses cannot be revised, tables cannot expand, and forms cannot be completed as ordinary Word content."
+    },
+    {
+      "location": "Schedule A footnote; document headings, captions, headers and footers",
+      "reference": "Real footnote, structured headings, editable captions, native header and footer with a PAGE field.",
+      "candidate": "These elements are rasterized within the page drawings; furniture is empty and no body heading styles or footnote references are applied.",
+      "impact": "Native navigation, note handling and document-furniture maintenance are lost despite their preserved visual appearance."
+    }
+  ],
+  "inspected_images": [
+    "original-01.png",
+    "original-02.png",
+    "original-03.png",
+    "original-04.png",
+    "original-05.png",
+    "original-06.png",
+    "original-07.png",
+    "original-08.png",
+    "edited-02.png",
+    "edited-04.png",
+    "edited-05.png"
+  ]
+}

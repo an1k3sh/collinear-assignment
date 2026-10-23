@@ -1,0 +1,100 @@
+{
+  "calendars": [
+    {
+      "id": "001",
+      "timezone": "America/New_York",
+      "files": [
+        "export-0-0.ics",
+        "export-0-1.ics"
+      ]
+    },
+    {
+      "id": "01",
+      "timezone": "America/New_York",
+      "files": [
+        "export-1-0.ics",
+        "export-1-1.ics"
+      ]
+    },
+    {
+      "id": "1",
+      "timezone": "Australia/Lord_Howe",
+      "files": [
+        "export-2-0.ics",
+        "export-2-1.ics"
+      ]
+    },
+    {
+      "id": "020",
+      "timezone": "America/New_York",
+      "files": [
+        "export-3-0.ics",
+        "export-3-1.ics"
+      ]
+    },
+    {
+      "id": "20",
+      "timezone": "UTC",
+      "files": [
+        "export-4-0.ics",
+        "export-4-1.ics"
+      ]
+    },
+    {
+      "id": "002",
+      "timezone": "UTC",
+      "files": [
+        "export-5-0.ics",
+        "export-5-1.ics"
+      ]
+    },
+    {
+      "id": "A",
+      "timezone": "UTC",
+      "files": [
+        "export-6-0.ics",
+        "export-6-1.ics"
+      ]
+    },
+    {
+      "id": "B",
+      "timezone": "Europe/Berlin",
+      "files": [
+        "export-7-0.ics",
+        "export-7-1.ics"
+      ]
+    },
+    {
+      "id": "C",
+      "timezone": "UTC",
+      "files": [
+        "export-8-0.ics",
+        "export-8-1.ics"
+      ]
+    },
+    {
+      "id": "D",
+      "timezone": "UTC",
+      "files": [
+        "export-9-0.ics",
+        "export-9-1.ics"
+      ]
+    },
+    {
+      "id": "E",
+      "timezone": "Europe/Berlin",
+      "files": [
+        "export-10-0.ics",
+        "export-10-1.ics"
+      ]
+    },
+    {
+      "id": "F",
+      "timezone": "UTC",
+      "files": [
+        "export-11-0.ics",
+        "export-11-1.ics"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "POLICY.md": "47a855edeb15aac51fec264be12d798104e242342b410dc7f5f1a5ac7b104eab",
+  "data/baseline.csv": "d4eec9fcd7d60fda347a860097abe0da620ec8393957b76133b8177ac029ba23",
+  "data/distances.csv": "ecdeb4aeef1874c5f797b7cdd6ded3c6576d30badb48ee447423c1dccc27aa69",
+  "data/settings.json": "be1d6931747cb3d009fbc135e4c6cab397f1382abed159a6ab464326217d7e87",
+  "data/skus.csv": "fb559ac481f8779702dfd0825fa5c8f537f67838eaff505b73aec4d4d12fb01f",
+  "data/slots.csv": "9dcccf47fe584bc546a7fbc88037cdec34f5fc05a9df507ed4b761995fa702a8",
+  "data/transitions.csv": "fac2173a3caadfcfeeb71e4a23269da6eea7c91e167f687fc50e2e51d78fdbc2",
+  "tools/evaluate.py": "41e9fbdd27c6162d89299ca7167b2ac4d8bcc4e1e4272dfdab0e44b8f4be62bb"
+}

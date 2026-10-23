@@ -1,0 +1,17 @@
+{
+    "task": {
+        "path": "harbor-iterations/warehouse-slotting-recovery"
+    },
+    "trial_name": "warehouse-slotting-recovery__Eir3kH2",
+    "trials_dir": "jobs/slotting-opus-01",
+    "agent_setup_timeout_multiplier": 5.0,
+    "agent": {
+        "name": "prototype_harness:PrototypeCopilot",
+        "model_name": "claude-opus-5.5",
+        "kwargs": {
+            "reasoning_effort": "high",
+            "version": "1.0.102"
+        }
+    },
+    "job_id": "9594a0be-cc1d-49f8-a318-b69db4736ce3"
+}

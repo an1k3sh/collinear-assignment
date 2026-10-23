@@ -1,0 +1,24 @@
+{
+  "delivered": {
+    "passed": true
+  },
+  "variant_1": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/grade.py\", line 80, in <module>\n    function()\n  File \"/tests/grade.py\", line 78, in <lambda>\n    for name, function in [(\"delivered\", delivered)] + [(f\"variant_{i}\", lambda i=i: replay(i)) for i in range(1, 6)]:\n                                                                                     ^^^^^^^^^\n  File \"/tests/grade.py\", line 75, in replay\n    verify_output(output, ref)\n  File \"/tests/grade.py\", line 23, in verify_output\n    assert found == value, f\"{name} {wanted} field {field}: {found} != {value}\"\n           ^^^^^^^^^^^^^^\nAssertionError: settlements {'merchant': 'north', 'batch': 'B-18', 'currency': 'USD', 'sales_cents': 5000, 'refunds_cents': 0, 'fees_cents': -175, 'reserve_net_cents': 400, 'expected_cents': 5225, 'bank_cents': 5000, 'difference_cents': -225, 'status': 'exception'} field refunds_cents: -500 != 0\n"
+  },
+  "variant_2": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/grade.py\", line 80, in <module>\n    function()\n  File \"/tests/grade.py\", line 78, in <lambda>\n    for name, function in [(\"delivered\", delivered)] + [(f\"variant_{i}\", lambda i=i: replay(i)) for i in range(1, 6)]:\n                                                                                     ^^^^^^^^^\n  File \"/tests/grade.py\", line 75, in replay\n    verify_output(output, ref)\n  File \"/tests/grade.py\", line 23, in verify_output\n    assert found == value, f\"{name} {wanted} field {field}: {found} != {value}\"\n           ^^^^^^^^^^^^^^\nAssertionError: settlements {'merchant': 'orchard', 'batch': 'B-18', 'currency': 'USD', 'sales_cents': 15000, 'refunds_cents': 0, 'fees_cents': -525, 'reserve_net_cents': 1200, 'expected_cents': 15675, 'bank_cents': 15000, 'difference_cents': -675, 'status': 'exception'} field refunds_cents: -1500 != 0\n"
+  },
+  "variant_3": {
+    "passed": true
+  },
+  "variant_4": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/grade.py\", line 80, in <module>\n    function()\n  File \"/tests/grade.py\", line 78, in <lambda>\n    for name, function in [(\"delivered\", delivered)] + [(f\"variant_{i}\", lambda i=i: replay(i)) for i in range(1, 6)]:\n                                                                                     ^^^^^^^^^\n  File \"/tests/grade.py\", line 75, in replay\n    verify_output(output, ref)\n  File \"/tests/grade.py\", line 23, in verify_output\n    assert found == value, f\"{name} {wanted} field {field}: {found} != {value}\"\n           ^^^^^^^^^^^^^^\nAssertionError: settlements {'merchant': 'orchard', 'batch': 'B-18', 'currency': 'USD', 'sales_cents': 25000, 'refunds_cents': 0, 'fees_cents': -875, 'reserve_net_cents': 2000, 'expected_cents': 26125, 'bank_cents': 25000, 'difference_cents': -1125, 'status': 'exception'} field refunds_cents: -2500 != 0\n"
+  },
+  "variant_5": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/grade.py\", line 80, in <module>\n    function()\n  File \"/tests/grade.py\", line 78, in <lambda>\n    for name, function in [(\"delivered\", delivered)] + [(f\"variant_{i}\", lambda i=i: replay(i)) for i in range(1, 6)]:\n                                                                                     ^^^^^^^^^\n  File \"/tests/grade.py\", line 75, in replay\n    verify_output(output, ref)\n  File \"/tests/grade.py\", line 23, in verify_output\n    assert found == value, f\"{name} {wanted} field {field}: {found} != {value}\"\n           ^^^^^^^^^^^^^^\nAssertionError: settlements {'merchant': 'orchard', 'batch': 'B-18', 'currency': 'USD', 'sales_cents': 30000, 'refunds_cents': 0, 'fees_cents': -1050, 'reserve_net_cents': 2400, 'expected_cents': 31350, 'bank_cents': 30000, 'difference_cents': -1350, 'status': 'exception'} field refunds_cents: -3000 != 0\n"
+  }
+}

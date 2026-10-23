@@ -1,0 +1,12 @@
+{
+  "POLICY.md": "d0d28244bc50f49a980be646ee3d5b4688e49b1ec1dbf37cb6a9a4a080c5eb46",
+  "data/allocations.csv": "09abb1db8c42f325af78b8011741606ae20a22dc6b0315cb1b08cbbbded9498c",
+  "data/bank.csv": "49812e0793d82d48b119e3a14e1d5644086fc83634d2bbc958a9a5852e1214ff",
+  "data/batches.csv": "896bc6a956ecb6eec48726f0ed5febaab5acbebc645ccab502d2caf8f6d8a63b",
+  "data/cutoff.json": "9d017b7f728ae696791f3ecd70d90b921c3af6dba731b07d29e01c6252857585",
+  "data/events.csv": "4cc134bb4d8f99a78770acace208e209aad6cdab1cf05c6faf969360d3ae72d6",
+  "data/invoices.csv": "ea152d7c81d86118ff9cc72cf654c8d7bea19bf6492f1a6db4a4f02f09464bfa",
+  "data/opening_reserves.csv": "ba369e8732c0ff482779f81b8caa8cf2eb9987bb20192906dd16c936287e3783",
+  "incidents/controller-email.txt": "f5ab433c741bf8cada60fdd2d0127b10678c80357d4f4aee8ac1f53c82ef3851",
+  "incidents/draft-close.csv": "3dc8195863aa5cf3bee50465a12eab22fb8c4bf6b34853579e8b183b6a8dc6a7"
+}

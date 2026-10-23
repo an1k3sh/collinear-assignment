@@ -1,0 +1,20 @@
+build PASS
+correctness.rows PASS
+correctness.distinct PASS
+correctness.count PASS
+correctness.sum PASS
+correctness.avg PASS
+correctness.min PASS
+correctness.max PASS
+correctness.group PASS
+correctness.having PASS
+correctness.extended PASS
+correctness.comparison PASS
+correctness.composition PASS
+correctness.injection PASS
+correctness.bindings PASS
+determinism_replay PASS
+diversity.measurement PASS
+diversity.sensitivity FAIL
+libfuzzer PASS
+{"overall": 0.0, "input_validity_rate": 1.0, "semantic_validity_rate": 1.0, "oracle_correctness": 1.0, "diversity": 0.0}

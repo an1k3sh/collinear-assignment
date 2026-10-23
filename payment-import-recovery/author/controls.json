@@ -1,0 +1,6 @@
+[
+  {"name":"valid_serial_workers","file":"import_payments.py","old":"max_workers=4","new":"max_workers=1","expected":1},
+  {"name":"float_truncation","file":"import_payments.py","old":"cents = int(dollars) * 100 + int(pennies)","new":"cents = int(float(row[\"amount\"]) * 100)","expected":0},
+  {"name":"key_reuse_accepted","file":"import_payments.py","old":"if previous[0] != fingerprint:","new":"if False:","expected":0},
+  {"name":"payment_without_receipt","file":"import_payments.py","old":"        db.execute(\"INSERT INTO receipts VALUES (?,?,?,?)\",","new":"        db.commit()\n        if after_commit:\n            after_commit()\n        db.execute(\"INSERT INTO receipts VALUES (?,?,?,?)\",","expected":0}
+]

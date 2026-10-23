@@ -1,0 +1,65 @@
+{
+  "oracle": {
+    "accepted": true
+  },
+  "valid_endpoint_orientation_and_order": {
+    "accepted": true,
+    "expected": true,
+    "error": null
+  },
+  "valid_protected_role_swap": {
+    "accepted": true,
+    "expected": true,
+    "error": null
+  },
+  "misread_cable_endpoint": {
+    "accepted": false,
+    "expected": false,
+    "error": "Incorrect cable terminations: {\"L144\": {\"drawn\": [\"A01\", \"A02\"], \"submitted\": [\"A02\", \"A03\"]}}"
+  },
+  "omitted_unused_cable": {
+    "accepted": false,
+    "expected": false,
+    "error": "Expected 87 drawn cables"
+  },
+  "missing_maintenance_phase": {
+    "accepted": false,
+    "expected": false,
+    "error": "Phase coverage"
+  },
+  "noncontiguous_cable_path": {
+    "accepted": false,
+    "expected": false,
+    "error": "S1/primary: cable L166 cannot be reached from A03; actual endpoints ['D05', 'D06']"
+  },
+  "dark_cables_used_without_activation": {
+    "accepted": false,
+    "expected": false,
+    "error": "Cable unavailable: L162"
+  },
+  "maintenance_outage_ignored": {
+    "accepted": false,
+    "expected": false,
+    "error": "Outage cable L173 in P2"
+  },
+  "superseded_lit_inventory_used": {
+    "accepted": false,
+    "expected": false,
+    "error": "Cable unavailable: L119"
+  },
+  "incorrect_activation_spend": {
+    "accepted": false,
+    "expected": false,
+    "error": "Incorrect activation cost"
+  },
+  "edge_disjoint_but_shared_failure_domain": {
+    "accepted": false,
+    "expected": false,
+    "error": "Shared failure domain: P1/S1: ['A-tray-1']"
+  },
+  "capacity_exceeded": {
+    "accepted": false,
+    "expected": false,
+    "error": "Capacity exceeded P1/L136: 5>1"
+  }
+}

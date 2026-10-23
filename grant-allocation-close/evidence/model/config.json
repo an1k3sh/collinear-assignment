@@ -1,0 +1,17 @@
+{
+    "task": {
+        "path": "harbor-iterations/grant-allocation-close"
+    },
+    "trial_name": "grant-allocation-close__2Bommq6",
+    "trials_dir": "jobs/grant-opus-01",
+    "agent_setup_timeout_multiplier": 5.0,
+    "agent": {
+        "name": "prototype_harness:PrototypeCopilot",
+        "model_name": "claude-opus-5.5",
+        "kwargs": {
+            "reasoning_effort": "high",
+            "version": "1.0.102"
+        }
+    },
+    "job_id": "a126ac31-e9fb-4d80-b791-17bb340b9738"
+}

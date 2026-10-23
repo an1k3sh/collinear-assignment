@@ -1,0 +1,116 @@
+{
+  "judge_model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "cli_version": "1.0.102",
+  "rubric_sha256": "0cbd26c7ec0967f600df302e87df35afd3be6b92b88a2a3d653798e7aaea4c4d",
+  "reference_sha256": "97201c6fb7c2321af57d2b3c04f44dfb3f5afa294f33eb8bf40d194ce982d34e",
+  "candidate_sha256": "32a9ce446b63d15133c1282af93a2b76c27fc3d54d0377025242f87571dcca0e",
+  "disagreement": false,
+  "review_count": 2,
+  "scores": {
+    "content_fidelity": 4,
+    "editable_structure": 4,
+    "visual_organization": 4,
+    "navigation_furniture": 4
+  },
+  "weighted_score": 1.0,
+  "accepted": true,
+  "reviews": [
+    {
+      "scores": {
+        "content_fidelity": 4,
+        "editable_structure": 4,
+        "visual_organization": 4,
+        "navigation_furniture": 4
+      },
+      "evidence": {
+        "content_fidelity": [
+          "Page 1 contract particulars match: service term 1 July 2026 to 30 June 2027, all three named sites, base fee GBP 37,800.00, and mobilisation deadline 29 June 2026 at 17:00.",
+          "Schedule A preserves every quantity, unit price and total: monitoring 12 x 2,400.00 = 28,800.00; calibration 6 x 750.00 = 4,500.00; onboarding 3 x 1,800.00 = 5,400.00; transition credit (900.00); net 37,800.00; VAT 7,560.00; total 45,360.00. The invoice example also matches: 2,400.00, 190.00, 2,590.00, 518.00 and 3,108.00.",
+          "Schedule A retains the GBP 145.00 call-out fee, included 45 minutes, GBP 22.50 per completed additional 15-minute block, 30-calendar-day payment term, and footnote specifying that 59 minutes incurs no additional block.",
+          "Schedule B preserves site associations and targets: Northgate Library Mon-Sat 08:00-20:00, critical 15/90 minutes, routine 2 service hours/next service day; Canal House Mon-Fri 07:00-19:00, critical 15/120 minutes, routine 4 service hours/within 2 service days; Eastbank Depot Mon-Sun 06:00-22:00, critical 10/60 minutes, routine 1 service hour/same service day. Access exceptions, continuous critical cover and all four dated holiday exceptions match.",
+          "Clauses 1-8 retain access-delay limits, escalation, completion evidence, staffing, closure notification, disputed-charge treatment and written change authority. Schedule C and Appendices D-E preserve evidence responsibilities, acceptance conditions and both-signatory approval requirements; figure outcomes remain 42 accepted, 6 returned and 3 open."
+        ],
+        "editable_structure": [
+          "The extraction contains native paragraphs, Heading1/Heading2 headings and editable table cells rather than body-text or table screenshots. Schedule A retains its recurring and summary vertical merges and repeating header row.",
+          "All eight candidate clauses use the Contractclause paragraph style, whose numbering property references numbering ID 60. The numbering XML defines a decimal sequence starting at 1 with format %1.; this is valid automatic style-based numbering despite empty paragraph-level numbering fields.",
+          "The charge-rule paragraph retains footnote reference 1 and corresponding text in word/footnotes.xml. Figure titles and captions remain editable paragraphs, separate from the two figure drawings.",
+          "The edited page 2 shows the appended access-readiness text reflowing normally. Edited page 4 shows the expanded calibration description growing its native table row while preserving adjacent amounts, subsequent rows, payment text and footnote; edited page 5 remains intact."
+        ],
+        "visual_organization": [
+          "All eight original pairs preserve the reference hierarchy, blue heading treatment, banded tables, alignment and pagination, with only negligible positioning differences.",
+          "Page 3 retains the two-column responsibilities layout; page 5 retains landscape orientation and readable seven-column targets; page 6 preserves both figures' proportions and captions. No material clipping, overlap or missing content is visible.",
+          "The inspected edit-probe pages match the reference reflow without clipped table rows, overlapping text or loss of following content."
+        ],
+        "navigation_furniture": [
+          "The page 1 navigation references correctly target scope on page 2, responsibilities on page 3, Schedules A-C on pages 4-6 and Appendices D-E on pages 7-8. Clause 8 and Appendix E references remain correct.",
+          "Both documents retain the procurement-services header, issue/reference footer and automatic PAGE field. Figure titles, explanatory captions and the page 4 footnote retain their reference placement."
+        ]
+      },
+      "material_defects": [],
+      "inspected_images": [
+        "original-01.png",
+        "original-02.png",
+        "original-03.png",
+        "original-04.png",
+        "original-05.png",
+        "original-06.png",
+        "original-07.png",
+        "original-08.png",
+        "edited-02.png",
+        "edited-04.png",
+        "edited-05.png"
+      ]
+    },
+    {
+      "scores": {
+        "content_fidelity": 4,
+        "editable_structure": 4,
+        "visual_organization": 4,
+        "navigation_furniture": 4
+      },
+      "evidence": {
+        "content_fidelity": [
+          "Page 1 contract particulars match: service term 1 July 2026\u201330 June 2027, all three named sites, base fee GBP 37,800.00, mobilisation 29 June 2026 at 17:00, and document precedence.",
+          "Clauses 1\u20138 preserve all obligations and qualifications, including one denied-access rescheduling without a second call-out charge, pausing only for documented access delay, immediate fire-interface escalation, completion evidence, replacement cover, closure-notice confirmation, fifth-business-day reconciliation, disputed-charge separation, and written authorisation for additional work.",
+          "Schedule A preserves every quantity, unit price and line association: monitoring 12 \u00d7 2,400.00 = 28,800.00; calibration 6 \u00d7 750.00 = 4,500.00; onboarding 3 \u00d7 1,800.00 = 5,400.00; transition credit 1 \u00d7 (900.00) = (900.00). Net 37,800.00, VAT 7,560.00 and total 45,360.00 match.",
+          "Schedule A charge rules match GBP 145.00 per authorised attendance, 45 included minutes and GBP 22.50 per completed additional 15-minute block. The footnote retains the 59-minute no-additional-block condition. Invoice amounts 2,400.00, 190.00, 2,590.00, 518.00 and 3,108.00, included travel, materials at evidenced cost without uplift, and 30-calendar-day payment terms all match.",
+          "Schedule B preserves each site's window and target associations: Northgate Mon\u2013Sat 08:00\u201320:00, critical 15/90 minutes, routine 2 service hours/next service day; Canal House Mon\u2013Fri 07:00\u201319:00, critical 15/120 minutes, routine 4 service hours/within 2 service days; Eastbank Mon\u2013Sun 06:00\u201322:00, critical 10/60 minutes, routine 1 service hour/same service day. Site access exceptions and continuous critical coverage without holiday suspension match.",
+          "All Schedule B planned exceptions match: 31 August library/Canal House routine closure; 24 December library closing at 14:00; 25 December all-site routine closure; 26 December depot window 08:00\u201316:00. Critical service remains unchanged throughout.",
+          "Schedule C evidence requirements and accountable parties match, as do figure values of 42 accepted, 6 returned and 3 open out of 51. Appendices D\u2013E preserve the acceptance conditions, checklist, blank forms, dual commercial authorisation, execution restriction and revision history."
+        ],
+        "editable_structure": [
+          "The extraction identifies native paragraphs, Heading1/Heading2 hierarchy and tables with preserved rows, cells, repeating headers and Schedule A vertical merges; body text and tables are not screenshots.",
+          "Candidate clauses use the Contractclause paragraph style, whose numbering property points to numId 60 and the decimal %1. definition. This is valid automatic style-based numbering; rendered clauses correctly continue from 1 through 8.",
+          "The charge-rule footnote retains a real footnote reference and matching footnotes.xml content. Both figure captions remain editable Caption paragraphs, separate from the artwork.",
+          "Edited page 2 shows the complete appended Access readiness text reflowing normally. Edited page 4 shows the calibration description expanding its table row while retaining adjacent quantities, prices, subsequent rows, invoice and footnote without clipping or overlap. Edited page 5 remains intact."
+        ],
+        "visual_organization": [
+          "All eight original paired pages preserve the reference hierarchy, table shading, column alignment, typography and readable layout, with only negligible positional differences.",
+          "Page 3 retains the two-column operational layout; page 5 retains landscape orientation and its seven-column targets table. Other pages retain portrait orientation.",
+          "Page 6 preserves both figures' proportions, labels, arrows, bar values and caption placement. Pages 7\u20138 preserve the acceptance, change and execution forms.",
+          "The inspected edit probes preserve the reference's expansion and spacing behavior without lost content, overlapping elements or clipped rows."
+        ],
+        "navigation_furniture": [
+          "Heading outline levels are preserved. The opening navigation references still correctly identify scope on page 2, operations on page 3, Schedules A\u2013C on pages 4\u20136 and Appendices D\u2013E on pages 7\u20138.",
+          "The procurement header and issued-date/document-reference footer match throughout; the footer retains its PAGE field and displays pages 1\u20138 correctly.",
+          "References to clause 8, Schedule B and Appendix E retain their correct targets. Figure headings, editable explanatory captions, page-4 footnote placement and the END OF AGREEMENT marker match."
+        ]
+      },
+      "material_defects": [],
+      "inspected_images": [
+        "original-01.png",
+        "original-02.png",
+        "original-03.png",
+        "original-04.png",
+        "original-05.png",
+        "original-06.png",
+        "original-07.png",
+        "original-08.png",
+        "edited-02.png",
+        "edited-04.png",
+        "edited-05.png"
+      ]
+    }
+  ]
+}

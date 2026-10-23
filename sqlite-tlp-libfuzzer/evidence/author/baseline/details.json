@@ -1,0 +1,159 @@
+{
+  "checks": {
+    "build": true,
+    "correctness.rows": false,
+    "correctness.distinct": false,
+    "correctness.count": false,
+    "correctness.sum": false,
+    "correctness.avg": false,
+    "correctness.min": false,
+    "correctness.max": false,
+    "correctness.group": false,
+    "correctness.having": false,
+    "correctness.extended": false,
+    "correctness.comparison": false,
+    "correctness.composition": false,
+    "correctness.injection": false,
+    "correctness.bindings": false,
+    "determinism_replay": false,
+    "diversity.coverage": false,
+    "diversity.data": false,
+    "diversity.structure": false,
+    "diversity.occupancy": false,
+    "diversity.grammar": false,
+    "diversity.measurement": true,
+    "diversity.sensitivity": false,
+    "libfuzzer": false
+  },
+  "metrics": {
+    "random": {
+      "attempted": 1024,
+      "emitted": 0,
+      "schema_valid": 0,
+      "executable": 0,
+      "semantic": 0,
+      "errors": []
+    },
+    "diversity": {
+      "modes": {},
+      "sources": {},
+      "structural": 0,
+      "topologies": 0,
+      "topologies_per_mode": {
+        "rows": 0,
+        "distinct": 0,
+        "count": 0,
+        "sum": 0,
+        "avg": 0,
+        "min": 0,
+        "max": 0,
+        "group": 0,
+        "having": 0
+      },
+      "unique_cases": 0,
+      "unique_databases": 0,
+      "where": 0,
+      "grouped_aggregates": 0,
+      "three_way": 0,
+      "nonempty": 0,
+      "group_overlap": 0,
+      "having_duplicates": 0,
+      "empty_row_stage": 0,
+      "all_null": 0,
+      "operators": [],
+      "columns": [],
+      "aggregates": [],
+      "nested": 0,
+      "count_star": 0,
+      "count_expression": 0
+    },
+    "mutations": {
+      "attempted": 320,
+      "emitted": 0,
+      "schema_valid": 0,
+      "executable": 0,
+      "semantic": 0,
+      "errors": []
+    }
+  },
+  "failures": [
+    {
+      "test": "correctness.rows",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 370, in <lambda>\n    self.test(\"correctness.\"+mode, lambda mode=mode: self.fixtures(mode))\n                                                     ^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 143, in fixtures\n    answers = self.request([{\"op\": \"case\", \"case\": c} for c in cases])\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 112, in request\n    raise AssertionError(f\"CLI exit {run.returncode}: {run.stderr[-4000:]}\")\nAssertionError: CLI exit 2: TLP error: implement SQL compilation\n\n"
+    },
+    {
+      "test": "correctness.distinct",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 370, in <lambda>\n    self.test(\"correctness.\"+mode, lambda mode=mode: self.fixtures(mode))\n                                                     ^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 143, in fixtures\n    answers = self.request([{\"op\": \"case\", \"case\": c} for c in cases])\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 112, in request\n    raise AssertionError(f\"CLI exit {run.returncode}: {run.stderr[-4000:]}\")\nAssertionError: CLI exit 2: TLP error: implement SQL compilation\n\n"
+    },
+    {
+      "test": "correctness.count",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 370, in <lambda>\n    self.test(\"correctness.\"+mode, lambda mode=mode: self.fixtures(mode))\n                                                     ^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 143, in fixtures\n    answers = self.request([{\"op\": \"case\", \"case\": c} for c in cases])\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 112, in request\n    raise AssertionError(f\"CLI exit {run.returncode}: {run.stderr[-4000:]}\")\nAssertionError: CLI exit 2: TLP error: implement SQL compilation\n\n"
+    },
+    {
+      "test": "correctness.sum",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 370, in <lambda>\n    self.test(\"correctness.\"+mode, lambda mode=mode: self.fixtures(mode))\n                                                     ^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 143, in fixtures\n    answers = self.request([{\"op\": \"case\", \"case\": c} for c in cases])\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 112, in request\n    raise AssertionError(f\"CLI exit {run.returncode}: {run.stderr[-4000:]}\")\nAssertionError: CLI exit 2: TLP error: implement SQL compilation\n\n"
+    },
+    {
+      "test": "correctness.avg",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 370, in <lambda>\n    self.test(\"correctness.\"+mode, lambda mode=mode: self.fixtures(mode))\n                                                     ^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 143, in fixtures\n    answers = self.request([{\"op\": \"case\", \"case\": c} for c in cases])\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 112, in request\n    raise AssertionError(f\"CLI exit {run.returncode}: {run.stderr[-4000:]}\")\nAssertionError: CLI exit 2: TLP error: implement SQL compilation\n\n"
+    },
+    {
+      "test": "correctness.min",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 370, in <lambda>\n    self.test(\"correctness.\"+mode, lambda mode=mode: self.fixtures(mode))\n                                                     ^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 143, in fixtures\n    answers = self.request([{\"op\": \"case\", \"case\": c} for c in cases])\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 112, in request\n    raise AssertionError(f\"CLI exit {run.returncode}: {run.stderr[-4000:]}\")\nAssertionError: CLI exit 2: TLP error: implement SQL compilation\n\n"
+    },
+    {
+      "test": "correctness.max",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 370, in <lambda>\n    self.test(\"correctness.\"+mode, lambda mode=mode: self.fixtures(mode))\n                                                     ^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 143, in fixtures\n    answers = self.request([{\"op\": \"case\", \"case\": c} for c in cases])\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 112, in request\n    raise AssertionError(f\"CLI exit {run.returncode}: {run.stderr[-4000:]}\")\nAssertionError: CLI exit 2: TLP error: implement SQL compilation\n\n"
+    },
+    {
+      "test": "correctness.group",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 370, in <lambda>\n    self.test(\"correctness.\"+mode, lambda mode=mode: self.fixtures(mode))\n                                                     ^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 143, in fixtures\n    answers = self.request([{\"op\": \"case\", \"case\": c} for c in cases])\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 112, in request\n    raise AssertionError(f\"CLI exit {run.returncode}: {run.stderr[-4000:]}\")\nAssertionError: CLI exit 2: TLP error: implement SQL compilation\n\n"
+    },
+    {
+      "test": "correctness.having",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 370, in <lambda>\n    self.test(\"correctness.\"+mode, lambda mode=mode: self.fixtures(mode))\n                                                     ^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 143, in fixtures\n    answers = self.request([{\"op\": \"case\", \"case\": c} for c in cases])\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 112, in request\n    raise AssertionError(f\"CLI exit {run.returncode}: {run.stderr[-4000:]}\")\nAssertionError: CLI exit 2: TLP error: implement SQL compilation\n\n"
+    },
+    {
+      "test": "correctness.extended",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 370, in <lambda>\n    self.test(\"correctness.\"+mode, lambda mode=mode: self.fixtures(mode))\n                                                     ^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 143, in fixtures\n    answers = self.request([{\"op\": \"case\", \"case\": c} for c in cases])\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 112, in request\n    raise AssertionError(f\"CLI exit {run.returncode}: {run.stderr[-4000:]}\")\nAssertionError: CLI exit 2: TLP error: implement SQL compilation\n\n"
+    },
+    {
+      "test": "correctness.comparison",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 153, in comparison\n    answers = self.request([{\"op\": \"equal\", \"a\": a, \"b\": b} for a, b, _ in pairs])\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 112, in request\n    raise AssertionError(f\"CLI exit {run.returncode}: {run.stderr[-4000:]}\")\nAssertionError: CLI exit 2: TLP error: implement comparison\n\n"
+    },
+    {
+      "test": "correctness.composition",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 187, in composition\n    for answer, (_, expected) in zip(self.request([r for r, _ in cases]), cases):\n                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 112, in request\n    raise AssertionError(f\"CLI exit {run.returncode}: {run.stderr[-4000:]}\")\nAssertionError: CLI exit 2: TLP error: implement partition recomposition\n\n"
+    },
+    {
+      "test": "correctness.injection",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 193, in injection\n    answer = self.request([{\"op\": \"inject\", \"case\": c, \"call\": call,\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 112, in request\n    raise AssertionError(f\"CLI exit {run.returncode}: {run.stderr[-4000:]}\")\nAssertionError: CLI exit 2: TLP error: implement SQL compilation\n\n"
+    },
+    {
+      "test": "correctness.bindings",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 204, in binding\n    answer = self.request([{\"op\": \"case\", \"case\": c}])[0]\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 112, in request\n    raise AssertionError(f\"CLI exit {run.returncode}: {run.stderr[-4000:]}\")\nAssertionError: CLI exit 2: TLP error: implement SQL compilation\n\n"
+    },
+    {
+      "test": "determinism_replay",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 333, in determinism\n    a = self.request(requests + requests)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 112, in request\n    raise AssertionError(f\"CLI exit {run.returncode}: {run.stderr[-4000:]}\")\nAssertionError: CLI exit 2: TLP error: implement input-driven case generation\n\n"
+    },
+    {
+      "test": "random",
+      "error": "TLP error: implement input-driven case generation\n",
+      "exit_code": 2
+    },
+    {
+      "test": "mutations",
+      "error": "TLP error: implement input-driven case generation\n",
+      "exit_code": 2
+    },
+    {
+      "test": "diversity.sensitivity",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 319, in sensitivity\n    assert len(answers) == 320\n           ^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "test": "libfuzzer",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 356, in live_fuzzer\n    assert result.returncode == 0, result.stderr[-6000:]\n           ^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: INFO: Running with entropic power schedule (0xFF, 100).\nINFO: Seed: 89171\nINFO: Loaded 1 modules   (2694 inline 8-bit counters): 2694 [0xaaaab3957d30, 0xaaaab39587b6), \nINFO: Loaded 1 PC tables (2694 PCs): 2694 [0xaaaab39587b8,0xaaaab3963018), \nINFO:       12 files found in /work/audit/baseline/corpus\nTLP failure: implement input-driven case generation\n==1663== ERROR: libFuzzer: deadly signal\n==1663==WARNING: invalid path to external symbolizer!\n==1663==WARNING: Failed to use and restart external symbolizer!\n    #0 0xaaaab388a4e0  (/work/audit/baseline/build/tlp_fuzz+0x11a4e0) (BuildId: 2f0083eca0d65e05358d60ede86cba4573105d2f)\n    #1 0xaaaab37e0cd8  (/work/audit/baseline/build/tlp_fuzz+0x70cd8) (BuildId: 2f0083eca0d65e05358d60ede86cba4573105d2f)\n    #2 0xaaaab37c82a0  (/work/audit/baseline/build/tlp_fuzz+0x582a0) (BuildId: 2f0083eca0d65e05358d60ede86cba4573105d2f)\n    #3 0xffffa90ff7e4  (linux-vdso.so.1+0x7e4) (BuildId: 4fece5beffd59f501a75460848dc024366956f30)\n    #4 0xffffa8ae3c14  (/lib/aarch64-linux-gnu/libc.so.6+0x83c14) (BuildId: 3ff3f95a1642952473d0d5739aaf308b0e24f694)\n    #5 0xffffa8a9a8a8  (/lib/aarch64-linux-gnu/libc.so.6+0x3a8a8) (BuildId: 3ff3f95a1642952473d0d5739aaf308b0e24f694)\n    #6 0xffffa8a8747c  (/lib/aarch64-linux-gnu/libc.so.6+0x2747c) (BuildId: 3ff3f95a1642952473d0d5739aaf308b0e24f694)\n    #7 0xaaaab38b9f6c  (/work/audit/baseline/build/tlp_fuzz+0x149f6c) (BuildId: 2f0083eca0d65e05358d60ede86cba4573105d2f)\n    #8 0xaaaab37c963c  (/work/audit/baseline/build/tlp_fuzz+0x5963c) (BuildId: 2f0083eca0d65e05358d60ede86cba4573105d2f)\n    #9 0xaaaab37ca98c  (/work/audit/baseline/build/tlp_fuzz+0x5a98c) (BuildId: 2f0083eca0d65e05358d60ede86cba4573105d2f)\n    #10 0xaaaab37cafb4  (/work/audit/baseline/build/tlp_fuzz+0x5afb4) (BuildId: 2f0083eca0d65e05358d60ede86cba4573105d2f)\n    #11 0xaaaab37b9ff4  (/work/audit/baseline/build/tlp_fuzz+0x49ff4) (BuildId: 2f0083eca0d65e05358d60ede86cba4573105d2f)\n    #12 0xaaaab37e13e0  (/work/audit/baseline/build/tlp_fuzz+0x713e0) (BuildId: 2f0083eca0d65e05358d60ede86cba4573105d2f)\n    #13 0xffffa8a87740  (/lib/aarch64-linux-gnu/libc.so.6+0x27740) (BuildId: 3ff3f95a1642952473d0d5739aaf308b0e24f694)\n    #14 0xffffa8a87814  (/lib/aarch64-linux-gnu/libc.so.6+0x27814) (BuildId: 3ff3f95a1642952473d0d5739aaf308b0e24f694)\n    #15 0xaaaab37b03ac  (/work/audit/baseline/build/tlp_fuzz+0x403ac) (BuildId: 2f0083eca0d65e05358d60ede86cba4573105d2f)\n\nNOTE: libFuzzer has rudimentary signal handlers.\n      Combine libFuzzer with AddressSanitizer or similar for better crash reports.\nSUMMARY: libFuzzer: deadly signal\nMS: 0 ; base unit: 0000000000000000000000000000000000000000\n\n\nartifact_prefix='/work/audit/baseline/'; Test unit written to /work/audit/baseline/crash-da39a3ee5e6b4b0d3255bfef95601890afd80709\nBase64: \nstat::number_of_executed_units: 1\nstat::average_exec_per_sec:     0\nstat::new_units_added:          0\nstat::slowest_unit_time_sec:    0\nstat::peak_rss_mb:              37\n\n"
+    }
+  ]
+}

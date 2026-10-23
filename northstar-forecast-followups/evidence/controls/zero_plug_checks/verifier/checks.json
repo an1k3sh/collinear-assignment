@@ -1,0 +1,79 @@
+{
+  "counts": {
+    "artifact_quality": {
+      "passed": 250,
+      "failed": 0
+    },
+    "constraint_satisfaction": {
+      "passed": 31266,
+      "failed": 0
+    },
+    "functional_correctness": {
+      "passed": 2570,
+      "failed": 0
+    },
+    "robustness": {
+      "passed": 12330,
+      "failed": 10
+    }
+  },
+  "failures": [
+    {
+      "group": "robustness",
+      "check": "live residual Checks!E6",
+      "detail": "actual=0; accepted residuals=[71]"
+    },
+    {
+      "group": "robustness",
+      "check": "live residual Checks!E7",
+      "detail": "actual=0; accepted residuals=[0.0716253891360239, 0.051397238018005, 0.0716253891360239, 0.07989430894322425]"
+    },
+    {
+      "group": "robustness",
+      "check": "live residual Checks!E8",
+      "detail": "actual=0; accepted residuals=[0.25796100731118443]"
+    },
+    {
+      "group": "robustness",
+      "check": "live residual Checks!E9",
+      "detail": "actual=0; accepted residuals=[-29.75]"
+    },
+    {
+      "group": "robustness",
+      "check": "live residual Checks!E10",
+      "detail": "actual=0; accepted residuals=[-53200.3991935483]"
+    },
+    {
+      "group": "robustness",
+      "check": "live residual Checks!E11",
+      "detail": "actual=0; accepted residuals=[-23154.39919354835]"
+    },
+    {
+      "group": "robustness",
+      "check": "live residual Checks!E12",
+      "detail": "actual=0; accepted residuals=[30000]"
+    },
+    {
+      "group": "robustness",
+      "check": "live residual Checks!E13",
+      "detail": "actual=0; accepted residuals=[200]"
+    },
+    {
+      "group": "robustness",
+      "check": "live residual Checks!E14",
+      "detail": "actual=0; accepted residuals=[29]"
+    },
+    {
+      "group": "robustness",
+      "check": "live residual Checks!E15",
+      "detail": "actual=0; accepted residuals=[7]"
+    }
+  ],
+  "reward": {
+    "overall": 0.0,
+    "functional_correctness": 1.0,
+    "constraint_satisfaction": 1.0,
+    "robustness": 0.9991896272285251,
+    "artifact_quality": 1.0
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "judge_model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "cli_version": "1.0.102",
+  "rubric_sha256": "0cbd26c7ec0967f600df302e87df35afd3be6b92b88a2a3d653798e7aaea4c4d",
+  "reference_sha256": "97201c6fb7c2321af57d2b3c04f44dfb3f5afa294f33eb8bf40d194ce982d34e",
+  "candidate_sha256": "2650a3520d94fe44dc6480016d8793fe7d7d993aba234e34230925283e151993",
+  "disagreement": false,
+  "review_count": 2,
+  "scores": {
+    "content_fidelity": 2,
+    "editable_structure": 2,
+    "visual_organization": 4,
+    "navigation_furniture": 3
+  },
+  "weighted_score": 0.65,
+  "accepted": false,
+  "reviews": [
+    {
+      "scores": {
+        "content_fidelity": 2,
+        "editable_structure": 2,
+        "visual_organization": 4,
+        "navigation_furniture": 3
+      },
+      "evidence": {
+        "content_fidelity": [
+          "Schedule A, page 4: the reference footnote states, \"Only complete 15-minute blocks after the included 45 minutes are billable; 59 minutes incurs no additional block.\" The candidate omits this entire billing condition and its reference marker.",
+          "Schedule A preserves all financial cells and associations: 12 \u00d7 2,400.00 = 28,800.00 for monitoring; 6 \u00d7 750.00 = 4,500.00 for calibration; 3 \u00d7 1,800.00 = 5,400.00 for onboarding; the (900.00) transition credit; net 37,800.00; VAT 7,560.00; and total 45,360.00. The GBP 145.00 call-out, included 45 minutes, GBP 22.50 completed-block rate, invoice amounts 2,400.00/190.00/2,590.00/518.00/3,108.00, and 30-calendar-day payment term also match.",
+          "Schedule B preserves the site/window/target associations: Northgate Library Mon-Sat 08:00-20:00, critical 15/90 minutes and routine 2 service hours/next service day; Canal House Mon-Fri 07:00-19:00, critical 15/120 minutes and routine 4 service hours/within 2 service days; Eastbank Depot Mon-Sun 06:00-22:00, critical 10/60 minutes and routine 1 service hour/same service day. Escort, loading-bay, gate-code and uninterrupted critical-cover conditions match.",
+          "Schedule B's four planned exceptions retain their dates, sites and effects, including Northgate Library's 24 December 14:00 closure and Eastbank Depot's 26 December 08:00-16:00 window. Clauses 1-8, Schedule C's evidence responsibilities and figure values, and Appendices D-E's acceptance and authorisation requirements otherwise match."
+        ],
+        "editable_structure": [
+          "The reference Charge rules paragraph has footnote_refs [\"1\"] and substantive text in word/footnotes.xml; the candidate paragraph has footnote_refs [] and its footnote text extraction is empty. The required real footnote is missing.",
+          "Otherwise, both structures retain Heading1/Heading2 outline styles, ordinary body paragraphs, automatic decimal numbering for clauses 1-8, and native tables with repeating header rows and Schedule A's vertical category merges.",
+          "Both figure captions remain editable Caption paragraphs, separate from the two artwork drawings. Section structures preserve the two-column operational section and landscape Schedule B.",
+          "The edit probes successfully extend the Access readiness paragraph and Remote sensor calibration table cell in both documents. edited-02.png and edited-04.png show matching reflow and row expansion without clipping, overlap or lost downstream content; edited-05.png preserves Schedule B."
+        ],
+        "visual_organization": [
+          "Across original-01.png through original-08.png, the candidate preserves the reference's heading hierarchy, margins, table widths, blue banding, eight-page pagination, two-column page 3 and landscape page 5.",
+          "Page 6 preserves both figures' proportions, placement, labels and captions. Pages 7-8 retain the acceptance, change and signature forms with matching layout.",
+          "The inspected edit-probe pages preserve readable paragraph and table reflow. Apart from the missing footnote addressed under content and navigation, no organizational displacement, material clipping or overlap is visible."
+        ],
+        "navigation_furniture": [
+          "Page 4 lacks the reference's superscript footnote marker, bottom-of-page separator and linked billing note; this omission remains visible in edited-04.png.",
+          "The procurement header, document identifier and issue date, PAGE footer fields, page numbers, section headings, figure captions and delivered page-navigation targets otherwise match."
+        ]
+      },
+      "material_defects": [
+        {
+          "location": "Schedule A, page 4, Charge rules and footnote 1",
+          "reference": "A real footnote linked from the completed 15-minute-block charge rule states: \"Only complete 15-minute blocks after the included 45 minutes are billable; 59 minutes incurs no additional block.\"",
+          "candidate": "The charge-rule paragraph has no footnote reference, the footnote text is absent from the extracted structure, and neither the original nor edited rendering displays the note.",
+          "impact": "Omits an explicit financial charging condition and its 59-minute boundary example, and removes the editable linked-footnote structure."
+        }
+      ],
+      "inspected_images": [
+        "original-01.png",
+        "original-02.png",
+        "original-03.png",
+        "original-04.png",
+        "original-05.png",
+        "original-06.png",
+        "original-07.png",
+        "original-08.png",
+        "edited-02.png",
+        "edited-04.png",
+        "edited-05.png"
+      ]
+    },
+    {
+      "scores": {
+        "content_fidelity": 2,
+        "editable_structure": 2,
+        "visual_organization": 4,
+        "navigation_furniture": 3
+      },
+      "evidence": {
+        "content_fidelity": [
+          "Schedule A, page 4: reference footnote 1 states, \"Only complete 15-minute blocks after the included 45 minutes are billable; 59 minutes incurs no additional block.\" The candidate omits the entire note and its callout. Its body retains GBP 145.00 per attendance, 45 included minutes and GBP 22.50 per completed 15-minute block, but loses the explicit billing clarification.",
+          "Schedule A financial rows match: monitoring 12 \u00d7 2,400.00 = 28,800.00; calibration 6 \u00d7 750.00 = 4,500.00; mobilisation 3 \u00d7 1,800.00 = 5,400.00; transition credit (900.00); net 37,800.00; VAT 7,560.00; total 45,360.00. Invoice-example amounts also match: 2,400.00, 190.00, 2,590.00, 518.00 and 3,108.00, with payment due in 30 calendar days.",
+          "Schedule B site associations match throughout. Northgate Library retains Mon-Sat 08:00-20:00, critical 15/90 minutes and routine 2 service hours/next service day; Canal House retains Mon-Fri 07:00-19:00, critical 15/120 minutes and routine 4 service hours/within 2 service days; Eastbank Depot retains Mon-Sun 06:00-22:00, critical 10/60 minutes and routine 1 service hour/same service day. Site-access exceptions and uninterrupted 24-hour critical cover are preserved.",
+          "Schedule B planned exceptions match: 31 August closure for Northgate Library and Canal House; 24 December Northgate window ending 14:00; 25 December closure for all sites; 26 December Eastbank window 08:00-16:00. Critical service remains unchanged in every row.",
+          "Clauses 1-8, Schedule C evidence responsibilities, Appendix D acceptance conditions and Appendix E approval requirements are preserved. The service term, mobilisation deadline, figure values and revision history also match."
+        ],
+        "editable_structure": [
+          "The reference charge-rule paragraph has footnote_refs [\"1\"] and populated word/footnotes.xml text. The candidate paragraph has footnote_refs [] and its footnotes text array is empty: the real footnote is missing, not merely hidden or relocated.",
+          "Otherwise, the extraction confirms native body paragraphs, Heading1/Heading2 hierarchy, automatic decimal clause numbering, native tables with repeating headers, and preserved vertical merges in Schedule A. Figures are drawings with separate editable caption paragraphs.",
+          "The edit probes succeed visibly: edited-02.png shows the expanded access-readiness clause reflowing normally; edited-04.png shows the calibration description expanding its native table row while preserving quantities, prices and following rows. Edited-05.png preserves the landscape service-window tables without clipping or overlap."
+        ],
+        "visual_organization": [
+          "Across all eight original pairs, title hierarchy, typography, table shading, column widths, two-column operational responsibilities, landscape Schedule B and portrait surrounding sections closely match the reference.",
+          "Figure proportions and placement on page 6 and form layouts on pages 7-8 are preserved. The inspected edit probes remain readable and maintain orderly reflow without material clipping or overlap; the missing footnote is a content and note-furniture loss rather than a broader layout failure."
+        ],
+        "navigation_furniture": [
+          "Page 4 lacks both the reference superscript footnote callout and its bottom-of-page note/separator; the same omission persists in edited-04.png.",
+          "Otherwise, headers, issue-date footers, PAGE fields, page numbers, page-1 navigation targets, clause references, schedule and appendix headings, and editable figure captions match the reference."
+        ]
+      },
+      "material_defects": [
+        {
+          "location": "Schedule A, page 4, Charge rules and footnote 1",
+          "reference": "A real footnote linked to the call-out charge paragraph states: \"Only complete 15-minute blocks after the included 45 minutes are billable; 59 minutes incurs no additional block.\"",
+          "candidate": "The callout and complete footnote text are absent. The charge-rule paragraph has no footnote reference, and word/footnotes.xml contains no note text.",
+          "impact": "Loses an explicit contractual billing condition and its worked boundary case, and removes the required editable footnote structure."
+        }
+      ],
+      "inspected_images": [
+        "original-01.png",
+        "original-02.png",
+        "original-03.png",
+        "original-04.png",
+        "original-05.png",
+        "original-06.png",
+        "original-07.png",
+        "original-08.png",
+        "edited-02.png",
+        "edited-04.png",
+        "edited-05.png"
+      ]
+    }
+  ]
+}

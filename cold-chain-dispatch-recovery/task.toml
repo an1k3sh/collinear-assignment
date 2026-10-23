@@ -1,0 +1,26 @@
+schema_version = "1.3"
+artifacts = ["/app/submission"]
+
+[task]
+name = "collinear-candidate/cold-chain-dispatch-recovery"
+description = "Recover a cold-chain dispatch plan from operational exports, then coordinate packing, fleet trips and delivery commitments within the authorized spend."
+keywords = ["operations-research", "scheduling", "logistics", "data-reconciliation"]
+
+[metadata]
+category = "data-science"
+difficulty = "hard"
+provenance = "Original synthetic dispatch scenario, datasets, contracts, oracle and verifier created for this exercise; no benchmark or public problem instance reused."
+network_policy = "Network for pinned image/dependency acquisition and agent setup/inference only. Operational task and verifier are offline."
+
+[agent]
+timeout_sec = 7200
+
+[verifier]
+timeout_sec = 300
+
+[environment]
+build_timeout_sec = 600
+cpus = 4
+memory_mb = 8192
+storage_mb = 8192
+network_mode = "public"

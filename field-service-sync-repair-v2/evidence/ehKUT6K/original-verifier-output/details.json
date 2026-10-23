@@ -1,0 +1,110 @@
+{
+  "test_artifacts_protected_inputs": {
+    "passed": true
+  },
+  "test_artifacts_report_and_regressions": {
+    "passed": true
+  },
+  "test_batches_client_base_prediction_and_ack": {
+    "passed": true
+  },
+  "test_batches_client_partial_confirmation_restart": {
+    "passed": true
+  },
+  "test_batches_concurrent_duplicate_and_namespace": {
+    "passed": true
+  },
+  "test_batches_conflict_and_fault_rollback": {
+    "passed": true
+  },
+  "test_batches_invalid_and_preserved_by_repair": {
+    "passed": true
+  },
+  "test_batches_precommitted_member_not_atomic": {
+    "passed": true
+  },
+  "test_batches_sequential_same_entity_and_retry": {
+    "passed": true
+  },
+  "test_client_ack_and_pending": {
+    "passed": true
+  },
+  "test_client_checkpoint_and_gap_handling": {
+    "passed": true
+  },
+  "test_client_conflict_resolution_and_frozen_request": {
+    "passed": true
+  },
+  "test_client_generated_delivery_permutations": {
+    "passed": true
+  },
+  "test_client_integer_precision_and_immutability": {
+    "passed": true
+  },
+  "test_client_snapshot_staging_and_interleaving": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/test_service.py\", line 350, in test_client_snapshot_staging_and_interleaving\n    self.js(\"snapshot\")\n  File \"/tests/test_service.py\", line 89, in js\n    self.assertEqual(completed.returncode, 0, completed.stdout + completed.stderr)\nAssertionError: 1 != 0 : file:///app/client/replica.mjs:18\nconst fail = message => { throw new Error(message); };\n                                ^\n\nError: Receipt for unsent intent\n    at fail (file:///app/client/replica.mjs:18:33)\n    at reduce (file:///app/client/replica.mjs:387:27)\n    at cases.snapshot (file:///tests/client_checks.mjs:79:11)\n    at file:///tests/client_checks.mjs:454:18\n\nNode.js v22.14.0\n\n"
+  },
+  "test_client_tombstones_and_optimistic_replay": {
+    "passed": true
+  },
+  "test_confirmations_client_pull_before_ack": {
+    "passed": true
+  },
+  "test_confirmations_client_snapshot_staging": {
+    "passed": true
+  },
+  "test_confirmations_snapshot_history_and_cut": {
+    "passed": true
+  },
+  "test_durability_atomic_replace": {
+    "passed": true
+  },
+  "test_durability_persist_before_exchange": {
+    "passed": true
+  },
+  "test_integration_atomic_batch_http_confirmation": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/test_service.py\", line 539, in test_integration_atomic_batch_http_confirmation\n    self.js(\"batch-http\", self.temp.name, f\"http://127.0.0.1:{server.server_port}\")\n  File \"/tests/test_service.py\", line 89, in js\n    self.assertEqual(completed.returncode, 0, completed.stdout + completed.stderr)\nAssertionError: 1 != 0 : node:internal/modules/run_main:122\n    triggerUncaughtException(\n    ^\n\nAssertionError [ERR_ASSERTION]: {\"ok\": false, \"code\": \"internal\"}\n\n500 !== 200\n\n    at request (file:///tests/client_checks.mjs:408:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async cases.batch-http (file:///tests/client_checks.mjs:411:32)\n    at async file:///tests/client_checks.mjs:454:1 {\n  generatedMessage: false,\n  code: 'ERR_ASSERTION',\n  actual: 500,\n  expected: 200,\n  operator: 'strictEqual'\n}\n\nNode.js v22.14.0\n\n"
+  },
+  "test_integration_http_restart_lost_response": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/test_service.py\", line 378, in test_integration_http_restart_lost_response\n    with urlopen(url + \"/health\", timeout=10) as response:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.11/urllib/request.py\", line 216, in urlopen\n    return opener.open(url, data, timeout)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.11/urllib/request.py\", line 525, in open\n    response = meth(req, response)\n               ^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.11/urllib/request.py\", line 634, in http_response\n    response = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.11/urllib/request.py\", line 563, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.11/urllib/request.py\", line 496, in _call_chain\n    result = func(*args)\n             ^^^^^^^^^^^\n  File \"/usr/lib/python3.11/urllib/request.py\", line 643, in http_error_default\n    raise HTTPError(req.full_url, code, msg, hdrs, fp)\nurllib.error.HTTPError: HTTP Error 500: Internal Server Error\n"
+  },
+  "test_recovery_alternate_database_and_idempotence": {
+    "passed": true
+  },
+  "test_recovery_delivered_incident_state": {
+    "passed": true
+  },
+  "test_sync_cursor_scope_and_invalid_values": {
+    "passed": true
+  },
+  "test_sync_large_wire_values": {
+    "passed": true
+  },
+  "test_sync_pull_exclusive_frozen_and_gaps": {
+    "passed": true
+  },
+  "test_sync_snapshot_frozen_history": {
+    "passed": true
+  },
+  "test_transactions_conflicts_do_not_consume_keys": {
+    "passed": true
+  },
+  "test_transactions_generated_reference_replay": {
+    "passed": true
+  },
+  "test_transactions_process_race": {
+    "passed": true
+  },
+  "test_transactions_receipt_identity_and_digest": {
+    "passed": true
+  },
+  "test_transactions_rollback_both_fault_boundaries": {
+    "passed": true
+  },
+  "test_transactions_validation_and_lifecycle": {
+    "passed": true
+  }
+}

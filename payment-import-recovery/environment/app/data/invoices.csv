@@ -1,0 +1,5 @@
+tenant,invoice_id,due_cents
+north,00123,10000
+north,123,20000
+north,INV-9,30000
+south,00123,15000

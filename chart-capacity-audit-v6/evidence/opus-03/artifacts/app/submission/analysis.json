@@ -1,0 +1,4120 @@
+{
+ "inventory": {
+  "selected": [
+   "C1.r1",
+   "C2.r2",
+   "C3.r1",
+   "C4.r1",
+   "H1.r1",
+   "H2.r1",
+   "H3.r1",
+   "H4.r1"
+  ],
+  "rejected": [
+   "C2.r1"
+  ],
+  "by_target": {
+   "AI": {
+    "counters": "C1.r1",
+    "histograms": "H1.r1"
+   },
+   "AS": {
+    "counters": "C1.r1",
+    "histograms": "H1.r1"
+   },
+   "BI": {
+    "counters": "C2.r2",
+    "histograms": "H2.r1"
+   },
+   "BS": {
+    "counters": "C2.r2",
+    "histograms": "H2.r1"
+   },
+   "CI": {
+    "counters": "C3.r1",
+    "histograms": "H3.r1"
+   },
+   "CS": {
+    "counters": "C3.r1",
+    "histograms": "H3.r1"
+   },
+   "DI": {
+    "counters": "C4.r1",
+    "histograms": "H4.r1"
+   },
+   "DS": {
+    "counters": "C4.r1",
+    "histograms": "H4.r1"
+   }
+  },
+  "pages": [
+   {
+    "id": "C1.r1",
+    "kind": "counters",
+    "file": "C1-r1.png",
+    "targets": [
+     "AS",
+     "AI"
+    ],
+    "status": "selected",
+    "superseded_by": []
+   },
+   {
+    "id": "C2.r1",
+    "kind": "counters",
+    "file": "C2-r1.png",
+    "targets": [
+     "BS",
+     "BI"
+    ],
+    "status": "rejected",
+    "superseded_by": [
+     "C2.r2"
+    ]
+   },
+   {
+    "id": "C2.r2",
+    "kind": "counters",
+    "file": "C2-r2.png",
+    "targets": [
+     "BS",
+     "BI"
+    ],
+    "status": "selected",
+    "superseded_by": []
+   },
+   {
+    "id": "C3.r1",
+    "kind": "counters",
+    "file": "C3-r1.png",
+    "targets": [
+     "CS",
+     "CI"
+    ],
+    "status": "selected",
+    "superseded_by": []
+   },
+   {
+    "id": "C4.r1",
+    "kind": "counters",
+    "file": "C4-r1.png",
+    "targets": [
+     "DS",
+     "DI"
+    ],
+    "status": "selected",
+    "superseded_by": []
+   },
+   {
+    "id": "H1.r1",
+    "kind": "histograms",
+    "file": "H1-r1.png",
+    "targets": [
+     "AS",
+     "AI"
+    ],
+    "status": "selected",
+    "superseded_by": []
+   },
+   {
+    "id": "H2.r1",
+    "kind": "histograms",
+    "file": "H2-r1.png",
+    "targets": [
+     "BS",
+     "BI"
+    ],
+    "status": "selected",
+    "superseded_by": []
+   },
+   {
+    "id": "H3.r1",
+    "kind": "histograms",
+    "file": "H3-r1.png",
+    "targets": [
+     "CS",
+     "CI"
+    ],
+    "status": "selected",
+    "superseded_by": []
+   },
+   {
+    "id": "H4.r1",
+    "kind": "histograms",
+    "file": "H4-r1.png",
+    "targets": [
+     "DS",
+     "DI"
+    ],
+    "status": "selected",
+    "superseded_by": []
+   }
+  ],
+  "supersedes": [
+   {
+    "new": "C2.r2",
+    "old": "C2.r1",
+    "scope": "whole page"
+   }
+  ]
+ },
+ "intervals": [
+  {
+   "target": "AS",
+   "window": "W1",
+   "start_boundary": "B0",
+   "end_boundary": "B1",
+   "minutes": 30,
+   "reason": "usable",
+   "requests": [
+    98200,
+    100000,
+    101800
+   ],
+   "errors": [
+    964,
+    1000,
+    1036
+   ],
+   "mean_requests_per_minute": 3333.333333333,
+   "counter_page": "C1.r1",
+   "histogram_page": "H1.r1",
+   "latency_included": true,
+   "histogram_bins": [
+    [
+     591,
+     600,
+     609
+    ],
+    [
+     241,
+     250,
+     259
+    ],
+    [
+     91,
+     100,
+     109
+    ],
+    [
+     41,
+     50,
+     59
+    ]
+   ],
+   "resets": [],
+   "notes": [
+    "requests: end B1 minus start B0",
+    "errors: end B1 minus start B0"
+   ]
+  },
+  {
+   "target": "AS",
+   "window": "W2",
+   "start_boundary": "B1",
+   "end_boundary": "B2",
+   "minutes": 60,
+   "reason": "usable",
+   "requests": [
+    198200,
+    200000,
+    201800
+   ],
+   "errors": [
+    1964,
+    2000,
+    2036
+   ],
+   "mean_requests_per_minute": 3333.333333333,
+   "counter_page": "C1.r1",
+   "histogram_page": "H1.r1",
+   "latency_included": true,
+   "histogram_bins": [
+    [
+     491,
+     500,
+     509
+    ],
+    [
+     291,
+     300,
+     309
+    ],
+    [
+     141,
+     150,
+     159
+    ],
+    [
+     41,
+     50,
+     59
+    ]
+   ],
+   "resets": [],
+   "notes": [
+    "requests: end B2 minus start B1",
+    "errors: end B2 minus start B1"
+   ]
+  },
+  {
+   "target": "AS",
+   "window": "W3",
+   "start_boundary": "B2",
+   "end_boundary": "B3",
+   "minutes": 30,
+   "reason": "usable",
+   "requests": [
+    99100,
+    100000,
+    100900
+   ],
+   "errors": [
+    2982,
+    3000,
+    3018
+   ],
+   "mean_requests_per_minute": 3333.333333333,
+   "counter_page": "C1.r1",
+   "histogram_page": "H1.r1",
+   "latency_included": true,
+   "histogram_bins": [
+    [
+     491,
+     500,
+     509
+    ],
+    [
+     341,
+     350,
+     359
+    ],
+    [
+     91,
+     100,
+     109
+    ],
+    [
+     41,
+     50,
+     59
+    ]
+   ],
+   "resets": [
+    "requests",
+    "errors"
+   ],
+   "notes": [
+    "requests: documented reset at start of W3; end B3 minus baseline 0 (old-epoch start sample B2 ignored)",
+    "errors: documented reset at start of W3; end B3 minus baseline 0 (old-epoch start sample B2 ignored)"
+   ]
+  },
+  {
+   "target": "AS",
+   "window": "W4",
+   "start_boundary": "B3",
+   "end_boundary": "B4",
+   "minutes": 60,
+   "reason": "usable",
+   "requests": [
+    198200,
+    200000,
+    201800
+   ],
+   "errors": [
+    3964,
+    4000,
+    4036
+   ],
+   "mean_requests_per_minute": 3333.333333333,
+   "counter_page": "C1.r1",
+   "histogram_page": "H1.r1",
+   "latency_included": true,
+   "histogram_bins": [
+    [
+     541,
+     550,
+     559
+    ],
+    [
+     241,
+     250,
+     259
+    ],
+    [
+     141,
+     150,
+     159
+    ],
+    [
+     41,
+     50,
+     59
+    ]
+   ],
+   "resets": [],
+   "notes": [
+    "requests: end B4 minus start B3",
+    "errors: end B4 minus start B3"
+   ]
+  },
+  {
+   "target": "AI",
+   "window": "W1",
+   "start_boundary": "B0",
+   "end_boundary": "B1",
+   "minutes": 30,
+   "reason": "usable",
+   "requests": [
+    118200,
+    120000,
+    121800
+   ],
+   "errors": [
+    364,
+    400,
+    436
+   ],
+   "mean_requests_per_minute": 4000,
+   "counter_page": "C1.r1",
+   "histogram_page": "H1.r1",
+   "latency_included": true,
+   "histogram_bins": [
+    [
+     1391,
+     1400,
+     1409
+    ],
+    [
+     551,
+     560,
+     569
+    ],
+    [
+     21,
+     30,
+     39
+    ],
+    [
+     0,
+     10,
+     19
+    ]
+   ],
+   "resets": [],
+   "notes": [
+    "requests: end B1 minus start B0",
+    "errors: end B1 minus start B0"
+   ]
+  },
+  {
+   "target": "AI",
+   "window": "W2",
+   "start_boundary": "B1",
+   "end_boundary": "B2",
+   "minutes": 60,
+   "reason": "usable",
+   "requests": [
+    238200,
+    240000,
+    241800
+   ],
+   "errors": [
+    564,
+    600,
+    636
+   ],
+   "mean_requests_per_minute": 4000,
+   "counter_page": "C1.r1",
+   "histogram_page": "H1.r1",
+   "latency_included": true,
+   "histogram_bins": [
+    [
+     1391,
+     1400,
+     1409
+    ],
+    [
+     551,
+     560,
+     569
+    ],
+    [
+     21,
+     30,
+     39
+    ],
+    [
+     0,
+     10,
+     19
+    ]
+   ],
+   "resets": [],
+   "notes": [
+    "requests: end B2 minus start B1",
+    "errors: end B2 minus start B1"
+   ]
+  },
+  {
+   "target": "AI",
+   "window": "W3",
+   "start_boundary": "B2",
+   "end_boundary": "B3",
+   "minutes": 30,
+   "reason": "usable",
+   "requests": [
+    118200,
+    120000,
+    121800
+   ],
+   "errors": [
+    764,
+    800,
+    836
+   ],
+   "mean_requests_per_minute": 4000,
+   "counter_page": "C1.r1",
+   "histogram_page": "H1.r1",
+   "latency_included": true,
+   "histogram_bins": [
+    [
+     1391,
+     1400,
+     1409
+    ],
+    [
+     551,
+     560,
+     569
+    ],
+    [
+     21,
+     30,
+     39
+    ],
+    [
+     0,
+     10,
+     19
+    ]
+   ],
+   "resets": [],
+   "notes": [
+    "requests: end B3 minus start B2",
+    "errors: end B3 minus start B2"
+   ]
+  },
+  {
+   "target": "AI",
+   "window": "W4",
+   "start_boundary": "B3",
+   "end_boundary": "B4",
+   "minutes": 60,
+   "reason": "usable",
+   "requests": [
+    238200,
+    240000,
+    241800
+   ],
+   "errors": [
+    964,
+    1000,
+    1036
+   ],
+   "mean_requests_per_minute": 4000,
+   "counter_page": "C1.r1",
+   "histogram_page": "H1.r1",
+   "latency_included": true,
+   "histogram_bins": [
+    [
+     1391,
+     1400,
+     1409
+    ],
+    [
+     551,
+     560,
+     569
+    ],
+    [
+     21,
+     30,
+     39
+    ],
+    [
+     0,
+     10,
+     19
+    ]
+   ],
+   "resets": [],
+   "notes": [
+    "requests: end B4 minus start B3",
+    "errors: end B4 minus start B3"
+   ]
+  },
+  {
+   "target": "BS",
+   "window": "W1",
+   "start_boundary": "B0",
+   "end_boundary": "B1",
+   "minutes": 30,
+   "reason": "usable",
+   "requests": [
+    138200,
+    140000,
+    141800
+   ],
+   "errors": [
+    2964,
+    3000,
+    3036
+   ],
+   "mean_requests_per_minute": 4666.666666667,
+   "counter_page": "C2.r2",
+   "histogram_page": "H2.r1",
+   "latency_included": true,
+   "histogram_bins": [
+    [
+     491,
+     500,
+     509
+    ],
+    [
+     291,
+     300,
+     309
+    ],
+    [
+     141,
+     150,
+     159
+    ],
+    [
+     41,
+     50,
+     59
+    ]
+   ],
+   "resets": [],
+   "notes": [
+    "requests: end B1 minus start B0",
+    "errors: end B1 minus start B0"
+   ]
+  },
+  {
+   "target": "BS",
+   "window": "W2",
+   "start_boundary": "B1",
+   "end_boundary": "B2",
+   "minutes": 60,
+   "reason": "usable",
+   "requests": [
+    278200,
+    280000,
+    281800
+   ],
+   "errors": [
+    5964,
+    6000,
+    6036
+   ],
+   "mean_requests_per_minute": 4666.666666667,
+   "counter_page": "C2.r2",
+   "histogram_page": "H2.r1",
+   "latency_included": true,
+   "histogram_bins": [
+    [
+     991,
+     1000,
+     1009
+    ],
+    [
+     491,
+     500,
+     509
+    ],
+    [
+     341,
+     350,
+     359
+    ],
+    [
+     141,
+     150,
+     159
+    ]
+   ],
+   "resets": [],
+   "notes": [
+    "requests: end B2 minus start B1",
+    "errors: end B2 minus start B1"
+   ]
+  },
+  {
+   "target": "BS",
+   "window": "W3",
+   "start_boundary": "B2",
+   "end_boundary": "B3",
+   "minutes": 30,
+   "reason": "usable",
+   "requests": [
+    138200,
+    140000,
+    141800
+   ],
+   "errors": [
+    3964,
+    4000,
+    4036
+   ],
+   "mean_requests_per_minute": 4666.666666667,
+   "counter_page": "C2.r2",
+   "histogram_page": "H2.r1",
+   "latency_included": true,
+   "histogram_bins": [
+    [
+     691,
+     700,
+     709
+    ],
+    [
+     391,
+     400,
+     409
+    ],
+    [
+     291,
+     300,
+     309
+    ],
+    [
+     91,
+     100,
+     109
+    ]
+   ],
+   "resets": [],
+   "notes": [
+    "requests: end B3 minus start B2",
+    "errors: end B3 minus start B2"
+   ]
+  },
+  {
+   "target": "BS",
+   "window": "W4",
+   "start_boundary": "B3",
+   "end_boundary": "B4",
+   "minutes": 60,
+   "reason": "usable",
+   "requests": [
+    278200,
+    280000,
+    281800
+   ],
+   "errors": [
+    6964,
+    7000,
+    7036
+   ],
+   "mean_requests_per_minute": 4666.666666667,
+   "counter_page": "C2.r2",
+   "histogram_page": "H2.r1",
+   "latency_included": true,
+   "histogram_bins": [
+    [
+     1391,
+     1400,
+     1409
+    ],
+    [
+     791,
+     800,
+     809
+    ],
+    [
+     591,
+     600,
+     609
+    ],
+    [
+     191,
+     200,
+     209
+    ]
+   ],
+   "resets": [],
+   "notes": [
+    "requests: end B4 minus start B3",
+    "errors: end B4 minus start B3"
+   ]
+  },
+  {
+   "target": "BI",
+   "window": "W1",
+   "start_boundary": "B0",
+   "end_boundary": "B1",
+   "minutes": 30,
+   "reason": "usable",
+   "requests": [
+    158200,
+    160000,
+    161800
+   ],
+   "errors": [
+    2464,
+    2500,
+    2536
+   ],
+   "mean_requests_per_minute": 5333.333333333,
+   "counter_page": "C2.r2",
+   "histogram_page": "H2.r1",
+   "latency_included": true,
+   "histogram_bins": [
+    [
+     591,
+     600,
+     609
+    ],
+    [
+     191,
+     200,
+     209
+    ],
+    [
+     141,
+     150,
+     159
+    ],
+    [
+     41,
+     50,
+     59
+    ]
+   ],
+   "resets": [],
+   "notes": [
+    "requests: end B1 minus start B0",
+    "errors: end B1 minus start B0"
+   ]
+  },
+  {
+   "target": "BI",
+   "window": "W2",
+   "start_boundary": "B1",
+   "end_boundary": "B2",
+   "minutes": 60,
+   "reason": "usable",
+   "requests": [
+    318200,
+    320000,
+    321800
+   ],
+   "errors": [
+    4482,
+    4500,
+    4518
+   ],
+   "mean_requests_per_minute": 5333.333333333,
+   "counter_page": "C2.r2",
+   "histogram_page": "H2.r1",
+   "latency_included": true,
+   "histogram_bins": [
+    [
+     891,
+     900,
+     909
+    ],
+    [
+     591,
+     600,
+     609
+    ],
+    [
+     291,
+     300,
+     309
+    ],
+    [
+     191,
+     200,
+     209
+    ]
+   ],
+   "resets": [
+    "errors"
+   ],
+   "notes": [
+    "requests: end B2 minus start B1",
+    "errors: documented reset at start of W2; end B2 minus baseline 0 (old-epoch start sample B1 ignored)"
+   ]
+  },
+  {
+   "target": "BI",
+   "window": "W3",
+   "start_boundary": "B2",
+   "end_boundary": "B3",
+   "minutes": 30,
+   "reason": "usable",
+   "requests": [
+    158200,
+    160000,
+    161800
+   ],
+   "errors": [
+    3464,
+    3500,
+    3536
+   ],
+   "mean_requests_per_minute": 5333.333333333,
+   "counter_page": "C2.r2",
+   "histogram_page": "H2.r1",
+   "latency_included": true,
+   "histogram_bins": [
+    [
+     791,
+     800,
+     809
+    ],
+    [
+     391,
+     400,
+     409
+    ],
+    [
+     241,
+     250,
+     259
+    ],
+    [
+     41,
+     50,
+     59
+    ]
+   ],
+   "resets": [],
+   "notes": [
+    "requests: end B3 minus start B2",
+    "errors: end B3 minus start B2"
+   ]
+  },
+  {
+   "target": "BI",
+   "window": "W4",
+   "start_boundary": "B3",
+   "end_boundary": "B4",
+   "minutes": 60,
+   "reason": "usable",
+   "requests": [
+    318200,
+    320000,
+    321800
+   ],
+   "errors": [
+    5464,
+    5500,
+    5536
+   ],
+   "mean_requests_per_minute": 5333.333333333,
+   "counter_page": "C2.r2",
+   "histogram_page": "H2.r1",
+   "latency_included": true,
+   "histogram_bins": [
+    [
+     1791,
+     1800,
+     1809
+    ],
+    [
+     991,
+     1000,
+     1009
+    ],
+    [
+     891,
+     900,
+     909
+    ],
+    [
+     291,
+     300,
+     309
+    ]
+   ],
+   "resets": [],
+   "notes": [
+    "requests: end B4 minus start B3",
+    "errors: end B4 minus start B3"
+   ]
+  },
+  {
+   "target": "CS",
+   "window": "W1",
+   "start_boundary": "B0",
+   "end_boundary": "B1",
+   "minutes": 30,
+   "reason": "usable",
+   "requests": [
+    178200,
+    180000,
+    181800
+   ],
+   "errors": [
+    664,
+    700,
+    736
+   ],
+   "mean_requests_per_minute": 6000,
+   "counter_page": "C3.r1",
+   "histogram_page": "H3.r1",
+   "latency_included": true,
+   "histogram_bins": [
+    [
+     591,
+     600,
+     609
+    ],
+    [
+     291,
+     300,
+     309
+    ],
+    [
+     71,
+     80,
+     89
+    ],
+    [
+     11,
+     20,
+     29
+    ]
+   ],
+   "resets": [],
+   "notes": [
+    "requests: end B1 minus start B0",
+    "errors: end B1 minus start B0"
+   ]
+  },
+  {
+   "target": "CS",
+   "window": "W2",
+   "start_boundary": "B1",
+   "end_boundary": "B2",
+   "minutes": 60,
+   "reason": "usable",
+   "requests": [
+    358200,
+    360000,
+    361800
+   ],
+   "errors": [
+    864,
+    900,
+    936
+   ],
+   "mean_requests_per_minute": 6000,
+   "counter_page": "C3.r1",
+   "histogram_page": "H3.r1",
+   "latency_included": true,
+   "histogram_bins": [
+    [
+     591,
+     600,
+     609
+    ],
+    [
+     291,
+     300,
+     309
+    ],
+    [
+     71,
+     80,
+     89
+    ],
+    [
+     11,
+     20,
+     29
+    ]
+   ],
+   "resets": [],
+   "notes": [
+    "requests: end B2 minus start B1",
+    "errors: end B2 minus start B1"
+   ]
+  },
+  {
+   "target": "CS",
+   "window": "W3",
+   "start_boundary": "B2",
+   "end_boundary": "B3",
+   "minutes": 30,
+   "reason": "usable",
+   "requests": [
+    178200,
+    180000,
+    181800
+   ],
+   "errors": [
+    764,
+    800,
+    836
+   ],
+   "mean_requests_per_minute": 6000,
+   "counter_page": "C3.r1",
+   "histogram_page": "H3.r1",
+   "latency_included": true,
+   "histogram_bins": [
+    [
+     591,
+     600,
+     609
+    ],
+    [
+     291,
+     300,
+     309
+    ],
+    [
+     71,
+     80,
+     89
+    ],
+    [
+     11,
+     20,
+     29
+    ]
+   ],
+   "resets": [],
+   "notes": [
+    "requests: end B3 minus start B2",
+    "errors: end B3 minus start B2"
+   ]
+  },
+  {
+   "target": "CS",
+   "window": "W4",
+   "start_boundary": "B3",
+   "end_boundary": "B4",
+   "minutes": 60,
+   "reason": "usable",
+   "requests": [
+    358200,
+    360000,
+    361800
+   ],
+   "errors": [
+    964,
+    1000,
+    1036
+   ],
+   "mean_requests_per_minute": 6000,
+   "counter_page": "C3.r1",
+   "histogram_page": "H3.r1",
+   "latency_included": true,
+   "histogram_bins": [
+    [
+     6980,
+     7000,
+     7020
+    ],
+    [
+     2970,
+     2990,
+     3010
+    ],
+    [
+     0,
+     10,
+     40
+    ],
+    [
+     0,
+     0,
+     30
+    ]
+   ],
+   "resets": [],
+   "notes": [
+    "requests: end B4 minus start B3",
+    "errors: end B4 minus start B3"
+   ]
+  },
+  {
+   "target": "CI",
+   "window": "W1",
+   "start_boundary": "B0",
+   "end_boundary": "B1",
+   "minutes": 30,
+   "reason": "usable",
+   "requests": [
+    198200,
+    200000,
+    201800
+   ],
+   "errors": [
+    4464,
+    4500,
+    4536
+   ],
+   "mean_requests_per_minute": 6666.666666667,
+   "counter_page": "C3.r1",
+   "histogram_page": "H3.r1",
+   "latency_included": true,
+   "histogram_bins": [
+    [
+     491,
+     500,
+     509
+    ],
+    [
+     291,
+     300,
+     309
+    ],
+    [
+     141,
+     150,
+     159
+    ],
+    [
+     41,
+     50,
+     59
+    ]
+   ],
+   "resets": [],
+   "notes": [
+    "requests: end B1 minus start B0",
+    "errors: end B1 minus start B0"
+   ]
+  },
+  {
+   "target": "CI",
+   "window": "W2",
+   "start_boundary": "B1",
+   "end_boundary": "B2",
+   "minutes": 60,
+   "reason": "usable",
+   "requests": [
+    398200,
+    400000,
+    401800
+   ],
+   "errors": [
+    5464,
+    5500,
+    5536
+   ],
+   "mean_requests_per_minute": 6666.666666667,
+   "counter_page": "C3.r1",
+   "histogram_page": "H3.r1",
+   "latency_included": true,
+   "histogram_bins": [
+    [
+     591,
+     600,
+     609
+    ],
+    [
+     291,
+     300,
+     309
+    ],
+    [
+     191,
+     200,
+     209
+    ],
+    [
+     91,
+     100,
+     109
+    ]
+   ],
+   "resets": [],
+   "notes": [
+    "requests: end B2 minus start B1",
+    "errors: end B2 minus start B1"
+   ]
+  },
+  {
+   "target": "CI",
+   "window": "W3",
+   "start_boundary": "B2",
+   "end_boundary": "B3",
+   "minutes": 30,
+   "reason": "usable",
+   "requests": [
+    198200,
+    200000,
+    201800
+   ],
+   "errors": [
+    6464,
+    6500,
+    6536
+   ],
+   "mean_requests_per_minute": 6666.666666667,
+   "counter_page": "C3.r1",
+   "histogram_page": "H3.r1",
+   "latency_included": true,
+   "histogram_bins": [
+    [
+     691,
+     700,
+     709
+    ],
+    [
+     291,
+     300,
+     309
+    ],
+    [
+     241,
+     250,
+     259
+    ],
+    [
+     141,
+     150,
+     159
+    ]
+   ],
+   "resets": [],
+   "notes": [
+    "requests: end B3 minus start B2",
+    "errors: end B3 minus start B2"
+   ]
+  },
+  {
+   "target": "CI",
+   "window": "W4",
+   "start_boundary": "B3",
+   "end_boundary": "B4",
+   "minutes": 60,
+   "reason": "usable",
+   "requests": [
+    398200,
+    400000,
+    401800
+   ],
+   "errors": [
+    7464,
+    7500,
+    7536
+   ],
+   "mean_requests_per_minute": 6666.666666667,
+   "counter_page": "C3.r1",
+   "histogram_page": "H3.r1",
+   "latency_included": true,
+   "histogram_bins": [
+    [
+     891,
+     900,
+     909
+    ],
+    [
+     491,
+     500,
+     509
+    ],
+    [
+     391,
+     400,
+     409
+    ],
+    [
+     191,
+     200,
+     209
+    ]
+   ],
+   "resets": [],
+   "notes": [
+    "requests: end B4 minus start B3",
+    "errors: end B4 minus start B3"
+   ]
+  },
+  {
+   "target": "DS",
+   "window": "W1",
+   "start_boundary": "B0",
+   "end_boundary": "B1",
+   "minutes": 30,
+   "reason": "usable",
+   "requests": [
+    218200,
+    220000,
+    221800
+   ],
+   "errors": [
+    1964,
+    2000,
+    2036
+   ],
+   "mean_requests_per_minute": 7333.333333333,
+   "counter_page": "C4.r1",
+   "histogram_page": "H4.r1",
+   "latency_included": true,
+   "histogram_bins": [
+    [
+     591,
+     600,
+     609
+    ],
+    [
+     241,
+     250,
+     259
+    ],
+    [
+     91,
+     100,
+     109
+    ],
+    [
+     41,
+     50,
+     59
+    ]
+   ],
+   "resets": [],
+   "notes": [
+    "requests: end B1 minus start B0",
+    "errors: end B1 minus start B0"
+   ]
+  },
+  {
+   "target": "DS",
+   "window": "W2",
+   "start_boundary": "B1",
+   "end_boundary": "B2",
+   "minutes": 60,
+   "reason": "missing_traffic",
+   "requests": null,
+   "errors": null,
+   "mean_requests_per_minute": null,
+   "counter_page": "C4.r1",
+   "histogram_page": "H4.r1",
+   "latency_included": false,
+   "histogram_bins": [
+    [
+     591,
+     600,
+     609
+    ],
+    [
+     191,
+     200,
+     209
+    ],
+    [
+     991,
+     1000,
+     1009
+    ],
+    [
+     191,
+     200,
+     209
+    ]
+   ],
+   "resets": [],
+   "notes": [
+    "requests: required endpoint(s) B2 UNKNOWN and no reset baseline; not reconstructable",
+    "errors: required endpoint(s) B2 UNKNOWN and no reset baseline; not reconstructable",
+    "traffic not reconstructable; not treated as zero; histogram cannot substitute"
+   ]
+  },
+  {
+   "target": "DS",
+   "window": "W3",
+   "start_boundary": "B2",
+   "end_boundary": "B3",
+   "minutes": 30,
+   "reason": "usable",
+   "requests": [
+    219100,
+    220000,
+    220900
+   ],
+   "errors": [
+    3982,
+    4000,
+    4018
+   ],
+   "mean_requests_per_minute": 7333.333333333,
+   "counter_page": "C4.r1",
+   "histogram_page": "H4.r1",
+   "latency_included": true,
+   "histogram_bins": [
+    [
+     791,
+     800,
+     809
+    ],
+    [
+     291,
+     300,
+     309
+    ],
+    [
+     291,
+     300,
+     309
+    ],
+    [
+     91,
+     100,
+     109
+    ]
+   ],
+   "resets": [
+    "requests",
+    "errors"
+   ],
+   "notes": [
+    "requests: documented reset at start of W3; end B3 minus baseline 0 (old-epoch start sample B2 ignored)",
+    "errors: documented reset at start of W3; end B3 minus baseline 0 (old-epoch start sample B2 ignored)"
+   ]
+  },
+  {
+   "target": "DS",
+   "window": "W4",
+   "start_boundary": "B3",
+   "end_boundary": "B4",
+   "minutes": 60,
+   "reason": "usable",
+   "requests": [
+    438200,
+    440000,
+    441800
+   ],
+   "errors": [
+    4964,
+    5000,
+    5036
+   ],
+   "mean_requests_per_minute": 7333.333333333,
+   "counter_page": "C4.r1",
+   "histogram_page": "H4.r1",
+   "latency_included": true,
+   "histogram_bins": [
+    [
+     1191,
+     1200,
+     1209
+    ],
+    [
+     491,
+     500,
+     509
+    ],
+    [
+     191,
+     200,
+     209
+    ],
+    [
+     91,
+     100,
+     109
+    ]
+   ],
+   "resets": [],
+   "notes": [
+    "requests: end B4 minus start B3",
+    "errors: end B4 minus start B3"
+   ]
+  },
+  {
+   "target": "DI",
+   "window": "W1",
+   "start_boundary": "B0",
+   "end_boundary": "B1",
+   "minutes": 30,
+   "reason": "usable",
+   "requests": [
+    238200,
+    240000,
+    241800
+   ],
+   "errors": [
+    1464,
+    1500,
+    1536
+   ],
+   "mean_requests_per_minute": 8000,
+   "counter_page": "C4.r1",
+   "histogram_page": "H4.r1",
+   "latency_included": true,
+   "histogram_bins": [
+    [
+     1391,
+     1400,
+     1409
+    ],
+    [
+     551,
+     560,
+     569
+    ],
+    [
+     21,
+     30,
+     39
+    ],
+    [
+     0,
+     10,
+     19
+    ]
+   ],
+   "resets": [],
+   "notes": [
+    "requests: end B1 minus start B0",
+    "errors: end B1 minus start B0"
+   ]
+  },
+  {
+   "target": "DI",
+   "window": "W2",
+   "start_boundary": "B1",
+   "end_boundary": "B2",
+   "minutes": 60,
+   "reason": "maintenance",
+   "requests": [
+    478200,
+    480000,
+    481800
+   ],
+   "errors": [
+    8964,
+    9000,
+    9036
+   ],
+   "mean_requests_per_minute": 8000,
+   "counter_page": "C4.r1",
+   "histogram_page": "H4.r1",
+   "latency_included": false,
+   "histogram_bins": [
+    [
+     91,
+     100,
+     109
+    ],
+    [
+     91,
+     100,
+     109
+    ],
+    [
+     591,
+     600,
+     609
+    ],
+    [
+     191,
+     200,
+     209
+    ]
+   ],
+   "resets": [],
+   "notes": [
+    "requests: end B2 minus start B1",
+    "errors: end B2 minus start B1",
+    "listed as maintenance in operations.json; excluded from demand and latency"
+   ]
+  },
+  {
+   "target": "DI",
+   "window": "W3",
+   "start_boundary": "B2",
+   "end_boundary": "B3",
+   "minutes": 30,
+   "reason": "usable",
+   "requests": [
+    238200,
+    240000,
+    241800
+   ],
+   "errors": [
+    1764,
+    1800,
+    1836
+   ],
+   "mean_requests_per_minute": 8000,
+   "counter_page": "C4.r1",
+   "histogram_page": "H4.r1",
+   "latency_included": true,
+   "histogram_bins": [
+    [
+     1391,
+     1400,
+     1409
+    ],
+    [
+     551,
+     560,
+     569
+    ],
+    [
+     21,
+     30,
+     39
+    ],
+    [
+     0,
+     10,
+     19
+    ]
+   ],
+   "resets": [],
+   "notes": [
+    "requests: end B3 minus start B2",
+    "errors: end B3 minus start B2"
+   ]
+  },
+  {
+   "target": "DI",
+   "window": "W4",
+   "start_boundary": "B3",
+   "end_boundary": "B4",
+   "minutes": 60,
+   "reason": "usable",
+   "requests": [
+    478200,
+    480000,
+    481800
+   ],
+   "errors": [
+    2164,
+    2200,
+    2236
+   ],
+   "mean_requests_per_minute": 8000,
+   "counter_page": "C4.r1",
+   "histogram_page": "H4.r1",
+   "latency_included": true,
+   "histogram_bins": [
+    [
+     1391,
+     1400,
+     1409
+    ],
+    [
+     551,
+     560,
+     569
+    ],
+    [
+     21,
+     30,
+     39
+    ],
+    [
+     0,
+     10,
+     19
+    ]
+   ],
+   "resets": [],
+   "notes": [
+    "requests: end B4 minus start B3",
+    "errors: end B4 minus start B3"
+   ]
+  }
+ ],
+ "targets": {
+  "AS": {
+   "display_name": "Alder / Query API",
+   "region": "Alder",
+   "usable_windows": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ],
+   "histogram_windows": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ],
+   "requests": 600000,
+   "errors": 10000,
+   "failure_fraction": 0.016666667,
+   "error_bounds": [
+    9874,
+    10126
+   ],
+   "pooled_bins": [
+    2150,
+    1150,
+    500,
+    200
+   ],
+   "pooled_bin_bounds": [
+    [
+     2114,
+     2186
+    ],
+    [
+     1114,
+     1186
+    ],
+    [
+     464,
+     536
+    ],
+    [
+     164,
+     236
+    ]
+   ],
+   "sample_bounds": [
+    3856,
+    4144
+   ],
+   "samples": 4000,
+   "slow_fraction": 0.175,
+   "slow_bounds": [
+    0.157,
+    0.193
+   ],
+   "p95_bin": "(300,1000]",
+   "latency_eligible": true,
+   "eligibility_stable": true,
+   "rollout_eligible": true,
+   "block_reason": null,
+   "risk_weight": 1,
+   "weighted_risk": 10000
+  },
+  "AI": {
+   "display_name": "Alder / Write API",
+   "region": "Alder",
+   "usable_windows": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ],
+   "histogram_windows": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ],
+   "requests": 720000,
+   "errors": 2800,
+   "failure_fraction": 0.003888889,
+   "error_bounds": [
+    2656,
+    2944
+   ],
+   "pooled_bins": [
+    5600,
+    2240,
+    120,
+    40
+   ],
+   "pooled_bin_bounds": [
+    [
+     5564,
+     5636
+    ],
+    [
+     2204,
+     2276
+    ],
+    [
+     84,
+     156
+    ],
+    [
+     0,
+     76
+    ]
+   ],
+   "sample_bounds": [
+    7852,
+    8144
+   ],
+   "samples": 8000,
+   "slow_fraction": 0.02,
+   "slow_bounds": [
+    0.010505253,
+    0.029
+   ],
+   "p95_bin": "(100,300]",
+   "latency_eligible": false,
+   "eligibility_stable": true,
+   "rollout_eligible": false,
+   "block_reason": "latency",
+   "risk_weight": 1.5,
+   "weighted_risk": 4200
+  },
+  "BS": {
+   "display_name": "Birch / Query API",
+   "region": "Birch",
+   "usable_windows": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ],
+   "histogram_windows": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ],
+   "requests": 840000,
+   "errors": 20000,
+   "failure_fraction": 0.023809524,
+   "error_bounds": [
+    19856,
+    20144
+   ],
+   "pooled_bins": [
+    3600,
+    2000,
+    1400,
+    500
+   ],
+   "pooled_bin_bounds": [
+    [
+     3564,
+     3636
+    ],
+    [
+     1964,
+     2036
+    ],
+    [
+     1364,
+     1436
+    ],
+    [
+     464,
+     536
+    ]
+   ],
+   "sample_bounds": [
+    7356,
+    7644
+   ],
+   "samples": 7500,
+   "slow_fraction": 0.253333333,
+   "slow_bounds": [
+    0.243733333,
+    0.262933333
+   ],
+   "p95_bin": ">1000",
+   "latency_eligible": true,
+   "eligibility_stable": true,
+   "rollout_eligible": true,
+   "block_reason": null,
+   "risk_weight": 1,
+   "weighted_risk": 20000
+  },
+  "BI": {
+   "display_name": "Birch / Write API",
+   "region": "Birch",
+   "usable_windows": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ],
+   "histogram_windows": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ],
+   "requests": 960000,
+   "errors": 16000,
+   "failure_fraction": 0.016666667,
+   "error_bounds": [
+    15874,
+    16126
+   ],
+   "pooled_bins": [
+    4100,
+    2200,
+    1600,
+    600
+   ],
+   "pooled_bin_bounds": [
+    [
+     4064,
+     4136
+    ],
+    [
+     2164,
+     2236
+    ],
+    [
+     1564,
+     1636
+    ],
+    [
+     564,
+     636
+    ]
+   ],
+   "sample_bounds": [
+    8356,
+    8644
+   ],
+   "samples": 8500,
+   "slow_fraction": 0.258823529,
+   "slow_bounds": [
+    0.250352941,
+    0.267294118
+   ],
+   "p95_bin": ">1000",
+   "latency_eligible": true,
+   "eligibility_stable": true,
+   "rollout_eligible": true,
+   "block_reason": null,
+   "risk_weight": 1.5,
+   "weighted_risk": 24000
+  },
+  "CS": {
+   "display_name": "Cedar / Query API",
+   "region": "Cedar",
+   "usable_windows": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ],
+   "histogram_windows": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ],
+   "requests": 1080000,
+   "errors": 3400,
+   "failure_fraction": 0.003148148,
+   "error_bounds": [
+    3256,
+    3544
+   ],
+   "pooled_bins": [
+    8800,
+    3890,
+    250,
+    60
+   ],
+   "pooled_bin_bounds": [
+    [
+     8753,
+     8847
+    ],
+    [
+     3843,
+     3937
+    ],
+    [
+     213,
+     307
+    ],
+    [
+     33,
+     117
+    ]
+   ],
+   "sample_bounds": [
+    12842,
+    13208
+   ],
+   "samples": 13000,
+   "slow_fraction": 0.023846154,
+   "slow_bounds": [
+    0.018879509,
+    0.032565284
+   ],
+   "p95_bin": "(100,300]",
+   "latency_eligible": false,
+   "eligibility_stable": true,
+   "rollout_eligible": false,
+   "block_reason": "latency",
+   "risk_weight": 1,
+   "weighted_risk": 3400
+  },
+  "CI": {
+   "display_name": "Cedar / Write API",
+   "region": "Cedar",
+   "usable_windows": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ],
+   "histogram_windows": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ],
+   "requests": 1200000,
+   "errors": 24000,
+   "failure_fraction": 0.02,
+   "error_bounds": [
+    23856,
+    24144
+   ],
+   "pooled_bins": [
+    2700,
+    1400,
+    1000,
+    500
+   ],
+   "pooled_bin_bounds": [
+    [
+     2664,
+     2736
+    ],
+    [
+     1364,
+     1436
+    ],
+    [
+     964,
+     1036
+    ],
+    [
+     464,
+     536
+    ]
+   ],
+   "sample_bounds": [
+    5456,
+    5744
+   ],
+   "samples": 5600,
+   "slow_fraction": 0.267857143,
+   "slow_bounds": [
+    0.255,
+    0.280714286
+   ],
+   "p95_bin": ">1000",
+   "latency_eligible": true,
+   "eligibility_stable": true,
+   "rollout_eligible": false,
+   "block_reason": "region_freeze",
+   "risk_weight": 1.5,
+   "weighted_risk": 36000
+  },
+  "DS": {
+   "display_name": "Delta / Query API",
+   "region": "Delta",
+   "usable_windows": [
+    "W1",
+    "W3",
+    "W4"
+   ],
+   "histogram_windows": [
+    "W1",
+    "W3",
+    "W4"
+   ],
+   "requests": 880000,
+   "errors": 11000,
+   "failure_fraction": 0.0125,
+   "error_bounds": [
+    10910,
+    11090
+   ],
+   "pooled_bins": [
+    2600,
+    1050,
+    600,
+    250
+   ],
+   "pooled_bin_bounds": [
+    [
+     2573,
+     2627
+    ],
+    [
+     1023,
+     1077
+    ],
+    [
+     573,
+     627
+    ],
+    [
+     223,
+     277
+    ]
+   ],
+   "sample_bounds": [
+    4392,
+    4608
+   ],
+   "samples": 4500,
+   "slow_fraction": 0.188888889,
+   "slow_bounds": [
+    0.176888889,
+    0.200888889
+   ],
+   "p95_bin": ">1000",
+   "latency_eligible": true,
+   "eligibility_stable": true,
+   "rollout_eligible": true,
+   "block_reason": null,
+   "risk_weight": 1,
+   "weighted_risk": 11000
+  },
+  "DI": {
+   "display_name": "Delta / Write API",
+   "region": "Delta",
+   "usable_windows": [
+    "W1",
+    "W3",
+    "W4"
+   ],
+   "histogram_windows": [
+    "W1",
+    "W3",
+    "W4"
+   ],
+   "requests": 960000,
+   "errors": 5500,
+   "failure_fraction": 0.005729167,
+   "error_bounds": [
+    5392,
+    5608
+   ],
+   "pooled_bins": [
+    4200,
+    1680,
+    90,
+    30
+   ],
+   "pooled_bin_bounds": [
+    [
+     4173,
+     4227
+    ],
+    [
+     1653,
+     1707
+    ],
+    [
+     63,
+     117
+    ],
+    [
+     0,
+     57
+    ]
+   ],
+   "sample_bounds": [
+    5889,
+    6108
+   ],
+   "samples": 6000,
+   "slow_fraction": 0.02,
+   "slow_bounds": [
+    0.010505253,
+    0.029
+   ],
+   "p95_bin": "(100,300]",
+   "latency_eligible": false,
+   "eligibility_stable": true,
+   "rollout_eligible": false,
+   "block_reason": "latency",
+   "risk_weight": 1.5,
+   "weighted_risk": 8250
+  }
+ },
+ "fleet": {
+  "requests": 7240000,
+  "errors": 92700,
+  "failure_fraction": 0.012803867
+ },
+ "plan": {
+  "tiers": {
+   "AS": 0,
+   "AI": 0,
+   "BS": 1,
+   "BI": 2,
+   "CS": 0,
+   "CI": 0,
+   "DS": 0,
+   "DI": 0
+  },
+  "credits": 14,
+  "power": 8,
+  "active_regions": [
+   "Birch"
+  ],
+  "objective": 26320,
+  "objective_bounds": [
+   26119.48,
+   26520.52
+  ],
+  "residual_risk": 90530,
+  "total_weighted_risk": 116850,
+  "robust_margin": 1122.08,
+  "robust": true,
+  "closest_rival": {
+   "AS": 0,
+   "AI": 0,
+   "BS": 1,
+   "BI": 1,
+   "CS": 0,
+   "CI": 0,
+   "DS": 1,
+   "DI": 0
+  },
+  "credit_budget": 16,
+  "power_budget": 11,
+  "blocked_targets": {
+   "AI": "latency",
+   "CS": "latency",
+   "CI": "region_freeze",
+   "DI": "latency"
+  },
+  "unserved_risk_by_target": {
+   "AS": 10000,
+   "AI": 4200,
+   "BS": 10000,
+   "BI": 7680.0,
+   "CS": 3400,
+   "CI": 36000,
+   "DS": 11000,
+   "DI": 8250
+  }
+ },
+ "scenarios": [
+  {
+   "credit_budget": 14,
+   "tiers": {
+    "AS": 0,
+    "AI": 0,
+    "BS": 1,
+    "BI": 2,
+    "CS": 0,
+    "CI": 0,
+    "DS": 0,
+    "DI": 0
+   },
+   "credits": 14,
+   "power": 8,
+   "active_regions": [
+    "Birch"
+   ],
+   "objective": 26320
+  },
+  {
+   "credit_budget": 18,
+   "tiers": {
+    "AS": 0,
+    "AI": 0,
+    "BS": 1,
+    "BI": 2,
+    "CS": 0,
+    "CI": 0,
+    "DS": 1,
+    "DI": 0
+   },
+   "credits": 18,
+   "power": 10,
+   "active_regions": [
+    "Birch",
+    "Delta"
+   ],
+   "objective": 31820
+  }
+ ],
+ "execution": {
+  "actions": [
+   {
+    "target": "BS",
+    "tier": 1,
+    "start": 0,
+    "finish": 2,
+    "ready": 2
+   },
+   {
+    "target": "DS",
+    "tier": 1,
+    "start": 0,
+    "finish": 1,
+    "ready": 1
+   },
+   {
+    "target": "BI",
+    "tier": 1,
+    "start": 3,
+    "finish": 4,
+    "ready": 5
+   }
+  ],
+  "slots": [
+   {
+    "slot": 0,
+    "occupied": [
+     "BS",
+     "DS"
+    ],
+    "effective_tiers": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 0,
+     "BI": 0,
+     "CS": 0,
+     "CI": 0,
+     "DS": 0,
+     "DI": 0
+    },
+    "ready_tiers": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 0,
+     "BI": 0,
+     "CS": 0,
+     "CI": 0,
+     "DS": 0,
+     "DI": 0
+    }
+   },
+   {
+    "slot": 1,
+    "occupied": [
+     "BS"
+    ],
+    "effective_tiers": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 0,
+     "BI": 0,
+     "CS": 0,
+     "CI": 0,
+     "DS": 1,
+     "DI": 0
+    },
+    "ready_tiers": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 0,
+     "BI": 0,
+     "CS": 0,
+     "CI": 0,
+     "DS": 1,
+     "DI": 0
+    }
+   },
+   {
+    "slot": 2,
+    "occupied": [],
+    "effective_tiers": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 1,
+     "BI": 0,
+     "CS": 0,
+     "CI": 0,
+     "DS": 1,
+     "DI": 0
+    },
+    "ready_tiers": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 1,
+     "BI": 0,
+     "CS": 0,
+     "CI": 0,
+     "DS": 1,
+     "DI": 0
+    }
+   },
+   {
+    "slot": 3,
+    "occupied": [
+     "BI"
+    ],
+    "effective_tiers": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 1,
+     "BI": 0,
+     "CS": 0,
+     "CI": 0,
+     "DS": 1,
+     "DI": 0
+    },
+    "ready_tiers": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 1,
+     "BI": 0,
+     "CS": 0,
+     "CI": 0,
+     "DS": 1,
+     "DI": 0
+    }
+   },
+   {
+    "slot": 4,
+    "occupied": [],
+    "effective_tiers": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 1,
+     "BI": 0,
+     "CS": 0,
+     "CI": 0,
+     "DS": 1,
+     "DI": 0
+    },
+    "ready_tiers": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 1,
+     "BI": 0,
+     "CS": 0,
+     "CI": 0,
+     "DS": 1,
+     "DI": 0
+    }
+   },
+   {
+    "slot": 5,
+    "occupied": [],
+    "effective_tiers": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 1,
+     "BI": 1,
+     "CS": 0,
+     "CI": 0,
+     "DS": 1,
+     "DI": 0
+    },
+    "ready_tiers": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 1,
+     "BI": 1,
+     "CS": 0,
+     "CI": 0,
+     "DS": 1,
+     "DI": 0
+    }
+   }
+  ],
+  "final_tiers": {
+   "AS": 0,
+   "AI": 0,
+   "BS": 1,
+   "BI": 1,
+   "CS": 0,
+   "CI": 0,
+   "DS": 1,
+   "DI": 0
+  },
+  "credits": 14,
+  "power": 8,
+  "active_regions": [
+   "Birch",
+   "Delta"
+  ],
+  "peak_crews": 2,
+  "start_vector": [
+   7,
+   7,
+   7,
+   7,
+   0,
+   7,
+   3,
+   7,
+   7,
+   7,
+   7,
+   7,
+   0,
+   7,
+   7,
+   7
+  ],
+  "cases": [
+   {
+    "id": "weekday",
+    "baseline": 1307100,
+    "net": 157170,
+    "net_bounds": [
+     155977.68,
+     158362.32
+    ],
+    "residual": 1149930,
+    "error_coefficients": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 4.7,
+     "BI": 0.27,
+     "CS": 0,
+     "CI": 0,
+     "DS": 5.35,
+     "DI": 0
+    }
+   },
+   {
+    "id": "write-burst",
+    "baseline": 1520800,
+    "net": 121050,
+    "net_bounds": [
+     120113.1,
+     121986.9
+    ],
+    "residual": 1399750,
+    "error_coefficients": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 2.05,
+     "BI": 2.7,
+     "CS": 0,
+     "CI": 0,
+     "DS": 3.35,
+     "DI": 0
+    }
+   },
+   {
+    "id": "regional-shift",
+    "baseline": 1333850,
+    "net": 171690,
+    "net_bounds": [
+     170352.96,
+     173027.04
+    ],
+    "residual": 1162160,
+    "error_coefficients": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 3.2,
+     "BI": 0.99,
+     "CS": 0,
+     "CI": 0,
+     "DS": 8.35,
+     "DI": 0
+    }
+   }
+  ],
+  "worst_case_net": 121050,
+  "total_case_net": 449910,
+  "feasible_schedules_searched": 309,
+  "eligible_candidates": [
+   "AS",
+   "BS",
+   "BI",
+   "DS"
+  ],
+  "contingency": {
+   "reveal": 1,
+   "prefix": [
+    {
+     "target": "DS",
+     "tier": 1,
+     "start": 0,
+     "finish": 1,
+     "ready": 1
+    }
+   ],
+   "branches": [
+    {
+     "actions": [
+      {
+       "target": "DS",
+       "tier": 1,
+       "start": 0,
+       "finish": 1,
+       "ready": 1
+      },
+      {
+       "target": "BS",
+       "tier": 1,
+       "start": 1,
+       "finish": 3,
+       "ready": 3
+      },
+      {
+       "target": "DS",
+       "tier": 2,
+       "start": 2,
+       "finish": 3,
+       "ready": 4
+      }
+     ],
+     "slots": [
+      {
+       "slot": 0,
+       "occupied": [
+        "DS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       },
+       "ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 1,
+       "occupied": [
+        "BS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 2,
+       "occupied": [
+        "BS",
+        "DS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       },
+       "ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 3,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 4,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 2,
+        "DI": 0
+       },
+       "ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 2,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 5,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 2,
+        "DI": 0
+       },
+       "ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 2,
+        "DI": 0
+       }
+      }
+     ],
+     "final_tiers": {
+      "AS": 0,
+      "AI": 0,
+      "BS": 1,
+      "BI": 0,
+      "CS": 0,
+      "CI": 0,
+      "DS": 2,
+      "DI": 0
+     },
+     "credits": 13,
+     "power": 7,
+     "active_regions": [
+      "Birch",
+      "Delta"
+     ],
+     "peak_crews": 2,
+     "start_vector": [
+      7,
+      7,
+      7,
+      7,
+      1,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      0,
+      2,
+      7,
+      7
+     ],
+     "case": {
+      "id": "weekday",
+      "baseline": 1307100,
+      "net": 144260,
+      "net_bounds": [
+       143149.4,
+       145370.6
+      ],
+      "residual": 1162840,
+      "error_coefficients": {
+       "AS": 0,
+       "AI": 0,
+       "BS": 3.55,
+       "BI": 0,
+       "CS": 0,
+       "CI": 0,
+       "DS": 6.66,
+       "DI": 0
+      }
+     }
+    },
+    {
+     "actions": [
+      {
+       "target": "DS",
+       "tier": 1,
+       "start": 0,
+       "finish": 1,
+       "ready": 1
+      },
+      {
+       "target": "BI",
+       "tier": 1,
+       "start": 1,
+       "finish": 2,
+       "ready": 3
+      },
+      {
+       "target": "BS",
+       "tier": 1,
+       "start": 3,
+       "finish": 5,
+       "ready": 5
+      }
+     ],
+     "slots": [
+      {
+       "slot": 0,
+       "occupied": [
+        "DS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       },
+       "ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 1,
+       "occupied": [
+        "BI"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 2,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 3,
+       "occupied": [
+        "BS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 1,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 1,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 4,
+       "occupied": [
+        "BS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 1,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 1,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 5,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 1,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 1,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      }
+     ],
+     "final_tiers": {
+      "AS": 0,
+      "AI": 0,
+      "BS": 1,
+      "BI": 1,
+      "CS": 0,
+      "CI": 0,
+      "DS": 1,
+      "DI": 0
+     },
+     "credits": 14,
+     "power": 8,
+     "active_regions": [
+      "Birch",
+      "Delta"
+     ],
+     "peak_crews": 1,
+     "start_vector": [
+      7,
+      7,
+      7,
+      7,
+      3,
+      7,
+      1,
+      7,
+      7,
+      7,
+      7,
+      7,
+      0,
+      7,
+      7,
+      7
+     ],
+     "case": {
+      "id": "write-burst",
+      "baseline": 1520800,
+      "net": 171650,
+      "net_bounds": [
+       170289.65,
+       173010.35
+      ],
+      "residual": 1349150,
+      "error_coefficients": {
+       "AS": 0,
+       "AI": 0,
+       "BS": 0.2,
+       "BI": 8.175,
+       "CS": 0,
+       "CI": 0,
+       "DS": 3.35,
+       "DI": 0
+      }
+     }
+    },
+    {
+     "actions": [
+      {
+       "target": "DS",
+       "tier": 1,
+       "start": 0,
+       "finish": 1,
+       "ready": 1
+      },
+      {
+       "target": "AS",
+       "tier": 1,
+       "start": 1,
+       "finish": 2,
+       "ready": 3
+      },
+      {
+       "target": "DS",
+       "tier": 2,
+       "start": 2,
+       "finish": 3,
+       "ready": 4
+      }
+     ],
+     "slots": [
+      {
+       "slot": 0,
+       "occupied": [
+        "DS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       },
+       "ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 1,
+       "occupied": [
+        "AS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 2,
+       "occupied": [
+        "DS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       },
+       "ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 3,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 1,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "ready_tiers": {
+        "AS": 1,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 4,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 1,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 2,
+        "DI": 0
+       },
+       "ready_tiers": {
+        "AS": 1,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 2,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 5,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 1,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 2,
+        "DI": 0
+       },
+       "ready_tiers": {
+        "AS": 1,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 2,
+        "DI": 0
+       }
+      }
+     ],
+     "final_tiers": {
+      "AS": 1,
+      "AI": 0,
+      "BS": 0,
+      "BI": 0,
+      "CS": 0,
+      "CI": 0,
+      "DS": 2,
+      "DI": 0
+     },
+     "credits": 11,
+     "power": 6,
+     "active_regions": [
+      "Alder",
+      "Delta"
+     ],
+     "peak_crews": 1,
+     "start_vector": [
+      1,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      0,
+      2,
+      7,
+      7
+     ],
+     "case": {
+      "id": "regional-shift",
+      "baseline": 1333850,
+      "net": 160695,
+      "net_bounds": [
+       159135.345,
+       162254.655
+      ],
+      "residual": 1173155,
+      "error_coefficients": {
+       "AS": 5.5425,
+       "AI": 0,
+       "BS": 0,
+       "BI": 0,
+       "CS": 0,
+       "CI": 0,
+       "DS": 9.57,
+       "DI": 0
+      }
+     }
+    }
+   ],
+   "worst_case_net": 144260,
+   "total_case_net": 476605,
+   "total_credits": 38,
+   "total_power": 21,
+   "information_value": 23210
+  },
+  "staged": {
+   "coarse_at": 1,
+   "exact_at": 3,
+   "sum_weight": 0.1,
+   "prefix": [
+    {
+     "target": "BS",
+     "tier": 1,
+     "start": 0,
+     "finish": 2,
+     "ready": 2
+    },
+    {
+     "target": "DS",
+     "tier": 1,
+     "start": 0,
+     "finish": 1,
+     "ready": 1
+    }
+   ],
+   "group_prefixes": [
+    {
+     "signal": "shared",
+     "case_ids": [
+      "weekday",
+      "write-burst"
+     ],
+     "actions": [
+      {
+       "target": "BS",
+       "tier": 1,
+       "start": 0,
+       "finish": 2,
+       "ready": 2
+      },
+      {
+       "target": "DS",
+       "tier": 1,
+       "start": 0,
+       "finish": 1,
+       "ready": 1
+      }
+     ]
+    },
+    {
+     "signal": "shift",
+     "case_ids": [
+      "regional-shift"
+     ],
+     "actions": [
+      {
+       "target": "BS",
+       "tier": 1,
+       "start": 0,
+       "finish": 2,
+       "ready": 2
+      },
+      {
+       "target": "DS",
+       "tier": 1,
+       "start": 0,
+       "finish": 1,
+       "ready": 1
+      }
+     ]
+    }
+   ],
+   "branches": [
+    {
+     "actions": [
+      {
+       "target": "BS",
+       "tier": 1,
+       "start": 0,
+       "finish": 2,
+       "ready": 2
+      },
+      {
+       "target": "DS",
+       "tier": 1,
+       "start": 0,
+       "finish": 1,
+       "ready": 1
+      },
+      {
+       "target": "BI",
+       "tier": 1,
+       "start": 3,
+       "finish": 4,
+       "ready": 5
+      }
+     ],
+     "slots": [
+      {
+       "slot": 0,
+       "occupied": [
+        "BS",
+        "DS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       },
+       "ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 1,
+       "occupied": [
+        "BS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 2,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 3,
+       "occupied": [
+        "BI"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 4,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 5,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 1,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 1,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      }
+     ],
+     "final_tiers": {
+      "AS": 0,
+      "AI": 0,
+      "BS": 1,
+      "BI": 1,
+      "CS": 0,
+      "CI": 0,
+      "DS": 1,
+      "DI": 0
+     },
+     "credits": 14,
+     "power": 8,
+     "active_regions": [
+      "Birch",
+      "Delta"
+     ],
+     "peak_crews": 2,
+     "start_vector": [
+      7,
+      7,
+      7,
+      7,
+      0,
+      7,
+      3,
+      7,
+      7,
+      7,
+      7,
+      7,
+      0,
+      7,
+      7,
+      7
+     ],
+     "case": {
+      "id": "weekday",
+      "baseline": 1307100,
+      "net": 157170,
+      "net_bounds": [
+       155977.68,
+       158362.32
+      ],
+      "residual": 1149930,
+      "error_coefficients": {
+       "AS": 0,
+       "AI": 0,
+       "BS": 4.7,
+       "BI": 0.27,
+       "CS": 0,
+       "CI": 0,
+       "DS": 5.35,
+       "DI": 0
+      }
+     }
+    },
+    {
+     "actions": [
+      {
+       "target": "BS",
+       "tier": 1,
+       "start": 0,
+       "finish": 2,
+       "ready": 2
+      },
+      {
+       "target": "DS",
+       "tier": 1,
+       "start": 0,
+       "finish": 1,
+       "ready": 1
+      },
+      {
+       "target": "BI",
+       "tier": 1,
+       "start": 3,
+       "finish": 4,
+       "ready": 5
+      }
+     ],
+     "slots": [
+      {
+       "slot": 0,
+       "occupied": [
+        "BS",
+        "DS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       },
+       "ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 1,
+       "occupied": [
+        "BS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 2,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 3,
+       "occupied": [
+        "BI"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 4,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 5,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 1,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 1,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      }
+     ],
+     "final_tiers": {
+      "AS": 0,
+      "AI": 0,
+      "BS": 1,
+      "BI": 1,
+      "CS": 0,
+      "CI": 0,
+      "DS": 1,
+      "DI": 0
+     },
+     "credits": 14,
+     "power": 8,
+     "active_regions": [
+      "Birch",
+      "Delta"
+     ],
+     "peak_crews": 2,
+     "start_vector": [
+      7,
+      7,
+      7,
+      7,
+      0,
+      7,
+      3,
+      7,
+      7,
+      7,
+      7,
+      7,
+      0,
+      7,
+      7,
+      7
+     ],
+     "case": {
+      "id": "write-burst",
+      "baseline": 1520800,
+      "net": 121050,
+      "net_bounds": [
+       120113.1,
+       121986.9
+      ],
+      "residual": 1399750,
+      "error_coefficients": {
+       "AS": 0,
+       "AI": 0,
+       "BS": 2.05,
+       "BI": 2.7,
+       "CS": 0,
+       "CI": 0,
+       "DS": 3.35,
+       "DI": 0
+      }
+     }
+    },
+    {
+     "actions": [
+      {
+       "target": "BS",
+       "tier": 1,
+       "start": 0,
+       "finish": 2,
+       "ready": 2
+      },
+      {
+       "target": "DS",
+       "tier": 1,
+       "start": 0,
+       "finish": 1,
+       "ready": 1
+      },
+      {
+       "target": "BI",
+       "tier": 1,
+       "start": 3,
+       "finish": 4,
+       "ready": 5
+      }
+     ],
+     "slots": [
+      {
+       "slot": 0,
+       "occupied": [
+        "BS",
+        "DS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       },
+       "ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 1,
+       "occupied": [
+        "BS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 2,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 3,
+       "occupied": [
+        "BI"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 4,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 5,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 1,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 1,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      }
+     ],
+     "final_tiers": {
+      "AS": 0,
+      "AI": 0,
+      "BS": 1,
+      "BI": 1,
+      "CS": 0,
+      "CI": 0,
+      "DS": 1,
+      "DI": 0
+     },
+     "credits": 14,
+     "power": 8,
+     "active_regions": [
+      "Birch",
+      "Delta"
+     ],
+     "peak_crews": 2,
+     "start_vector": [
+      7,
+      7,
+      7,
+      7,
+      0,
+      7,
+      3,
+      7,
+      7,
+      7,
+      7,
+      7,
+      0,
+      7,
+      7,
+      7
+     ],
+     "case": {
+      "id": "regional-shift",
+      "baseline": 1333850,
+      "net": 171690,
+      "net_bounds": [
+       170352.96,
+       173027.04
+      ],
+      "residual": 1162160,
+      "error_coefficients": {
+       "AS": 0,
+       "AI": 0,
+       "BS": 3.2,
+       "BI": 0.99,
+       "CS": 0,
+       "CI": 0,
+       "DS": 8.35,
+       "DI": 0
+      }
+     }
+    }
+   ],
+   "policy_value": 166041,
+   "worst_case_net": 121050,
+   "total_case_net": 449910,
+   "total_credits": 42,
+   "total_power": 24
+  }
+ },
+ "warnings": []
+}

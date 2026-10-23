@@ -1,0 +1,8 @@
+test_each_gate (test_grading.ScoringTests.test_each_gate) ... ok
+test_full_and_empty (test_grading.ScoringTests.test_full_and_empty) ... ok
+test_partial_weighting (test_grading.ScoringTests.test_partial_weighting) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK

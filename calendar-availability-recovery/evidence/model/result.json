@@ -1,0 +1,157 @@
+{
+    "id": "097852a2-c312-434d-b0c7-e054d4580764",
+    "task_name": "collinear-candidate/calendar-availability-recovery",
+    "trial_name": "calendar-availability-recovery__r9k8dtr",
+    "trial_uri": "file:///Users/anikeshparashar/Projects/difficult-bench/jobs/calendar-opus-01/calendar-availability-recovery__r9k8dtr",
+    "task_id": {
+        "path": "harbor-iterations/calendar-availability-recovery"
+    },
+    "source": null,
+    "task_checksum": "d43fe7b5e71384d7b1190b5435574341f165d099eee72fff120983df558561d2",
+    "config": {
+        "task": {
+            "path": "harbor-iterations/calendar-availability-recovery",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "calendar-availability-recovery__r9k8dtr",
+        "trials_dir": "jobs/calendar-opus-01",
+        "install_only": false,
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": 5.0,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "prototype_harness:PrototypeCopilot",
+            "import_path": null,
+            "model_name": "claude-opus-5.5",
+            "n_concurrent": null,
+            "concurrency_group": null,
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "resume_trajectory": false,
+            "load_trajectory": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {
+                "reasoning_effort": "high",
+                "version": "1.0.102"
+            },
+            "mcp_servers": []
+        },
+        "user_agent": null,
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "stream": false,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "extra_instructions": [],
+        "job_id": "d4fe9796-0e40-4962-a515-49b63b947a1a",
+        "source_trial": null
+    },
+    "agent_info": {
+        "name": "copilot-cli",
+        "version": "1.0.102",
+        "model_info": {
+            "name": "claude-opus-5.5",
+            "provider": null
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": 0,
+        "cost_usd": null,
+        "model_usage": null,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "input_integrity": 1.0,
+            "delivered": 1.0,
+            "adjacent_and_clipped": 1.0,
+            "spring_gap_count": 1.0,
+            "autumn_first_fold": 1.0,
+            "half_hour_gap": 1.0,
+            "all_day_spring": 1.0,
+            "all_day_fall": 1.0,
+            "nominal_day": 1.0,
+            "elapsed_day": 1.0,
+            "mixed_duration": 1.0,
+            "dtend_elapsed_recurrence": 1.0,
+            "rdate_exdate_original_set": 1.0,
+            "sequence_precedes_timestamp": 1.0,
+            "same_sequence_timestamp": 1.0,
+            "cancelled_master_blocks_detached": 1.0,
+            "cancel_one_instance": 1.0,
+            "moved_into_window": 1.0,
+            "moved_out_of_window": 1.0,
+            "range_wall_shift_across_dst": 1.0,
+            "range_displacements_do_not_compound": 1.0,
+            "single_override_inherits_range_duration": 1.0,
+            "transparent_master_opaque_override": 1.0,
+            "range_transparency_inheritance": 1.0,
+            "default_all_day_duration": 1.0,
+            "floating_uses_calendar_zone": 1.0,
+            "weekly_count": 1.0,
+            "weekly_until": 1.0,
+            "all_day_until_inclusive": 1.0,
+            "rdate_in_utc": 1.0,
+            "unfold_and_quoted_tzid": 1.0,
+            "component_sequence_independent": 1.0,
+            "excluded_identity_not_revived": 1.0,
+            "orphan_detached": 1.0,
+            "calendar_namespaces": 1.0,
+            "overall": 1.0
+        }
+    },
+    "verifier_environment_mode": "shared",
+    "exception_info": null,
+    "started_at": "2026-10-23T17:24:27.609790Z",
+    "finished_at": "2026-10-23T17:36:38.938140Z",
+    "environment_setup": {
+        "started_at": "2026-10-23T17:24:27.662383Z",
+        "finished_at": "2026-10-23T17:24:30.215709Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-10-23T17:24:30.215997Z",
+        "finished_at": "2026-10-23T17:24:57.613753Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-10-23T17:24:57.614387Z",
+        "finished_at": "2026-10-23T17:36:28.929858Z"
+    },
+    "verifier": {
+        "started_at": "2026-10-23T17:36:30.840800Z",
+        "finished_at": "2026-10-23T17:36:36.589838Z"
+    },
+    "step_results": null
+}

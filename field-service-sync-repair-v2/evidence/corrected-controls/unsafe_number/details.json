@@ -1,0 +1,111 @@
+{
+  "test_artifacts_protected_inputs": {
+    "passed": true
+  },
+  "test_artifacts_report_and_regressions": {
+    "passed": true
+  },
+  "test_batches_client_base_prediction_and_ack": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/test_service.py\", line 549, in test_batches_client_base_prediction_and_ack\n    self.js(\"batch\")\n  File \"/tests/test_service.py\", line 90, in js\n    self.assertEqual(completed.returncode, 0, completed.stdout + completed.stderr)\nAssertionError: 1 != 0 : file:///tmp/tmplge0do7l/app/client/replica.mjs:112\n        put(revisions, intent.id, String(number(base) + 1n));\n                                                      ^\n\nTypeError: Cannot mix BigInt and other types, use explicit conversions\n    at reduce (file:///tmp/tmplge0do7l/app/client/replica.mjs:112:55)\n    at cases.batch (file:///tests/client_checks.mjs:342:15)\n    at file:///tests/client_checks.mjs:455:18\n\nNode.js v22.14.0\n\n"
+  },
+  "test_batches_client_partial_confirmation_restart": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/test_service.py\", line 552, in test_batches_client_partial_confirmation_restart\n    self.js(\"batch-durable\", self.temp.name)\n  File \"/tests/test_service.py\", line 90, in js\n    self.assertEqual(completed.returncode, 0, completed.stdout + completed.stderr)\nAssertionError: 1 != 0 : node:internal/modules/run_main:122\n    triggerUncaughtException(\n    ^\n\nAssertionError [ERR_ASSERTION]: The input did not match the regular expression /lost committed response/. Input:\n\n'TypeError: Cannot mix BigInt and other types, use explicit conversions'\n\n    at async cases.batch-durable (file:///tests/client_checks.mjs:382:3)\n    at async file:///tests/client_checks.mjs:455:1 {\n  generatedMessage: true,\n  code: 'ERR_ASSERTION',\n  actual: TypeError: Cannot mix BigInt and other types, use explicit conversions\n      at reduce (file:///tmp/tmplge0do7l/app/client/replica.mjs:112:55)\n      at sendBatchOnce (file:///tmp/tmplge0do7l/app/client/durable.mjs:36:19)\n      at async waitForActual (node:assert:875:5)\n      at async Function.rejects (node:assert:996:25)\n      at async cases.batch-durable (file:///tests/client_checks.mjs:382:3)\n      at async file:///tests/client_checks.mjs:455:1,\n  expected: /lost committed response/,\n  operator: 'rejects'\n}\n\nNode.js v22.14.0\n\n"
+  },
+  "test_batches_concurrent_duplicate_and_namespace": {
+    "passed": true
+  },
+  "test_batches_conflict_and_fault_rollback": {
+    "passed": true
+  },
+  "test_batches_invalid_and_preserved_by_repair": {
+    "passed": true
+  },
+  "test_batches_precommitted_member_not_atomic": {
+    "passed": true
+  },
+  "test_batches_sequential_same_entity_and_retry": {
+    "passed": true
+  },
+  "test_client_ack_and_pending": {
+    "passed": true
+  },
+  "test_client_checkpoint_and_gap_handling": {
+    "passed": true
+  },
+  "test_client_conflict_resolution_and_frozen_request": {
+    "passed": true
+  },
+  "test_client_generated_delivery_permutations": {
+    "passed": true
+  },
+  "test_client_integer_precision_and_immutability": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/test_service.py\", line 381, in test_client_integer_precision_and_immutability\n    self.js(\"precision\")\n  File \"/tests/test_service.py\", line 90, in js\n    self.assertEqual(completed.returncode, 0, completed.stdout + completed.stderr)\nAssertionError: 1 != 0 : file:///tmp/tmplge0do7l/app/client/replica.mjs:30\n    throw new Error('Conflicting records at equal revision');\n          ^\n\nError: Conflicting records at equal revision\n    at merge (file:///tmp/tmplge0do7l/app/client/replica.mjs:30:11)\n    at receive (file:///tmp/tmplge0do7l/app/client/replica.mjs:41:5)\n    at reduce (file:///tmp/tmplge0do7l/app/client/replica.mjs:177:7)\n    at cases.precision (file:///tests/client_checks.mjs:51:19)\n    at file:///tests/client_checks.mjs:455:18\n\nNode.js v22.14.0\n\n"
+  },
+  "test_client_snapshot_staging_and_interleaving": {
+    "passed": true
+  },
+  "test_client_tombstones_and_optimistic_replay": {
+    "passed": true
+  },
+  "test_confirmations_client_pull_before_ack": {
+    "passed": true
+  },
+  "test_confirmations_client_snapshot_staging": {
+    "passed": true
+  },
+  "test_confirmations_snapshot_history_and_cut": {
+    "passed": true
+  },
+  "test_durability_atomic_replace": {
+    "passed": true
+  },
+  "test_durability_persist_before_exchange": {
+    "passed": true
+  },
+  "test_integration_atomic_batch_http_confirmation": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/test_service.py\", line 556, in test_integration_atomic_batch_http_confirmation\n    self.js(\"batch-http\", self.temp.name, url)\n  File \"/tests/test_service.py\", line 90, in js\n    self.assertEqual(completed.returncode, 0, completed.stdout + completed.stderr)\nAssertionError: 1 != 0 : node:internal/modules/run_main:122\n    triggerUncaughtException(\n    ^\n\nAssertionError [ERR_ASSERTION]: The input did not match the regular expression /lost response/. Input:\n\n'TypeError: Cannot mix BigInt and other types, use explicit conversions'\n\n    at async cases.batch-http (file:///tests/client_checks.mjs:424:3)\n    at async file:///tests/client_checks.mjs:455:1 {\n  generatedMessage: true,\n  code: 'ERR_ASSERTION',\n  actual: TypeError: Cannot mix BigInt and other types, use explicit conversions\n      at reduce (file:///tmp/tmplge0do7l/app/client/replica.mjs:112:55)\n      at sendBatchOnce (file:///tmp/tmplge0do7l/app/client/durable.mjs:36:19)\n      at async waitForActual (node:assert:875:5)\n      at async Function.rejects (node:assert:996:25)\n      at async cases.batch-http (file:///tests/client_checks.mjs:424:3)\n      at async file:///tests/client_checks.mjs:455:1,\n  expected: /lost response/,\n  operator: 'rejects'\n}\n\nNode.js v22.14.0\n\n"
+  },
+  "test_integration_http_restart_lost_response": {
+    "passed": true
+  },
+  "test_recovery_alternate_database_and_idempotence": {
+    "passed": true
+  },
+  "test_recovery_delivered_incident_state": {
+    "passed": true
+  },
+  "test_sync_cursor_scope_and_invalid_values": {
+    "passed": true
+  },
+  "test_sync_large_wire_values": {
+    "passed": true
+  },
+  "test_sync_pull_exclusive_frozen_and_gaps": {
+    "passed": true
+  },
+  "test_sync_snapshot_frozen_history": {
+    "passed": true
+  },
+  "test_transactions_conflicts_do_not_consume_keys": {
+    "passed": true
+  },
+  "test_transactions_generated_reference_replay": {
+    "passed": true
+  },
+  "test_transactions_process_race": {
+    "passed": true
+  },
+  "test_transactions_receipt_identity_and_digest": {
+    "passed": true
+  },
+  "test_transactions_rollback_both_fault_boundaries": {
+    "passed": true
+  },
+  "test_transactions_validation_and_lifecycle": {
+    "passed": true
+  }
+}

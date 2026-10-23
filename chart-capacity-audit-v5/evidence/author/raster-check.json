@@ -1,0 +1,7 @@
+{
+  "histogram_bins": 128,
+  "accepted_observations": 228,
+  "total_observations": 228,
+  "maximum_count_error": 5.879929370217724,
+  "interval_width_fraction_of_allowance": 0.5
+}

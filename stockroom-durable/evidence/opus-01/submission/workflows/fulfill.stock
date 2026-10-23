@@ -1,0 +1,53 @@
+// Bundle dispatch workflow (library: no main procedure, no helper procedures,
+// so drivers appended to this file cannot collide with internal names).
+//
+// fulfill tries BOTH lines from `preferred`, then BOTH from `fallback`, and
+// otherwise emits a single `deferred` event and returns normally.
+//
+// Shortage is decided before reserving, with an exact availability test that
+// accounts for both lines drawing on the same SKU. A shortage therefore never
+// creates a hold, only an attempt that has reserved both lines pauses, and
+// nothing needs to be caught: any non-shortage domain failure (unknown
+// warehouse, bad quantity or name, duplicate hold, ...) propagates with its
+// original code, location and stack instead of being swallowed or masked.
+// Malformed quantities/SKUs skip the test and go straight to the preferred
+// attempt so the atomic operation itself reports the precise error.
+//
+// Each attempt is a single transaction: if anything fails after the first
+// reservation, both holds are rolled back before the error propagates. Only
+// this procedure's own parameters and locals are used, so same-named caller
+// variables are never touched, and it composes with a caller's enclosing
+// transaction (an outer rollback undoes the whole attempt and its event).
+
+proc fulfill(order: string, sku_a: string, qty_a: int,
+             sku_b: string, qty_b: int, preferred: string, fallback: string) {
+    let malformed: bool = qty_a <= 0 || qty_b <= 0
+                          || len(sku_a) == 0 || len(sku_b) == 0;
+    let warehouse: string = preferred;
+    let attempt: int = 1;
+    while (attempt <= 2) {
+        if ((malformed && attempt == 1)
+            || (sku_a == sku_b
+                && available(warehouse, sku_a) >= qty_a + qty_b)
+            || (sku_a != sku_b
+                && available(warehouse, sku_a) >= qty_a
+                && available(warehouse, sku_b) >= qty_b)) {
+            transaction {
+                reserve(order + ".a", warehouse, sku_a, qty_a);
+                reserve(order + ".b", warehouse, sku_b, qty_b);
+                pause order + ":reserved";
+                ship(order + ".a", qty_a);
+                ship(order + ".b", qty_b);
+                emit "fulfilled" {
+                    order: order;
+                    warehouse: warehouse;
+                    units: qty_a + qty_b;
+                };
+            }
+            return;
+        }
+        set warehouse = fallback;
+        set attempt = attempt + 1;
+    }
+    emit "deferred" { order: order; reason: "SHORTAGE"; };
+}

@@ -1,0 +1,4 @@
+{"step":1,"incident":"all events pruned at maintenance boundary","observed":"snapshot became empty even though live work orders and deletion tombstones remained"}
+{"step":2,"incident":"offline closeout committed before pruning","observed":"batch receipt survived but catch-up lacked its confirmations; optimistic visits appeared twice"}
+{"step":3,"incident":"pull continuation crossed maintenance","observed":"an already-consumed prefix was below the new floor, but the next scan position was still retained","expected":"resume the serviceable continuation without changing its frozen until"}
+{"step":4,"incident":"recovery during partial bootstrap","observed":"client reset its durable outbox and generated a shorter retry batch","expected":"retain full original wire and unrelated local edits until historical confirmations and delayed receipt reconcile"}

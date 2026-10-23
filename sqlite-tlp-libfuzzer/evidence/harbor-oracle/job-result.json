@@ -1,0 +1,63 @@
+{
+    "id": "364585e6-5f9c-441a-a86b-8767f9e9a02b",
+    "started_at": "2026-10-22T12:15:35.699320",
+    "updated_at": "2026-10-22T12:16:23.696594",
+    "finished_at": "2026-10-22T12:16:23.696594",
+    "n_total_trials": 1,
+    "stats": {
+        "n_completed_trials": 1,
+        "n_errored_trials": 0,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "oracle__adhoc": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "diversity": 1.0,
+                        "input_validity_rate": 1.0,
+                        "oracle_correctness": 1.0,
+                        "overall": 1.0,
+                        "semantic_validity_rate": 1.0
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "overall": {
+                        "1.0": [
+                            "sqlite-tlp-libfuzzer__b9LCxxi"
+                        ]
+                    },
+                    "input_validity_rate": {
+                        "1.0": [
+                            "sqlite-tlp-libfuzzer__b9LCxxi"
+                        ]
+                    },
+                    "semantic_validity_rate": {
+                        "1.0": [
+                            "sqlite-tlp-libfuzzer__b9LCxxi"
+                        ]
+                    },
+                    "oracle_correctness": {
+                        "1.0": [
+                            "sqlite-tlp-libfuzzer__b9LCxxi"
+                        ]
+                    },
+                    "diversity": {
+                        "1.0": [
+                            "sqlite-tlp-libfuzzer__b9LCxxi"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        },
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null
+    }
+}

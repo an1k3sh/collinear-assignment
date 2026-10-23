@@ -1,0 +1,122 @@
+{
+    "id": "c29ed019-00e1-49e9-b23a-28a257afd276",
+    "task_name": "collinear-candidate/chart-capacity-audit-v5",
+    "trial_name": "chart-capacity-audit-v5__k9LhA6J",
+    "trial_uri": "file:///Users/anikeshparashar/Projects/difficult-bench/jobs/chart-capacity-v5-oracle-01/chart-capacity-audit-v5__k9LhA6J",
+    "task_id": {
+        "path": "collinear-candidate/chart-capacity-audit-v5"
+    },
+    "source": null,
+    "task_checksum": "5c9e4ca07bd1c2136951bd9c11225a3da33b6a99c891ca4755b9fd9c595795ca",
+    "config": {
+        "task": {
+            "path": "collinear-candidate/chart-capacity-audit-v5",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "chart-capacity-audit-v5__k9LhA6J",
+        "trials_dir": "jobs/chart-capacity-v5-oracle-01",
+        "install_only": false,
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "oracle",
+            "import_path": null,
+            "model_name": null,
+            "n_concurrent": null,
+            "concurrency_group": null,
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "resume_trajectory": false,
+            "load_trajectory": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {},
+            "mcp_servers": []
+        },
+        "user_agent": null,
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "stream": false,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "extra_instructions": [],
+        "job_id": "fb3abb9c-0023-4683-a18c-ab1cfd1ab8b6",
+        "source_trial": null
+    },
+    "agent_info": {
+        "name": "oracle",
+        "version": "1.0.0",
+        "model_info": null
+    },
+    "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "model_usage": null,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "overall": 1.0,
+            "extraction": 1.0,
+            "reconciliation": 1.0,
+            "calculations": 1.0,
+            "planning": 1.0,
+            "claims": 1.0,
+            "reproducibility": 1.0
+        }
+    },
+    "verifier_environment_mode": "shared",
+    "exception_info": null,
+    "started_at": "2026-10-22T12:22:13.997568Z",
+    "finished_at": "2026-10-22T12:23:05.645629Z",
+    "environment_setup": {
+        "started_at": "2026-10-22T12:22:14.129481Z",
+        "finished_at": "2026-10-22T12:22:39.248460Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-10-22T12:22:39.250948Z",
+        "finished_at": "2026-10-22T12:22:39.251413Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-10-22T12:22:39.254339Z",
+        "finished_at": "2026-10-22T12:22:39.861484Z"
+    },
+    "verifier": {
+        "started_at": "2026-10-22T12:22:41.830498Z",
+        "finished_at": "2026-10-22T12:23:03.669843Z"
+    },
+    "step_results": null
+}

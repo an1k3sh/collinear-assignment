@@ -1,0 +1,112 @@
+{
+  "deliveries": {},
+  "events": [
+    {
+      "data": {
+        "attempts": 0,
+        "reason": "ASSERT"
+      },
+      "id": 1,
+      "name": "rehearsal_reverted"
+    },
+    {
+      "data": {
+        "order": "alpha",
+        "units": 12,
+        "warehouse": "west"
+      },
+      "id": 2,
+      "name": "fulfilled"
+    },
+    {
+      "data": {
+        "order": "beta",
+        "units": 8,
+        "warehouse": "east"
+      },
+      "id": 3,
+      "name": "fulfilled"
+    },
+    {
+      "data": {
+        "order": "gamma",
+        "reason": "SHORTAGE"
+      },
+      "id": 4,
+      "name": "deferred"
+    },
+    {
+      "data": {
+        "order": "delta",
+        "units": 6,
+        "warehouse": "east"
+      },
+      "id": 5,
+      "name": "fulfilled"
+    },
+    {
+      "data": {
+        "east_gear": 3,
+        "west_gear": 3
+      },
+      "id": 6,
+      "name": "closing"
+    }
+  ],
+  "holds": {
+    "alpha.a": {
+      "remaining": 0,
+      "sku": "gear",
+      "warehouse": "west"
+    },
+    "alpha.b": {
+      "remaining": 0,
+      "sku": "seal",
+      "warehouse": "west"
+    },
+    "beta.a": {
+      "remaining": 0,
+      "sku": "gear",
+      "warehouse": "east"
+    },
+    "beta.b": {
+      "remaining": 0,
+      "sku": "seal",
+      "warehouse": "east"
+    },
+    "delta.a": {
+      "remaining": 0,
+      "sku": "gear",
+      "warehouse": "east"
+    },
+    "delta.b": {
+      "remaining": 0,
+      "sku": "seal",
+      "warehouse": "east"
+    },
+    "safety": {
+      "remaining": 0,
+      "sku": "gear",
+      "warehouse": "east"
+    }
+  },
+  "stats": {
+    "committed": 4,
+    "rolled_back": 5,
+    "steps": 71
+  },
+  "warehouses": {
+    "east": {
+      "gear": 3,
+      "seal": 0
+    },
+    "overflow": {
+      "gear": 0,
+      "seal": 0
+    },
+    "west": {
+      "gear": 3,
+      "seal": 6
+    }
+  }
+}

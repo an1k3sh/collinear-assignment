@@ -1,0 +1,52 @@
+proc apply_dispatch(order:string, sku_a:string, qty_a:int,
+                    sku_b:string, qty_b:int, warehouse:string) {
+    reserve(order + ".a",warehouse,sku_a,qty_a);
+    reserve(order + ".b",warehouse,sku_b,qty_b);
+    pause order + ":reserved";
+    let receipt:string=carrier_receipt(order);
+    if (len(receipt)==0) {
+        set receipt=carrier_send(order,warehouse,sku_a,qty_a,sku_b,qty_b);
+    }
+    assert carrier_matches(order,warehouse,sku_a,qty_a,sku_b,qty_b);
+    ship(order + ".a",qty_a);
+    ship(order + ".b",qty_b);
+    record_delivery(order,receipt);
+    emit "fulfilled" {order:order; warehouse:warehouse; units:qty_a+qty_b; receipt:receipt;};
+    pause order + ":posted";
+}
+
+proc dispatch_order(order:string, sku_a:string, qty_a:int,
+                    sku_b:string, qty_b:int, preferred:string, fallback:string) {
+    if (delivered(order)) {return;}
+    let chosen:string=preferred;
+    let known:bool=len(carrier_receipt(order))>0;
+    if (known) {
+        set chosen=carrier_warehouse(order);
+        assert carrier_matches(order,chosen,sku_a,qty_a,sku_b,qty_b);
+    } else {
+        let need_a:int=qty_a;
+        if (sku_a==sku_b) {set need_a=qty_a+qty_b;}
+        if (available(chosen,sku_a)<need_a || available(chosen,sku_b)<qty_b) {
+            set chosen=fallback;
+        }
+        if (available(chosen,sku_a)<need_a || available(chosen,sku_b)<qty_b) {
+            emit "deferred" {order:order; reason:"SHORTAGE";};
+            return;
+        }
+    }
+    let attempt:int=0;
+    while (attempt<2) {
+        set attempt=attempt+1;
+        transaction {
+            apply_dispatch(order,sku_a,qty_a,sku_b,qty_b,chosen);
+            return;
+        } recover(e) {
+            if (code(e)=="CARRIER_REJECTED") {
+                emit "rejected" {order:order; reason:"CARRIER_REJECTED";};
+                return;
+            }
+            assert code(e)=="CARRIER_TIMEOUT";
+        }
+    }
+    assert false;
+}

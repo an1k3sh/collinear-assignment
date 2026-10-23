@@ -1,0 +1,20 @@
+[
+  {"id":"r3/rate-import","mutations":[
+    {"table":"rates","id":"r-a","row":{"id":"r-a","segment":"retail","band":"standard"}},
+    {"table":"rates","id":"r-b","row":{"id":"r-b","segment":"retail","band":"standard"}},
+    {"table":"rates","id":"r-c","row":{"id":"r-c","segment":"trade","band":null}},
+    {"table":"rates","id":"r-null","row":{"id":"r-null","segment":null,"band":"must-not-join"}}
+  ]},
+  {"id":"r3/same-transaction-rekey","mutations":[
+    {"table":"orders","id":"o-100","row":{"id":"o-100","account":"001","day":null,"cents":-1200}},
+    {"table":"tags","id":"t-a","row":{"id":"t-a","account":"1","segment":"retail"}},
+    {"table":"tags","id":"t-b","row":{"id":"t-b","account":"001","segment":"trade"}},
+    {"table":"rates","id":"r-c","row":{"id":"r-c","segment":"retail","band":"priority"}},
+    {"table":"rates","id":"r-a","row":null}
+  ]},
+  {"id":"r3/delete-last-rate","mutations":[
+    {"table":"rates","id":"r-b","row":null},
+    {"table":"rates","id":"r-c","row":null}
+  ]}
+]
+

@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "financial_witness_assertions": 17,
+  "treasury_and_scenario_checks": "passed",
+  "cutover_opening_cash": 29670,
+  "cutover_opening_revolver": 31500,
+  "january_interest": 262.5,
+  "january_net_income": 18710.625
+}

@@ -1,0 +1,53 @@
+{
+  "scores": {
+    "content_fidelity": 2,
+    "editable_structure": 4,
+    "visual_organization": 4,
+    "navigation_furniture": 4
+  },
+  "evidence": {
+    "content_fidelity": [
+      "Schedule B, page 5, Eastbank Depot row, Critical: attend column: reference specifies 60 min; candidate specifies 120 min. The extracted native table and both original and edited renders confirm this material change.",
+      "Schedule A preserves all financial entries and associations: monitoring 12 \u00d7 2,400.00 = 28,800.00; calibration 6 \u00d7 750.00 = 4,500.00; mobilisation 3 \u00d7 1,800.00 = 5,400.00; transition credit (900.00); net 37,800.00; VAT 7,560.00; total 45,360.00. The invoice example also matches, including payable 3,108.00.",
+      "The GBP 145.00 call-out, included 45 minutes, GBP 22.50 per completed 15-minute block, 59-minute footnote condition and 30-calendar-day payment obligation are preserved.",
+      "Other site windows, acknowledgement and routine attendance targets, and all four dated exception rows match. Clauses 1\u20138, evidence requirements, acceptance conditions and change-authorisation obligations are preserved."
+    ],
+    "editable_structure": [
+      "The extraction identifies native body paragraphs, Heading1/Heading2 styles with outline levels, and automatic decimal numbering for clauses 1\u20138.",
+      "Tables retain real rows and cells, repeating header rows and the Schedule A vertical merges. The billing note remains a real footnote linked from the charge-rules paragraph.",
+      "Edited page 2 shows the Access readiness addition reflowing normally; edited page 4 shows the calibration description expanding its native table row without lost content, clipping or overlap, matching the reference.",
+      "The two figure artworks are drawings, while their headings and captions remain editable paragraphs."
+    ],
+    "visual_organization": [
+      "All eight original pairs preserve the reference hierarchy, typography, table banding, spacing and pagination without observable layout defects.",
+      "Page 3 retains the two-column responsibilities layout; page 5 retains the landscape service tables; other pages retain portrait orientation.",
+      "Page 6 preserves the handover diagram and outcome-chart proportions and placement. The inspected edit probes retain readable layouts matching the reference."
+    ],
+    "navigation_furniture": [
+      "The procurement header, document identifier, issue date and automatic PAGE footer fields are retained throughout.",
+      "The page-1 navigation references correctly locate sections on pages 2\u20138. Clause references, appendix headings, figure labels and captions match.",
+      "The billing footnote remains on page 4 beneath its separator, including after the table edit."
+    ]
+  },
+  "material_defects": [
+    {
+      "location": "Schedule B, page 5, service-target table, Eastbank Depot row / Critical: attend column",
+      "reference": "60 min",
+      "candidate": "120 min",
+      "impact": "Doubles the permitted critical attendance time for Eastbank Depot, materially weakening the site-specific response obligation."
+    }
+  ],
+  "inspected_images": [
+    "original-01.png",
+    "original-02.png",
+    "original-03.png",
+    "original-04.png",
+    "original-05.png",
+    "original-06.png",
+    "original-07.png",
+    "original-08.png",
+    "edited-02.png",
+    "edited-04.png",
+    "edited-05.png"
+  ]
+}

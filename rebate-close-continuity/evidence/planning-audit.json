@@ -1,0 +1,51 @@
+{
+  "controls": [
+    {
+      "name": "DP-agrees-with-independent-MILP-turn-4",
+      "observed": "accept",
+      "objective": [
+        338459,
+        52128,
+        0,
+        -187,
+        -12
+      ]
+    },
+    {
+      "name": "DP-agrees-with-independent-MILP-turn-5",
+      "observed": "accept",
+      "objective": [
+        35437,
+        65275,
+        21409,
+        -163,
+        -10
+      ]
+    },
+    {
+      "name": "feasible-empty-but-suboptimal",
+      "observed": "reject",
+      "reason": "Feasible but suboptimal batch: got (0, 0, 0, 0, 0), optimum (35437, 65275, 21409, -163, -10)"
+    },
+    {
+      "name": "feasible-greedy-not-lexicographic-optimum",
+      "observed": "reject",
+      "reason": "Feasible but suboptimal batch: got (294278, 119776, 0, -186, -13), optimum (338459, 52128, 0, -187, -12)"
+    },
+    {
+      "name": "resubmit-paid-claim",
+      "observed": "reject",
+      "reason": "Plan selects PAID/BLOCKED claim"
+    },
+    {
+      "name": "resurrect-void-receipt",
+      "observed": "reject",
+      "reason": "Capacity ('Aster', '2026-Q1')/paid_cents: expected 62000, got 69000"
+    },
+    {
+      "name": "ignore-supplier-setup-review",
+      "observed": "reject",
+      "reason": "Review capacity exceeded (including supplier setup)"
+    }
+  ]
+}

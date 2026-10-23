@@ -1,0 +1,11 @@
+test_all_admissible_reading_errors_preserve_winner (test_grader.GraderTests.test_all_admissible_reading_errors_preserve_winner) ... ok
+test_counterfactual_boundaries (test_grader.GraderTests.test_counterfactual_boundaries) ... ok
+test_hand_calculated_totals (test_grader.GraderTests.test_hand_calculated_totals) ... ok
+test_scoring (test_grader.GraderTests.test_scoring) ... ok
+test_source_evidence_and_causality (test_grader.GraderTests.test_source_evidence_and_causality) ... ok
+test_unknown_and_maintenance_are_not_normal (test_grader.GraderTests.test_unknown_and_maintenance_are_not_normal) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.012s
+
+OK

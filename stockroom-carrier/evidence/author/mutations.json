@@ -1,0 +1,47 @@
+[
+  {
+    "name": "local-ledger-not-rolled-back",
+    "rejected": true,
+    "detail": "Traceback (most recent call last):\n  File \"/author/carrier_controls.py\", line 63, in <module>\n    check()\n  File \"/tests/carrier_checks.py\", line 166, in local_ledger\n    result, labels = f.finish('proc main(){' + SEND + '''\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tests/carrier_checks.py\", line 73, in finish\n    status(process, 0)\n  File \"/tests/durable_checks.py\", line 67, in status\n    equal(process.returncode, expected, f\"return code; stderr={process.stderr}\")\n  File \"/tests/test_semantics.py\", line 27, in equal\n    raise AssertionError(f\"{label}: expected {expected!r}, got {actual!r}\")\nAssertionError: return code; stderr={\"error\": \"DOMAIN\", \"message\": \"Local delivery already recorded\", \"file\": \"/tmp/stockroom-carrier-o2oygccn/run.stock\", \"line\": 7, \"column\": 29, \"code\": \"ALREADY_POSTED\", \"stack\": [\"main\"]}\n: expected 0, got 4\n"
+  },
+  {
+    "name": "carrier-acceptance-erased-on-rollback",
+    "rejected": true,
+    "detail": "Traceback (most recent call last):\n  File \"/author/carrier_controls.py\", line 63, in <module>\n    check()\n  File \"/author/carrier_controls.py\", line 26, in <lambda>\n    lambda:checks.timeout_witness(\"accept_then_timeout_once\")),\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tests/carrier_checks.py\", line 115, in timeout_witness\n    events(result, [event(\"caught\", reason=code), event(\"observed\", found=accepted)])\n  File \"/tests/carrier_checks.py\", line 104, in events\n    equal(result[\"events\"], [dict(value, id=i) for i, value in enumerate(expected, 1)], \"events\")\n  File \"/tests/test_semantics.py\", line 27, in equal\n    raise AssertionError(f\"{label}: expected {expected!r}, got {actual!r}\")\nAssertionError: events: expected [{'name': 'caught', 'data': {'reason': 'CARRIER_TIMEOUT'}, 'id': 1}, {'name': 'observed', 'data': {'found': True}, 'id': 2}], got [{'data': {'reason': 'CARRIER_TIMEOUT'}, 'id': 1, 'name': 'caught'}, {'data': {'found': False}, 'id': 2, 'name': 'observed'}]\n"
+  },
+  {
+    "name": "mutable-database-hash-as-identity",
+    "rejected": true,
+    "detail": "Traceback (most recent call last):\n  File \"/author/carrier_controls.py\", line 63, in <module>\n    check()\n  File \"/author/carrier_controls.py\", line 30, in <lambda>\n    lambda:checks.service_identity(False)),\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tests/carrier_checks.py\", line 233, in service_identity\n    f.checkpoint()\n  File \"/tests/carrier_checks.py\", line 62, in checkpoint\n    equal(obj[\"identity\"], dict(program=digest(self.program.read_bytes()),\n  File \"/tests/test_semantics.py\", line 27, in equal\n    raise AssertionError(f\"{label}: expected {expected!r}, got {actual!r}\")\nAssertionError: carrier checkpoint identity: expected {'program': 'aed70a0a6adfd25c787dfb09ad41257e968002adfa58240a573cf02ed4212ca6', 'inventory': '425b14ecb125ecd55b5ef2f00b1581f34a29a3d77864d6d7ffde46a56e05518f', 'library': None, 'carrier': 'fixture-history'}, got {'carrier': '55e0227530760b6e2f584f1903629231eaf16d8dc96420d58e4e758b0eb746f4', 'inventory': '425b14ecb125ecd55b5ef2f00b1581f34a29a3d77864d6d7ffde46a56e05518f', 'library': None, 'program': 'aed70a0a6adfd25c787dfb09ad41257e968002adfa58240a573cf02ed4212ca6'}\n"
+  },
+  {
+    "name": "new-key-instead-of-reconciliation",
+    "rejected": true,
+    "detail": "Traceback (most recent call last):\n  File \"/author/carrier_controls.py\", line 63, in <module>\n    check()\n  File \"/tests/carrier_checks.py\", line 268, in stale_replay\n    first, labels = f.finish(resume=True)\n                    ^^^^^^^^^^^^^^^^^^^^^\n  File \"/tests/carrier_checks.py\", line 73, in finish\n    status(process, 0)\n  File \"/tests/durable_checks.py\", line 67, in status\n    equal(process.returncode, expected, f\"return code; stderr={process.stderr}\")\n  File \"/tests/test_semantics.py\", line 27, in equal\n    raise AssertionError(f\"{label}: expected {expected!r}, got {actual!r}\")\nAssertionError: return code; stderr={\"error\": \"DOMAIN\", \"message\": \"Assertion failed\", \"file\": \"/app/workflows/dispatch.stock\", \"line\": 48, \"column\": 13, \"code\": \"ASSERT\", \"stack\": [\"main\", \"dispatch_order\"]}\n: expected 0, got 4\n"
+  },
+  {
+    "name": "current-preference-over-accepted-warehouse",
+    "rejected": true,
+    "detail": "Traceback (most recent call last):\n  File \"/author/carrier_controls.py\", line 63, in <module>\n    check()\n  File \"/tests/carrier_checks.py\", line 431, in enclosing_rollback\n    result, labels = f.finish(source)\n                     ^^^^^^^^^^^^^^^^\n  File \"/tests/carrier_checks.py\", line 73, in finish\n    status(process, 0)\n  File \"/tests/durable_checks.py\", line 67, in status\n    equal(process.returncode, expected, f\"return code; stderr={process.stderr}\")\n  File \"/tests/test_semantics.py\", line 27, in equal\n    raise AssertionError(f\"{label}: expected {expected!r}, got {actual!r}\")\nAssertionError: return code; stderr={\"error\": \"DOMAIN\", \"message\": \"Assertion failed\", \"file\": \"/app/workflows/dispatch.stock\", \"line\": 25, \"column\": 9, \"code\": \"ASSERT\", \"stack\": [\"main\", \"dispatch_order\"]}\n: expected 0, got 4\n"
+  },
+  {
+    "name": "timeout-misclassified-as-rejection",
+    "rejected": true,
+    "detail": "Traceback (most recent call last):\n  File \"/author/carrier_controls.py\", line 63, in <module>\n    check()\n  File \"/author/carrier_controls.py\", line 41, in <lambda>\n    lambda:checks.workflow_batch(0)),\n           ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tests/carrier_checks.py\", line 398, in workflow_batch\n    equal(result[\"warehouses\"], expected_stock, \"generated inventory\")\n  File \"/tests/test_semantics.py\", line 27, in equal\n    raise AssertionError(f\"{label}: expected {expected!r}, got {actual!r}\")\nAssertionError: generated inventory: expected {'east': {'gear': 7, 'seal': 10, 'bolt': 8}, 'west': {'gear': 7, 'seal': 2, 'bolt': 6}}, got {'east': {'bolt': 12, 'gear': 12, 'seal': 19}, 'west': {'bolt': 6, 'gear': 13, 'seal': 8}}\n"
+  },
+  {
+    "name": "delivery-noop-guard-removed",
+    "rejected": true,
+    "detail": "Traceback (most recent call last):\n  File \"/author/carrier_controls.py\", line 63, in <module>\n    check()\n  File \"/author/carrier_controls.py\", line 44, in <lambda>\n    lambda:checks.workflow_batch(0)),\n           ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tests/carrier_checks.py\", line 397, in workflow_batch\n    result, labels = f.finish(source)\n                     ^^^^^^^^^^^^^^^^\n  File \"/tests/carrier_checks.py\", line 73, in finish\n    status(process, 0)\n  File \"/tests/durable_checks.py\", line 67, in status\n    equal(process.returncode, expected, f\"return code; stderr={process.stderr}\")\n  File \"/tests/test_semantics.py\", line 27, in equal\n    raise AssertionError(f\"{label}: expected {expected!r}, got {actual!r}\")\nAssertionError: return code; stderr={\"error\": \"DOMAIN\", \"message\": \"Assertion failed\", \"file\": \"/app/workflows/dispatch.stock\", \"line\": 48, \"column\": 13, \"code\": \"ASSERT\", \"stack\": [\"main\", \"dispatch_order\"]}\n: expected 0, got 4\n"
+  },
+  {
+    "name": "same-sku-demand-not-aggregated",
+    "rejected": true,
+    "detail": "Traceback (most recent call last):\n  File \"/author/carrier_controls.py\", line 63, in <module>\n    check()\n  File \"/tests/carrier_checks.py\", line 329, in same_sku_routing\n    result, labels = f.finish('proc main(){'+call(\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tests/carrier_checks.py\", line 73, in finish\n    status(process, 0)\n  File \"/tests/durable_checks.py\", line 67, in status\n    equal(process.returncode, expected, f\"return code; stderr={process.stderr}\")\n  File \"/tests/test_semantics.py\", line 27, in equal\n    raise AssertionError(f\"{label}: expected {expected!r}, got {actual!r}\")\nAssertionError: return code; stderr={\"error\": \"DOMAIN\", \"message\": \"Assertion failed\", \"file\": \"/app/workflows/dispatch.stock\", \"line\": 48, \"column\": 13, \"code\": \"ASSERT\", \"stack\": [\"main\", \"dispatch_order\"]}\n: expected 0, got 4\n"
+  },
+  {
+    "name": "missing-posted-boundary",
+    "rejected": true,
+    "detail": "Traceback (most recent call last):\n  File \"/author/carrier_controls.py\", line 63, in <module>\n    check()\n  File \"/tests/carrier_checks.py\", line 323, in existing_holds\n    equal(labels, [\"x:reserved\",\"x:posted\"], \"normal operational boundaries\")\n  File \"/tests/test_semantics.py\", line 27, in equal\n    raise AssertionError(f\"{label}: expected {expected!r}, got {actual!r}\")\nAssertionError: normal operational boundaries: expected ['x:reserved', 'x:posted'], got ['x:reserved']\n"
+  }
+]

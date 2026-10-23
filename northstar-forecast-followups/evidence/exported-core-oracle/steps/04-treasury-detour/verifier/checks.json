@@ -1,0 +1,28 @@
+{
+  "counts": {
+    "artifact_quality": {
+      "passed": 250,
+      "failed": 0
+    },
+    "constraint_satisfaction": {
+      "passed": 31266,
+      "failed": 0
+    },
+    "functional_correctness": {
+      "passed": 2570,
+      "failed": 0
+    },
+    "robustness": {
+      "passed": 12340,
+      "failed": 0
+    }
+  },
+  "failures": [],
+  "reward": {
+    "overall": 1.0,
+    "functional_correctness": 1.0,
+    "constraint_satisfaction": 1.0,
+    "robustness": 1.0,
+    "artifact_quality": 1.0
+  }
+}

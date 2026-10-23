@@ -1,0 +1,346 @@
+{
+ "assignments": [
+  {
+   "sku": "SKU-574599",
+   "slot": "S21"
+  },
+  {
+   "sku": "SKU-989572",
+   "slot": "S78"
+  },
+  {
+   "sku": "SKU-445877",
+   "slot": "S25"
+  },
+  {
+   "sku": "SKU-766079",
+   "slot": "S34"
+  },
+  {
+   "sku": "SKU-842970",
+   "slot": "S49"
+  },
+  {
+   "sku": "SKU-547694",
+   "slot": "S71"
+  },
+  {
+   "sku": "SKU-470723",
+   "slot": "S03"
+  },
+  {
+   "sku": "SKU-405727",
+   "slot": "S73"
+  },
+  {
+   "sku": "SKU-948506",
+   "slot": "S23"
+  },
+  {
+   "sku": "SKU-981648",
+   "slot": "S72"
+  },
+  {
+   "sku": "SKU-523909",
+   "slot": "S01"
+  },
+  {
+   "sku": "SKU-405612",
+   "slot": "S12"
+  },
+  {
+   "sku": "SKU-430219",
+   "slot": "S04"
+  },
+  {
+   "sku": "SKU-712837",
+   "slot": "S13"
+  },
+  {
+   "sku": "SKU-118287",
+   "slot": "S00"
+  },
+  {
+   "sku": "SKU-303295",
+   "slot": "S11"
+  },
+  {
+   "sku": "SKU-447920",
+   "slot": "S02"
+  },
+  {
+   "sku": "SKU-180527",
+   "slot": "S14"
+  },
+  {
+   "sku": "SKU-801350",
+   "slot": "S20"
+  },
+  {
+   "sku": "SKU-569253",
+   "slot": "S10"
+  },
+  {
+   "sku": "SKU-887380",
+   "slot": "S05"
+  },
+  {
+   "sku": "SKU-168415",
+   "slot": "S16"
+  },
+  {
+   "sku": "SKU-231958",
+   "slot": "S07"
+  },
+  {
+   "sku": "SKU-344284",
+   "slot": "S18"
+  },
+  {
+   "sku": "SKU-225103",
+   "slot": "S06"
+  },
+  {
+   "sku": "SKU-835467",
+   "slot": "S15"
+  },
+  {
+   "sku": "SKU-503058",
+   "slot": "S09"
+  },
+  {
+   "sku": "SKU-611988",
+   "slot": "S17"
+  },
+  {
+   "sku": "SKU-239414",
+   "slot": "S08"
+  },
+  {
+   "sku": "SKU-266275",
+   "slot": "S19"
+  },
+  {
+   "sku": "SKU-340510",
+   "slot": "S24"
+  },
+  {
+   "sku": "SKU-292513",
+   "slot": "S37"
+  },
+  {
+   "sku": "SKU-425470",
+   "slot": "S29"
+  },
+  {
+   "sku": "SKU-982380",
+   "slot": "S36"
+  },
+  {
+   "sku": "SKU-956260",
+   "slot": "S27"
+  },
+  {
+   "sku": "SKU-579629",
+   "slot": "S35"
+  },
+  {
+   "sku": "SKU-561505",
+   "slot": "S28"
+  },
+  {
+   "sku": "SKU-405089",
+   "slot": "S39"
+  },
+  {
+   "sku": "SKU-687242",
+   "slot": "S26"
+  },
+  {
+   "sku": "SKU-108153",
+   "slot": "S38"
+  },
+  {
+   "sku": "SKU-185820",
+   "slot": "S42"
+  },
+  {
+   "sku": "SKU-381852",
+   "slot": "S31"
+  },
+  {
+   "sku": "SKU-463917",
+   "slot": "S40"
+  },
+  {
+   "sku": "SKU-125778",
+   "slot": "S33"
+  },
+  {
+   "sku": "SKU-356439",
+   "slot": "S22"
+  },
+  {
+   "sku": "SKU-795691",
+   "slot": "S32"
+  },
+  {
+   "sku": "SKU-575631",
+   "slot": "S43"
+  },
+  {
+   "sku": "SKU-108422",
+   "slot": "S50"
+  },
+  {
+   "sku": "SKU-843157",
+   "slot": "S41"
+  },
+  {
+   "sku": "SKU-989340",
+   "slot": "S30"
+  },
+  {
+   "sku": "SKU-323866",
+   "slot": "S44"
+  },
+  {
+   "sku": "SKU-604806",
+   "slot": "S55"
+  },
+  {
+   "sku": "SKU-640654",
+   "slot": "S47"
+  },
+  {
+   "sku": "SKU-580393",
+   "slot": "S56"
+  },
+  {
+   "sku": "SKU-835055",
+   "slot": "S45"
+  },
+  {
+   "sku": "SKU-966826",
+   "slot": "S57"
+  },
+  {
+   "sku": "SKU-161805",
+   "slot": "S46"
+  },
+  {
+   "sku": "SKU-359876",
+   "slot": "S58"
+  },
+  {
+   "sku": "SKU-712552",
+   "slot": "S48"
+  },
+  {
+   "sku": "SKU-967624",
+   "slot": "S59"
+  },
+  {
+   "sku": "SKU-342931",
+   "slot": "S61"
+  },
+  {
+   "sku": "SKU-278922",
+   "slot": "S51"
+  },
+  {
+   "sku": "SKU-479584",
+   "slot": "S60"
+  },
+  {
+   "sku": "SKU-138496",
+   "slot": "S52"
+  },
+  {
+   "sku": "SKU-980926",
+   "slot": "S64"
+  },
+  {
+   "sku": "SKU-871933",
+   "slot": "S54"
+  },
+  {
+   "sku": "SKU-272114",
+   "slot": "S62"
+  },
+  {
+   "sku": "SKU-664103",
+   "slot": "S53"
+  },
+  {
+   "sku": "SKU-406401",
+   "slot": "S63"
+  },
+  {
+   "sku": "SKU-688595",
+   "slot": "S70"
+  },
+  {
+   "sku": "SKU-308942",
+   "slot": "S67"
+  },
+  {
+   "sku": "SKU-895493",
+   "slot": "S76"
+  },
+  {
+   "sku": "SKU-244087",
+   "slot": "S69"
+  },
+  {
+   "sku": "SKU-491253",
+   "slot": "S75"
+  },
+  {
+   "sku": "SKU-647969",
+   "slot": "S68"
+  },
+  {
+   "sku": "SKU-912704",
+   "slot": "S74"
+  },
+  {
+   "sku": "SKU-757362",
+   "slot": "S65"
+  },
+  {
+   "sku": "SKU-172112",
+   "slot": "S77"
+  },
+  {
+   "sku": "SKU-732131",
+   "slot": "S66"
+  },
+  {
+   "sku": "SKU-988180",
+   "slot": "S79"
+  }
+ ],
+ "metrics": {
+  "travel_ticks": 2369356,
+  "relocation_minutes": 196
+ },
+ "search": {
+  "method": "simulated annealing, zone-preserving swaps, hard labor cap",
+  "best_seed": 4,
+  "iters": 20000000,
+  "restarts": 2,
+  "t0": 10000.0,
+  "t1": 2.0,
+  "seeds": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ]
+ }
+}

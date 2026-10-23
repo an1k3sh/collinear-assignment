@@ -1,0 +1,166 @@
+{
+  "created_at": "2026-10-23T14:42:22.047834+00:00",
+  "harbor_version": "0.24.0",
+  "runs": [
+    {
+      "job": "northstar-oracle-02",
+      "trial": "northstar-forecast-revision__zMAqdzC",
+      "agent": {
+        "name": "oracle",
+        "version": "1.0.0",
+        "model_info": null
+      },
+      "requested_agent_kwargs": {},
+      "rewards": {
+        "overall": 1.0,
+        "functional_correctness": 1.0,
+        "constraint_satisfaction": 1.0,
+        "robustness": 1.0,
+        "artifact_quality": 1.0
+      },
+      "started_at": "2026-10-23T14:28:31.472894Z",
+      "finished_at": "2026-10-23T14:28:53.196528Z",
+      "agent_execution": {
+        "started_at": "2026-10-23T14:28:37.411501Z",
+        "finished_at": "2026-10-23T14:28:40.679744Z"
+      },
+      "task_checksum": "b591202cf5d1e0ed27d9a7b1766323b30711274ce7ce2879f5b57851738c26cd",
+      "evidence": "oracle-original",
+      "interpretation": "Measured original run; inspect rewards without inferring a native Claude Code harness."
+    },
+    {
+      "job": "northstar-oracle-03",
+      "trial": "northstar-forecast-revision__oenfCqJ",
+      "agent": {
+        "name": "oracle",
+        "version": "1.0.0",
+        "model_info": null
+      },
+      "requested_agent_kwargs": {},
+      "rewards": {
+        "overall": 1.0,
+        "functional_correctness": 1.0,
+        "constraint_satisfaction": 1.0,
+        "robustness": 1.0,
+        "artifact_quality": 1.0
+      },
+      "started_at": "2026-10-23T14:34:42.695953Z",
+      "finished_at": "2026-10-23T14:35:01.451622Z",
+      "agent_execution": {
+        "started_at": "2026-10-23T14:34:45.632318Z",
+        "finished_at": "2026-10-23T14:34:48.103248Z"
+      },
+      "task_checksum": "570f1c1dd261e9532a006a9ac9ad40743ce417bfd6b2676c77c13ec80139639a",
+      "evidence": "oracle-release",
+      "interpretation": "Measured original run; inspect rewards without inferring a native Claude Code harness."
+    },
+    {
+      "job": "northstar-copilot-opus-02",
+      "trial": "northstar-forecast-revision__YiUafu4",
+      "agent": {
+        "name": "copilot-cli",
+        "version": "1.0.102",
+        "model_info": {
+          "name": "claude-opus-5.5",
+          "provider": null
+        }
+      },
+      "requested_agent_kwargs": {
+        "version": "1.0.102",
+        "reasoning_effort": "high"
+      },
+      "rewards": {
+        "overall": 0.0,
+        "functional_correctness": 1.0,
+        "constraint_satisfaction": 1.0,
+        "robustness": 0.9997974888618874,
+        "artifact_quality": 1.0
+      },
+      "started_at": "2026-10-23T14:28:31.476053Z",
+      "finished_at": "2026-10-23T14:31:49.885490Z",
+      "agent_execution": {
+        "started_at": "2026-10-23T14:29:12.965724Z",
+        "finished_at": "2026-10-23T14:31:36.919661Z"
+      },
+      "task_checksum": "b591202cf5d1e0ed27d9a7b1766323b30711274ce7ce2879f5b57851738c26cd",
+      "evidence": "copilot-01-original",
+      "interpretation": "Rejected false positive: legitimate P&L revenue alias; corrected regrade passes."
+    },
+    {
+      "job": "northstar-copilot-opus-03",
+      "trial": "northstar-forecast-revision__WhqM5fG",
+      "agent": {
+        "name": "copilot-cli",
+        "version": "1.0.102",
+        "model_info": {
+          "name": "claude-opus-5.5",
+          "provider": null
+        }
+      },
+      "requested_agent_kwargs": {
+        "version": "1.0.102",
+        "reasoning_effort": "high"
+      },
+      "rewards": {
+        "overall": 1.0,
+        "functional_correctness": 1.0,
+        "constraint_satisfaction": 1.0,
+        "robustness": 1.0,
+        "artifact_quality": 1.0
+      },
+      "started_at": "2026-10-23T14:34:42.697870Z",
+      "finished_at": "2026-10-23T14:37:52.642124Z",
+      "agent_execution": {
+        "started_at": "2026-10-23T14:35:13.322631Z",
+        "finished_at": "2026-10-23T14:37:40.443468Z"
+      },
+      "task_checksum": "570f1c1dd261e9532a006a9ac9ad40743ce417bfd6b2676c77c13ec80139639a",
+      "evidence": "copilot-02-release",
+      "interpretation": "Measured original run; inspect rewards without inferring a native Claude Code harness."
+    },
+    {
+      "job": "northstar-zip-oracle-01",
+      "trial": "northstar-forecast-revision__DJvHVgC",
+      "agent": {
+        "name": "oracle",
+        "version": "1.0.0",
+        "model_info": null
+      },
+      "requested_agent_kwargs": {},
+      "rewards": {
+        "overall": 1.0,
+        "functional_correctness": 1.0,
+        "constraint_satisfaction": 1.0,
+        "robustness": 1.0,
+        "artifact_quality": 1.0
+      },
+      "started_at": "2026-10-23T14:39:45.004400Z",
+      "finished_at": "2026-10-23T14:41:30.394465Z",
+      "agent_execution": {
+        "started_at": "2026-10-23T14:41:11.890029Z",
+        "finished_at": "2026-10-23T14:41:16.429420Z"
+      },
+      "task_checksum": "7894f6dad5cc821277838ed3f183a7d07547baa1e20d1133e9e0dd2216a2f6c2",
+      "evidence": "release-archive-oracle",
+      "interpretation": "Measured original run; inspect rewards without inferring a native Claude Code harness."
+    }
+  ],
+  "fairness_regrade": {
+    "source": "Unmodified recorded deterministic build script and original handoff",
+    "original_reward": {
+      "overall": 0.0,
+      "functional_correctness": 1.0,
+      "constraint_satisfaction": 1.0,
+      "robustness": 0.9997974888618874,
+      "artifact_quality": 1.0
+    },
+    "corrected_reward": {
+      "overall": 1.0,
+      "functional_correctness": 1.0,
+      "constraint_satisfaction": 1.0,
+      "robustness": 1.0,
+      "artifact_quality": 1.0
+    },
+    "note": "Reconstruction, not an additional model trial; no original byte hash was recorded."
+  }
+}

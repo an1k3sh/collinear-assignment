@@ -1,0 +1,15 @@
+{
+  "pages": [
+    {"id":"C1.r1","file":"C1-r1.png","kind":"counters","targets":["AS","AI"],"revision":1,"series_units":{"requests":1000,"errors":1000}},
+    {"id":"C2.r1","file":"C2-r1.png","kind":"counters","targets":["BS","BI"],"revision":1,"series_units":{"requests":1000,"errors":1000}},
+    {"id":"C2.r2","file":"C2-r2.png","kind":"counters","targets":["BS","BI"],"revision":2,"series_units":{"requests":1000,"errors":1000}},
+    {"id":"C3.r1","file":"C3-r1.png","kind":"counters","targets":["CS","CI"],"revision":1,"series_units":{"requests":1000,"errors":1000}},
+    {"id":"C4.r1","file":"C4-r1.png","kind":"counters","targets":["DS","DI"],"revision":1,"series_units":{"requests":1000,"errors":1000}},
+    {"id":"H1.r1","file":"H1-r1.png","kind":"histograms","targets":["AS","AI"],"revision":1,"series_units":{"samples":1}},
+    {"id":"H2.r1","file":"H2-r1.png","kind":"histograms","targets":["BS","BI"],"revision":1,"series_units":{"samples":1}},
+    {"id":"H3.r1","file":"H3-r1.png","kind":"histograms","targets":["CS","CI"],"revision":1,"series_units":{"samples":1}},
+    {"id":"H4.r1","file":"H4-r1.png","kind":"histograms","targets":["DS","DI"],"revision":1,"series_units":{"samples":1}}
+  ],
+  "supersedes": [{"new":"C2.r2","old":"C2.r1","scope":"whole page"}],
+  "histogram_encoding": "100% stacked disjoint-bin shares; multiply each segment share by exact printed row N; samples unit multiplier is 1"
+}

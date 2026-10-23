@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "gates": {
+      "protected": true,
+      "evaluation_complete": false
+    }
+  },
+  "errors": [
+    "Traceback (most recent call last):\n  File \"/Users/anikeshparashar/Projects/difficult-bench/collinear-candidate/chart-capacity-audit-v3/tests/grade.py\", line 250, in grade\n    readings, output = load(submission/\"readings.json\"), load(submission/\"analysis.json\")\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/anikeshparashar/Projects/difficult-bench/collinear-candidate/chart-capacity-audit-v3/tests/grade.py\", line 24, in load\n    return json.loads(Path(path).read_text(), parse_constant=reject)\n                      ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/homebrew/Cellar/python@3.12/3.12.13_4/Frameworks/Python.framework/Versions/3.12/lib/python3.12/pathlib.py\", line 1027, in read_text\n    with self.open(mode='r', encoding=encoding, errors=errors) as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/homebrew/Cellar/python@3.12/3.12.13_4/Frameworks/Python.framework/Versions/3.12/lib/python3.12/pathlib.py\", line 1013, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/var/folders/_k/69cpz9pj1_19dt6bp8ss3t940000gn/T/chart-v2-author-68m7kgfx/app/submission/readings.json'\n"
+  ]
+}

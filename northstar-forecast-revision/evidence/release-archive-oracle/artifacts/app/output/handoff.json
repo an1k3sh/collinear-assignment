@@ -1,0 +1,9 @@
+{
+  "method": "customer_cohort",
+  "superseded_method": "legacy_monthly_growth",
+  "annual_revenue": 1772564.52101988,
+  "december_active_customers": 1352.64897118915,
+  "december_cash": 274738.507762398,
+  "december_revolver": 0,
+  "max_abs_check": 0
+}

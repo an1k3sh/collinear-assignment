@@ -1,0 +1,34 @@
+{
+  "source_and_formulas": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/grade.py\", line 17, in check\n    function()\n  File \"/tests/grade.py\", line 60, in integrity\n    assert fixed.calculation is None or fixed.calculation.calcMode in (None, \"auto\")\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+  },
+  "saved_results": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/grade.py\", line 17, in check\n    function()\n  File \"/tests/grade.py\", line 77, in saved\n    values(load_workbook(TARGET, data_only=True), load_workbook(TARGET, data_only=False))\n  File \"/tests/grade.py\", line 37, in values\n    assert sheet.cell(r, 2).value == name, f\"Wrong department at row {r}\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Wrong department at row 2\n"
+  },
+  "chart_binding": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/grade.py\", line 17, in check\n    function()\n  File \"/tests/grade.py\", line 120, in <lambda>\n    check(\"chart_binding\", lambda: chart_bindings(load_workbook(TARGET)))\n                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tests/grade.py\", line 71, in chart_bindings\n    assert range_to_tuple(series.val.numRef.f) == (\"Summary\", (4, 2, 4, 4))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+  },
+  "recalculation_0": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/grade.py\", line 17, in check\n    function()\n  File \"/tests/grade.py\", line 122, in <lambda>\n    check(f\"recalculation_{variant}\", lambda variant=variant: recalculated(variant))\n                                                              ^^^^^^^^^^^^^^^^^^^^^\n  File \"/tests/grade.py\", line 114, in recalculated\n    values(load_workbook(out / \"allocation.xlsx\", data_only=True), wb)\n  File \"/tests/grade.py\", line 37, in values\n    assert sheet.cell(r, 2).value == name, f\"Wrong department at row {r}\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Wrong department at row 2\n"
+  },
+  "recalculation_1": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/grade.py\", line 17, in check\n    function()\n  File \"/tests/grade.py\", line 122, in <lambda>\n    check(f\"recalculation_{variant}\", lambda variant=variant: recalculated(variant))\n                                                              ^^^^^^^^^^^^^^^^^^^^^\n  File \"/tests/grade.py\", line 114, in recalculated\n    values(load_workbook(out / \"allocation.xlsx\", data_only=True), wb)\n  File \"/tests/grade.py\", line 37, in values\n    assert sheet.cell(r, 2).value == name, f\"Wrong department at row {r}\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Wrong department at row 2\n"
+  },
+  "recalculation_2": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/grade.py\", line 17, in check\n    function()\n  File \"/tests/grade.py\", line 122, in <lambda>\n    check(f\"recalculation_{variant}\", lambda variant=variant: recalculated(variant))\n                                                              ^^^^^^^^^^^^^^^^^^^^^\n  File \"/tests/grade.py\", line 114, in recalculated\n    values(load_workbook(out / \"allocation.xlsx\", data_only=True), wb)\n  File \"/tests/grade.py\", line 37, in values\n    assert sheet.cell(r, 2).value == name, f\"Wrong department at row {r}\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Wrong department at row 2\n"
+  },
+  "recalculation_3": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/grade.py\", line 17, in check\n    function()\n  File \"/tests/grade.py\", line 122, in <lambda>\n    check(f\"recalculation_{variant}\", lambda variant=variant: recalculated(variant))\n                                                              ^^^^^^^^^^^^^^^^^^^^^\n  File \"/tests/grade.py\", line 114, in recalculated\n    values(load_workbook(out / \"allocation.xlsx\", data_only=True), wb)\n  File \"/tests/grade.py\", line 37, in values\n    assert sheet.cell(r, 2).value == name, f\"Wrong department at row {r}\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Wrong department at row 2\n"
+  },
+  "recalculation_4": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/grade.py\", line 17, in check\n    function()\n  File \"/tests/grade.py\", line 122, in <lambda>\n    check(f\"recalculation_{variant}\", lambda variant=variant: recalculated(variant))\n                                                              ^^^^^^^^^^^^^^^^^^^^^\n  File \"/tests/grade.py\", line 114, in recalculated\n    values(load_workbook(out / \"allocation.xlsx\", data_only=True), wb)\n  File \"/tests/grade.py\", line 37, in values\n    assert sheet.cell(r, 2).value == name, f\"Wrong department at row {r}\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Wrong department at row 2\n"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "release-1": {
+    "reward": {
+      "overall": 1.0,
+      "functional_correctness": 1.0,
+      "constraint_satisfaction": 1.0,
+      "robustness": 1.0,
+      "artifact_quality": 1.0
+    },
+    "exit_code": 0,
+    "candidate_modified": false
+  },
+  "release-2": {
+    "reward": {
+      "overall": 1.0,
+      "functional_correctness": 1.0,
+      "constraint_satisfaction": 1.0,
+      "robustness": 1.0,
+      "artifact_quality": 1.0
+    },
+    "exit_code": 0,
+    "candidate_modified": false
+  },
+  "release-3": {
+    "reward": {
+      "overall": 1.0,
+      "functional_correctness": 1.0,
+      "constraint_satisfaction": 1.0,
+      "robustness": 1.0,
+      "artifact_quality": 1.0
+    },
+    "exit_code": 0,
+    "candidate_modified": false
+  },
+  "release-4": {
+    "reward": {
+      "overall": 1.0,
+      "functional_correctness": 1.0,
+      "constraint_satisfaction": 1.0,
+      "robustness": 1.0,
+      "artifact_quality": 1.0
+    },
+    "exit_code": 0,
+    "candidate_modified": false
+  }
+}

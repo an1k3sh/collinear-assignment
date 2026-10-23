@@ -1,0 +1,269 @@
+test_artifact_cli (test_tlp.TLPTests.test_artifact_cli) ... ok
+test_artifact_cli_mismatch_and_error (test_tlp.TLPTests.test_artifact_cli_mismatch_and_error) ... ok
+test_artifact_save_replay (test_tlp.TLPTests.test_artifact_save_replay) ... ok
+test_completeness_avg (test_tlp.TLPTests.test_completeness_avg) ... ok
+test_completeness_count_sum (test_tlp.TLPTests.test_completeness_count_sum) ... 
+  test_completeness_count_sum (test_tlp.TLPTests.test_completeness_count_sum) (case={'version': 1, 'source': 'left', 'tables': {'t': [[1, 1, 8, "q'"], [2, 1, 8, "q'"], [3, 2, -3, 'z'], [4, None, None, None], [5, 2, None, 'z'], [6, 4, 0, 'nul\x00tag']], 'u': [[1, 1, 2, 'r'], [2, 1, None, 's'], [3, 2, -4, None]]}, 'predicate': ['isnull', ['eq', ['col', 't', 'tag'], ['lit', None]]], 'where': ['ge', ['col', 't', 'id'], ['lit', 2]], 'mode': 'count', 'select': [], 'value': ['col', 't', 'v'], 'group_by': [['col', 't', 'tag'], ['col', 't', 'k']]}) ... FAIL
+  test_completeness_count_sum (test_tlp.TLPTests.test_completeness_count_sum) (case={'version': 1, 'source': 'single', 'tables': {'t': [[1, 1, 8, "q'"], [2, 1, 8, "q'"], [3, 2, -3, 'z'], [4, None, None, None], [5, 2, None, 'z'], [6, 4, 0, 'nul\x00tag']], 'u': [[1, 1, 2, 'r'], [2, 1, None, 's'], [3, 2, -4, None]]}, 'predicate': ['or', ['lt', ['col', 't', 'v'], ['lit', -1]], ['isnull', ['col', 't', 'k']]], 'where': ['ge', ['col', 't', 'id'], ['lit', 2]], 'mode': 'sum', 'select': [], 'value': ['add', ['col', 't', 'v'], ['lit', 7]], 'group_by': [['col', 't', 'tag'], ['col', 't', 'k']]}) ... FAIL
+  test_completeness_count_sum (test_tlp.TLPTests.test_completeness_count_sum) (case={'version': 1, 'source': 'single', 'tables': {'t': [[1, 1, 8, "q'"], [2, 1, 8, "q'"], [3, 2, -3, 'z'], [4, None, None, None], [5, 2, None, 'z'], [6, 4, 0, 'nul\x00tag']], 'u': [[1, 1, 2, 'r'], [2, 1, None, 's'], [3, 2, -4, None]]}, 'predicate': ['or', ['lt', ['col', 't', 'v'], ['lit', -1]], ['isnull', ['col', 't', 'k']]], 'where': ['ge', ['col', 't', 'id'], ['lit', 2]], 'mode': 'count', 'select': [], 'value': ['col', 't', 'v'], 'group_by': [['col', 't', 'tag'], ['col', 't', 'k']]}) ... FAIL
+  test_completeness_count_sum (test_tlp.TLPTests.test_completeness_count_sum) (case={'version': 1, 'source': 'inner', 'tables': {'t': [[1, 1, 8, "q'"], [2, 1, 8, "q'"], [3, 2, -3, 'z'], [4, None, None, None], [5, 2, None, 'z'], [6, 4, 0, 'nul\x00tag']], 'u': [[1, 1, 2, 'r'], [2, 1, None, 's'], [3, 2, -4, None]]}, 'predicate': ['lt', ['col', 'u', 'v'], ['col', 't', 'v']], 'where': ['ge', ['col', 't', 'id'], ['lit', 2]], 'mode': 'count', 'select': [], 'value': ['col', 't', 'v'], 'group_by': [['col', 't', 'tag'], ['col', 't', 'k']]}) ... FAIL
+  test_completeness_count_sum (test_tlp.TLPTests.test_completeness_count_sum) (case={'version': 1, 'source': 'single', 'tables': {'t': [[1, 1, 8, "q'"], [2, 1, 8, "q'"], [3, 2, -3, 'z'], [4, None, None, None], [5, 2, None, 'z'], [6, 4, 0, 'nul\x00tag']], 'u': [[1, 1, 2, 'r'], [2, 1, None, 's'], [3, 2, -4, None]]}, 'predicate': ['gt', ['col', 't', 'v'], ['lit', 0]], 'where': ['ge', ['col', 't', 'id'], ['lit', 2]], 'mode': 'sum', 'select': [], 'value': ['add', ['col', 't', 'v'], ['lit', -4]], 'group_by': [['col', 't', 'tag'], ['col', 't', 'k']]}) ... FAIL
+test_completeness_min_max (test_tlp.TLPTests.test_completeness_min_max) ... ok
+test_completeness_rows_distinct (test_tlp.TLPTests.test_completeness_rows_distinct) ... 
+  test_completeness_rows_distinct (test_tlp.TLPTests.test_completeness_rows_distinct) (case={'version': 1, 'source': 'inner', 'tables': {'t': [[1, 1, 8, "q'"], [2, 1, 8, "q'"], [3, 2, -3, 'z'], [4, None, None, None], [5, 2, None, 'z'], [6, 4, 0, 'nul\x00tag']], 'u': [[1, 1, 2, 'r'], [2, 1, None, 's'], [3, 2, -4, None]]}, 'predicate': ['and', ['not', ['eq', ['col', 't', 'v'], ['lit', 8]]], ['le', ['add', ['col', 't', 'id'], ['lit', 3]], ['lit', 8]]], 'where': ['ge', ['col', 't', 'id'], ['lit', 2]], 'mode': 'rows', 'select': [['col', 't', 'v']], 'value': None, 'group_by': []}) ... FAIL
+  test_completeness_rows_distinct (test_tlp.TLPTests.test_completeness_rows_distinct) (case={'version': 1, 'source': 'left', 'tables': {'t': [[1, 1, 8, "q'"], [2, 1, 8, "q'"], [3, 2, -3, 'z'], [4, None, None, None], [5, 2, None, 'z'], [6, 4, 0, 'nul\x00tag']], 'u': [[1, 1, 2, 'r'], [2, 1, None, 's'], [3, 2, -4, None]]}, 'predicate': ['gt', ['col', 't', 'v'], ['lit', 0]], 'where': ['ge', ['col', 't', 'id'], ['lit', 2]], 'mode': 'rows', 'select': [['col', 't', 'v']], 'value': None, 'group_by': []}) ... FAIL
+  test_completeness_rows_distinct (test_tlp.TLPTests.test_completeness_rows_distinct) (case={'version': 1, 'source': 'single', 'tables': {'t': [[1, 1, 8, "q'"], [2, 1, 8, "q'"], [3, 2, -3, 'z'], [4, None, None, None], [5, 2, None, 'z'], [6, 4, 0, 'nul\x00tag']], 'u': [[1, 1, 2, 'r'], [2, 1, None, 's'], [3, 2, -4, None]]}, 'predicate': ['ne', ['sub', ['col', 't', 'v'], ['lit', -2]], ['lit', 0]], 'where': ['ge', ['col', 't', 'id'], ['lit', 2]], 'mode': 'rows', 'select': [['col', 't', 'v']], 'value': None, 'group_by': []}) ... FAIL
+  test_completeness_rows_distinct (test_tlp.TLPTests.test_completeness_rows_distinct) (case={'version': 1, 'source': 'inner', 'tables': {'t': [[1, 1, 8, "q'"], [2, 1, 8, "q'"], [3, 2, -3, 'z'], [4, None, None, None], [5, 2, None, 'z'], [6, 4, 0, 'nul\x00tag']], 'u': [[1, 1, 2, 'r'], [2, 1, None, 's'], [3, 2, -4, None]]}, 'predicate': ['eq', ['col', 't', 'tag'], ['lit', "q'"]], 'where': ['ge', ['col', 't', 'id'], ['lit', 2]], 'mode': 'rows', 'select': [['col', 't', 'v']], 'value': None, 'group_by': []}) ... FAIL
+test_diversity_edge_data (test_tlp.TLPTests.test_diversity_edge_data) ... ok
+test_diversity_generation (test_tlp.TLPTests.test_diversity_generation) ... ok
+test_diversity_grouping (test_tlp.TLPTests.test_diversity_grouping) ... ok
+test_diversity_modes (test_tlp.TLPTests.test_diversity_modes) ... ok
+test_diversity_operators (test_tlp.TLPTests.test_diversity_operators) ... ok
+test_diversity_partition_occupancy (test_tlp.TLPTests.test_diversity_partition_occupancy) ... ok
+test_diversity_shapes (test_tlp.TLPTests.test_diversity_shapes) ... ok
+test_diversity_sources_filters (test_tlp.TLPTests.test_diversity_sources_filters) ... ok
+test_validity_binding (test_tlp.TLPTests.test_validity_binding) ... ok
+test_validity_comparator (test_tlp.TLPTests.test_validity_comparator) ... ok
+test_validity_composition_without_database (test_tlp.TLPTests.test_validity_composition_without_database) ... ok
+test_validity_errors (test_tlp.TLPTests.test_validity_errors) ... ok
+test_validity_executor_and_detection (test_tlp.TLPTests.test_validity_executor_and_detection) ... ok
+test_validity_partition_plans (test_tlp.TLPTests.test_validity_partition_plans) ... 
+  test_validity_partition_plans (test_tlp.TLPTests.test_validity_partition_plans) (mode='avg', source='single', groups=[['col', 't', 'tag'], ['col', 't', 'k']]) ... FAIL
+  test_validity_partition_plans (test_tlp.TLPTests.test_validity_partition_plans) (mode='count', source='left', groups=[['col', 't', 'tag'], ['col', 't', 'k']]) ... FAIL
+  test_validity_partition_plans (test_tlp.TLPTests.test_validity_partition_plans) (mode='sum', source='single', groups=[['col', 't', 'tag'], ['col', 't', 'k']]) ... FAIL
+  test_validity_partition_plans (test_tlp.TLPTests.test_validity_partition_plans) (mode='rows', source='inner', groups=[]) ... FAIL
+  test_validity_partition_plans (test_tlp.TLPTests.test_validity_partition_plans) (mode='avg', source='inner', groups=[['col', 't', 'tag'], ['col', 't', 'k']]) ... FAIL
+  test_validity_partition_plans (test_tlp.TLPTests.test_validity_partition_plans) (mode='count', source='single', groups=[['col', 't', 'tag'], ['col', 't', 'k']]) ... FAIL
+  test_validity_partition_plans (test_tlp.TLPTests.test_validity_partition_plans) (mode='rows', source='left', groups=[]) ... FAIL
+  test_validity_partition_plans (test_tlp.TLPTests.test_validity_partition_plans) (mode='count', source='inner', groups=[['col', 't', 'tag'], ['col', 't', 'k']]) ... FAIL
+  test_validity_partition_plans (test_tlp.TLPTests.test_validity_partition_plans) (mode='rows', source='single', groups=[]) ... FAIL
+  test_validity_partition_plans (test_tlp.TLPTests.test_validity_partition_plans) (mode='avg', source='single', groups=[['col', 't', 'tag'], ['col', 't', 'k']]) ... FAIL
+  test_validity_partition_plans (test_tlp.TLPTests.test_validity_partition_plans) (mode='sum', source='single', groups=[['col', 't', 'tag'], ['col', 't', 'k']]) ... FAIL
+  test_validity_partition_plans (test_tlp.TLPTests.test_validity_partition_plans) (mode='rows', source='inner', groups=[]) ... FAIL
+  test_validity_partition_plans (test_tlp.TLPTests.test_validity_partition_plans) (mode='avg', source='inner', groups=[['col', 't', 'tag'], ['col', 't', 'k']]) ... FAIL
+test_validity_protected_files (test_tlp.TLPTests.test_validity_protected_files) ... ok
+
+======================================================================
+FAIL: test_completeness_count_sum (test_tlp.TLPTests.test_completeness_count_sum) (case={'version': 1, 'source': 'left', 'tables': {'t': [[1, 1, 8, "q'"], [2, 1, 8, "q'"], [3, 2, -3, 'z'], [4, None, None, None], [5, 2, None, 'z'], [6, 4, 0, 'nul\x00tag']], 'u': [[1, 1, 2, 'r'], [2, 1, None, 's'], [3, 2, -4, None]]}, 'predicate': ['isnull', ['eq', ['col', 't', 'tag'], ['lit', None]]], 'where': ['ge', ['col', 't', 'id'], ['lit', 2]], 'mode': 'count', 'select': [], 'value': ['col', 't', 'v'], 'group_by': [['col', 't', 'tag'], ['col', 't', 'k']]})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 195, in check_modes
+    self.assertBag(expected, result["expected"])
+  File "/submission/tests/test_tlp.py", line 34, in assertBag
+    self.assertEqual(bag(expected), bag(actual))
+AssertionError: Count[137 chars]1), ('int', 2)): 1, (('str', 'z'), ('int', 2), ('int', 1)): 1}) != Count[137 chars]1), ('int', 4)): 1, (('str', 'z'), ('int', 2), ('int', 1)): 1})
+
+======================================================================
+FAIL: test_completeness_count_sum (test_tlp.TLPTests.test_completeness_count_sum) (case={'version': 1, 'source': 'single', 'tables': {'t': [[1, 1, 8, "q'"], [2, 1, 8, "q'"], [3, 2, -3, 'z'], [4, None, None, None], [5, 2, None, 'z'], [6, 4, 0, 'nul\x00tag']], 'u': [[1, 1, 2, 'r'], [2, 1, None, 's'], [3, 2, -4, None]]}, 'predicate': ['or', ['lt', ['col', 't', 'v'], ['lit', -1]], ['isnull', ['col', 't', 'k']]], 'where': ['ge', ['col', 't', 'id'], ['lit', 2]], 'mode': 'sum', 'select': [], 'value': ['add', ['col', 't', 'v'], ['lit', 7]], 'group_by': [['col', 't', 'tag'], ['col', 't', 'k']]})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 195, in check_modes
+    self.assertBag(expected, result["expected"])
+  File "/submission/tests/test_tlp.py", line 34, in assertBag
+    self.assertEqual(bag(expected), bag(actual))
+AssertionError: Count[146 chars]), ('int', 15)): 1, (('str', 'z'), ('int', 2), ('int', 4)): 1}) != Count[146 chars]), ('int', 30)): 1, (('str', 'z'), ('int', 2), ('int', 4)): 1})
+
+======================================================================
+FAIL: test_completeness_count_sum (test_tlp.TLPTests.test_completeness_count_sum) (case={'version': 1, 'source': 'single', 'tables': {'t': [[1, 1, 8, "q'"], [2, 1, 8, "q'"], [3, 2, -3, 'z'], [4, None, None, None], [5, 2, None, 'z'], [6, 4, 0, 'nul\x00tag']], 'u': [[1, 1, 2, 'r'], [2, 1, None, 's'], [3, 2, -4, None]]}, 'predicate': ['or', ['lt', ['col', 't', 'v'], ['lit', -1]], ['isnull', ['col', 't', 'k']]], 'where': ['ge', ['col', 't', 'id'], ['lit', 2]], 'mode': 'count', 'select': [], 'value': ['col', 't', 'v'], 'group_by': [['col', 't', 'tag'], ['col', 't', 'k']]})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 195, in check_modes
+    self.assertBag(expected, result["expected"])
+  File "/submission/tests/test_tlp.py", line 34, in assertBag
+    self.assertEqual(bag(expected), bag(actual))
+AssertionError: Count[137 chars]1), ('int', 1)): 1, (('str', 'z'), ('int', 2), ('int', 1)): 1}) != Count[137 chars]1), ('int', 2)): 1, (('str', 'z'), ('int', 2), ('int', 1)): 1})
+
+======================================================================
+FAIL: test_completeness_count_sum (test_tlp.TLPTests.test_completeness_count_sum) (case={'version': 1, 'source': 'inner', 'tables': {'t': [[1, 1, 8, "q'"], [2, 1, 8, "q'"], [3, 2, -3, 'z'], [4, None, None, None], [5, 2, None, 'z'], [6, 4, 0, 'nul\x00tag']], 'u': [[1, 1, 2, 'r'], [2, 1, None, 's'], [3, 2, -4, None]]}, 'predicate': ['lt', ['col', 'u', 'v'], ['col', 't', 'v']], 'where': ['ge', ['col', 't', 'id'], ['lit', 2]], 'mode': 'count', 'select': [], 'value': ['col', 't', 'v'], 'group_by': [['col', 't', 'tag'], ['col', 't', 'k']]})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 195, in check_modes
+    self.assertBag(expected, result["expected"])
+  File "/submission/tests/test_tlp.py", line 34, in assertBag
+    self.assertEqual(bag(expected), bag(actual))
+AssertionError: Count[28 chars]1), ('int', 2)): 1, (('str', 'z'), ('int', 2), ('int', 1)): 1}) != Count[28 chars]1), ('int', 4)): 1, (('str', 'z'), ('int', 2), ('int', 1)): 1})
+
+======================================================================
+FAIL: test_completeness_count_sum (test_tlp.TLPTests.test_completeness_count_sum) (case={'version': 1, 'source': 'single', 'tables': {'t': [[1, 1, 8, "q'"], [2, 1, 8, "q'"], [3, 2, -3, 'z'], [4, None, None, None], [5, 2, None, 'z'], [6, 4, 0, 'nul\x00tag']], 'u': [[1, 1, 2, 'r'], [2, 1, None, 's'], [3, 2, -4, None]]}, 'predicate': ['gt', ['col', 't', 'v'], ['lit', 0]], 'where': ['ge', ['col', 't', 'id'], ['lit', 2]], 'mode': 'sum', 'select': [], 'value': ['add', ['col', 't', 'v'], ['lit', -4]], 'group_by': [['col', 't', 'tag'], ['col', 't', 'k']]})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 195, in check_modes
+    self.assertBag(expected, result["expected"])
+  File "/submission/tests/test_tlp.py", line 34, in assertBag
+    self.assertEqual(bag(expected), bag(actual))
+AssertionError: Count[147 chars]), ('int', 4)): 1, (('str', 'z'), ('int', 2), ('int', -7)): 1}) != Count[147 chars]), ('int', 8)): 1, (('str', 'z'), ('int', 2), ('int', -7)): 1})
+
+======================================================================
+FAIL: test_completeness_rows_distinct (test_tlp.TLPTests.test_completeness_rows_distinct) (case={'version': 1, 'source': 'inner', 'tables': {'t': [[1, 1, 8, "q'"], [2, 1, 8, "q'"], [3, 2, -3, 'z'], [4, None, None, None], [5, 2, None, 'z'], [6, 4, 0, 'nul\x00tag']], 'u': [[1, 1, 2, 'r'], [2, 1, None, 's'], [3, 2, -4, None]]}, 'predicate': ['and', ['not', ['eq', ['col', 't', 'v'], ['lit', 8]]], ['le', ['add', ['col', 't', 'id'], ['lit', 3]], ['lit', 8]]], 'where': ['ge', ['col', 't', 'id'], ['lit', 2]], 'mode': 'rows', 'select': [['col', 't', 'v']], 'value': None, 'group_by': []})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 195, in check_modes
+    self.assertBag(expected, result["expected"])
+  File "/submission/tests/test_tlp.py", line 34, in assertBag
+    self.assertEqual(bag(expected), bag(actual))
+AssertionError: Counter({(('int', 8),): 2, (('int', -3),): 1, (('NoneType', None),): 1}) != Counter({(('int', 8),): 4, (('int', -3),): 1, (('NoneType', None),): 1})
+
+======================================================================
+FAIL: test_completeness_rows_distinct (test_tlp.TLPTests.test_completeness_rows_distinct) (case={'version': 1, 'source': 'left', 'tables': {'t': [[1, 1, 8, "q'"], [2, 1, 8, "q'"], [3, 2, -3, 'z'], [4, None, None, None], [5, 2, None, 'z'], [6, 4, 0, 'nul\x00tag']], 'u': [[1, 1, 2, 'r'], [2, 1, None, 's'], [3, 2, -4, None]]}, 'predicate': ['gt', ['col', 't', 'v'], ['lit', 0]], 'where': ['ge', ['col', 't', 'id'], ['lit', 2]], 'mode': 'rows', 'select': [['col', 't', 'v']], 'value': None, 'group_by': []})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 195, in check_modes
+    self.assertBag(expected, result["expected"])
+  File "/submission/tests/test_tlp.py", line 34, in assertBag
+    self.assertEqual(bag(expected), bag(actual))
+AssertionError: Count[14 chars]),): 2, (('NoneType', None),): 2, (('int', -3)[20 chars]: 1}) != Count[14 chars]),): 4, (('NoneType', None),): 2, (('int', -3)[20 chars]: 1})
+
+======================================================================
+FAIL: test_completeness_rows_distinct (test_tlp.TLPTests.test_completeness_rows_distinct) (case={'version': 1, 'source': 'single', 'tables': {'t': [[1, 1, 8, "q'"], [2, 1, 8, "q'"], [3, 2, -3, 'z'], [4, None, None, None], [5, 2, None, 'z'], [6, 4, 0, 'nul\x00tag']], 'u': [[1, 1, 2, 'r'], [2, 1, None, 's'], [3, 2, -4, None]]}, 'predicate': ['ne', ['sub', ['col', 't', 'v'], ['lit', -2]], ['lit', 0]], 'where': ['ge', ['col', 't', 'id'], ['lit', 2]], 'mode': 'rows', 'select': [['col', 't', 'v']], 'value': None, 'group_by': []})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 195, in check_modes
+    self.assertBag(expected, result["expected"])
+  File "/submission/tests/test_tlp.py", line 34, in assertBag
+    self.assertEqual(bag(expected), bag(actual))
+AssertionError: Counter({(('NoneType', None),): 2, (('int', 8),): 1, [32 chars]: 1}) != Counter({(('int', 8),): 2, (('NoneType', None),): 2, [32 chars]: 1})
+
+======================================================================
+FAIL: test_completeness_rows_distinct (test_tlp.TLPTests.test_completeness_rows_distinct) (case={'version': 1, 'source': 'inner', 'tables': {'t': [[1, 1, 8, "q'"], [2, 1, 8, "q'"], [3, 2, -3, 'z'], [4, None, None, None], [5, 2, None, 'z'], [6, 4, 0, 'nul\x00tag']], 'u': [[1, 1, 2, 'r'], [2, 1, None, 's'], [3, 2, -4, None]]}, 'predicate': ['eq', ['col', 't', 'tag'], ['lit', "q'"]], 'where': ['ge', ['col', 't', 'id'], ['lit', 2]], 'mode': 'rows', 'select': [['col', 't', 'v']], 'value': None, 'group_by': []})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 195, in check_modes
+    self.assertBag(expected, result["expected"])
+  File "/submission/tests/test_tlp.py", line 34, in assertBag
+    self.assertEqual(bag(expected), bag(actual))
+AssertionError: Counter({(('int', 8),): 2, (('int', -3),): 1, (('NoneType', None),): 1}) != Counter({(('int', 8),): 4, (('int', -3),): 1, (('NoneType', None),): 1})
+
+======================================================================
+FAIL: test_validity_partition_plans (test_tlp.TLPTests.test_validity_partition_plans) (mode='avg', source='single', groups=[['col', 't', 'tag'], ['col', 't', 'k']])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 64, in test_validity_partition_plans
+    self.assertBag(expected, actual)
+  File "/submission/tests/test_tlp.py", line 34, in assertBag
+    self.assertEqual(bag(expected), bag(actual))
+AssertionError: Counter({(('str', "q'"), ('int', 1), ('int', 8), ('int', 1)): 1}) != Counter({(('str', "q'"), ('int', 1), ('int', 16), ('int', 2)): 1})
+
+======================================================================
+FAIL: test_validity_partition_plans (test_tlp.TLPTests.test_validity_partition_plans) (mode='count', source='left', groups=[['col', 't', 'tag'], ['col', 't', 'k']])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 57, in test_validity_partition_plans
+    self.assertBag(reference_rows(db, case), execute(db, plan.base))
+  File "/submission/tests/test_tlp.py", line 34, in assertBag
+    self.assertEqual(bag(expected), bag(actual))
+AssertionError: Count[137 chars]1), ('int', 2)): 1, (('str', 'z'), ('int', 2), ('int', 1)): 1}) != Count[137 chars]1), ('int', 4)): 1, (('str', 'z'), ('int', 2), ('int', 1)): 1})
+
+======================================================================
+FAIL: test_validity_partition_plans (test_tlp.TLPTests.test_validity_partition_plans) (mode='sum', source='single', groups=[['col', 't', 'tag'], ['col', 't', 'k']])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 57, in test_validity_partition_plans
+    self.assertBag(reference_rows(db, case), execute(db, plan.base))
+  File "/submission/tests/test_tlp.py", line 34, in assertBag
+    self.assertEqual(bag(expected), bag(actual))
+AssertionError: Count[146 chars]), ('int', 15)): 1, (('str', 'z'), ('int', 2), ('int', 4)): 1}) != Count[146 chars]), ('int', 30)): 1, (('str', 'z'), ('int', 2), ('int', 4)): 1})
+
+======================================================================
+FAIL: test_validity_partition_plans (test_tlp.TLPTests.test_validity_partition_plans) (mode='rows', source='inner', groups=[])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 57, in test_validity_partition_plans
+    self.assertBag(reference_rows(db, case), execute(db, plan.base))
+  File "/submission/tests/test_tlp.py", line 34, in assertBag
+    self.assertEqual(bag(expected), bag(actual))
+AssertionError: Counter({(('int', 8),): 2, (('int', -3),): 1, (('NoneType', None),): 1}) != Counter({(('int', 8),): 4, (('int', -3),): 1, (('NoneType', None),): 1})
+
+======================================================================
+FAIL: test_validity_partition_plans (test_tlp.TLPTests.test_validity_partition_plans) (mode='avg', source='inner', groups=[['col', 't', 'tag'], ['col', 't', 'k']])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 64, in test_validity_partition_plans
+    self.assertBag(expected, actual)
+  File "/submission/tests/test_tlp.py", line 34, in assertBag
+    self.assertEqual(bag(expected), bag(actual))
+AssertionError: Count[35 chars]nt', 16), ('int', 2)): 1, (('str', 'z'), ('int[31 chars]: 1}) != Count[35 chars]nt', 32), ('int', 4)): 1, (('str', 'z'), ('int[31 chars]: 1})
+
+======================================================================
+FAIL: test_validity_partition_plans (test_tlp.TLPTests.test_validity_partition_plans) (mode='count', source='single', groups=[['col', 't', 'tag'], ['col', 't', 'k']])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 57, in test_validity_partition_plans
+    self.assertBag(reference_rows(db, case), execute(db, plan.base))
+  File "/submission/tests/test_tlp.py", line 34, in assertBag
+    self.assertEqual(bag(expected), bag(actual))
+AssertionError: Count[137 chars]1), ('int', 1)): 1, (('str', 'z'), ('int', 2), ('int', 1)): 1}) != Count[137 chars]1), ('int', 2)): 1, (('str', 'z'), ('int', 2), ('int', 1)): 1})
+
+======================================================================
+FAIL: test_validity_partition_plans (test_tlp.TLPTests.test_validity_partition_plans) (mode='rows', source='left', groups=[])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 57, in test_validity_partition_plans
+    self.assertBag(reference_rows(db, case), execute(db, plan.base))
+  File "/submission/tests/test_tlp.py", line 34, in assertBag
+    self.assertEqual(bag(expected), bag(actual))
+AssertionError: Count[14 chars]),): 2, (('NoneType', None),): 2, (('int', -3)[20 chars]: 1}) != Count[14 chars]),): 4, (('NoneType', None),): 2, (('int', -3)[20 chars]: 1})
+
+======================================================================
+FAIL: test_validity_partition_plans (test_tlp.TLPTests.test_validity_partition_plans) (mode='count', source='inner', groups=[['col', 't', 'tag'], ['col', 't', 'k']])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 57, in test_validity_partition_plans
+    self.assertBag(reference_rows(db, case), execute(db, plan.base))
+  File "/submission/tests/test_tlp.py", line 34, in assertBag
+    self.assertEqual(bag(expected), bag(actual))
+AssertionError: Count[28 chars]1), ('int', 2)): 1, (('str', 'z'), ('int', 2), ('int', 1)): 1}) != Count[28 chars]1), ('int', 4)): 1, (('str', 'z'), ('int', 2), ('int', 1)): 1})
+
+======================================================================
+FAIL: test_validity_partition_plans (test_tlp.TLPTests.test_validity_partition_plans) (mode='rows', source='single', groups=[])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 57, in test_validity_partition_plans
+    self.assertBag(reference_rows(db, case), execute(db, plan.base))
+  File "/submission/tests/test_tlp.py", line 34, in assertBag
+    self.assertEqual(bag(expected), bag(actual))
+AssertionError: Counter({(('NoneType', None),): 2, (('int', 8),): 1, [32 chars]: 1}) != Counter({(('int', 8),): 2, (('NoneType', None),): 2, [32 chars]: 1})
+
+======================================================================
+FAIL: test_validity_partition_plans (test_tlp.TLPTests.test_validity_partition_plans) (mode='avg', source='single', groups=[['col', 't', 'tag'], ['col', 't', 'k']])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 64, in test_validity_partition_plans
+    self.assertBag(expected, actual)
+  File "/submission/tests/test_tlp.py", line 34, in assertBag
+    self.assertEqual(bag(expected), bag(actual))
+AssertionError: Count[176 chars]nt', 8), ('int', 1)): 1, (('str', 'z'), ('int'[30 chars]: 1}) != Count[176 chars]nt', 16), ('int', 2)): 1, (('str', 'z'), ('int[31 chars]: 1})
+
+======================================================================
+FAIL: test_validity_partition_plans (test_tlp.TLPTests.test_validity_partition_plans) (mode='sum', source='single', groups=[['col', 't', 'tag'], ['col', 't', 'k']])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 57, in test_validity_partition_plans
+    self.assertBag(reference_rows(db, case), execute(db, plan.base))
+  File "/submission/tests/test_tlp.py", line 34, in assertBag
+    self.assertEqual(bag(expected), bag(actual))
+AssertionError: Count[147 chars]), ('int', 4)): 1, (('str', 'z'), ('int', 2), ('int', -7)): 1}) != Count[147 chars]), ('int', 8)): 1, (('str', 'z'), ('int', 2), ('int', -7)): 1})
+
+======================================================================
+FAIL: test_validity_partition_plans (test_tlp.TLPTests.test_validity_partition_plans) (mode='rows', source='inner', groups=[])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 57, in test_validity_partition_plans
+    self.assertBag(reference_rows(db, case), execute(db, plan.base))
+  File "/submission/tests/test_tlp.py", line 34, in assertBag
+    self.assertEqual(bag(expected), bag(actual))
+AssertionError: Counter({(('int', 8),): 2, (('int', -3),): 1, (('NoneType', None),): 1}) != Counter({(('int', 8),): 4, (('int', -3),): 1, (('NoneType', None),): 1})
+
+======================================================================
+FAIL: test_validity_partition_plans (test_tlp.TLPTests.test_validity_partition_plans) (mode='avg', source='inner', groups=[['col', 't', 'tag'], ['col', 't', 'k']])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 64, in test_validity_partition_plans
+    self.assertBag(expected, actual)
+  File "/submission/tests/test_tlp.py", line 34, in assertBag
+    self.assertEqual(bag(expected), bag(actual))
+AssertionError: Counter({(('str', "q'"), ('int', 1), ('int', 16), ('int', 2)): 1}) != Counter({(('str', "q'"), ('int', 1), ('int', 32), ('int', 4)): 1})
+
+----------------------------------------------------------------------
+Ran 22 tests in 2.002s
+
+FAILED (failures=22)

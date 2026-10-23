@@ -1,0 +1,4069 @@
+{
+ "inventory": {
+  "selected": [
+   "C1.r1",
+   "C2.r2",
+   "C3.r1",
+   "C4.r1",
+   "H1.r1",
+   "H2.r1",
+   "H3.r1",
+   "H4.r1"
+  ],
+  "rejected": [
+   "C2.r1"
+  ],
+  "by_target": {
+   "AS": {
+    "counters": "C1.r1",
+    "histograms": "H1.r1"
+   },
+   "AI": {
+    "counters": "C1.r1",
+    "histograms": "H1.r1"
+   },
+   "BS": {
+    "counters": "C2.r2",
+    "histograms": "H2.r1"
+   },
+   "BI": {
+    "counters": "C2.r2",
+    "histograms": "H2.r1"
+   },
+   "CS": {
+    "counters": "C3.r1",
+    "histograms": "H3.r1"
+   },
+   "CI": {
+    "counters": "C3.r1",
+    "histograms": "H3.r1"
+   },
+   "DS": {
+    "counters": "C4.r1",
+    "histograms": "H4.r1"
+   },
+   "DI": {
+    "counters": "C4.r1",
+    "histograms": "H4.r1"
+   }
+  },
+  "pages": [
+   {
+    "id": "C1.r1",
+    "kind": "counters",
+    "file": "C1-r1.png",
+    "targets": [
+     "AS",
+     "AI"
+    ],
+    "status": "selected",
+    "reason": "terminal revision; authoritative"
+   },
+   {
+    "id": "C2.r1",
+    "kind": "counters",
+    "file": "C2-r1.png",
+    "targets": [
+     "BS",
+     "BI"
+    ],
+    "status": "rejected",
+    "reason": "superseded (whole page) by C2.r2 per export-manifest.json"
+   },
+   {
+    "id": "C2.r2",
+    "kind": "counters",
+    "file": "C2-r2.png",
+    "targets": [
+     "BS",
+     "BI"
+    ],
+    "status": "selected",
+    "reason": "terminal revision; authoritative"
+   },
+   {
+    "id": "C3.r1",
+    "kind": "counters",
+    "file": "C3-r1.png",
+    "targets": [
+     "CS",
+     "CI"
+    ],
+    "status": "selected",
+    "reason": "terminal revision; authoritative"
+   },
+   {
+    "id": "C4.r1",
+    "kind": "counters",
+    "file": "C4-r1.png",
+    "targets": [
+     "DS",
+     "DI"
+    ],
+    "status": "selected",
+    "reason": "terminal revision; authoritative"
+   },
+   {
+    "id": "H1.r1",
+    "kind": "histograms",
+    "file": "H1-r1.png",
+    "targets": [
+     "AS",
+     "AI"
+    ],
+    "status": "selected",
+    "reason": "terminal revision; authoritative"
+   },
+   {
+    "id": "H2.r1",
+    "kind": "histograms",
+    "file": "H2-r1.png",
+    "targets": [
+     "BS",
+     "BI"
+    ],
+    "status": "selected",
+    "reason": "terminal revision; authoritative"
+   },
+   {
+    "id": "H3.r1",
+    "kind": "histograms",
+    "file": "H3-r1.png",
+    "targets": [
+     "CS",
+     "CI"
+    ],
+    "status": "selected",
+    "reason": "terminal revision; authoritative"
+   },
+   {
+    "id": "H4.r1",
+    "kind": "histograms",
+    "file": "H4-r1.png",
+    "targets": [
+     "DS",
+     "DI"
+    ],
+    "status": "selected",
+    "reason": "terminal revision; authoritative"
+   }
+  ],
+  "registry": {
+   "AS": {
+    "region": "Alder",
+    "service": "search",
+    "display_name": "Alder / Query API"
+   },
+   "AI": {
+    "region": "Alder",
+    "service": "ingest",
+    "display_name": "Alder / Write API"
+   },
+   "BS": {
+    "region": "Birch",
+    "service": "search",
+    "display_name": "Birch / Query API"
+   },
+   "BI": {
+    "region": "Birch",
+    "service": "ingest",
+    "display_name": "Birch / Write API"
+   },
+   "CS": {
+    "region": "Cedar",
+    "service": "search",
+    "display_name": "Cedar / Query API"
+   },
+   "CI": {
+    "region": "Cedar",
+    "service": "ingest",
+    "display_name": "Cedar / Write API"
+   },
+   "DS": {
+    "region": "Delta",
+    "service": "search",
+    "display_name": "Delta / Query API"
+   },
+   "DI": {
+    "region": "Delta",
+    "service": "ingest",
+    "display_name": "Delta / Write API"
+   }
+  }
+ },
+ "intervals": [
+  {
+   "target": "AS",
+   "window": "W1",
+   "reason": "usable",
+   "requests": [
+    98000,
+    100000,
+    102000
+   ],
+   "errors": [
+    960,
+    1000,
+    1040
+   ],
+   "mean_requests_per_minute": 3333.3333333333335,
+   "minutes": 30,
+   "counter_page": "C1.r1",
+   "histogram_page": "H1.r1",
+   "histogram_available": true,
+   "latency_included": true,
+   "bins": [
+    [
+     590,
+     600,
+     610
+    ],
+    [
+     240,
+     250,
+     260
+    ],
+    [
+     90,
+     100,
+     110
+    ],
+    [
+     40,
+     50,
+     60
+    ]
+   ],
+   "derivation": [
+    "requests: B1 - B0",
+    "errors: B1 - B0"
+   ]
+  },
+  {
+   "target": "AS",
+   "window": "W2",
+   "reason": "usable",
+   "requests": [
+    198000,
+    200000,
+    202000
+   ],
+   "errors": [
+    1960,
+    2000,
+    2040
+   ],
+   "mean_requests_per_minute": 3333.3333333333335,
+   "minutes": 60,
+   "counter_page": "C1.r1",
+   "histogram_page": "H1.r1",
+   "histogram_available": true,
+   "latency_included": true,
+   "bins": [
+    [
+     490,
+     500,
+     510
+    ],
+    [
+     290,
+     300,
+     310
+    ],
+    [
+     140,
+     150,
+     160
+    ],
+    [
+     40,
+     50,
+     60
+    ]
+   ],
+   "derivation": [
+    "requests: B2 - B1",
+    "errors: B2 - B1"
+   ]
+  },
+  {
+   "target": "AS",
+   "window": "W3",
+   "reason": "usable",
+   "requests": [
+    99000,
+    100000,
+    101000
+   ],
+   "errors": [
+    2980,
+    3000,
+    3020
+   ],
+   "mean_requests_per_minute": 3333.3333333333335,
+   "minutes": 30,
+   "counter_page": "C1.r1",
+   "histogram_page": "H1.r1",
+   "histogram_available": true,
+   "latency_included": true,
+   "bins": [
+    [
+     490,
+     500,
+     510
+    ],
+    [
+     340,
+     350,
+     360
+    ],
+    [
+     90,
+     100,
+     110
+    ],
+    [
+     40,
+     50,
+     60
+    ]
+   ],
+   "derivation": [
+    "requests: documented reset, B3 - baseline 0",
+    "errors: documented reset, B3 - baseline 0"
+   ]
+  },
+  {
+   "target": "AS",
+   "window": "W4",
+   "reason": "usable",
+   "requests": [
+    198000,
+    200000,
+    202000
+   ],
+   "errors": [
+    3960,
+    4000,
+    4040
+   ],
+   "mean_requests_per_minute": 3333.3333333333335,
+   "minutes": 60,
+   "counter_page": "C1.r1",
+   "histogram_page": "H1.r1",
+   "histogram_available": true,
+   "latency_included": true,
+   "bins": [
+    [
+     540,
+     550,
+     560
+    ],
+    [
+     240,
+     250,
+     260
+    ],
+    [
+     140,
+     150,
+     160
+    ],
+    [
+     40,
+     50,
+     60
+    ]
+   ],
+   "derivation": [
+    "requests: B4 - B3",
+    "errors: B4 - B3"
+   ]
+  },
+  {
+   "target": "AI",
+   "window": "W1",
+   "reason": "usable",
+   "requests": [
+    118000,
+    120000,
+    122000
+   ],
+   "errors": [
+    360,
+    400,
+    440
+   ],
+   "mean_requests_per_minute": 4000,
+   "minutes": 30,
+   "counter_page": "C1.r1",
+   "histogram_page": "H1.r1",
+   "histogram_available": true,
+   "latency_included": true,
+   "bins": [
+    [
+     1390,
+     1400,
+     1410
+    ],
+    [
+     550,
+     560,
+     570
+    ],
+    [
+     20,
+     30,
+     40
+    ],
+    [
+     0,
+     10,
+     20
+    ]
+   ],
+   "derivation": [
+    "requests: B1 - B0",
+    "errors: B1 - B0"
+   ]
+  },
+  {
+   "target": "AI",
+   "window": "W2",
+   "reason": "usable",
+   "requests": [
+    238000,
+    240000,
+    242000
+   ],
+   "errors": [
+    560,
+    600,
+    640
+   ],
+   "mean_requests_per_minute": 4000,
+   "minutes": 60,
+   "counter_page": "C1.r1",
+   "histogram_page": "H1.r1",
+   "histogram_available": true,
+   "latency_included": true,
+   "bins": [
+    [
+     1390,
+     1400,
+     1410
+    ],
+    [
+     550,
+     560,
+     570
+    ],
+    [
+     20,
+     30,
+     40
+    ],
+    [
+     0,
+     10,
+     20
+    ]
+   ],
+   "derivation": [
+    "requests: B2 - B1",
+    "errors: B2 - B1"
+   ]
+  },
+  {
+   "target": "AI",
+   "window": "W3",
+   "reason": "usable",
+   "requests": [
+    118000,
+    120000,
+    122000
+   ],
+   "errors": [
+    760,
+    800,
+    840
+   ],
+   "mean_requests_per_minute": 4000,
+   "minutes": 30,
+   "counter_page": "C1.r1",
+   "histogram_page": "H1.r1",
+   "histogram_available": true,
+   "latency_included": true,
+   "bins": [
+    [
+     1390,
+     1400,
+     1410
+    ],
+    [
+     550,
+     560,
+     570
+    ],
+    [
+     20,
+     30,
+     40
+    ],
+    [
+     0,
+     10,
+     20
+    ]
+   ],
+   "derivation": [
+    "requests: B3 - B2",
+    "errors: B3 - B2"
+   ]
+  },
+  {
+   "target": "AI",
+   "window": "W4",
+   "reason": "usable",
+   "requests": [
+    238000,
+    240000,
+    242000
+   ],
+   "errors": [
+    960,
+    1000,
+    1040
+   ],
+   "mean_requests_per_minute": 4000,
+   "minutes": 60,
+   "counter_page": "C1.r1",
+   "histogram_page": "H1.r1",
+   "histogram_available": true,
+   "latency_included": true,
+   "bins": [
+    [
+     1390,
+     1400,
+     1410
+    ],
+    [
+     550,
+     560,
+     570
+    ],
+    [
+     20,
+     30,
+     40
+    ],
+    [
+     0,
+     10,
+     20
+    ]
+   ],
+   "derivation": [
+    "requests: B4 - B3",
+    "errors: B4 - B3"
+   ]
+  },
+  {
+   "target": "BS",
+   "window": "W1",
+   "reason": "usable",
+   "requests": [
+    138000,
+    140000,
+    142000
+   ],
+   "errors": [
+    2960,
+    3000,
+    3040
+   ],
+   "mean_requests_per_minute": 4666.666666666667,
+   "minutes": 30,
+   "counter_page": "C2.r2",
+   "histogram_page": "H2.r1",
+   "histogram_available": true,
+   "latency_included": true,
+   "bins": [
+    [
+     490,
+     500,
+     510
+    ],
+    [
+     290,
+     300,
+     310
+    ],
+    [
+     140,
+     150,
+     160
+    ],
+    [
+     40,
+     50,
+     60
+    ]
+   ],
+   "derivation": [
+    "requests: B1 - B0",
+    "errors: B1 - B0"
+   ]
+  },
+  {
+   "target": "BS",
+   "window": "W2",
+   "reason": "usable",
+   "requests": [
+    278000,
+    280000,
+    282000
+   ],
+   "errors": [
+    5960,
+    6000,
+    6040
+   ],
+   "mean_requests_per_minute": 4666.666666666667,
+   "minutes": 60,
+   "counter_page": "C2.r2",
+   "histogram_page": "H2.r1",
+   "histogram_available": true,
+   "latency_included": true,
+   "bins": [
+    [
+     990,
+     1000,
+     1010
+    ],
+    [
+     490,
+     500,
+     510
+    ],
+    [
+     340,
+     350,
+     360
+    ],
+    [
+     140,
+     150,
+     160
+    ]
+   ],
+   "derivation": [
+    "requests: B2 - B1",
+    "errors: B2 - B1"
+   ]
+  },
+  {
+   "target": "BS",
+   "window": "W3",
+   "reason": "usable",
+   "requests": [
+    138000,
+    140000,
+    142000
+   ],
+   "errors": [
+    3960,
+    4000,
+    4040
+   ],
+   "mean_requests_per_minute": 4666.666666666667,
+   "minutes": 30,
+   "counter_page": "C2.r2",
+   "histogram_page": "H2.r1",
+   "histogram_available": true,
+   "latency_included": true,
+   "bins": [
+    [
+     690,
+     700,
+     710
+    ],
+    [
+     390,
+     400,
+     410
+    ],
+    [
+     290,
+     300,
+     310
+    ],
+    [
+     90,
+     100,
+     110
+    ]
+   ],
+   "derivation": [
+    "requests: B3 - B2",
+    "errors: B3 - B2"
+   ]
+  },
+  {
+   "target": "BS",
+   "window": "W4",
+   "reason": "usable",
+   "requests": [
+    278000,
+    280000,
+    282000
+   ],
+   "errors": [
+    6960,
+    7000,
+    7040
+   ],
+   "mean_requests_per_minute": 4666.666666666667,
+   "minutes": 60,
+   "counter_page": "C2.r2",
+   "histogram_page": "H2.r1",
+   "histogram_available": true,
+   "latency_included": true,
+   "bins": [
+    [
+     1390,
+     1400,
+     1410
+    ],
+    [
+     790,
+     800,
+     810
+    ],
+    [
+     590,
+     600,
+     610
+    ],
+    [
+     190,
+     200,
+     210
+    ]
+   ],
+   "derivation": [
+    "requests: B4 - B3",
+    "errors: B4 - B3"
+   ]
+  },
+  {
+   "target": "BI",
+   "window": "W1",
+   "reason": "usable",
+   "requests": [
+    158000,
+    160000,
+    162000
+   ],
+   "errors": [
+    2460,
+    2500,
+    2540
+   ],
+   "mean_requests_per_minute": 5333.333333333333,
+   "minutes": 30,
+   "counter_page": "C2.r2",
+   "histogram_page": "H2.r1",
+   "histogram_available": true,
+   "latency_included": true,
+   "bins": [
+    [
+     590,
+     600,
+     610
+    ],
+    [
+     190,
+     200,
+     210
+    ],
+    [
+     140,
+     150,
+     160
+    ],
+    [
+     40,
+     50,
+     60
+    ]
+   ],
+   "derivation": [
+    "requests: B1 - B0",
+    "errors: B1 - B0"
+   ]
+  },
+  {
+   "target": "BI",
+   "window": "W2",
+   "reason": "usable",
+   "requests": [
+    318000,
+    320000,
+    322000
+   ],
+   "errors": [
+    4480,
+    4500,
+    4520
+   ],
+   "mean_requests_per_minute": 5333.333333333333,
+   "minutes": 60,
+   "counter_page": "C2.r2",
+   "histogram_page": "H2.r1",
+   "histogram_available": true,
+   "latency_included": true,
+   "bins": [
+    [
+     890,
+     900,
+     910
+    ],
+    [
+     590,
+     600,
+     610
+    ],
+    [
+     290,
+     300,
+     310
+    ],
+    [
+     190,
+     200,
+     210
+    ]
+   ],
+   "derivation": [
+    "requests: B2 - B1",
+    "errors: documented reset, B2 - baseline 0"
+   ]
+  },
+  {
+   "target": "BI",
+   "window": "W3",
+   "reason": "usable",
+   "requests": [
+    158000,
+    160000,
+    162000
+   ],
+   "errors": [
+    3460,
+    3500,
+    3540
+   ],
+   "mean_requests_per_minute": 5333.333333333333,
+   "minutes": 30,
+   "counter_page": "C2.r2",
+   "histogram_page": "H2.r1",
+   "histogram_available": true,
+   "latency_included": true,
+   "bins": [
+    [
+     790,
+     800,
+     810
+    ],
+    [
+     390,
+     400,
+     410
+    ],
+    [
+     240,
+     250,
+     260
+    ],
+    [
+     40,
+     50,
+     60
+    ]
+   ],
+   "derivation": [
+    "requests: B3 - B2",
+    "errors: B3 - B2"
+   ]
+  },
+  {
+   "target": "BI",
+   "window": "W4",
+   "reason": "usable",
+   "requests": [
+    318000,
+    320000,
+    322000
+   ],
+   "errors": [
+    5460,
+    5500,
+    5540
+   ],
+   "mean_requests_per_minute": 5333.333333333333,
+   "minutes": 60,
+   "counter_page": "C2.r2",
+   "histogram_page": "H2.r1",
+   "histogram_available": true,
+   "latency_included": true,
+   "bins": [
+    [
+     1790,
+     1800,
+     1810
+    ],
+    [
+     990,
+     1000,
+     1010
+    ],
+    [
+     890,
+     900,
+     910
+    ],
+    [
+     290,
+     300,
+     310
+    ]
+   ],
+   "derivation": [
+    "requests: B4 - B3",
+    "errors: B4 - B3"
+   ]
+  },
+  {
+   "target": "CS",
+   "window": "W1",
+   "reason": "usable",
+   "requests": [
+    178000,
+    180000,
+    182000
+   ],
+   "errors": [
+    660,
+    700,
+    740
+   ],
+   "mean_requests_per_minute": 6000,
+   "minutes": 30,
+   "counter_page": "C3.r1",
+   "histogram_page": "H3.r1",
+   "histogram_available": true,
+   "latency_included": true,
+   "bins": [
+    [
+     590,
+     600,
+     610
+    ],
+    [
+     290,
+     300,
+     310
+    ],
+    [
+     70,
+     80,
+     90
+    ],
+    [
+     10,
+     20,
+     30
+    ]
+   ],
+   "derivation": [
+    "requests: B1 - B0",
+    "errors: B1 - B0"
+   ]
+  },
+  {
+   "target": "CS",
+   "window": "W2",
+   "reason": "usable",
+   "requests": [
+    358000,
+    360000,
+    362000
+   ],
+   "errors": [
+    860,
+    900,
+    940
+   ],
+   "mean_requests_per_minute": 6000,
+   "minutes": 60,
+   "counter_page": "C3.r1",
+   "histogram_page": "H3.r1",
+   "histogram_available": true,
+   "latency_included": true,
+   "bins": [
+    [
+     590,
+     600,
+     610
+    ],
+    [
+     290,
+     300,
+     310
+    ],
+    [
+     70,
+     80,
+     90
+    ],
+    [
+     10,
+     20,
+     30
+    ]
+   ],
+   "derivation": [
+    "requests: B2 - B1",
+    "errors: B2 - B1"
+   ]
+  },
+  {
+   "target": "CS",
+   "window": "W3",
+   "reason": "usable",
+   "requests": [
+    178000,
+    180000,
+    182000
+   ],
+   "errors": [
+    760,
+    800,
+    840
+   ],
+   "mean_requests_per_minute": 6000,
+   "minutes": 30,
+   "counter_page": "C3.r1",
+   "histogram_page": "H3.r1",
+   "histogram_available": true,
+   "latency_included": true,
+   "bins": [
+    [
+     590,
+     600,
+     610
+    ],
+    [
+     290,
+     300,
+     310
+    ],
+    [
+     70,
+     80,
+     90
+    ],
+    [
+     10,
+     20,
+     30
+    ]
+   ],
+   "derivation": [
+    "requests: B3 - B2",
+    "errors: B3 - B2"
+   ]
+  },
+  {
+   "target": "CS",
+   "window": "W4",
+   "reason": "usable",
+   "requests": [
+    358000,
+    360000,
+    362000
+   ],
+   "errors": [
+    960,
+    1000,
+    1040
+   ],
+   "mean_requests_per_minute": 6000,
+   "minutes": 60,
+   "counter_page": "C3.r1",
+   "histogram_page": "H3.r1",
+   "histogram_available": true,
+   "latency_included": true,
+   "bins": [
+    [
+     6975,
+     7000,
+     7025
+    ],
+    [
+     2963,
+     2988,
+     3013
+    ],
+    [
+     0,
+     12,
+     37
+    ],
+    [
+     0,
+     0,
+     25
+    ]
+   ],
+   "derivation": [
+    "requests: B4 - B3",
+    "errors: B4 - B3"
+   ]
+  },
+  {
+   "target": "CI",
+   "window": "W1",
+   "reason": "usable",
+   "requests": [
+    198000,
+    200000,
+    202000
+   ],
+   "errors": [
+    4460,
+    4500,
+    4540
+   ],
+   "mean_requests_per_minute": 6666.666666666667,
+   "minutes": 30,
+   "counter_page": "C3.r1",
+   "histogram_page": "H3.r1",
+   "histogram_available": true,
+   "latency_included": true,
+   "bins": [
+    [
+     490,
+     500,
+     510
+    ],
+    [
+     290,
+     300,
+     310
+    ],
+    [
+     140,
+     150,
+     160
+    ],
+    [
+     40,
+     50,
+     60
+    ]
+   ],
+   "derivation": [
+    "requests: B1 - B0",
+    "errors: B1 - B0"
+   ]
+  },
+  {
+   "target": "CI",
+   "window": "W2",
+   "reason": "usable",
+   "requests": [
+    398000,
+    400000,
+    402000
+   ],
+   "errors": [
+    5460,
+    5500,
+    5540
+   ],
+   "mean_requests_per_minute": 6666.666666666667,
+   "minutes": 60,
+   "counter_page": "C3.r1",
+   "histogram_page": "H3.r1",
+   "histogram_available": true,
+   "latency_included": true,
+   "bins": [
+    [
+     590,
+     600,
+     610
+    ],
+    [
+     290,
+     300,
+     310
+    ],
+    [
+     190,
+     200,
+     210
+    ],
+    [
+     90,
+     100,
+     110
+    ]
+   ],
+   "derivation": [
+    "requests: B2 - B1",
+    "errors: B2 - B1"
+   ]
+  },
+  {
+   "target": "CI",
+   "window": "W3",
+   "reason": "usable",
+   "requests": [
+    198000,
+    200000,
+    202000
+   ],
+   "errors": [
+    6460,
+    6500,
+    6540
+   ],
+   "mean_requests_per_minute": 6666.666666666667,
+   "minutes": 30,
+   "counter_page": "C3.r1",
+   "histogram_page": "H3.r1",
+   "histogram_available": true,
+   "latency_included": true,
+   "bins": [
+    [
+     690,
+     700,
+     710
+    ],
+    [
+     290,
+     300,
+     310
+    ],
+    [
+     240,
+     250,
+     260
+    ],
+    [
+     140,
+     150,
+     160
+    ]
+   ],
+   "derivation": [
+    "requests: B3 - B2",
+    "errors: B3 - B2"
+   ]
+  },
+  {
+   "target": "CI",
+   "window": "W4",
+   "reason": "usable",
+   "requests": [
+    398000,
+    400000,
+    402000
+   ],
+   "errors": [
+    7460,
+    7500,
+    7540
+   ],
+   "mean_requests_per_minute": 6666.666666666667,
+   "minutes": 60,
+   "counter_page": "C3.r1",
+   "histogram_page": "H3.r1",
+   "histogram_available": true,
+   "latency_included": true,
+   "bins": [
+    [
+     890,
+     900,
+     910
+    ],
+    [
+     490,
+     500,
+     510
+    ],
+    [
+     390,
+     400,
+     410
+    ],
+    [
+     190,
+     200,
+     210
+    ]
+   ],
+   "derivation": [
+    "requests: B4 - B3",
+    "errors: B4 - B3"
+   ]
+  },
+  {
+   "target": "DS",
+   "window": "W1",
+   "reason": "usable",
+   "requests": [
+    218000,
+    220000,
+    222000
+   ],
+   "errors": [
+    1960,
+    2000,
+    2040
+   ],
+   "mean_requests_per_minute": 7333.333333333333,
+   "minutes": 30,
+   "counter_page": "C4.r1",
+   "histogram_page": "H4.r1",
+   "histogram_available": true,
+   "latency_included": true,
+   "bins": [
+    [
+     590,
+     600,
+     610
+    ],
+    [
+     240,
+     250,
+     260
+    ],
+    [
+     90,
+     100,
+     110
+    ],
+    [
+     40,
+     50,
+     60
+    ]
+   ],
+   "derivation": [
+    "requests: B1 - B0",
+    "errors: B1 - B0"
+   ]
+  },
+  {
+   "target": "DS",
+   "window": "W2",
+   "reason": "missing_traffic",
+   "requests": null,
+   "errors": null,
+   "mean_requests_per_minute": null,
+   "minutes": 60,
+   "counter_page": "C4.r1",
+   "histogram_page": "H4.r1",
+   "histogram_available": true,
+   "latency_included": false,
+   "bins": [
+    [
+     590,
+     600,
+     610
+    ],
+    [
+     190,
+     200,
+     210
+    ],
+    [
+     990,
+     1000,
+     1010
+    ],
+    [
+     190,
+     200,
+     210
+    ]
+   ],
+   "derivation": [
+    "requests: missing endpoint B2",
+    "errors: missing endpoint B2"
+   ]
+  },
+  {
+   "target": "DS",
+   "window": "W3",
+   "reason": "usable",
+   "requests": [
+    219000,
+    220000,
+    221000
+   ],
+   "errors": [
+    3980,
+    4000,
+    4020
+   ],
+   "mean_requests_per_minute": 7333.333333333333,
+   "minutes": 30,
+   "counter_page": "C4.r1",
+   "histogram_page": "H4.r1",
+   "histogram_available": true,
+   "latency_included": true,
+   "bins": [
+    [
+     790,
+     800,
+     810
+    ],
+    [
+     290,
+     300,
+     310
+    ],
+    [
+     290,
+     300,
+     310
+    ],
+    [
+     90,
+     100,
+     110
+    ]
+   ],
+   "derivation": [
+    "requests: documented reset, B3 - baseline 0",
+    "errors: documented reset, B3 - baseline 0"
+   ]
+  },
+  {
+   "target": "DS",
+   "window": "W4",
+   "reason": "usable",
+   "requests": [
+    438000,
+    440000,
+    442000
+   ],
+   "errors": [
+    4960,
+    5000,
+    5040
+   ],
+   "mean_requests_per_minute": 7333.333333333333,
+   "minutes": 60,
+   "counter_page": "C4.r1",
+   "histogram_page": "H4.r1",
+   "histogram_available": true,
+   "latency_included": true,
+   "bins": [
+    [
+     1190,
+     1200,
+     1210
+    ],
+    [
+     490,
+     500,
+     510
+    ],
+    [
+     190,
+     200,
+     210
+    ],
+    [
+     90,
+     100,
+     110
+    ]
+   ],
+   "derivation": [
+    "requests: B4 - B3",
+    "errors: B4 - B3"
+   ]
+  },
+  {
+   "target": "DI",
+   "window": "W1",
+   "reason": "usable",
+   "requests": [
+    238000,
+    240000,
+    242000
+   ],
+   "errors": [
+    1460,
+    1500,
+    1540
+   ],
+   "mean_requests_per_minute": 8000,
+   "minutes": 30,
+   "counter_page": "C4.r1",
+   "histogram_page": "H4.r1",
+   "histogram_available": true,
+   "latency_included": true,
+   "bins": [
+    [
+     1390,
+     1400,
+     1410
+    ],
+    [
+     550,
+     560,
+     570
+    ],
+    [
+     20,
+     30,
+     40
+    ],
+    [
+     0,
+     10,
+     20
+    ]
+   ],
+   "derivation": [
+    "requests: B1 - B0",
+    "errors: B1 - B0"
+   ]
+  },
+  {
+   "target": "DI",
+   "window": "W2",
+   "reason": "maintenance",
+   "requests": [
+    478000,
+    480000,
+    482000
+   ],
+   "errors": [
+    8960,
+    9000,
+    9040
+   ],
+   "mean_requests_per_minute": 8000,
+   "minutes": 60,
+   "counter_page": "C4.r1",
+   "histogram_page": "H4.r1",
+   "histogram_available": true,
+   "latency_included": false,
+   "bins": [
+    [
+     90,
+     100,
+     110
+    ],
+    [
+     90,
+     100,
+     110
+    ],
+    [
+     590,
+     600,
+     610
+    ],
+    [
+     190,
+     200,
+     210
+    ]
+   ],
+   "derivation": [
+    "requests: B2 - B1",
+    "errors: B2 - B1"
+   ]
+  },
+  {
+   "target": "DI",
+   "window": "W3",
+   "reason": "usable",
+   "requests": [
+    238000,
+    240000,
+    242000
+   ],
+   "errors": [
+    1760,
+    1800,
+    1840
+   ],
+   "mean_requests_per_minute": 8000,
+   "minutes": 30,
+   "counter_page": "C4.r1",
+   "histogram_page": "H4.r1",
+   "histogram_available": true,
+   "latency_included": true,
+   "bins": [
+    [
+     1390,
+     1400,
+     1410
+    ],
+    [
+     550,
+     560,
+     570
+    ],
+    [
+     20,
+     30,
+     40
+    ],
+    [
+     0,
+     10,
+     20
+    ]
+   ],
+   "derivation": [
+    "requests: B3 - B2",
+    "errors: B3 - B2"
+   ]
+  },
+  {
+   "target": "DI",
+   "window": "W4",
+   "reason": "usable",
+   "requests": [
+    478000,
+    480000,
+    482000
+   ],
+   "errors": [
+    2160,
+    2200,
+    2240
+   ],
+   "mean_requests_per_minute": 8000,
+   "minutes": 60,
+   "counter_page": "C4.r1",
+   "histogram_page": "H4.r1",
+   "histogram_available": true,
+   "latency_included": true,
+   "bins": [
+    [
+     1390,
+     1400,
+     1410
+    ],
+    [
+     550,
+     560,
+     570
+    ],
+    [
+     20,
+     30,
+     40
+    ],
+    [
+     0,
+     10,
+     20
+    ]
+   ],
+   "derivation": [
+    "requests: B4 - B3",
+    "errors: B4 - B3"
+   ]
+  }
+ ],
+ "targets": {
+  "AS": {
+   "region": "Alder",
+   "usable_windows": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ],
+   "excluded_windows": {},
+   "histogram_windows": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ],
+   "requests": 600000,
+   "errors": 10000,
+   "failure_fraction": 0.016666666666666666,
+   "error_bounds": [
+    9860,
+    10140
+   ],
+   "pooled_bins": [
+    2150,
+    1150,
+    500,
+    200
+   ],
+   "pooled_bin_bounds": [
+    [
+     2110,
+     2190
+    ],
+    [
+     1110,
+     1190
+    ],
+    [
+     460,
+     540
+    ],
+    [
+     160,
+     240
+    ]
+   ],
+   "sample_bounds": [
+    3840,
+    4160
+   ],
+   "samples": 4000,
+   "slow_fraction": 0.175,
+   "slow_bounds": [
+    0.155,
+    0.195
+   ],
+   "p95_bin": "(300,1000]",
+   "latency_eligible": true,
+   "eligibility_stable": true,
+   "rollout_eligible": true,
+   "block_reason": null,
+   "weighted_risk": 10000
+  },
+  "AI": {
+   "region": "Alder",
+   "usable_windows": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ],
+   "excluded_windows": {},
+   "histogram_windows": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ],
+   "requests": 720000,
+   "errors": 2800,
+   "failure_fraction": 0.0038888888888888888,
+   "error_bounds": [
+    2640,
+    2960
+   ],
+   "pooled_bins": [
+    5600,
+    2240,
+    120,
+    40
+   ],
+   "pooled_bin_bounds": [
+    [
+     5560,
+     5640
+    ],
+    [
+     2200,
+     2280
+    ],
+    [
+     80,
+     160
+    ],
+    [
+     0,
+     80
+    ]
+   ],
+   "sample_bounds": [
+    7840,
+    8160
+   ],
+   "samples": 8000,
+   "slow_fraction": 0.02,
+   "slow_bounds": [
+    0.01,
+    0.03
+   ],
+   "p95_bin": "(100,300]",
+   "latency_eligible": false,
+   "eligibility_stable": true,
+   "rollout_eligible": false,
+   "block_reason": "latency",
+   "weighted_risk": 4200
+  },
+  "BS": {
+   "region": "Birch",
+   "usable_windows": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ],
+   "excluded_windows": {},
+   "histogram_windows": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ],
+   "requests": 840000,
+   "errors": 20000,
+   "failure_fraction": 0.023809523809523808,
+   "error_bounds": [
+    19840,
+    20160
+   ],
+   "pooled_bins": [
+    3600,
+    2000,
+    1400,
+    500
+   ],
+   "pooled_bin_bounds": [
+    [
+     3560,
+     3640
+    ],
+    [
+     1960,
+     2040
+    ],
+    [
+     1360,
+     1440
+    ],
+    [
+     460,
+     540
+    ]
+   ],
+   "sample_bounds": [
+    7340,
+    7660
+   ],
+   "samples": 7500,
+   "slow_fraction": 0.25333333333333335,
+   "slow_bounds": [
+    0.24266666666666667,
+    0.264
+   ],
+   "p95_bin": ">1000",
+   "latency_eligible": true,
+   "eligibility_stable": true,
+   "rollout_eligible": true,
+   "block_reason": null,
+   "weighted_risk": 20000
+  },
+  "BI": {
+   "region": "Birch",
+   "usable_windows": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ],
+   "excluded_windows": {},
+   "histogram_windows": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ],
+   "requests": 960000,
+   "errors": 16000,
+   "failure_fraction": 0.016666666666666666,
+   "error_bounds": [
+    15860,
+    16140
+   ],
+   "pooled_bins": [
+    4100,
+    2200,
+    1600,
+    600
+   ],
+   "pooled_bin_bounds": [
+    [
+     4060,
+     4140
+    ],
+    [
+     2160,
+     2240
+    ],
+    [
+     1560,
+     1640
+    ],
+    [
+     560,
+     640
+    ]
+   ],
+   "sample_bounds": [
+    8340,
+    8660
+   ],
+   "samples": 8500,
+   "slow_fraction": 0.25882352941176473,
+   "slow_bounds": [
+    0.24941176470588236,
+    0.26823529411764707
+   ],
+   "p95_bin": ">1000",
+   "latency_eligible": true,
+   "eligibility_stable": true,
+   "rollout_eligible": true,
+   "block_reason": null,
+   "weighted_risk": 24000
+  },
+  "CS": {
+   "region": "Cedar",
+   "usable_windows": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ],
+   "excluded_windows": {},
+   "histogram_windows": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ],
+   "requests": 1080000,
+   "errors": 3400,
+   "failure_fraction": 0.003148148148148148,
+   "error_bounds": [
+    3240,
+    3560
+   ],
+   "pooled_bins": [
+    8800,
+    3888,
+    252,
+    60
+   ],
+   "pooled_bin_bounds": [
+    [
+     8745,
+     8855
+    ],
+    [
+     3833,
+     3943
+    ],
+    [
+     210,
+     307
+    ],
+    [
+     30,
+     115
+    ]
+   ],
+   "sample_bounds": [
+    12818,
+    13220
+   ],
+   "samples": 13000,
+   "slow_fraction": 0.024,
+   "slow_bounds": [
+    0.01840773124712379,
+    0.03246153846153846
+   ],
+   "p95_bin": "(100,300]",
+   "latency_eligible": false,
+   "eligibility_stable": true,
+   "rollout_eligible": false,
+   "block_reason": "latency",
+   "weighted_risk": 3400
+  },
+  "CI": {
+   "region": "Cedar",
+   "usable_windows": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ],
+   "excluded_windows": {},
+   "histogram_windows": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ],
+   "requests": 1200000,
+   "errors": 24000,
+   "failure_fraction": 0.02,
+   "error_bounds": [
+    23840,
+    24160
+   ],
+   "pooled_bins": [
+    2700,
+    1400,
+    1000,
+    500
+   ],
+   "pooled_bin_bounds": [
+    [
+     2660,
+     2740
+    ],
+    [
+     1360,
+     1440
+    ],
+    [
+     960,
+     1040
+    ],
+    [
+     460,
+     540
+    ]
+   ],
+   "sample_bounds": [
+    5440,
+    5760
+   ],
+   "samples": 5600,
+   "slow_fraction": 0.26785714285714285,
+   "slow_bounds": [
+    0.25357142857142856,
+    0.28214285714285714
+   ],
+   "p95_bin": ">1000",
+   "latency_eligible": true,
+   "eligibility_stable": true,
+   "rollout_eligible": false,
+   "block_reason": "region_freeze",
+   "weighted_risk": 36000
+  },
+  "DS": {
+   "region": "Delta",
+   "usable_windows": [
+    "W1",
+    "W3",
+    "W4"
+   ],
+   "excluded_windows": {
+    "W2": "missing_traffic"
+   },
+   "histogram_windows": [
+    "W1",
+    "W3",
+    "W4"
+   ],
+   "requests": 880000,
+   "errors": 11000,
+   "failure_fraction": 0.0125,
+   "error_bounds": [
+    10900,
+    11100
+   ],
+   "pooled_bins": [
+    2600,
+    1050,
+    600,
+    250
+   ],
+   "pooled_bin_bounds": [
+    [
+     2570,
+     2630
+    ],
+    [
+     1020,
+     1080
+    ],
+    [
+     570,
+     630
+    ],
+    [
+     220,
+     280
+    ]
+   ],
+   "sample_bounds": [
+    4380,
+    4620
+   ],
+   "samples": 4500,
+   "slow_fraction": 0.18888888888888888,
+   "slow_bounds": [
+    0.17555555555555555,
+    0.20222222222222222
+   ],
+   "p95_bin": ">1000",
+   "latency_eligible": true,
+   "eligibility_stable": true,
+   "rollout_eligible": true,
+   "block_reason": null,
+   "weighted_risk": 11000
+  },
+  "DI": {
+   "region": "Delta",
+   "usable_windows": [
+    "W1",
+    "W3",
+    "W4"
+   ],
+   "excluded_windows": {
+    "W2": "maintenance"
+   },
+   "histogram_windows": [
+    "W1",
+    "W3",
+    "W4"
+   ],
+   "requests": 960000,
+   "errors": 5500,
+   "failure_fraction": 0.005729166666666666,
+   "error_bounds": [
+    5380,
+    5620
+   ],
+   "pooled_bins": [
+    4200,
+    1680,
+    90,
+    30
+   ],
+   "pooled_bin_bounds": [
+    [
+     4170,
+     4230
+    ],
+    [
+     1650,
+     1710
+    ],
+    [
+     60,
+     120
+    ],
+    [
+     0,
+     60
+    ]
+   ],
+   "sample_bounds": [
+    5880,
+    6120
+   ],
+   "samples": 6000,
+   "slow_fraction": 0.02,
+   "slow_bounds": [
+    0.01,
+    0.03
+   ],
+   "p95_bin": "(100,300]",
+   "latency_eligible": false,
+   "eligibility_stable": true,
+   "rollout_eligible": false,
+   "block_reason": "latency",
+   "weighted_risk": 8250
+  }
+ },
+ "fleet": {
+  "requests": 7240000,
+  "errors": 92700,
+  "failure_fraction": 0.012803867403314918
+ },
+ "plan": {
+  "tiers": {
+   "AS": 0,
+   "AI": 0,
+   "BS": 1,
+   "BI": 2,
+   "CS": 0,
+   "CI": 0,
+   "DS": 0,
+   "DI": 0
+  },
+  "credits": 14,
+  "power": 8,
+  "active_regions": [
+   "Birch"
+  ],
+  "objective": 26320,
+  "objective_bounds": [
+   26097.2,
+   26542.8
+  ],
+  "total_weighted_risk": 116850,
+  "residual_risk": 90530,
+  "robust_margin": 1111.2,
+  "robust": true,
+  "closest_rival": {
+   "tiers": {
+    "AS": 0,
+    "AI": 0,
+    "BS": 1,
+    "BI": 1,
+    "CS": 0,
+    "CI": 0,
+    "DS": 1,
+    "DI": 0
+   },
+   "objective": 25100,
+   "credits": 14,
+   "power": 8
+  },
+  "feasible_vectors": 30,
+  "slack": {
+   "credits": 2,
+   "power": 3,
+   "active_regions": 1
+  },
+  "blocked": {
+   "AI": "latency",
+   "CS": "latency",
+   "CI": "region_freeze",
+   "DI": "latency"
+  }
+ },
+ "scenarios": [
+  {
+   "credit_budget": 14,
+   "tiers": {
+    "AS": 0,
+    "AI": 0,
+    "BS": 1,
+    "BI": 2,
+    "CS": 0,
+    "CI": 0,
+    "DS": 0,
+    "DI": 0
+   },
+   "credits": 14,
+   "power": 8,
+   "active_regions": [
+    "Birch"
+   ],
+   "objective": 26320
+  },
+  {
+   "credit_budget": 18,
+   "tiers": {
+    "AS": 0,
+    "AI": 0,
+    "BS": 1,
+    "BI": 2,
+    "CS": 0,
+    "CI": 0,
+    "DS": 1,
+    "DI": 0
+   },
+   "credits": 18,
+   "power": 10,
+   "active_regions": [
+    "Birch",
+    "Delta"
+   ],
+   "objective": 31820
+  }
+ ],
+ "execution": {
+  "actions": [
+   {
+    "target": "BS",
+    "tier": 1,
+    "start": 0,
+    "finish": 2,
+    "ready": 2
+   },
+   {
+    "target": "DS",
+    "tier": 1,
+    "start": 0,
+    "finish": 1,
+    "ready": 1
+   },
+   {
+    "target": "BI",
+    "tier": 1,
+    "start": 3,
+    "finish": 4,
+    "ready": 5
+   }
+  ],
+  "slots": [
+   {
+    "slot": 0,
+    "occupied": [
+     "BS",
+     "DS"
+    ],
+    "effective_tiers": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 0,
+     "BI": 0,
+     "CS": 0,
+     "CI": 0,
+     "DS": 0,
+     "DI": 0
+    },
+    "installed_ready_tiers": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 0,
+     "BI": 0,
+     "CS": 0,
+     "CI": 0,
+     "DS": 0,
+     "DI": 0
+    }
+   },
+   {
+    "slot": 1,
+    "occupied": [
+     "BS"
+    ],
+    "effective_tiers": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 0,
+     "BI": 0,
+     "CS": 0,
+     "CI": 0,
+     "DS": 1,
+     "DI": 0
+    },
+    "installed_ready_tiers": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 0,
+     "BI": 0,
+     "CS": 0,
+     "CI": 0,
+     "DS": 1,
+     "DI": 0
+    }
+   },
+   {
+    "slot": 2,
+    "occupied": [],
+    "effective_tiers": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 1,
+     "BI": 0,
+     "CS": 0,
+     "CI": 0,
+     "DS": 1,
+     "DI": 0
+    },
+    "installed_ready_tiers": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 1,
+     "BI": 0,
+     "CS": 0,
+     "CI": 0,
+     "DS": 1,
+     "DI": 0
+    }
+   },
+   {
+    "slot": 3,
+    "occupied": [
+     "BI"
+    ],
+    "effective_tiers": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 1,
+     "BI": 0,
+     "CS": 0,
+     "CI": 0,
+     "DS": 1,
+     "DI": 0
+    },
+    "installed_ready_tiers": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 1,
+     "BI": 0,
+     "CS": 0,
+     "CI": 0,
+     "DS": 1,
+     "DI": 0
+    }
+   },
+   {
+    "slot": 4,
+    "occupied": [],
+    "effective_tiers": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 1,
+     "BI": 0,
+     "CS": 0,
+     "CI": 0,
+     "DS": 1,
+     "DI": 0
+    },
+    "installed_ready_tiers": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 1,
+     "BI": 0,
+     "CS": 0,
+     "CI": 0,
+     "DS": 1,
+     "DI": 0
+    }
+   },
+   {
+    "slot": 5,
+    "occupied": [],
+    "effective_tiers": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 1,
+     "BI": 1,
+     "CS": 0,
+     "CI": 0,
+     "DS": 1,
+     "DI": 0
+    },
+    "installed_ready_tiers": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 1,
+     "BI": 1,
+     "CS": 0,
+     "CI": 0,
+     "DS": 1,
+     "DI": 0
+    }
+   }
+  ],
+  "final_tiers": {
+   "AS": 0,
+   "AI": 0,
+   "BS": 1,
+   "BI": 1,
+   "CS": 0,
+   "CI": 0,
+   "DS": 1,
+   "DI": 0
+  },
+  "credits": 14,
+  "power": 8,
+  "active_regions": [
+   "Birch",
+   "Delta"
+  ],
+  "peak_crews": 2,
+  "start_vector": [
+   7,
+   7,
+   7,
+   7,
+   0,
+   7,
+   3,
+   7,
+   7,
+   7,
+   7,
+   7,
+   0,
+   7,
+   7,
+   7
+  ],
+  "cases": [
+   {
+    "id": "weekday",
+    "baseline": 1307100,
+    "net": 157170,
+    "net_bounds": [
+     155845.2,
+     158494.8
+    ],
+    "residual": 1149930,
+    "net_error_coefficients": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 4.7,
+     "BI": 0.27,
+     "CS": 0,
+     "CI": 0,
+     "DS": 5.35,
+     "DI": 0
+    }
+   },
+   {
+    "id": "write-burst",
+    "baseline": 1520800,
+    "net": 121050,
+    "net_bounds": [
+     120009,
+     122091
+    ],
+    "residual": 1399750,
+    "net_error_coefficients": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 2.05,
+     "BI": 2.7,
+     "CS": 0,
+     "CI": 0,
+     "DS": 3.35,
+     "DI": 0
+    }
+   },
+   {
+    "id": "regional-shift",
+    "baseline": 1333850,
+    "net": 171690,
+    "net_bounds": [
+     170204.4,
+     173175.6
+    ],
+    "residual": 1162160,
+    "net_error_coefficients": {
+     "AS": 0,
+     "AI": 0,
+     "BS": 3.2,
+     "BI": 0.99,
+     "CS": 0,
+     "CI": 0,
+     "DS": 8.35,
+     "DI": 0
+    }
+   }
+  ],
+  "worst_case_net": 121050,
+  "total_case_net": 449910,
+  "feasible_schedules": 309,
+  "horizon": 6,
+  "contingency": {
+   "reveal": 1,
+   "prefix": [
+    {
+     "target": "DS",
+     "tier": 1,
+     "start": 0,
+     "finish": 1,
+     "ready": 1
+    }
+   ],
+   "branches": [
+    {
+     "actions": [
+      {
+       "target": "DS",
+       "tier": 1,
+       "start": 0,
+       "finish": 1,
+       "ready": 1
+      },
+      {
+       "target": "BS",
+       "tier": 1,
+       "start": 1,
+       "finish": 3,
+       "ready": 3
+      },
+      {
+       "target": "DS",
+       "tier": 2,
+       "start": 2,
+       "finish": 3,
+       "ready": 4
+      }
+     ],
+     "slots": [
+      {
+       "slot": 0,
+       "occupied": [
+        "DS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       },
+       "installed_ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 1,
+       "occupied": [
+        "BS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 2,
+       "occupied": [
+        "BS",
+        "DS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       },
+       "installed_ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 3,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 4,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 2,
+        "DI": 0
+       },
+       "installed_ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 2,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 5,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 2,
+        "DI": 0
+       },
+       "installed_ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 2,
+        "DI": 0
+       }
+      }
+     ],
+     "final_tiers": {
+      "AS": 0,
+      "AI": 0,
+      "BS": 1,
+      "BI": 0,
+      "CS": 0,
+      "CI": 0,
+      "DS": 2,
+      "DI": 0
+     },
+     "credits": 13,
+     "power": 7,
+     "active_regions": [
+      "Birch",
+      "Delta"
+     ],
+     "peak_crews": 2,
+     "start_vector": [
+      7,
+      7,
+      7,
+      7,
+      1,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      0,
+      2,
+      7,
+      7
+     ],
+     "case": {
+      "id": "weekday",
+      "baseline": 1307100,
+      "net": 144260,
+      "net_bounds": [
+       143026,
+       145494
+      ],
+      "residual": 1162840,
+      "net_error_coefficients": {
+       "AS": 0,
+       "AI": 0,
+       "BS": 3.55,
+       "BI": 0,
+       "CS": 0,
+       "CI": 0,
+       "DS": 6.66,
+       "DI": 0
+      }
+     }
+    },
+    {
+     "actions": [
+      {
+       "target": "DS",
+       "tier": 1,
+       "start": 0,
+       "finish": 1,
+       "ready": 1
+      },
+      {
+       "target": "BI",
+       "tier": 1,
+       "start": 1,
+       "finish": 2,
+       "ready": 3
+      },
+      {
+       "target": "BS",
+       "tier": 1,
+       "start": 3,
+       "finish": 5,
+       "ready": 5
+      }
+     ],
+     "slots": [
+      {
+       "slot": 0,
+       "occupied": [
+        "DS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       },
+       "installed_ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 1,
+       "occupied": [
+        "BI"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 2,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 3,
+       "occupied": [
+        "BS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 1,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 1,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 4,
+       "occupied": [
+        "BS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 1,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 1,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 5,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 1,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 1,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      }
+     ],
+     "final_tiers": {
+      "AS": 0,
+      "AI": 0,
+      "BS": 1,
+      "BI": 1,
+      "CS": 0,
+      "CI": 0,
+      "DS": 1,
+      "DI": 0
+     },
+     "credits": 14,
+     "power": 8,
+     "active_regions": [
+      "Birch",
+      "Delta"
+     ],
+     "peak_crews": 1,
+     "start_vector": [
+      7,
+      7,
+      7,
+      7,
+      3,
+      7,
+      1,
+      7,
+      7,
+      7,
+      7,
+      7,
+      0,
+      7,
+      7,
+      7
+     ],
+     "case": {
+      "id": "write-burst",
+      "baseline": 1520800,
+      "net": 171650,
+      "net_bounds": [
+       170138.5,
+       173161.5
+      ],
+      "residual": 1349150,
+      "net_error_coefficients": {
+       "AS": 0,
+       "AI": 0,
+       "BS": 0.2,
+       "BI": 8.175,
+       "CS": 0,
+       "CI": 0,
+       "DS": 3.35,
+       "DI": 0
+      }
+     }
+    },
+    {
+     "actions": [
+      {
+       "target": "DS",
+       "tier": 1,
+       "start": 0,
+       "finish": 1,
+       "ready": 1
+      },
+      {
+       "target": "AS",
+       "tier": 1,
+       "start": 1,
+       "finish": 2,
+       "ready": 3
+      },
+      {
+       "target": "DS",
+       "tier": 2,
+       "start": 2,
+       "finish": 3,
+       "ready": 4
+      }
+     ],
+     "slots": [
+      {
+       "slot": 0,
+       "occupied": [
+        "DS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       },
+       "installed_ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 1,
+       "occupied": [
+        "AS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 2,
+       "occupied": [
+        "DS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       },
+       "installed_ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 3,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 1,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_ready_tiers": {
+        "AS": 1,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 4,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 1,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 2,
+        "DI": 0
+       },
+       "installed_ready_tiers": {
+        "AS": 1,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 2,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 5,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 1,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 2,
+        "DI": 0
+       },
+       "installed_ready_tiers": {
+        "AS": 1,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 2,
+        "DI": 0
+       }
+      }
+     ],
+     "final_tiers": {
+      "AS": 1,
+      "AI": 0,
+      "BS": 0,
+      "BI": 0,
+      "CS": 0,
+      "CI": 0,
+      "DS": 2,
+      "DI": 0
+     },
+     "credits": 11,
+     "power": 6,
+     "active_regions": [
+      "Alder",
+      "Delta"
+     ],
+     "peak_crews": 1,
+     "start_vector": [
+      1,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      0,
+      2,
+      7,
+      7
+     ],
+     "case": {
+      "id": "regional-shift",
+      "baseline": 1333850,
+      "net": 160695,
+      "net_bounds": [
+       158962.05,
+       162427.95
+      ],
+      "residual": 1173155,
+      "net_error_coefficients": {
+       "AS": 5.5425,
+       "AI": 0,
+       "BS": 0,
+       "BI": 0,
+       "CS": 0,
+       "CI": 0,
+       "DS": 9.57,
+       "DI": 0
+      }
+     }
+    }
+   ],
+   "worst_case_net": 144260,
+   "total_case_net": 476605,
+   "total_credits": 38,
+   "total_power": 21,
+   "information_value": 23210
+  },
+  "staged": {
+   "coarse_at": 1,
+   "exact_at": 3,
+   "sum_weight": 0.1,
+   "prefix": [
+    {
+     "target": "BS",
+     "tier": 1,
+     "start": 0,
+     "finish": 2,
+     "ready": 2
+    },
+    {
+     "target": "DS",
+     "tier": 1,
+     "start": 0,
+     "finish": 1,
+     "ready": 1
+    }
+   ],
+   "group_prefixes": [
+    {
+     "signal": "shared",
+     "case_ids": [
+      "weekday",
+      "write-burst"
+     ],
+     "actions": [
+      {
+       "target": "BS",
+       "tier": 1,
+       "start": 0,
+       "finish": 2,
+       "ready": 2
+      },
+      {
+       "target": "DS",
+       "tier": 1,
+       "start": 0,
+       "finish": 1,
+       "ready": 1
+      }
+     ]
+    },
+    {
+     "signal": "shift",
+     "case_ids": [
+      "regional-shift"
+     ],
+     "actions": [
+      {
+       "target": "BS",
+       "tier": 1,
+       "start": 0,
+       "finish": 2,
+       "ready": 2
+      },
+      {
+       "target": "DS",
+       "tier": 1,
+       "start": 0,
+       "finish": 1,
+       "ready": 1
+      }
+     ]
+    }
+   ],
+   "branches": [
+    {
+     "actions": [
+      {
+       "target": "BS",
+       "tier": 1,
+       "start": 0,
+       "finish": 2,
+       "ready": 2
+      },
+      {
+       "target": "DS",
+       "tier": 1,
+       "start": 0,
+       "finish": 1,
+       "ready": 1
+      },
+      {
+       "target": "BI",
+       "tier": 1,
+       "start": 3,
+       "finish": 4,
+       "ready": 5
+      }
+     ],
+     "slots": [
+      {
+       "slot": 0,
+       "occupied": [
+        "BS",
+        "DS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       },
+       "installed_ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 1,
+       "occupied": [
+        "BS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 2,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 3,
+       "occupied": [
+        "BI"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 4,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 5,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 1,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 1,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      }
+     ],
+     "final_tiers": {
+      "AS": 0,
+      "AI": 0,
+      "BS": 1,
+      "BI": 1,
+      "CS": 0,
+      "CI": 0,
+      "DS": 1,
+      "DI": 0
+     },
+     "credits": 14,
+     "power": 8,
+     "active_regions": [
+      "Birch",
+      "Delta"
+     ],
+     "peak_crews": 2,
+     "start_vector": [
+      7,
+      7,
+      7,
+      7,
+      0,
+      7,
+      3,
+      7,
+      7,
+      7,
+      7,
+      7,
+      0,
+      7,
+      7,
+      7
+     ],
+     "case": {
+      "id": "weekday",
+      "baseline": 1307100,
+      "net": 157170,
+      "net_bounds": [
+       155845.2,
+       158494.8
+      ],
+      "residual": 1149930,
+      "net_error_coefficients": {
+       "AS": 0,
+       "AI": 0,
+       "BS": 4.7,
+       "BI": 0.27,
+       "CS": 0,
+       "CI": 0,
+       "DS": 5.35,
+       "DI": 0
+      }
+     }
+    },
+    {
+     "actions": [
+      {
+       "target": "BS",
+       "tier": 1,
+       "start": 0,
+       "finish": 2,
+       "ready": 2
+      },
+      {
+       "target": "DS",
+       "tier": 1,
+       "start": 0,
+       "finish": 1,
+       "ready": 1
+      },
+      {
+       "target": "BI",
+       "tier": 1,
+       "start": 3,
+       "finish": 4,
+       "ready": 5
+      }
+     ],
+     "slots": [
+      {
+       "slot": 0,
+       "occupied": [
+        "BS",
+        "DS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       },
+       "installed_ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 1,
+       "occupied": [
+        "BS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 2,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 3,
+       "occupied": [
+        "BI"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 4,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 5,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 1,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 1,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      }
+     ],
+     "final_tiers": {
+      "AS": 0,
+      "AI": 0,
+      "BS": 1,
+      "BI": 1,
+      "CS": 0,
+      "CI": 0,
+      "DS": 1,
+      "DI": 0
+     },
+     "credits": 14,
+     "power": 8,
+     "active_regions": [
+      "Birch",
+      "Delta"
+     ],
+     "peak_crews": 2,
+     "start_vector": [
+      7,
+      7,
+      7,
+      7,
+      0,
+      7,
+      3,
+      7,
+      7,
+      7,
+      7,
+      7,
+      0,
+      7,
+      7,
+      7
+     ],
+     "case": {
+      "id": "write-burst",
+      "baseline": 1520800,
+      "net": 121050,
+      "net_bounds": [
+       120009,
+       122091
+      ],
+      "residual": 1399750,
+      "net_error_coefficients": {
+       "AS": 0,
+       "AI": 0,
+       "BS": 2.05,
+       "BI": 2.7,
+       "CS": 0,
+       "CI": 0,
+       "DS": 3.35,
+       "DI": 0
+      }
+     }
+    },
+    {
+     "actions": [
+      {
+       "target": "BS",
+       "tier": 1,
+       "start": 0,
+       "finish": 2,
+       "ready": 2
+      },
+      {
+       "target": "DS",
+       "tier": 1,
+       "start": 0,
+       "finish": 1,
+       "ready": 1
+      },
+      {
+       "target": "BI",
+       "tier": 1,
+       "start": 3,
+       "finish": 4,
+       "ready": 5
+      }
+     ],
+     "slots": [
+      {
+       "slot": 0,
+       "occupied": [
+        "BS",
+        "DS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       },
+       "installed_ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 0,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 1,
+       "occupied": [
+        "BS"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 0,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 2,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 3,
+       "occupied": [
+        "BI"
+       ],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 4,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 0,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      },
+      {
+       "slot": 5,
+       "occupied": [],
+       "effective_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 1,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       },
+       "installed_ready_tiers": {
+        "AS": 0,
+        "AI": 0,
+        "BS": 1,
+        "BI": 1,
+        "CS": 0,
+        "CI": 0,
+        "DS": 1,
+        "DI": 0
+       }
+      }
+     ],
+     "final_tiers": {
+      "AS": 0,
+      "AI": 0,
+      "BS": 1,
+      "BI": 1,
+      "CS": 0,
+      "CI": 0,
+      "DS": 1,
+      "DI": 0
+     },
+     "credits": 14,
+     "power": 8,
+     "active_regions": [
+      "Birch",
+      "Delta"
+     ],
+     "peak_crews": 2,
+     "start_vector": [
+      7,
+      7,
+      7,
+      7,
+      0,
+      7,
+      3,
+      7,
+      7,
+      7,
+      7,
+      7,
+      0,
+      7,
+      7,
+      7
+     ],
+     "case": {
+      "id": "regional-shift",
+      "baseline": 1333850,
+      "net": 171690,
+      "net_bounds": [
+       170204.4,
+       173175.6
+      ],
+      "residual": 1162160,
+      "net_error_coefficients": {
+       "AS": 0,
+       "AI": 0,
+       "BS": 3.2,
+       "BI": 0.99,
+       "CS": 0,
+       "CI": 0,
+       "DS": 8.35,
+       "DI": 0
+      }
+     }
+    }
+   ],
+   "policy_value": 166041,
+   "worst_case_net": 121050,
+   "total_case_net": 449910,
+   "total_credits": 42,
+   "total_power": 24,
+   "fixed_schedule_policy_value": 166041
+  }
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "claims": [
+  {
+   "id": "R1",
+   "verdict": "incorrect",
+   "evidence": ["C2.r1", "C2.r2", "export-manifest.json", "corrections.md"],
+   "explanation": "export-manifest.json declares that C2.r2 supersedes C2.r1 with scope 'whole page', and corrections.md says the r1 Birch error series included retry-attempt accounting. The two pages describe the same BS/BI targets over the same boundaries B0-B4; their request counters are identical (e.g. BS 640k->1480k), so adding them would double-count requests. Only C2.r2 is authoritative: BS usable errors are 20,000 (W1 3,000, W2 6,000, W3 4,000, W4 7,000), not the 28,000 r1 would give, and not 48,000 for the sum."
+  },
+  {
+   "id": "R2",
+   "verdict": "incorrect",
+   "evidence": ["C1.r1", "operations.json"],
+   "explanation": "Alder Query API (AS) falls from 800k requests / 23k errors at B2 to 100k / 3k at B3. operations.json documents requests and errors resets for AS at the start of W3 with baseline 0, and B2 is the old-epoch final sample. So W3 = B3 level minus 0 = 100,000 requests and 3,000 errors. That is positive traffic, not negative demand, and clamping to zero would discard real W3 traffic. An undocumented drop would be an input error, not something to clamp."
+  },
+  {
+   "id": "R3",
+   "verdict": "incorrect",
+   "evidence": ["C4.r1", "operations.json", "corrections.md"],
+   "explanation": "The B2 sample for Delta Query API (DS) is UNKNOWN on C4.r1 (it is not a zero). W2 (B1->B2) needs the B2 end sample, so W2 is missing_traffic for both metrics. operations.json documents a DS requests and errors reset at the start of W3 with exact baseline 0, so W3 = B3 level - 0 = 220,000 requests and 4,000 errors without the missing old-epoch B2 sample. W1 and W4 are also usable. Only W2 is invalidated."
+  },
+  {
+   "id": "R4",
+   "verdict": "incorrect",
+   "evidence": ["H3.r1", "policy.md", "C3.r1"],
+   "explanation": "policy.md requires pooling bin counts over joined usable windows and forbids voting or averaging across windows. On H3.r1, Cedar Query API (CS) W1-W3 each have N=1,000 with 8%+2% slow (100 samples each). W4 has N=10,000 with only about 0.1% (about 10 samples) above 300 ms. All four windows have usable traffic on C3.r1. Pooled slow fraction is about 310/13,000 = 2.4%, which is not above the 5% trigger (the interval bound is at most 3.2%, so this is stable). CS is latency-ineligible."
+  },
+  {
+   "id": "R5",
+   "verdict": "incorrect",
+   "evidence": ["C3.r1", "planning.json", "H3.r1"],
+   "explanation": "Cedar Write API (CI) has the largest usable error total (24,000 across W1-W4 on C3.r1, risk 36,000 at weight 1.5), and its pooled H3.r1 slow fraction is 26.8%, so it is latency-eligible. However, planning.json marks region Cedar as frozen, so no positive tier is admissible in this change window. Its block reason is region_freeze, and its risk is reported as unserved. A large failure count does not override the freeze."
+  },
+  {
+   "id": "R6",
+   "verdict": "correct",
+   "evidence": ["C4.r1", "H4.r1", "operations.json"],
+   "explanation": "operations.json lists DI/W2 as maintenance. Its counter delta is still reconstructed and persisted (480,000 requests, 9,000 errors from C4.r1), but the window reason is maintenance, so it contributes neither demand nor errors. Its H4.r1 histogram (N=1,000, 80% slow) is not joined. DI therefore uses W1, W3 and W4: 5,500 errors, and 120/6,000 = 2.0% slow, so it is latency-ineligible. Including W2 would wrongly lift DI to about 13% slow."
+  },
+  {
+   "id": "R7",
+   "verdict": "incorrect",
+   "evidence": ["planning.json", "policy.md"],
+   "explanation": "policy.md section 4 lists credits, power, active-region count, per-region block caps, freezes and eligibility as separate feasibility rules. Counterexample from planning.json: AS tier 1 + BI tier 1 + DS tier 1 costs 3+4+3 plus activations 1+2+1 = 14 <= 16 credits but activates three regions (Alder, Birch, Delta) against max_active_regions 2, so it is infeasible. Likewise BS 2 + BI 2 would break Birch's 3-block cap. The chosen plan's limit comes from Birch's block cap and the credit budget, not credits alone."
+  },
+  {
+   "id": "R8",
+   "verdict": "unsupported",
+   "evidence": ["C1.r1", "C4.r1", "operations.json"],
+   "explanation": "operations.json records the collector rollout at B2 together with counter restarts (AS and DS resets at W3 start). These are instrument events, and the charts are observational cumulative counters without a control group or counterfactual. Some post-B2 fractions do differ (e.g. AS W3 3.0% vs W2 1.0%), but the timing alone cannot separate a deployment effect from traffic mix, reset accounting or chance. Pre-B2 DS W2 is missing entirely. The charts do not establish causation either way."
+  }
+ ]
+}

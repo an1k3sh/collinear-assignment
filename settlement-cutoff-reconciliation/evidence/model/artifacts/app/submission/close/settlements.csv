@@ -1,0 +1,5 @@
+merchant,batch,currency,sales_cents,refunds_cents,fees_cents,reserve_net_cents,expected_cents,bank_cents,difference_cents,status
+north,B-17,USD,18000,-2000,-450,-1000,14550,14550,0,matched
+north,B-18,USD,5000,0,-175,400,5225,5000,-225,exception
+north,B-19,USD,7000,0,-210,0,6790,0,-6790,pending
+south,B-17,USD,10000,0,-300,0,9700,9700,0,matched

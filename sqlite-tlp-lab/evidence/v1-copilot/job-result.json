@@ -1,0 +1,63 @@
+{
+    "id": "c7d8973f-d5f8-4cce-8cca-c3012efd273d",
+    "started_at": "2026-10-22T10:48:27.963541",
+    "updated_at": "2026-10-22T11:05:43.788283",
+    "finished_at": "2026-10-22T11:05:43.788283",
+    "n_total_trials": 1,
+    "stats": {
+        "n_completed_trials": 1,
+        "n_errored_trials": 0,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "copilot-cli__claude-opus-5.5__adhoc": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "artifact_quality": 1.0,
+                        "completeness": 1.0,
+                        "diversity": 1.0,
+                        "overall": 1.0,
+                        "validity": 1.0
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "overall": {
+                        "1.0": [
+                            "sqlite-tlp-lab__WsfRSRN"
+                        ]
+                    },
+                    "validity": {
+                        "1.0": [
+                            "sqlite-tlp-lab__WsfRSRN"
+                        ]
+                    },
+                    "completeness": {
+                        "1.0": [
+                            "sqlite-tlp-lab__WsfRSRN"
+                        ]
+                    },
+                    "diversity": {
+                        "1.0": [
+                            "sqlite-tlp-lab__WsfRSRN"
+                        ]
+                    },
+                    "artifact_quality": {
+                        "1.0": [
+                            "sqlite-tlp-lab__WsfRSRN"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        },
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": 0,
+        "cost_usd": null
+    }
+}

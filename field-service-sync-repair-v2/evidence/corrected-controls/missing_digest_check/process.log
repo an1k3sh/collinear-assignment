@@ -1,0 +1,102 @@
+test_artifacts_protected_inputs (test_service.ServiceTests.test_artifacts_protected_inputs) ... ok
+test_artifacts_report_and_regressions (test_service.ServiceTests.test_artifacts_report_and_regressions) ... FAIL
+test_batches_client_base_prediction_and_ack (test_service.ServiceTests.test_batches_client_base_prediction_and_ack) ... ok
+test_batches_client_partial_confirmation_restart (test_service.ServiceTests.test_batches_client_partial_confirmation_restart) ... ok
+test_batches_concurrent_duplicate_and_namespace (test_service.ServiceTests.test_batches_concurrent_duplicate_and_namespace) ... ok
+test_batches_conflict_and_fault_rollback (test_service.ServiceTests.test_batches_conflict_and_fault_rollback) ... ok
+test_batches_invalid_and_preserved_by_repair (test_service.ServiceTests.test_batches_invalid_and_preserved_by_repair) ... ok
+test_batches_precommitted_member_not_atomic (test_service.ServiceTests.test_batches_precommitted_member_not_atomic) ... ok
+test_batches_sequential_same_entity_and_retry (test_service.ServiceTests.test_batches_sequential_same_entity_and_retry) ... ok
+test_client_ack_and_pending (test_service.ServiceTests.test_client_ack_and_pending) ... ok
+test_client_checkpoint_and_gap_handling (test_service.ServiceTests.test_client_checkpoint_and_gap_handling) ... ok
+test_client_conflict_resolution_and_frozen_request (test_service.ServiceTests.test_client_conflict_resolution_and_frozen_request) ... ok
+test_client_generated_delivery_permutations (test_service.ServiceTests.test_client_generated_delivery_permutations) ... ok
+test_client_integer_precision_and_immutability (test_service.ServiceTests.test_client_integer_precision_and_immutability) ... ok
+test_client_snapshot_staging_and_interleaving (test_service.ServiceTests.test_client_snapshot_staging_and_interleaving) ... ok
+test_client_tombstones_and_optimistic_replay (test_service.ServiceTests.test_client_tombstones_and_optimistic_replay) ... ok
+test_confirmations_client_pull_before_ack (test_service.ServiceTests.test_confirmations_client_pull_before_ack) ... ok
+test_confirmations_client_snapshot_staging (test_service.ServiceTests.test_confirmations_client_snapshot_staging) ... ok
+test_confirmations_snapshot_history_and_cut (test_service.ServiceTests.test_confirmations_snapshot_history_and_cut) ... ok
+test_durability_atomic_replace (test_service.ServiceTests.test_durability_atomic_replace) ... ok
+test_durability_persist_before_exchange (test_service.ServiceTests.test_durability_persist_before_exchange) ... ok
+test_integration_atomic_batch_http_confirmation (test_service.ServiceTests.test_integration_atomic_batch_http_confirmation) ... ok
+test_integration_http_restart_lost_response (test_service.ServiceTests.test_integration_http_restart_lost_response) ... FAIL
+test_recovery_alternate_database_and_idempotence (test_service.ServiceTests.test_recovery_alternate_database_and_idempotence) ... ok
+test_recovery_delivered_incident_state (test_service.ServiceTests.test_recovery_delivered_incident_state) ... ok
+test_sync_cursor_scope_and_invalid_values (test_service.ServiceTests.test_sync_cursor_scope_and_invalid_values) ... ok
+test_sync_large_wire_values (test_service.ServiceTests.test_sync_large_wire_values) ... ok
+test_sync_pull_exclusive_frozen_and_gaps (test_service.ServiceTests.test_sync_pull_exclusive_frozen_and_gaps) ... ok
+test_sync_snapshot_frozen_history (test_service.ServiceTests.test_sync_snapshot_frozen_history) ... ok
+test_transactions_conflicts_do_not_consume_keys (test_service.ServiceTests.test_transactions_conflicts_do_not_consume_keys) ... ok
+test_transactions_generated_reference_replay (test_service.ServiceTests.test_transactions_generated_reference_replay) ... ok
+test_transactions_process_race (test_service.ServiceTests.test_transactions_process_race) ... ok
+test_transactions_receipt_identity_and_digest (test_service.ServiceTests.test_transactions_receipt_identity_and_digest) ... FAIL
+test_transactions_rollback_both_fault_boundaries (test_service.ServiceTests.test_transactions_rollback_both_fault_boundaries) ... ok
+test_transactions_validation_and_lifecycle (test_service.ServiceTests.test_transactions_validation_and_lifecycle) ... ok
+
+======================================================================
+FAIL: test_artifacts_report_and_regressions (test_service.ServiceTests.test_artifacts_report_and_regressions)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tests/test_service.py", line 416, in test_artifacts_report_and_regressions
+    self.assertEqual(python.returncode, 0, python.stdout + python.stderr)
+AssertionError: 1 != 0 : F.
+======================================================================
+FAIL: test_retry_and_key_reuse (regressions.Regression.test_retry_and_key_reuse)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/tmp_deltyvn/app/tests/regressions.py", line 20, in test_retry_and_key_reuse
+    with self.assertRaises(SyncError) as error:
+AssertionError: SyncError not raised
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.022s
+
+FAILED (failures=1)
+
+
+======================================================================
+FAIL: test_integration_http_restart_lost_response (test_service.ServiceTests.test_integration_http_restart_lost_response)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tests/test_service.py", line 406, in test_integration_http_restart_lost_response
+    self.js("http", self.temp.name, url)
+  File "/tests/test_service.py", line 90, in js
+    self.assertEqual(completed.returncode, 0, completed.stdout + completed.stderr)
+AssertionError: 1 != 0 : node:internal/modules/run_main:122
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+200 !== 409
+
+    at cases.http (file:///tests/client_checks.mjs:273:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///tests/client_checks.mjs:455:1 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: 200,
+  expected: 409,
+  operator: 'strictEqual'
+}
+
+Node.js v22.14.0
+
+
+======================================================================
+FAIL: test_transactions_receipt_identity_and_digest (test_service.ServiceTests.test_transactions_receipt_identity_and_digest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tests/test_service.py", line 132, in test_transactions_receipt_identity_and_digest
+    self.expect_error("idempotency_reuse", lambda: self.store.mutate(
+  File "/tests/test_service.py", line 81, in expect_error
+    with self.assertRaises(SyncError) as context:
+AssertionError: SyncError not raised
+
+----------------------------------------------------------------------
+Ran 35 tests in 1.255s
+
+FAILED (failures=3)
+
+{"artifacts": 0.5, "batches": 1.0, "client": 1.0, "confirmations": 1.0, "durability": 1.0, "integration": 0.5, "overall": 0.0, "recovery": 1.0, "sync": 1.0, "transactions": 0.8333333333333334}

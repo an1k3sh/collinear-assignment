@@ -1,0 +1,14 @@
+{
+  "tenant": "north",
+  "device": "van-7",
+  "actions": [
+    {"type":"SNAPSHOT","page":{"kind":"snapshot","tenant":"north","epoch":"dispatch-2026-04","cut":"9007199254740996","rows":[{"id":"pump-17","revision":"43","seq":"9007199254740996","body":{"title":"Inspect east pump","assignee":null,"visits":9,"done":true},"deleted":false}],"next_cursor":null}},
+    {"type":"QUEUE","mutation":"m-9","id":"pump-17","kind":"visit","data":{"amount":1}},
+    {"type":"SEND"},
+    {"type":"QUEUE","mutation":"m-10","id":"pump-17","kind":"patch","data":{"assignee":"Mira"}},
+    {"type":"ACK","response":{"ok":true,"tenant":"north","device":"van-7","mutation":"m-9","record":{"id":"pump-17","revision":"44","seq":"9007199254740999","body":{"title":"Inspect east pump","assignee":null,"visits":10,"done":true},"deleted":false}}}
+  ],
+  "expected_visible":{"visits":10,"assignee":"Mira"},
+  "expected_pending":["m-10"],
+  "expected_checkpoint":"9007199254740996"
+}

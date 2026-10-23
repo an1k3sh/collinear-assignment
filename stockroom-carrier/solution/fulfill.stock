@@ -1,0 +1,26 @@
+proc attempt(order: string, sku_a: string, qty_a: int,
+             sku_b: string, qty_b: int, warehouse: string) {
+    reserve(order + ".a", warehouse, sku_a, qty_a);
+    reserve(order + ".b", warehouse, sku_b, qty_b);
+    pause order + ":reserved";
+    ship(order + ".a", qty_a);
+    ship(order + ".b", qty_b);
+    emit "fulfilled" { order: order; warehouse: warehouse; units: qty_a + qty_b; };
+}
+
+proc fulfill(order: string, sku_a: string, qty_a: int,
+             sku_b: string, qty_b: int, preferred: string, fallback: string) {
+    transaction {
+        attempt(order, sku_a, qty_a, sku_b, qty_b, preferred);
+        return;
+    } recover (primary_error) {
+        assert code(primary_error) == "SHORTAGE";
+        transaction {
+            attempt(order, sku_a, qty_a, sku_b, qty_b, fallback);
+            return;
+        } recover (fallback_error) {
+            assert code(fallback_error) == "SHORTAGE";
+            emit "deferred" { order: order; reason: "SHORTAGE"; };
+        }
+    }
+}

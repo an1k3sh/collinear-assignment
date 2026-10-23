@@ -1,0 +1,98 @@
+[
+  {
+    "case": "original-v2",
+    "expected_accept": true,
+    "correctly_classified": true,
+    "scores": {
+      "content_fidelity": 4,
+      "editable_structure": 4,
+      "visual_organization": 4,
+      "navigation_furniture": 4
+    },
+    "weighted_score": 1.0,
+    "accepted": true,
+    "review_count": 2,
+    "disagreement": false,
+    "rubric_sha256": "0cbd26c7ec0967f600df302e87df35afd3be6b92b88a2a3d653798e7aaea4c4d"
+  },
+  {
+    "case": "valid-style-numbering",
+    "expected_accept": true,
+    "correctly_classified": true,
+    "scores": {
+      "content_fidelity": 4,
+      "editable_structure": 4,
+      "visual_organization": 4,
+      "navigation_furniture": 4
+    },
+    "weighted_score": 1.0,
+    "accepted": true,
+    "review_count": 2,
+    "disagreement": false,
+    "rubric_sha256": "0cbd26c7ec0967f600df302e87df35afd3be6b92b88a2a3d653798e7aaea4c4d"
+  },
+  {
+    "case": "wrong-total",
+    "expected_accept": false,
+    "correctly_classified": true,
+    "scores": {
+      "content_fidelity": 2,
+      "editable_structure": 4,
+      "visual_organization": 4,
+      "navigation_furniture": 4
+    },
+    "weighted_score": 0.825,
+    "accepted": false,
+    "review_count": 2,
+    "disagreement": false,
+    "rubric_sha256": "0cbd26c7ec0967f600df302e87df35afd3be6b92b88a2a3d653798e7aaea4c4d"
+  },
+  {
+    "case": "wrong-response-association",
+    "expected_accept": false,
+    "correctly_classified": true,
+    "scores": {
+      "content_fidelity": 2,
+      "editable_structure": 4,
+      "visual_organization": 4,
+      "navigation_furniture": 4
+    },
+    "weighted_score": 0.825,
+    "accepted": false,
+    "review_count": 2,
+    "disagreement": false,
+    "rubric_sha256": "0cbd26c7ec0967f600df302e87df35afd3be6b92b88a2a3d653798e7aaea4c4d"
+  },
+  {
+    "case": "page-images",
+    "expected_accept": false,
+    "correctly_classified": true,
+    "scores": {
+      "content_fidelity": 4,
+      "editable_structure": 0,
+      "visual_organization": 4,
+      "navigation_furniture": 2
+    },
+    "weighted_score": 0.65,
+    "accepted": false,
+    "review_count": 2,
+    "disagreement": false,
+    "rubric_sha256": "0cbd26c7ec0967f600df302e87df35afd3be6b92b88a2a3d653798e7aaea4c4d"
+  },
+  {
+    "case": "missing-footnote",
+    "expected_accept": false,
+    "correctly_classified": true,
+    "scores": {
+      "content_fidelity": 2,
+      "editable_structure": 2,
+      "visual_organization": 4,
+      "navigation_furniture": 3
+    },
+    "weighted_score": 0.65,
+    "accepted": false,
+    "review_count": 2,
+    "disagreement": false,
+    "rubric_sha256": "0cbd26c7ec0967f600df302e87df35afd3be6b92b88a2a3d653798e7aaea4c4d"
+  }
+]

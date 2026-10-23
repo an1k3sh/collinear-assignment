@@ -1,0 +1,5 @@
+merchant,invoice_id,issued,accepted,terms_days,amount_cents
+north,00123,2026-03-01,2026-04-20,30,10000
+north,123,2026-03-01,2026-03-01,30,20000
+south,00123,2026-04-01,2026-04-01,30,15000
+north,PAID-9,2026-02-01,2026-02-02,15,5000

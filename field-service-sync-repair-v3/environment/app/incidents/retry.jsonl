@@ -1,0 +1,4 @@
+{"step":1,"operation":"mutate","request":{"tenant":"north","device":"van-7","mutation":"m-9","id":"pump-17","base":"43","kind":"visit","data":{"amount":1}},"transport":"server commit; response lost"}
+{"step":2,"operation":"restart_client","note":"disk journal must retain exactly the first wire request"}
+{"step":3,"operation":"retry","expected":"same request, same receipt, visits incremented only once"}
+{"step":4,"operation":"same_local_id_other_device","request":{"tenant":"north","device":"van-8","mutation":"m-9","id":"pump-17","base":"44","kind":"patch","data":{"assignee":"Lee"}},"expected":"independent success"}

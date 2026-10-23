@@ -1,0 +1,82 @@
+test_artifact_durable_incident_state (__main__.ProjectionTests.test_artifact_durable_incident_state) ... ok
+test_constraint_immutable_host_and_inputs (__main__.ProjectionTests.test_constraint_immutable_host_and_inputs) ... ok
+test_constraint_incremental_locality (__main__.ProjectionTests.test_constraint_incremental_locality) ... ERROR
+test_constraint_other_group_cardinality (__main__.ProjectionTests.test_constraint_other_group_cardinality) ... ERROR
+test_functional_bags_distinct_and_retractable_extrema (__main__.ProjectionTests.test_functional_bags_distinct_and_retractable_extrema) ... ok
+test_functional_collision_free_group_keys (__main__.ProjectionTests.test_functional_collision_free_group_keys) ... ok
+test_functional_day_account_rekeys_and_deletes (__main__.ProjectionTests.test_functional_day_account_rekeys_and_deletes) ... ok
+test_functional_household_membership_is_per_group (__main__.ProjectionTests.test_functional_household_membership_is_per_group) ... ok
+test_functional_household_parallel_cycle_and_dormant_bridge (__main__.ProjectionTests.test_functional_household_parallel_cycle_and_dormant_bridge) ... ok
+test_functional_household_simultaneous_repartition_and_sources (__main__.ProjectionTests.test_functional_household_simultaneous_repartition_and_sources) ... ok
+test_functional_left_join_support_transitions (__main__.ProjectionTests.test_functional_left_join_support_transitions) ... ok
+test_functional_rate_fanout_and_null_nonmatches (__main__.ProjectionTests.test_functional_rate_fanout_and_null_nonmatches) ... ok
+test_functional_transaction_cross_terms (__main__.ProjectionTests.test_functional_transaction_cross_terms) ... ok
+test_robustness_coalesced_writes_and_change_order (__main__.ProjectionTests.test_robustness_coalesced_writes_and_change_order) ... ok
+test_robustness_generated_state_machine (__main__.ProjectionTests.test_robustness_generated_state_machine) ... ok
+test_robustness_household_rollback_then_split (__main__.ProjectionTests.test_robustness_household_rollback_then_split) ... ok
+test_robustness_rollback_retry_reopen (__main__.ProjectionTests.test_robustness_rollback_retry_reopen) ... ok
+test_robustness_upgrade_from_populated_prior_release (__main__.ProjectionTests.test_robustness_upgrade_from_populated_prior_release) ... ok
+
+======================================================================
+ERROR: test_constraint_incremental_locality (__main__.ProjectionTests.test_constraint_incremental_locality)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/app/runtime.py", line 102, in apply
+    maintainer.maintain(self.db, self.modes, changes)
+  File "/tests/test_projection.py", line 86, in call
+    return function(db, *args)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/app/maintainer.py", line 193, in maintain
+    bootstrap(db, modes)
+  File "/tests/test_projection.py", line 86, in call
+    return function(db, *args)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/app/maintainer.py", line 159, in bootstrap
+    for account, in db.execute("SELECT DISTINCT account FROM orders"):
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: interrupted
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/tests/test_projection.py", line 499, in test_constraint_incremental_locality
+    f.apply([put("orders", "target/o", account="target", day="busy", cents=-501)],
+  File "/tests/test_projection.py", line 247, in apply
+    self.store.apply(batch_id or f"batch-{self.counter}", mutations)
+  File "/app/runtime.py", line 111, in apply
+    self.db.execute("ROLLBACK")
+sqlite3.OperationalError: interrupted
+
+======================================================================
+ERROR: test_constraint_other_group_cardinality (__main__.ProjectionTests.test_constraint_other_group_cardinality)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/app/runtime.py", line 102, in apply
+    maintainer.maintain(self.db, self.modes, changes)
+  File "/tests/test_projection.py", line 86, in call
+    return function(db, *args)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/app/maintainer.py", line 193, in maintain
+    bootstrap(db, modes)
+  File "/tests/test_projection.py", line 86, in call
+    return function(db, *args)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/app/maintainer.py", line 168, in bootstrap
+    db.executemany(
+sqlite3.OperationalError: interrupted
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/tests/test_projection.py", line 629, in test_constraint_other_group_cardinality
+    f.apply([put("orders", "o1", account="separate/1", day=None, cents=-1)],
+  File "/tests/test_projection.py", line 247, in apply
+    self.store.apply(batch_id or f"batch-{self.counter}", mutations)
+  File "/app/runtime.py", line 111, in apply
+    self.db.execute("ROLLBACK")
+sqlite3.OperationalError: interrupted
+
+----------------------------------------------------------------------
+Ran 18 tests in 17.584s
+
+FAILED (errors=2)

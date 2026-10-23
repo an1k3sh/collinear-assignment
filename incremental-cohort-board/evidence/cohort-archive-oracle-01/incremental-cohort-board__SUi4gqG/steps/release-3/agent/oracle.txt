@@ -1,0 +1,140 @@
+test_classification_and_day_corrections (test_smoke.Smoke.test_classification_and_day_corrections) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.028s
+
+OK
+[
+  {
+    "mode": "inner",
+    "day": null,
+    "segment": null,
+    "band": null,
+    "row_count": 1,
+    "amount_count": 1,
+    "total_cents": 0,
+    "account_count": 1,
+    "min_cents": 0,
+    "max_cents": 0
+  },
+  {
+    "mode": "outer",
+    "day": "2026-10-01",
+    "segment": null,
+    "band": null,
+    "row_count": 1,
+    "amount_count": 1,
+    "total_cents": 300,
+    "account_count": 1,
+    "min_cents": 300,
+    "max_cents": 300
+  },
+  {
+    "mode": "rated",
+    "day": "2026-10-01",
+    "segment": null,
+    "band": null,
+    "row_count": 1,
+    "amount_count": 1,
+    "total_cents": 300,
+    "account_count": 1,
+    "min_cents": 300,
+    "max_cents": 300
+  },
+  {
+    "mode": "outer",
+    "day": null,
+    "segment": null,
+    "band": null,
+    "row_count": 2,
+    "amount_count": 1,
+    "total_cents": 0,
+    "account_count": 2,
+    "min_cents": 0,
+    "max_cents": 0
+  },
+  {
+    "mode": "rated",
+    "day": null,
+    "segment": null,
+    "band": null,
+    "row_count": 2,
+    "amount_count": 1,
+    "total_cents": 0,
+    "account_count": 2,
+    "min_cents": 0,
+    "max_cents": 0
+  },
+  {
+    "mode": "inner",
+    "day": null,
+    "segment": "trade",
+    "band": null,
+    "row_count": 1,
+    "amount_count": 1,
+    "total_cents": -1200,
+    "account_count": 1,
+    "min_cents": -1200,
+    "max_cents": -1200
+  },
+  {
+    "mode": "outer",
+    "day": null,
+    "segment": "trade",
+    "band": null,
+    "row_count": 1,
+    "amount_count": 1,
+    "total_cents": -1200,
+    "account_count": 1,
+    "min_cents": -1200,
+    "max_cents": -1200
+  },
+  {
+    "mode": "rated",
+    "day": null,
+    "segment": "trade",
+    "band": null,
+    "row_count": 1,
+    "amount_count": 1,
+    "total_cents": -1200,
+    "account_count": 1,
+    "min_cents": -1200,
+    "max_cents": -1200
+  },
+  {
+    "mode": "inner",
+    "day": null,
+    "segment": "retail",
+    "band": null,
+    "row_count": 1,
+    "amount_count": 1,
+    "total_cents": -200,
+    "account_count": 1,
+    "min_cents": -200,
+    "max_cents": -200
+  },
+  {
+    "mode": "outer",
+    "day": null,
+    "segment": "retail",
+    "band": null,
+    "row_count": 1,
+    "amount_count": 1,
+    "total_cents": -200,
+    "account_count": 1,
+    "min_cents": -200,
+    "max_cents": -200
+  },
+  {
+    "mode": "rated",
+    "day": null,
+    "segment": "retail",
+    "band": null,
+    "row_count": 1,
+    "amount_count": 1,
+    "total_cents": -200,
+    "account_count": 1,
+    "min_cents": -200,
+    "max_cents": -200
+  }
+]

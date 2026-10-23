@@ -1,0 +1,20 @@
+{
+  "delivered": {
+    "passed": true
+  },
+  "identity_and_cents": {
+    "passed": true
+  },
+  "lost_response": {
+    "passed": true
+  },
+  "error_reporting": {
+    "passed": true
+  },
+  "concurrency": {
+    "passed": true
+  },
+  "artifacts": {
+    "passed": true
+  }
+}

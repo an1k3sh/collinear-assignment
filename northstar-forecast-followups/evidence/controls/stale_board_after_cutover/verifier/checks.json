@@ -1,0 +1,399 @@
+{
+  "counts": {
+    "artifact_quality": {
+      "passed": 176,
+      "failed": 74
+    },
+    "constraint_satisfaction": {
+      "passed": 31266,
+      "failed": 0
+    },
+    "functional_correctness": {
+      "passed": 2570,
+      "failed": 0
+    },
+    "robustness": {
+      "passed": 12340,
+      "failed": 0
+    }
+  },
+  "failures": [
+    {
+      "group": "artifact_quality",
+      "check": "board/baseline/december_cash",
+      "detail": "actual=273635.060697811; expected=271772.621659725"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/baseline/peak_revolver",
+      "detail": "actual=30000; expected=31500.0"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/baseline/months/0/cfo",
+      "detail": "actual=18316.7741935484; expected=18307.39919354835"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/baseline/months/0/repay",
+      "detail": "actual=23316.7741935484; expected=22977.39919354835"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/baseline/months/0/closing_debt",
+      "detail": "actual=6683.22580645164; expected=8522.600806451648"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/baseline/months/1/cfo",
+      "detail": "actual=6541.24183179726; expected=6529.745738047235"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/baseline/months/1/repay",
+      "detail": "actual=1541.24183179726; expected=1529.745738047235"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/baseline/months/1/closing_debt",
+      "detail": "actual=5141.98397465438; expected=6992.855068404414"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/baseline/months/2/cfo",
+      "detail": "actual=34013.3828561838; expected=34001.81491184782"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/baseline/months/2/repay",
+      "detail": "actual=5141.98397465438; expected=6992.855068404414"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/baseline/months/2/closing_cash",
+      "detail": "actual=43871.3988815294; expected=42008.9598434434"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/baseline/months/3/closing_cash",
+      "detail": "actual=56923.3270300752; expected=55060.887991989126"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/baseline/months/4/closing_cash",
+      "detail": "actual=80093.860033612; expected=78231.42099552602"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/baseline/months/5/closing_cash",
+      "detail": "actual=96019.7233524848; expected=94157.28431439871"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/baseline/months/6/closing_cash",
+      "detail": "actual=120595.213391243; expected=118732.77435315737"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/baseline/months/7/closing_cash",
+      "detail": "actual=146723.952850929; expected=144861.51381284298"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/baseline/months/8/closing_cash",
+      "detail": "actual=169788.583045425; expected=167926.14400733885"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/baseline/months/9/closing_cash",
+      "detail": "actual=205548.283754406; expected=203685.84471632013"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/baseline/months/10/closing_cash",
+      "detail": "actual=232980.256046314; expected=231117.81700822723"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/baseline/months/11/closing_cash",
+      "detail": "actual=273635.060697811; expected=271772.621659725"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/december_cash",
+      "detail": "actual=149851.205427969; expected=221071.49579634174"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/peak_revolver",
+      "detail": "actual=109380.533542627; expected=39156.18951612907"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/first_debt_free_month",
+      "detail": "actual='2026-09'; expected='2026-04'"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/0/cfo",
+      "detail": "actual=-46829.1935483871; expected=12673.810483870931"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/0/capex",
+      "detail": "actual=7200; expected=5000.0"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/0/draw",
+      "detail": "actual=69029.1935483871; expected=7656.189516129069"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/0/closing_debt",
+      "detail": "actual=99029.1935483871; expected=39156.18951612907"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/1/cfo",
+      "detail": "actual=-3151.3399942396; expected=5483.384044498847"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/1/capex",
+      "detail": "actual=7200; expected=5000.0"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/1/draw",
+      "detail": "actual=10351.3399942396; expected=0.0"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/1/repay",
+      "detail": "actual=0; expected=483.38404449884763"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/1/closing_debt",
+      "detail": "actual=109380.533542627; expected=38672.80547163022"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/2/cfo",
+      "detail": "actual=38407.9593248546; expected=34161.2384662131"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/2/capex",
+      "detail": "actual=7200; expected=5000.0"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/2/repay",
+      "detail": "actual=31207.9593248545; expected=29161.238466213097"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/2/closing_debt",
+      "detail": "actual=78172.5742177722; expected=9511.567005417124"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/3/cfo",
+      "detail": "actual=13058.1183295273; expected=17600.79219868381"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/3/capex",
+      "detail": "actual=7200; expected=5000.0"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/3/repay",
+      "detail": "actual=5858.11832952734; expected=9511.567005417124"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/3/closing_cash",
+      "detail": "actual=45000; expected=48089.225193266684"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/3/closing_debt",
+      "detail": "actual=72314.4558882448; expected=0.0"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/4/cfo",
+      "detail": "actual=27813.6296094099; expected=28194.081011637692"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/4/capex",
+      "detail": "actual=7200; expected=5000.0"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/4/repay",
+      "detail": "actual=20613.6296094099; expected=0.0"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/4/closing_cash",
+      "detail": "actual=45000; expected=71283.30620490438"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/4/closing_debt",
+      "detail": "actual=51700.826278835; expected=0.0"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/5/cfo",
+      "detail": "actual=15784.3175343589; expected=20525.568869091974"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/5/capex",
+      "detail": "actual=7200; expected=5000.0"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/5/repay",
+      "detail": "actual=8584.31753435886; expected=0.0"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/5/closing_cash",
+      "detail": "actual=45000; expected=86808.87507399636"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/5/closing_debt",
+      "detail": "actual=43116.5087444761; expected=0.0"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/6/cfo",
+      "detail": "actual=26948.7968038069; expected=29383.46605724569"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/6/capex",
+      "detail": "actual=7200; expected=12000.0"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/6/repay",
+      "detail": "actual=19748.7968038069; expected=0.0"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/6/closing_cash",
+      "detail": "actual=45000; expected=104192.34113124204"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/6/closing_debt",
+      "detail": "actual=23367.7119406692; expected=0.0"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/7/cfo",
+      "detail": "actual=28307.4571035046; expected=30905.352823869744"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/7/capex",
+      "detail": "actual=7200; expected=12000.0"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/7/repay",
+      "detail": "actual=21107.4571035046; expected=0.0"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/7/closing_cash",
+      "detail": "actual=45000; expected=123097.69395511178"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/7/closing_debt",
+      "detail": "actual=2260.25483716463; expected=0.0"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/8/cfo",
+      "detail": "actual=22476.5260837268; expected=27589.285216854325"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/8/capex",
+      "detail": "actual=7200; expected=12000.0"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/8/repay",
+      "detail": "actual=2260.25483716463; expected=0.0"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/8/closing_cash",
+      "detail": "actual=58016.2712465622; expected=138686.97917196612"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/9/cfo",
+      "detail": "actual=40856.3418148932; expected=40767.95055948595"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/9/capex",
+      "detail": "actual=7200; expected=12000.0"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/9/closing_cash",
+      "detail": "actual=91672.6130614554; expected=167454.92973145205"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/10/cfo",
+      "detail": "actual=26719.0595227177; expected=31944.284616488483"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/10/capex",
+      "detail": "actual=7200; expected=12000.0"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/10/closing_cash",
+      "detail": "actual=111191.672584173; expected=187399.21434794055"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/11/cfo",
+      "detail": "actual=45859.5328437957; expected=45672.2814484012"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/11/capex",
+      "detail": "actual=7200; expected=12000.0"
+    },
+    {
+      "group": "artifact_quality",
+      "check": "board/stress/months/11/closing_cash",
+      "detail": "actual=149851.205427969; expected=221071.49579634174"
+    }
+  ],
+  "reward": {
+    "overall": 0.0,
+    "functional_correctness": 1.0,
+    "constraint_satisfaction": 1.0,
+    "robustness": 1.0,
+    "artifact_quality": 0.704
+  }
+}

@@ -1,0 +1,1311 @@
+{
+  "groups": {
+    "carrier": 0.9818181818181818,
+    "deliverable": 1.0,
+    "durability": 1.0,
+    "inventory": 1.0,
+    "language": 1.0,
+    "publication": 1.0,
+    "transactions": 1.0,
+    "validation": 1.0,
+    "workflow": 1.0
+  },
+  "checks": [
+    {
+      "name": "precedence-and-scalar-types",
+      "group": "language",
+      "passed": true
+    },
+    {
+      "name": "integer-division-not-float",
+      "group": "language",
+      "passed": true
+    },
+    {
+      "name": "short-circuit",
+      "group": "language",
+      "passed": true
+    },
+    {
+      "name": "defaults-named-forward-library",
+      "group": "language",
+      "passed": true
+    },
+    {
+      "name": "shadow-initializer-and-loop-lifetimes",
+      "group": "language",
+      "passed": true
+    },
+    {
+      "name": "lexical-callee-isolation",
+      "group": "language",
+      "passed": true
+    },
+    {
+      "name": "strings-comments-braces",
+      "group": "language",
+      "passed": true
+    },
+    {
+      "name": "bool-not-int",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "short-circuit-still-static",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "dead-branch-still-static",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "unknown-procedure",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "unknown-expression-function",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "builtin-statement",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "error-escape",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "error-reassignment",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "duplicate-local",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "undefined-assignment",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "non-bool-if",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "break-without-loop",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "continue-without-loop",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "duplicate-emit-key",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "ordered-bools",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "mixed-equality",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "condition-assignment-type",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "builtin-named-arg",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "read-before-declare",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "recovery-name-outside",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "recover-redeclare",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "required-after-default",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "default-type",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "duplicate-param",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "param-local-redeclare",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "duplicate-procedure",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "reserved-builtin-procedure",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "missing-main",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "main-has-params",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "uncalled-body-static",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "dynamic-scope-forbidden",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "indirect-dead-recursion",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "direct-dead-recursion",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "callee-cannot-break-caller",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "proc-expression",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "missing-argument",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "extra-argument",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "unknown-named-argument",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "duplicate-bound-argument",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "positional-after-named",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "missing-semicolon",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "illegal-token",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "invalid-json-escape",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "unclosed-block",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "keyword-identifier",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "nested-commit-outer-abort",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "recover-inside-outer-remains-tentative",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "rollback-with-shadowed-binding",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "unhandled-inner-restores-before-outer-handler",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "recovery-fails-to-outer-handler",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "return-commits-exited-transactions",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "callee-return-does-not-commit-caller",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "loop-control-commits-and-stats",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "loop-inside-transaction-break-does-not-exit-it",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "recovery-scope-shadow-restores-binding",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "snapshot-metamorphic-0",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "snapshot-metamorphic-1",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "snapshot-metamorphic-2",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "snapshot-metamorphic-3",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "snapshot-metamorphic-4",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "snapshot-metamorphic-5",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "snapshot-metamorphic-6",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "snapshot-metamorphic-7",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "snapshot-metamorphic-8",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "snapshot-metamorphic-9",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "snapshot-metamorphic-10",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "snapshot-metamorphic-11",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "hold-conservation-and-tombstones",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "reads-do-not-materialize-zero",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "rollback-hold-records-not-just-map",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "operation-atomicity-0",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "operation-atomicity-1",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "operation-atomicity-2",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "operation-atomicity-3",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "operation-atomicity-4",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "operation-atomicity-5",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "operation-atomicity-6",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "operation-atomicity-7",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "operation-atomicity-8",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "operation-atomicity-9",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "operation-atomicity-10",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "operation-atomicity-11",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "operation-atomicity-12",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "operation-atomicity-13",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "left-to-right-expression-failure",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "left-to-right-procedure-arguments",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "fatal-not-caught-by-domain-handler",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "step-limit-not-caught",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "unhandled-domain-stack-location",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "unreachable-static-before-runtime",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "inventory-validation-0",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "inventory-validation-1",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "inventory-validation-2",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "inventory-validation-3",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "inventory-validation-4",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "inventory-validation-5",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "inventory-validation-6",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "inventory-validation-7",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "inventory-validation-8",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "inventory-validation-9",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "inventory-validation-10",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "inventory-validation-11",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "publication-parent-must-exist",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "missing-input",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "missing-program",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "absent-output-domain",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "absent-output-static",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "absent-output-runtime",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "fresh-bundle-stream-0",
+      "group": "workflow",
+      "passed": true
+    },
+    {
+      "name": "fresh-bundle-stream-1",
+      "group": "workflow",
+      "passed": true
+    },
+    {
+      "name": "fresh-bundle-stream-2",
+      "group": "workflow",
+      "passed": true
+    },
+    {
+      "name": "fresh-bundle-stream-3",
+      "group": "workflow",
+      "passed": true
+    },
+    {
+      "name": "fresh-bundle-stream-4",
+      "group": "workflow",
+      "passed": true
+    },
+    {
+      "name": "fresh-bundle-stream-5",
+      "group": "workflow",
+      "passed": true
+    },
+    {
+      "name": "fresh-bundle-stream-6",
+      "group": "workflow",
+      "passed": true
+    },
+    {
+      "name": "fresh-bundle-stream-7",
+      "group": "workflow",
+      "passed": true
+    },
+    {
+      "name": "fresh-bundle-stream-8",
+      "group": "workflow",
+      "passed": true
+    },
+    {
+      "name": "fresh-bundle-stream-9",
+      "group": "workflow",
+      "passed": true
+    },
+    {
+      "name": "fresh-bundle-stream-10",
+      "group": "workflow",
+      "passed": true
+    },
+    {
+      "name": "fresh-bundle-stream-11",
+      "group": "workflow",
+      "passed": true
+    },
+    {
+      "name": "fresh-bundle-stream-12",
+      "group": "workflow",
+      "passed": true
+    },
+    {
+      "name": "fresh-bundle-stream-13",
+      "group": "workflow",
+      "passed": true
+    },
+    {
+      "name": "fresh-bundle-stream-14",
+      "group": "workflow",
+      "passed": true
+    },
+    {
+      "name": "fresh-bundle-stream-15",
+      "group": "workflow",
+      "passed": true
+    },
+    {
+      "name": "workflow-enclosing-rollback",
+      "group": "workflow",
+      "passed": true
+    },
+    {
+      "name": "workflow-must-respect-existing-holds",
+      "group": "workflow",
+      "passed": true
+    },
+    {
+      "name": "incident-deliverable",
+      "group": "deliverable",
+      "passed": true
+    },
+    {
+      "name": "pause-not-a-commit-and-counters",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "nested-commit-before-pause-outer-abort",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "pause-in-callee-and-return",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "caller-rollback-after-resumed-return",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "repeated-label-loop-continue-break",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "pause-in-loop-body-before-declarations",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "nested-recovery-error-shadowing",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "paused-recovery-undone-by-outer",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "inner-recovery-failure-after-resume",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "shadowed-bindings-survive-two-rollbacks",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "fatal-after-resume-not-caught",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "original-stack-preserved-across-handler-pause",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "fatal-statement-budget-is-cumulative",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "library-defaults-and-call-continuation",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "held-record-mutated-after-pause-then-rolled-back",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "two-nested-loops-distinguish-control-targets",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "resume-before-return-in-recovery",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "generated-durable-snapshot-0",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "generated-durable-snapshot-1",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "generated-durable-snapshot-2",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "generated-durable-snapshot-3",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "generated-durable-snapshot-4",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "generated-durable-snapshot-5",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "generated-durable-snapshot-6",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "generated-durable-snapshot-7",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "generated-durable-snapshot-8",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "generated-durable-snapshot-9",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "generated-durable-snapshot-10",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "generated-durable-snapshot-11",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "fresh-durable-workflow-0",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "fresh-durable-workflow-1",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "fresh-durable-workflow-2",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "fresh-durable-workflow-3",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "fresh-durable-workflow-4",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "fresh-durable-workflow-5",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "reject-truncate",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "reject-checksum",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "reject-duplicate-key",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "reject-nonfinite",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "reject-invalid-utf8",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "reject-program-change",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "reject-input-change",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "reject-program-invalid",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "reject-input-invalid",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "reject-library-change",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "reject-library-omitted",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "reject-version",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "reject-boolean-version",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "reject-boolean-count",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "reject-zero-count",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "reject-state-empty",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "reject-state-list",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "reject-format",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "reject-label-type",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "reject-missing-field",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "reject-extra-field",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "distinct-checkpoint-output",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "no-pause-does-not-create-checkpoint",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "no-pause-preserves-existing-checkpoint",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "missing-checkpoint-parent",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "fatal-before-pause-preserves-checkpoint",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "result-publication-failure-keeps-resume",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "result-alias-source",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "checkpoint-alias-source",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "checkpoint-alias-inventory",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "result-alias-checkpoint",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "result-alias-resume",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "dotdot-alias",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "pause-static-types",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "incident-checkpoint-replay",
+      "group": "durability",
+      "passed": true
+    },
+    {
+      "name": "authority-ack",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "authority-accept_then_timeout_once",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "authority-timeout_before_once",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "authority-reject",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "idempotency-and-conflict",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "local-ledger-rollback-and-resume",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "runtime-preserves-external-effect",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "publication-preserves-external-effect",
+      "group": "carrier",
+      "passed": false,
+      "detail": "Traceback (most recent call last):\n  File \"/tests/carrier_checks.py\", line 560, in run_all\n    check()\n  File \"/tests/carrier_checks.py\", line 520, in <lambda>\n    (\"publication-preserves-external-effect\",lambda:fault_after_send(\"publication\")),\n                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tests/carrier_checks.py\", line 190, in fault_after_send\n    equal(sorted(f.accepted()), [\"x\"], \"external effect survives fatal failure\")\n  File \"/tests/test_semantics.py\", line 27, in equal\n    raise AssertionError(f\"{label}: expected {expected!r}, got {actual!r}\")\nAssertionError: external effect survives fatal failure: expected ['x'], got []\n"
+    },
+    {
+      "name": "static-validation-before-effect",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "external-argument-evaluation-order",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "lookup-and-external-short-circuit",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "arbitrary-precision-carrier-quantity",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "workflow-respects-existing-reservations",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "workflow-aggregates-same-sku-lines",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "workflow-rejects-mismatched-import",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "advanced-relocated-service",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "different-service-identity",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "stale-checkpoint-replay",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "enclosing-rollback-and-imported-routing",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "marker-key-regression",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "large-integer-regression",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "carrier-io-missing",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "carrier-io-corrupt",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "carrier-io-no-identity",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "carrier-io-unspecified",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "carrier-io-alias-output",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "carrier-io-alias-checkpoint",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "carrier-validation-0",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "carrier-validation-1",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "carrier-validation-2",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "carrier-validation-3",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "carrier-validation-4",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "carrier-validation-5",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "carrier-validation-6",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "carrier-validation-7",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "delivery-validation-0",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "delivery-validation-1",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "delivery-validation-2",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "delivery-validation-3",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "delivery-validation-4",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "delivery-validation-5",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "generated-carrier-stream-0",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "generated-carrier-stream-1",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "generated-carrier-stream-2",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "generated-carrier-stream-3",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "generated-carrier-stream-4",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "generated-carrier-stream-5",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "generated-carrier-stream-6",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "generated-carrier-stream-7",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "generated-carrier-stream-8",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "generated-carrier-stream-9",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "generated-carrier-stream-10",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "generated-carrier-stream-11",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "carrier-incident-deliverable",
+      "group": "carrier",
+      "passed": true
+    },
+    {
+      "name": "immutable-carrier-service",
+      "group": "carrier",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+    "id": "9981f8e7-69cd-4bd6-b41e-90fddd9fb21a",
+    "task_name": "collinear-candidate/incremental-cohort-board",
+    "trial_name": "incremental-cohort-board__gNfYBLU",
+    "trial_uri": "file:///Users/anikeshparashar/Projects/difficult-bench/jobs/cohort-final-archive-oracle-01/incremental-cohort-board__gNfYBLU",
+    "task_id": {
+        "path": "/Users/anikeshparashar/.copilot/session-state/67464e73-baea-49c0-8fea-31ab3a4c8678/files/cohort-final-extracted-s_4648nh/collinear-candidate/incremental-cohort-board"
+    },
+    "source": null,
+    "task_checksum": "659236340b0f0feadab2fcb355f8b38829353e24b0c85d8ecc28d477a86b5a81",
+    "config": {
+        "task": {
+            "path": "/Users/anikeshparashar/.copilot/session-state/67464e73-baea-49c0-8fea-31ab3a4c8678/files/cohort-final-extracted-s_4648nh/collinear-candidate/incremental-cohort-board",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "incremental-cohort-board__gNfYBLU",
+        "trials_dir": "/Users/anikeshparashar/Projects/difficult-bench/jobs/cohort-final-archive-oracle-01",
+        "install_only": false,
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "oracle",
+            "import_path": null,
+            "model_name": null,
+            "n_concurrent": null,
+            "concurrency_group": null,
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "resume_trajectory": false,
+            "load_trajectory": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {},
+            "mcp_servers": []
+        },
+        "user_agent": null,
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "stream": false,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "extra_instructions": [],
+        "job_id": "3b50faa8-16c6-4c98-a61a-a3a083f3d3ac",
+        "source_trial": null
+    },
+    "agent_info": {
+        "name": "oracle",
+        "version": "1.0.0",
+        "model_info": null
+    },
+    "agent_result": null,
+    "verifier_result": {
+        "rewards": {
+            "overall": 1.0,
+            "functional_correctness": 1.0,
+            "constraint_satisfaction": 1.0,
+            "robustness": 1.0,
+            "artifact_quality": 1.0
+        }
+    },
+    "verifier_environment_mode": null,
+    "exception_info": null,
+    "started_at": "2026-10-23T18:34:34.665369Z",
+    "finished_at": "2026-10-23T18:35:55.707805Z",
+    "environment_setup": {
+        "started_at": "2026-10-23T18:34:37.246965Z",
+        "finished_at": "2026-10-23T18:34:41.491476Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-10-23T18:34:41.491741Z",
+        "finished_at": "2026-10-23T18:34:41.491888Z"
+    },
+    "agent_execution": null,
+    "verifier": null,
+    "step_results": [
+        {
+            "step_name": "release-1",
+            "agent_result": {
+                "n_input_tokens": null,
+                "n_cache_tokens": null,
+                "n_output_tokens": null,
+                "cost_usd": null,
+                "model_usage": null,
+                "rollout_details": null,
+                "metadata": null
+            },
+            "verifier_result": {
+                "rewards": {
+                    "overall": 1.0,
+                    "functional_correctness": 1.0,
+                    "constraint_satisfaction": 1.0,
+                    "robustness": 1.0,
+                    "artifact_quality": 1.0
+                }
+            },
+            "exception_info": null,
+            "agent_execution": {
+                "started_at": "2026-10-23T18:34:41.799847Z",
+                "finished_at": "2026-10-23T18:34:42.845875Z"
+            },
+            "verifier": {
+                "started_at": "2026-10-23T18:34:44.956105Z",
+                "finished_at": "2026-10-23T18:34:54.451679Z"
+            }
+        },
+        {
+            "step_name": "release-2",
+            "agent_result": {
+                "n_input_tokens": null,
+                "n_cache_tokens": null,
+                "n_output_tokens": null,
+                "cost_usd": null,
+                "model_usage": null,
+                "rollout_details": null,
+                "metadata": null
+            },
+            "verifier_result": {
+                "rewards": {
+                    "overall": 1.0,
+                    "functional_correctness": 1.0,
+                    "constraint_satisfaction": 1.0,
+                    "robustness": 1.0,
+                    "artifact_quality": 1.0
+                }
+            },
+            "exception_info": null,
+            "agent_execution": {
+                "started_at": "2026-10-23T18:34:55.114856Z",
+                "finished_at": "2026-10-23T18:34:55.989628Z"
+            },
+            "verifier": {
+                "started_at": "2026-10-23T18:34:56.799334Z",
+                "finished_at": "2026-10-23T18:35:07.192503Z"
+            }
+        },
+        {
+            "step_name": "release-3",
+            "agent_result": {
+                "n_input_tokens": null,
+                "n_cache_tokens": null,
+                "n_output_tokens": null,
+                "cost_usd": null,
+                "model_usage": null,
+                "rollout_details": null,
+                "metadata": null
+            },
+            "verifier_result": {
+                "rewards": {
+                    "overall": 1.0,
+                    "functional_correctness": 1.0,
+                    "constraint_satisfaction": 1.0,
+                    "robustness": 1.0,
+                    "artifact_quality": 1.0
+                }
+            },
+            "exception_info": null,
+            "agent_execution": {
+                "started_at": "2026-10-23T18:35:07.743592Z",
+                "finished_at": "2026-10-23T18:35:09.065480Z"
+            },
+            "verifier": {
+                "started_at": "2026-10-23T18:35:09.928760Z",
+                "finished_at": "2026-10-23T18:35:24.977719Z"
+            }
+        },
+        {
+            "step_name": "release-4",
+            "agent_result": {
+                "n_input_tokens": null,
+                "n_cache_tokens": null,
+                "n_output_tokens": null,
+                "cost_usd": null,
+                "model_usage": null,
+                "rollout_details": null,
+                "metadata": null
+            },
+            "verifier_result": {
+                "rewards": {
+                    "overall": 1.0,
+                    "functional_correctness": 1.0,
+                    "constraint_satisfaction": 1.0,
+                    "robustness": 1.0,
+                    "artifact_quality": 1.0
+                }
+            },
+            "exception_info": null,
+            "agent_execution": {
+                "started_at": "2026-10-23T18:35:25.919276Z",
+                "finished_at": "2026-10-23T18:35:26.903642Z"
+            },
+            "verifier": {
+                "started_at": "2026-10-23T18:35:28.168884Z",
+                "finished_at": "2026-10-23T18:35:53.504573Z"
+            }
+        }
+    ]
+}

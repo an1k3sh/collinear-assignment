@@ -1,0 +1,14 @@
+test_counterfactual_authority_and_uncertainty (test_verifier.VerifierTests.test_counterfactual_authority_and_uncertainty) ... ok
+test_extraction_and_missing (test_verifier.VerifierTests.test_extraction_and_missing) ... ok
+test_hand_calculated_workload (test_verifier.VerifierTests.test_hand_calculated_workload) ... ok
+test_inventory_and_units (test_verifier.VerifierTests.test_inventory_and_units) ... ok
+test_pooling_not_voting (test_verifier.VerifierTests.test_pooling_not_voting) ... ok
+test_reset_and_missing_are_distinct (test_verifier.VerifierTests.test_reset_and_missing_are_distinct) ... ok
+test_resource_constraints_independently_bind (test_verifier.VerifierTests.test_resource_constraints_independently_bind) ... ok
+test_score_missing_gates (test_verifier.VerifierTests.test_score_missing_gates) ... ok
+test_widest_visual_envelope (test_verifier.VerifierTests.test_widest_visual_envelope) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.042s
+
+OK

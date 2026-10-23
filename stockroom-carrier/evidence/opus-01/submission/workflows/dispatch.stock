@@ -1,0 +1,87 @@
+// Reusable carrier reconciliation workflow (docs/dispatch.md). No main procedure.
+//
+// State boundaries: holds, stock, events, variables and delivery records are
+// LOCAL and transactional. Carrier acceptance is external and irreversible, so
+// every attempt looks up the order key before submitting and never submits a
+// new key or a different payload. The order key itself is the idempotency key.
+proc dispatch_order(order:string, sku_a:string, qty_a:int,
+                    sku_b:string, qty_b:int, preferred:string, fallback:string) {
+    // Already posted locally: repeated application is a no-op.
+    if (delivered(order)) {
+        return;
+    }
+    let timeouts: int = 0;
+    let rounds: int = 0;
+    let finished: bool = false;
+    while (!finished) {
+        set rounds = rounds + 1;
+        // Defensive bound; the documented policies resolve in at most 3 rounds.
+        assert rounds <= 4;
+
+        // An existing carrier acceptance is authoritative for the warehouse.
+        let chosen: string = carrier_warehouse(order);
+        let fits: bool = false;
+        if (chosen != "") {
+            // Never redirect or defer an accepted shipment: if its warehouse
+            // cannot cover it locally, reservation fails and the attempt's
+            // recovery fails explicitly.
+            assert carrier_matches(order, chosen, sku_a, qty_a, sku_b, qty_b);
+            set fits = true;
+        } else {
+            set chosen = preferred;
+            set fits = (sku_a == sku_b && available(chosen, sku_a) >= qty_a + qty_b)
+                || (sku_a != sku_b && available(chosen, sku_a) >= qty_a
+                    && available(chosen, sku_b) >= qty_b);
+            if (!fits) {
+                set chosen = fallback;
+                set fits = (sku_a == sku_b && available(chosen, sku_a) >= qty_a + qty_b)
+                    || (sku_a != sku_b && available(chosen, sku_a) >= qty_a
+                        && available(chosen, sku_b) >= qty_b);
+            }
+        }
+
+        if (!fits) {
+            emit "deferred" {order: order; reason: "SHORTAGE";};
+            set finished = true;
+        } else {
+            transaction {
+                reserve(order + ".a", chosen, sku_a, qty_a);
+                reserve(order + ".b", chosen, sku_b, qty_b);
+                pause order + ":reserved";
+                // Lookup first: the carrier may have advanced while paused.
+                let receipt: string = carrier_receipt(order);
+                if (receipt == "") {
+                    set receipt = carrier_send(order, chosen, sku_a, qty_a, sku_b, qty_b);
+                } else {
+                    assert carrier_matches(order, chosen, sku_a, qty_a, sku_b, qty_b);
+                }
+                ship(order + ".a", qty_a);
+                ship(order + ".b", qty_b);
+                record_delivery(order, receipt);
+                emit "fulfilled" {
+                    order: order; warehouse: chosen; units: qty_a + qty_b; receipt: receipt;
+                };
+                pause order + ":posted";
+                set finished = true;
+            } recover (e) {
+                // Local effects are already rolled back here; carrier state is not.
+                if (code(e) == "CARRIER_TIMEOUT") {
+                    // Outcome unknown: reconcile by lookup on the next round,
+                    // resubmitting the same key/payload only if still unaccepted.
+                    set timeouts = timeouts + 1;
+                    assert timeouts < 2;
+                } else {
+                    if (code(e) == "CARRIER_REJECTED") {
+                        emit "rejected" {order: order; reason: "CARRIER_REJECTED";};
+                        set finished = true;
+                    } else {
+                        // Only an acceptance at another warehouse (recorded while
+                        // paused) justifies replanning; anything else fails.
+                        let accepted: string = carrier_warehouse(order);
+                        assert accepted != "" && accepted != chosen;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,121 @@
+{
+    "id": "8a63d98b-9ff5-4c91-9ecb-26d5f96bda2f",
+    "task_name": "collinear-candidate/chart-capacity-audit",
+    "trial_name": "chart-capacity-audit__7AYR2eB",
+    "trial_uri": "file:///Users/anikeshparashar/Projects/difficult-bench/jobs/chart-capacity-oracle-01/chart-capacity-audit__7AYR2eB",
+    "task_id": {
+        "path": "collinear-candidate/chart-capacity-audit"
+    },
+    "source": null,
+    "task_checksum": "0bfd690f079f17d51bbf92150a2511293571f36efce1af24d421334fcc299893",
+    "config": {
+        "task": {
+            "path": "collinear-candidate/chart-capacity-audit",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "chart-capacity-audit__7AYR2eB",
+        "trials_dir": "jobs/chart-capacity-oracle-01",
+        "install_only": false,
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "oracle",
+            "import_path": null,
+            "model_name": null,
+            "n_concurrent": null,
+            "concurrency_group": null,
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "resume_trajectory": false,
+            "load_trajectory": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {},
+            "mcp_servers": []
+        },
+        "user_agent": null,
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "stream": false,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "extra_instructions": [],
+        "job_id": "9268cae3-d6da-44ab-95d3-6bd9421aafbb",
+        "source_trial": null
+    },
+    "agent_info": {
+        "name": "oracle",
+        "version": "1.0.0",
+        "model_info": null
+    },
+    "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "model_usage": null,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "overall": 1.0,
+            "extraction": 1.0,
+            "calculations": 1.0,
+            "allocation": 1.0,
+            "claim_audit": 1.0,
+            "reproducibility": 1.0
+        }
+    },
+    "verifier_environment_mode": "shared",
+    "exception_info": null,
+    "started_at": "2026-10-22T08:15:57.697410Z",
+    "finished_at": "2026-10-22T08:16:07.294977Z",
+    "environment_setup": {
+        "started_at": "2026-10-22T08:15:57.783944Z",
+        "finished_at": "2026-10-22T08:16:01.198157Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-10-22T08:16:01.198411Z",
+        "finished_at": "2026-10-22T08:16:01.199527Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-10-22T08:16:01.200392Z",
+        "finished_at": "2026-10-22T08:16:01.668584Z"
+    },
+    "verifier": {
+        "started_at": "2026-10-22T08:16:03.129405Z",
+        "finished_at": "2026-10-22T08:16:05.468290Z"
+    },
+    "step_results": null
+}

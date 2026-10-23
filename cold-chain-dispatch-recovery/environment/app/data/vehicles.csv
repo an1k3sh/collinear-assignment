@@ -1,0 +1,6 @@
+vehicle,families,capacity,max_stops,max_drive,start,end,turnaround,max_trips,hire_cents,trip_cents,drive_cents_per_minute
+V1,chilled,8,3,72,0,300,15,3,11500,1800,70
+V2,frozen,8,3,72,0,300,15,3,11500,1800,70
+V3,chilled|frozen,8,3,72,0,300,15,3,11500,1800,70
+V4,chilled,8,3,72,85,300,15,3,14500,1800,70
+V5,frozen,8,3,72,85,300,15,3,14500,1800,70

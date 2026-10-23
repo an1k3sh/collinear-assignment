@@ -1,0 +1,5 @@
+// Migration scaffold: retain this public signature.
+proc fulfill(order: string, sku_a: string, qty_a: int,
+             sku_b: string, qty_b: int, preferred: string, fallback: string) {
+    emit "deferred" { order: order; reason: "NOT_MIGRATED"; };
+}

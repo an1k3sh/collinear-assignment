@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Regional API service: monitoring export</title>
+<style>
+body { font: 18px system-ui,sans-serif; margin: 24px; background: #f4f6fa; color: #142333; }
+nav { position: sticky; top: 0; padding: 12px; background: white; border: 1px solid #aaa; }
+nav a, button { margin-right: 16px; font-size: 18px; }
+figure { margin: 28px 0; overflow: auto; background: white; }
+img { width: 100%; height: auto; display: block; }
+body.zoom img { width: 1800px; max-width: none; }
+figcaption { padding: 12px; }
+</style>
+<h1>Regional API service: monitoring export</h1>
+<p>14 September 2026, 08:00--12:00 UTC. Images are the source evidence;
+read the accompanying policy before making a capacity decision.</p>
+<nav><a href="#p1">P1 Traffic</a><a href="#p2">P2 Failures</a>
+<a href="#p3">P3 Latency</a><a href="#p4">P4 Status</a>
+<button onclick="document.body.classList.toggle('zoom')">Toggle full-resolution zoom</button></nav>
+<figure id="p1"><img src="P1-traffic.png" alt="P1: mean request-rate bar charts for four regions">
+<figcaption>P1. Traffic. Separate vertical scales are explicitly labelled.</figcaption></figure>
+<figure id="p2"><img src="P2-failures.png" alt="P2: failure percentages by region and window">
+<figcaption>P2. Failure percentages. Missing telemetry is not a zero.</figcaption></figure>
+<figure id="p3"><img src="P3-latency.png" alt="P3: p95 latency heatmap with numerical cell labels">
+<figcaption>P3. Latency in milliseconds. Use the numerical labels.</figcaption></figure>
+<figure id="p4"><img src="P4-status.png" alt="P4: operational status timeline and deployment marker">
+<figcaption>P4. Status and event timing. Timing alone does not establish causation.</figcaption></figure>
+</html>

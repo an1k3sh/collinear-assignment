@@ -1,0 +1,210 @@
+{
+  "checks": {
+    "build": true,
+    "correctness.rows": true,
+    "correctness.distinct": true,
+    "correctness.count": true,
+    "correctness.sum": true,
+    "correctness.avg": false,
+    "correctness.min": true,
+    "correctness.max": true,
+    "correctness.group": true,
+    "correctness.having": true,
+    "correctness.extended": true,
+    "correctness.comparison": true,
+    "correctness.composition": false,
+    "correctness.injection": true,
+    "correctness.bindings": true,
+    "determinism_replay": true,
+    "diversity.coverage": true,
+    "diversity.data": true,
+    "diversity.structure": true,
+    "diversity.occupancy": true,
+    "diversity.grammar": true,
+    "diversity.measurement": true,
+    "diversity.sensitivity": true,
+    "libfuzzer": false
+  },
+  "metrics": {
+    "random": {
+      "attempted": 1024,
+      "emitted": 1024,
+      "schema_valid": 1024,
+      "executable": 1024,
+      "semantic": 1019,
+      "errors": [
+        {
+          "input": 73,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 78, in verify_answer\n    assert result[\"equivalent\"] is True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+        },
+        {
+          "input": 195,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 78, in verify_answer\n    assert result[\"equivalent\"] is True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+        },
+        {
+          "input": 608,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 78, in verify_answer\n    assert result[\"equivalent\"] is True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+        },
+        {
+          "input": 683,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 78, in verify_answer\n    assert result[\"equivalent\"] is True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+        },
+        {
+          "input": 970,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 78, in verify_answer\n    assert result[\"equivalent\"] is True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+        }
+      ]
+    },
+    "diversity": {
+      "modes": {
+        "distinct": 114,
+        "having": 124,
+        "sum": 126,
+        "avg": 103,
+        "min": 102,
+        "rows": 124,
+        "max": 105,
+        "count": 130,
+        "group": 96
+      },
+      "sources": {
+        "inner": 352,
+        "single": 337,
+        "left": 335
+      },
+      "structural": 1019,
+      "topologies": 1004,
+      "topologies_per_mode": {
+        "rows": 123,
+        "distinct": 112,
+        "count": 125,
+        "sum": 125,
+        "avg": 102,
+        "min": 100,
+        "max": 105,
+        "group": 90,
+        "having": 122
+      },
+      "unique_cases": 1024,
+      "unique_databases": 1020,
+      "where": 679,
+      "grouped_aggregates": 392,
+      "three_way": 148,
+      "nonempty": 759,
+      "group_overlap": 29,
+      "having_duplicates": 23,
+      "empty_row_stage": 305,
+      "all_null": 118,
+      "operators": [
+        "add",
+        "agg",
+        "and",
+        "col",
+        "eq",
+        "ge",
+        "gt",
+        "isnull",
+        "le",
+        "lit",
+        "lt",
+        "ne",
+        "not",
+        "or",
+        "sub"
+      ],
+      "columns": [
+        [
+          "t",
+          "id"
+        ],
+        [
+          "t",
+          "k"
+        ],
+        [
+          "t",
+          "tag"
+        ],
+        [
+          "t",
+          "v"
+        ],
+        [
+          "u",
+          "id"
+        ],
+        [
+          "u",
+          "k"
+        ],
+        [
+          "u",
+          "tag"
+        ],
+        [
+          "u",
+          "v"
+        ]
+      ],
+      "aggregates": [
+        "avg",
+        "count",
+        "max",
+        "min",
+        "sum"
+      ],
+      "nested": 620,
+      "count_star": 63,
+      "count_expression": 67
+    },
+    "mutations": {
+      "attempted": 320,
+      "emitted": 320,
+      "schema_valid": 320,
+      "executable": 320,
+      "semantic": 317,
+      "errors": [
+        {
+          "input": 100,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 78, in verify_answer\n    assert result[\"equivalent\"] is True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+        },
+        {
+          "input": 141,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 78, in verify_answer\n    assert result[\"equivalent\"] is True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+        },
+        {
+          "input": 228,
+          "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 231, in measured_inputs\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 78, in verify_answer\n    assert result[\"equivalent\"] is True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+        }
+      ]
+    },
+    "sensitivity": {
+      "case_changes": [
+        64,
+        64,
+        64,
+        64
+      ],
+      "topology_changes": [
+        64,
+        64,
+        64,
+        64
+      ]
+    }
+  },
+  "failures": [
+    {
+      "test": "correctness.avg",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 370, in <lambda>\n    self.test(\"correctness.\"+mode, lambda mode=mode: self.fixtures(mode))\n                                                     ^^^^^^^^^^^^^^^^^^^\n  File \"/submission/tests/verify.py\", line 146, in fixtures\n    verify_answer(answer)\n  File \"/submission/tests/verify.py\", line 78, in verify_answer\n    assert result[\"equivalent\"] is True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "test": "correctness.composition",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 188, in composition\n    assert ref.bag(answer[\"rows\"]) == ref.bag(expected)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "test": "libfuzzer",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 356, in live_fuzzer\n    assert result.returncode == 0, result.stderr[-6000:]\n           ^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: INFO: Running with entropic power schedule (0xFF, 100).\nINFO: Seed: 89171\nINFO: Loaded 1 modules   (7123 inline 8-bit counters): 7123 [0xaaaad3f04ce0, 0xaaaad3f068b3), \nINFO: Loaded 1 PC tables (7123 PCs): 7123 [0xaaaad3f068b8,0xaaaad3f225e8), \nINFO:       12 files found in /work/audit/average-of-averages/corpus\nINFO: seed corpus: files: 12 min: 8b max: 184b total: 1152b rss: 43Mb\nTLP failure: TLP mismatch; replay this binary input\n==1066== ERROR: libFuzzer: deadly signal\n==1066==WARNING: invalid path to external symbolizer!\n==1066==WARNING: Failed to use and restart external symbolizer!\n    #0 0xaaaad3dd60a0  (/work/audit/average-of-averages/build/tlp_fuzz+0x1460a0) (BuildId: 18c3f54af60b7c7d43021db143b6d2c2653f613d)\n    #1 0xaaaad3d2c898  (/work/audit/average-of-averages/build/tlp_fuzz+0x9c898) (BuildId: 18c3f54af60b7c7d43021db143b6d2c2653f613d)\n    #2 0xaaaad3d13e60  (/work/audit/average-of-averages/build/tlp_fuzz+0x83e60) (BuildId: 18c3f54af60b7c7d43021db143b6d2c2653f613d)\n    #3 0xffffa8f027e4  (linux-vdso.so.1+0x7e4) (BuildId: 4fece5beffd59f501a75460848dc024366956f30)\n    #4 0xffffa88e3c14  (/lib/aarch64-linux-gnu/libc.so.6+0x83c14) (BuildId: 3ff3f95a1642952473d0d5739aaf308b0e24f694)\n    #5 0xffffa889a8a8  (/lib/aarch64-linux-gnu/libc.so.6+0x3a8a8) (BuildId: 3ff3f95a1642952473d0d5739aaf308b0e24f694)\n    #6 0xffffa888747c  (/lib/aarch64-linux-gnu/libc.so.6+0x2747c) (BuildId: 3ff3f95a1642952473d0d5739aaf308b0e24f694)\n    #7 0xaaaad3e05b2c  (/work/audit/average-of-averages/build/tlp_fuzz+0x175b2c) (BuildId: 18c3f54af60b7c7d43021db143b6d2c2653f613d)\n    #8 0xaaaad3d151fc  (/work/audit/average-of-averages/build/tlp_fuzz+0x851fc) (BuildId: 18c3f54af60b7c7d43021db143b6d2c2653f613d)\n    #9 0xaaaad3d149bc  (/work/audit/average-of-averages/build/tlp_fuzz+0x849bc) (BuildId: 18c3f54af60b7c7d43021db143b6d2c2653f613d)\n    #10 0xaaaad3d16600  (/work/audit/average-of-averages/build/tlp_fuzz+0x86600) (BuildId: 18c3f54af60b7c7d43021db143b6d2c2653f613d)\n    #11 0xaaaad3d16b74  (/work/audit/average-of-averages/build/tlp_fuzz+0x86b74) (BuildId: 18c3f54af60b7c7d43021db143b6d2c2653f613d)\n    #12 0xaaaad3d05bb4  (/work/audit/average-of-averages/build/tlp_fuzz+0x75bb4) (BuildId: 18c3f54af60b7c7d43021db143b6d2c2653f613d)\n    #13 0xaaaad3d2cfa0  (/work/audit/average-of-averages/build/tlp_fuzz+0x9cfa0) (BuildId: 18c3f54af60b7c7d43021db143b6d2c2653f613d)\n    #14 0xffffa8887740  (/lib/aarch64-linux-gnu/libc.so.6+0x27740) (BuildId: 3ff3f95a1642952473d0d5739aaf308b0e24f694)\n    #15 0xffffa8887814  (/lib/aarch64-linux-gnu/libc.so.6+0x27814) (BuildId: 3ff3f95a1642952473d0d5739aaf308b0e24f694)\n    #16 0xaaaad3cfbf6c  (/work/audit/average-of-averages/build/tlp_fuzz+0x6bf6c) (BuildId: 18c3f54af60b7c7d43021db143b6d2c2653f613d)\n\nNOTE: libFuzzer has rudimentary signal handlers.\n      Combine libFuzzer with AddressSanitizer or similar for better crash reports.\nSUMMARY: libFuzzer: deadly signal\nMS: 0 ; base unit: 0000000000000000000000000000000000000000\n0xe8,0x3b,0xca,0xcf,0x95,0x92,0x28,0x38,0xbc,0x62,0xec,0x9a,0x58,0xaa,0x56,0x8c,0xc2,0xdf,0x61,0x3d,0x92,0x69,0xd8,0xb6,0x1,0x8b,0xea,0x9b,0xcf,0xa8,0x12,0xac,0xc8,0xea,0xae,0x77,0x8c,0xeb,0x25,0x66,0x6f,0xe6,0xcb,0xb1,0xb1,0x60,0xc9,0x81,0x8b,0xbc,0xec,0x6b,0x83,0x39,0x56,0xfb,0xb1,0x5d,0x31,0xfe,0xbe,0x24,0x76,0x1b,0xf8,0xf1,0x83,0x3e,0xa8,0xc2,0xe0,0x5a,0xcb,0xab,0xf7,0x5c,0x24,0x68,0x4b,0x66,0x8a,0x9,0x1d,0xd5,0xe7,0x58,0x8d,0x9b,0xf8,0x5a,0x3f,0xa2,0x21,0x4f,0x4b,0x47,0x39,0x7b,0x4a,0xe8,0x70,0x6,0x81,0x22,0x9b,0x2f,0x9f,0xbb,0x3a,0x16,0xe,0xb1,0xe0,0xf8,0x60,0xbf,0x99,0xcc,0xe2,0xfa,0xb8,0x95,0xc7,0xb3,0x16,0xae,0x32,0xac,0xca,0xae,0xb5,0x8a,0xc6,0x15,0xb7,0xd4,0x4f,0xdd,0xb7,0xf3,0x95,0xa0,0xa4,0xa9,0x9b,0xb2,0x81,0x69,0xcd,0x8a,0x10,0x0,0xa5,0x37,0x5,0xb4,0xfa,0x88,0x46,0xc,0x1e,0xb3,0xe8,0x33,0x4d,0x16,0xe,0x0,\n\\350;\\312\\317\\225\\222(8\\274b\\354\\232X\\252V\\214\\302\\337a=\\222i\\330\\266\\001\\213\\352\\233\\317\\250\\022\\254\\310\\352\\256w\\214\\353%fo\\346\\313\\261\\261`\\311\\201\\213\\274\\354k\\2039V\\373\\261]1\\376\\276$v\\033\\370\\361\\203>\\250\\302\\340Z\\313\\253\\367\\\\$hKf\\212\\011\\035\\325\\347X\\215\\233\\370Z?\\242!OKG9{J\\350p\\006\\201\\\"\\233/\\237\\273:\\026\\016\\261\\340\\370`\\277\\231\\314\\342\\372\\270\\225\\307\\263\\026\\2562\\254\\312\\256\\265\\212\\306\\025\\267\\324O\\335\\267\\363\\225\\240\\244\\251\\233\\262\\201i\\315\\212\\020\\000\\2457\\005\\264\\372\\210F\\014\\036\\263\\3503M\\026\\016\\000\nartifact_prefix='/work/audit/average-of-averages/'; Test unit written to /work/audit/average-of-averages/crash-19ccca17ab6ce5d1d67c04d067142bb7ef2deec1\nBase64: 6DvKz5WSKDi8YuyaWKpWjMLfYT2Sadi2AYvqm8+oEqzI6q53jOslZm/my7GxYMmBi7zsa4M5VvuxXTH+viR2G/jxgz6owuBay6v3XCRoS2aKCR3V51iNm/haP6IhT0tHOXtK6HAGgSKbL5+7OhYOseD4YL+ZzOL6uJXHsxauMqzKrrWKxhW31E/dt/OVoKSpm7KBac2KEAClNwW0+ohGDB6z6DNNFg4A\nstat::number_of_executed_units: 12\nstat::average_exec_per_sec:     0\nstat::new_units_added:          0\nstat::slowest_unit_time_sec:    0\nstat::peak_rss_mb:              57\n\n"
+    }
+  ]
+}

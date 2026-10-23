@@ -1,0 +1,9 @@
+{
+  "CMakeLists.txt": "15debe0b92f26121324ba2a06a5f378a798cc850160da471660801e0ea304d47",
+  "docs/contract.md": "94393555ab3450b11918863c4f062bb2248865f2311cd6c7c988841435ffeb1d",
+  "harness/cli.cpp": "09b1ec4d6e58d4b4f43541c2c8aa2b32cbc71fcf728ecba38feb4eea7c0f43d8",
+  "harness/fuzz.cpp": "57c01c977119c164f633dfc58c0d3ffee344c4b35c45b4bf3b2370a49735c92f",
+  "harness/runtime.cpp": "f4e6158c7806c7a4d8135c8f04dd9c50265600ab919cde91dc6956af8ff779cc",
+  "include/tlp.hpp": "978e45eae88b6896e8a25db3e3d426567a619a91cc34c6966e2d9f81474440c1",
+  "public_tests/smoke.py": "62b2bd9469df22b67d9c9728348dcf74bc1f4bd1637ad1dbcc0a1441d37e791e"
+}

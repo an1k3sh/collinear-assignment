@@ -1,0 +1,3 @@
+
+solver status OPTIMAL, objective 100000197
+wrote /tmp/tmpmp09717j/release/maintenance.json: 6 activations, 10000 of 36000 cents; validation passed

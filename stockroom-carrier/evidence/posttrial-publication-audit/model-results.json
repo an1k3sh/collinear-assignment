@@ -1,0 +1,18 @@
+{
+  "missing_parent_observation": {
+    "accepted_keys": [],
+    "attempts": []
+  },
+  "injected_late_publication_failure": {
+    "passed": true,
+    "accepted_keys": [
+      "x"
+    ],
+    "attempts": [
+      [
+        "x",
+        "accepted"
+      ]
+    ]
+  }
+}

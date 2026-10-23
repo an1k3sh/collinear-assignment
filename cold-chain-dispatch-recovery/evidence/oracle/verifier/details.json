@@ -1,0 +1,29 @@
+{
+  "input_integrity": {
+    "passed": true
+  },
+  "roster": {
+    "passed": true
+  },
+  "allocations": {
+    "passed": true
+  },
+  "packing": {
+    "passed": true
+  },
+  "trips": {
+    "passed": true
+  },
+  "cold_chain": {
+    "passed": true
+  },
+  "cost": {
+    "passed": true
+  },
+  "regeneration": {
+    "passed": true
+  },
+  "handover": {
+    "passed": true
+  }
+}

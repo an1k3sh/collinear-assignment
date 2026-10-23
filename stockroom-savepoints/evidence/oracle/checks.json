@@ -1,0 +1,683 @@
+{
+  "groups": {
+    "deliverable": 1.0,
+    "inventory": 1.0,
+    "language": 1.0,
+    "publication": 1.0,
+    "transactions": 1.0,
+    "validation": 1.0,
+    "workflow": 1.0
+  },
+  "checks": [
+    {
+      "name": "precedence-and-scalar-types",
+      "group": "language",
+      "passed": true
+    },
+    {
+      "name": "integer-division-not-float",
+      "group": "language",
+      "passed": true
+    },
+    {
+      "name": "short-circuit",
+      "group": "language",
+      "passed": true
+    },
+    {
+      "name": "defaults-named-forward-library",
+      "group": "language",
+      "passed": true
+    },
+    {
+      "name": "shadow-initializer-and-loop-lifetimes",
+      "group": "language",
+      "passed": true
+    },
+    {
+      "name": "lexical-callee-isolation",
+      "group": "language",
+      "passed": true
+    },
+    {
+      "name": "strings-comments-braces",
+      "group": "language",
+      "passed": true
+    },
+    {
+      "name": "bool-not-int",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "short-circuit-still-static",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "dead-branch-still-static",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "unknown-procedure",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "unknown-expression-function",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "builtin-statement",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "error-escape",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "error-reassignment",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "duplicate-local",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "undefined-assignment",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "non-bool-if",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "break-without-loop",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "continue-without-loop",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "duplicate-emit-key",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "ordered-bools",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "mixed-equality",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "condition-assignment-type",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "builtin-named-arg",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "read-before-declare",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "recovery-name-outside",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "recover-redeclare",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "required-after-default",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "default-type",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "duplicate-param",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "param-local-redeclare",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "duplicate-procedure",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "reserved-builtin-procedure",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "missing-main",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "main-has-params",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "uncalled-body-static",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "dynamic-scope-forbidden",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "indirect-dead-recursion",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "direct-dead-recursion",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "callee-cannot-break-caller",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "proc-expression",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "missing-argument",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "extra-argument",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "unknown-named-argument",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "duplicate-bound-argument",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "positional-after-named",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "missing-semicolon",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "illegal-token",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "invalid-json-escape",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "unclosed-block",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "keyword-identifier",
+      "group": "validation",
+      "passed": true
+    },
+    {
+      "name": "nested-commit-outer-abort",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "recover-inside-outer-remains-tentative",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "rollback-with-shadowed-binding",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "unhandled-inner-restores-before-outer-handler",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "recovery-fails-to-outer-handler",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "return-commits-exited-transactions",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "callee-return-does-not-commit-caller",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "loop-control-commits-and-stats",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "loop-inside-transaction-break-does-not-exit-it",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "recovery-scope-shadow-restores-binding",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "snapshot-metamorphic-0",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "snapshot-metamorphic-1",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "snapshot-metamorphic-2",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "snapshot-metamorphic-3",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "snapshot-metamorphic-4",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "snapshot-metamorphic-5",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "snapshot-metamorphic-6",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "snapshot-metamorphic-7",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "snapshot-metamorphic-8",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "snapshot-metamorphic-9",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "snapshot-metamorphic-10",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "snapshot-metamorphic-11",
+      "group": "transactions",
+      "passed": true
+    },
+    {
+      "name": "hold-conservation-and-tombstones",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "reads-do-not-materialize-zero",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "rollback-hold-records-not-just-map",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "operation-atomicity-0",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "operation-atomicity-1",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "operation-atomicity-2",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "operation-atomicity-3",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "operation-atomicity-4",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "operation-atomicity-5",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "operation-atomicity-6",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "operation-atomicity-7",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "operation-atomicity-8",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "operation-atomicity-9",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "operation-atomicity-10",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "operation-atomicity-11",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "operation-atomicity-12",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "operation-atomicity-13",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "left-to-right-expression-failure",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "left-to-right-procedure-arguments",
+      "group": "inventory",
+      "passed": true
+    },
+    {
+      "name": "fatal-not-caught-by-domain-handler",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "step-limit-not-caught",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "unhandled-domain-stack-location",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "unreachable-static-before-runtime",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "inventory-validation-0",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "inventory-validation-1",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "inventory-validation-2",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "inventory-validation-3",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "inventory-validation-4",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "inventory-validation-5",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "inventory-validation-6",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "inventory-validation-7",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "inventory-validation-8",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "inventory-validation-9",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "inventory-validation-10",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "inventory-validation-11",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "publication-parent-must-exist",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "missing-input",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "missing-program",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "absent-output-domain",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "absent-output-static",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "absent-output-runtime",
+      "group": "publication",
+      "passed": true
+    },
+    {
+      "name": "fresh-bundle-stream-0",
+      "group": "workflow",
+      "passed": true
+    },
+    {
+      "name": "fresh-bundle-stream-1",
+      "group": "workflow",
+      "passed": true
+    },
+    {
+      "name": "fresh-bundle-stream-2",
+      "group": "workflow",
+      "passed": true
+    },
+    {
+      "name": "fresh-bundle-stream-3",
+      "group": "workflow",
+      "passed": true
+    },
+    {
+      "name": "fresh-bundle-stream-4",
+      "group": "workflow",
+      "passed": true
+    },
+    {
+      "name": "fresh-bundle-stream-5",
+      "group": "workflow",
+      "passed": true
+    },
+    {
+      "name": "fresh-bundle-stream-6",
+      "group": "workflow",
+      "passed": true
+    },
+    {
+      "name": "fresh-bundle-stream-7",
+      "group": "workflow",
+      "passed": true
+    },
+    {
+      "name": "fresh-bundle-stream-8",
+      "group": "workflow",
+      "passed": true
+    },
+    {
+      "name": "fresh-bundle-stream-9",
+      "group": "workflow",
+      "passed": true
+    },
+    {
+      "name": "fresh-bundle-stream-10",
+      "group": "workflow",
+      "passed": true
+    },
+    {
+      "name": "fresh-bundle-stream-11",
+      "group": "workflow",
+      "passed": true
+    },
+    {
+      "name": "fresh-bundle-stream-12",
+      "group": "workflow",
+      "passed": true
+    },
+    {
+      "name": "fresh-bundle-stream-13",
+      "group": "workflow",
+      "passed": true
+    },
+    {
+      "name": "fresh-bundle-stream-14",
+      "group": "workflow",
+      "passed": true
+    },
+    {
+      "name": "fresh-bundle-stream-15",
+      "group": "workflow",
+      "passed": true
+    },
+    {
+      "name": "workflow-enclosing-rollback",
+      "group": "workflow",
+      "passed": true
+    },
+    {
+      "name": "workflow-must-respect-existing-holds",
+      "group": "workflow",
+      "passed": true
+    },
+    {
+      "name": "incident-deliverable",
+      "group": "deliverable",
+      "passed": true
+    }
+  ]
+}

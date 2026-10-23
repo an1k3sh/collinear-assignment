@@ -1,0 +1,14 @@
+[
+  {"id":"r2/late-classification","mutations":[
+    {"table":"tags","id":"t-u","row":{"id":"t-u","account":"unclassified","segment":null}},
+    {"table":"tags","id":"t-v","row":{"id":"t-v","account":"unclassified","segment":null}},
+    {"table":"orders","id":"o-104","row":{"id":"o-104","account":"","day":null,"cents":null}},
+    {"table":"orders","id":"o-105","row":{"id":"o-105","account":"null","day":null,"cents":0}}
+  ]},
+  {"id":"r2/withdraw-classification","mutations":[
+    {"table":"tags","id":"t-u","row":null},
+    {"table":"tags","id":"t-v","row":null},
+    {"table":"orders","id":"o-103","row":{"id":"o-103","account":"unclassified","day":"2026-10-01","cents":300}},
+    {"table":"tags","id":"t-c","row":{"id":"t-c","account":"null","segment":null}}
+  ]}
+]

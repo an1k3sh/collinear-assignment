@@ -1,0 +1,26 @@
+schema_version = "1.3"
+artifacts = ["/app/submission"]
+
+[task]
+name = "collinear-candidate/warehouse-slotting-recovery"
+description = "Produce a better warehouse slot assignment from historical picker transitions while respecting placement, fixed-stock and relocation labor constraints."
+keywords = ["operations-research", "warehouse", "optimization", "planning"]
+
+[metadata]
+category = "data-science"
+difficulty = "hard"
+provenance = "New synthetic warehouse instance, demand history, locally improved baseline, search oracle and independent scorer created for this exercise."
+network_policy = "Network for pinned build dependencies and agent setup/inference only; task and verifier run offline."
+
+[agent]
+timeout_sec = 7200
+
+[verifier]
+timeout_sec = 300
+
+[environment]
+build_timeout_sec = 600
+cpus = 4
+memory_mb = 4096
+storage_mb = 8192
+network_mode = "public"

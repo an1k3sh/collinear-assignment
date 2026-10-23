@@ -1,0 +1,166 @@
+{
+  "deliveries": {
+    "alpha": {
+      "qty_a": 6,
+      "qty_b": 4,
+      "receipt": "rcpt-531d760a9b7d5369875818d9889fa349",
+      "sku_a": "gear",
+      "sku_b": "seal",
+      "warehouse": "east"
+    },
+    "beta": {
+      "qty_a": 5,
+      "qty_b": 3,
+      "receipt": "rcpt-90cccb312e2a5e6d97c08d1c8c5f5142",
+      "sku_a": "gear",
+      "sku_b": "seal",
+      "warehouse": "east"
+    },
+    "drill": {
+      "qty_a": 2,
+      "qty_b": 1,
+      "receipt": "rcpt-bc5f19b95cc65e029a836bee8e025410",
+      "sku_a": "gear",
+      "sku_b": "seal",
+      "warehouse": "east"
+    },
+    "orphan": {
+      "qty_a": 3,
+      "qty_b": 2,
+      "receipt": "receipt-imported-z9",
+      "sku_a": "gear",
+      "sku_b": "seal",
+      "warehouse": "west"
+    }
+  },
+  "events": [
+    {
+      "data": {
+        "reason": "ASSERT"
+      },
+      "id": 1,
+      "name": "rehearsal_reverted"
+    },
+    {
+      "data": {
+        "order": "drill",
+        "receipt": "rcpt-bc5f19b95cc65e029a836bee8e025410",
+        "units": 3,
+        "warehouse": "east"
+      },
+      "id": 2,
+      "name": "fulfilled"
+    },
+    {
+      "data": {
+        "order": "alpha",
+        "receipt": "rcpt-531d760a9b7d5369875818d9889fa349",
+        "units": 10,
+        "warehouse": "east"
+      },
+      "id": 3,
+      "name": "fulfilled"
+    },
+    {
+      "data": {
+        "order": "beta",
+        "receipt": "rcpt-90cccb312e2a5e6d97c08d1c8c5f5142",
+        "units": 8,
+        "warehouse": "east"
+      },
+      "id": 4,
+      "name": "fulfilled"
+    },
+    {
+      "data": {
+        "order": "orphan",
+        "receipt": "receipt-imported-z9",
+        "units": 5,
+        "warehouse": "west"
+      },
+      "id": 5,
+      "name": "fulfilled"
+    },
+    {
+      "data": {
+        "order": "blocked",
+        "reason": "CARRIER_REJECTED"
+      },
+      "id": 6,
+      "name": "rejected"
+    },
+    {
+      "data": {
+        "order": "gamma",
+        "reason": "SHORTAGE"
+      },
+      "id": 7,
+      "name": "deferred"
+    },
+    {
+      "data": {
+        "east_gear": 17,
+        "west_gear": 17
+      },
+      "id": 8,
+      "name": "closing"
+    }
+  ],
+  "holds": {
+    "alpha.a": {
+      "remaining": 0,
+      "sku": "gear",
+      "warehouse": "east"
+    },
+    "alpha.b": {
+      "remaining": 0,
+      "sku": "seal",
+      "warehouse": "east"
+    },
+    "beta.a": {
+      "remaining": 0,
+      "sku": "gear",
+      "warehouse": "east"
+    },
+    "beta.b": {
+      "remaining": 0,
+      "sku": "seal",
+      "warehouse": "east"
+    },
+    "drill.a": {
+      "remaining": 0,
+      "sku": "gear",
+      "warehouse": "east"
+    },
+    "drill.b": {
+      "remaining": 0,
+      "sku": "seal",
+      "warehouse": "east"
+    },
+    "orphan.a": {
+      "remaining": 0,
+      "sku": "gear",
+      "warehouse": "west"
+    },
+    "orphan.b": {
+      "remaining": 0,
+      "sku": "seal",
+      "warehouse": "west"
+    }
+  },
+  "stats": {
+    "committed": 5,
+    "rolled_back": 4,
+    "steps": 195
+  },
+  "warehouses": {
+    "east": {
+      "gear": 17,
+      "seal": 12
+    },
+    "west": {
+      "gear": 17,
+      "seal": 28
+    }
+  }
+}

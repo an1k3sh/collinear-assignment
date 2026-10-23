@@ -1,0 +1,34 @@
+{
+  "counts": {
+    "artifact_quality": {
+      "passed": 9,
+      "failed": 1
+    },
+    "constraint_satisfaction": {
+      "passed": 16914,
+      "failed": 0
+    },
+    "functional_correctness": {
+      "passed": 1232,
+      "failed": 0
+    },
+    "robustness": {
+      "passed": 4938,
+      "failed": 0
+    }
+  },
+  "failures": [
+    {
+      "group": "artifact_quality",
+      "check": "handoff annual_revenue",
+      "detail": "actual=1772565.52101988; expected=1772564.521019882378715985897357031250000"
+    }
+  ],
+  "reward": {
+    "overall": 0.0,
+    "functional_correctness": 1.0,
+    "constraint_satisfaction": 1.0,
+    "robustness": 1.0,
+    "artifact_quality": 0.9
+  }
+}

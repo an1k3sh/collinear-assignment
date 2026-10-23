@@ -1,0 +1,406 @@
+{
+ "claims": [
+  {
+   "id": "D1",
+   "verdict": "incorrect",
+   "evidence": [
+    {
+     "panel": "P1",
+     "region": "Alder",
+     "window": "W1"
+    },
+    {
+     "panel": "P2",
+     "region": "Alder",
+     "window": "W1"
+    },
+    {
+     "panel": "P4",
+     "region": "Alder",
+     "window": "W1"
+    },
+    {
+     "panel": "P1",
+     "region": "Alder",
+     "window": "W8"
+    },
+    {
+     "panel": "P2",
+     "region": "Alder",
+     "window": "W8"
+    },
+    {
+     "panel": "P4",
+     "region": "Alder",
+     "window": "W8"
+    },
+    {
+     "panel": "P1",
+     "region": "Birch",
+     "window": "W1"
+    },
+    {
+     "panel": "P2",
+     "region": "Birch",
+     "window": "W1"
+    },
+    {
+     "panel": "P4",
+     "region": "Birch",
+     "window": "W1"
+    },
+    {
+     "panel": "P1",
+     "region": "Birch",
+     "window": "W6"
+    },
+    {
+     "panel": "P2",
+     "region": "Birch",
+     "window": "W6"
+    },
+    {
+     "panel": "P4",
+     "region": "Birch",
+     "window": "W6"
+    },
+    {
+     "panel": "P1",
+     "region": "Birch",
+     "window": "W8"
+    },
+    {
+     "panel": "P2",
+     "region": "Birch",
+     "window": "W8"
+    },
+    {
+     "panel": "P4",
+     "region": "Birch",
+     "window": "W8"
+    },
+    {
+     "panel": "P1",
+     "region": "Delta",
+     "window": "W3"
+    },
+    {
+     "panel": "P2",
+     "region": "Delta",
+     "window": "W3"
+    },
+    {
+     "panel": "P4",
+     "region": "Delta",
+     "window": "W3"
+    },
+    {
+     "panel": "P1",
+     "region": "Delta",
+     "window": "W8"
+    },
+    {
+     "panel": "P2",
+     "region": "Delta",
+     "window": "W8"
+    },
+    {
+     "panel": "P4",
+     "region": "Delta",
+     "window": "W8"
+    },
+    {
+     "panel": "P1",
+     "region": "Cedar",
+     "window": "W2"
+    },
+    {
+     "panel": "P2",
+     "region": "Cedar",
+     "window": "W2"
+    },
+    {
+     "panel": "P4",
+     "region": "Cedar",
+     "window": "W2"
+    }
+   ],
+   "explanation": "Alder has the highest failure PERCENTAGE (P2, 5-8%) but low traffic (P1, 200-300 req/min on its own scale). Failed count = rate*30min*pct over normal windows (P4): Alder 3,840 (bounds 3,115-4,603) vs Birch 16,170 (14,869-17,509) and Delta 8,580 (W3-W8 only). Birch has the largest failed-request count even at the reading bounds; Alder is third."
+  },
+  {
+   "id": "D2",
+   "verdict": "incorrect",
+   "evidence": [
+    {
+     "panel": "P1",
+     "region": "Alder",
+     "window": "W1"
+    },
+    {
+     "panel": "P2",
+     "region": "Alder",
+     "window": "W1"
+    },
+    {
+     "panel": "P4",
+     "region": "Alder",
+     "window": "W1"
+    },
+    {
+     "panel": "P1",
+     "region": "Birch",
+     "window": "W1"
+    },
+    {
+     "panel": "P2",
+     "region": "Birch",
+     "window": "W1"
+    },
+    {
+     "panel": "P4",
+     "region": "Birch",
+     "window": "W1"
+    },
+    {
+     "panel": "P1",
+     "region": "Cedar",
+     "window": "W1"
+    },
+    {
+     "panel": "P2",
+     "region": "Cedar",
+     "window": "W1"
+    },
+    {
+     "panel": "P4",
+     "region": "Cedar",
+     "window": "W1"
+    },
+    {
+     "panel": "P1",
+     "region": "Delta",
+     "window": "W3"
+    },
+    {
+     "panel": "P2",
+     "region": "Delta",
+     "window": "W3"
+    },
+    {
+     "panel": "P4",
+     "region": "Delta",
+     "window": "W3"
+    },
+    {
+     "panel": "P1",
+     "region": "Delta",
+     "window": "W1"
+    },
+    {
+     "panel": "P2",
+     "region": "Delta",
+     "window": "W1"
+    },
+    {
+     "panel": "P4",
+     "region": "Delta",
+     "window": "W1"
+    },
+    {
+     "panel": "P1",
+     "region": "Cedar",
+     "window": "W7"
+    },
+    {
+     "panel": "P2",
+     "region": "Cedar",
+     "window": "W7"
+    },
+    {
+     "panel": "P4",
+     "region": "Cedar",
+     "window": "W7"
+    }
+   ],
+   "explanation": "Policy requires the fleet rate as a ratio of fleet totals (sum failed / sum requests over normal windows), not an unweighted mean of regional percentages. Regions carry very different traffic (P1: Birch ~504k vs Alder 60k requests). Weighted fleet rate = 30,660/924,000 = 3.32%; the equal-weight mean of regional rates would be ~3.81%."
+  },
+  {
+   "id": "D3",
+   "verdict": "incorrect",
+   "evidence": [
+    {
+     "panel": "P4",
+     "region": "Delta",
+     "window": "W1"
+    },
+    {
+     "panel": "P1",
+     "region": "Delta",
+     "window": "W1"
+    },
+    {
+     "panel": "P2",
+     "region": "Delta",
+     "window": "W1"
+    },
+    {
+     "panel": "P4",
+     "region": "Delta",
+     "window": "W2"
+    },
+    {
+     "panel": "P1",
+     "region": "Delta",
+     "window": "W2"
+    },
+    {
+     "panel": "P2",
+     "region": "Delta",
+     "window": "W2"
+    }
+   ],
+   "explanation": "P4 marks Delta W1 and W2 as MAINTENANCE. Policy: maintenance metrics are transcribed but excluded from workload and latency calculations; only normal windows count. Delta's workload uses W3-W8 only."
+  },
+  {
+   "id": "D4",
+   "verdict": "incorrect",
+   "evidence": [
+    {
+     "panel": "P1",
+     "region": "Cedar",
+     "window": "W7"
+    },
+    {
+     "panel": "P4",
+     "region": "Cedar",
+     "window": "W7"
+    },
+    {
+     "panel": "P2",
+     "region": "Cedar",
+     "window": "W7"
+    },
+    {
+     "panel": "P3",
+     "region": "Cedar",
+     "window": "W7"
+    },
+    {
+     "panel": "P1",
+     "region": "Cedar",
+     "window": "W8"
+    },
+    {
+     "panel": "P4",
+     "region": "Cedar",
+     "window": "W8"
+    },
+    {
+     "panel": "P2",
+     "region": "Cedar",
+     "window": "W8"
+    },
+    {
+     "panel": "P3",
+     "region": "Cedar",
+     "window": "W8"
+    }
+   ],
+   "explanation": "Cedar W7/W8 are hatched UNKNOWN in P1 and UNKNOWN status in P4: telemetry unavailable, not zero traffic. They are recorded as null and excluded (not normal zero-request windows). Cedar's included windows are W1-W6."
+  },
+  {
+   "id": "D5",
+   "verdict": "correct",
+   "evidence": [
+    {
+     "panel": "P3",
+     "region": "Cedar",
+     "window": "W5"
+    },
+    {
+     "panel": "P4",
+     "region": "Cedar",
+     "window": "W5"
+    },
+    {
+     "panel": "P3",
+     "region": "Cedar",
+     "window": "W6"
+    },
+    {
+     "panel": "P4",
+     "region": "Cedar",
+     "window": "W6"
+    },
+    {
+     "panel": "P3",
+     "region": "Cedar",
+     "window": "W7"
+    },
+    {
+     "panel": "P4",
+     "region": "Cedar",
+     "window": "W7"
+    },
+    {
+     "panel": "P3",
+     "region": "Cedar",
+     "window": "W8"
+    },
+    {
+     "panel": "P4",
+     "region": "Cedar",
+     "window": "W8"
+    }
+   ],
+   "explanation": "Cedar's last two normal windows (P4) are W5 and W6 since W7/W8 are unknown. P3 labels give 260 ms and 270 ms, both not above the 300 ms trigger, so Cedar is ineligible. The claim is consistent with the policy."
+  },
+  {
+   "id": "D6",
+   "verdict": "unsupported",
+   "evidence": [
+    {
+     "panel": "P2",
+     "region": "Birch",
+     "window": "W3"
+    },
+    {
+     "panel": "P4",
+     "region": "Birch",
+     "window": "W3"
+    },
+    {
+     "panel": "P2",
+     "region": "Birch",
+     "window": "W4"
+    },
+    {
+     "panel": "P4",
+     "region": "Birch",
+     "window": "W4"
+    },
+    {
+     "panel": "P2",
+     "region": "Birch",
+     "window": "W5"
+    },
+    {
+     "panel": "P4",
+     "region": "Birch",
+     "window": "W5"
+    },
+    {
+     "panel": "P2",
+     "region": "Birch",
+     "window": "W6"
+    },
+    {
+     "panel": "P4",
+     "region": "Birch",
+     "window": "W6"
+    }
+   ],
+   "explanation": "P4 shows a deployment marker at 10:00 (between W4 and W5). Birch's failure rate (P2) goes 3.5% at W4 to 3.0% at W5, but it was already declining before the deployment (4.0% W1-W2 to 3.5% W3-W4) and other regions show similar trends. A temporal correlation with a single marker does not establish causation; the charts cannot support the causal claim."
+  }
+ ]
+}

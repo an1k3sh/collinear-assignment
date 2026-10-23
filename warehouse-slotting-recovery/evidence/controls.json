@@ -1,0 +1,78 @@
+{
+  "oracle": {
+    "valid": true,
+    "travel_ticks": 2369780,
+    "relocation_minutes": 200,
+    "target": 2381680,
+    "errors": [],
+    "expected": true
+  },
+  "valid_different_assignment_and_order": {
+    "valid": true,
+    "travel_ticks": 2376694,
+    "relocation_minutes": 200,
+    "target": 2381680,
+    "errors": [],
+    "expected": true
+  },
+  "baseline_misses_required_improvement": {
+    "valid": false,
+    "travel_ticks": 2430286,
+    "relocation_minutes": 0,
+    "target": 2381680,
+    "errors": [
+      "Travel target missed: 2430286>2381680"
+    ],
+    "expected": false
+  },
+  "two_skus_in_one_slot": {
+    "valid": false,
+    "errors": [
+      "Assignment must use each known slot exactly once"
+    ],
+    "expected": false
+  },
+  "wrong_zone": {
+    "valid": false,
+    "travel_ticks": 2373216,
+    "relocation_minutes": 200,
+    "target": 2381680,
+    "errors": [
+      "Zone mismatch: SKU-948506 in S72",
+      "Zone mismatch: SKU-981648 in S23"
+    ],
+    "expected": false
+  },
+  "fixed_inventory_moved": {
+    "valid": false,
+    "travel_ticks": 2368524,
+    "relocation_minutes": 203,
+    "target": 2381680,
+    "errors": [
+      "Fixed SKU moved: SKU-574599",
+      "Relocation budget exceeded: 203>200"
+    ],
+    "expected": false
+  },
+  "relocation_budget_ignored": {
+    "valid": false,
+    "travel_ticks": 2734174,
+    "relocation_minutes": 240,
+    "target": 2381680,
+    "errors": [
+      "Relocation budget exceeded: 240>200",
+      "Travel target missed: 2734174>2381680"
+    ],
+    "expected": false
+  },
+  "reported_score_not_actual_artifact": {
+    "valid": false,
+    "travel_ticks": 2369780,
+    "relocation_minutes": 200,
+    "target": 2381680,
+    "errors": [
+      "Incorrect reported travel_ticks: 2369779 != 2369780"
+    ],
+    "expected": false
+  }
+}

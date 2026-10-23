@@ -1,0 +1,10 @@
+{
+  "as_of": "2026-06-30",
+  "source_sha256": "6428623429919d7ff7c818aca10e0b3443ca1afbe4a1eb5082683561168f3a4f",
+  "active_event_count": 188,
+  "void_event_ids": [
+    "CANCELLED"
+  ],
+  "detail_total_cents": 11264876,
+  "adjustment_total": 3211.34
+}

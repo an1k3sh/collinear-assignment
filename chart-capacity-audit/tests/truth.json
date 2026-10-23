@@ -1,0 +1,452 @@
+{
+  "records": [
+    {
+      "region": "Alder",
+      "window": "W1",
+      "status": "normal",
+      "sources": {
+        "rate": "P1",
+        "failure_pct": "P2",
+        "p95_ms": "P3",
+        "status": "P4"
+      },
+      "rate": 200,
+      "failure_pct": 8,
+      "p95_ms": 380
+    },
+    {
+      "region": "Alder",
+      "window": "W2",
+      "status": "normal",
+      "sources": {
+        "rate": "P1",
+        "failure_pct": "P2",
+        "p95_ms": "P3",
+        "status": "P4"
+      },
+      "rate": 200,
+      "failure_pct": 8,
+      "p95_ms": 370
+    },
+    {
+      "region": "Alder",
+      "window": "W3",
+      "status": "normal",
+      "sources": {
+        "rate": "P1",
+        "failure_pct": "P2",
+        "p95_ms": "P3",
+        "status": "P4"
+      },
+      "rate": 300,
+      "failure_pct": 7,
+      "p95_ms": 360
+    },
+    {
+      "region": "Alder",
+      "window": "W4",
+      "status": "normal",
+      "sources": {
+        "rate": "P1",
+        "failure_pct": "P2",
+        "p95_ms": "P3",
+        "status": "P4"
+      },
+      "rate": 300,
+      "failure_pct": 7,
+      "p95_ms": 350
+    },
+    {
+      "region": "Alder",
+      "window": "W5",
+      "status": "normal",
+      "sources": {
+        "rate": "P1",
+        "failure_pct": "P2",
+        "p95_ms": "P3",
+        "status": "P4"
+      },
+      "rate": 200,
+      "failure_pct": 6,
+      "p95_ms": 340
+    },
+    {
+      "region": "Alder",
+      "window": "W6",
+      "status": "normal",
+      "sources": {
+        "rate": "P1",
+        "failure_pct": "P2",
+        "p95_ms": "P3",
+        "status": "P4"
+      },
+      "rate": 200,
+      "failure_pct": 6,
+      "p95_ms": 320
+    },
+    {
+      "region": "Alder",
+      "window": "W7",
+      "status": "normal",
+      "sources": {
+        "rate": "P1",
+        "failure_pct": "P2",
+        "p95_ms": "P3",
+        "status": "P4"
+      },
+      "rate": 300,
+      "failure_pct": 5,
+      "p95_ms": 330
+    },
+    {
+      "region": "Alder",
+      "window": "W8",
+      "status": "normal",
+      "sources": {
+        "rate": "P1",
+        "failure_pct": "P2",
+        "p95_ms": "P3",
+        "status": "P4"
+      },
+      "rate": 300,
+      "failure_pct": 5,
+      "p95_ms": 350
+    },
+    {
+      "region": "Birch",
+      "window": "W1",
+      "status": "normal",
+      "sources": {
+        "rate": "P1",
+        "failure_pct": "P2",
+        "p95_ms": "P3",
+        "status": "P4"
+      },
+      "rate": 1800,
+      "failure_pct": 4,
+      "p95_ms": 460
+    },
+    {
+      "region": "Birch",
+      "window": "W2",
+      "status": "normal",
+      "sources": {
+        "rate": "P1",
+        "failure_pct": "P2",
+        "p95_ms": "P3",
+        "status": "P4"
+      },
+      "rate": 2000,
+      "failure_pct": 4,
+      "p95_ms": 450
+    },
+    {
+      "region": "Birch",
+      "window": "W3",
+      "status": "normal",
+      "sources": {
+        "rate": "P1",
+        "failure_pct": "P2",
+        "p95_ms": "P3",
+        "status": "P4"
+      },
+      "rate": 1800,
+      "failure_pct": 3.5,
+      "p95_ms": 440
+    },
+    {
+      "region": "Birch",
+      "window": "W4",
+      "status": "normal",
+      "sources": {
+        "rate": "P1",
+        "failure_pct": "P2",
+        "p95_ms": "P3",
+        "status": "P4"
+      },
+      "rate": 2200,
+      "failure_pct": 3.5,
+      "p95_ms": 430
+    },
+    {
+      "region": "Birch",
+      "window": "W5",
+      "status": "normal",
+      "sources": {
+        "rate": "P1",
+        "failure_pct": "P2",
+        "p95_ms": "P3",
+        "status": "P4"
+      },
+      "rate": 2000,
+      "failure_pct": 3,
+      "p95_ms": 420
+    },
+    {
+      "region": "Birch",
+      "window": "W6",
+      "status": "normal",
+      "sources": {
+        "rate": "P1",
+        "failure_pct": "P2",
+        "p95_ms": "P3",
+        "status": "P4"
+      },
+      "rate": 2400,
+      "failure_pct": 3,
+      "p95_ms": 410
+    },
+    {
+      "region": "Birch",
+      "window": "W7",
+      "status": "normal",
+      "sources": {
+        "rate": "P1",
+        "failure_pct": "P2",
+        "p95_ms": "P3",
+        "status": "P4"
+      },
+      "rate": 2200,
+      "failure_pct": 2.5,
+      "p95_ms": 420
+    },
+    {
+      "region": "Birch",
+      "window": "W8",
+      "status": "normal",
+      "sources": {
+        "rate": "P1",
+        "failure_pct": "P2",
+        "p95_ms": "P3",
+        "status": "P4"
+      },
+      "rate": 2400,
+      "failure_pct": 2.5,
+      "p95_ms": 440
+    },
+    {
+      "region": "Cedar",
+      "window": "W1",
+      "status": "normal",
+      "sources": {
+        "rate": "P1",
+        "failure_pct": "P2",
+        "p95_ms": "P3",
+        "status": "P4"
+      },
+      "rate": 800,
+      "failure_pct": 1,
+      "p95_ms": 240
+    },
+    {
+      "region": "Cedar",
+      "window": "W2",
+      "status": "normal",
+      "sources": {
+        "rate": "P1",
+        "failure_pct": "P2",
+        "p95_ms": "P3",
+        "status": "P4"
+      },
+      "rate": 1000,
+      "failure_pct": 1.5,
+      "p95_ms": 250
+    },
+    {
+      "region": "Cedar",
+      "window": "W3",
+      "status": "normal",
+      "sources": {
+        "rate": "P1",
+        "failure_pct": "P2",
+        "p95_ms": "P3",
+        "status": "P4"
+      },
+      "rate": 800,
+      "failure_pct": 1,
+      "p95_ms": 240
+    },
+    {
+      "region": "Cedar",
+      "window": "W4",
+      "status": "normal",
+      "sources": {
+        "rate": "P1",
+        "failure_pct": "P2",
+        "p95_ms": "P3",
+        "status": "P4"
+      },
+      "rate": 1000,
+      "failure_pct": 1.5,
+      "p95_ms": 250
+    },
+    {
+      "region": "Cedar",
+      "window": "W5",
+      "status": "normal",
+      "sources": {
+        "rate": "P1",
+        "failure_pct": "P2",
+        "p95_ms": "P3",
+        "status": "P4"
+      },
+      "rate": 800,
+      "failure_pct": 1,
+      "p95_ms": 260
+    },
+    {
+      "region": "Cedar",
+      "window": "W6",
+      "status": "normal",
+      "sources": {
+        "rate": "P1",
+        "failure_pct": "P2",
+        "p95_ms": "P3",
+        "status": "P4"
+      },
+      "rate": 1000,
+      "failure_pct": 1.5,
+      "p95_ms": 270
+    },
+    {
+      "region": "Cedar",
+      "window": "W7",
+      "status": "unknown",
+      "sources": {
+        "rate": "P1",
+        "failure_pct": "P2",
+        "p95_ms": "P3",
+        "status": "P4"
+      },
+      "rate": null,
+      "failure_pct": null,
+      "p95_ms": null
+    },
+    {
+      "region": "Cedar",
+      "window": "W8",
+      "status": "unknown",
+      "sources": {
+        "rate": "P1",
+        "failure_pct": "P2",
+        "p95_ms": "P3",
+        "status": "P4"
+      },
+      "rate": null,
+      "failure_pct": null,
+      "p95_ms": null
+    },
+    {
+      "region": "Delta",
+      "window": "W1",
+      "status": "maintenance",
+      "sources": {
+        "rate": "P1",
+        "failure_pct": "P2",
+        "p95_ms": "P3",
+        "status": "P4"
+      },
+      "rate": 1000,
+      "failure_pct": 10,
+      "p95_ms": 600
+    },
+    {
+      "region": "Delta",
+      "window": "W2",
+      "status": "maintenance",
+      "sources": {
+        "rate": "P1",
+        "failure_pct": "P2",
+        "p95_ms": "P3",
+        "status": "P4"
+      },
+      "rate": 1200,
+      "failure_pct": 10,
+      "p95_ms": 580
+    },
+    {
+      "region": "Delta",
+      "window": "W3",
+      "status": "normal",
+      "sources": {
+        "rate": "P1",
+        "failure_pct": "P2",
+        "p95_ms": "P3",
+        "status": "P4"
+      },
+      "rate": 1000,
+      "failure_pct": 3,
+      "p95_ms": 340
+    },
+    {
+      "region": "Delta",
+      "window": "W4",
+      "status": "normal",
+      "sources": {
+        "rate": "P1",
+        "failure_pct": "P2",
+        "p95_ms": "P3",
+        "status": "P4"
+      },
+      "rate": 1200,
+      "failure_pct": 3,
+      "p95_ms": 350
+    },
+    {
+      "region": "Delta",
+      "window": "W5",
+      "status": "normal",
+      "sources": {
+        "rate": "P1",
+        "failure_pct": "P2",
+        "p95_ms": "P3",
+        "status": "P4"
+      },
+      "rate": 1000,
+      "failure_pct": 5,
+      "p95_ms": 360
+    },
+    {
+      "region": "Delta",
+      "window": "W6",
+      "status": "normal",
+      "sources": {
+        "rate": "P1",
+        "failure_pct": "P2",
+        "p95_ms": "P3",
+        "status": "P4"
+      },
+      "rate": 1200,
+      "failure_pct": 5,
+      "p95_ms": 360
+    },
+    {
+      "region": "Delta",
+      "window": "W7",
+      "status": "normal",
+      "sources": {
+        "rate": "P1",
+        "failure_pct": "P2",
+        "p95_ms": "P3",
+        "status": "P4"
+      },
+      "rate": 1000,
+      "failure_pct": 5,
+      "p95_ms": 370
+    },
+    {
+      "region": "Delta",
+      "window": "W8",
+      "status": "normal",
+      "sources": {
+        "rate": "P1",
+        "failure_pct": "P2",
+        "p95_ms": "P3",
+        "status": "P4"
+      },
+      "rate": 1200,
+      "failure_pct": 5,
+      "p95_ms": 390
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "rows": [
+    {
+      "line": 2,
+      "status": "ok",
+      "receipt": {
+        "cents": 2500,
+        "invoice_id": "00123",
+        "payment_id": "P-001",
+        "tenant": "north"
+      }
+    },
+    {
+      "line": 3,
+      "status": "ok",
+      "receipt": {
+        "cents": 2500,
+        "invoice_id": "123",
+        "payment_id": "P-002",
+        "tenant": "north"
+      }
+    },
+    {
+      "line": 4,
+      "status": "ok",
+      "receipt": {
+        "cents": 1999,
+        "invoice_id": "INV-9",
+        "payment_id": "P-003",
+        "tenant": "north"
+      }
+    },
+    {
+      "line": 5,
+      "status": "ok",
+      "receipt": {
+        "cents": 2500,
+        "invoice_id": "00123",
+        "payment_id": "P-001",
+        "tenant": "north"
+      }
+    },
+    {
+      "line": 6,
+      "status": "ok",
+      "receipt": {
+        "cents": 2500,
+        "invoice_id": "00123",
+        "payment_id": "P-001",
+        "tenant": "south"
+      }
+    },
+    {
+      "line": 7,
+      "status": "ok",
+      "receipt": {
+        "cents": 29,
+        "invoice_id": "00123",
+        "payment_id": "P-004",
+        "tenant": "north"
+      }
+    },
+    {
+      "line": 8,
+      "status": "ok",
+      "receipt": {
+        "cents": 10001,
+        "invoice_id": "INV-9",
+        "payment_id": "P-005",
+        "tenant": "north"
+      }
+    }
+  ],
+  "ok": 7,
+  "errors": 0
+}

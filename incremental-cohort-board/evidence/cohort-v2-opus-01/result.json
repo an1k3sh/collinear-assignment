@@ -1,0 +1,63 @@
+{
+    "id": "391b0f09-6108-4eb2-9eec-a4ca19b552a7",
+    "started_at": "2026-10-23T23:38:58.684066",
+    "updated_at": "2026-10-23T23:57:45.175221",
+    "finished_at": "2026-10-23T23:57:45.175221",
+    "n_total_trials": 1,
+    "stats": {
+        "n_completed_trials": 1,
+        "n_errored_trials": 0,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "copilot-cli__claude-opus-5.5__adhoc": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "artifact_quality": 1.0,
+                        "constraint_satisfaction": 1.0,
+                        "functional_correctness": 1.0,
+                        "overall": 1.0,
+                        "robustness": 1.0
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "overall": {
+                        "1.0": [
+                            "incremental-cohort-board__BYUAdtT"
+                        ]
+                    },
+                    "functional_correctness": {
+                        "1.0": [
+                            "incremental-cohort-board__BYUAdtT"
+                        ]
+                    },
+                    "constraint_satisfaction": {
+                        "1.0": [
+                            "incremental-cohort-board__BYUAdtT"
+                        ]
+                    },
+                    "robustness": {
+                        "1.0": [
+                            "incremental-cohort-board__BYUAdtT"
+                        ]
+                    },
+                    "artifact_quality": {
+                        "1.0": [
+                            "incremental-cohort-board__BYUAdtT"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        },
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": 0,
+        "cost_usd": null
+    }
+}

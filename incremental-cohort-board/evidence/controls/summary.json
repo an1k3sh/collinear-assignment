@@ -1,0 +1,184 @@
+{
+  "valid-read-only-schema-introspection": {
+    "expected_pass": true,
+    "actual_pass": true,
+    "correctly_classified": true,
+    "exit_code": 0,
+    "reward": {
+      "overall": 1.0,
+      "functional_correctness": 1.0,
+      "constraint_satisfaction": 1.0,
+      "robustness": 1.0,
+      "artifact_quality": 1.0
+    }
+  },
+  "valid-auxiliary-schema-evolution": {
+    "expected_pass": true,
+    "actual_pass": true,
+    "correctly_classified": true,
+    "exit_code": 0,
+    "reward": {
+      "overall": 1.0,
+      "functional_correctness": 1.0,
+      "constraint_satisfaction": 1.0,
+      "robustness": 1.0,
+      "artifact_quality": 1.0
+    }
+  },
+  "valid-reverse-order-unescaped-keys": {
+    "expected_pass": true,
+    "actual_pass": true,
+    "correctly_classified": true,
+    "exit_code": 0,
+    "reward": {
+      "overall": 1.0,
+      "functional_correctness": 1.0,
+      "constraint_satisfaction": 1.0,
+      "robustness": 1.0,
+      "artifact_quality": 1.0
+    }
+  },
+  "full-rebuild-on-every-batch": {
+    "expected_pass": false,
+    "actual_pass": false,
+    "correctly_classified": true,
+    "exit_code": 1,
+    "reward": {
+      "overall": 0.0,
+      "functional_correctness": 1.0,
+      "constraint_satisfaction": 0.3333333333333333,
+      "robustness": 1.0,
+      "artifact_quality": 1.0
+    }
+  },
+  "all-null-sums-become-zero": {
+    "expected_pass": false,
+    "actual_pass": false,
+    "correctly_classified": true,
+    "exit_code": 1,
+    "reward": {
+      "overall": 0.0,
+      "functional_correctness": 0.3333333333333333,
+      "constraint_satisfaction": 0.6666666666666666,
+      "robustness": 0.8,
+      "artifact_quality": 1.0
+    }
+  },
+  "distinct-account-count-is-row-count": {
+    "expected_pass": false,
+    "actual_pass": false,
+    "correctly_classified": true,
+    "exit_code": 1,
+    "reward": {
+      "overall": 0.0,
+      "functional_correctness": 0.1111111111111111,
+      "constraint_satisfaction": 0.6666666666666666,
+      "robustness": 0.2,
+      "artifact_quality": 0.0
+    }
+  },
+  "ignores-before-images": {
+    "expected_pass": false,
+    "actual_pass": false,
+    "correctly_classified": true,
+    "exit_code": 1,
+    "reward": {
+      "overall": 0.0,
+      "functional_correctness": 0.1111111111111111,
+      "constraint_satisfaction": 0.3333333333333333,
+      "robustness": 0.2,
+      "artifact_quality": 1.0
+    }
+  },
+  "ignores-rate-only-corrections": {
+    "expected_pass": false,
+    "actual_pass": false,
+    "correctly_classified": true,
+    "exit_code": 1,
+    "reward": {
+      "overall": 0.0,
+      "functional_correctness": 0.7777777777777778,
+      "constraint_satisfaction": 0.6666666666666666,
+      "robustness": 0.8,
+      "artifact_quality": 0.0
+    }
+  },
+  "null-safe-join-instead-of-sql-equality": {
+    "expected_pass": false,
+    "actual_pass": false,
+    "correctly_classified": true,
+    "exit_code": 1,
+    "reward": {
+      "overall": 0.0,
+      "functional_correctness": 0.1111111111111111,
+      "constraint_satisfaction": 1.0,
+      "robustness": 0.0,
+      "artifact_quality": 1.0
+    }
+  },
+  "deduplicates-source-tag-bag": {
+    "expected_pass": false,
+    "actual_pass": false,
+    "correctly_classified": true,
+    "exit_code": 1,
+    "reward": {
+      "overall": 0.0,
+      "functional_correctness": 0.1111111111111111,
+      "constraint_satisfaction": 0.3333333333333333,
+      "robustness": 0.0,
+      "artifact_quality": 1.0
+    }
+  },
+  "does-not-retract-old-extrema": {
+    "expected_pass": false,
+    "actual_pass": false,
+    "correctly_classified": true,
+    "exit_code": 1,
+    "reward": {
+      "overall": 0.0,
+      "functional_correctness": 0.0,
+      "constraint_satisfaction": 0.3333333333333333,
+      "robustness": 0.0,
+      "artifact_quality": 0.0
+    }
+  },
+  "counts-accounts-instead-of-households": {
+    "expected_pass": false,
+    "actual_pass": false,
+    "correctly_classified": true,
+    "exit_code": 1,
+    "reward": {
+      "overall": 0.0,
+      "functional_correctness": 0.6666666666666666,
+      "constraint_satisfaction": 0.6666666666666666,
+      "robustness": 0.6,
+      "artifact_quality": 0.0
+    }
+  },
+  "monotone-alias-components-never-split": {
+    "expected_pass": false,
+    "actual_pass": false,
+    "correctly_classified": true,
+    "exit_code": 1,
+    "reward": {
+      "overall": 0.0,
+      "functional_correctness": 0.6666666666666666,
+      "constraint_satisfaction": 1.0,
+      "robustness": 0.6,
+      "artifact_quality": 1.0
+    }
+  },
+  "ignores-alias-only-updates": {
+    "expected_pass": false,
+    "actual_pass": false,
+    "correctly_classified": true,
+    "exit_code": 1,
+    "reward": {
+      "overall": 0.0,
+      "functional_correctness": 0.6666666666666666,
+      "constraint_satisfaction": 0.6666666666666666,
+      "robustness": 0.6,
+      "artifact_quality": 1.0
+    }
+  }
+}

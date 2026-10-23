@@ -1,0 +1,128 @@
+{
+    "id": "f9b9bfa2-ba95-491a-8879-e6b3fd0b8f9c",
+    "task_name": "collinear-candidate/payment-import-recovery",
+    "trial_name": "payment-import-recovery__CJhgYPc",
+    "trial_uri": "file:///Users/anikeshparashar/Projects/difficult-bench/jobs/harbor-prototypes-opus-02/payment-import-recovery__CJhgYPc",
+    "task_id": {
+        "path": "harbor-prototypes/payment-import-recovery"
+    },
+    "source": "harbor-prototypes",
+    "task_checksum": "e97ef8a643faa617a5c00386146b118783b270441a9434d2412b58dc83834ff1",
+    "config": {
+        "task": {
+            "path": "harbor-prototypes/payment-import-recovery",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": "harbor-prototypes"
+        },
+        "trial_name": "payment-import-recovery__CJhgYPc",
+        "trials_dir": "jobs/harbor-prototypes-opus-02",
+        "install_only": false,
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": 5.0,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "prototype_harness:PrototypeCopilot",
+            "import_path": null,
+            "model_name": "claude-opus-5.5",
+            "n_concurrent": null,
+            "concurrency_group": null,
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "resume_trajectory": false,
+            "load_trajectory": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {
+                "reasoning_effort": "high",
+                "version": "1.0.102"
+            },
+            "mcp_servers": []
+        },
+        "user_agent": null,
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "stream": false,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "extra_instructions": [],
+        "job_id": "6a7a7cc7-d906-4d0e-b89b-cfef01b02489",
+        "source_trial": null
+    },
+    "agent_info": {
+        "name": "copilot-cli",
+        "version": "1.0.102",
+        "model_info": {
+            "name": "claude-opus-5.5",
+            "provider": null
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": 0,
+        "cost_usd": null,
+        "model_usage": null,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "delivered": 1.0,
+            "identity_and_cents": 1.0,
+            "lost_response": 1.0,
+            "error_reporting": 1.0,
+            "concurrency": 1.0,
+            "artifacts": 1.0,
+            "overall": 1.0
+        }
+    },
+    "verifier_environment_mode": "shared",
+    "exception_info": null,
+    "started_at": "2026-10-23T16:05:38.107032Z",
+    "finished_at": "2026-10-23T16:12:35.459819Z",
+    "environment_setup": {
+        "started_at": "2026-10-23T16:05:38.186423Z",
+        "finished_at": "2026-10-23T16:05:40.815205Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-10-23T16:05:40.815251Z",
+        "finished_at": "2026-10-23T16:06:19.521565Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-10-23T16:06:19.522257Z",
+        "finished_at": "2026-10-23T16:12:23.371856Z"
+    },
+    "verifier": {
+        "started_at": "2026-10-23T16:12:26.084427Z",
+        "finished_at": "2026-10-23T16:12:33.275294Z"
+    },
+    "step_results": null
+}

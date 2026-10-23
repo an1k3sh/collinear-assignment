@@ -1,0 +1,16 @@
+{
+    "task": {
+        "path": "collinear-candidate/northstar-forecast-revision"
+    },
+    "trial_name": "northstar-forecast-revision__YiUafu4",
+    "trials_dir": "jobs/northstar-copilot-opus-02",
+    "agent": {
+        "name": "copilot-cli",
+        "model_name": "claude-opus-5.5",
+        "kwargs": {
+            "version": "1.0.102",
+            "reasoning_effort": "high"
+        }
+    },
+    "job_id": "fff90884-6d8e-47b4-9efa-deb069cc8194"
+}

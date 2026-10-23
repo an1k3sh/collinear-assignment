@@ -1,0 +1,11 @@
+{
+    "task": {
+        "path": "collinear-candidate/northstar-forecast-revision"
+    },
+    "trial_name": "northstar-forecast-revision__oenfCqJ",
+    "trials_dir": "jobs/northstar-oracle-03",
+    "artifacts": [
+        "/app/output"
+    ],
+    "job_id": "40db4246-fa2e-4cfc-a9ed-354d9bd1c072"
+}

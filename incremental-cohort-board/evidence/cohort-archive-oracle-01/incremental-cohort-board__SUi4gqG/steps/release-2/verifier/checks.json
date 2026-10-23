@@ -1,0 +1,99 @@
+{
+  "release": 2,
+  "tests": {
+    "__main__.ProjectionTests.test_artifact_durable_incident_state": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_constraint_immutable_host_and_inputs": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_constraint_incremental_locality": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_constraint_other_group_cardinality": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_functional_bags_distinct_and_retractable_extrema": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_functional_collision_free_group_keys": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_functional_day_account_rekeys_and_deletes": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_functional_left_join_support_transitions": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_functional_rate_fanout_and_null_nonmatches": {
+      "status": "skipped",
+      "reason": "rated not released"
+    },
+    "__main__.ProjectionTests.test_functional_transaction_cross_terms": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_robustness_coalesced_writes_and_change_order": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_robustness_generated_state_machine": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_robustness_rollback_retry_reopen": {
+      "status": "passed"
+    },
+    "__main__.ProjectionTests.test_robustness_upgrade_from_populated_prior_release": {
+      "status": "passed"
+    }
+  },
+  "work": [
+    {
+      "batch": "local/order-extrema",
+      "vm_instructions": 712,
+      "limit": 300000,
+      "release": 2
+    },
+    {
+      "batch": "local/delete-last-tag",
+      "vm_instructions": 663,
+      "limit": 300000,
+      "release": 2
+    },
+    {
+      "batch": "local/insert-first-tag",
+      "vm_instructions": 687,
+      "limit": 300000,
+      "release": 2
+    },
+    {
+      "batch": "local/sparse-rate",
+      "vm_instructions": 96,
+      "limit": 300000,
+      "release": 2
+    },
+    {
+      "batch": "local/three-table-rekey",
+      "vm_instructions": 1173,
+      "limit": 300000,
+      "release": 2
+    },
+    {
+      "batch": "local/noop",
+      "vm_instructions": 36,
+      "limit": 300000,
+      "release": 2
+    },
+    {
+      "batch": "local/many-groups",
+      "vm_instructions": 694,
+      "limit": 300000,
+      "release": 2
+    },
+    {
+      "batch": "local/many-groups-reopen",
+      "vm_instructions": 483,
+      "limit": 300000,
+      "release": 2
+    }
+  ],
+  "tests_run": 14
+}

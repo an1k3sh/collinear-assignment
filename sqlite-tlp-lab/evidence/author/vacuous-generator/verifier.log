@@ -1,0 +1,99 @@
+test_artifact_cli (test_tlp.TLPTests.test_artifact_cli) ... ok
+test_artifact_cli_mismatch_and_error (test_tlp.TLPTests.test_artifact_cli_mismatch_and_error) ... ok
+test_artifact_save_replay (test_tlp.TLPTests.test_artifact_save_replay) ... ok
+test_completeness_avg (test_tlp.TLPTests.test_completeness_avg) ... ok
+test_completeness_count_sum (test_tlp.TLPTests.test_completeness_count_sum) ... ok
+test_completeness_min_max (test_tlp.TLPTests.test_completeness_min_max) ... ok
+test_completeness_rows_distinct (test_tlp.TLPTests.test_completeness_rows_distinct) ... ok
+test_diversity_edge_data (test_tlp.TLPTests.test_diversity_edge_data) ... 
+  test_diversity_edge_data (test_tlp.TLPTests.test_diversity_edge_data) (seed=0) ... FAIL
+  test_diversity_edge_data (test_tlp.TLPTests.test_diversity_edge_data) (seed=17) ... FAIL
+  test_diversity_edge_data (test_tlp.TLPTests.test_diversity_edge_data) (seed=-435) ... FAIL
+  test_diversity_edge_data (test_tlp.TLPTests.test_diversity_edge_data) (seed=9823) ... FAIL
+test_diversity_generation (test_tlp.TLPTests.test_diversity_generation) ... ok
+test_diversity_grouping (test_tlp.TLPTests.test_diversity_grouping) ... ok
+test_diversity_modes (test_tlp.TLPTests.test_diversity_modes) ... ok
+test_diversity_operators (test_tlp.TLPTests.test_diversity_operators) ... ok
+test_diversity_partition_occupancy (test_tlp.TLPTests.test_diversity_partition_occupancy) ... 
+  test_diversity_partition_occupancy (test_tlp.TLPTests.test_diversity_partition_occupancy) (seed=0) ... FAIL
+  test_diversity_partition_occupancy (test_tlp.TLPTests.test_diversity_partition_occupancy) (seed=17) ... FAIL
+  test_diversity_partition_occupancy (test_tlp.TLPTests.test_diversity_partition_occupancy) (seed=-435) ... FAIL
+  test_diversity_partition_occupancy (test_tlp.TLPTests.test_diversity_partition_occupancy) (seed=9823) ... FAIL
+test_diversity_shapes (test_tlp.TLPTests.test_diversity_shapes) ... ok
+test_diversity_sources_filters (test_tlp.TLPTests.test_diversity_sources_filters) ... ok
+test_validity_binding (test_tlp.TLPTests.test_validity_binding) ... ok
+test_validity_comparator (test_tlp.TLPTests.test_validity_comparator) ... ok
+test_validity_composition_without_database (test_tlp.TLPTests.test_validity_composition_without_database) ... ok
+test_validity_errors (test_tlp.TLPTests.test_validity_errors) ... ok
+test_validity_executor_and_detection (test_tlp.TLPTests.test_validity_executor_and_detection) ... ok
+test_validity_partition_plans (test_tlp.TLPTests.test_validity_partition_plans) ... ok
+test_validity_protected_files (test_tlp.TLPTests.test_validity_protected_files) ... ok
+
+======================================================================
+FAIL: test_diversity_edge_data (test_tlp.TLPTests.test_diversity_edge_data) (seed=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 312, in test
+    self.assertTrue(checks[category], json.dumps(metrics))
+AssertionError: False is not true : {"modes": {"rows": 16, "distinct": 16, "count": 16, "sum": 16, "avg": 16, "min": 16, "max": 16}, "sources": {"single": 42, "inner": 35, "left": 35}, "metrics": {"filtered": 42, "deep": 70, "three_way": 0, "nonempty": 0, "empty": 112, "duplicates": 0, "grouped": 40}, "shapes": 112, "operators": ["add", "and", "col", "eq", "ge", "gt", "isnull", "le", "lit", "lt", "ne", "not", "or"]}
+
+======================================================================
+FAIL: test_diversity_edge_data (test_tlp.TLPTests.test_diversity_edge_data) (seed=17)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 312, in test
+    self.assertTrue(checks[category], json.dumps(metrics))
+AssertionError: False is not true : {"modes": {"rows": 16, "distinct": 16, "count": 16, "sum": 16, "avg": 16, "min": 16, "max": 16}, "sources": {"single": 42, "inner": 35, "left": 35}, "metrics": {"filtered": 42, "deep": 70, "three_way": 0, "nonempty": 0, "empty": 112, "duplicates": 0, "grouped": 40}, "shapes": 112, "operators": ["add", "and", "col", "eq", "ge", "gt", "isnull", "le", "lit", "lt", "ne", "not", "or"]}
+
+======================================================================
+FAIL: test_diversity_edge_data (test_tlp.TLPTests.test_diversity_edge_data) (seed=-435)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 312, in test
+    self.assertTrue(checks[category], json.dumps(metrics))
+AssertionError: False is not true : {"modes": {"rows": 16, "distinct": 16, "count": 16, "sum": 16, "avg": 16, "min": 16, "max": 16}, "sources": {"single": 42, "inner": 35, "left": 35}, "metrics": {"filtered": 42, "deep": 70, "three_way": 0, "nonempty": 0, "empty": 112, "duplicates": 0, "grouped": 40}, "shapes": 112, "operators": ["add", "and", "col", "eq", "ge", "gt", "isnull", "le", "lit", "lt", "ne", "not", "or"]}
+
+======================================================================
+FAIL: test_diversity_edge_data (test_tlp.TLPTests.test_diversity_edge_data) (seed=9823)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 312, in test
+    self.assertTrue(checks[category], json.dumps(metrics))
+AssertionError: False is not true : {"modes": {"rows": 16, "distinct": 16, "count": 16, "sum": 16, "avg": 16, "min": 16, "max": 16}, "sources": {"single": 42, "inner": 35, "left": 35}, "metrics": {"filtered": 42, "deep": 70, "three_way": 0, "nonempty": 0, "empty": 112, "duplicates": 0, "grouped": 40}, "shapes": 112, "operators": ["add", "and", "col", "eq", "ge", "gt", "isnull", "le", "lit", "lt", "ne", "not", "or"]}
+
+======================================================================
+FAIL: test_diversity_partition_occupancy (test_tlp.TLPTests.test_diversity_partition_occupancy) (seed=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 312, in test
+    self.assertTrue(checks[category], json.dumps(metrics))
+AssertionError: False is not true : {"modes": {"rows": 16, "distinct": 16, "count": 16, "sum": 16, "avg": 16, "min": 16, "max": 16}, "sources": {"single": 42, "inner": 35, "left": 35}, "metrics": {"filtered": 42, "deep": 70, "three_way": 0, "nonempty": 0, "empty": 112, "duplicates": 0, "grouped": 40}, "shapes": 112, "operators": ["add", "and", "col", "eq", "ge", "gt", "isnull", "le", "lit", "lt", "ne", "not", "or"]}
+
+======================================================================
+FAIL: test_diversity_partition_occupancy (test_tlp.TLPTests.test_diversity_partition_occupancy) (seed=17)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 312, in test
+    self.assertTrue(checks[category], json.dumps(metrics))
+AssertionError: False is not true : {"modes": {"rows": 16, "distinct": 16, "count": 16, "sum": 16, "avg": 16, "min": 16, "max": 16}, "sources": {"single": 42, "inner": 35, "left": 35}, "metrics": {"filtered": 42, "deep": 70, "three_way": 0, "nonempty": 0, "empty": 112, "duplicates": 0, "grouped": 40}, "shapes": 112, "operators": ["add", "and", "col", "eq", "ge", "gt", "isnull", "le", "lit", "lt", "ne", "not", "or"]}
+
+======================================================================
+FAIL: test_diversity_partition_occupancy (test_tlp.TLPTests.test_diversity_partition_occupancy) (seed=-435)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 312, in test
+    self.assertTrue(checks[category], json.dumps(metrics))
+AssertionError: False is not true : {"modes": {"rows": 16, "distinct": 16, "count": 16, "sum": 16, "avg": 16, "min": 16, "max": 16}, "sources": {"single": 42, "inner": 35, "left": 35}, "metrics": {"filtered": 42, "deep": 70, "three_way": 0, "nonempty": 0, "empty": 112, "duplicates": 0, "grouped": 40}, "shapes": 112, "operators": ["add", "and", "col", "eq", "ge", "gt", "isnull", "le", "lit", "lt", "ne", "not", "or"]}
+
+======================================================================
+FAIL: test_diversity_partition_occupancy (test_tlp.TLPTests.test_diversity_partition_occupancy) (seed=9823)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/submission/tests/test_tlp.py", line 312, in test
+    self.assertTrue(checks[category], json.dumps(metrics))
+AssertionError: False is not true : {"modes": {"rows": 16, "distinct": 16, "count": 16, "sum": 16, "avg": 16, "min": 16, "max": 16}, "sources": {"single": 42, "inner": 35, "left": 35}, "metrics": {"filtered": 42, "deep": 70, "three_way": 0, "nonempty": 0, "empty": 112, "duplicates": 0, "grouped": 40}, "shapes": 112, "operators": ["add", "and", "col", "eq", "ge", "gt", "isnull", "le", "lit", "lt", "ne", "not", "or"]}
+
+----------------------------------------------------------------------
+Ran 22 tests in 1.797s
+
+FAILED (failures=8)

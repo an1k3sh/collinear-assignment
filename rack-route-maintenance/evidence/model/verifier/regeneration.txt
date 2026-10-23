@@ -1,0 +1,2 @@
+solver status OPTIMAL; activated 6 cables, 10000 cents of 36000; plan validated
+

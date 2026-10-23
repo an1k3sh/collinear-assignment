@@ -1,0 +1,6 @@
+[
+  {"name":"valid_json_format","file":"submission/reconcile.py","old":"json.dumps(summary, indent=2)","new":"json.dumps(summary, sort_keys=True)","expected":1},
+  {"name":"draft_credit_applied","file":"submission/reconcile.py","old":"row[\"status\"] == \"posted\"","new":"row[\"status\"] != \"cancelled\"","expected":0},
+  {"name":"cross_merchant_collision","file":"submission/reconcile.py","old":"identity = (row[\"merchant\"], row[key])","new":"identity = row[key]","expected":0},
+  {"name":"future_knowledge_leak","file":"submission/reconcile.py","old":"if timestamp(row[\"recorded_at\"]) <= cutoff:","new":"if True:","expected":0}
+]

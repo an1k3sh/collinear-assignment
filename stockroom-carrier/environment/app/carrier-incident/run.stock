@@ -1,0 +1,22 @@
+proc rehearsal() {
+    transaction {
+        dispatch_order("drill", "gear", 2, "seal", 1, "east", "west");
+        pause "operator:abort";
+        assert false;
+    } recover(e) {
+        emit "rehearsal_reverted" {reason:code(e);};
+        pause "operator:recovered";
+    }
+}
+
+proc main() {
+    rehearsal();
+    dispatch_order("drill", "gear", 2, "seal", 1, "west", "east");
+    dispatch_order("alpha", "gear", 6, "seal", 4, "east", "west");
+    dispatch_order("beta", "gear", 5, "seal", 3, "east", "west");
+    dispatch_order("orphan", "gear", 3, "seal", 2, "east", "west");
+    dispatch_order("blocked", "gear", 2, "seal", 2, "east", "west");
+    dispatch_order("gamma", "gear", 100, "seal", 100, "east", "west");
+    dispatch_order("alpha", "gear", 6, "seal", 4, "west", "east");
+    emit "closing" {east_gear:available("east","gear"); west_gear:available("west","gear");};
+}

@@ -1,0 +1,7 @@
+{
+  "CONTRACT.md": "1f39f8098b3b435680aeb7704cb0e7f42d82638bcde9d6c86212a1f8ae166d35",
+  "data/invoices.csv": "65fcb42fcf68ee3420f84d839000653d858a4ee5d94f47d981897d180aac698a",
+  "data/payments.csv": "dda5a89c3db93e9846e49778c562a4ae35a379a4f7bbe99f62f7b3b64e9b7bb1",
+  "incidents/import.log": "75074871298f50308c98ce6b19f8624d0a423ccde2f53cff6859f3b21936a734",
+  "tools/seed.py": "4c91a802a6ea9649e905a4ffd9f09cb89663c9849a4b065828c6b21ddd888439"
+}

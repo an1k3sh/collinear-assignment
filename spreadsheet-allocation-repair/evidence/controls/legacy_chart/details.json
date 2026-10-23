@@ -1,0 +1,32 @@
+{
+  "source_and_formulas": {
+    "passed": true
+  },
+  "saved_results": {
+    "passed": true
+  },
+  "chart_binding": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/grade.py\", line 17, in check\n    function()\n  File \"/tests/grade.py\", line 120, in <lambda>\n    check(\"chart_binding\", lambda: chart_bindings(load_workbook(TARGET)))\n                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tests/grade.py\", line 71, in chart_bindings\n    assert range_to_tuple(series.val.numRef.f) == (\"Summary\", (4, 2, 4, 4))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+  },
+  "recalculation_0": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/grade.py\", line 17, in check\n    function()\n  File \"/tests/grade.py\", line 122, in <lambda>\n    check(f\"recalculation_{variant}\", lambda variant=variant: recalculated(variant))\n                                                              ^^^^^^^^^^^^^^^^^^^^^\n  File \"/tests/grade.py\", line 115, in recalculated\n    chart_bindings(load_workbook(out / \"allocation.xlsx\"))\n  File \"/tests/grade.py\", line 71, in chart_bindings\n    assert range_to_tuple(series.val.numRef.f) == (\"Summary\", (4, 2, 4, 4))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+  },
+  "recalculation_1": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/grade.py\", line 17, in check\n    function()\n  File \"/tests/grade.py\", line 122, in <lambda>\n    check(f\"recalculation_{variant}\", lambda variant=variant: recalculated(variant))\n                                                              ^^^^^^^^^^^^^^^^^^^^^\n  File \"/tests/grade.py\", line 115, in recalculated\n    chart_bindings(load_workbook(out / \"allocation.xlsx\"))\n  File \"/tests/grade.py\", line 71, in chart_bindings\n    assert range_to_tuple(series.val.numRef.f) == (\"Summary\", (4, 2, 4, 4))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+  },
+  "recalculation_2": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/grade.py\", line 17, in check\n    function()\n  File \"/tests/grade.py\", line 122, in <lambda>\n    check(f\"recalculation_{variant}\", lambda variant=variant: recalculated(variant))\n                                                              ^^^^^^^^^^^^^^^^^^^^^\n  File \"/tests/grade.py\", line 115, in recalculated\n    chart_bindings(load_workbook(out / \"allocation.xlsx\"))\n  File \"/tests/grade.py\", line 71, in chart_bindings\n    assert range_to_tuple(series.val.numRef.f) == (\"Summary\", (4, 2, 4, 4))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+  },
+  "recalculation_3": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/grade.py\", line 17, in check\n    function()\n  File \"/tests/grade.py\", line 122, in <lambda>\n    check(f\"recalculation_{variant}\", lambda variant=variant: recalculated(variant))\n                                                              ^^^^^^^^^^^^^^^^^^^^^\n  File \"/tests/grade.py\", line 115, in recalculated\n    chart_bindings(load_workbook(out / \"allocation.xlsx\"))\n  File \"/tests/grade.py\", line 71, in chart_bindings\n    assert range_to_tuple(series.val.numRef.f) == (\"Summary\", (4, 2, 4, 4))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+  },
+  "recalculation_4": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/grade.py\", line 17, in check\n    function()\n  File \"/tests/grade.py\", line 122, in <lambda>\n    check(f\"recalculation_{variant}\", lambda variant=variant: recalculated(variant))\n                                                              ^^^^^^^^^^^^^^^^^^^^^\n  File \"/tests/grade.py\", line 115, in recalculated\n    chart_bindings(load_workbook(out / \"allocation.xlsx\"))\n  File \"/tests/grade.py\", line 71, in chart_bindings\n    assert range_to_tuple(series.val.numRef.f) == (\"Summary\", (4, 2, 4, 4))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "target_order": ["AS","AI","BS","BI","CS","CI","DS","DI"],
+  "targets": {
+    "AS": {"region":"Alder","risk_weight":1.0,"cost":[0,3,7],"power":[0,2,5],"reduction":[0,0.45,0.70]},
+    "AI": {"region":"Alder","risk_weight":1.5,"cost":[0,2,5],"power":[0,2,4],"reduction":[0,0.40,0.65]},
+    "BS": {"region":"Birch","risk_weight":1.0,"cost":[0,4,9],"power":[0,3,6],"reduction":[0,0.50,0.72]},
+    "BI": {"region":"Birch","risk_weight":1.5,"cost":[0,4,8],"power":[0,3,5],"reduction":[0,0.40,0.68]},
+    "CS": {"region":"Cedar","risk_weight":1.0,"cost":[0,2,5],"power":[0,2,4],"reduction":[0,0.50,0.75]},
+    "CI": {"region":"Cedar","risk_weight":1.5,"cost":[0,3,7],"power":[0,2,5],"reduction":[0,0.45,0.70]},
+    "DS": {"region":"Delta","risk_weight":1.0,"cost":[0,3,6],"power":[0,2,4],"reduction":[0,0.50,0.78]},
+    "DI": {"region":"Delta","risk_weight":1.5,"cost":[0,2,5],"power":[0,2,4],"reduction":[0,0.40,0.66]}
+  },
+  "regions": {
+    "Alder":{"activation_cost":1,"max_blocks":3,"frozen":false},
+    "Birch":{"activation_cost":2,"max_blocks":3,"frozen":false},
+    "Cedar":{"activation_cost":1,"max_blocks":2,"frozen":true},
+    "Delta":{"activation_cost":1,"max_blocks":3,"frozen":false}
+  },
+  "credit_budget": 16,
+  "power_budget": 11,
+  "max_active_regions": 2,
+  "minimum_latency_samples": 1000,
+  "slow_fraction_trigger": 0.05,
+  "bins": ["le100","100to300","300to1000","gt1000"],
+  "p95_labels": ["<=100","(100,300]","(300,1000]",">1000"]
+}

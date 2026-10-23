@@ -1,0 +1,9 @@
+target,region,service,display_name
+AS,Alder,search,Alder / Query API
+AI,Alder,ingest,Alder / Write API
+BS,Birch,search,Birch / Query API
+BI,Birch,ingest,Birch / Write API
+CS,Cedar,search,Cedar / Query API
+CI,Cedar,ingest,Cedar / Write API
+DS,Delta,search,Delta / Query API
+DI,Delta,ingest,Delta / Write API

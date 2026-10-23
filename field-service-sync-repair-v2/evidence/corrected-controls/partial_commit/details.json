@@ -1,0 +1,110 @@
+{
+  "test_artifacts_protected_inputs": {
+    "passed": true
+  },
+  "test_artifacts_report_and_regressions": {
+    "passed": true
+  },
+  "test_batches_client_base_prediction_and_ack": {
+    "passed": true
+  },
+  "test_batches_client_partial_confirmation_restart": {
+    "passed": true
+  },
+  "test_batches_concurrent_duplicate_and_namespace": {
+    "passed": true
+  },
+  "test_batches_conflict_and_fault_rollback": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/test_service.py\", line 454, in test_batches_conflict_and_fault_rollback\n    self.assertEqual(documents, self.sql(\"SELECT * FROM documents\"))\nAssertionError: Lists differ: [('north', 'work', 1, '{\"assignee\":null,\"done\":false,\"title\"[26 chars], 0)] != [('north', 'work', 2, '{\"assignee\":null,\"done\":false,\"title\"[26 chars], 0)]\n\nFirst differing element 0:\n('north', 'work', 1, '{\"assignee\":null,\"done\":false,\"title\"[25 chars]', 0)\n('north', 'work', 2, '{\"assignee\":null,\"done\":false,\"title\"[25 chars]', 0)\n\n  [('north',\n    'work',\n-   1,\n?   ^\n\n+   2,\n?   ^\n\n-   '{\"assignee\":null,\"done\":false,\"title\":\"Check pump\",\"visits\":0}',\n?                                                                ^\n\n+   '{\"assignee\":null,\"done\":false,\"title\":\"Check pump\",\"visits\":2}',\n?                                                                ^\n\n    0)]\n"
+  },
+  "test_batches_invalid_and_preserved_by_repair": {
+    "passed": true
+  },
+  "test_batches_precommitted_member_not_atomic": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/test_service.py\", line 478, in test_batches_precommitted_member_not_atomic\n    self.assertEqual(self.sql(\"SELECT * FROM documents WHERE id='new'\"), [])\nAssertionError: Lists differ: [('north', 'new', 1, '{\"assignee\":null,\"do[43 chars], 0)] != []\n\nFirst list contains 1 additional elements.\nFirst extra element 0:\n('north', 'new', 1, '{\"assignee\":null,\"done\":false,\"title\":\"Check pump\",\"visits\":0}', 0)\n\n+ []\n- [('north',\n-   'new',\n-   1,\n-   '{\"assignee\":null,\"done\":false,\"title\":\"Check pump\",\"visits\":0}',\n-   0)]\n"
+  },
+  "test_batches_sequential_same_entity_and_retry": {
+    "passed": true
+  },
+  "test_client_ack_and_pending": {
+    "passed": true
+  },
+  "test_client_checkpoint_and_gap_handling": {
+    "passed": true
+  },
+  "test_client_conflict_resolution_and_frozen_request": {
+    "passed": true
+  },
+  "test_client_generated_delivery_permutations": {
+    "passed": true
+  },
+  "test_client_integer_precision_and_immutability": {
+    "passed": true
+  },
+  "test_client_snapshot_staging_and_interleaving": {
+    "passed": true
+  },
+  "test_client_tombstones_and_optimistic_replay": {
+    "passed": true
+  },
+  "test_confirmations_client_pull_before_ack": {
+    "passed": true
+  },
+  "test_confirmations_client_snapshot_staging": {
+    "passed": true
+  },
+  "test_confirmations_snapshot_history_and_cut": {
+    "passed": true
+  },
+  "test_durability_atomic_replace": {
+    "passed": true
+  },
+  "test_durability_persist_before_exchange": {
+    "passed": true
+  },
+  "test_integration_atomic_batch_http_confirmation": {
+    "passed": true
+  },
+  "test_integration_http_restart_lost_response": {
+    "passed": true
+  },
+  "test_recovery_alternate_database_and_idempotence": {
+    "passed": true
+  },
+  "test_recovery_delivered_incident_state": {
+    "passed": true
+  },
+  "test_sync_cursor_scope_and_invalid_values": {
+    "passed": true
+  },
+  "test_sync_large_wire_values": {
+    "passed": true
+  },
+  "test_sync_pull_exclusive_frozen_and_gaps": {
+    "passed": true
+  },
+  "test_sync_snapshot_frozen_history": {
+    "passed": true
+  },
+  "test_transactions_conflicts_do_not_consume_keys": {
+    "passed": true
+  },
+  "test_transactions_generated_reference_replay": {
+    "passed": true
+  },
+  "test_transactions_process_race": {
+    "passed": true
+  },
+  "test_transactions_receipt_identity_and_digest": {
+    "passed": true
+  },
+  "test_transactions_rollback_both_fault_boundaries": {
+    "passed": false,
+    "detail": "Traceback (most recent call last):\n  File \"/tests/test_service.py\", line 153, in test_transactions_rollback_both_fault_boundaries\n    self.assertEqual(self.sql(\"SELECT * FROM documents\"), documents)\nAssertionError: Lists differ: [('north', 'work', 2, '{\"assignee\":null,\"done\":false,\"title\"[26 chars], 0)] != [('north', 'work', 1, '{\"assignee\":null,\"done\":false,\"title\"[26 chars], 0)]\n\nFirst differing element 0:\n('north', 'work', 2, '{\"assignee\":null,\"done\":false,\"title\"[25 chars]', 0)\n('north', 'work', 1, '{\"assignee\":null,\"done\":false,\"title\"[25 chars]', 0)\n\n  [('north',\n    'work',\n-   2,\n?   ^\n\n+   1,\n?   ^\n\n-   '{\"assignee\":null,\"done\":false,\"title\":\"Check pump\",\"visits\":1}',\n?                                                                ^\n\n+   '{\"assignee\":null,\"done\":false,\"title\":\"Check pump\",\"visits\":0}',\n?                                                                ^\n\n    0)]\n"
+  },
+  "test_transactions_validation_and_lifecycle": {
+    "passed": true
+  }
+}

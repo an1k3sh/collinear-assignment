@@ -1,0 +1,21 @@
+{
+  ".DS_Store": "faee69693c78aaa2b745fd5f61466256b3e267a86d8485a8d8a38e3fab13bd1a",
+  "README.md": "4a70acb06a1cbe0276d5546dc48ce06b0f136cfe7d9d88b70ea62bb5c94e570a",
+  "author/generate.py": "733995aa4c754c6bc3fe2d7a73b20acd228b6af1761085cb575f977b828dfed6",
+  "author/prototype_harness.py": "2100c39b5d54f1ebacf7bee1f2b5bf8c1ee7ca120939c425c18e81aea4f67611",
+  "author/validate_controls.py": "313be32137e6120e712634d8427c071ae236d54b7711760625a1f2acadd17348",
+  "environment/Dockerfile": "2ab61de7a8915467f7ac4bfc2213c26032e4290e6fd6628083a929417a2ec53b",
+  "environment/app/POLICY.md": "4068de59e186226259b56ba7ffacdd410adb9ec935508ae682908d2bcbf140e9",
+  "environment/app/input/packet.pdf": "18941f31680f25992dfefc5c9ed45720595f850f2d9757500a69bc075e97fcdf",
+  "environment/app/input/release-map.json": "a351b452041b5a6ea239abfd3b3f5695e5963f1b3d13825fc99a01ddf9ba1449",
+  "environment/requirements.txt": "62afd2cb7a36eee887ae868f529fe3b0f61fd8211d09049c4226f7860dfd8a1b",
+  "instruction.md": "472a92adf449a83f66cd617669b53910dca46b0109fbaa701dfbf232181b5c8a",
+  "solution/release.py": "060e6cb577fad27e5759bb3fffb762adca995cbbc3659c247601a7ad917c76ad",
+  "solution/solve.sh": "b85dd696e5970e93bc691374bb66de8f79f3269d0e5f6c3836ada97b5ba0eebc",
+  "task.toml": "d883f10a9a49920a8c961e2e69726feaa66cf58edceee1bf3485a1eeb57b68f1",
+  "tests/check_packet.py": "7ff2ec2440c1f8d56498b20d162857fd201ba5951d332e1e316ed0400c3100eb",
+  "tests/grade.py": "573aabf854eed79222845b96a363131c885882e3d89d407bc994fb33145f05ad",
+  "tests/protected.json": "45637a44817f47ca7fecf5d3ecfdcef411da2ebcbf49f9e47124816d02c3ad19",
+  "tests/test.sh": "a36e6ecb9973b21ba445adde811e84285d8aa2b0ed487cb235c4d41411f54164",
+  "tests/visual-regions.json": "75b91a12ebb5d1b3b23ef589d13e6c26274ae5d8f9403b7614ba65a55361565b"
+}

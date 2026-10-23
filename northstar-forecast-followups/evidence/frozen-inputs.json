@@ -1,0 +1,31 @@
+{
+  "recorded_at": "2026-10-23T16:42:37.193051+00:00",
+  "files": {
+    "environment/Dockerfile": "0f06217f7d8661496296524cd3a6635820e5c38d9261783bf1ad73893d3dfde5",
+    "environment/app/FINANCE_CONVENTIONS.md": "a7a2a4060c415c35302439e6795690f29c39f264a47fb44497bb203d8dd5eb5a",
+    "environment/app/seeds/Northstar_Forecast_Starter.xlsx": "62d7513dca2154323332889f7ab1db070528b8d4461e4590c5a7c1979baa6d48",
+    "environment/requirements.txt": "7e465dce18eabac3748eb3e6adbaf08619030a9a7248eecba4419e19c11e4aaf",
+    "instruction.md": "46a881daf90299f73c7b6ce2cd2b5c99e716fa0ff39e99f0275a62c1bc4be0b8",
+    "solution/complete.py": "956cb45b193ce3275d64dee0f35e787f0f2dd035c818572c317bc7d498642b6f",
+    "solution/solve.sh": "619f26853801cf9cecd088631a5017b0b485b5638ac84634df047267a0f7fca4",
+    "steps/01-growth/instruction.md": "a3ea51647932397189f4205637b34c53f53c39037cac93eda47af588398c1649",
+    "steps/02-cohort-revision/instruction.md": "46a5b74f0655c04968aab591756bee4ce180780c957667c7fc1064b3c822a884",
+    "steps/03-liquidity-continuation/instruction.md": "d4849fdeeb7a912fd4b9a267ebdfaeb63e28cf1b30f00620376190cdb53bafc8",
+    "steps/04-treasury-detour/instruction.md": "c884d56610cef6395294c6cb2f783393d8e7411091c884641954d07ee9b639fc",
+    "steps/04-treasury-detour/workdir/treasury/bank_export.csv": "92ba8b6d60cb6a8629ffa8f0ad1168dc698a1947c6c1aa6fd27e078ab5ff83cd",
+    "steps/04-treasury-detour/workdir/treasury/cashbook.csv": "4a9f2119e1076cd9fbc2f416341e88a0fe34c362d2e405761f995af64ed91bf6",
+    "steps/05-renewal-pricing/instruction.md": "c26c2fdd1d090a3f1c9e379fff78c57b52e18e82f3b5c13785d6ed297d88e58d",
+    "steps/06-reconciled-cutover/instruction.md": "c714d8ff0e26b0b247cbfd3e333d8e648e83e44e8d45626c906a4fb4c6c96b33",
+    "task.toml": "27e3e98e8dd4cb238861596df1e64ebc6ac9462c55d19aa04502b39546c6cd9c",
+    "tests/controls.py": "6bbf71908f446900182e5f3ebc57050c29df4a5ffa081043fbe9147049eb0d9d",
+    "tests/fixtures/template.xlsx": "cc2b6fca1bb1f6f711f484e5d8fb3b3d41e79f641da2133c25900790cdb29ce4",
+    "tests/fixtures/treasury/bank_export.csv": "92ba8b6d60cb6a8629ffa8f0ad1168dc698a1947c6c1aa6fd27e078ab5ff83cd",
+    "tests/fixtures/treasury/cashbook.csv": "4a9f2119e1076cd9fbc2f416341e88a0fe34c362d2e405761f995af64ed91bf6",
+    "tests/grade_phase.py": "c588030414966b6bff7c5dfddfbbd45cb39a81f7973cf898fd340dc9c2b12cb2",
+    "tests/phase_rules.py": "bcf190304682c51bfd1d28d4bf633fc3c2b43d5559f79456ab019c8218521a8e",
+    "tests/reference.py": "a6e270d44af0715469450c37149bc2a9bacd84561c5714721bd1a9041bd0ed65",
+    "tests/test.sh": "b124336d018c111efefe5b888ef70ca4154808d08bc4f429ac24a0bbd08625a9",
+    "tests/test_forecast.py": "bb64dca5a4e8e50294307d0196434f23202fcaccc7d03d89e0fb8cc8eeb84e63",
+    "tests/treasury_reference.py": "b63278636bfba850ce12b66d0439b271c7509fc081e325bd0afb3c952d6e6210"
+  }
+}

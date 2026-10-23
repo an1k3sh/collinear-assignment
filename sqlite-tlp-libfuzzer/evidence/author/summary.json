@@ -1,0 +1,178 @@
+{
+  "oracle": {
+    "reward": {
+      "overall": 1.0,
+      "input_validity_rate": 1.0,
+      "semantic_validity_rate": 1.0,
+      "oracle_correctness": 1.0,
+      "diversity": 1.0
+    },
+    "expected": 1.0,
+    "exit": 0
+  },
+  "alternative-wrapper": {
+    "reward": {
+      "overall": 1.0,
+      "input_validity_rate": 1.0,
+      "semantic_validity_rate": 1.0,
+      "oracle_correctness": 1.0,
+      "diversity": 1.0
+    },
+    "expected": 1.0,
+    "exit": 0
+  },
+  "alternative-row-order": {
+    "reward": {
+      "overall": 1.0,
+      "input_validity_rate": 1.0,
+      "semantic_validity_rate": 1.0,
+      "oracle_correctness": 1.0,
+      "diversity": 1.0
+    },
+    "expected": 1.0,
+    "exit": 0
+  },
+  "ignored-input": {
+    "reward": {
+      "overall": 0.0,
+      "input_validity_rate": 1.0,
+      "semantic_validity_rate": 1.0,
+      "oracle_correctness": 1.0,
+      "diversity": 0.0
+    },
+    "expected": 0.0,
+    "exit": 1
+  },
+  "prefix-only": {
+    "reward": {
+      "overall": 0.0,
+      "input_validity_rate": 1.0,
+      "semantic_validity_rate": 1.0,
+      "oracle_correctness": 1.0,
+      "diversity": 0.8571428571428571
+    },
+    "expected": 0.0,
+    "exit": 1
+  },
+  "literal-data-only": {
+    "reward": {
+      "overall": 0.0,
+      "input_validity_rate": 1.0,
+      "semantic_validity_rate": 1.0,
+      "oracle_correctness": 1.0,
+      "diversity": 0.14285714285714285
+    },
+    "expected": 0.0,
+    "exit": 1
+  },
+  "catalogue-32": {
+    "reward": {
+      "overall": 0.0,
+      "input_validity_rate": 1.0,
+      "semantic_validity_rate": 1.0,
+      "oracle_correctness": 1.0,
+      "diversity": 0.2857142857142857
+    },
+    "expected": 0.0,
+    "exit": 1
+  },
+  "group-bag-union": {
+    "reward": {
+      "overall": 0.0,
+      "input_validity_rate": 1.0,
+      "semantic_validity_rate": 0.9709821428571429,
+      "oracle_correctness": 0.8571428571428571,
+      "diversity": 0.8571428571428571
+    },
+    "expected": 0.0,
+    "exit": 1
+  },
+  "having-set-union": {
+    "reward": {
+      "overall": 0.0,
+      "input_validity_rate": 1.0,
+      "semantic_validity_rate": 0.9784226190476191,
+      "oracle_correctness": 0.8571428571428571,
+      "diversity": 0.8571428571428571
+    },
+    "expected": 0.0,
+    "exit": 1
+  },
+  "average-of-averages": {
+    "reward": {
+      "overall": 0.0,
+      "input_validity_rate": 1.0,
+      "semantic_validity_rate": 0.9940476190476191,
+      "oracle_correctness": 0.8571428571428571,
+      "diversity": 0.8571428571428571
+    },
+    "expected": 0.0,
+    "exit": 1
+  },
+  "null-as-zero": {
+    "reward": {
+      "overall": 0.0,
+      "input_validity_rate": 1.0,
+      "semantic_validity_rate": 0.7767857142857143,
+      "oracle_correctness": 0.6428571428571429,
+      "diversity": 0.8571428571428571
+    },
+    "expected": 0.0,
+    "exit": 1
+  },
+  "left-as-inner": {
+    "reward": {
+      "overall": 0.0,
+      "input_validity_rate": 1.0,
+      "semantic_validity_rate": 0.824375,
+      "oracle_correctness": 0.2857142857142857,
+      "diversity": 1.0
+    },
+    "expected": 0.0,
+    "exit": 1
+  },
+  "ignore-where": {
+    "reward": {
+      "overall": 0.0,
+      "input_validity_rate": 1.0,
+      "semantic_validity_rate": 0.42375,
+      "oracle_correctness": 0.2857142857142857,
+      "diversity": 1.0
+    },
+    "expected": 0.0,
+    "exit": 1
+  },
+  "omit-unknown": {
+    "reward": {
+      "overall": 0.0,
+      "input_validity_rate": 1.0,
+      "semantic_validity_rate": 0.546875,
+      "oracle_correctness": 0.21428571428571427,
+      "diversity": 0.8571428571428571
+    },
+    "expected": 0.0,
+    "exit": 1
+  },
+  "always-success": {
+    "reward": {
+      "overall": 0.0,
+      "input_validity_rate": 1.0,
+      "semantic_validity_rate": 1.0,
+      "oracle_correctness": 0.9285714285714286,
+      "diversity": 1.0
+    },
+    "expected": 0.0,
+    "exit": 1
+  },
+  "baseline": {
+    "reward": {
+      "overall": 0.0,
+      "input_validity_rate": 0.0,
+      "semantic_validity_rate": 0.0,
+      "oracle_correctness": 0.0,
+      "diversity": 0.0
+    },
+    "expected": 0.0,
+    "exit": 1
+  }
+}

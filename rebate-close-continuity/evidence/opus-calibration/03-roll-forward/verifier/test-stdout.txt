@@ -1,0 +1,15 @@
+PASS delivered-financial-outcome
+PASS source-is-unmodified
+PASS source-sheets-notebook-and-formulas
+PASS approved-close-1
+PASS approved-close-2
+PASS linked-adjustment-chart
+PASS reconciled-report
+PASS live-formula-dependency
+PASS repeatable-refresh
+PASS refresh-price-and-quantity
+PASS refresh-catalog-and-identity
+PASS refresh-new-events-and-revision
+PASS refresh-tier-equality
+PASS refresh-left-inputs-and-archives-intact
+{"functional_correctness": 1.0, "constraint_satisfaction": 1.0, "robustness": 1.0, "artifact_quality": 1.0, "overall": 1.0}

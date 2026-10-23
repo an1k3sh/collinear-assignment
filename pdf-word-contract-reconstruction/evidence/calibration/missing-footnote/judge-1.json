@@ -1,0 +1,52 @@
+{
+  "scores": {
+    "content_fidelity": 2,
+    "editable_structure": 2,
+    "visual_organization": 4,
+    "navigation_furniture": 3
+  },
+  "evidence": {
+    "content_fidelity": [
+      "Schedule A, page 4: the reference footnote states, \"Only complete 15-minute blocks after the included 45 minutes are billable; 59 minutes incurs no additional block.\" The candidate omits this entire billing condition and its reference marker.",
+      "Schedule A preserves all financial cells and associations: 12 \u00d7 2,400.00 = 28,800.00 for monitoring; 6 \u00d7 750.00 = 4,500.00 for calibration; 3 \u00d7 1,800.00 = 5,400.00 for onboarding; the (900.00) transition credit; net 37,800.00; VAT 7,560.00; and total 45,360.00. The GBP 145.00 call-out, included 45 minutes, GBP 22.50 completed-block rate, invoice amounts 2,400.00/190.00/2,590.00/518.00/3,108.00, and 30-calendar-day payment term also match.",
+      "Schedule B preserves the site/window/target associations: Northgate Library Mon-Sat 08:00-20:00, critical 15/90 minutes and routine 2 service hours/next service day; Canal House Mon-Fri 07:00-19:00, critical 15/120 minutes and routine 4 service hours/within 2 service days; Eastbank Depot Mon-Sun 06:00-22:00, critical 10/60 minutes and routine 1 service hour/same service day. Escort, loading-bay, gate-code and uninterrupted critical-cover conditions match.",
+      "Schedule B's four planned exceptions retain their dates, sites and effects, including Northgate Library's 24 December 14:00 closure and Eastbank Depot's 26 December 08:00-16:00 window. Clauses 1-8, Schedule C's evidence responsibilities and figure values, and Appendices D-E's acceptance and authorisation requirements otherwise match."
+    ],
+    "editable_structure": [
+      "The reference Charge rules paragraph has footnote_refs [\"1\"] and substantive text in word/footnotes.xml; the candidate paragraph has footnote_refs [] and its footnote text extraction is empty. The required real footnote is missing.",
+      "Otherwise, both structures retain Heading1/Heading2 outline styles, ordinary body paragraphs, automatic decimal numbering for clauses 1-8, and native tables with repeating header rows and Schedule A's vertical category merges.",
+      "Both figure captions remain editable Caption paragraphs, separate from the two artwork drawings. Section structures preserve the two-column operational section and landscape Schedule B.",
+      "The edit probes successfully extend the Access readiness paragraph and Remote sensor calibration table cell in both documents. edited-02.png and edited-04.png show matching reflow and row expansion without clipping, overlap or lost downstream content; edited-05.png preserves Schedule B."
+    ],
+    "visual_organization": [
+      "Across original-01.png through original-08.png, the candidate preserves the reference's heading hierarchy, margins, table widths, blue banding, eight-page pagination, two-column page 3 and landscape page 5.",
+      "Page 6 preserves both figures' proportions, placement, labels and captions. Pages 7-8 retain the acceptance, change and signature forms with matching layout.",
+      "The inspected edit-probe pages preserve readable paragraph and table reflow. Apart from the missing footnote addressed under content and navigation, no organizational displacement, material clipping or overlap is visible."
+    ],
+    "navigation_furniture": [
+      "Page 4 lacks the reference's superscript footnote marker, bottom-of-page separator and linked billing note; this omission remains visible in edited-04.png.",
+      "The procurement header, document identifier and issue date, PAGE footer fields, page numbers, section headings, figure captions and delivered page-navigation targets otherwise match."
+    ]
+  },
+  "material_defects": [
+    {
+      "location": "Schedule A, page 4, Charge rules and footnote 1",
+      "reference": "A real footnote linked from the completed 15-minute-block charge rule states: \"Only complete 15-minute blocks after the included 45 minutes are billable; 59 minutes incurs no additional block.\"",
+      "candidate": "The charge-rule paragraph has no footnote reference, the footnote text is absent from the extracted structure, and neither the original nor edited rendering displays the note.",
+      "impact": "Omits an explicit financial charging condition and its 59-minute boundary example, and removes the editable linked-footnote structure."
+    }
+  ],
+  "inspected_images": [
+    "original-01.png",
+    "original-02.png",
+    "original-03.png",
+    "original-04.png",
+    "original-05.png",
+    "original-06.png",
+    "original-07.png",
+    "original-08.png",
+    "edited-02.png",
+    "edited-04.png",
+    "edited-05.png"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "input_integrity": 1.0,
+  "release_contents": 1.0,
+  "privacy": 1.0,
+  "document": 1.0,
+  "navigation": 1.0,
+  "supporting": 1.0,
+  "recalculation": 1.0,
+  "overall": 1.0
+}

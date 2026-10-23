@@ -1,0 +1,70 @@
+{
+  "phase": 2,
+  "checks": [
+    {
+      "name": "delivered-financial-outcome",
+      "category": "functional_correctness",
+      "passed": true
+    },
+    {
+      "name": "source-is-unmodified",
+      "category": "constraint_satisfaction",
+      "passed": true
+    },
+    {
+      "name": "source-sheets-notebook-and-formulas",
+      "category": "constraint_satisfaction",
+      "passed": true
+    },
+    {
+      "name": "approved-close-1",
+      "category": "constraint_satisfaction",
+      "passed": true
+    },
+    {
+      "name": "linked-adjustment-chart",
+      "category": "artifact_quality",
+      "passed": true
+    },
+    {
+      "name": "reconciled-report",
+      "category": "artifact_quality",
+      "passed": true
+    },
+    {
+      "name": "live-formula-dependency",
+      "category": "robustness",
+      "passed": true
+    },
+    {
+      "name": "repeatable-refresh",
+      "category": "robustness",
+      "passed": true
+    },
+    {
+      "name": "refresh-price-and-quantity",
+      "category": "robustness",
+      "passed": true
+    },
+    {
+      "name": "refresh-catalog-and-identity",
+      "category": "robustness",
+      "passed": true
+    },
+    {
+      "name": "refresh-new-events-and-revision",
+      "category": "robustness",
+      "passed": true
+    },
+    {
+      "name": "refresh-tier-equality",
+      "category": "robustness",
+      "passed": true
+    },
+    {
+      "name": "refresh-left-inputs-and-archives-intact",
+      "category": "constraint_satisfaction",
+      "passed": true
+    }
+  ]
+}

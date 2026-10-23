@@ -1,0 +1,182 @@
+{
+  "checks": {
+    "build": true,
+    "correctness.rows": true,
+    "correctness.distinct": true,
+    "correctness.count": true,
+    "correctness.sum": true,
+    "correctness.avg": true,
+    "correctness.min": true,
+    "correctness.max": true,
+    "correctness.group": true,
+    "correctness.having": true,
+    "correctness.extended": true,
+    "correctness.comparison": true,
+    "correctness.composition": true,
+    "correctness.injection": true,
+    "correctness.bindings": true,
+    "determinism_replay": true,
+    "diversity.coverage": true,
+    "diversity.data": true,
+    "diversity.structure": true,
+    "diversity.occupancy": true,
+    "diversity.grammar": true,
+    "diversity.measurement": true,
+    "diversity.sensitivity": false,
+    "diversity.live": true,
+    "libfuzzer": true
+  },
+  "metrics": {
+    "random": {
+      "attempted": 1024,
+      "emitted": 1024,
+      "schema_valid": 1024,
+      "executable": 1024,
+      "semantic": 1024,
+      "errors": []
+    },
+    "diversity": {
+      "modes": {
+        "group": 119,
+        "avg": 114,
+        "sum": 114,
+        "max": 105,
+        "count": 127,
+        "rows": 110,
+        "having": 102,
+        "min": 119,
+        "distinct": 114
+      },
+      "sources": {
+        "inner": 352,
+        "left": 311,
+        "single": 361
+      },
+      "structural": 1019,
+      "topologies": 1009,
+      "topologies_per_mode": {
+        "rows": 110,
+        "distinct": 113,
+        "count": 126,
+        "sum": 113,
+        "avg": 114,
+        "min": 119,
+        "max": 102,
+        "group": 110,
+        "having": 102
+      },
+      "unique_cases": 1024,
+      "unique_databases": 1019,
+      "where": 645,
+      "grouped_aggregates": 380,
+      "three_way": 178,
+      "nonempty": 764,
+      "group_overlap": 36,
+      "having_duplicates": 8,
+      "empty_row_stage": 291,
+      "all_null": 131,
+      "operators": [
+        "add",
+        "agg",
+        "and",
+        "col",
+        "eq",
+        "ge",
+        "gt",
+        "isnull",
+        "le",
+        "lit",
+        "lt",
+        "ne",
+        "not",
+        "or",
+        "sub"
+      ],
+      "columns": [
+        [
+          "t",
+          "id"
+        ],
+        [
+          "t",
+          "k"
+        ],
+        [
+          "t",
+          "tag"
+        ],
+        [
+          "t",
+          "v"
+        ],
+        [
+          "u",
+          "id"
+        ],
+        [
+          "u",
+          "k"
+        ],
+        [
+          "u",
+          "tag"
+        ],
+        [
+          "u",
+          "v"
+        ]
+      ],
+      "aggregates": [
+        "avg",
+        "count",
+        "max",
+        "min",
+        "sum"
+      ],
+      "nested": 601,
+      "count_star": 56,
+      "count_expression": 71
+    },
+    "mutations": {
+      "attempted": 320,
+      "emitted": 320,
+      "schema_valid": 320,
+      "executable": 320,
+      "semantic": 320,
+      "errors": []
+    },
+    "sensitivity": {
+      "case_changes": [
+        64,
+        0,
+        0,
+        0
+      ],
+      "topology_changes": [
+        64,
+        0,
+        0,
+        0
+      ]
+    },
+    "live": {
+      "attempted": 256,
+      "emitted": 256,
+      "schema_valid": 256,
+      "executable": 256,
+      "semantic": 256,
+      "errors": []
+    },
+    "live_diversity": {
+      "entries": 256,
+      "modes": 9,
+      "topologies": 240
+    }
+  },
+  "failures": [
+    {
+      "test": "diversity.sensitivity",
+      "error": "Traceback (most recent call last):\n  File \"/submission/tests/verify.py\", line 119, in test\n    operation()\n  File \"/submission/tests/verify.py\", line 328, in sensitivity\n    assert min(changed) >= 32 and sum(n >= 16 for n in structural) >= 2\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    }
+  ]
+}
